@@ -3,6 +3,8 @@
 抖音「造世界编辑器」比赛作品。暗黑奇幻风的龙与守夜人世界，默认黑夜，有昼夜循环，主体是自由游玩。
 
 - **世界观、故事、地名、UI 定调**：[docs/世界观与UI定调.md](docs/世界观与UI定调.md)
+- **未实现玩法的详细设计**（影灵、守夜灯、龙蛋龙契、篝火、女巫药水、誓约、试炼场、城堡房间、探索点亮、马）：[docs/玩法设计.md](docs/玩法设计.md)
+- **要重做和新增的资产清单、Codex 生图提示词、Tripo 设置、容量预算**：[docs/资产重制提示词.md](docs/资产重制提示词.md)
 - **编辑器实测踩坑记录**：[docs/claude-memory/world-editor-pipeline.md](docs/claude-memory/world-editor-pipeline.md)，这份最重要
 - **用户确认过的美术方向和历史反馈**：[docs/claude-memory/dragonrest-final-vision.md](docs/claude-memory/dragonrest-final-vision.md)
 
@@ -155,10 +157,10 @@ python3 tools/install_lua5.py debug
 **马上要做的**
 1. 用「手机预览」检查界面：左上角地图按钮会不会被平台按钮挡住，字够不够大。
 2. 城堡：用户会让 Codex 结合现在的城堡和编辑器 MIX 生成的城堡（`module-gothic-castle`，外观好但不够高峻）打磨。新城堡做好后替换 `gothic_*` 节点。
-3. 资产换成新的工作流：Claude 写提示词，Codex 生图，Tripo 生成模型，再导入。要做的有：马（编辑器生成的两版都不行）、羊、更精细的龙、传送门、召唤阵、船、树。
+3. 资产换成新的工作流：Claude 写提示词，Codex 生图，Tripo 生成模型，再导入。提示词已经写好，见 [docs/资产重制提示词.md](docs/资产重制提示词.md)。要做的有：马（编辑器生成的两版都不行）、羊、更精细的龙、传送门、召唤阵、船、树。
 4. 编辑器 Agent 生成的传送门 `module-magic-portal` 效果不错，还没摆进场景。位置是城堡脚下的「裂隙之门」(125,135)。
 
-**玩法**（设定见世界观文档第二章）
+**玩法**（完整设计、数值、实现思路和开发顺序见 [docs/玩法设计.md](docs/玩法设计.md)）
 
 主线是自由游玩加夜间自愿挑战。灯火照到的地方安全，灯火之外有影灵。
 - **影灵**：夜里从裂隙之门出来，打散后掉落月辉。这是主玩法，第三人称战斗。
