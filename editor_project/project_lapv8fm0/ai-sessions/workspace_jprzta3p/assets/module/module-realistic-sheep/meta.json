@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 3,
+  "resourceId": "module-realistic-sheep",
+  "displayName": "写实绵羊",
+  "category": "creature",
+  "summary": "一只写实绵羊，会在草地上缓慢游荡、低头吃草和抬头张望，玩家靠得太近时会转身走开。",
+  "scale": [1, 1, 1],
+  "attributes": {
+    "": {
+      "objectSync": true,
+      "collider": {
+        "enable": false
+      }
+    }
+  }
+}

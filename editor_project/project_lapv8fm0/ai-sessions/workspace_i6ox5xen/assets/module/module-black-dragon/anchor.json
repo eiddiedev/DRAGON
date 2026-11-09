@@ -1,0 +1,10 @@
+{
+  "anchors": [
+    {
+      "anchorName": "SeatAnchor",
+      "parentPath": "DragonRoot/VisualRoot/Saddle",
+      "translation": [0, 0.085, 0.03],
+      "rotation": [0, 0, 0, 1]
+    }
+  ]
+}

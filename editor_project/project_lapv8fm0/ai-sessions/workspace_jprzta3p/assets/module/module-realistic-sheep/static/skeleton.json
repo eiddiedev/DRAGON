@@ -1,0 +1,18 @@
+{
+  "entryName": "sheep",
+  "sourceListFile": "resources/skeleton/list_ThreejsGltf.json",
+  "sourceDataFile": "resources/skeleton/data/SK_Sheep_BonesTransformGlobal_ThreejsGltf_Quaternion.json",
+  "scriptFile": "resources/skeleton/data/Sheep_Controller_Param_Embedded.lua",
+  "controllerResourcePath": "ModuleAnim/Animals/Sheep/Sheep_Controller_Param",
+  "controllerResourceType": "RuntimeAnimatorController",
+  "avatarResourcePath": "ModuleAnim/Animals/Sheep/FBX/SK_Sheep",
+  "avatarResourceType": "Avatar",
+  "noMeshBones": [
+    "rig",
+    "SK_Sheep",
+    "root"
+  ],
+  "boneCount": 39,
+  "hierarchyPreserved": true,
+  "dataFormat": "threejs-global-quaternion"
+}

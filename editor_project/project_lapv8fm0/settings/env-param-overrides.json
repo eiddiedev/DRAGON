@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "selected": {
+    "scope": "official",
+    "templateId": "env_night"
+  },
+  "overrides": {
+    "official": {
+      "env_night": {
+        "params": {
+          "skyboxTextureUri": {
+            "type": "cubeimage",
+            "uri": "hamlet-ugc/aigc_editor/MarsWorld_sky01_night01.tga"
+          },
+          "skyboxRotationX": 0,
+          "skyboxRotationY": 0,
+          "skyboxRotationZ": 0,
+          "flareEnable": false,
+          "mainLightColor": "#A8C2FF",
+          "mainLightStrength": 0.95,
+          "mainLightPitch": 40,
+          "mainLightYaw": 60,
+          "shadowStrength": 0.85,
+          "characterAmbientEnable": true,
+          "characterAmbient": "#6B6B9E",
+          "enableCharacterLight": true,
+          "characterLightColor": "#B8C7FF",
+          "characterStrenght": 2.4,
+          "characterPitch": 0.31,
+          "characterYaw": 0.78,
+          "characterCubemapEnable": true,
+          "reflectionTextureUri": {
+            "type": "cubeimage",
+            "uri": "hamlet-ugc/aigc_editor/MarsWorld_sky01_night01.tga"
+          },
+          "fogEnable": true,
+          "fogColor": "#1C123D",
+          "startFog": 260,
+          "endFog": 1500,
+          "enablePostProcess": true,
+          "bloomEnabled": true,
+          "bloomColor": "#FFFFFF",
+          "bloomThreshold": 0.85,
+          "bloomIntensity": 0.85,
+          "bloomScatter": 0.65,
+          "vignette": true,
+          "vignetteColor": "#0D0829",
+          "vignetteAmount": 0.28,
+          "vignetteSoftness": 0.45,
+          "weatherEffectEnable": false,
+          "weatherParticleType": 1,
+          "weatherParticleColor": "#FFFFFF",
+          "weatherIntensity": 1,
+          "weatherFallSpeed": 1,
+          "weatherTiltAngle": 0,
+          "weatherParticleSize": 1,
+          "weatherRippleEnable": false,
+          "weatherRippleIntensity": 0.5,
+          "weatherRippleSpeed": 1,
+          "weatherRippleScale": 1,
+          "flarePitch": 59.400001525878906,
+          "flareYaw": 180
+        },
+        "updatedAt": 1794237028176
+      },
+      "env_star": {
+        "params": {
+          "skyboxTextureUri": {
+            "type": "cubeimage",
+            "uri": "hamlet-ugc/aigc_editor/MarsWorld_sky01_Universe02.tga"
+          },
+          "skyboxRotationX": 0,
+          "skyboxRotationY": 0,
+          "skyboxRotationZ": 0,
+          "flareEnable": false,
+          "mainLightColor": "#7999FF",
+          "mainLightStrength": 1,
+          "mainLightPitch": 60.6737,
+          "mainLightYaw": 55.5689,
+          "shadowStrength": 1,
+          "characterAmbientEnable": true,
+          "characterAmbient": "#B9A7A3",
+          "enableCharacterLight": true,
+          "characterLightColor": "#FFE3C6",
+          "characterStrenght": 2.4,
+          "characterPitch": 0.31,
+          "characterYaw": 0.78,
+          "characterCubemapEnable": true,
+          "reflectionTextureUri": {
+            "type": "cubeimage",
+            "uri": "hamlet-ugc/aigc_editor/MarsWorld_sky01_Universe02.tga"
+          },
+          "fogEnable": true,
+          "fogColor": "#092C6F",
+          "startFog": 500,
+          "endFog": 900,
+          "enablePostProcess": true,
+          "bloomEnabled": true,
+          "bloomColor": "#FFFFFF",
+          "bloomThreshold": 1,
+          "bloomIntensity": 0.5,
+          "bloomScatter": 0.5,
+          "vignette": true,
+          "vignetteColor": "#000000",
+          "vignetteAmount": 0.054,
+          "vignetteSoftness": 0.371,
+          "weatherEffectEnable": false,
+          "weatherParticleType": 1,
+          "weatherParticleColor": "#FFFFFF",
+          "weatherIntensity": 1,
+          "weatherFallSpeed": 1,
+          "weatherTiltAngle": 0,
+          "weatherParticleSize": 1,
+          "weatherRippleEnable": false,
+          "weatherRippleIntensity": 0.5,
+          "weatherRippleSpeed": 1,
+          "weatherRippleScale": 1,
+          "flarePitch": 0,
+          "flareYaw": 0
+        },
+        "updatedAt": 1793889200302
+      }
+    },
+    "user": {}
+  }
+}

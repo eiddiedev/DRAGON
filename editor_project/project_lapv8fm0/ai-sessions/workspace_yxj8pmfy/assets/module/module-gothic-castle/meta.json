@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 3,
+  "resourceId": "module-gothic-castle",
+  "displayName": "哥特暗黑城堡",
+  "category": "prop",
+  "summary": "山顶石台上的哥特式暗黑城堡，可从尖拱城门穿过城墙与主楼大门进入点着烛火的石砌大厅。",
+  "scale": [1, 1, 1],
+  "attributes": {
+    "GothicCastle/Detail": {
+      "collider": {
+        "enable": false,
+        "includeChildren": true
+      }
+    }
+  }
+}

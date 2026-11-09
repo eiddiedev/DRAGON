@@ -1,0 +1,18 @@
+{
+  "entryName": "zebra",
+  "sourceListFile": "resources/skeleton/list_ThreejsGltf.json",
+  "sourceDataFile": "resources/skeleton/data/SK_Zebra_BonesTransformGlobal_ThreejsGltf_Quaternion.json",
+  "scriptFile": "resources/skeleton/data/Zebra_Controller_Param_Embedded.lua",
+  "controllerResourcePath": "ModuleAnim/Animals/Zebra/Zebra_Controller_Param",
+  "controllerResourceType": "RuntimeAnimatorController",
+  "avatarResourcePath": "ModuleAnim/Animals/Zebra/FBX/SK_Zebra",
+  "avatarResourceType": "Avatar",
+  "noMeshBones": [
+    "rig",
+    "SK_Zebra",
+    "root"
+  ],
+  "boneCount": 43,
+  "hierarchyPreserved": true,
+  "dataFormat": "threejs-global-quaternion"
+}

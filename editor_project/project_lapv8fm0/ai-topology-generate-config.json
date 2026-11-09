@@ -1,0 +1,668 @@
+{
+  "version": "1.0.0",
+  "tasks": [
+    {
+      "id": "1a1496be-f3bf-415b-a1ff-9b2ec1e8b073",
+      "workspaceId": "workspace_o5wseydg",
+      "cost": {
+        "threadId": "direct-model-1a1496be-f3bf-415b-a1ff-9b2ec1e8b073",
+        "traceId": "b91d8e61e5dd4530aff1003b363beedc",
+        "worldId": "11184638361602",
+        "startReported": true,
+        "endReported": true,
+        "jobIds": [
+          "86519216642"
+        ]
+      },
+      "billing": {
+        "phase": "finished",
+        "lease": {
+          "userId": "66929374300",
+          "threadId": "direct-model-1a1496be-f3bf-415b-a1ff-9b2ec1e8b073",
+          "traceId": "b91d8e61e5dd4530aff1003b363beedc",
+          "usageKey": "asset:model:topology:1a1496be-f3bf-415b-a1ff-9b2ec1e8b073"
+        }
+      },
+      "createdAt": 1794058108797,
+      "updatedAt": 1794058278491,
+      "executionDurationMs": 159990,
+      "resumed": false,
+      "status": "success",
+      "phase": "succeeded",
+      "algorithm": 1,
+      "faceCount": 20000,
+      "genQuality": 2,
+      "style": 2,
+      "telemetryContext": {
+        "enterMethod": "new_create"
+      },
+      "input": {
+        "prompt": "模型生成任务-Tripo-写实风格",
+        "imageUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/9eebfe09297841eb80759000c9d7ae91.png"
+      },
+      "queue": {
+        "jobId": "86519216642"
+      },
+      "image": {
+        "taskId": "11556091213058",
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/2b07078ad251436ebbad0b7a40d1428b.png",
+        "creationsId": "89305673474"
+      },
+      "model": {
+        "attempt": 1,
+        "taskId": "11521453014530",
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ppl_atom_task_88569610754.glb",
+        "previewUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a7288a6793643edb1755263ad7cfba6.png",
+        "creationsId": "89305673474",
+        "scale": {
+          "x": 8.216047212068357,
+          "y": 8.216047212068357,
+          "z": 8.216047212068357
+        }
+      },
+      "terminalAt": 1794058278491
+    },
+    {
+      "id": "87e9b6a7-7d3b-4a54-9ff2-bff55d38d75a",
+      "workspaceId": "workspace_o5wseydg",
+      "cost": {
+        "threadId": "direct-model-87e9b6a7-7d3b-4a54-9ff2-bff55d38d75a",
+        "traceId": "811ea9644d9746248764f1af1b5e554e",
+        "worldId": "11184638361602",
+        "startReported": true,
+        "endReported": true,
+        "jobIds": [
+          "86769094658"
+        ]
+      },
+      "billing": {
+        "phase": "finished",
+        "lease": {
+          "userId": "66929374300",
+          "threadId": "direct-model-87e9b6a7-7d3b-4a54-9ff2-bff55d38d75a",
+          "traceId": "811ea9644d9746248764f1af1b5e554e",
+          "usageKey": "asset:model:topology:87e9b6a7-7d3b-4a54-9ff2-bff55d38d75a"
+        }
+      },
+      "createdAt": 1794058049928,
+      "updatedAt": 1794058262773,
+      "executionDurationMs": 203921,
+      "resumed": false,
+      "status": "success",
+      "phase": "succeeded",
+      "algorithm": 2,
+      "faceCount": 20000,
+      "genQuality": 3,
+      "style": 2,
+      "telemetryContext": {
+        "enterMethod": "new_create"
+      },
+      "input": {
+        "prompt": "模型生成任务-Hyper3D-写实风格",
+        "imageUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/0ba9e82e4d74474bb45cb61cdfbada51.png"
+      },
+      "queue": {
+        "jobId": "86769094658"
+      },
+      "image": {
+        "taskId": "11379889174018",
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/5c1bf4c2c10c4ed49c6caae29ba9483d.png",
+        "creationsId": "86769095170"
+      },
+      "model": {
+        "attempt": 1,
+        "taskId": "11427497493762",
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ppl_atom_task_86519219714.glb",
+        "previewUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/b84d03d01ae24476a4072d756d669035.png",
+        "creationsId": "86769095170",
+        "scale": {
+          "x": 1.159340585199163,
+          "y": 1.159340585199163,
+          "z": 1.159340585199163
+        }
+      },
+      "terminalAt": 1794058262773
+    },
+    {
+      "id": "2b4d614e-c1e2-42f5-9669-61af9b7bd4c7",
+      "workspaceId": "workspace_o5wseydg",
+      "cost": {
+        "threadId": "direct-model-2b4d614e-c1e2-42f5-9669-61af9b7bd4c7",
+        "traceId": "9e1e247255f74ee8add59453f3689121",
+        "worldId": "11184638361602",
+        "startReported": true,
+        "endReported": true,
+        "jobIds": [
+          "89427681794"
+        ]
+      },
+      "billing": {
+        "phase": "finished",
+        "lease": {
+          "userId": "66929374300",
+          "threadId": "direct-model-2b4d614e-c1e2-42f5-9669-61af9b7bd4c7",
+          "traceId": "9e1e247255f74ee8add59453f3689121",
+          "usageKey": "asset:model:topology:2b4d614e-c1e2-42f5-9669-61af9b7bd4c7"
+        }
+      },
+      "createdAt": 1794057576429,
+      "updatedAt": 1794057819222,
+      "executionDurationMs": 233809,
+      "resumed": false,
+      "status": "success",
+      "phase": "succeeded",
+      "algorithm": 0,
+      "faceCount": 20000,
+      "genQuality": 3,
+      "style": 2,
+      "telemetryContext": {
+        "enterMethod": "new_create"
+      },
+      "input": {
+        "prompt": "模型生成任务-Douyin3D-写实风格",
+        "imageUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/a30edeff7c6143d18b6806f8492b01d4.png"
+      },
+      "queue": {
+        "jobId": "89427681794"
+      },
+      "image": {
+        "taskId": "11472316403970",
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/7ae80cce20644011bad77fb03732fdc7.png",
+        "creationsId": "86532732930"
+      },
+      "model": {
+        "attempt": 1,
+        "taskId": "11654446575106",
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ppl_atom_task_86519206914.glb",
+        "previewUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/2eb05adaeb50476999ffb1ae3eb8512d.png",
+        "creationsId": "86532732930",
+        "scale": {
+          "x": 6.367493422707259,
+          "y": 6.367493422707259,
+          "z": 6.367493422707259
+        }
+      },
+      "terminalAt": 1794057819222
+    },
+    {
+      "id": "39bc7a4b-95c1-45c9-b279-e564485eef06",
+      "workspaceId": "workspace_s442vk1d",
+      "cost": {
+        "threadId": "direct-model-39bc7a4b-95c1-45c9-b279-e564485eef06",
+        "traceId": "b18f8111c35443d48c3c0742acd0ac88",
+        "worldId": "11184638361602",
+        "startReported": true,
+        "endReported": true,
+        "jobIds": [
+          "86255430914"
+        ]
+      },
+      "billing": {
+        "phase": "finished",
+        "lease": {
+          "userId": "66929374300",
+          "threadId": "direct-model-39bc7a4b-95c1-45c9-b279-e564485eef06",
+          "traceId": "b18f8111c35443d48c3c0742acd0ac88",
+          "usageKey": "asset:model:topology:39bc7a4b-95c1-45c9-b279-e564485eef06"
+        }
+      },
+      "createdAt": 1793933378765,
+      "updatedAt": 1793933603519,
+      "executionDurationMs": 216427,
+      "resumed": false,
+      "status": "success",
+      "phase": "succeeded",
+      "algorithm": 0,
+      "faceCount": 8400,
+      "genQuality": 3,
+      "style": 2,
+      "telemetryContext": {
+        "enterMethod": "new_create"
+      },
+      "input": {
+        "prompt": "一块原创的古老龙纹立石，高大的深灰色岩石石柱，表面浮雕盘旋的龙和螺旋纹，纹路发青蓝色光，不要十字形图案，底部长满青苔，写实风格，高细节，完整全貌，无底座"
+      },
+      "queue": {
+        "jobId": "86255430914"
+      },
+      "image": {
+        "taskId": "11427495531522",
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/cd7db31ad72b47008c094be2f6122400.png",
+        "creationsId": "87026803202"
+      },
+      "model": {
+        "attempt": 1,
+        "taskId": "11427495532034",
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ppl_atom_task_87205857538.glb",
+        "previewUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/f6ee859bb38e4eb5a53e79360325cc81.png",
+        "creationsId": "87026803202",
+        "scale": {
+          "x": 1.060745736950204,
+          "y": 1.060745736950204,
+          "z": 1.060745736950204
+        }
+      },
+      "terminalAt": 1793933603519
+    },
+    {
+      "id": "5e565d59-b6b7-4b1a-b2bd-453a70d2a330",
+      "workspaceId": "workspace_s442vk1d",
+      "cost": {
+        "threadId": "direct-model-5e565d59-b6b7-4b1a-b2bd-453a70d2a330",
+        "traceId": "33efe6996d3443619a30d0d7d682949f",
+        "worldId": "11184638361602",
+        "startReported": true,
+        "endReported": true,
+        "jobIds": [
+          "88946214658"
+        ]
+      },
+      "billing": {
+        "phase": "finished",
+        "lease": {
+          "userId": "66929374300",
+          "threadId": "direct-model-5e565d59-b6b7-4b1a-b2bd-453a70d2a330",
+          "traceId": "33efe6996d3443619a30d0d7d682949f",
+          "usageKey": "asset:model:topology:5e565d59-b6b7-4b1a-b2bd-453a70d2a330"
+        }
+      },
+      "createdAt": 1793932958520,
+      "updatedAt": 1793933206934,
+      "executionDurationMs": 239989,
+      "resumed": false,
+      "status": "success",
+      "phase": "succeeded",
+      "algorithm": 0,
+      "faceCount": 8400,
+      "genQuality": 3,
+      "style": 2,
+      "telemetryContext": {
+        "enterMethod": "new_create"
+      },
+      "input": {
+        "prompt": "一块原创的古老符文立石，不规则的高大灰色岩石单体石柱，表面刻着发青蓝光的符文和线条，底部长满苔藓，写实风格，高细节，完整全貌，无底座"
+      },
+      "queue": {
+        "jobId": "88946214658"
+      },
+      "image": {
+        "taskId": "11379887232258",
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/b7cc33e30727448c804a69a62a9092d9.png",
+        "creationsId": "86755377154"
+      },
+      "model": {
+        "attempt": 1,
+        "taskId": "11427495528962",
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ppl_atom_task_87205810434.glb",
+        "previewUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/a2378411651548c59c1283400bf4ad14.png",
+        "creationsId": "86755377154",
+        "scale": {
+          "x": 1.0619002598796057,
+          "y": 1.0619002598796057,
+          "z": 1.0619002598796057
+        }
+      },
+      "terminalAt": 1793933206934
+    },
+    {
+      "id": "3211461f-4d4a-4f2a-ad9b-70e221bf5f48",
+      "workspaceId": "workspace_s442vk1d",
+      "cost": {
+        "threadId": "direct-model-3211461f-4d4a-4f2a-ad9b-70e221bf5f48",
+        "traceId": "c9d4ae0e7253427e971f37d9b730d565",
+        "worldId": "11184638361602",
+        "startReported": true,
+        "endReported": true,
+        "jobIds": [
+          "88946201090"
+        ]
+      },
+      "billing": {
+        "phase": "finished",
+        "lease": {
+          "userId": "66929374300",
+          "threadId": "direct-model-3211461f-4d4a-4f2a-ad9b-70e221bf5f48",
+          "traceId": "c9d4ae0e7253427e971f37d9b730d565",
+          "usageKey": "asset:model:topology:3211461f-4d4a-4f2a-ad9b-70e221bf5f48"
+        }
+      },
+      "createdAt": 1793932860614,
+      "updatedAt": 1793933110695,
+      "executionDurationMs": 241668,
+      "resumed": false,
+      "status": "success",
+      "phase": "succeeded",
+      "algorithm": 0,
+      "faceCount": 8400,
+      "genQuality": 3,
+      "style": 2,
+      "telemetryContext": {
+        "enterMethod": "new_create"
+      },
+      "input": {
+        "prompt": "一顶原创的中世纪冒险者帆布帐篷，木杆支撑，入口敞开，深蓝色布面带金色纹样，顶部有小旗，写实风格，高细节，完整全貌，无底座"
+      },
+      "queue": {
+        "jobId": "88946201090"
+      },
+      "image": {
+        "taskId": "11606062118658",
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/2bc89effe2fd485fab3bccc2a10e3d5c.png",
+        "creationsId": "88946202114"
+      },
+      "model": {
+        "attempt": 1,
+        "taskId": "11507681634050",
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ppl_atom_task_87199958274.glb",
+        "previewUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/49d2617b145e42cf9e1d99089b33f93b.png",
+        "creationsId": "88946202114",
+        "scale": {
+          "x": 2.388441177383381,
+          "y": 2.388441177383381,
+          "z": 2.388441177383381
+        }
+      },
+      "terminalAt": 1793933110695
+    },
+    {
+      "id": "b1bc625d-7797-4cc2-90f3-d03a8218ea21",
+      "workspaceId": "workspace_s442vk1d",
+      "cost": {
+        "threadId": "direct-model-b1bc625d-7797-4cc2-90f3-d03a8218ea21",
+        "traceId": "ec61a5c9b11f46dbb665511ca0b5bd56",
+        "worldId": "11184638361602",
+        "startReported": true,
+        "endReported": true,
+        "jobIds": [
+          "87026788866"
+        ]
+      },
+      "billing": {
+        "phase": "finished",
+        "lease": {
+          "userId": "66929374300",
+          "threadId": "direct-model-b1bc625d-7797-4cc2-90f3-d03a8218ea21",
+          "traceId": "ec61a5c9b11f46dbb665511ca0b5bd56",
+          "usageKey": "asset:model:topology:b1bc625d-7797-4cc2-90f3-d03a8218ea21"
+        }
+      },
+      "createdAt": 1793932580657,
+      "updatedAt": 1793932863767,
+      "executionDurationMs": 274617,
+      "resumed": false,
+      "status": "success",
+      "phase": "succeeded",
+      "algorithm": 0,
+      "faceCount": 8400,
+      "genQuality": 3,
+      "style": 2,
+      "telemetryContext": {
+        "enterMethod": "new_create"
+      },
+      "input": {
+        "prompt": "一组原创的发光巨型蘑菇丛，高矮不一五六朵，深蓝紫色菌盖，青色发光菌褶，带苔藓的根部，魔法森林感，写实风格，高细节，完整全貌，无底座"
+      },
+      "queue": {
+        "jobId": "87026788866"
+      },
+      "image": {
+        "taskId": "11379473278722",
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/43fbe6fb5eb64b8b88fac2b80c54703f.png",
+        "creationsId": "85678088962"
+      },
+      "model": {
+        "attempt": 1,
+        "taskId": "11394471966722",
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ppl_atom_task_87199955458.glb",
+        "previewUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/9f64f368ec084cd291d7050033ffcab9.png",
+        "creationsId": "85678088962",
+        "scale": {
+          "x": 1.5959416149918348,
+          "y": 1.5959416149918348,
+          "z": 1.5959416149918348
+        }
+      },
+      "terminalAt": 1793932863767
+    },
+    {
+      "id": "89fde686-ac31-425e-ac98-b6729f5463cf",
+      "workspaceId": "workspace_s442vk1d",
+      "cost": {
+        "threadId": "direct-model-89fde686-ac31-425e-ac98-b6729f5463cf",
+        "traceId": "2cdfe09a9133417c9195eaff2e3c2203",
+        "worldId": "11184638361602",
+        "startReported": true,
+        "endReported": true,
+        "jobIds": [
+          "88202386434"
+        ]
+      },
+      "billing": {
+        "phase": "finished",
+        "lease": {
+          "userId": "66929374300",
+          "threadId": "direct-model-89fde686-ac31-425e-ac98-b6729f5463cf",
+          "traceId": "2cdfe09a9133417c9195eaff2e3c2203",
+          "usageKey": "asset:model:topology:89fde686-ac31-425e-ac98-b6729f5463cf"
+        }
+      },
+      "createdAt": 1793932571214,
+      "updatedAt": 1793932793746,
+      "executionDurationMs": 213976,
+      "resumed": false,
+      "status": "success",
+      "phase": "succeeded",
+      "algorithm": 0,
+      "faceCount": 8400,
+      "genQuality": 3,
+      "style": 2,
+      "telemetryContext": {
+        "enterMethod": "new_create"
+      },
+      "input": {
+        "prompt": "一处原创的冒险者篝火营地，石头围成的篝火堆，堆得整齐的木柴，周围有倒下的原木当长凳，木桶和皮革背包，写实风格，高细节，完整全貌，无底座"
+      },
+      "queue": {
+        "jobId": "88202386434"
+      },
+      "image": {
+        "taskId": "11379887227138",
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/3f20a5d486844c32af6af0fc87258902.png",
+        "creationsId": "87026788610"
+      },
+      "model": {
+        "attempt": 1,
+        "taskId": "11538663583746",
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ppl_atom_task_87428990978.glb",
+        "previewUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/7d0292ad7c9c4c609458e2afddd80180.png",
+        "creationsId": "87026788610",
+        "scale": {
+          "x": 1.0619803491539066,
+          "y": 1.0619803491539066,
+          "z": 1.0619803491539066
+        }
+      },
+      "terminalAt": 1793932793746
+    },
+    {
+      "id": "d6dc123c-b187-4d20-80c6-d43970a32fa9",
+      "workspaceId": "workspace_s442vk1d",
+      "cost": {
+        "threadId": "direct-model-d6dc123c-b187-4d20-80c6-d43970a32fa9",
+        "traceId": "8156a733fb7a402eb8271159d054e6c7",
+        "worldId": "11184638361602",
+        "startReported": true,
+        "endReported": true,
+        "jobIds": [
+          "87199950338"
+        ]
+      },
+      "billing": {
+        "phase": "finished",
+        "lease": {
+          "userId": "66929374300",
+          "threadId": "direct-model-d6dc123c-b187-4d20-80c6-d43970a32fa9",
+          "traceId": "8156a733fb7a402eb8271159d054e6c7",
+          "usageKey": "asset:model:topology:d6dc123c-b187-4d20-80c6-d43970a32fa9"
+        }
+      },
+      "createdAt": 1793932563356,
+      "updatedAt": 1793932793176,
+      "executionDurationMs": 221315,
+      "resumed": false,
+      "status": "success",
+      "phase": "succeeded",
+      "algorithm": 0,
+      "faceCount": 8400,
+      "genQuality": 3,
+      "style": 2,
+      "telemetryContext": {
+        "enterMethod": "new_create"
+      },
+      "input": {
+        "prompt": "一座原创的古老唤龙祭坛，圆形石台分三层台阶，中央竖立一颗巨大的水晶，石面刻满龙纹和发光符文，青苔覆盖，写实风格，高细节，完整全貌"
+      },
+      "queue": {
+        "jobId": "87199950338"
+      },
+      "image": {
+        "taskId": "11427495523842",
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/abbef6c690d743649811bf6518d46bb1.png",
+        "creationsId": "87026788098"
+      },
+      "model": {
+        "attempt": 1,
+        "taskId": "11394471966466",
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ppl_atom_task_87424796930.glb",
+        "previewUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/e71b20d4f8804328b54e51ebec128d13.png",
+        "creationsId": "87026788098",
+        "scale": {
+          "x": 4.7708709051997475,
+          "y": 4.7708709051997475,
+          "z": 4.7708709051997475
+        }
+      },
+      "terminalAt": 1793932793176
+    },
+    {
+      "id": "9eab21e5-06fb-4529-ad41-d199153bae9b",
+      "workspaceId": "workspace_s442vk1d",
+      "cost": {
+        "threadId": "direct-model-9eab21e5-06fb-4529-ad41-d199153bae9b",
+        "traceId": "9c5998f957ce42c5aeeab5728ce3f793",
+        "worldId": "11184638361602",
+        "startReported": true,
+        "endReported": true,
+        "jobIds": [
+          "87424447490"
+        ]
+      },
+      "billing": {
+        "phase": "finished",
+        "lease": {
+          "userId": "66929374300",
+          "threadId": "direct-model-9eab21e5-06fb-4529-ad41-d199153bae9b",
+          "traceId": "9c5998f957ce42c5aeeab5728ce3f793",
+          "usageKey": "asset:model:topology:9eab21e5-06fb-4529-ad41-d199153bae9b"
+        }
+      },
+      "createdAt": 1793932210936,
+      "updatedAt": 1793932444070,
+      "executionDurationMs": 224598,
+      "resumed": false,
+      "status": "success",
+      "phase": "succeeded",
+      "algorithm": 0,
+      "faceCount": 20000,
+      "genQuality": 3,
+      "style": 2,
+      "telemetryContext": {
+        "enterMethod": "new_create"
+      },
+      "input": {
+        "prompt": "一头原创奇幻坐骑幼龙，温顺可亲，滑翔飞行姿态，双翼平展，四肢收拢，尾巴向后伸直，背上有皮革鞍具和金色挂饰，鳞片乳白带淡金，翼膜浅蓝，写实风格，高细节，完整全身，无底座"
+      },
+      "queue": {
+        "jobId": "87424447490"
+      },
+      "image": {
+        "taskId": "11345727312130",
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/a88b04bf007b432cb05e59bd12de0c5e.png",
+        "creationsId": "86750571778"
+      },
+      "model": {
+        "attempt": 1,
+        "taskId": "11379473277954",
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ppl_atom_task_87428984834.glb",
+        "previewUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/62cd0b7d094f42f3b0d394c191dc104d.png",
+        "creationsId": "86750571778",
+        "scale": {
+          "x": 2.9150888224486136,
+          "y": 2.9150888224486136,
+          "z": 2.9150888224486136
+        }
+      },
+      "terminalAt": 1793932444070
+    },
+    {
+      "id": "9c7bdd3d-4d17-40c9-8713-ef56d7d87cab",
+      "workspaceId": "workspace_s442vk1d",
+      "cost": {
+        "threadId": "direct-model-9c7bdd3d-4d17-40c9-8713-ef56d7d87cab",
+        "traceId": "425d1356f8274b4ea34c2265c178829c",
+        "worldId": "11184638361602",
+        "startReported": true,
+        "endReported": true,
+        "jobIds": [
+          "88139854082"
+        ]
+      },
+      "billing": {
+        "phase": "finished",
+        "lease": {
+          "userId": "66929374300",
+          "threadId": "direct-model-9c7bdd3d-4d17-40c9-8713-ef56d7d87cab",
+          "traceId": "425d1356f8274b4ea34c2265c178829c",
+          "usageKey": "asset:model:topology:9c7bdd3d-4d17-40c9-8713-ef56d7d87cab"
+        }
+      },
+      "createdAt": 1793932188365,
+      "updatedAt": 1793932424861,
+      "executionDurationMs": 227988,
+      "resumed": false,
+      "status": "success",
+      "phase": "succeeded",
+      "algorithm": 0,
+      "faceCount": 20000,
+      "genQuality": 3,
+      "style": 2,
+      "telemetryContext": {
+        "enterMethod": "new_create"
+      },
+      "input": {
+        "prompt": "一头原创奇幻巨龙，圣洁威严的守护神，长颈高昂，双翼完全展开，四足站立，长尾盘绕，头上有弯曲的角，身披银白与深蓝色的细密鳞片，翼膜半透明，金色发光纹路，写实风格，高细节，完整全身，无底座"
+      },
+      "queue": {
+        "jobId": "88139854082"
+      },
+      "image": {
+        "taskId": "11606062113026",
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/409d62f9641b42639f79e77012dcf6f0.png",
+        "creationsId": "88202338818"
+      },
+      "model": {
+        "attempt": 1,
+        "taskId": "11606062113538",
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ppl_atom_task_87205717250.glb",
+        "previewUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/b02cb8f039fd4e2e98f156adcc544cf4.png",
+        "creationsId": "88202338818",
+        "scale": {
+          "x": 4.508733670912666,
+          "y": 4.508733670912666,
+          "z": 4.508733670912666
+        }
+      },
+      "terminalAt": 1793932424861
+    }
+  ]
+}

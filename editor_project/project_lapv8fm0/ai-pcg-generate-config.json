@@ -1,0 +1,750 @@
+{
+  "version": "1.0.2",
+  "sessions": [
+    {
+      "id": "pcg_session_1793714819469_brjpwc0l",
+      "title": "写实卫星地貌",
+      "turnStage": "done",
+      "isNewBranch": false,
+      "messages": [
+        {
+          "id": "msg_1793714819471_ebutjnhl",
+          "role": "user",
+          "content": "一张奇幻王国的俯视地图，整体为温带山地与海岸。北侧边缘是一排连绵的雪山，中间偏左的一座主峰最高、最陡，峰顶覆盖积雪。雪山南麓有一块高出周围约二十米的平顶悬崖台地，台地四周是近乎垂直的灰色岩壁，台地顶部平坦、长满草。一条清澈的河流从台地西侧的雪山中流出，形成一小段瀑布，河道绕过台地南侧向东蜿蜒，在东侧汇入海湾。地图东侧约四分之一是蓝绿色海洋，海岸线中部有一个向东凸出的岩石岬角，岬角南侧是一个平静的半圆形港湾，海岸有窄窄的沙滩。河流与港湾之间是一片平坦开阔的河谷平地。地图西侧是起伏的低矮丘陵，南侧是平缓的草坡，草坡中央有一座圆润的小山丘，山丘北面较陡、朝向北方的悬崖台地。整体色彩明亮，草地翠绿，岩石灰白，海水青绿。",
+          "createdAt": 1793714819471,
+          "turnId": "turn_1793714813465_108v1kor",
+          "artifactRefs": [
+            "input_1793714819471_5hrf9dgo"
+          ]
+        },
+        {
+          "id": "msg_1a1bc498e00127hliY6n73ASVP",
+          "role": "assistant",
+          "createdAt": 1793714841174,
+          "streamBlocks": [
+            {
+              "kind": "todo",
+              "todoList": {
+                "items": [
+                  {
+                    "content": "解析用户的温带山地海岸奇幻王国地图需求",
+                    "priority": "high",
+                    "status": "completed"
+                  },
+                  {
+                    "content": "读取上传的参考图片判断图片用途",
+                    "priority": "high",
+                    "status": "completed"
+                  },
+                  {
+                    "content": "生成4张符合要求的地图预览候选",
+                    "priority": "high",
+                    "status": "in_progress"
+                  }
+                ]
+              }
+            }
+          ],
+          "turnId": "turn_1793714813465_108v1kor",
+          "executionStartedAt": 1793714832503,
+          "executionDurationMs": 382500
+        },
+        {
+          "id": "msg_1793715516075_16o47i82",
+          "role": "user",
+          "content": "严格按照参考图的布局生成，正上方垂直俯视的2D地图，像卫星地图一样，没有透视，没有天空，没有地平线。地图上方为北。\n地图北侧边缘约五分之一是一排东西走向的雪山，中间偏左的一座主峰最高，峰顶覆盖积雪。\n雪山正南方、地图中上部有一块平顶悬崖台地，大小约为地图宽度的四分之一，四周是陡峭的灰色岩壁，台地顶部是平坦的草地。台地东侧与海岸之间保留一片较宽的陆地。\n一条河流从台地西侧的雪山中流出，在台地西南角形成瀑布，然后绕过台地南侧，向东穿过地图中部的平坦河谷，在东侧流入大海。河谷平地宽阔平整，没有被海水淹没。\n地图东侧约四分之一是蓝绿色海洋，海岸线由北向南基本平直。海岸中部有一个向东凸出的岩石岬角，河口位于岬角南侧，形成一个很小的浅水港湾，港湾不要向西深入陆地。\n地图西侧是起伏的低矮丘陵，南侧是平缓的草坡，草坡中央偏东有一座圆润的小山丘，山丘北坡较陡，正对北方的悬崖台地。\n只表现地形本身，植被稀疏，只有草地、岩石、雪和水，不要树林，不要建筑。",
+          "createdAt": 1793715516075,
+          "turnId": "turn_1793715510176_gwuvtt9o",
+          "artifactRefs": [
+            "input_1793715516075_40zarmnk"
+          ]
+        },
+        {
+          "id": "msg_1a1c77a810016SNYsNor3vDItj",
+          "role": "assistant",
+          "createdAt": 1793715578151,
+          "streamBlocks": [
+            {
+              "kind": "todo",
+              "todoList": {
+                "items": [
+                  {
+                    "content": "解析用户地图需求与上传参考图信息",
+                    "priority": "high",
+                    "status": "completed"
+                  },
+                  {
+                    "content": "读取上传参考图确认布局参考用途",
+                    "priority": "high",
+                    "status": "completed"
+                  },
+                  {
+                    "content": "生成4张符合指定地形规则的地图预览候选",
+                    "priority": "high",
+                    "status": "in_progress"
+                  }
+                ]
+              }
+            }
+          ],
+          "turnId": "turn_1793715510176_gwuvtt9o",
+          "executionStartedAt": 1793715527552,
+          "executionDurationMs": 409207
+        },
+        {
+          "id": "msg_1793716225413_57cmcsjj",
+          "role": "user",
+          "content": "使用已选参考图生成 3D 地形。",
+          "createdAt": 1793716225413,
+          "turnId": "turn_1793716222919_fs711hyv",
+          "artifactRefs": [
+            "preview_wo2dpdkv"
+          ]
+        },
+        {
+          "id": "msg_1a1d1ba3c001g42HQZaax2TnTw",
+          "role": "assistant",
+          "createdAt": 1793716244355,
+          "streamBlocks": [
+            {
+              "kind": "todo",
+              "todoList": {
+                "items": [
+                  {
+                    "content": "解析本轮输入（已选参考图 + 地形生成动作）",
+                    "priority": "high",
+                    "status": "completed"
+                  },
+                  {
+                    "content": "读取 PCG 上下文",
+                    "priority": "high",
+                    "status": "completed"
+                  },
+                  {
+                    "content": "派发正式 3D 地形生成",
+                    "priority": "high",
+                    "status": "completed"
+                  }
+                ]
+              }
+            },
+            {
+              "kind": "text",
+              "content": "3D 地形已基于您选定的参考图生成完成，本轮到此结束（未进行撒点）。您可以在界面中查看生成的地形效果。如需继续，可以：基于该地形进行撒点生成地表内容。"
+            }
+          ],
+          "turnId": "turn_1793716222919_fs711hyv",
+          "executionStartedAt": 1793716238233,
+          "artifactRefs": [
+            "terrain_1793716265489_rcmh9u2p"
+          ],
+          "executionDurationMs": 1301197
+        },
+        {
+          "id": "msg_1793717899884_oe0gasdz",
+          "role": "user",
+          "content": "怎么跟图片上不一样呀？没有图片上河流中间的那个平台，河流的上半段应该是从雪山流下来的，上半段比较高。也没有背后的雪山。",
+          "createdAt": 1793717899884,
+          "turnId": "turn_1793717897567_te5tenqq"
+        },
+        {
+          "id": "msg_1a1eb4396001M7N0i3sQygKEBD",
+          "role": "assistant",
+          "createdAt": 1793717921493,
+          "streamBlocks": [
+            {
+              "kind": "todo",
+              "todoList": {
+                "items": [
+                  {
+                    "content": "解析用户的地图修改需求要点",
+                    "priority": "high",
+                    "status": "completed"
+                  },
+                  {
+                    "content": "读取上传的参考输入图并判断图片用途",
+                    "priority": "high",
+                    "status": "completed"
+                  },
+                  {
+                    "content": "生成4张符合修改要求的新版地图预览候选",
+                    "priority": "high",
+                    "status": "in_progress"
+                  }
+                ]
+              }
+            }
+          ],
+          "turnId": "turn_1793717897567_te5tenqq",
+          "executionStartedAt": 1793717911493,
+          "questions": [
+            {
+              "status": "answered",
+              "requestId": "que_1a1ec8ee9001xSD2xSh30CLJic",
+              "startedAt": 1793717997296,
+              "items": [
+                {
+                  "header": "选择基础修改图",
+                  "multiple": false,
+                  "options": [
+                    {
+                      "description": "基于边缘轮廓明显的第一张布局图进行修改",
+                      "label": "第一张等高线风格参考图"
+                    },
+                    {
+                      "description": "基于画面更柔和的第二张地形纹理图进行修改",
+                      "label": "第二张纹理自然参考图"
+                    }
+                  ],
+                  "question": "当前检测到你本轮上传了两张不同的参考地图图，请选择你希望基于哪一张图来执行修改，补充雪山、调整河流高差并增加河心平台。"
+                }
+              ],
+              "endedAt": 1793718258042,
+              "answers": [
+                [
+                  "是用你给我生成的那一张。"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "id": "msg_1793718266075_q3lnqin0",
+          "role": "system",
+          "createdAt": 1793718266075,
+          "turnId": "turn_1793717897567_te5tenqq",
+          "streamBlocks": [
+            {
+              "kind": "todo",
+              "todoList": {
+                "items": [
+                  {
+                    "content": "解析用户的地图修改需求要点",
+                    "priority": "high",
+                    "status": "completed"
+                  },
+                  {
+                    "content": "读取上传的参考输入图并判断图片用途",
+                    "priority": "high",
+                    "status": "completed"
+                  },
+                  {
+                    "content": "生成4张符合修改要求的新版地图预览候选",
+                    "priority": "high",
+                    "status": "in_progress"
+                  }
+                ]
+              }
+            }
+          ],
+          "executionStartedAt": 1793717911493,
+          "executionDurationMs": 354582,
+          "content": "已终止本次生成。"
+        },
+        {
+          "id": "msg_1793718294451_say1xycv",
+          "role": "user",
+          "content": "也就是这一张。",
+          "createdAt": 1793718294451,
+          "turnId": "turn_1793718286434_a71gwro7",
+          "artifactRefs": [
+            "input_1793718294451_bqww4wlb"
+          ]
+        },
+        {
+          "id": "msg_1a1f14a44001vK0N4r0fBDZPmH",
+          "role": "assistant",
+          "createdAt": 1793718403183,
+          "streamBlocks": [
+            {
+              "kind": "todo",
+              "todoList": {
+                "items": [
+                  {
+                    "content": "解析用户需求和上传图片上下文",
+                    "priority": "high",
+                    "status": "completed"
+                  },
+                  {
+                    "content": "读取本轮上传的参考图片，判断图片用途",
+                    "priority": "high",
+                    "status": "completed"
+                  },
+                  {
+                    "content": "直接使用原图作为地图预览候选登记",
+                    "priority": "high",
+                    "status": "in_progress"
+                  }
+                ]
+              }
+            }
+          ],
+          "turnId": "turn_1793718286434_a71gwro7",
+          "executionStartedAt": 1793718306670,
+          "executionDurationMs": 141362
+        },
+        {
+          "id": "msg_1793718463438_qhjof8d5",
+          "role": "user",
+          "content": "使用已选参考图生成 3D 地形。",
+          "createdAt": 1793718463438,
+          "turnId": "turn_1793718461279_6nfjotna",
+          "artifactRefs": [
+            "preview_fqud7ygw"
+          ]
+        },
+        {
+          "id": "msg_1a1f3de8c0013UZJhyGc3OZE6u",
+          "role": "assistant",
+          "createdAt": 1793718492973,
+          "streamBlocks": [
+            {
+              "kind": "todo",
+              "todoList": {
+                "items": [
+                  {
+                    "content": "解析本轮输入（已选参考图 + 地形生成动作）",
+                    "priority": "high",
+                    "status": "completed"
+                  },
+                  {
+                    "content": "读取 PCG 上下文",
+                    "priority": "high",
+                    "status": "completed"
+                  },
+                  {
+                    "content": "派发正式 3D 地形生成",
+                    "priority": "high",
+                    "status": "completed"
+                  }
+                ]
+              }
+            },
+            {
+              "kind": "text",
+              "content": "已基于您这次指认的参考图重新生成 3D 地形，本轮到此结束（未进行撒点）。您可以在界面中查看新地形是否符合参考图效果。确认满意后，可以继续进行撒点，生成地表内容。"
+            }
+          ],
+          "turnId": "turn_1793718461279_6nfjotna",
+          "executionStartedAt": 1793718475528,
+          "artifactRefs": [
+            "terrain_1793718576737_grp7026h"
+          ],
+          "executionDurationMs": 440403
+        },
+        {
+          "id": "msg_1793719505656_4sfqv706",
+          "role": "user",
+          "content": "地形没问题，但是你看不出来这是一座岛吗？它四周环海的地方是水体呀不是实体的，包括那条河。",
+          "createdAt": 1793719505656,
+          "turnId": "turn_1793719503167_klwbkbk7"
+        },
+        {
+          "id": "msg_1a203c373001Zn7qm0ktw7K2OJ",
+          "role": "assistant",
+          "createdAt": 1793719531075,
+          "streamBlocks": [
+            {
+              "kind": "todo",
+              "todoList": {
+                "items": [
+                  {
+                    "content": "解析用户关于岛屿四周环海、所有海洋与河流区域应为水体的修正需求",
+                    "priority": "high",
+                    "status": "completed"
+                  },
+                  {
+                    "content": "规划4组不同细节风格的全水体环绕岛屿参考图方案",
+                    "priority": "high",
+                    "status": "completed"
+                  },
+                  {
+                    "content": "生成符合水体要求的地图预览候选供用户选择",
+                    "priority": "high",
+                    "status": "in_progress"
+                  }
+                ]
+              }
+            }
+          ],
+          "turnId": "turn_1793719503167_klwbkbk7",
+          "executionStartedAt": 1793719517434,
+          "executionDurationMs": 293333
+        }
+      ],
+      "artifacts": {
+        "input_1793714819471_5hrf9dgo": {
+          "id": "input_1793714819471_5hrf9dgo",
+          "kind": "inputImage",
+          "status": "completed",
+          "createdAt": 1793714819471,
+          "updatedAt": 1793714819471,
+          "sourceMessageId": "msg_1793714819471_ebutjnhl",
+          "image": {
+            "remoteUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/1315aa258b8641f99ba05dae52b1d6eb.png"
+          }
+        },
+        "preview_k2jfeduz": {
+          "id": "preview_k2jfeduz",
+          "kind": "mapPreview",
+          "status": "completed",
+          "createdAt": 1793714910718,
+          "displayTitle": "雪山海湾",
+          "updatedAt": 1793715215002,
+          "image": {
+            "remoteUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/0b8b48e9e3654b0fb1588f6dff995e2c.png"
+          },
+          "prompt": "等距俯视视角的奇幻王国温带山地海岸地图，北侧边缘是连绵雪山，中间偏左有最高最陡的积雪主峰，雪山南麓是20米高的平顶悬崖台地，四周垂直灰色岩壁，顶部覆盖茂盛绿草，清澈河流从台地西侧雪山流出形成小瀑布，河道绕过台地南侧向东蜿蜒汇入东侧海湾，东侧四分之一是蓝绿色海洋，海岸线中部有向东凸出的岩石岬角，南侧是半圆形平静港湾搭配窄沙滩，河流和港湾之间是开阔河谷平地，西侧是低矮起伏丘陵，南侧是平缓草坡，草坡中央有圆润小山丘，北坡陡峭朝向台地，整体色彩明亮，草地翠绿鲜活，岩石灰白质感清晰，海水青绿澄澈，自然光影柔和。",
+          "candidateId": "candidate-a",
+          "candidateIndex": 0,
+          "turnId": "turn_1793714813465_108v1kor"
+        },
+        "preview_qfjtpw0t": {
+          "id": "preview_qfjtpw0t",
+          "kind": "mapPreview",
+          "status": "failed",
+          "createdAt": 1793714910718,
+          "displayTitle": "奇幻谷地",
+          "updatedAt": 1793715215002,
+          "image": {},
+          "prompt": "水彩风格奇幻王国俯视地图，整体为温带山地海岸场景，北侧连绵积雪雪山线条柔和，主峰圆润，平顶悬崖台地被淡灰色岩壁围绕，顶部浅绿草地朦胧柔美，蓝色河流从雪山流出带着半透明瀑布效果，蜿蜒流向东侧青蓝色海洋，岬角和港湾边缘晕染出柔化的沙滩纹理，丘陵草坡都用水彩渐变过渡，整体色调清新梦幻，充满奇幻童话氛围。",
+          "candidateId": "candidate-b",
+          "candidateIndex": 1,
+          "turnId": "turn_1793714813465_108v1kor"
+        },
+        "preview_lq1gxdym": {
+          "id": "preview_lq1gxdym",
+          "kind": "mapPreview",
+          "status": "failed",
+          "createdAt": 1793714910718,
+          "displayTitle": "王国边境",
+          "updatedAt": 1793715215002,
+          "image": {},
+          "prompt": "策略游戏风格奇幻王国边境地图，俯视视角，北侧连绵雪山作为天然边境，平顶台地作为核心高地据点，台地南侧有清晰的石板主路顺着河流延伸，河谷平地分布少量农田和村庄，海湾岸边修建小型港口码头，西侧丘陵布置伐木营地，南侧草坡小山丘设置瞭望塔，所有地貌元素完整保留，布局清晰易读，元素分布合理，适合游戏探索游玩。",
+          "candidateId": "candidate-c",
+          "candidateIndex": 2,
+          "turnId": "turn_1793714813465_108v1kor"
+        },
+        "preview_olyqc9nq": {
+          "id": "preview_olyqc9nq",
+          "kind": "mapPreview",
+          "status": "failed",
+          "createdAt": 1793714910718,
+          "displayTitle": "临海山原",
+          "updatedAt": 1793715215002,
+          "image": {},
+          "prompt": "高空等距俯视的真实自然地貌摄影图，温带山地海岸全景，北侧雪山积雪细节丰富，岩石纹理清晰，平顶台地的垂直岩壁有清晰的岩石节理，顶部草皮细节茂密，河流瀑布流动感强烈，东侧海水有自然的浪涛纹理，沙滩和岬角岩石质感真实，丘陵草坡的植被层次丰富，自然光下阴影层次分明，整体写实度高，地貌细节饱满。",
+          "candidateId": "candidate-d",
+          "candidateIndex": 3,
+          "turnId": "turn_1793714813465_108v1kor"
+        },
+        "input_1793715516075_40zarmnk": {
+          "id": "input_1793715516075_40zarmnk",
+          "kind": "inputImage",
+          "status": "completed",
+          "createdAt": 1793715516075,
+          "updatedAt": 1793715516075,
+          "sourceMessageId": "msg_1793715516075_16o47i82",
+          "image": {
+            "remoteUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/fcf02295a0e0402a9e43c68c108c5c2e.png"
+          }
+        },
+        "preview_wo2dpdkv": {
+          "id": "preview_wo2dpdkv",
+          "kind": "mapPreview",
+          "status": "completed",
+          "createdAt": 1793715615247,
+          "displayTitle": "写实卫星地貌",
+          "updatedAt": 1793715936757,
+          "image": {
+            "remoteUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/3ae76cf2e7514237bc0d1cfc4f22cdae.png"
+          },
+          "prompt": "正上方垂直俯视无透视2D卫星地图，以北为上方，无天空无地平线。北侧边缘五分之一是东西走向的东西雪山带，中间偏左主峰最高积雪覆盖。雪山正南方是尺寸占地图宽度四分之一的平顶悬崖台地，四周陡峭灰色岩壁，顶部平坦草地，台地东侧到海岸保留宽陆地。河流从台地西侧雪山流出，台地西南角形成瀑布，绕过台地南侧向东穿过中部宽阔平坦河谷，东侧汇入大海。东侧四分之一区域为蓝绿色海洋，海岸线南北基本平直，海岸中部有向东凸出的岩石岬角，河口位于岬角南侧形成极小浅水港湾，港湾不向西深入陆地。西侧是起伏低矮丘陵，南侧是平缓草坡，草坡中央偏东有圆润小山丘，山丘北坡较陡正对北侧台地。仅保留地形，植被极度稀疏，只有草地、裸露岩石、积雪和水体，没有任何树林和人工建筑。真实卫星地图质感，自然色彩，纹理细腻。",
+          "candidateId": "candidate-a",
+          "candidateIndex": 4,
+          "turnId": "turn_1793715510176_gwuvtt9o"
+        },
+        "preview_kagnh6y8": {
+          "id": "preview_kagnh6y8",
+          "kind": "mapPreview",
+          "status": "completed",
+          "createdAt": 1793715615247,
+          "displayTitle": "地质勘测地形图",
+          "updatedAt": 1793715936757,
+          "image": {
+            "remoteUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/28e34ac5d9574e068306d99661011045.png"
+          },
+          "prompt": "正上方垂直俯视无透视2D地形图，以北为上方，无天空无地平线。北侧边缘五分之一是东西走向的雪山带，中间偏左主峰最高积雪覆盖，积雪与裸岩边界清晰。雪山正南方是尺寸占地图宽度四分之一的平顶悬崖台地，四周陡峭灰色岩壁轮廓分明，顶部平坦浅绿草地，台地东侧到海岸保留宽陆地。河流从台地西侧雪山流出，台地西南角形成白色线状瀑布，绕过台地南侧向东穿过中部宽阔平坦河谷，东侧汇入大海。东侧四分之一区域为蓝绿色海洋，海岸线南北基本平直，海岸中部有向东凸出的深色岩石岬角，河口位于岬角南侧形成极小浅水港湾，港湾不向西深入陆地。西侧是起伏低矮丘陵，南侧是平缓草坡，草坡中央偏东有圆润小山丘，山丘北坡较陡正对北侧台地。仅保留地形，植被极度稀疏，只有草地、裸露岩石、积雪和水体，没有任何树林和人工建筑。地质勘测风格，地貌边界清晰，色彩分区明确，高程过渡自然。",
+          "candidateId": "candidate-b",
+          "candidateIndex": 5,
+          "turnId": "turn_1793715510176_gwuvtt9o"
+        },
+        "preview_z85q0wrd": {
+          "id": "preview_z85q0wrd",
+          "kind": "mapPreview",
+          "status": "completed",
+          "createdAt": 1793715615247,
+          "displayTitle": "低饱和自然地貌",
+          "updatedAt": 1793715936757,
+          "image": {
+            "remoteUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/82ae02e6cb144493b3d67aa6c49f37d0.png"
+          },
+          "prompt": "正上方垂直俯视无透视2D地图，以北为上方，无天空无地平线。北侧边缘五分之一是东西走向的雪山带，中间偏左主峰最高积雪覆盖，积雪为柔和的灰白色。雪山正南方是尺寸占地图宽度四分之一的平顶悬崖台地，四周陡峭浅灰色岩壁，顶部平坦柔和绿色草地，台地东侧到海岸保留宽陆地。河流从台地西侧雪山流出，台地西南角形成浅蓝瀑布，绕过台地南侧向东穿过中部宽阔平坦河谷，东侧汇入大海。东侧四分之一区域为柔和青蓝色海洋，海岸线南北基本平直，海岸中部有向东凸出的浅褐色岩石岬角，河口位于岬角南侧形成极小浅水港湾，港湾不向西深入陆地。西侧是起伏低矮丘陵，南侧是平缓草坡，草坡中央偏东有圆润小山丘，山丘北坡较陡正对北侧台地。仅保留地形，植被极度稀疏，只有草地、裸露岩石、积雪和水体，没有任何树林和人工建筑。低饱和度柔和自然色调，画面干净宁静，无多余纹理。",
+          "candidateId": "candidate-c",
+          "candidateIndex": 6,
+          "turnId": "turn_1793715510176_gwuvtt9o"
+        },
+        "preview_3z4z0b6a": {
+          "id": "preview_3z4z0b6a",
+          "kind": "mapPreview",
+          "status": "failed",
+          "createdAt": 1793715615247,
+          "displayTitle": "极简俯视地形图",
+          "updatedAt": 1793715936757,
+          "image": {},
+          "prompt": "正上方垂直俯视无透视2D极简地形图，以北为上方，无天空无地平线。北侧边缘五分之一是东西走向的雪山带，中间偏左主峰最高积雪覆盖，大面积纯白色雪区搭配少量深灰裸岩。雪山正南方是尺寸占地图宽度四分之一的平顶悬崖台地，四周陡峭深灰色岩壁，顶部平坦均匀绿色草地，台地东侧到海岸保留宽陆地。河流从台地西侧雪山流出，台地西南角形成瀑布，绕过台地南侧向东穿过中部宽阔平坦河谷，东侧汇入大海。东侧四分之一区域为纯蓝绿色海洋，海岸线南北基本平直，海岸中部有向东凸出的深灰色岩石岬角，河口位于岬角南侧形成极小浅水港湾，港湾不向西深入陆地。西侧是起伏低矮丘陵，南侧是平缓草坡，草坡中央偏东有圆润小山丘，山丘北坡较陡正对北侧台地。仅保留地形，植被极度稀疏，只有草地、裸露岩石、积雪和水体，没有任何树林和人工建筑。极简平涂风格，过渡平滑，轮廓清晰，无多余装饰元素。",
+          "candidateId": "candidate-d",
+          "candidateIndex": 7,
+          "turnId": "turn_1793715510176_gwuvtt9o"
+        },
+        "terrain_1793716265489_rcmh9u2p": {
+          "createdAt": 1793716265489,
+          "heightMap": {
+            "remoteUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/109d15a0c97c459d88afce433a86d0ee.png"
+          },
+          "id": "terrain_1793716265489_rcmh9u2p",
+          "kind": "terrain3d",
+          "preview": {
+            "remoteUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6cbd354c37d74f7d9e7a11557117195d.png"
+          },
+          "prompt": "区域东侧为海洋，近岸海水呈现渐变的浅青色调，向外海逐步加深。沿海岸线分布着狭长的沙滩与岩质崖岸，岸线整体呈蜿蜒的南北走向。主体开阔区域为大面积草原，占全域近七成面积，地势整体平缓，仅局部带有缓坡起伏。一条蜿蜒的河流自区域北部向南延伸，中段河面拓宽，最终向东注入东侧海洋。区域西侧零散分布着多处岩石地形，裸露的岩体点缀在草原上，地势相对周边草原小幅抬升，各地形单元自然衔接过渡。",
+          "semanticMap": {
+            "remoteUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a9f9a728c7f4393b4a7a4b0007b2fcf.png"
+          },
+          "sourcePreviewArtifactId": "preview_wo2dpdkv",
+          "sourceSceneImage": {
+            "remoteUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/3ae76cf2e7514237bc0d1cfc4f22cdae.png"
+          },
+          "status": "completed",
+          "terrainLayers": [
+            "Beach",
+            "Farmland",
+            "RockyTerrain",
+            "Sea",
+            "River",
+            "Cliff"
+          ],
+          "topView": {
+            "remoteUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6cbd354c37d74f7d9e7a11557117195d.png"
+          },
+          "turnId": "turn_1793716222919_fs711hyv",
+          "updatedAt": 1793717791050,
+          "mapSize": 256,
+          "terrainDescription": "区域东侧为海洋，近岸海水呈现渐变的浅青色调，向外海逐步加深。沿海岸线分布着狭长的沙滩与岩质崖岸，岸线整体呈蜿蜒的南北走向。主体开阔区域为大面积草原，占全域近七成面积，地势整体平缓，仅局部带有缓坡起伏。一条蜿蜒的河流自区域北部向南延伸，中段河面拓宽，最终向东注入东侧海洋。区域西侧零散分布着多处岩石地形，裸露的岩体点缀在草原上，地势相对周边草原小幅抬升，各地形单元自然衔接过渡。",
+          "terrainTypes": [
+            {
+              "name": "Beach",
+              "description": "沙滩（海岸/湖岸沙地）",
+              "color": "#FFFF00"
+            },
+            {
+              "name": "Farmland",
+              "description": "农田（农作物种植区，规则分布）",
+              "color": "#9ACD32"
+            },
+            {
+              "name": "RockyTerrain",
+              "description": "岩石地形（裸露岩石或石地）",
+              "color": "#808080"
+            },
+            {
+              "name": "Sea",
+              "description": "海洋（外海或大规模水体）",
+              "color": "#0066CC"
+            },
+            {
+              "name": "River",
+              "description": "河流",
+              "color": "#0096FF"
+            },
+            {
+              "name": "Cliff",
+              "description": "悬崖（陡峭岩壁，断崖）",
+              "color": "#708090"
+            }
+          ],
+          "graphId": "39974f82-b617-40f9-9245-1abbcc4f92d0"
+        },
+        "input_1793718294451_bqww4wlb": {
+          "id": "input_1793718294451_bqww4wlb",
+          "kind": "inputImage",
+          "status": "completed",
+          "createdAt": 1793718294451,
+          "updatedAt": 1793718294451,
+          "sourceMessageId": "msg_1793718294451_say1xycv",
+          "image": {
+            "remoteUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/13b0cbc493ba429d86ea0dc49c81b63c.png"
+          }
+        },
+        "preview_fqud7ygw": {
+          "id": "preview_fqud7ygw",
+          "kind": "mapPreview",
+          "status": "completed",
+          "createdAt": 1793718447735,
+          "displayTitle": "雪山滨海瀑布",
+          "updatedAt": 1793718448031,
+          "image": {
+            "remoteUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/13b0cbc493ba429d86ea0dc49c81b63c.png"
+          },
+          "prompt": "该图是完整的高清等距地貌场景，包含北部雪山、从雪山流出的蓝河、河流中段方形草原台地与瀑布、缓坡草原丘陵和东侧海岸线，完全符合用户期望对齐的地形参考要求，可直接作为地图预览候选。",
+          "candidateId": "accepted-reference-image",
+          "candidateIndex": 8,
+          "turnId": "turn_1793718286434_a71gwro7"
+        },
+        "terrain_1793718576737_grp7026h": {
+          "createdAt": 1793718576737,
+          "heightMap": {
+            "remoteUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/e25ed82878dd44ad93964134feda4dcf.png"
+          },
+          "id": "terrain_1793718576737_grp7026h",
+          "kind": "terrain3d",
+          "preview": {
+            "remoteUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/78c817a7debd435a8aeda8a104b5379d.png"
+          },
+          "prompt": "区域北侧是覆满积雪的雪山，山体下部为裸露岩石地形，地势为全域最高处。一条河流自雪山谷地向南蜿蜒流淌，流经一处顶部平坦、四周环绕悬崖的台地后，从崖壁跌落形成瀑布，续接下游河道最终向东注入东侧的海洋。全域大部分低缓区域为开阔草原，零散分布着低矮丘陵，沿海岸线环绕分布着条带状沙滩，陆地西南侧也被海洋环绕。",
+          "semanticMap": {
+            "remoteUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/0aa771399bb84ba5a42123221ffb053e.png"
+          },
+          "sourcePreviewArtifactId": "preview_fqud7ygw",
+          "sourceSceneImage": {
+            "remoteUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/13b0cbc493ba429d86ea0dc49c81b63c.png"
+          },
+          "status": "completed",
+          "terrainLayers": [
+            "Beach",
+            "Farmland",
+            "RockyTerrain",
+            "Sea",
+            "River",
+            "Valley",
+            "Mountain",
+            "Hill"
+          ],
+          "topView": {
+            "remoteUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/78c817a7debd435a8aeda8a104b5379d.png"
+          },
+          "turnId": "turn_1793718461279_6nfjotna",
+          "updatedAt": 1793720044693,
+          "mapSize": 256,
+          "terrainDescription": "区域北侧是覆满积雪的雪山，山体下部为裸露岩石地形，地势为全域最高处。一条河流自雪山谷地向南蜿蜒流淌，流经一处顶部平坦、四周环绕悬崖的台地后，从崖壁跌落形成瀑布，续接下游河道最终向东注入东侧的海洋。全域大部分低缓区域为开阔草原，零散分布着低矮丘陵，沿海岸线环绕分布着条带状沙滩，陆地西南侧也被海洋环绕。",
+          "terrainTypes": [
+            {
+              "name": "Beach",
+              "description": "沙滩（海岸/湖岸沙地）",
+              "color": "#FFFF00"
+            },
+            {
+              "name": "Farmland",
+              "description": "农田（农作物种植区，规则分布）",
+              "color": "#9ACD32"
+            },
+            {
+              "name": "RockyTerrain",
+              "description": "岩石地形（裸露岩石或石地）",
+              "color": "#808080"
+            },
+            {
+              "name": "Sea",
+              "description": "海洋（外海或大规模水体）",
+              "color": "#0066CC"
+            },
+            {
+              "name": "River",
+              "description": "河流",
+              "color": "#0096FF"
+            },
+            {
+              "name": "Valley",
+              "description": "山谷（地形低洼，常见河谷）",
+              "color": "#6B8E23"
+            },
+            {
+              "name": "Mountain",
+              "description": "山脉（大起伏山地）",
+              "color": "#424242"
+            },
+            {
+              "name": "Hill",
+              "description": "丘陵（中等起伏地形）",
+              "color": "#A0522D"
+            }
+          ],
+          "graphId": "415f16ce-1e31-4d49-924e-33c8fae6f474"
+        },
+        "preview_m8e6mf4f": {
+          "id": "preview_m8e6mf4f",
+          "kind": "mapPreview",
+          "status": "completed",
+          "createdAt": 1793719644840,
+          "displayTitle": "雪山水岸",
+          "updatedAt": 1793719810766,
+          "image": {
+            "remoteUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/209013a0344743879a2e06f2c57f9709.png"
+          },
+          "prompt": "30-60度等距俯视写实岛屿地图，岛屿主体由后方雪山、中部平坦台地草地、缓坡草原构成，四周全部环绕凹陷的碧蓝海洋水体，沿岸有浅金色沙滩，蜿蜒河流从雪山附近流出穿过台地边缘形成瀑布汇入下游凹陷河道，最终流入东侧海洋，所有水体都有真实水面反光，整体自然写实",
+          "candidateId": "candidate-a",
+          "candidateIndex": 9,
+          "turnId": "turn_1793719503167_klwbkbk7"
+        },
+        "preview_nv6uo4v2": {
+          "id": "preview_nv6uo4v2",
+          "kind": "mapPreview",
+          "status": "completed",
+          "createdAt": 1793719644840,
+          "displayTitle": "蓝湾翠岛",
+          "updatedAt": 1793719810766,
+          "image": {
+            "remoteUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/15f9846d27d24e7098e14459bdb7a95d.png"
+          },
+          "prompt": "清新插画风格岛屿地图，四周环绕浅蓝到深蓝渐变的凹陷海湾水体，岛内蜿蜒蓝色河流全部为凹陷水体，搭配平缓绿色草坡、雪山远峰，水面有少量白色波纹点缀，整体色彩明快干净",
+          "candidateId": "candidate-b",
+          "candidateIndex": 10,
+          "turnId": "turn_1793719503167_klwbkbk7"
+        },
+        "preview_clyur72c": {
+          "id": "preview_clyur72c",
+          "kind": "mapPreview",
+          "status": "completed",
+          "createdAt": 1793719644840,
+          "displayTitle": "岩岸绿岛",
+          "updatedAt": 1793719810766,
+          "image": {
+            "remoteUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/c6d9736d6c9f46ef9505cc5ddfce556a.png"
+          },
+          "prompt": "海岸探险主题岛屿地图，四周环绕凹陷的深蓝色海浪水体，沿岸分布浅灰色礁石，岛内河流为凹陷流动水体，从高地流向海洋，岛上覆盖翠绿草甸、零星裸露岩石和蜿蜒小径，水面与陆地边界清晰体现高差感",
+          "candidateId": "candidate-c",
+          "candidateIndex": 11,
+          "turnId": "turn_1793719503167_klwbkbk7"
+        },
+        "preview_kwtch9uw": {
+          "id": "preview_kwtch9uw",
+          "kind": "mapPreview",
+          "status": "failed",
+          "createdAt": 1793719644840,
+          "displayTitle": "晴日海岛",
+          "updatedAt": 1793719810766,
+          "image": {},
+          "prompt": "暖调午后光照的岛屿地图，四周环绕凹陷的通透浅蓝海水，水面带有柔和金色天光反光，岛内凹陷河流水面同样反射阳光，岛屿主体覆盖嫩绿色草甸，远侧雪山被暖光镀上金边，整体氛围温暖明亮",
+          "candidateId": "candidate-d",
+          "candidateIndex": 12,
+          "turnId": "turn_1793719503167_klwbkbk7"
+        }
+      },
+      "asyncAsset3dTasks": [],
+      "createdAt": 1793714819469,
+      "updatedAt": 1793720044693,
+      "workspaceId": "workspace_6o2qm5xs",
+      "opencodeSessionId": "ses_e5e43ee18ffeeA9Ryn05iSEtMq"
+    }
+  ]
+}

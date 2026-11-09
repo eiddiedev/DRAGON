@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.tmp
+# 旧备份只留在原电脑，仓库里保留最近三个
+backups/*
+!backups/scene.v7-ui.data
+!backups/scene.v6-placed.data
+!backups/scene.v6-before-fix.data

@@ -1,0 +1,980 @@
+<title>龙眠之境策划书</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600;900&family=Noto+Sans+SC:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column for prose, full-width plates for the map, section and blueprints. Blueprints are cyanotype plates. */
+:root{
+  --bg:#EDF0F2; --surface:#FFFFFF; --ink:#18222C; --muted:#5A6672; --line:#CBD3DA;
+  --gold:#A8721A; --roof:#B8452F; --violet:#6A4FD8;
+  --bp:#1E4E7C; --bp-line:#DCEBFA; --bp-grid:rgba(220,235,250,.10); --bp-dim:rgba(220,235,250,.55);
+  --display:"Noto Serif SC","Songti SC","STSong",serif;
+  --body:"Noto Sans SC","PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,"SF Mono",Menlo,monospace;
+  /* map palette (day) */
+  --m-sky:#BFE3F7; --m-grass:#8DBF5A; --m-grass2:#AED26E; --m-plateau:#A3C66C; --m-forest:#3E7A3F; --m-tree:#5E9E45;
+  --m-sea:#2FA7A8; --m-sea-d:#1F7F95; --m-sand:#E9D49A; --m-rock:#8A93A0; --m-rock-d:#5F6875; --m-snow:#F4F7FA;
+  --m-river:#4DBACB; --m-roof:#C4513A; --m-slate:#6E7F99; --m-stone:#DAD5C8; --m-ink:#1B2430; --m-gold:#E2A93B;
+  --m-label:#FFFFFF; --m-win:#FFD873; --m-spirit:#B79BFF; --m-cone:#FFFFFF; --m-dragon:#2E6B66;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0E141B; --surface:#16202A; --ink:#E6ECF1; --muted:#95A3B0; --line:#2A3744;
+  --gold:#E3B254; --roof:#E57A5E; --violet:#A891FF;
+  --bp:#143A5F; --bp-line:#D2E5F8; --bp-grid:rgba(210,229,248,.08); --bp-dim:rgba(210,229,248,.5);
+  color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --bg:#0E141B; --surface:#16202A; --ink:#E6ECF1; --muted:#95A3B0; --line:#2A3744;
+  --gold:#E3B254; --roof:#E57A5E; --violet:#A891FF;
+  --bp:#143A5F; --bp-line:#D2E5F8; --bp-grid:rgba(210,229,248,.08); --bp-dim:rgba(210,229,248,.5);
+  color-scheme:dark;}
+.night{
+  --m-sky:#141B3A; --m-grass:#2D4A45; --m-grass2:#35564F; --m-plateau:#33524A; --m-forest:#18302F; --m-tree:#24413F;
+  --m-sea:#12345A; --m-sea-d:#0C2443; --m-sand:#5E5D6E; --m-rock:#3E4660; --m-rock-d:#2A3047; --m-snow:#A9BBDA;
+  --m-river:#2B5F8E; --m-roof:#6E3B4A; --m-slate:#3C4766; --m-stone:#646985; --m-gold:#F2C25B; --m-cone:#9DB4FF; --m-dragon:#1E3F45;
+}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15.5px;line-height:1.75;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));}
+.wrap{max-width:1120px;margin:0 auto;padding-block:40px 80px;display:flex;flex-direction:column;gap:72px}
+.prose{max-width:720px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0;line-height:1.25}
+h2{font-size:30px;font-weight:900;letter-spacing:.02em}
+h3{font-size:19px;font-weight:600}
+p{margin:0}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.sec{display:flex;flex-direction:column;gap:20px}
+.sec-head{display:flex;flex-direction:column;gap:8px;max-width:720px}
+.sec-head p{color:var(--muted)}
+.mono{font-family:var(--mono)}
+/* hero */
+.hero{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:40px;align-items:end;padding-top:16px}
+.hero h1{font-size:clamp(56px,10vw,104px);font-weight:900;letter-spacing:.04em}
+.hero .sub{font-family:var(--display);font-size:20px;color:var(--muted);margin-top:6px}
+.hero .tag{font-family:var(--display);font-size:24px;margin-top:22px;font-weight:600}
+.hero .tag em{font-style:normal;color:var(--gold)}
+.facts{display:grid;grid-template-columns:auto 1fr;gap:6px 18px;font-size:14px;border-top:1px solid var(--line);padding-top:16px}
+.facts dt{font-family:var(--mono);font-size:12px;color:var(--muted);letter-spacing:.06em;padding-top:2px}
+.facts dd{margin:0;font-variant-numeric:tabular-nums}
+@media (max-width:820px){.hero{grid-template-columns:1fr;gap:24px}}
+/* plates */
+.plate{background:var(--surface);border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.plate-bar{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;justify-content:space-between;padding:12px 16px;border-bottom:1px solid var(--line)}
+.plate-bar .t{font-family:var(--mono);font-size:12px;letter-spacing:.08em;color:var(--muted)}
+.toggle{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:3px;gap:2px}
+.toggle button{font:500 13px var(--body);border:0;background:transparent;color:var(--muted);padding:5px 14px;border-radius:999px;cursor:pointer}
+.toggle button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.toggle button:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+.mapbox{overflow-x:auto}
+.mapbox svg{display:block;width:100%;min-width:640px;height:auto}
+.map-grid{display:grid;grid-template-columns:minmax(0,1fr) 300px;}
+.legend{border-left:1px solid var(--line);padding:16px;display:flex;flex-direction:column;gap:14px;font-size:13.5px}
+.legend ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.legend li{display:grid;grid-template-columns:24px 1fr;gap:8px;align-items:start;line-height:1.5}
+.pin{display:inline-grid;place-items:center;width:22px;height:22px;border-radius:50%;background:var(--ink);color:var(--bg);font:500 11px var(--mono)}
+.legend .k{display:flex;flex-direction:column;gap:6px;border-top:1px solid var(--line);padding-top:12px;color:var(--muted)}
+.legend .k span{display:flex;gap:8px;align-items:center}
+.sw{display:inline-block;width:22px;height:0;border-top:3px dashed var(--gold)}
+.sw.c{border-top:2px dashed var(--muted)}
+.sw.v{height:12px;border:0;background:linear-gradient(90deg,rgba(255,255,255,.0),var(--line));width:22px}
+@media (max-width:900px){.map-grid{grid-template-columns:1fr}.legend{border-left:0;border-top:1px solid var(--line)}.legend ol{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}}
+/* tables */
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:500;font-size:12px;letter-spacing:.06em;color:var(--muted);background:color-mix(in srgb,var(--bg) 60%,var(--surface))}
+tr:last-child td{border-bottom:0}
+td.n{font-variant-numeric:tabular-nums;font-family:var(--mono);white-space:nowrap}
+.pri{display:inline-block;font:500 11px var(--mono);padding:2px 8px;border-radius:999px;border:1px solid currentColor;white-space:nowrap}
+.p0{color:var(--roof)} .p1{color:var(--gold)} .p2{color:var(--muted)}
+/* lore */
+.lore{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:40px}
+.lore .story{display:flex;flex-direction:column;gap:14px;font-size:16.5px;line-height:1.95}
+.lore .story p:first-child::first-letter{font-family:var(--display);font-size:3.1em;float:left;line-height:1;margin:6px 8px 0 0;color:var(--gold)}
+.gloss{display:flex;flex-direction:column;border-top:2px solid var(--ink)}
+.gloss div{display:grid;grid-template-columns:96px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);font-size:14px}
+.gloss b{font-family:var(--display);font-weight:600}
+@media (max-width:820px){.lore{grid-template-columns:1fr}}
+.pillars{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.pillars div{border-top:2px solid var(--gold);padding-top:12px;display:flex;flex-direction:column;gap:6px}
+.pillars p{color:var(--muted);font-size:14.5px}
+@media (max-width:820px){.pillars{grid-template-columns:1fr}}
+/* journey */
+.journey{list-style:none;margin:0;padding:0;display:flex;flex-direction:column}
+.journey li{display:grid;grid-template-columns:88px minmax(0,1fr);gap:16px;padding:14px 0;border-bottom:1px solid var(--line)}
+.journey .tm{font-family:var(--mono);font-size:13px;color:var(--gold);padding-top:2px}
+.journey b{font-family:var(--display);font-weight:600;font-size:16px;display:block}
+.journey p{color:var(--muted);font-size:14.5px}
+/* blueprints */
+.bps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+@media (max-width:900px){.bps{grid-template-columns:1fr}}
+.bpc{background:var(--surface);border:1px solid var(--line);border-radius:6px;overflow:hidden;display:flex;flex-direction:column}
+.bpv{background-color:var(--bp);background-image:linear-gradient(var(--bp-grid) 1px,transparent 1px),linear-gradient(90deg,var(--bp-grid) 1px,transparent 1px);background-size:20px 20px;position:relative}
+.bpv svg{display:block;width:100%;height:auto}
+.tb{border-top:1px solid var(--bp-dim);color:var(--bp-line);font:400 11px/1.5 var(--mono);padding:6px 12px;letter-spacing:.04em;text-align:right}
+.tb b{font-weight:500}
+.bpc .info{padding:16px;display:flex;flex-direction:column;gap:10px}
+.bpc .info h3 small{font-family:var(--mono);font-size:12px;font-weight:400;color:var(--muted);margin-left:8px;letter-spacing:.06em}
+.specs{display:grid;grid-template-columns:72px 1fr;gap:4px 12px;font-size:13.5px;margin:0}
+.specs dt{color:var(--muted);font-size:12.5px}
+.specs dd{margin:0}
+svg .s{fill:none;stroke:var(--bp-line);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+svg .t{fill:none;stroke:var(--bp-line);stroke-width:1.2;stroke-linecap:round;opacity:.8}
+svg .d{fill:none;stroke:var(--bp-line);stroke-width:1.3;stroke-dasharray:5 5;opacity:.85}
+svg .f{fill:var(--bp-line);fill-opacity:.10}
+svg .ff{fill:var(--bp-line)}
+svg .bg{fill:var(--bp)}
+svg .lb{fill:var(--bp-line);font:500 12px var(--body)}
+svg .sm{fill:var(--bp-line);font:400 10.5px var(--mono);opacity:.85}
+svg .cn{fill:var(--bp);stroke:var(--bp-line);stroke-width:1.3}
+svg .cnt{fill:var(--bp-line);font:500 10px var(--mono);text-anchor:middle;dominant-baseline:central}
+svg .ia{fill:none;stroke:var(--bp-line);stroke-width:1.5;stroke-dasharray:2 4}
+/* capacity */
+.cap{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:24px}
+@media (max-width:860px){.cap{grid-template-columns:1fr}}
+.bar{height:8px;background:var(--line);border-radius:4px;overflow:hidden;min-width:60px}
+.bar i{display:block;height:100%;background:var(--gold)}
+.bar.r i{background:var(--muted)}
+.palette{display:grid;grid-template-columns:repeat(auto-fill,minmax(120px,1fr));gap:12px}
+.chip{display:flex;flex-direction:column;gap:6px;font-size:13px}
+.chip i{display:block;height:56px;border-radius:4px;border:1px solid var(--line)}
+.chip span{font-family:var(--mono);font-size:11.5px;color:var(--muted)}
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+@media (max-width:820px){.two{grid-template-columns:1fr}}
+.list{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:8px}
+.list li::marker{color:var(--gold)}
+.note{font-size:13.5px;color:var(--muted)}
+.steps{counter-reset:s;list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.steps li{counter-increment:s;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px;display:flex;flex-direction:column;gap:4px;font-size:14px}
+.steps li::before{content:"阶段 " counter(s);font:500 11px var(--mono);letter-spacing:.08em;color:var(--gold)}
+.steps b{font-family:var(--display);font-weight:600;font-size:15.5px}
+.steps p{color:var(--muted);font-size:13.5px}
+footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:16px}
+@media (prefers-reduced-motion:no-preference){ .mapbox svg *{transition:fill .6s ease, opacity .6s ease} }
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="fig" viewBox="0 0 14 20"><path d="M7 0C10 5 14 9 14 13A7 7 0 0 1 0 13C0 9 4 5 7 0Z" fill="currentColor"/></symbol>
+</svg>
+
+<div class="wrap">
+
+<!-- HERO -->
+<header class="hero">
+  <div>
+    <div class="eyebrow">造世界 · 参赛策划书 v0.1</div>
+    <h1>龙眠之境</h1>
+    <div class="sub">一座剑与魔法的王国，和一条睡在雪峰上的古龙</div>
+    <div class="tag">白天是童话，<em>夜晚是史诗。</em></div>
+  </div>
+  <dl class="facts">
+    <dt>地图</dt><dd>128 × 128 格，AI 地形生成 + 笔刷精修</dd>
+    <dt>容量</dt><dd>上限 4000，规划 3300 + 预留 700</dd>
+    <dt>光源</dt><dd>上限 32，规划 13</dd>
+    <dt>画风</dt><dd>玩具感史诗：圆润厚实的造型，宏大的构图</dd>
+    <dt>锚点</dt><dd>龙。所有区域与玩法都从这条龙延伸</dd>
+    <dt>日期</dt><dd class="mono">2026-11-03</dd>
+  </dl>
+</header>
+
+<!-- MAP -->
+<section class="sec" id="map">
+  <div class="sec-head">
+    <div class="eyebrow">地图概念图</div>
+    <h2>全图俯视</h2>
+    <p>北为上，1 格 = 10 像素。内容集中在虚线框出的核心区，外圈主要靠地形、海和雪山撑场面。可以切换白天和夜晚查看同一张图。</p>
+  </div>
+  <div class="plate" id="mapPlate">
+    <div class="plate-bar">
+      <span class="t">MAP-00 · 龙眠之境 · 128×128</span>
+      <div class="toggle" role="group" aria-label="昼夜">
+        <button type="button" id="btnDay" aria-pressed="true">白天 · 晨金</button>
+        <button type="button" id="btnNight" aria-pressed="false">夜晚 · 龙梦之夜</button>
+      </div>
+    </div>
+    <div class="map-grid">
+      <div class="mapbox" id="mapWrap">
+        <svg id="map" viewBox="0 0 1280 1280" role="img" aria-label="龙眠之境地图概念图">
+          <defs>
+            <linearGradient id="cone" x1="0" y1="1" x2="0" y2="0">
+              <stop offset="0" stop-color="var(--m-cone)" stop-opacity=".55"/>
+              <stop offset="1" stop-color="var(--m-cone)" stop-opacity="0"/>
+            </linearGradient>
+            <radialGradient id="wisp"><stop offset="0" stop-color="var(--m-spirit)" stop-opacity=".95"/><stop offset="1" stop-color="var(--m-spirit)" stop-opacity="0"/></radialGradient>
+            <radialGradient id="glow"><stop offset="0" stop-color="var(--m-win)" stop-opacity=".9"/><stop offset="1" stop-color="var(--m-win)" stop-opacity="0"/></radialGradient>
+          </defs>
+          <g id="mapLayers"></g>
+        </svg>
+      </div>
+      <aside class="legend">
+        <ol>
+          <li><span class="pin">1</span><span><b>出生观景崖</b> · 第一眼全景</span></li>
+          <li><span class="pin">2</span><span><b>骑龙驿站</b> · 巡游起点</span></li>
+          <li><span class="pin">3</span><span><b>星塔城堡</b> · 主地标</span></li>
+          <li><span class="pin">4</span><span><b>浮空图书馆</b> · 领魔杖</span></li>
+          <li><span class="pin">5</span><span><b>女巫药水铺</b> · 4 种药水</span></li>
+          <li><span class="pin">6</span><span><b>天文塔</b> · 扫帚起飞台</span></li>
+          <li><span class="pin">7</span><span><b>月之钟楼</b> · 切换夜晚</span></li>
+          <li><span class="pin">8</span><span><b>龙骨竞技场</b> · 城堡地下</span></li>
+          <li><span class="pin">9</span><span><b>龙巢</b> · 古龙艾瑟拉</span></li>
+          <li><span class="pin">10</span><span><b>红顶小镇</b> · 沿河</span></li>
+          <li><span class="pin">11</span><span><b>港口</b> · 帆船</span></li>
+          <li><span class="pin">12</span><span><b>灯塔岬</b></span></li>
+          <li><span class="pin">13</span><span><b>幽影林</b> · 夜间梦魇影出没</span></li>
+          <li><span class="pin">14</span><span><b>牧羊坡</b> · 羊群与风车</span></li>
+        </ol>
+        <div class="k">
+          <span><i class="sw"></i>骑龙巡游航线（约 90 秒）</span>
+          <span><i class="sw c"></i>核心区：高密度摆放</span>
+          <span><i class="sw v"></i>出生点第一眼视野</span>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- SECTION -->
+<section class="sec">
+  <div class="sec-head">
+    <div class="eyebrow">剖面图 · 由南向北</div>
+    <h2>五层高度，一条视线</h2>
+    <p>海贼岛只有一个平面。龙眠之境从地下到天空分成五层，出生点的视线正好穿过小镇，落在城堡和龙巢上。</p>
+  </div>
+  <div class="plate">
+    <div class="plate-bar"><span class="t">SEC-01 · 出生崖 → 小镇 → 星塔城堡 → 龙巢</span></div>
+    <div class="mapbox">
+      <svg viewBox="0 0 1200 440" role="img" aria-label="南北剖面图">
+        <rect width="1200" height="440" style="fill:var(--m-sky)"/>
+        <path d="M200 70 C420 20 700 40 1000 18 S1180 60 1190 90" style="fill:none;stroke:var(--m-gold);stroke-width:3;stroke-dasharray:10 8"/>
+        <path d="M680 440 L800 150 L880 200 L1000 34 L1090 150 L1200 100 L1200 440Z" style="fill:var(--m-rock)"/>
+        <path d="M960 88 L1000 34 L1040 90 L1020 82 L1000 96 L982 80Z M786 184 L800 150 L822 165 L810 172Z M1172 118 L1200 100 L1200 128Z" style="fill:var(--m-snow)"/>
+        <path d="M975 70 C955 50 990 30 1010 40 C1035 52 1030 80 1005 78" style="fill:none;stroke:var(--m-dragon);stroke-width:12;stroke-linecap:round"/>
+        <path d="M1005 40 L1022 22 L1030 34Z" style="fill:var(--m-dragon)"/>
+        <path d="M720 440 L760 262 L790 240 L905 240 L930 270 L950 440Z" style="fill:var(--m-rock-d)"/>
+        <g style="fill:var(--m-stone)">
+          <rect x="770" y="200" width="150" height="40"/><rect x="805" y="150" width="80" height="50"/>
+          <rect x="826" y="100" width="40" height="50"/><rect x="784" y="96" width="18" height="104"/><rect x="890" y="160" width="16" height="40"/>
+        </g>
+        <g style="fill:var(--m-slate)">
+          <path d="M820 100 L846 62 L872 100Z"/><path d="M780 96 L793 52 L806 96Z"/><path d="M887 160 L898 136 L909 160Z"/>
+        </g>
+        <ellipse cx="840" cy="360" rx="62" ry="30" style="fill:var(--m-ink);fill-opacity:.75;stroke:var(--m-gold);stroke-width:2;stroke-dasharray:6 5"/>
+        <path d="M0 440 L0 232 L220 226 L252 242 L290 330 L480 345 L640 345 L722 330 L732 440Z" style="fill:var(--m-grass)"/>
+        <g id="secHouses"></g>
+        <ellipse cx="600" cy="347" rx="26" ry="5" style="fill:var(--m-river)"/>
+        <use href="#fig" x="172" y="208" width="13" height="18" style="color:var(--m-gold)"/>
+        <path d="M184 214 L1000 50 M184 214 L846 112" style="fill:none;stroke:var(--m-ink);stroke-width:1.5;stroke-dasharray:4 6;opacity:.6"/>
+        <g style="font:600 15px var(--display);fill:var(--m-ink)">
+          <text x="210" y="56">天空 · 骑龙航线</text>
+          <text x="1040" y="200">雪峰 · 龙巢</text>
+          <text x="940" y="230">悬崖 · 星塔城堡</text>
+          <text x="420" y="390">山谷 · 小镇与河</text>
+          <text x="776" y="410" style="fill:var(--m-label)">地下 · 龙骨竞技场</text>
+          <text x="40" y="270">出生观景崖</text>
+        </g>
+        <text x="460" y="150" style="font:400 13px var(--mono);fill:var(--m-ink);opacity:.7">出生点视线 → 城堡与龙叠在同一方向</text>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- LORE -->
+<section class="sec" id="lore">
+  <div class="sec-head">
+    <div class="eyebrow">世界观</div>
+    <h2>龙约</h2>
+  </div>
+  <div class="lore">
+    <div class="story">
+      <p>千年前，古龙艾瑟拉和这片土地上的人们立下「龙约」：它用龙焰守护王国，人们在雪山脚下修建星塔学院，替它看守沉睡之所。约定立下后，古龙飞上北方最高的雪峰，盘起身子睡着了，一睡就是一千年。</p>
+      <p>王国在龙的庇护下长成了今天的样子。山谷里，红瓦小镇沿着雪水河一路修到海湾；港口每天都有帆船进出；学院的塔楼一层层挂在悬崖上，从山谷里抬头就能看见。学徒们在浮空图书馆里翻魔法书，女巫薇拉用龙鳞和月光草熬制效果古怪的药水。</p>
+      <p>但龙会做梦。每当月之钟敲响、蓝月升起，古龙的噩梦就化成「梦魇影」，从雪峰顺着河谷飘下来，钻进森林和街巷。学院的规矩是：每个学徒都要学会用光之魔法和剑驱散它们，守到天亮。</p>
+      <p>你是今年刚到星塔学院报到的学徒。</p>
+    </div>
+    <div class="gloss">
+      <div><b>艾瑟拉</b><span>沉睡的古龙。盘在龙巢峰顶，眼睛会发光，鼻孔冒烟。全图第二地标。</span></div>
+      <div><b>龙约</b><span>龙与人的约定。解释了城堡为什么建在龙的山脚下。</span></div>
+      <div><b>星塔学院</b><span>悬崖上层叠的城堡。图书馆、药水铺、天文塔、钟楼都属于它。</span></div>
+      <div><b>薇拉</b><span>学院的女巫，经营药水铺。全图唯一的 NPC。</span></div>
+      <div><b>月之钟</b><span>钟楼里的大钟。任何人敲响都会让全服入夜。</span></div>
+      <div><b>梦魇影</b><span>龙的噩梦化成的暗影。只在夜里出现，被光打中会散开。</span></div>
+      <div><b>龙蛋</b><span>龙巢边的三枚蛋。带回药水铺的坩埚可以孵出小龙。</span></div>
+    </div>
+  </div>
+  <div class="pillars">
+    <div><h3>一条龙串起一切</h3><p>城堡是为龙建的，药水用龙鳞熬，夜晚是龙的梦，骑龙是游览方式。评委听一句话就能理解整个世界。</p></div>
+    <div><h3>垂直分层</h3><p>地下竞技场、山谷小镇、悬崖城堡、雪峰龙巢、天空航线，五层高度。走、飞、骑三种方式在层之间移动。</p></div>
+    <div><h3>昼夜反差</h3><p>同一个机位，白天是晨金色的童话，夜晚是蓝月下亮着窗灯的史诗。一张图拿出两套宣传画面。</p></div>
+  </div>
+</section>
+
+<!-- JOURNEY -->
+<section class="sec">
+  <div class="sec-head">
+    <div class="eyebrow">玩家前五分钟</div>
+    <h2>评委会看到什么</h2>
+    <p>按评委实际的游玩顺序安排。前 90 秒之内，评委不需要自己找路，就能看完全图。</p>
+  </div>
+  <ol class="journey">
+    <li><span class="tm">0:00</span><div><b>开场运镜</b><p>镜头先拉远对准龙巢和城堡，停 3 秒，再推回出生崖上的玩家背后。用 SetDistance / SetPitch / SetYaw 实现。</p></div></li>
+    <li><span class="tm">0:05</span><div><b>站在出生观景崖</b><p>脚下是羊群和草坡，正前方是山谷、小镇、悬崖城堡和雪峰上的龙，右手边是海湾。旁边就是拍照画框和骑龙驿站。</p></div></li>
+    <li><span class="tm">0:20</span><div><b>骑龙巡游 90 秒</b><p>沿 11 个航点飞完一圈：小镇 → 港口 → 灯塔 → 海岸 → 城堡塔楼之间 → 绕龙巢 → 幽影林 → 回到驿站。</p></div></li>
+    <li><span class="tm">2:00</span><div><b>下山进城</b><p>穿过小镇、过桥上悬崖：药水铺喝一瓶变成羊，图书馆领魔杖，天文塔拿扫帚飞一圈。</p></div></li>
+    <li><span class="tm">4:00</span><div><b>敲响月之钟</b><p>全服入夜，蓝月升起，梦魇影从雪峰飘下来。拿魔杖和剑驱散它们，或者下地下竞技场找人对战。</p></div></li>
+  </ol>
+</section>
+
+<!-- GAMEPLAY -->
+<section class="sec">
+  <div class="sec-head">
+    <div class="eyebrow">玩法清单</div>
+    <h2>体量控制在三档以内</h2>
+    <p>P0 和 P1 做完就可以参赛，P2 时间够再做。每一项都标了实现方式，能复用官方组件的优先复用。</p>
+  </div>
+  <div class="tbl"><table>
+    <thead><tr><th>优先级</th><th>玩法</th><th>内容</th><th>实现方式</th><th>位置</th></tr></thead>
+    <tbody>
+      <tr><td><span class="pri p0">P0</span></td><td>骑龙巡游</td><td>坐上龙背，沿航线 90 秒游览全图，结束后自动回到驿站</td><td>官方「停泊底座热气球」换成龙的外观 + 航点</td><td>2</td></tr>
+      <tr><td><span class="pri p0">P0</span></td><td>开场运镜</td><td>进入世界时先展示全景，再回到玩家身后</td><td>DouyinCameraService</td><td>1</td></tr>
+      <tr><td><span class="pri p0">P0</span></td><td>魔法画框拍照</td><td>在观景崖拍照并分享</td><td>StartPhotograph + ShareTexture</td><td>1</td></tr>
+      <tr><td><span class="pri p1">P1</span></td><td>女巫药水</td><td>巨人、缩小、羽毛（低重力）、咩咩（变成羊）四种，每种 30 秒</td><td>actor.scale / gravityScale / jumpHeight / SetVisible + 跟随的羊模型</td><td>5</td></tr>
+      <tr><td><span class="pri p1">P1</span></td><td>扫帚飞行</td><td>限时 60 秒自由飞行，限制最高高度</td><td>EnableFly / StartFly / flyMaxHeight</td><td>6</td></tr>
+      <tr><td><span class="pri p1">P1</span></td><td>魔杖与剑</td><td>魔杖发射光弹（射线判定），剑做近战挥砍</td><td>手持物 + 射线判定（参考海贼岛的 AK）</td><td>4、武器架</td></tr>
+      <tr><td><span class="pri p1">P1</span></td><td>龙骨竞技场</td><td>两人选武器，把对方击退出圈算赢，不扣血；墙上挂胜场榜</td><td>物理冲量 + 出界判定 + OrderedDataStore</td><td>8</td></tr>
+      <tr><td><span class="pri p2">P2</span></td><td>龙梦之夜</td><td>敲钟后全服入夜 3 分钟，梦魇影出没，被光弹或剑命中后散开</td><td>SceneEnvironment.Change + RemoteEvent 同步全员</td><td>7、13、10</td></tr>
+      <tr><td><span class="pri p2">P2</span></td><td>龙蛋孵化</td><td>骑扫帚上龙巢取蛋，放进坩埚，孵出小龙趴在肩上</td><td>手持物 + MIX 替换</td><td>9 → 5</td></tr>
+    </tbody>
+  </table></div>
+  <p class="note">不做：魔法技能树、任务系统、背包。评委不会细玩，这些投入换不来第一印象。</p>
+</section>
+
+<!-- BLUEPRINTS -->
+<section class="sec" id="bp">
+  <div class="sec-head">
+    <div class="eyebrow">建筑蓝图</div>
+    <h2>十张蓝图</h2>
+    <p>高度单位 h = 一个小火人的身高，每张图左下或角落都画了一个小火人做比例参照；占地单位是地图格。尺寸是规划值，进编辑器后按实际手感调整。<svg width="12" height="12" viewBox="0 0 14 20" aria-hidden="true" style="vertical-align:-1px;color:var(--gold)"><use href="#fig"/></svg> 是比例人，虚线圈是交互范围。</p>
+  </div>
+  <div class="bps">
+
+    <!-- BP-01 Castle -->
+    <article class="bpc">
+      <div class="bpv"><svg viewBox="0 0 480 320" role="img" aria-label="星塔城堡南立面">
+        <path class="s f" d="M20 316 L50 222 L95 200 L385 200 L430 222 L460 316"/>
+        <path class="t" d="M62 245 L78 305 M108 222 L120 300 M378 228 L398 300 M418 252 L430 305"/>
+        <rect class="s" x="90" y="168" width="300" height="32"/>
+        <line x1="90" y1="164" x2="390" y2="164" class="s" style="stroke-width:6;stroke-dasharray:8 6"/>
+        <path class="s" d="M228 200 V186 a12 12 0 0 1 24 0 V200"/>
+        <rect class="s" x="140" y="128" width="200" height="40"/>
+        <line x1="140" y1="124" x2="340" y2="124" class="s" style="stroke-width:6;stroke-dasharray:8 6"/>
+        <path class="t" d="M158 160 v-14 a5 5 0 0 1 10 0 v14 M188 160 v-14 a5 5 0 0 1 10 0 v14 M282 160 v-14 a5 5 0 0 1 10 0 v14 M312 160 v-14 a5 5 0 0 1 10 0 v14"/>
+        <rect class="s" x="200" y="72" width="80" height="56"/>
+        <path class="s f" d="M190 72 L240 30 L290 72Z"/>
+        <path class="t" d="M222 112 v-12 a5 5 0 0 1 10 0 v12 M236 112 v-12 a5 5 0 0 1 10 0 v12 M250 112 v-12 a5 5 0 0 1 10 0 v12"/>
+        <rect class="s" x="104" y="40" width="32" height="128"/>
+        <path class="s f" d="M98 40 L120 8 L142 40Z"/>
+        <line class="t" x1="96" y1="52" x2="144" y2="52"/>
+        <rect class="s" x="342" y="82" width="30" height="86"/>
+        <path class="s f" d="M336 82 L357 52 L378 82Z"/>
+        <path class="t" d="M350 108 v-12 a7 7 0 0 1 14 0 v12"/>
+        <rect class="s" x="150" y="100" width="20" height="28"/><path class="s f" d="M146 100 L160 80 L174 100Z"/>
+        <rect class="s" x="310" y="100" width="20" height="28"/><path class="s f" d="M306 100 L320 80 L334 100Z"/>
+        <path class="t" d="M390 200 L405 215 L395 230 L412 248 L400 265 L420 286"/>
+        <path class="t" d="M452 8 V200 M446 8 H458 M446 200 H458"/>
+        <text class="sm" x="446" y="110" transform="rotate(-90 446 110)" text-anchor="middle">≈ 24h</text>
+        <use href="#fig" x="397" y="192" width="6" height="8" style="color:var(--bp-line)"/>
+        <g><circle class="cn" cx="88" cy="24" r="9"/><text class="cnt" x="88" y="24">1</text></g>
+        <g><circle class="cn" cx="240" cy="18" r="9"/><text class="cnt" x="240" y="18">2</text></g>
+        <g><circle class="cn" cx="392" cy="62" r="9"/><text class="cnt" x="392" y="62">3</text></g>
+        <g><circle class="cn" cx="120" cy="140" r="9"/><text class="cnt" x="120" y="140">4</text></g>
+        <g><circle class="cn" cx="270" cy="146" r="9"/><text class="cnt" x="270" y="146">5</text></g>
+        <g><circle class="cn" cx="430" cy="270" r="9"/><text class="cnt" x="430" y="270">6</text></g>
+      </svg><div class="tb"><b>BP-01</b> 南立面 · 1h=8px</div></div>
+      <div class="info">
+        <h3>星塔城堡<small>主地标 · P0</small></h3>
+        <dl class="specs">
+          <dt>位置</dt><dd class="mono">x 44–70, y 25–50（悬崖台地）</dd>
+          <dt>体量</dt><dd>占地约 28×22 格，总高约 24h，沿悬崖分三层往下落</dd>
+          <dt>构成</dt><dd>① 天文塔 ② 主楼 ③ 钟楼 ④ 下层城墙与药水铺 ⑤ 中层图书馆 ⑥ 通往小镇的悬崖阶梯</dd>
+          <dt>生成</dt><dd>模型生成，分 4–5 个部件分别生成后拼装，方便各自挂交互</dd>
+          <dt>造型</dt><dd>灰白石墙 + 板岩蓝尖顶，尖顶偏高偏细，从出生点看轮廓要锐利；不要做成霍格沃茨的经典剪影</dd>
+          <dt>容量</dt><dd class="mono">560</dd>
+        </dl>
+      </div>
+    </article>
+
+    <!-- BP-02 Dragon -->
+    <article class="bpc">
+      <div class="bpv"><svg viewBox="0 0 480 320" role="img" aria-label="龙巢与古龙侧视">
+        <path class="s f" d="M20 316 L170 90 L215 40 L260 70 L330 150 L460 316"/>
+        <path class="t f" d="M150 118 L170 90 L215 40 L260 70 L290 105 L265 98 L245 115 L222 95 L200 118 L178 105Z"/>
+        <path class="s" d="M250 192 Q300 176 352 196"/>
+        <ellipse class="s f" cx="286" cy="182" rx="7" ry="9"/><ellipse class="s f" cx="304" cy="179" rx="7" ry="9"/><ellipse class="s f" cx="322" cy="183" rx="7" ry="9"/>
+        <path d="M120 230 C90 180 150 150 210 160 C280 172 330 200 300 230 C270 258 200 250 190 215 C182 190 205 150 225 120" style="fill:none;stroke:var(--bp-line);stroke-width:17;stroke-linecap:round"/>
+        <path d="M120 230 C90 180 150 150 210 160 C280 172 330 200 300 230 C270 258 200 250 190 215 C182 190 205 150 225 120" style="fill:none;stroke:var(--bp);stroke-width:12;stroke-linecap:round"/>
+        <path class="t" d="M150 172 l6 -10 M180 162 l6 -10 M240 166 l6 -10 M280 180 l8 -8 M302 210 l10 -4"/>
+        <path class="s" d="M120 230 Q100 262 66 256 L78 248"/>
+        <path class="s f" d="M190 162 L100 96 L140 126 L118 84 L168 128 L166 100 L204 158Z"/>
+        <path class="s f" d="M218 126 L232 96 L262 92 L252 108 L236 112Z"/>
+        <path class="s" d="M234 98 L226 78 M243 96 L241 74"/>
+        <circle class="ff" cx="247" cy="100" r="2.6"/>
+        <path class="d" d="M266 90 q8 -6 4 -14 q-4 -8 6 -14 M272 96 q10 -2 10 -10"/>
+        <path class="t" d="M470 40 V316 M464 40 H476 M464 316 H476"/>
+        <text class="sm" x="464" y="180" transform="rotate(-90 464 180)" text-anchor="middle">峰高 ≈ 55h</text>
+        <use href="#fig" x="346" y="186" width="4" height="6" style="color:var(--bp-line)"/>
+        <g><circle class="cn" cx="270" cy="114" r="9"/><text class="cnt" x="270" y="114">1</text></g>
+        <g><circle class="cn" cx="292" cy="58" r="9"/><text class="cnt" x="292" y="58">2</text></g>
+        <g><circle class="cn" cx="304" cy="208" r="9"/><text class="cnt" x="304" y="208" dy="0">3</text></g>
+        <g><circle class="cn" cx="96" cy="78" r="9"/><text class="cnt" x="96" y="78">4</text></g>
+      </svg><div class="tb"><b>BP-02</b> 侧视 · 1h=5px</div></div>
+      <div class="info">
+        <h3>龙巢 · 古龙艾瑟拉<small>第二地标 · P0</small></h3>
+        <dl class="specs">
+          <dt>位置</dt><dd class="mono">x 52–64, y 6–18（全图最高峰）</dd>
+          <dt>体量</dt><dd>龙身展开约 45h，盘在峰顶；从出生点看，龙要在城堡尖顶的正上方</dd>
+          <dt>构成</dt><dd>① 龙眼：自发光材质，夜晚由金色变成蓝色 ② 鼻息烟雾特效 ③ 龙蛋 ×3，放在侧面的岩架上 ④ 收拢的翅膀</dd>
+          <dt>生成</dt><dd>模型生成一体铸造（静态、精度高）。另做一条小一号的龙，沿固定航线绕城堡飞，让画面动起来</dd>
+          <dt>造型</dt><dd>青绿色鳞片，轮廓大、头角明确，带一点可爱感，和小火人的画风统一</dd>
+          <dt>容量</dt><dd class="mono">300（静态古龙）+ 150（巡游龙 / 骑乘龙）</dd>
+        </dl>
+      </div>
+    </article>
+
+    <!-- BP-03 Library -->
+    <article class="bpc">
+      <div class="bpv"><svg viewBox="0 0 480 320" role="img" aria-label="浮空图书馆剖面">
+        <line class="s" x1="30" y1="286" x2="450" y2="286"/>
+        <rect class="s" x="60" y="120" width="360" height="166"/>
+        <path class="s f" d="M45 120 L240 40 L435 120"/>
+        <path class="s" d="M240 40 V24"/><path class="s f" d="M240 10 L246 18 L240 26 L234 18Z"/>
+        <path class="t" d="M85 200 V150 a10 10 0 0 1 20 0 V200Z M155 200 V150 a10 10 0 0 1 20 0 V200Z M305 200 V150 a10 10 0 0 1 20 0 V200Z M375 200 V150 a10 10 0 0 1 20 0 V200Z"/>
+        <rect class="t" x="70" y="214" width="44" height="72"/><path class="t" d="M70 232 H114 M70 250 H114 M70 268 H114"/>
+        <rect class="t" x="366" y="214" width="44" height="72"/><path class="t" d="M366 232 H410 M366 250 H410 M366 268 H410"/>
+        <ellipse class="d" cx="240" cy="186" rx="130" ry="28"/>
+        <g class="s f">
+          <rect x="112" y="176" width="18" height="12" transform="rotate(-18 121 182)"/>
+          <rect x="160" y="208" width="18" height="12" transform="rotate(12 169 214)"/>
+          <rect x="232" y="152" width="18" height="12" transform="rotate(-8 241 158)"/>
+          <rect x="300" y="206" width="18" height="12" transform="rotate(22 309 212)"/>
+          <rect x="350" y="174" width="18" height="12" transform="rotate(-25 359 180)"/>
+          <rect x="196" y="164" width="14" height="10" transform="rotate(30 203 169)"/>
+          <rect x="276" y="162" width="14" height="10" transform="rotate(-30 283 167)"/>
+        </g>
+        <path class="s" d="M228 286 L234 256 L246 256 L252 286 M220 254 L240 246 L260 254"/>
+        <circle class="ia" cx="240" cy="264" r="30"/>
+        <circle class="ff" cx="240" cy="96" r="4"/><path class="t" d="M240 84 V78 M228 96 H222 M252 96 H258 M232 88 l-4 -4 M248 88 l4 -4"/>
+        <path class="t" d="M20 40 V286 M14 40 H26 M14 286 H26"/>
+        <text class="sm" x="14" y="163" transform="rotate(-90 14 163)" text-anchor="middle">≈ 20h</text>
+        <use href="#fig" x="134" y="274" width="8" height="12" style="color:var(--bp-line)"/>
+        <text class="sm" x="276" y="280">交互 · 选书 → 领魔杖</text>
+        <text class="sm" x="292" y="140">书本自转 + 绕行</text>
+      </svg><div class="tb"><b>BP-03</b> 剖面 · 1h=12px</div></div>
+      <div class="info">
+        <h3>浮空图书馆<small>P1</small></h3>
+        <dl class="specs">
+          <dt>位置</dt><dd class="mono">x 50–61, y 36–42（城堡中层）</dd>
+          <dt>体量</dt><dd>占地约 12×6 格，高约 20h，大厅内部可进入</dd>
+          <dt>交互</dt><dd>中央书台：点「翻开魔法书」弹出 UI，选一本书，领取对应颜色的魔杖</dd>
+          <dt>动效</dt><dd>7 本书自运行：绕着大厅缓慢转圈，同时上下浮动（Agent 模式做可动部件）</dd>
+          <dt>光源</dt><dd>吊灯 1 盏 + 书台 1 盏；窗户用自发光材质</dd>
+          <dt>容量</dt><dd class="mono">140</dd>
+        </dl>
+      </div>
+    </article>
+
+    <!-- BP-04 Witch -->
+    <article class="bpc">
+      <div class="bpv"><svg viewBox="0 0 480 320" role="img" aria-label="女巫药水铺立面">
+        <line class="s" x1="30" y1="286" x2="450" y2="286"/>
+        <path class="s f" d="M180 286 L188 140 L302 132 L312 286Z"/>
+        <path class="s f" d="M165 142 L320 134 Q300 110 285 80 Q270 45 300 22 Q255 30 245 70 Q232 110 165 142Z"/>
+        <path class="t" d="M178 134 L310 128"/>
+        <path class="d" d="M300 22 q10 -6 6 -14 M306 14 q12 0 10 -10"/>
+        <path class="s" d="M232 286 V256 a13 13 0 0 1 26 0 V286"/>
+        <circle class="s" cx="245" cy="190" r="12"/><path class="t" d="M233 190 H257 M245 178 V202"/>
+        <path class="s f" d="M300 230 L428 230 L418 248 L310 248Z"/>
+        <path class="t" d="M330 230 L326 248 M356 230 L354 248 M382 230 L382 248 M406 230 L408 248"/>
+        <rect class="s" x="310" y="256" width="110" height="30"/>
+        <g class="s f">
+          <circle cx="324" cy="246" r="6"/><rect x="321" y="234" width="6" height="7"/>
+          <circle cx="350" cy="246" r="6"/><rect x="347" y="234" width="6" height="7"/>
+          <circle cx="376" cy="246" r="6"/><rect x="373" y="234" width="6" height="7"/>
+          <circle cx="402" cy="246" r="6"/><rect x="399" y="234" width="6" height="7"/>
+        </g>
+        <text class="sm" x="324" y="274" text-anchor="middle">巨</text><text class="sm" x="350" y="274" text-anchor="middle">缩</text><text class="sm" x="376" y="274" text-anchor="middle">羽</text><text class="sm" x="402" y="274" text-anchor="middle">咩</text>
+        <path class="s f" d="M78 262 Q78 288 104 288 Q130 288 130 262Z"/><ellipse class="s" cx="104" cy="262" rx="27" ry="5"/>
+        <circle class="t" cx="96" cy="248" r="4"/><circle class="t" cx="110" cy="240" r="3"/><circle class="t" cx="102" cy="230" r="2.5"/>
+        <circle class="ia" cx="104" cy="268" r="34"/><circle class="ia" cx="364" cy="262" r="56"/>
+        <use href="#fig" x="152" y="270" width="11" height="16" style="color:var(--bp-line)"/>
+        <path class="ff" d="M151 272 L158 258 L165 272Z"/>
+        <text class="sm" x="132" y="306">女巫薇拉</text>
+        <text class="sm" x="62" y="214">坩埚 · 孵龙蛋</text>
+        <path class="t" d="M456 22 V286 M450 22 H462 M450 286 H462"/>
+        <text class="sm" x="450" y="154" transform="rotate(-90 450 154)" text-anchor="middle">≈ 22h</text>
+      </svg><div class="tb"><b>BP-04</b> 立面 · 1h=12px</div></div>
+      <div class="info">
+        <h3>女巫药水铺<small>P1</small></h3>
+        <dl class="specs">
+          <dt>位置</dt><dd class="mono">x 45–50, y 42–47（城堡下层城墙外侧）</dd>
+          <dt>体量</dt><dd>歪斜塔楼 + 尖帽屋顶，高约 22h；摊位在右侧</dd>
+          <dt>交互</dt><dd>摊位上 4 瓶药水各一个交互按钮，喝下后效果持续 30 秒，冷却 10 秒。左侧坩埚收龙蛋（P2）</dd>
+          <dt>效果</dt><dd>巨人：scale 2.5 · 缩小：scale 0.4，可钻进城堡的老鼠洞 · 羽毛：低重力高跳 · 咩咩：隐藏角色，羊模型跟随</dd>
+          <dt>光源</dt><dd>坩埚 1 盏（绿紫色）</dd>
+          <dt>容量</dt><dd class="mono">90</dd>
+        </dl>
+      </div>
+    </article>
+
+    <!-- BP-05 Observatory -->
+    <article class="bpc">
+      <div class="bpv"><svg viewBox="0 0 480 320" role="img" aria-label="天文塔与扫帚起飞台">
+        <line class="s" x1="40" y1="300" x2="440" y2="300"/>
+        <path class="s f" d="M215 300 L222 95 L258 95 L265 300Z"/>
+        <path class="t" d="M236 130 v12 M244 170 v12 M236 210 v12 M244 250 v12"/>
+        <rect class="s" x="175" y="85" width="130" height="10"/>
+        <path class="t" d="M175 72 H305 M180 72 V85 M200 72 V85 M280 72 V85 M300 72 V85"/>
+        <path class="s f" d="M215 85 A25 25 0 0 1 265 85"/>
+        <path class="s" d="M252 68 L292 44"/>
+        <g class="s"><path d="M184 85 L192 54"/><path d="M194 85 L202 54"/><path d="M204 85 L212 54"/></g>
+        <g class="t"><path d="M181 72 L186 85 L190 72"/><path d="M191 72 L196 85 L200 72"/></g>
+        <path class="d" d="M305 80 L462 14 M305 80 L462 126"/>
+        <path class="t" d="M420 32 A110 110 0 0 1 420 110"/>
+        <text class="sm" x="320" y="160">起飞方向 · 限时 60 秒</text>
+        <text class="sm" x="320" y="176">flyMaxHeight 封顶</text>
+        <circle class="ia" cx="198" cy="80" r="22"/>
+        <use href="#fig" x="226" y="79" width="4" height="6" style="color:var(--bp-line)"/>
+        <use href="#fig" x="270" y="292" width="4" height="6" style="color:var(--bp-line)"/>
+        <path class="t" d="M60 72 V300 M54 72 H66 M54 300 H66"/>
+        <text class="sm" x="54" y="186" transform="rotate(-90 54 186)" text-anchor="middle">≈ 38h</text>
+      </svg><div class="tb"><b>BP-05</b> 立面 · 1h=6px</div></div>
+      <div class="info">
+        <h3>天文塔 · 扫帚起飞台<small>P1</small></h3>
+        <dl class="specs">
+          <dt>位置</dt><dd class="mono">x 46–49, y 28–32（城堡西北角）</dd>
+          <dt>体量</dt><dd>全图最高建筑，约 38h；从出生点能看到细长的塔身</dd>
+          <dt>交互</dt><dd>顶层扫帚架：拿扫帚 → StartFly，60 秒后自动降落；塔底有传送阵直达顶层，不用爬楼</dd>
+          <dt>细节</dt><dd>半圆穹顶 + 望远镜，夜晚穹顶缝隙透出星光（自发光）</dd>
+          <dt>容量</dt><dd class="mono">70</dd>
+        </dl>
+      </div>
+    </article>
+
+    <!-- BP-06 Bell -->
+    <article class="bpc">
+      <div class="bpv"><svg viewBox="0 0 480 320" role="img" aria-label="月之钟楼立面">
+        <line class="s" x1="40" y1="300" x2="440" y2="300"/>
+        <rect class="s f" x="205" y="150" width="70" height="150"/>
+        <rect class="s" x="195" y="95" width="90" height="55"/>
+        <path class="s" d="M212 150 V122 a28 28 0 0 1 56 0 V150"/>
+        <path class="s f" d="M226 142 Q226 118 240 116 Q254 118 254 142Z"/>
+        <circle class="ff" cx="240" cy="146" r="3"/>
+        <path class="s f" d="M190 95 L240 40 L290 95Z"/>
+        <path class="s" d="M240 40 V26"/><path class="s" d="M246 18 a8 8 0 1 0 0 12 a6 6 0 1 1 0 -12Z"/>
+        <path class="t" d="M292 112 a22 22 0 0 1 0 34 M304 104 a34 34 0 0 1 0 50 M316 96 a46 46 0 0 1 0 66"/>
+        <circle class="d" cx="392" cy="72" r="30"/><path class="t" d="M400 50 a24 24 0 1 0 0 44 a30 30 0 1 1 0 -44Z"/>
+        <path class="s" d="M228 300 V276 a12 12 0 0 1 24 0 V300"/>
+        <circle class="ia" cx="240" cy="286" r="30"/>
+        <text class="sm" x="280" y="270">交互 · 敲钟 → 全服入夜 3 分钟</text>
+        <text class="sm" x="280" y="286">冷却 5 分钟</text>
+        <text class="sm" x="356" y="122">蓝月升起</text>
+        <use href="#fig" x="186" y="290" width="7" height="10" style="color:var(--bp-line)"/>
+        <path class="t" d="M60 18 V300 M54 18 H66 M54 300 H66"/>
+        <text class="sm" x="54" y="160" transform="rotate(-90 54 160)" text-anchor="middle">≈ 32h</text>
+      </svg><div class="tb"><b>BP-06</b> 立面 · 1h=9px</div></div>
+      <div class="info">
+        <h3>月之钟楼<small>P2</small></h3>
+        <dl class="specs">
+          <dt>位置</dt><dd class="mono">x 62–66, y 30–35（城堡东侧）</dd>
+          <dt>体量</dt><dd>高约 32h，顶上有月牙尖饰</dd>
+          <dt>交互</dt><dd>底部敲钟按钮 → SceneEnvironment.Change 切到夜晚预设，用 RemoteEvent 广播给全服；3 分钟后自动天亮</dd>
+          <dt>兜底</dt><dd>如果实测发现环境不能在运行中切换：钟楼保留做装饰，梦魇影改成只在幽影林常驻</dd>
+          <dt>光源</dt><dd>钟内 1 盏</dd>
+          <dt>容量</dt><dd class="mono">60</dd>
+        </dl>
+      </div>
+    </article>
+
+    <!-- BP-07 Arena -->
+    <article class="bpc">
+      <div class="bpv"><svg viewBox="0 0 480 320" role="img" aria-label="龙骨竞技场平面">
+        <circle class="s" cx="240" cy="168" r="142"/>
+        <circle class="t" cx="240" cy="168" r="124"/>
+        <g id="ribs"></g>
+        <circle class="s f" cx="240" cy="168" r="96"/>
+        <circle class="d" cx="240" cy="168" r="90"/>
+        <circle class="t" cx="240" cy="168" r="20"/><path class="t" d="M228 168 H252 M240 156 V180"/>
+        <rect class="s f" x="118" y="148" width="14" height="40"/><rect class="s f" x="348" y="148" width="14" height="40"/>
+        <circle class="s" cx="186" cy="168" r="12"/><circle class="s" cx="294" cy="168" r="12"/>
+        <text class="sm" x="186" y="172" text-anchor="middle">P1</text><text class="sm" x="294" y="172" text-anchor="middle">P2</text>
+        <rect class="s f" x="196" y="34" width="88" height="12"/>
+        <path class="t" d="M226 300 H254 M222 306 H258 M218 312 H262"/>
+        <g class="ff"><circle cx="323" cy="85" r="4"/><circle cx="157" cy="85" r="4"/><circle cx="157" cy="251" r="4"/><circle cx="323" cy="251" r="4"/></g>
+        <text class="sm" x="198" y="60">胜场榜</text>
+        <text class="sm" x="12" y="140">武器架 A</text><text class="sm" x="12" y="154">剑 / 盾</text>
+        <text class="sm" x="402" y="140">武器架 B</text><text class="sm" x="402" y="154">魔杖</text>
+        <text class="sm" x="276" y="232">出界线</text>
+        <text class="sm" x="270" y="300">入口 · 城堡地下阶梯</text>
+        <text class="sm" x="338" y="80">火炬 ×4</text>
+      </svg><div class="tb"><b>BP-07</b> 平面 · 地面直径 16 格</div></div>
+      <div class="info">
+        <h3>龙骨竞技场<small>城堡地下 · P1</small></h3>
+        <dl class="specs">
+          <dt>位置</dt><dd class="mono">x 50–64, y 36–50（城堡正下方，入口在悬崖阶梯底部）</dd>
+          <dt>体量</dt><dd>圆形地面直径约 16 格，四周看台，一圈巨大的龙肋骨从看台向内弯</dd>
+          <dt>规则</dt><dd>两人在 P1、P2 站定后开打；武器命中给对方施加冲量，把对方推出出界线即胜。不扣血，没有血腥画面</dd>
+          <dt>数据</dt><dd>胜场写入 OrderedDataStore，墙上显示前 10 名</dd>
+          <dt>光源</dt><dd>火炬 4 盏（全图最暗的区域，需要实光）</dd>
+          <dt>容量</dt><dd class="mono">180</dd>
+        </dl>
+      </div>
+    </article>
+
+    <!-- BP-08 Spawn -->
+    <article class="bpc">
+      <div class="bpv"><svg viewBox="0 0 480 320" role="img" aria-label="出生观景崖与骑龙驿站侧视">
+        <path class="s f" d="M0 150 L250 150 Q276 152 286 176 L302 320 L0 320Z"/>
+        <path class="t" d="M30 150 l3 -6 l3 6 M98 150 l3 -6 l3 6 M196 150 l3 -6 l3 6"/>
+        <line class="t" x1="302" y1="300" x2="480" y2="300"/>
+        <text class="sm" x="360" y="292">山谷 · 小镇</text>
+        <ellipse class="s f" cx="72" cy="150" rx="22" ry="5"/>
+        <use href="#fig" x="66" y="134" width="11" height="16" style="color:var(--bp-line)"/>
+        <path class="s" d="M84 124 H124 M116 118 L124 124 L116 130"/>
+        <text class="sm" x="64" y="112">出生 · 面朝北</text>
+        <rect class="s" x="140" y="104" width="36" height="46"/><rect class="t" x="146" y="110" width="24" height="34"/>
+        <circle class="ia" cx="158" cy="134" r="26"/>
+        <text class="sm" x="128" y="96">魔法画框</text>
+        <rect class="s f" x="205" y="140" width="48" height="10"/>
+        <ellipse class="s f" cx="228" cy="122" rx="26" ry="13"/>
+        <path class="s" d="M246 116 Q258 102 262 90 L276 86 L270 98 L260 100"/>
+        <path class="s f" d="M222 112 L196 76 L214 92 L218 70 L234 108Z"/>
+        <path class="s" d="M204 128 Q190 136 186 146"/>
+        <circle class="ia" cx="229" cy="128" r="34"/>
+        <path class="d" d="M76 138 L476 40"/>
+        <text class="sm" x="300" y="56">视线 → 星塔城堡 / 龙巢</text>
+        <path class="s" d="M106 150 l4 -10 l4 10 M102 150 h16"/>
+        <ellipse class="s f" cx="30" cy="144" rx="10" ry="6"/>
+        <text class="sm" x="196" y="176">骑龙驿站</text>
+        <text class="sm" x="96" y="176">篝火</text>
+      </svg><div class="tb"><b>BP-08</b> 侧视 · 1h=16px</div></div>
+      <div class="info">
+        <h3>出生观景崖 · 骑龙驿站<small>P0</small></h3>
+        <dl class="specs">
+          <dt>位置</dt><dd class="mono">出生点 x 54, y 100；驿站 x 61, y 103</dd>
+          <dt>朝向</dt><dd>出生点旋转设为正北，玩家进来的第一个画面就是城堡和龙</dd>
+          <dt>构成</dt><dd>出生平台、魔法画框（拍照）、篝火（夜景的前景光）、骑龙底座、几只羊做前景</dd>
+          <dt>骑乘</dt><dd>坐上 → 沿 11 个航点巡游约 90 秒 → 回到底座。龙可坐 2 人</dd>
+          <dt>光源</dt><dd>篝火 1 盏</dd>
+          <dt>容量</dt><dd class="mono">90</dd>
+        </dl>
+      </div>
+    </article>
+
+    <!-- BP-09 Harbor -->
+    <article class="bpc">
+      <div class="bpv"><svg viewBox="0 0 480 320" role="img" aria-label="港口与灯塔立面">
+        <path class="s" d="M0 252 q15 -6 30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0 t30 0"/>
+        <rect class="s f" x="20" y="222" width="100" height="8"/>
+        <path class="t" d="M30 230 V284 M58 230 V284 M86 230 V284 M112 230 V284"/>
+        <rect class="s" x="40" y="200" width="16" height="22"/><rect class="s" x="62" y="206" width="14" height="16"/>
+        <path class="s f" d="M140 238 L262 238 L248 262 L154 262Z"/>
+        <path class="s" d="M200 238 V120 M176 238 V150"/>
+        <path class="s f" d="M204 126 Q236 150 204 196Z M180 156 Q204 172 180 206Z"/>
+        <path class="s" d="M200 120 L216 126 L200 132"/>
+        <path class="s f" d="M320 300 L330 252 L360 238 L420 240 L445 254 L460 300Z"/>
+        <path class="s f" d="M362 240 L370 112 L410 112 L418 240Z"/>
+        <path class="t" d="M367 176 H413 M364 208 H416 M369 144 H411"/>
+        <rect class="s" x="358" y="102" width="64" height="10"/>
+        <rect class="s" x="372" y="74" width="36" height="28"/>
+        <path class="s f" d="M366 74 L390 52 L414 74Z"/>
+        <circle class="ff" cx="390" cy="88" r="5"/>
+        <path class="d" d="M372 88 L280 60 M372 88 L280 116 M408 88 L476 60 M408 88 L476 116"/>
+        <use href="#fig" x="94" y="210" width="8" height="12" style="color:var(--bp-line)"/>
+        <text class="sm" x="20" y="306">码头 · 3 艘停泊帆船</text>
+        <text class="sm" x="300" y="44">灯塔光 · 骑龙航点 4</text>
+        <path class="t" d="M470 52 V240 M464 52 H476 M464 240 H476"/>
+        <text class="sm" x="464" y="146" transform="rotate(-90 464 146)" text-anchor="middle">≈ 16h</text>
+      </svg><div class="tb"><b>BP-09</b> 立面 · 1h=12px</div></div>
+      <div class="info">
+        <h3>港口 · 灯塔岬<small>P0 场景</small></h3>
+        <dl class="specs">
+          <dt>位置</dt><dd class="mono">港口 x 88–96, y 61–66；灯塔 x 105, y 47</dd>
+          <dt>体量</dt><dd>木栈道码头 2 条，帆船 3 艘（1 艘沿固定航线在海湾里慢慢开），灯塔约 16h</dd>
+          <dt>作用</dt><dd>把画面右侧的海填满，解决海贼岛那种海面空荡荡的问题；也是骑龙巡游的转折点</dd>
+          <dt>光源</dt><dd>灯塔 1 盏</dd>
+          <dt>容量</dt><dd class="mono">260（含 3 艘船）</dd>
+        </dl>
+      </div>
+    </article>
+
+    <!-- BP-10 Houses -->
+    <article class="bpc">
+      <div class="bpv"><svg viewBox="0 0 480 320" role="img" aria-label="红顶民居套件 A B C">
+        <line class="s" x1="20" y1="280" x2="460" y2="280"/>
+        <rect class="s" x="50" y="182" width="60" height="98"/>
+        <path class="s f" d="M40 184 L80 120 L120 184Z"/>
+        <path class="t" d="M50 230 H110 M50 182 L110 230 M110 182 L50 230"/>
+        <path class="s" d="M72 280 V258 a8 8 0 0 1 16 0 V280"/>
+        <rect class="t" x="60" y="240" width="10" height="12"/><rect class="t" x="90" y="240" width="10" height="12"/>
+        <rect class="s" x="180" y="212" width="120" height="68"/>
+        <path class="s f" d="M170 214 L240 160 L310 214Z"/>
+        <rect class="s" x="270" y="166" width="12" height="30"/>
+        <path class="d" d="M276 160 q6 -8 0 -16 q-6 -8 2 -14"/>
+        <path class="s" d="M230 280 V256 a10 10 0 0 1 20 0 V280"/>
+        <rect class="t" x="194" y="232" width="18" height="14"/><rect class="t" x="268" y="232" width="18" height="14"/>
+        <rect class="s" x="365" y="172" width="64" height="108"/>
+        <path class="s f" d="M355 174 L397 126 L439 174Z"/>
+        <rect class="s" x="424" y="140" width="24" height="140"/>
+        <path class="s f" d="M420 140 L436 104 L452 140Z"/>
+        <path class="s" d="M386 280 V260 a8 8 0 0 1 16 0 V280"/>
+        <rect class="t" x="378" y="200" width="10" height="14"/><rect class="t" x="404" y="200" width="10" height="14"/><rect class="t" x="431" y="170" width="10" height="14"/>
+        <use href="#fig" x="140" y="268" width="8" height="12" style="color:var(--bp-line)"/>
+        <text class="lb" x="72" y="304">A · 窄高</text><text class="lb" x="216" y="304">B · 宽屋</text><text class="lb" x="378" y="304">C · 塔屋</text>
+        <text class="sm" x="40" y="108">≈ 13h</text><text class="sm" x="214" y="150">≈ 10h</text><text class="sm" x="408" y="96">≈ 15h</text>
+      </svg><div class="tb"><b>BP-10</b> 立面 · 1h=12px</div></div>
+      <div class="info">
+        <h3>红顶民居套件<small>P0 场景</small></h3>
+        <dl class="specs">
+          <dt>位置</dt><dd class="mono">小镇 x 60–86, y 56–72，沿河两岸</dd>
+          <dt>数量</dt><dd>3 种模型 × 共 18 栋。每栋随机旋转、缩放 0.9–1.1，看起来就不像复制粘贴</dd>
+          <dt>造型</dt><dd>统一红瓦屋顶 + 米白墙 + 木框架。红顶和青绿海水的对比是全图主色调</dd>
+          <dt>夜景</dt><dd>窗户用自发光材质，夜晚整片小镇亮起暖黄窗光，不占光源名额</dd>
+          <dt>容量</dt><dd class="mono">450（18 栋）</dd>
+        </dl>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- ART DIRECTION -->
+<section class="sec">
+  <div class="sec-head">
+    <div class="eyebrow">美术方向</div>
+    <h2>一套白天，一套夜晚</h2>
+    <p>海贼岛赢在全图只有一套光、一套色。我们同样锁死配色，再多一套夜晚做反差。参数是起点，进编辑器后实机微调。</p>
+  </div>
+  <div class="palette">
+    <div class="chip"><i style="background:#F3C77A"></i>晨金阳光<span>#F3C77A</span></div>
+    <div class="chip"><i style="background:#2FA7A8"></i>青绿海湾<span>#2FA7A8</span></div>
+    <div class="chip"><i style="background:#F4F7FA"></i>雪峰白<span>#F4F7FA</span></div>
+    <div class="chip"><i style="background:#C4513A"></i>红瓦屋顶<span>#C4513A</span></div>
+    <div class="chip"><i style="background:#DAD5C8"></i>城堡石灰<span>#DAD5C8</span></div>
+    <div class="chip"><i style="background:#6E7F99"></i>板岩尖顶<span>#6E7F99</span></div>
+    <div class="chip"><i style="background:#1C2350"></i>夜 · 星蓝<span>#1C2350</span></div>
+    <div class="chip"><i style="background:#FFD873"></i>窗光暖黄<span>#FFD873</span></div>
+    <div class="chip"><i style="background:#B79BFF"></i>梦魇紫<span>#B79BFF</span></div>
+  </div>
+  <div class="tbl"><table>
+    <thead><tr><th>模块</th><th>白天 · 晨金</th><th>夜晚 · 龙梦之夜</th></tr></thead>
+    <tbody>
+      <tr><td>太阳光</td><td>高度 28°，从东南照来；颜色 #FFE2B0，强度 2.2，阴影 0.6；太阳光晕 03</td><td>高度 35°，颜色 #7C8CFF，强度 0.6；月亮光晕 01</td></tr>
+      <tr><td>天空盒</td><td>白天，旋转到云层在城堡后方</td><td>星空，旋转到月亮在龙巢右上方</td></tr>
+      <tr><td>环境光</td><td>默认</td><td>自定义 #2B3566，暗部偏蓝紫</td></tr>
+      <tr><td>角色光</td><td>强度 3.0</td><td>强度 3.6，保证小火人在夜里清晰</td></tr>
+      <tr><td>雾效</td><td>#CFE0EE，起点 60m，最浓 600m，把地图边缘藏进雾里</td><td>#1C2350，起点 30m，最浓 350m</td></tr>
+      <tr><td>后处理</td><td>泛光强度 0.5，暗角 0.12</td><td>泛光强度 0.9（让窗光和龙眼发光），暗角 0.3</td></tr>
+      <tr><td>天气粒子</td><td>关闭</td><td>可选：极少量蓝色光点缓慢下落，像萤火</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<!-- CAPACITY -->
+<section class="sec">
+  <div class="sec-head">
+    <div class="eyebrow">容量与光源预算</div>
+    <h2>4000 怎么分</h2>
+    <p>规划值，搭建过程中随时在「窗口 → 容量占用详情」里核对。主地标拿大头，重复摆放的东西用同一套模型。</p>
+  </div>
+  <div class="cap">
+    <div class="tbl"><table>
+      <thead><tr><th>部分</th><th style="text-align:right">容量</th><th style="width:40%">占比</th></tr></thead>
+      <tbody id="capRows"></tbody>
+    </table></div>
+    <div class="tbl"><table>
+      <thead><tr><th>实时光源</th><th style="text-align:right">数量</th></tr></thead>
+      <tbody>
+        <tr><td>竞技场火炬</td><td class="n" style="text-align:right">4</td></tr>
+        <tr><td>图书馆吊灯 + 书台</td><td class="n" style="text-align:right">2</td></tr>
+        <tr><td>出生崖篝火</td><td class="n" style="text-align:right">1</td></tr>
+        <tr><td>药水铺坩埚</td><td class="n" style="text-align:right">1</td></tr>
+        <tr><td>钟楼</td><td class="n" style="text-align:right">1</td></tr>
+        <tr><td>灯塔</td><td class="n" style="text-align:right">1</td></tr>
+        <tr><td>城堡大门火盆</td><td class="n" style="text-align:right">2</td></tr>
+        <tr><td>魔杖光弹（同屏上限）</td><td class="n" style="text-align:right">1</td></tr>
+        <tr><td><b>合计 / 上限</b></td><td class="n" style="text-align:right"><b>13 / 32</b></td></tr>
+      </tbody>
+    </table>
+    <p class="note" style="padding:10px 14px;border-top:1px solid var(--line)">窗户、龙眼、梦魇影、天文塔星光全部用自发光材质，不占光源。</p></div>
+  </div>
+</section>
+
+<!-- BUILD ORDER + CHECKS -->
+<section class="sec">
+  <div class="sec-head">
+    <div class="eyebrow">制作顺序</div>
+    <h2>先做出第一眼，再填玩法</h2>
+    <p>任何时候停下来，作品都应该是能看的。所以第一眼画面最先做完，玩法按优先级往上加。</p>
+  </div>
+  <ol class="steps">
+    <li><b>实测与地形</b><p>跑完下方实测清单；用 128×128 生成地形，笔刷修出雪山、悬崖台地、河谷、海湾。</p></li>
+    <li><b>第一眼画面</b><p>城堡 + 古龙进场，出生点定朝向，调白天环境。截图对比参考图，满意再往下走。</p></li>
+    <li><b>骑龙巡游</b><p>驿站 + 航线 + 开场运镜。做完这步就有了一个能交的作品。</p></li>
+    <li><b>填充场景</b><p>小镇 18 栋、港口灯塔、牧羊坡、幽影林、植被。边摆边看容量。</p></li>
+    <li><b>P1 玩法</b><p>药水铺、魔杖、扫帚、竞技场。</p></li>
+    <li><b>P2 与夜晚</b><p>月之钟、梦魇影、龙蛋孵化；调夜晚环境。</p></li>
+    <li><b>打磨上传</b><p>手机预览跑通关键路径，白天 / 夜晚同机位各截一张做封面，提交审核（审核要 1–3 个工作日）。</p></li>
+  </ol>
+  <div class="two">
+    <div class="sec" style="gap:12px">
+      <h3>开工前的实测清单</h3>
+      <ul class="list">
+        <li><b>昼夜切换</b>：SceneEnvironment.Change 能否在运行中切换，切换能否同步给房间里所有人。</li>
+        <li><b>变身药水</b>：actor.scale 和 SetVisible 能否作用在官方小火人上；去官方群确认这算不算「官方形象二改」。</li>
+        <li><b>地图尺度</b>：128×128 时 1 格对应多少米，小火人走一格要多久（决定航线长度和建筑尺寸）。</li>
+        <li><b>远景</b>：大模型能不能摆到地形边界外面当远山；巨龙放大到 45h 后容量占多少。</li>
+        <li><b>骑乘</b>：热气球组件改成龙之后，航点能拉多远、飞多高，能不能坐 2 人。</li>
+      </ul>
+    </div>
+    <div class="sec" style="gap:12px">
+      <h3>审核红线自查</h3>
+      <ul class="list">
+        <li>世界名、简介、标签、封面里不出现权游、哈利波特、塞尔达等任何第三方 IP 名称。</li>
+        <li>不做分院帽、魁地奇、三角力量、铁王座等标志性元素；城堡轮廓避开霍格沃茨的经典剪影。</li>
+        <li>剑和魔杖做成发光的奇幻风格，不做写实刀具；战斗只有击退，不扣血、不出血。</li>
+        <li>对外统一叫「梦魇影」「暗影」，不用恶灵、鬼魂这类词。</li>
+        <li>简介里不用「第一」「最强」「官方」这类词。</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>龙眠之境 · 造世界参赛策划书 v0.1 · 能力边界依据造世界编辑器使用指南与虚拟世界 API 手册整理，标注「实测」的项目以编辑器实际表现为准。</footer>
+</div>
+
+<script>
+(function(){
+  // ---------- capacity table ----------
+  const cap=[["星塔城堡主体",560],["浮空图书馆",140],["女巫药水铺",90],["天文塔",70],["月之钟楼",60],["古龙艾瑟拉（静态）",300],["巡游龙 / 骑乘龙",150],["龙骨竞技场",180],["出生崖 + 驿站",90],["港口 + 灯塔 + 船",260],["红顶民居 ×18",450],["植被与岩石",650],["羊群 / 道具 / 特效 / 梦魇影",300],["预留",700]];
+  const tb=document.getElementById("capRows");
+  let total=0; cap.forEach(([n,v])=>total+=v);
+  cap.forEach(([n,v])=>{const tr=document.createElement("tr");
+    tr.innerHTML=`<td>${n}</td><td class="n" style="text-align:right">${v}</td><td><div class="bar${n==="预留"?" r":""}"><i style="width:${(v/650*100).toFixed(1)}%"></i></div></td>`;tb.appendChild(tr);});
+  const tr=document.createElement("tr");tr.innerHTML=`<td><b>合计 / 上限</b></td><td class="n" style="text-align:right"><b>${total} / 4000</b></td><td></td>`;tb.appendChild(tr);
+
+  // ---------- arena ribs ----------
+  const ribs=document.getElementById("ribs"); const NS="http://www.w3.org/2000/svg";
+  for(let i=0;i<14;i++){const a=(i/14)*Math.PI*2+0.1, c=240, cy=168;
+    const p1=[c+Math.cos(a)*138, cy+Math.sin(a)*138], p2=[c+Math.cos(a+0.22)*100, cy+Math.sin(a+0.22)*100], q=[c+Math.cos(a+0.05)*124, cy+Math.sin(a+0.05)*124];
+    const p=document.createElementNS(NS,"path"); p.setAttribute("class","s"); p.setAttribute("d",`M${p1} Q${q} ${p2}`); ribs.appendChild(p);}
+
+  // ---------- section houses ----------
+  const sh=document.getElementById("secHouses");
+  [[440,335],[470,338],[505,334],[540,338],[575,336],[625,336],[660,334],[692,328]].forEach(([x,y],i)=>{
+    const w=18+(i%3)*4;
+    sh.insertAdjacentHTML("beforeend",`<rect x="${x}" y="${y-14}" width="${w}" height="16" style="fill:var(--m-stone)"/><path d="M${x-3} ${y-14} L${x+w/2} ${y-28} L${x+w+3} ${y-14}Z" style="fill:var(--m-roof)"/>`);});
+
+  // ---------- map ----------
+  let seed=7; const rnd=()=>{seed|=0;seed=seed+0x6D2B79F5|0;let t=Math.imul(seed^seed>>>15,1|seed);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296;};
+  const smooth=(pts,closed)=>{const n=pts.length,P=i=>closed?pts[(i+n)%n]:pts[Math.max(0,Math.min(n-1,i))];let d="M"+pts[0];const last=closed?n:n-1;
+    for(let i=0;i<last;i++){const p0=P(i-1),p1=P(i),p2=P(i+1),p3=P(i+2);d+=` C${[p1[0]+(p2[0]-p0[0])/6,p1[1]+(p2[1]-p0[1])/6]} ${[p2[0]-(p3[0]-p1[0])/6,p2[1]-(p3[1]-p1[1])/6]} ${p2}`;}return d+(closed?"Z":"");};
+  const L=document.getElementById("mapLayers"); let h="";
+  const add=s=>h+=s;
+  const coast=[[980,0],[1000,150],[960,300],[985,385],[1085,440],[1075,505],[945,545],[885,600],[872,680],[960,760],[1010,900],[945,1050],[900,1280]];
+  const coastX=y=>{for(let i=0;i<coast.length-1;i++){const a=coast[i],b=coast[i+1];if(y>=a[1]&&y<=b[1])return a[0]+(b[0]-a[0])*(y-a[1])/(b[1]-a[1]);}return 900;};
+  const river=[[330,262],[318,360],[356,470],[450,540],[560,580],[680,610],[790,630],[880,642]];
+  const dSeg=(p,a,b)=>{const dx=b[0]-a[0],dy=b[1]-a[1];const t=Math.max(0,Math.min(1,((p[0]-a[0])*dx+(p[1]-a[1])*dy)/(dx*dx+dy*dy)));return Math.hypot(p[0]-a[0]-t*dx,p[1]-a[1]-t*dy);};
+  const dRiver=p=>{let m=1e9;for(let i=0;i<river.length-1;i++)m=Math.min(m,dSeg(p,river[i],river[i+1]));return m;};
+  const inEll=(x,y,cx,cy,rx,ry)=>((x-cx)/rx)**2+((y-cy)/ry)**2<=1;
+
+  add(`<rect width="1280" height="1280" style="fill:var(--m-grass)"/>`);
+  add(`<ellipse cx="390" cy="1060" rx="250" ry="160" style="fill:var(--m-grass2)"/>`);
+  add(`<ellipse cx="190" cy="700" rx="175" ry="225" style="fill:var(--m-forest);opacity:.55"/>`);
+  // beach + sea
+  add(`<path d="${smooth(coast,false)}" style="fill:none;stroke:var(--m-sand);stroke-width:46"/>`);
+  add(`<path d="${smooth(coast,false)} L1280,1280 L1280,0Z" style="fill:var(--m-sea)"/>`);
+  add(`<path d="M1120 0 C1100 300 1180 600 1130 900 S1180 1200 1160 1280 L1280 1280 L1280 0Z" style="fill:var(--m-sea-d);opacity:.7"/>`);
+  for(let i=0;i<70;i++){const y=20+rnd()*1240,x=coastX(y)+40+rnd()*(1260-coastX(y)-60);if(x>1270)continue;add(`<path d="M${x} ${y} q8 -6 16 0" style="fill:none;stroke:var(--m-snow);stroke-width:2;opacity:.5"/>`);}
+  // plateau
+  const plat=[[400,250],[720,250],[742,330],[722,470],[640,502],[480,502],[398,442],[378,330]];
+  add(`<path d="${smooth(plat,true)}" style="fill:var(--m-plateau);stroke:var(--m-rock-d);stroke-width:16"/>`);
+  // river
+  add(`<path d="${smooth(river,false)}" style="fill:none;stroke:var(--m-river);stroke-width:22;stroke-linecap:round"/>`);
+  add(`<path d="${smooth(river,false)}" style="fill:none;stroke:var(--m-snow);stroke-width:3;stroke-dasharray:3 18;opacity:.5"/>`);
+  // bridge
+  add(`<path d="M600 520 L640 600" style="stroke:var(--m-stone);stroke-width:12;stroke-linecap:round"/>`);
+  // mountains band
+  add(`<path d="M0 0 L978 0 L985 120 L930 190 L820 232 L700 250 L560 240 L420 250 L340 270 L240 320 L120 300 L0 330Z" style="fill:var(--m-rock)"/>`);
+  const peaks=[];for(let x=-30;x<930;x+=52){peaks.push({x:x+rnd()*20,b:200+rnd()*90-(x>840?60:0),a:30+rnd()*130,w:50+rnd()*30});}
+  peaks.sort((p,q)=>p.b-q.b).forEach(p=>{if(Math.abs(p.x-580)<60)return;const ax=p.x,ay=p.b-p.a- (p.b-200)*.2;
+    add(`<path d="M${ax-p.w} ${p.b} L${ax} ${ay} L${ax+p.w} ${p.b}Z" style="fill:var(--m-rock)"/><path d="M${ax} ${ay} L${ax+p.w} ${p.b}" style="stroke:var(--m-rock-d);stroke-width:2"/>`);
+    add(`<path d="M${ax-p.w*.34} ${ay+(p.b-ay)*.34} L${ax} ${ay} L${ax+p.w*.34} ${ay+(p.b-ay)*.34} L${ax+p.w*.12} ${ay+(p.b-ay)*.26} L${ax-p.w*.06} ${ay+(p.b-ay)*.36}Z" style="fill:var(--m-snow)"/>`);});
+  // dragon peak + dragon
+  add(`<path d="M470 255 L580 30 L700 255Z" style="fill:var(--m-rock)"/><path d="M580 30 L700 255" style="stroke:var(--m-rock-d);stroke-width:3"/><path d="M536 120 L580 30 L626 125 L600 108 L582 130 L560 110Z" style="fill:var(--m-snow)"/>`);
+  add(`<path d="M520 170 C470 120 560 50 625 85 C690 120 660 190 590 188 C540 186 528 150 560 130" style="fill:none;stroke:var(--m-dragon);stroke-width:20;stroke-linecap:round"/>`);
+  add(`<path d="M600 92 L540 30 L570 64 L560 20 L600 70 L612 40 L616 96Z" style="fill:var(--m-dragon);opacity:.92"/><path d="M640 110 L700 60 L676 100 L716 86 L650 130Z" style="fill:var(--m-dragon);opacity:.92"/>`);
+  add(`<path d="M552 136 L572 118 L578 136Z" style="fill:var(--m-dragon)"/><circle cx="568" cy="130" r="3.5" style="fill:var(--m-gold)"/>`);
+  add(`<circle class="nt" cx="568" cy="130" r="18" style="fill:url(#glow)"/>`);
+  // waterfall
+  add(`<path d="M322 250 L338 250 L336 280 L324 280Z" style="fill:var(--m-snow);opacity:.85"/>`);
+  // trees
+  const tree=(x,y,r,col)=>add(`<circle cx="${x}" cy="${y+r*.35}" r="${r}" style="fill:var(--m-rock-d);opacity:.25"/><circle cx="${x}" cy="${y}" r="${r}" style="fill:var(${col})"/><circle cx="${x-r*.3}" cy="${y-r*.3}" r="${r*.4}" style="fill:var(--m-grass2);opacity:.35"/>`);
+  for(let i=0;i<170;i++){const a=rnd()*Math.PI*2,rr=Math.sqrt(rnd());const x=190+Math.cos(a)*rr*170,y=700+Math.sin(a)*rr*220;if(dRiver([x,y])<26)continue;tree(x,y,9+rnd()*7,"--m-forest");}
+  for(let i=0;i<900;i++){const x=20+rnd()*1000,y=300+rnd()*960;if(x>coastX(y)-40)continue;if(inEll(x,y,560,376,200,150))continue;if(inEll(x,y,730,640,170,95))continue;if(inEll(x,y,390,1060,230,140))continue;if(inEll(x,y,190,700,180,230))continue;if(dRiver([x,y])<28)continue;if(inEll(x,y,560,1010,90,60))continue;if(rnd()<.35)continue;tree(x,y,7+rnd()*6,"--m-tree");}
+  // town houses
+  const houses=[];for(let i=0;i<400&&houses.length<46;i++){const a=rnd()*Math.PI*2,rr=Math.sqrt(rnd());const x=730+Math.cos(a)*rr*150,y=636+Math.sin(a)*rr*78;if(dRiver([x,y])<24)continue;if(x>coastX(y)-30)continue;if(houses.some(q=>Math.hypot(q[0]-x,q[1]-y)<22))continue;houses.push([x,y]);}
+  [[560,560],[585,548],[530,545]].forEach(p=>houses.push(p));
+  houses.forEach(([x,y])=>{const w=14+rnd()*8,hh=10+rnd()*5,r=(rnd()-.5)*50;
+    add(`<g transform="translate(${x} ${y}) rotate(${r})"><rect x="${-w/2+2}" y="${-hh/2+3}" width="${w}" height="${hh}" style="fill:var(--m-rock-d);opacity:.3"/><rect x="${-w/2}" y="${-hh/2}" width="${w}" height="${hh}" style="fill:var(--m-roof)"/><line x1="${-w/2}" y1="0" x2="${w/2}" y2="0" style="stroke:var(--m-ink);stroke-width:1.2;opacity:.35"/></g>`);
+    add(`<circle class="nt" cx="${x}" cy="${y}" r="9" style="fill:url(#glow)"/>`);});
+  // harbor + boats
+  add(`<path d="M890 628 L960 620 M892 660 L950 668" style="stroke:var(--m-stone);stroke-width:8;stroke-linecap:round"/>`);
+  [[985,640,-10],[1020,700,20],[1090,610,-30]].forEach(([x,y,r])=>add(`<g transform="translate(${x} ${y}) rotate(${r})"><path d="M-18 0 Q0 10 18 0 Q0 -10 -18 0Z" style="fill:var(--m-stone)"/><line x1="0" y1="-14" x2="0" y2="10" style="stroke:var(--m-ink);stroke-width:2"/><path d="M1 -12 Q12 -2 1 8Z" style="fill:var(--m-snow)"/></g>`));
+  // lighthouse
+  add(`<circle cx="1052" cy="470" r="14" style="fill:var(--m-snow);stroke:var(--m-rock-d);stroke-width:3"/><circle cx="1052" cy="470" r="6" style="fill:var(--m-roof)"/><circle class="nt" cx="1052" cy="470" r="40" style="fill:url(#glow)"/>`);
+  // castle
+  add(`<path d="M440 282 L690 282 L692 470 L440 470Z" style="fill:none;stroke:var(--m-stone);stroke-width:9;stroke-linejoin:round"/>`);
+  add(`<rect x="498" y="372" width="120" height="44" style="fill:var(--m-stone)"/><rect x="498" y="372" width="120" height="10" style="fill:var(--m-slate)"/>`);
+  add(`<rect x="520" y="296" width="92" height="70" style="fill:var(--m-stone)"/><path d="M520 296 L566 330 L612 296Z M520 366 L566 330 L612 366Z" style="fill:var(--m-slate)"/>`);
+  [[470,300,17,"--m-slate"],[566,306,20,"--m-slate"],[642,322,15,"--m-slate"],[606,438,12,"--m-slate"],[470,446,15,"--m-violet-roof"],[690,282,10,"--m-slate"],[440,470,10,"--m-slate"],[690,470,10,"--m-slate"]].forEach(([x,y,r,c])=>{
+    add(`<circle cx="${x}" cy="${y}" r="${r}" style="fill:var(--m-stone)"/><circle cx="${x}" cy="${y}" r="${r*.72}" style="fill:${c==="--m-violet-roof"?"#7B5BB5":"var("+c+")"}"/><circle cx="${x}" cy="${y}" r="2.5" style="fill:var(--m-ink);opacity:.5"/>`);});
+  [[560,394],[586,394],[534,394],[566,320],[470,300],[642,322]].forEach(([x,y])=>add(`<circle class="nt" cx="${x}" cy="${y}" r="16" style="fill:url(#glow)"/>`));
+  // arena (underground)
+  add(`<circle cx="566" cy="410" r="62" style="fill:none;stroke:var(--m-gold);stroke-width:3;stroke-dasharray:9 7"/>`);
+  // pasture: sheep + windmill
+  for(let i=0;i<24;i++){const a=rnd()*Math.PI*2,rr=Math.sqrt(rnd());const x=380+Math.cos(a)*rr*190,y=1070+Math.sin(a)*rr*110;add(`<ellipse cx="${x}" cy="${y}" rx="6" ry="4.5" style="fill:var(--m-snow)"/><circle cx="${x+5}" cy="${y-1}" r="2" style="fill:var(--m-ink)"/>`);}
+  add(`<g transform="translate(300 960)"><circle r="12" style="fill:var(--m-stone)"/><path d="M0 0 L-6 -34 L6 -34Z M0 0 L34 -6 L34 6Z M0 0 L6 34 L-6 34Z M0 0 L-34 6 L-34 -6Z" style="fill:var(--m-roof);opacity:.85"/></g>`);
+  // spawn cliff contours
+  [[90,56],[70,42],[48,28]].forEach(([rx,ry])=>add(`<ellipse cx="560" cy="1012" rx="${rx}" ry="${ry}" style="fill:none;stroke:var(--m-rock-d);stroke-width:2;opacity:.35"/>`));
+  add(`<circle cx="610" cy="1032" r="13" style="fill:var(--m-stone);stroke:var(--m-gold);stroke-width:3"/>`);
+  add(`<circle class="nt" cx="520" cy="1012" r="26" style="fill:url(#glow)"/>`);
+  // view cone
+  add(`<path d="M548 996 L420 270 L720 270Z" style="fill:url(#cone)"/>`);
+  // core zone
+  add(`<rect x="340" y="226" width="680" height="860" rx="40" style="fill:none;stroke:var(--m-ink);stroke-width:2;stroke-dasharray:4 8;opacity:.4"/>`);
+  // dragon route
+  const route=[[610,1032],[760,820],[905,670],[1110,520],[1080,300],[860,190],[700,70],[480,140],[300,300],[170,620],[330,900]];
+  add(`<path d="${smooth(route,true)}" style="fill:none;stroke:var(--m-gold);stroke-width:5;stroke-dasharray:14 10;stroke-linecap:round"/>`);
+  route.forEach(([x,y],i)=>{if(i===0)return;add(`<circle cx="${x}" cy="${y}" r="9" style="fill:var(--m-gold);stroke:var(--m-ink);stroke-width:1.5"/><text x="${x}" y="${y+3.5}" text-anchor="middle" style="font:600 10px var(--mono);fill:var(--m-ink)">${i}</text>`);});
+  // night: moon + spirits
+  add(`<g class="nt"><circle cx="1180" cy="100" r="46" style="fill:url(#glow);opacity:.6"/><circle cx="1180" cy="100" r="26" style="fill:#CFE0FF"/></g>`);
+  for(let i=0;i<26;i++){let x,y;const z=rnd();if(z<.45){const a=rnd()*Math.PI*2,rr=Math.sqrt(rnd());x=190+Math.cos(a)*rr*160;y=700+Math.sin(a)*rr*200;}else if(z<.75){x=river[1+Math.floor(rnd()*6)][0]+(rnd()-.5)*60;y=river[1+Math.floor(rnd()*6)][1]+(rnd()-.5)*40;}else{x=650+rnd()*170;y=590+rnd()*90;}
+    add(`<g class="nt"><circle cx="${x}" cy="${y}" r="${14+rnd()*8}" style="fill:url(#wisp)"/><circle cx="${x}" cy="${y}" r="3" style="fill:#F2EBFF"/></g>`);}
+  // zone labels
+  const lab=(x,y,t,s)=>add(`<text x="${x}" y="${y}" text-anchor="middle" style="font:900 ${s||22}px var(--display);fill:var(--m-label);paint-order:stroke;stroke:var(--m-ink);stroke-width:4;stroke-opacity:.55;letter-spacing:.12em">${t}</text>`);
+  lab(250,90,"龙脊雪山",24);lab(1170,860,"龙眠海湾",24);lab(190,600,"幽影林");lab(390,1180,"牧羊坡");lab(740,736,"红顶小镇");lab(566,244,"星塔学院",20);
+  // grid
+  for(let g=160;g<1280;g+=160){add(`<line x1="${g}" y1="0" x2="${g}" y2="1280" style="stroke:var(--m-ink);stroke-width:1;opacity:.08"/><line x1="0" y1="${g}" x2="1280" y2="${g}" style="stroke:var(--m-ink);stroke-width:1;opacity:.08"/>`);
+    add(`<text x="${g+4}" y="16" style="font:400 12px var(--mono);fill:var(--m-label);opacity:.8">${g/10}</text><text x="4" y="${g-4}" style="font:400 12px var(--mono);fill:var(--m-label);opacity:.8">${g/10}</text>`);}
+  // pins
+  const pins=[[1,520,972],[2,640,1052],[3,566,268],[4,640,394],[5,450,476],[6,442,300],[7,670,340],[8,640,452],[9,640,40],[10,790,600],[11,926,604],[12,1092,470],[13,250,760],[14,300,914]];
+  pins.forEach(([n,x,y])=>add(`<g><circle cx="${x}" cy="${y}" r="16" style="fill:var(--m-ink);stroke:var(--m-label);stroke-width:2.5"/><text x="${x}" y="${y+4.5}" text-anchor="middle" style="font:600 13px var(--mono);fill:var(--m-label)">${n}</text></g>`));
+  add(`<path d="M548 1000 m-10 0 l10 -22 l10 22 l-10 -6Z" style="fill:var(--m-gold);stroke:var(--m-ink);stroke-width:2"/>`);
+  L.innerHTML=h;
+
+  // day/night
+  const plate=document.getElementById("mapWrap"), bD=document.getElementById("btnDay"), bN=document.getElementById("btnNight");
+  const style=document.createElement("style");document.head.appendChild(style);
+  const set=n=>{plate.classList.toggle("night",n);bD.setAttribute("aria-pressed",String(!n));bN.setAttribute("aria-pressed",String(n));style.textContent=n?"":"#map .nt{opacity:0}";};
+  bD.addEventListener("click",()=>set(false));bN.addEventListener("click",()=>set(true));set(false);
+})();
+</script>

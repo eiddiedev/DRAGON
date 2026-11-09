@@ -1,0 +1,2271 @@
+{
+  "schemaVersion": 2,
+  "summaryStatus": "complete",
+  "generatedAt": "2026-11-09T00:43:07.808+08:00",
+  "source": {
+    "turnLogPath": "/Users/a1234/Library/Application Support/AI World Creator/projects/project_lapv8fm0/ai-sessions/workspace_6kp2f2uu_log/turn_1794154878669_7dzv8tcv.ndjson"
+  },
+  "turn": {
+    "workspaceId": "workspace_6kp2f2uu",
+    "turnId": "turn_1794154878669_7dzv8tcv",
+    "agentId": "mixcore-agent",
+    "sessionId": "ses_e440928e2fferDsvWATaY7bulJ",
+    "status": "aborted",
+    "startedAt": "2026-11-09T00:21:32.169+08:00",
+    "finishedAt": "2026-11-09T00:43:07.783+08:00",
+    "durationMs": 1295614,
+    "error": ""
+  },
+  "agents": {
+    "main": {
+      "agentId": "mixcore-agent",
+      "allowedSubagents": [
+        "module",
+        "placement",
+        "ui"
+      ],
+      "configuredToolNames": [],
+      "allowedToolNames": [],
+      "allowedTools": [],
+      "description": "Agent for douyin playable 3D game-world generation.",
+      "mode": "primary",
+      "permissions": [
+        {
+          "permission": "*",
+          "pattern": "*",
+          "action": "allow"
+        },
+        {
+          "permission": "doom_loop",
+          "pattern": "*",
+          "action": "ask"
+        },
+        {
+          "permission": "external_directory",
+          "pattern": "*",
+          "action": "ask"
+        },
+        {
+          "permission": "external_directory",
+          "pattern": "/Users/a1234/Library/Application Support/AI World Creator/.opencode/data/opencode/tool-output/*",
+          "action": "allow"
+        },
+        {
+          "permission": "external_directory",
+          "pattern": "/var/folders/9t/1jhwn7p90xj8jy29h2fvgc2c0000gn/T/opencode/*",
+          "action": "allow"
+        },
+        {
+          "permission": "external_directory",
+          "pattern": "/Users/a1234/.agents/skills/ortools/*",
+          "action": "allow"
+        },
+        {
+          "permission": "external_directory",
+          "pattern": "/Users/a1234/.agents/skills/find-skills/*",
+          "action": "allow"
+        },
+        {
+          "permission": "external_directory",
+          "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/hamlet-skill/*",
+          "action": "allow"
+        },
+        {
+          "permission": "external_directory",
+          "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/lua-script-contract/*",
+          "action": "allow"
+        },
+        {
+          "permission": "external_directory",
+          "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/threejs-placement/*",
+          "action": "allow"
+        },
+        {
+          "permission": "external_directory",
+          "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/resource-generation/*",
+          "action": "allow"
+        },
+        {
+          "permission": "external_directory",
+          "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/game-design/*",
+          "action": "allow"
+        },
+        {
+          "permission": "question",
+          "pattern": "*",
+          "action": "deny"
+        },
+        {
+          "permission": "plan_enter",
+          "pattern": "*",
+          "action": "deny"
+        },
+        {
+          "permission": "plan_exit",
+          "pattern": "*",
+          "action": "deny"
+        },
+        {
+          "permission": "read",
+          "pattern": "*",
+          "action": "allow"
+        },
+        {
+          "permission": "read",
+          "pattern": "*.env",
+          "action": "ask"
+        },
+        {
+          "permission": "read",
+          "pattern": "*.env.*",
+          "action": "ask"
+        },
+        {
+          "permission": "read",
+          "pattern": "*.env.example",
+          "action": "allow"
+        },
+        {
+          "permission": "*",
+          "pattern": "*",
+          "action": "deny"
+        },
+        {
+          "permission": "read",
+          "pattern": "*",
+          "action": "allow"
+        },
+        {
+          "permission": "edit",
+          "pattern": "*",
+          "action": "allow"
+        },
+        {
+          "permission": "glob",
+          "pattern": "*",
+          "action": "allow"
+        },
+        {
+          "permission": "grep",
+          "pattern": "*",
+          "action": "allow"
+        },
+        {
+          "permission": "question",
+          "pattern": "*",
+          "action": "allow"
+        },
+        {
+          "permission": "todowrite",
+          "pattern": "*",
+          "action": "allow"
+        },
+        {
+          "permission": "bash",
+          "pattern": "*",
+          "action": "allow"
+        },
+        {
+          "permission": "archive",
+          "pattern": "*",
+          "action": "allow"
+        },
+        {
+          "permission": "generate_ui_png_atlas",
+          "pattern": "*",
+          "action": "allow"
+        },
+        {
+          "permission": "inspect_resource_nodes",
+          "pattern": "*",
+          "action": "allow"
+        },
+        {
+          "permission": "select_topology_generation",
+          "pattern": "*",
+          "action": "allow"
+        },
+        {
+          "permission": "aigc_generate_topology",
+          "pattern": "*",
+          "action": "allow"
+        },
+        {
+          "permission": "resource",
+          "pattern": "*",
+          "action": "allow"
+        },
+        {
+          "permission": "skill",
+          "pattern": "*",
+          "action": "deny"
+        },
+        {
+          "permission": "skill",
+          "pattern": "game-design",
+          "action": "allow"
+        },
+        {
+          "permission": "skill",
+          "pattern": "lua-script-contract",
+          "action": "allow"
+        },
+        {
+          "permission": "skill",
+          "pattern": "resource-generation",
+          "action": "allow"
+        },
+        {
+          "permission": "skill",
+          "pattern": "threejs-placement",
+          "action": "allow"
+        },
+        {
+          "permission": "skill",
+          "pattern": "hamlet-skill",
+          "action": "allow"
+        },
+        {
+          "permission": "task",
+          "pattern": "*",
+          "action": "deny"
+        },
+        {
+          "permission": "task",
+          "pattern": "placement",
+          "action": "allow"
+        },
+        {
+          "permission": "task",
+          "pattern": "module",
+          "action": "allow"
+        },
+        {
+          "permission": "task",
+          "pattern": "ui",
+          "action": "allow"
+        },
+        {
+          "permission": "task_list",
+          "pattern": "*",
+          "action": "allow"
+        },
+        {
+          "permission": "task_wait",
+          "pattern": "*",
+          "action": "allow"
+        },
+        {
+          "permission": "task_cancel",
+          "pattern": "*",
+          "action": "allow"
+        },
+        {
+          "permission": "external_directory",
+          "pattern": "/Users/a1234/Library/Application Support/AI World Creator/.opencode/data/opencode/tool-output/*",
+          "action": "allow"
+        },
+        {
+          "permission": "external_directory",
+          "pattern": "/var/folders/9t/1jhwn7p90xj8jy29h2fvgc2c0000gn/T/opencode/*",
+          "action": "allow"
+        },
+        {
+          "permission": "external_directory",
+          "pattern": "/Users/a1234/.agents/skills/ortools/*",
+          "action": "allow"
+        },
+        {
+          "permission": "external_directory",
+          "pattern": "/Users/a1234/.agents/skills/find-skills/*",
+          "action": "allow"
+        },
+        {
+          "permission": "external_directory",
+          "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/hamlet-skill/*",
+          "action": "allow"
+        },
+        {
+          "permission": "external_directory",
+          "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/lua-script-contract/*",
+          "action": "allow"
+        },
+        {
+          "permission": "external_directory",
+          "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/threejs-placement/*",
+          "action": "allow"
+        },
+        {
+          "permission": "external_directory",
+          "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/resource-generation/*",
+          "action": "allow"
+        },
+        {
+          "permission": "external_directory",
+          "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/game-design/*",
+          "action": "allow"
+        }
+      ],
+      "sourcePath": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/agents/mixcore-agent.md",
+      "systemPrompt": "<editor_encrypt_content name=\"awc/02bf799be25c80f9bac870e83170a400\" version=\"35b7669cd7f9128e570d2a7228f883d3\"></editor_encrypt_content>"
+    },
+    "subagents": [
+      {
+        "agentId": "module",
+        "metadata": {
+          "agentId": "module",
+          "allowedSubagents": [],
+          "configuredToolNames": [],
+          "allowedToolNames": [],
+          "allowedTools": [],
+          "description": "用于完成单个模组资源的生成。只负责本模组单个实例的内部实现与行为，确保多个实例的状态相互独立；不负责实例数量、摆放、间距或跨实例协调，不为此读取 Placement 或其他资源的实现。需要跨资源信息时使用父任务提供的契约；发现约定缺失或冲突时报告父任务，不自行补偿。在归档前，只对节点要求和脚本挂载路径做必要性的检查，归档成功且没有已知阻塞后立即返回；不要继续做外观润色、假设性加固或扩大跨资源检查。发现具体错误时定向修复；发现其他资源或布局问题时报告父任务，不在本资源中自行补偿。对于 official 只能读 API 文档，禁止读取具体实现。归档时，anchor.json 按 parentPath 与 anchorName 定位锚点：父节点下没有同名节点则创建，只有一个则更新其位置与旋转，存在多个则报错。GLB 节点的变换可以存储为 matrix 或 translation/rotation/scale，缺少 translation 不代表节点位于原点，应先检查 matrix。",
+          "mode": "subagent",
+          "permissions": [
+            {
+              "permission": "*",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "doom_loop",
+              "pattern": "*",
+              "action": "ask"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "*",
+              "action": "ask"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Users/a1234/Library/Application Support/AI World Creator/.opencode/data/opencode/tool-output/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/var/folders/9t/1jhwn7p90xj8jy29h2fvgc2c0000gn/T/opencode/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Users/a1234/.agents/skills/ortools/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Users/a1234/.agents/skills/find-skills/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/hamlet-skill/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/lua-script-contract/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/threejs-placement/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/resource-generation/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/game-design/*",
+              "action": "allow"
+            },
+            {
+              "permission": "question",
+              "pattern": "*",
+              "action": "deny"
+            },
+            {
+              "permission": "plan_enter",
+              "pattern": "*",
+              "action": "deny"
+            },
+            {
+              "permission": "plan_exit",
+              "pattern": "*",
+              "action": "deny"
+            },
+            {
+              "permission": "read",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "read",
+              "pattern": "*.env",
+              "action": "ask"
+            },
+            {
+              "permission": "read",
+              "pattern": "*.env.*",
+              "action": "ask"
+            },
+            {
+              "permission": "read",
+              "pattern": "*.env.example",
+              "action": "allow"
+            },
+            {
+              "permission": "*",
+              "pattern": "*",
+              "action": "deny"
+            },
+            {
+              "permission": "read",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "edit",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "glob",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "grep",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "question",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "todowrite",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "bash",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "archive",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "generate_ui_png_atlas",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "inspect_resource_nodes",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "select_topology_generation",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "aigc_generate_topology",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "resource",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "skill",
+              "pattern": "*",
+              "action": "deny"
+            },
+            {
+              "permission": "skill",
+              "pattern": "game-design",
+              "action": "allow"
+            },
+            {
+              "permission": "skill",
+              "pattern": "lua-script-contract",
+              "action": "allow"
+            },
+            {
+              "permission": "skill",
+              "pattern": "resource-generation",
+              "action": "allow"
+            },
+            {
+              "permission": "skill",
+              "pattern": "threejs-placement",
+              "action": "allow"
+            },
+            {
+              "permission": "skill",
+              "pattern": "hamlet-skill",
+              "action": "allow"
+            },
+            {
+              "permission": "task_list",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "task_wait",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "task_cancel",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "task",
+              "pattern": "*",
+              "action": "deny"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Users/a1234/Library/Application Support/AI World Creator/.opencode/data/opencode/tool-output/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/var/folders/9t/1jhwn7p90xj8jy29h2fvgc2c0000gn/T/opencode/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Users/a1234/.agents/skills/ortools/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Users/a1234/.agents/skills/find-skills/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/hamlet-skill/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/lua-script-contract/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/threejs-placement/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/resource-generation/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/game-design/*",
+              "action": "allow"
+            }
+          ],
+          "sourcePath": "",
+          "systemPrompt": "<editor_encrypt_content name=\"awc/02bf799be25c80f9bac870e83170a400\" version=\"35b7669cd7f9128e570d2a7228f883d3\"></editor_encrypt_content>"
+        }
+      },
+      {
+        "agentId": "placement",
+        "metadata": {
+          "agentId": "placement",
+          "allowedSubagents": [],
+          "configuredToolNames": [],
+          "allowedToolNames": [],
+          "allowedTools": [],
+          "description": "用于对模组资源进行布局摆放，具备图像识别能力",
+          "mode": "subagent",
+          "permissions": [
+            {
+              "permission": "*",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "doom_loop",
+              "pattern": "*",
+              "action": "ask"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "*",
+              "action": "ask"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Users/a1234/Library/Application Support/AI World Creator/.opencode/data/opencode/tool-output/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/var/folders/9t/1jhwn7p90xj8jy29h2fvgc2c0000gn/T/opencode/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Users/a1234/.agents/skills/ortools/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Users/a1234/.agents/skills/find-skills/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/hamlet-skill/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/lua-script-contract/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/threejs-placement/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/resource-generation/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/game-design/*",
+              "action": "allow"
+            },
+            {
+              "permission": "question",
+              "pattern": "*",
+              "action": "deny"
+            },
+            {
+              "permission": "plan_enter",
+              "pattern": "*",
+              "action": "deny"
+            },
+            {
+              "permission": "plan_exit",
+              "pattern": "*",
+              "action": "deny"
+            },
+            {
+              "permission": "read",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "read",
+              "pattern": "*.env",
+              "action": "ask"
+            },
+            {
+              "permission": "read",
+              "pattern": "*.env.*",
+              "action": "ask"
+            },
+            {
+              "permission": "read",
+              "pattern": "*.env.example",
+              "action": "allow"
+            },
+            {
+              "permission": "*",
+              "pattern": "*",
+              "action": "deny"
+            },
+            {
+              "permission": "read",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "edit",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "glob",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "grep",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "question",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "todowrite",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "bash",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "archive",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "generate_ui_png_atlas",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "inspect_resource_nodes",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "select_topology_generation",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "aigc_generate_topology",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "resource",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "skill",
+              "pattern": "*",
+              "action": "deny"
+            },
+            {
+              "permission": "skill",
+              "pattern": "game-design",
+              "action": "allow"
+            },
+            {
+              "permission": "skill",
+              "pattern": "lua-script-contract",
+              "action": "allow"
+            },
+            {
+              "permission": "skill",
+              "pattern": "resource-generation",
+              "action": "allow"
+            },
+            {
+              "permission": "skill",
+              "pattern": "threejs-placement",
+              "action": "allow"
+            },
+            {
+              "permission": "skill",
+              "pattern": "hamlet-skill",
+              "action": "allow"
+            },
+            {
+              "permission": "task_list",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "task_wait",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "task_cancel",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "task",
+              "pattern": "*",
+              "action": "deny"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Users/a1234/Library/Application Support/AI World Creator/.opencode/data/opencode/tool-output/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/var/folders/9t/1jhwn7p90xj8jy29h2fvgc2c0000gn/T/opencode/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Users/a1234/.agents/skills/ortools/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Users/a1234/.agents/skills/find-skills/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/hamlet-skill/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/lua-script-contract/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/threejs-placement/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/resource-generation/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/game-design/*",
+              "action": "allow"
+            }
+          ],
+          "sourcePath": "",
+          "systemPrompt": "<editor_encrypt_content name=\"awc/02bf799be25c80f9bac870e83170a400\" version=\"35b7669cd7f9128e570d2a7228f883d3\"></editor_encrypt_content>"
+        }
+      },
+      {
+        "agentId": "ui",
+        "metadata": {
+          "agentId": "ui",
+          "allowedSubagents": [],
+          "configuredToolNames": [],
+          "allowedToolNames": [],
+          "allowedTools": [],
+          "description": "用于完成单个 Runtime UI 的 HTML、素材、Lua、Host 接入、校验和资源归档，具备图像识别能力",
+          "mode": "subagent",
+          "permissions": [
+            {
+              "permission": "*",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "doom_loop",
+              "pattern": "*",
+              "action": "ask"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "*",
+              "action": "ask"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Users/a1234/Library/Application Support/AI World Creator/.opencode/data/opencode/tool-output/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/var/folders/9t/1jhwn7p90xj8jy29h2fvgc2c0000gn/T/opencode/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Users/a1234/.agents/skills/ortools/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Users/a1234/.agents/skills/find-skills/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/hamlet-skill/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/lua-script-contract/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/threejs-placement/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/resource-generation/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/game-design/*",
+              "action": "allow"
+            },
+            {
+              "permission": "question",
+              "pattern": "*",
+              "action": "deny"
+            },
+            {
+              "permission": "plan_enter",
+              "pattern": "*",
+              "action": "deny"
+            },
+            {
+              "permission": "plan_exit",
+              "pattern": "*",
+              "action": "deny"
+            },
+            {
+              "permission": "read",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "read",
+              "pattern": "*.env",
+              "action": "ask"
+            },
+            {
+              "permission": "read",
+              "pattern": "*.env.*",
+              "action": "ask"
+            },
+            {
+              "permission": "read",
+              "pattern": "*.env.example",
+              "action": "allow"
+            },
+            {
+              "permission": "*",
+              "pattern": "*",
+              "action": "deny"
+            },
+            {
+              "permission": "read",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "edit",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "glob",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "grep",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "question",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "todowrite",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "bash",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "archive",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "generate_ui_png_atlas",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "inspect_resource_nodes",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "select_topology_generation",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "aigc_generate_topology",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "resource",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "skill",
+              "pattern": "*",
+              "action": "deny"
+            },
+            {
+              "permission": "skill",
+              "pattern": "game-design",
+              "action": "allow"
+            },
+            {
+              "permission": "skill",
+              "pattern": "lua-script-contract",
+              "action": "allow"
+            },
+            {
+              "permission": "skill",
+              "pattern": "resource-generation",
+              "action": "allow"
+            },
+            {
+              "permission": "skill",
+              "pattern": "threejs-placement",
+              "action": "allow"
+            },
+            {
+              "permission": "skill",
+              "pattern": "hamlet-skill",
+              "action": "allow"
+            },
+            {
+              "permission": "task_list",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "task_wait",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "task_cancel",
+              "pattern": "*",
+              "action": "allow"
+            },
+            {
+              "permission": "task",
+              "pattern": "*",
+              "action": "deny"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Users/a1234/Library/Application Support/AI World Creator/.opencode/data/opencode/tool-output/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/var/folders/9t/1jhwn7p90xj8jy29h2fvgc2c0000gn/T/opencode/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Users/a1234/.agents/skills/ortools/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Users/a1234/.agents/skills/find-skills/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/hamlet-skill/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/lua-script-contract/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/threejs-placement/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/resource-generation/*",
+              "action": "allow"
+            },
+            {
+              "permission": "external_directory",
+              "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/game-design/*",
+              "action": "allow"
+            }
+          ],
+          "sourcePath": "",
+          "systemPrompt": "<editor_encrypt_content name=\"awc/02bf799be25c80f9bac870e83170a400\" version=\"35b7669cd7f9128e570d2a7228f883d3\"></editor_encrypt_content>"
+        }
+      }
+    ],
+    "metadataByAgent": {
+      "mixcore-agent": {
+        "agentId": "mixcore-agent",
+        "allowedSubagents": [
+          "module",
+          "placement",
+          "ui"
+        ],
+        "configuredToolNames": [],
+        "allowedToolNames": [],
+        "allowedTools": [],
+        "description": "Agent for douyin playable 3D game-world generation.",
+        "mode": "primary",
+        "permissions": [
+          {
+            "permission": "*",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "doom_loop",
+            "pattern": "*",
+            "action": "ask"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "*",
+            "action": "ask"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Users/a1234/Library/Application Support/AI World Creator/.opencode/data/opencode/tool-output/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/var/folders/9t/1jhwn7p90xj8jy29h2fvgc2c0000gn/T/opencode/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Users/a1234/.agents/skills/ortools/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Users/a1234/.agents/skills/find-skills/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/hamlet-skill/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/lua-script-contract/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/threejs-placement/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/resource-generation/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/game-design/*",
+            "action": "allow"
+          },
+          {
+            "permission": "question",
+            "pattern": "*",
+            "action": "deny"
+          },
+          {
+            "permission": "plan_enter",
+            "pattern": "*",
+            "action": "deny"
+          },
+          {
+            "permission": "plan_exit",
+            "pattern": "*",
+            "action": "deny"
+          },
+          {
+            "permission": "read",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "read",
+            "pattern": "*.env",
+            "action": "ask"
+          },
+          {
+            "permission": "read",
+            "pattern": "*.env.*",
+            "action": "ask"
+          },
+          {
+            "permission": "read",
+            "pattern": "*.env.example",
+            "action": "allow"
+          },
+          {
+            "permission": "*",
+            "pattern": "*",
+            "action": "deny"
+          },
+          {
+            "permission": "read",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "edit",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "glob",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "grep",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "question",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "todowrite",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "bash",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "archive",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "generate_ui_png_atlas",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "inspect_resource_nodes",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "select_topology_generation",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "aigc_generate_topology",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "resource",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "skill",
+            "pattern": "*",
+            "action": "deny"
+          },
+          {
+            "permission": "skill",
+            "pattern": "game-design",
+            "action": "allow"
+          },
+          {
+            "permission": "skill",
+            "pattern": "lua-script-contract",
+            "action": "allow"
+          },
+          {
+            "permission": "skill",
+            "pattern": "resource-generation",
+            "action": "allow"
+          },
+          {
+            "permission": "skill",
+            "pattern": "threejs-placement",
+            "action": "allow"
+          },
+          {
+            "permission": "skill",
+            "pattern": "hamlet-skill",
+            "action": "allow"
+          },
+          {
+            "permission": "task",
+            "pattern": "*",
+            "action": "deny"
+          },
+          {
+            "permission": "task",
+            "pattern": "placement",
+            "action": "allow"
+          },
+          {
+            "permission": "task",
+            "pattern": "module",
+            "action": "allow"
+          },
+          {
+            "permission": "task",
+            "pattern": "ui",
+            "action": "allow"
+          },
+          {
+            "permission": "task_list",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "task_wait",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "task_cancel",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Users/a1234/Library/Application Support/AI World Creator/.opencode/data/opencode/tool-output/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/var/folders/9t/1jhwn7p90xj8jy29h2fvgc2c0000gn/T/opencode/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Users/a1234/.agents/skills/ortools/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Users/a1234/.agents/skills/find-skills/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/hamlet-skill/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/lua-script-contract/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/threejs-placement/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/resource-generation/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/game-design/*",
+            "action": "allow"
+          }
+        ],
+        "sourcePath": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/agents/mixcore-agent.md",
+        "systemPrompt": "<editor_encrypt_content name=\"awc/02bf799be25c80f9bac870e83170a400\" version=\"35b7669cd7f9128e570d2a7228f883d3\"></editor_encrypt_content>"
+      },
+      "module": {
+        "agentId": "module",
+        "allowedSubagents": [],
+        "configuredToolNames": [],
+        "allowedToolNames": [],
+        "allowedTools": [],
+        "description": "用于完成单个模组资源的生成。只负责本模组单个实例的内部实现与行为，确保多个实例的状态相互独立；不负责实例数量、摆放、间距或跨实例协调，不为此读取 Placement 或其他资源的实现。需要跨资源信息时使用父任务提供的契约；发现约定缺失或冲突时报告父任务，不自行补偿。在归档前，只对节点要求和脚本挂载路径做必要性的检查，归档成功且没有已知阻塞后立即返回；不要继续做外观润色、假设性加固或扩大跨资源检查。发现具体错误时定向修复；发现其他资源或布局问题时报告父任务，不在本资源中自行补偿。对于 official 只能读 API 文档，禁止读取具体实现。归档时，anchor.json 按 parentPath 与 anchorName 定位锚点：父节点下没有同名节点则创建，只有一个则更新其位置与旋转，存在多个则报错。GLB 节点的变换可以存储为 matrix 或 translation/rotation/scale，缺少 translation 不代表节点位于原点，应先检查 matrix。",
+        "mode": "subagent",
+        "permissions": [
+          {
+            "permission": "*",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "doom_loop",
+            "pattern": "*",
+            "action": "ask"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "*",
+            "action": "ask"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Users/a1234/Library/Application Support/AI World Creator/.opencode/data/opencode/tool-output/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/var/folders/9t/1jhwn7p90xj8jy29h2fvgc2c0000gn/T/opencode/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Users/a1234/.agents/skills/ortools/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Users/a1234/.agents/skills/find-skills/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/hamlet-skill/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/lua-script-contract/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/threejs-placement/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/resource-generation/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/game-design/*",
+            "action": "allow"
+          },
+          {
+            "permission": "question",
+            "pattern": "*",
+            "action": "deny"
+          },
+          {
+            "permission": "plan_enter",
+            "pattern": "*",
+            "action": "deny"
+          },
+          {
+            "permission": "plan_exit",
+            "pattern": "*",
+            "action": "deny"
+          },
+          {
+            "permission": "read",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "read",
+            "pattern": "*.env",
+            "action": "ask"
+          },
+          {
+            "permission": "read",
+            "pattern": "*.env.*",
+            "action": "ask"
+          },
+          {
+            "permission": "read",
+            "pattern": "*.env.example",
+            "action": "allow"
+          },
+          {
+            "permission": "*",
+            "pattern": "*",
+            "action": "deny"
+          },
+          {
+            "permission": "read",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "edit",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "glob",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "grep",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "question",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "todowrite",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "bash",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "archive",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "generate_ui_png_atlas",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "inspect_resource_nodes",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "select_topology_generation",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "aigc_generate_topology",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "resource",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "skill",
+            "pattern": "*",
+            "action": "deny"
+          },
+          {
+            "permission": "skill",
+            "pattern": "game-design",
+            "action": "allow"
+          },
+          {
+            "permission": "skill",
+            "pattern": "lua-script-contract",
+            "action": "allow"
+          },
+          {
+            "permission": "skill",
+            "pattern": "resource-generation",
+            "action": "allow"
+          },
+          {
+            "permission": "skill",
+            "pattern": "threejs-placement",
+            "action": "allow"
+          },
+          {
+            "permission": "skill",
+            "pattern": "hamlet-skill",
+            "action": "allow"
+          },
+          {
+            "permission": "task_list",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "task_wait",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "task_cancel",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "task",
+            "pattern": "*",
+            "action": "deny"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Users/a1234/Library/Application Support/AI World Creator/.opencode/data/opencode/tool-output/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/var/folders/9t/1jhwn7p90xj8jy29h2fvgc2c0000gn/T/opencode/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Users/a1234/.agents/skills/ortools/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Users/a1234/.agents/skills/find-skills/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/hamlet-skill/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/lua-script-contract/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/threejs-placement/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/resource-generation/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/game-design/*",
+            "action": "allow"
+          }
+        ],
+        "sourcePath": "",
+        "systemPrompt": "<editor_encrypt_content name=\"awc/02bf799be25c80f9bac870e83170a400\" version=\"35b7669cd7f9128e570d2a7228f883d3\"></editor_encrypt_content>"
+      },
+      "placement": {
+        "agentId": "placement",
+        "allowedSubagents": [],
+        "configuredToolNames": [],
+        "allowedToolNames": [],
+        "allowedTools": [],
+        "description": "用于对模组资源进行布局摆放，具备图像识别能力",
+        "mode": "subagent",
+        "permissions": [
+          {
+            "permission": "*",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "doom_loop",
+            "pattern": "*",
+            "action": "ask"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "*",
+            "action": "ask"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Users/a1234/Library/Application Support/AI World Creator/.opencode/data/opencode/tool-output/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/var/folders/9t/1jhwn7p90xj8jy29h2fvgc2c0000gn/T/opencode/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Users/a1234/.agents/skills/ortools/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Users/a1234/.agents/skills/find-skills/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/hamlet-skill/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/lua-script-contract/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/threejs-placement/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/resource-generation/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/game-design/*",
+            "action": "allow"
+          },
+          {
+            "permission": "question",
+            "pattern": "*",
+            "action": "deny"
+          },
+          {
+            "permission": "plan_enter",
+            "pattern": "*",
+            "action": "deny"
+          },
+          {
+            "permission": "plan_exit",
+            "pattern": "*",
+            "action": "deny"
+          },
+          {
+            "permission": "read",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "read",
+            "pattern": "*.env",
+            "action": "ask"
+          },
+          {
+            "permission": "read",
+            "pattern": "*.env.*",
+            "action": "ask"
+          },
+          {
+            "permission": "read",
+            "pattern": "*.env.example",
+            "action": "allow"
+          },
+          {
+            "permission": "*",
+            "pattern": "*",
+            "action": "deny"
+          },
+          {
+            "permission": "read",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "edit",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "glob",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "grep",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "question",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "todowrite",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "bash",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "archive",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "generate_ui_png_atlas",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "inspect_resource_nodes",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "select_topology_generation",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "aigc_generate_topology",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "resource",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "skill",
+            "pattern": "*",
+            "action": "deny"
+          },
+          {
+            "permission": "skill",
+            "pattern": "game-design",
+            "action": "allow"
+          },
+          {
+            "permission": "skill",
+            "pattern": "lua-script-contract",
+            "action": "allow"
+          },
+          {
+            "permission": "skill",
+            "pattern": "resource-generation",
+            "action": "allow"
+          },
+          {
+            "permission": "skill",
+            "pattern": "threejs-placement",
+            "action": "allow"
+          },
+          {
+            "permission": "skill",
+            "pattern": "hamlet-skill",
+            "action": "allow"
+          },
+          {
+            "permission": "task_list",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "task_wait",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "task_cancel",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "task",
+            "pattern": "*",
+            "action": "deny"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Users/a1234/Library/Application Support/AI World Creator/.opencode/data/opencode/tool-output/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/var/folders/9t/1jhwn7p90xj8jy29h2fvgc2c0000gn/T/opencode/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Users/a1234/.agents/skills/ortools/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Users/a1234/.agents/skills/find-skills/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/hamlet-skill/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/lua-script-contract/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/threejs-placement/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/resource-generation/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/game-design/*",
+            "action": "allow"
+          }
+        ],
+        "sourcePath": "",
+        "systemPrompt": "<editor_encrypt_content name=\"awc/02bf799be25c80f9bac870e83170a400\" version=\"35b7669cd7f9128e570d2a7228f883d3\"></editor_encrypt_content>"
+      },
+      "ui": {
+        "agentId": "ui",
+        "allowedSubagents": [],
+        "configuredToolNames": [],
+        "allowedToolNames": [],
+        "allowedTools": [],
+        "description": "用于完成单个 Runtime UI 的 HTML、素材、Lua、Host 接入、校验和资源归档，具备图像识别能力",
+        "mode": "subagent",
+        "permissions": [
+          {
+            "permission": "*",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "doom_loop",
+            "pattern": "*",
+            "action": "ask"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "*",
+            "action": "ask"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Users/a1234/Library/Application Support/AI World Creator/.opencode/data/opencode/tool-output/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/var/folders/9t/1jhwn7p90xj8jy29h2fvgc2c0000gn/T/opencode/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Users/a1234/.agents/skills/ortools/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Users/a1234/.agents/skills/find-skills/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/hamlet-skill/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/lua-script-contract/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/threejs-placement/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/resource-generation/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/game-design/*",
+            "action": "allow"
+          },
+          {
+            "permission": "question",
+            "pattern": "*",
+            "action": "deny"
+          },
+          {
+            "permission": "plan_enter",
+            "pattern": "*",
+            "action": "deny"
+          },
+          {
+            "permission": "plan_exit",
+            "pattern": "*",
+            "action": "deny"
+          },
+          {
+            "permission": "read",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "read",
+            "pattern": "*.env",
+            "action": "ask"
+          },
+          {
+            "permission": "read",
+            "pattern": "*.env.*",
+            "action": "ask"
+          },
+          {
+            "permission": "read",
+            "pattern": "*.env.example",
+            "action": "allow"
+          },
+          {
+            "permission": "*",
+            "pattern": "*",
+            "action": "deny"
+          },
+          {
+            "permission": "read",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "edit",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "glob",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "grep",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "question",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "todowrite",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "bash",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "archive",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "generate_ui_png_atlas",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "inspect_resource_nodes",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "select_topology_generation",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "aigc_generate_topology",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "resource",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "skill",
+            "pattern": "*",
+            "action": "deny"
+          },
+          {
+            "permission": "skill",
+            "pattern": "game-design",
+            "action": "allow"
+          },
+          {
+            "permission": "skill",
+            "pattern": "lua-script-contract",
+            "action": "allow"
+          },
+          {
+            "permission": "skill",
+            "pattern": "resource-generation",
+            "action": "allow"
+          },
+          {
+            "permission": "skill",
+            "pattern": "threejs-placement",
+            "action": "allow"
+          },
+          {
+            "permission": "skill",
+            "pattern": "hamlet-skill",
+            "action": "allow"
+          },
+          {
+            "permission": "task_list",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "task_wait",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "task_cancel",
+            "pattern": "*",
+            "action": "allow"
+          },
+          {
+            "permission": "task",
+            "pattern": "*",
+            "action": "deny"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Users/a1234/Library/Application Support/AI World Creator/.opencode/data/opencode/tool-output/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/var/folders/9t/1jhwn7p90xj8jy29h2fvgc2c0000gn/T/opencode/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Users/a1234/.agents/skills/ortools/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Users/a1234/.agents/skills/find-skills/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/hamlet-skill/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/lua-script-contract/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/threejs-placement/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/resource-generation/*",
+            "action": "allow"
+          },
+          {
+            "permission": "external_directory",
+            "pattern": "/Applications/造世界编辑器.app/Contents/Resources/addon/agent-runtime/skills/game-design/*",
+            "action": "allow"
+          }
+        ],
+        "sourcePath": "",
+        "systemPrompt": "<editor_encrypt_content name=\"awc/02bf799be25c80f9bac870e83170a400\" version=\"35b7669cd7f9128e570d2a7228f883d3\"></editor_encrypt_content>"
+      }
+    }
+  },
+  "conversation": {
+    "prompt": "<user_config>\n<mode>auto</mode>\n<aigc_generate_topology>\n<algorithm>0 (Douyin 3D)</algorithm>\n<style>2 (Minimal / Realistic)</style>\n<!-- The algorithm and style values above are defaults only if aigc_generate_topology is called. Unless the user explicitly requests other supported values, use these defaults when calling the tool. This block does not require the tool to be called or determine the generation route. Use supported alternatives when these defaults are not feasible. -->\n</aigc_generate_topology>\n</user_config>\n<user_request>\n一匹原创的写实骏马坐骑，深棕色短毛有光泽，黑色鬃毛和马尾，配皮革马鞍、缰绳和金属马镣，体型匀称健壮，站立在地面上，不要卡通风格。交互要求：1）玩家靠近马时出现「上马」按钮，点击后人物坐到马鞍上、保持骑马坐姿，再点「下马」离开；2）骑乘时用摇杆控制前进和转向，马贴着地面奔跑并跟随地形起伏，速度约为步行的三倍，按跳跃可以跳过小障碍；3）奔跑时四条腿交替摆动、头和尾巴随步伐摆动，停下时原地轻微呼吸和甩尾；4）骑乘时镜头拉远跟随。\n</user_request>",
+    "assistantText": "",
+    "messages": []
+  },
+  "tools": {
+    "calls": [],
+    "byName": {},
+    "failures": []
+  },
+  "diagnostics": {
+    "warnings": [],
+    "errors": [],
+    "errorCount": 0
+  }
+}

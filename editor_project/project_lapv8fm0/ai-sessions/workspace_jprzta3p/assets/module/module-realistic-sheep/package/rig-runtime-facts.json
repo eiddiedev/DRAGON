@@ -1,0 +1,38 @@
+{
+  "binding": {
+    "avatarResourcePath": "ModuleAnim/Animals/Sheep/FBX/SK_Sheep",
+    "bindingMode": "controller_avatar",
+    "controllerResourcePath": "ModuleAnim/Animals/Sheep/Sheep_Controller_Param",
+    "embeddedAdapterPath": "resources/skeleton/data/Sheep_Controller_Param_Embedded.lua",
+    "scriptFilePath": "resources/skeleton/data/Sheep_Controller_Param_Embedded.lua"
+  },
+  "capabilityHint": [
+    "controller",
+    "motionState"
+  ],
+  "creature": {
+    "controlProfile": "land",
+    "helpers": {}
+  },
+  "kind": "rig-runtime-facts",
+  "rigFamily": "creature",
+  "schemaVersion": 1,
+  "skeleton": {
+    "dataFormat": "threejs-global-quaternion",
+    "entryName": "sheep",
+    "sourceDataFile": "resources/skeleton/data/SK_Sheep_BonesTransformGlobal_ThreejsGltf_Quaternion.json",
+    "sourceListFile": "resources/skeleton/list_ThreejsGltf.json"
+  },
+  "structure": {
+    "rootBoundingBoxSize": {
+      "x": 0.397816,
+      "y": 0.784958,
+      "z": 1.314713
+    },
+    "rootScale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    }
+  }
+}

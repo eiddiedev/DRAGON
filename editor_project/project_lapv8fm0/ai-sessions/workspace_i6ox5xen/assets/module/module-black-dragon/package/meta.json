@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 3,
+  "resourceId": "module-black-dragon",
+  "displayName": "玄甲黑龙坐骑",
+  "category": "creature",
+  "summary": "可骑乘飞行的黑色西方龙，双翼持续挥动，骑乘后可前后飞行、左右转向并升降。",
+  "scale": [
+    1,
+    1,
+    1
+  ],
+  "attributes": {
+    "": {
+      "objectSync": true,
+      "rigidBody": {
+        "mass": 220,
+        "drag": 0.4,
+        "angularDrag": 1.2,
+        "useGravity": false,
+        "isKinematic": true,
+        "centerOfMass": [
+          0,
+          0.85,
+          -0.2
+        ]
+      },
+      "collider": {
+        "enable": false,
+        "includeChildren": true
+      },
+      "layer": {
+        "id": 9,
+        "includeChildren": true
+      }
+    },
+    "DragonRoot/VisualRoot/Saddle/SeatAnchor": {
+      "trigger": {
+        "shape": "box",
+        "size": [
+          7.2,
+          5.6,
+          9.6
+        ],
+        "center": [
+          0,
+          0.09,
+          -1.44
+        ]
+      },
+      "interaction": {
+        "kind": "Seat"
+      }
+    }
+  }
+}

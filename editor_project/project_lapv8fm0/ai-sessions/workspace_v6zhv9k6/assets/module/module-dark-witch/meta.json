@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 3,
+  "resourceId": "module-dark-witch",
+  "displayName": "紫水晶女巫",
+  "category": "humanoid",
+  "summary": "Q版暗黑奇幻女巫，玩家靠近后可按按钮交谈，头顶浮起紫色魔法气泡并轮播呓语。",
+  "scale": [0.48, 0.48, 0.48],
+  "attributes": {
+    "": {
+      "trigger": {
+        "shape": "box",
+        "size": [3.2, 2.6, 3.2],
+        "center": [0, 1.0, 0]
+      },
+      "collider": {
+        "enable": true,
+        "includeChildren": true
+      }
+    }
+  }
+}
