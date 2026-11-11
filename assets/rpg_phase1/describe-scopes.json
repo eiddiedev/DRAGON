@@ -1,0 +1,10 @@
+{
+  "revision": "7182a44cce2bfbf829fd231020c4497e87c67a359a96ecba7a7f556bbc21e193",
+  "result": {
+    "method": "scripts.setScopeRole",
+    "args": "位置参数数组：[input: {\n    /** 需要声明独立作用域的实际节点身份；Host 必须是相关 Resource 的祖先。 */\n    nodes: NodeHandle[];\n    /** host 协调后代资源，resource 声明独立实例；同一节点只保留一个宿主管理的角色。 */\n    role: \"resource\" | \"host\";\n}]\nargs[0] input: 目标节点与角色；批量先完整校验，再原子替换相反角色，重复声明相同角色幂等。\n类型约定：\nNodeHandle：当前文档中的节点身份；文档 ID 不变则句柄不变，ID 复用后定位新节点。\nWPrefab 宿主返回 n12，直接来自文档 node.id；目标由外层操作选择，不是 Unity GetInstanceID()。",
+    "returns": "void\n成功后完成；缺少可信支持、角色冲突或无效目标时整个批量不修改。\n显式声明 Host 或 Resource 作用域；由可信宿主供应并管理 bootstrap，保留所有业务绑定。",
+    "example": "await scene.scripts.setScopeRole({nodes:[hostRoot],role:\"host\"})",
+    "readOnly": false
+  }
+}

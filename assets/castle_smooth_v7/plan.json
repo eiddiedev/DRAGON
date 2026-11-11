@@ -1,0 +1,17 @@
+{
+  "scope": "continuous grey purple exterior stone without brick grid; include remaining original main side/rear masonry",
+  "keep": [
+    "model layout",
+    "openings and collisions",
+    "arch and window trim",
+    "slate roofs",
+    "clock face",
+    "interior light gain 1.4 and GI1.35",
+    "exterior tone .68,clock .82",
+    "terrain and roads"
+  ],
+  "pipeline": "replace accepted additive facade/tower/wall assets, additional visual main shell; retain original structures and collision",
+  "source": "Blender mother copies, no paid generation",
+  "budget": "must reduce or maintain combined previous visual-package capacity 155.887; no geometry duplicates",
+  "review": "native front/gate/side/rear and native entry path"
+}

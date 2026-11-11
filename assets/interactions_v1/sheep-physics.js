@@ -1,0 +1,1 @@
+await scene.components.set({"nodes": ["n2", "n3", "n4", "n5", "n6", "n7", "n8", "n9", "n10"], "type": "physicsColliderData", "values": {"enableCollision": true, "enableRigidBody": true, "mass": 12, "drag": 2.5, "angularDrag": 5, "useGravity": true, "isKinematic": false}});return {sheep:9};

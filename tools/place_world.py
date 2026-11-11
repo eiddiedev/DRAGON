@@ -17,7 +17,7 @@ import zipfile
 import numpy as np
 
 src, out = sys.argv[1:3]
-ROOT = '/Users/a1234/Documents/awesomeWRLD/assets'
+ROOT = '/Users/bytedance/Documents/ChatGPT/DRAGON/assets'
 z = zipfile.ZipFile(src)
 d = json.loads(z.read('SerializePcgData.json'))
 N = d['nodeTransformDatas']

@@ -1,0 +1,172 @@
+{
+  "runtime_glb": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_refit_v1/baked/castle_rooms_gi-runtime.glb",
+  "bytes": 7524448,
+  "master_bytes": 25423028,
+  "images": [
+    {
+      "name": "castle_gi_armory_final",
+      "master": [
+        1024,
+        1024
+      ],
+      "runtime": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "castle_gi_bedchamber_final",
+      "master": [
+        1024,
+        1024
+      ],
+      "runtime": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "castle_gi_dining_final",
+      "master": [
+        2048,
+        2048
+      ],
+      "runtime": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "castle_gi_hall_front_final",
+      "master": [
+        2048,
+        2048
+      ],
+      "runtime": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "castle_gi_hall_rear_final",
+      "master": [
+        2048,
+        2048
+      ],
+      "runtime": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "castle_gi_kitchen_final",
+      "master": [
+        1024,
+        1024
+      ],
+      "runtime": [
+        512,
+        512
+      ]
+    },
+    {
+      "name": "castle_gi_library_final",
+      "master": [
+        2048,
+        2048
+      ],
+      "runtime": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "name": "castle_gi_sanctuary_final",
+      "master": [
+        1024,
+        1024
+      ],
+      "runtime": [
+        512,
+        512
+      ]
+    }
+  ],
+  "rgba8_mips_mib": 26.666666666666664,
+  "blender_bounds": [
+    [
+      -13.100000381469727,
+      -10.100000381469727,
+      72.21099853515625
+    ],
+    [
+      13.100000381469727,
+      20.299999237060547,
+      88.80000305175781
+    ]
+  ],
+  "normalization_scale": 30.399999618530273,
+  "triangles": 24048,
+  "renderer_names": [
+    "castle_gi_armory",
+    "castle_gi_bedchamber",
+    "castle_gi_dining",
+    "castle_gi_hall_front",
+    "castle_gi_hall_rear",
+    "castle_gi_kitchen",
+    "castle_gi_library",
+    "castle_gi_sanctuary"
+  ],
+  "note": "Same exact baked GI, half-resolution runtime texture pack; saved separately from 2K/1K master.",
+  "verified_embedded_pngs": [
+    {
+      "name": "castle_gi_armory_final-runtime",
+      "width": 512,
+      "height": 512,
+      "bytes": 327635
+    },
+    {
+      "name": "castle_gi_bedchamber_final-runtime",
+      "width": 512,
+      "height": 512,
+      "bytes": 261817
+    },
+    {
+      "name": "castle_gi_dining_final-runtime",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 1285860
+    },
+    {
+      "name": "castle_gi_hall_front_final-runtime",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 1234419
+    },
+    {
+      "name": "castle_gi_hall_rear_final-runtime",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 771434
+    },
+    {
+      "name": "castle_gi_kitchen_final-runtime",
+      "width": 512,
+      "height": 512,
+      "bytes": 311274
+    },
+    {
+      "name": "castle_gi_library_final-runtime",
+      "width": 1024,
+      "height": 1024,
+      "bytes": 1301811
+    },
+    {
+      "name": "castle_gi_sanctuary_final-runtime",
+      "width": 512,
+      "height": 512,
+      "bytes": 262195
+    }
+  ],
+  "embedded_png_verified": true
+}

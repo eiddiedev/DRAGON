@@ -1,0 +1,17 @@
+Info: Baking map saved to internal image, save it externally or pack it
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+11:40:38 | INFO: Starting glTF 2.0 export
+11:40:38 | INFO: Extracting primitive: glow
+11:40:38 | INFO: Primitives created: 4
+11:40:38 | INFO: Extracting primitive: main
+11:40:38 | INFO: Primitives created: 1
+11:40:38 | INFO: Finished glTF 2.0 export in 0.28095006942749023 s
+00:31.460  render           | Saved: 'assets/castle_refit_v1/exterior/gothic_main.png'
+
+BUILT gothic_main tris 51066 MB 4.3
+Info: Saved as "gothic_main-unlit.blend"
+REFIT COMPLETE {"gothic_main": {"blender_bounds": [[-14.199999809265137, -8.850000381469727, 71.9000015258789], [14.199999809265137, 21.2405948638916, 103.9260025024414]], "unity_bounds": [[-14.199999809265137, 71.9000015258789, -21.2405948638916], [14.199999809265137, 103.9260025024414, 8.850000381469727]], "normalization_scale": 32.0260009765625, "triangles": 51066, "bytes": 4302716, "lighting_bake": "AO/albedo only; final assembly GI not yet baked"}}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

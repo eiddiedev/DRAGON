@@ -1,0 +1,26 @@
+{
+  "type": "wprefab",
+  "artifactId": "dragon_rpg_ui_v2",
+  "revisionId": "external:automation:a4d42f11-a456-4746-8c02-38b18e2aea81:c57e8ae9b91d089cae8ee7e4937c7d83fded9cb0eb031a40337acba7039959ab:c57e8ae9b91d089cae8ee7e4937c7d83fded9cb0eb031a40337acba7039959ab",
+  "createdAtUtc": "2026-11-11T04:36:55.425Z",
+  "artifact": {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/aacnswi1j2zf469p.wprefab",
+    "displayName": "龙眠职业与战斗",
+    "summary": "dragon_rpg_v1",
+    "hasRuntimeScript": true,
+    "hasAudio": false,
+    "hasExpandableAssets": true,
+    "metadata": {
+      "capacity": 82212,
+      "faceCount": 49128,
+      "logicalCenter": [
+        0.005724905362924915,
+        0.14434570074081401,
+        -0.06712717948841473
+      ],
+      "rigged": false
+    },
+    "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/21504c4c655d4391b4db3ddf448d228e.png"
+  },
+  "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/aacnswi1j2zf469p.wprefab"
+}

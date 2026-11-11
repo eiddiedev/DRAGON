@@ -1,0 +1,1 @@
+{"ok":true,"command":"runtime","data":{"ok":true,"status":"completed","result":{"roots":[{"name":"城堡入口与钟塔精修样板","missing":true},{"name":"城堡塔楼与外围城墙精修","missing":true},{"name":"龙眠城堡精修","missing":true}],"lights":[]},"startFrame":3601,"endFrame":3601,"durationMs":1,"mode":"native-puerts"}}

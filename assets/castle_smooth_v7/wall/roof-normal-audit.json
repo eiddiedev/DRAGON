@@ -1,0 +1,23 @@
+{
+  "method": "after full recalc, every open roof main face normal dot radial_vector positive; connected lip flipped together",
+  "roof_normals": [
+    {
+      "object": "ring_wall_skin",
+      "main_shingle_faces": 0,
+      "inward_pairs_corrected": 0,
+      "all_main_faces_outward": true
+    },
+    {
+      "object": "wall_turrets_skin",
+      "main_shingle_faces": 1360,
+      "inward_pairs_corrected": 340,
+      "all_main_faces_outward": true
+    },
+    {
+      "object": "gatehouse_skin",
+      "main_shingle_faces": 880,
+      "inward_pairs_corrected": 226,
+      "all_main_faces_outward": true
+    }
+  ]
+}

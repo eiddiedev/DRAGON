@@ -1,0 +1,51 @@
+REFIT COMPLETE {"gothic_main": {"blender_bounds": [[-14.199999809265137, -8.850000381469727, 71.9000015258789], [14.199999809265137, 21.2405948638916, 103.9260025024414]], "unity_bounds": [[-14.199999809265137, 71.9000015258789, -21.2405948638916], [14.199999809265137, 103.9260025024414, 8.850000381469727]], "normalization_scale": 32.0260009765625, "triangles": 51066, "bytes": 4302716, "lighting_bake": "AO/albedo only; final assembly GI not yet baked"}, "gothic_towers": {"blender_bounds": [[-13.328800201416016, -11.746000289916992, 71.9000015258789], [13.089750289916992, 15.593157768249512, 139.3000030517578]], "unity_bounds": [[-13.328800201416016, 71.9000015258789, -15.593157768249512], [13.089750289916992, 139.3000030517578, 11.746000289916992]], "normalization_scale": 67.4000015258789, "triangles": 41132, "bytes": 3540052, "lighting_bake": "AO/albedo only; final assembly GI not yet baked"}, "gothic_wall": {"blender_bounds": [[-19.541234970092773, -22.0, 68.5], [20.784029006958008, 19.541234970092773, 97.80000305175781]], "unity_bounds": [[-19.541234970092773, 68.5, -19.541234970092773], [20.784029006958008, 97.80000305175781, 22.0]], "normalization_scale": 41.54123497009277, "triangles": 15220, "bytes": 1496468, "lighting_bake": "AO/albedo only; final assembly GI not yet baked"}}
+11:46:51 | INFO: Data are loaded, start creating Blender stuff
+11:46:51 | INFO: Blender create Mesh node glow
+11:46:51 | INFO: Blender create Mesh node main
+11:46:51 | INFO: glTF import finished in 0.14s
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+11:46:51 | INFO: Starting glTF 2.0 export
+11:46:51 | INFO: Extracting primitive: glow
+11:46:51 | INFO: Primitives created: 4
+11:46:51 | INFO: Extracting primitive: main
+11:46:52 | INFO: Primitives created: 1
+11:46:52 | INFO: Finished glTF 2.0 export in 0.037483930587768555 s
+
+11:46:52 | INFO: Data are loaded, start creating Blender stuff
+11:46:52 | INFO: Blender create Mesh node glow
+11:46:52 | INFO: Blender create Mesh node main
+11:46:52 | INFO: glTF import finished in 0.14s
+11:46:52 | INFO: Starting glTF 2.0 export
+11:46:52 | INFO: Extracting primitive: glow
+11:46:52 | INFO: Primitives created: 4
+11:46:52 | INFO: Extracting primitive: main
+11:46:52 | INFO: Primitives created: 1
+11:46:52 | INFO: Finished glTF 2.0 export in 0.027757883071899414 s
+
+11:46:52 | INFO: Data are loaded, start creating Blender stuff
+11:46:52 | INFO: Blender create Mesh node glow.001
+11:46:52 | INFO: Blender create Mesh node main.001
+11:46:52 | INFO: glTF import finished in 0.12s
+11:46:52 | INFO: Starting glTF 2.0 export
+11:46:52 | INFO: Extracting primitive: glow.001
+11:46:52 | INFO: Primitives created: 2
+11:46:52 | INFO: Extracting primitive: main.001
+11:46:52 | INFO: Primitives created: 1
+11:46:52 | INFO: Finished glTF 2.0 export in 0.023608922958374023 s
+
+11:46:52 | INFO: Data are loaded, start creating Blender stuff
+11:46:52 | INFO: Blender create Mesh node glow.001
+11:46:52 | INFO: Blender create Mesh node main.001
+11:46:52 | INFO: glTF import finished in 0.11s
+11:46:52 | INFO: Starting glTF 2.0 export
+11:46:52 | INFO: Extracting primitive: glow.001
+11:46:52 | INFO: Primitives created: 1
+11:46:52 | INFO: Extracting primitive: main.001
+11:46:52 | INFO: Primitives created: 1
+11:46:52 | INFO: Finished glTF 2.0 export in 0.02935194969177246 s
+
+SPLIT COMPLETE {"gothic_main-west": {"path": "assets/castle_refit_v1/exterior/gothic_main-west-GI.glb", "triangles": 25437, "bytes": 2012296, "unity_bounds": [[-14.199999809265137, 71.9000015258789, -21.2405948638916], [7.0, 103.9260025024414, 8.850000381469727]], "normalization_scale": 32.0260009765625, "source": "assets/castle_refit_v1/exterior/gothic_main-GI.glb", "placement": "original scene coordinate convention; same world root127,0,176; no recenter; UV/materials retained"}, "gothic_main-east": {"path": "assets/castle_refit_v1/exterior/gothic_main-east-GI.glb", "triangles": 25629, "bytes": 2022968, "unity_bounds": [[-7.0, 71.9000015258789, -21.2405948638916], [14.199999809265137, 103.9260025024414, 8.850000381469727]], "normalization_scale": 32.0260009765625, "source": "assets/castle_refit_v1/exterior/gothic_main-GI.glb", "placement": "original scene coordinate convention; same world root127,0,176; no recenter; UV/materials retained"}, "gothic_towers-west": {"path": "assets/castle_refit_v1/exterior/gothic_towers-west-GI.glb", "triangles": 21448, "bytes": 1748920, "unity_bounds": [[-13.328800201416016, 71.9000015258789, -15.593157768249512], [5.0, 139.3000030517578, 11.746000289916992]], "normalization_scale": 67.4000015258789, "source": "assets/castle_refit_v1/exterior/gothic_towers-GI.glb", "placement": "original scene coordinate convention; same world root127,0,176; no recenter; UV/materials retained"}, "gothic_towers-east": {"path": "assets/castle_refit_v1/exterior/gothic_towers-east-GI.glb", "triangles": 19684, "bytes": 1626176, "unity_bounds": [[-5.0, 71.9000015258789, -15.593157768249512], [13.089750289916992, 139.3000030517578, 11.490320205688477]], "normalization_scale": 67.4000015258789, "source": "assets/castle_refit_v1/exterior/gothic_towers-GI.glb", "placement": "original scene coordinate convention; same world root127,0,176; no recenter; UV/materials retained"}}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

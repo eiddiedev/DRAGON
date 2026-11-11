@@ -1,7 +1,7 @@
 # 用法：Blender --background --python bake.py
 # 把三个部件各烘两张图：原贴图转到新 UV；鳞片/AO 遮罩。输出到 assets/dragon/ai/bake/
 import os, bpy, bmesh, numpy as np, math
-ROOT = '/Users/a1234/Documents/awesomeWRLD/assets/dragon/ai'
+ROOT = '/Users/bytedance/Documents/ChatGPT/DRAGON/assets/dragon/ai'
 Z = np.load(f'{ROOT}/rig2.npz')
 pos, uv, idx, region = Z['pos'], Z['uv'], Z['idx'], Z['region']
 TP = np.load(f'{ROOT}/tpart6.npy')   # 六块：左翼 右翼 身体 尾巴 头颈 四肢

@@ -1,0 +1,50 @@
+/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_smooth_facade.py:156: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new(ob.name+'_SOURCE');mat.use_nodes=True;nt=mat.node_tree;pb=nt.nodes.get('Principled BSDF');pb.inputs['Roughness'].default_value=.86
+15:15:15 | INFO: Data are loaded, start creating Blender stuff
+15:15:15 | INFO: Blender create Mesh node glow
+15:15:15 | INFO: Blender create Mesh node main
+15:15:15 | INFO: glTF import finished in 0.21s
+15:15:15 | INFO: Data are loaded, start creating Blender stuff
+15:15:15 | INFO: Blender create Mesh node glow
+15:15:15 | INFO: Blender create Mesh node main
+15:15:15 | INFO: glTF import finished in 0.18s
+15:15:15 | INFO: Data are loaded, start creating Blender stuff
+15:15:15 | INFO: Blender create Mesh node glow
+15:15:15 | INFO: Blender create Mesh node main
+15:15:15 | INFO: glTF import finished in 0.06s
+/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_smooth_facade.py:164: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('neutral_soft_environment');world.use_nodes=True;world.node_tree.nodes['Background'].inputs[0].default_value=(.65,.65,.68,1);world.node_tree.nodes['Background'].inputs[1].default_value=.85;scene.world=world
+SAMPLE TRIANGLES [('entrance_masonry', 6984), ('entrance_carved_trim', 5748), ('main_side_rear_smooth', 4524)]
+/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_smooth_facade.py:178: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  final=bpy.data.materials.new(ob.name+'_GI_COLOR');final.use_nodes=True;pb=final.node_tree.nodes.get('Principled BSDF');pb.inputs['Roughness'].default_value=.86;tx=final.node_tree.nodes.new('ShaderNodeTexImage');tx.image=im;final.node_tree.links.new(tx.outputs['Color'],pb.inputs['Base Color'])
+Info: Saved as "entrance-source.blend"
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+15:17:11 | INFO: Starting glTF 2.0 export
+15:17:11 | INFO: Extracting primitive: entrance_masonry.001
+15:17:12 | INFO: Primitives created: 1
+15:17:12 | INFO: Finished glTF 2.0 export in 0.2964022159576416 s
+
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+15:20:19 | INFO: Starting glTF 2.0 export
+15:20:19 | INFO: Extracting primitive: entrance_carved_trim.001
+15:20:19 | INFO: Primitives created: 1
+15:20:19 | INFO: Finished glTF 2.0 export in 0.39899396896362305 s
+
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+15:24:40 | INFO: Starting glTF 2.0 export
+15:24:41 | INFO: Extracting primitive: main_side_rear_smooth.001
+15:24:41 | INFO: Primitives created: 1
+15:24:41 | INFO: Finished glTF 2.0 export in 0.27900004386901855 s
+10:40.350  render           | Saved: '/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_smooth_v7/facade/portal-close.png'
+12:56.945  render           | Saved: '/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_smooth_v7/facade/side-rear.png'
+
+Info: Saved as "entrance-baked.blend"
+ENTRANCE SAMPLE READY {"source": "/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_smooth_facade.py", "coordinates": "world=(127+x,z,176+y); glTF=(x,z,-y)", "collision": false, "revision": "v7-continuous-stone-same-v4-arch", "door_profile": "castle_refit_exterior.door_arch: spring76,baseinnerhalfwidth1.9,baseapex78,grow.22", "source_color_fix": "FLOAT_COLOR stores original linear values; no byte sRGB conversion", "passes": ["COLOR", "DIRECT", "INDIRECT"], "samples": 40, "diffuse_bounces": 4, "environment": "neutral approximation (.65,.65,.68)*.85; existing fixtures x2.4, not reconstructed actual skybox", "occluders": ["existing gothic_main", "existing gothic_towers", "existing gothic_wall"], "outputs": {"entrance_masonry": {"file": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_smooth_v7/facade/entrance_masonry.glb", "material": "entrance_masonry_GI_COLOR", "triangles": 6984, "bytes": 985876, "sha256": "4730033d2f2187806076eaa7917e4efd408caf798cc49bf0da8f78d7ed449e15", "bounds_gltf": [[-7.0, 72.0, 8.40999984741211], [7.0, 100.0, 8.529999732971191]], "normalization_scale": 28.0, "vertex_colors": false, "texture_size": 2048}, "entrance_carved_trim": {"file": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_smooth_v7/facade/entrance_carved_trim.glb", "material": "entrance_carved_trim_GI_COLOR", "triangles": 5748, "bytes": 1005032, "sha256": "c4d7180244ffaef111ed108a3444d9b027d1ad3549678a821b3461881e1a1b7f", "bounds_gltf": [[-7.2806196212768555, 72.00800323486328, 8.289999961853027], [7.2806196212768555, 100.0536880493164, 8.930000305175781]], "normalization_scale": 28.045684814453125, "vertex_colors": false, "texture_size": 2048}, "main_side_rear_smooth": {"file": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_smooth_v7/facade/main_side_rear_smooth.glb", "material": "main_side_rear_smooth_GI_COLOR", "triangles": 4524, "bytes": 719012, "sha256": "59e348f173503073ae71f9f3824524903e9c9ce6586716c44192973328fe9960", "bounds_gltf": [[-14.125, 72.0, -14.055000305175781], [14.125, 100.0, 8.0]], "normalization_scale": 28.25, "vertex_colors": false, "texture_size": 2048}}}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

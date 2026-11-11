@@ -1,0 +1,10 @@
+const root=await scene.nodes.create({name:'DragonRPG',parent:null});
+await scene.nodes.update(['n1'],{name:'ClasswearRoot'});
+await scene.nodes.update(['n152'],{name:'DragonSword'});
+await scene.nodes.update(['n153'],{name:'DragonStaff'});
+await scene.nodes.update(['n154'],{name:'DragonBow'});
+await scene.nodes.reparent({nodes:['n1','n152','n153','n154'],parent:root,preserve:'local'});
+await scene.scripts.setScopeRole({nodes:[root],role:'resource'});
+const scripts={};
+for(const path of ['dragon_rpg.lua','dragon_outfits.lua','dragon_weapons.lua','dragon_timeline.lua','dragon_fx.lua','dragon_rules.lua']) scripts[path]=await scene.scripts.create({path});
+return {root,scripts};

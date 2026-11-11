@@ -1,0 +1,2 @@
+const U=CS.UnityEngine;const ps=U.Resources.FindObjectsOfTypeAll(puer.$typeof(U.ParticleSystemRenderer));let result=[];
+for(let i=0;i<ps.Length;i++){let r=ps.get_Item(i),m=r.sharedMaterial;if(!m)continue;result.push({name:r.name,active:r.gameObject.activeInHierarchy,material:m.name,shader:m.shader?m.shader.name:null,supported:m.shader?m.shader.isSupported:null,texture:m.mainTexture?m.mainTexture.name:null});}return result;

@@ -1,0 +1,32 @@
+FINAL: clocktower-sample-v2.glb (receipt.json carries SHA256 and bounds).
+Source: tools/models/castle_sample_clock.py.
+Original clocktower-sample.glb is retained only as the first import's cache-safe predecessor.
+
+Additive visual sample ONLY. Do not replace original castle, move any node, or enable collision.
+Same original castle root world(127,0,176); normalization_scale48.412506103515625; do not recenter.
+Coordinate contract world=(127+BlenderX,BlenderZ,176+BlenderY).
+
+GLB renderer nodes:
+clock_face_receiver.001 -> material clock_face_receiver_GI_PBR (1024 atlas)
+clocktower_skin_receiver.001 -> material clocktower_skin_receiver_GI_PBR (2048 atlas)
+Both materials require parent's fixed-GI display adapter to avoid double darkening.
+The export carries baked GI in BaseColor with white multiplier, no COLOR_0.
+
+Source palette uses correct FLOAT_COLOR linear storage (see color-space-audit.json).
+Stone#98929D family, trim#C1B6B8, narrow slate#53566B..#5D5E73, warmgold and ivory clock.
+V2 changes only slate color range/sequence; exact vertex+triangle arrays match V1.
+Geometry: real chamfered ashlar/quoin surfaces, layered cornices, window-surrounds respecting glow,
+28 individual slate courses, Roman numeral clock with opaque disc masking old luminous face.
+Lower east room entry kept free of new masonry; old collision/layout unchanged.
+
+Lighting: actual Cycles DIFFUSE COLOR+DIRECT+INDIRECT,48samples,6bounces/4diffuse.
+Existing main/towers/wall and interior included as occluders and original source reflectors.
+Neutral world(.65,.65,.68)*.85 + existing fixture plan×2.4 is an explicitly designed approximation,
+not reconstruction of original purple skybox; parent recorded actual environment separately.
+No new scene lights, scripts, FX or original resource edits.
+128px indirect-pass evidence images and numeric audit in receipt.json.
+clock-source.blend is unbaked editable mother; clock-baked.blend preserves GI textures/UV.
+
+clocktower-context.png and clocktower-close.png are actual composite Blender renders using
+GI emission display on the sample and original castle materials on surrounding context.
+Native editor integration, fixed-GI adapter validation and user review belong to parent task.

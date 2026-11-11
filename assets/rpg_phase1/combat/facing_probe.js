@@ -1,0 +1,1 @@
+const U=CS.UnityEngine,ts=U.Resources.FindObjectsOfTypeAll(puer.$typeof(U.Transform));let out=[];for(let i=0;i<ts.Length;i++){const t=ts.get_Item(i);if(t.name!=='Cape_L')continue;let path=[],p=t;while(p){path.push({n:p.name,pos:p.localPosition.ToString(),rot:p.localEulerAngles.ToString()});p=p.parent;}out.push(path);}return out;

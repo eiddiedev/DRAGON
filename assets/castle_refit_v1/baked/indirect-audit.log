@@ -1,0 +1,6 @@
+00:02.139  blend            | Read blend: "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_refit_v1/baked/final-source.blend"
+Info: Baking map saved to internal image, save it externally or pack it
+{'pass': 'DIFFUSE INDIRECT only', 'max_linear': 1.0, 'mean_linear': 0.11590662593005636, 'nonzero_pixel_fraction': 0.7830810546875, 'diffuse_bounces': 4, 'source': 'final-source.blend', 'note': 'Diagnostic only, not a replacement albedo texture'}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

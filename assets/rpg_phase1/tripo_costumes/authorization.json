@@ -1,0 +1,12 @@
+{
+  "authorization": "同意，本任务内不再询问",
+  "providerPreference": "你可以用tripo呀",
+  "vendor": "tripo",
+  "quotedPerTask": 20,
+  "firstBatchTasks": 3,
+  "scope": "three wearable class outfits, rig and fit to existing avatar",
+  "submitted": true,
+  "actualSettledStarlight": 60,
+  "status": "rejected_by_user_restoring_previous_outfits",
+  "furtherGeneration": false
+}

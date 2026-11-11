@@ -1,0 +1,1 @@
+{"ok":true,"command":"authoring","data":{"exitCode":0,"signal":null,"stdout":"模型概览完成：已执行的数值检查未命中异常，不代表视觉通过。\n绑定状态 bound，0 个本地动作。\n详情：.animation-inspections/check-rFqUEX/report.json。按需查看 summary.rigging、summary.animations、history.actions。\n","stderr":"","status":"completed"}}

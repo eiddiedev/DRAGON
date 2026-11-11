@@ -1,0 +1,24 @@
+{
+  "method": "after full recalc, require every open roof main face normal dot radial_vector positive; flip connected lip together",
+  "source_cylinder_actual_vertex_angles_degrees": "18 + 36k; skin faces oriented 36k",
+  "roof_normals": [
+    {
+      "object": "ring_wall_skin",
+      "main_shingle_faces": 0,
+      "inward_pairs_corrected": 0,
+      "all_main_faces_outward": true
+    },
+    {
+      "object": "wall_turrets_skin",
+      "main_shingle_faces": 1360,
+      "inward_pairs_corrected": 340,
+      "all_main_faces_outward": true
+    },
+    {
+      "object": "gatehouse_skin",
+      "main_shingle_faces": 880,
+      "inward_pairs_corrected": 226,
+      "all_main_faces_outward": true
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "revision": "9c59ad328ad76008ba42bfddc9f2d88f3d56b1de43ed96265c4dbd67dc4e2b5c",
+  "result": {
+    "prefabId": "dragon_rpg_ui_v2",
+    "resourceId": "model-tripo-ranger",
+    "sourcePath": "assets/models/model-tripo-ranger",
+    "path": "assets/models/model-tripo-ranger/package/model.glb",
+    "sourceState": "topology",
+    "canonicalResourceId": "model-tripo-ranger",
+    "sourceFiles": [
+      "meta.json",
+      "topology/README.md",
+      "topology/model.glb"
+    ]
+  }
+}

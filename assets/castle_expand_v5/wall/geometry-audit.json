@@ -1,0 +1,70 @@
+{
+  "untouched_original_assets": true,
+  "visual_only_no_collision": true,
+  "ring_edge_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    13,
+    14,
+    15
+  ],
+  "skipped_gate_edges": [
+    11,
+    12
+  ],
+  "small_tower_centers": [
+    [
+      19.158,
+      0.0,
+      0
+    ],
+    [
+      7.331449197250391,
+      17.69968408385123,
+      3
+    ],
+    [
+      -13.54675171397188,
+      13.546751713971881,
+      6
+    ],
+    [
+      -17.699684083851235,
+      -7.331449197250389,
+      9
+    ],
+    [
+      17.699684083851228,
+      -7.331449197250403,
+      15
+    ]
+  ],
+  "left_gate_lower_foot": {
+    "center": [
+      -4.1,
+      -18.0,
+      70.25
+    ],
+    "original_size": [
+      3.0,
+      2.0,
+      3.5
+    ],
+    "upper_center_y": -18.5,
+    "upper_base": 72
+  },
+  "gate_arch": "14 original .5x.62 block fronts at same source x,z and tilt; depth skin only",
+  "glow_apertures": "existing front lancets retained, no replacement emission geometry",
+  "original_road_stair_terrain": "not edited or included",
+  "COLOR_0": "FLOAT_COLOR source; removed on export",
+  "linear_color_error": 1.5221642434185045e-16
+}

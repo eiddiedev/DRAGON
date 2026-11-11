@@ -1,0 +1,1 @@
+const U=CS.UnityEngine;const a=U.Resources.FindObjectsOfTypeAll(puer.$typeof(U.Font));const r=[];for(let i=0;i<a.Length;i++){let f=a.get_Item(i);r.push({name:f.name,dynamic:f.dynamic,zh:f.HasCharacter('骑'.charCodeAt(0)),material:f.material?.name});}return r;

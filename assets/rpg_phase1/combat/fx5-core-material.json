@@ -1,0 +1,1 @@
+{"ok":true,"command":"runtime","data":{"ok":true,"status":"completed","result":[{"name":"EffectMaterial_3","shader":"Douyin/AI/VFX/CommonVFX_AI","supported":true,"keywords":["_KEYWORD2_TEXTURE","_KEYWORD4_HARD"],"props":[]}],"startFrame":30841,"endFrame":30853,"durationMs":593,"mode":"native-puerts"}}

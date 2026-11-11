@@ -1,0 +1,66 @@
+{
+  "scope": "only LEFT clock tower additive visual skin; no collisions; original castle untouched",
+  "coordinate_contract": "world=(127+bx,bz,176+by); root127,0,176; do not recenter",
+  "lighting": {
+    "approximation": "neutral World(.65,.65,.68)*.85, existing fixtures\u00d72.4; NOT reconstruction of original skybox",
+    "actual_environment_reference": "parent environment-before: sunpitch40 yaw60 #a8c2ff .95, ambient#6b6b9e",
+    "cycles_samples": 48,
+    "max_bounces": 6,
+    "diffuse_bounces": 4,
+    "passes": [
+      "COLOR",
+      "DIRECT",
+      "INDIRECT"
+    ],
+    "occluders": "existing fullcastle sources+castle_rooms"
+  },
+  "targets": {
+    "clocktower_skin_receiver": {
+      "material": "clocktower_skin_receiver_GI_PBR",
+      "texture_size": 2048,
+      "indirect_evidence": {
+        "max": 1.0,
+        "mean": 0.05559680727399533,
+        "nonzero_fraction": 0.56597900390625
+      },
+      "triangles": 7416
+    },
+    "clock_face_receiver": {
+      "material": "clock_face_receiver_GI_PBR",
+      "texture_size": 1024,
+      "indirect_evidence": {
+        "max": 0.988235354423523,
+        "mean": 0.08909034980666775,
+        "nonzero_fraction": 0.46417236328125
+      },
+      "triangles": 3255
+    }
+  },
+  "file": "assets/castle_smooth_v7/facade/clock/clocktower-smooth-v7.glb",
+  "bytes": 1398164,
+  "sha256": "c6fee10fab3b9822ea5111baf67b85072a50958419085ab57f196ee779580885",
+  "normalization_scale": 48.42500305175781,
+  "glb_bounds": [
+    [
+      -12.729000091552734,
+      72.0,
+      4.770999908447266
+    ],
+    [
+      -6.270999908447266,
+      120.42500305175781,
+      11.234999656677246
+    ]
+  ],
+  "triangles": 10671,
+  "vertex_colors": false,
+  "glb_nodes": [
+    "clocktower_skin_receiver.001",
+    "clock_face_receiver.001"
+  ],
+  "glb_materials": [
+    "clocktower_skin_receiver_GI_PBR",
+    "clock_face_receiver_GI_PBR"
+  ],
+  "color_space_audit": "color-space-audit.json"
+}

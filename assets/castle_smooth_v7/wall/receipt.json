@@ -1,0 +1,145 @@
+{
+  "scope": "smooth continuous stone replacement: ring wall, five small round towers, southern gatehouse; original trim/window/roof retained",
+  "runtime_tone_not_baked": 0.68,
+  "coordinate_contract": "world=(127+bx,bz,176+by); root127,0,176; no recenter",
+  "source": "/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_smooth_wall.py",
+  "source_sha256": "98e12a13be69a52e7eddea65f0792140da41113147c1e81b07c775220e325ad3",
+  "lighting": {
+    "approximation": "neutral World(.65,.65,.68)*.85, existing fixtures x2.4; NOT reconstruction of runtime skybox",
+    "cycles_samples": 48,
+    "max_bounces": 6,
+    "diffuse_bounces": 4,
+    "passes": [
+      "COLOR",
+      "DIRECT",
+      "INDIRECT"
+    ],
+    "occluders": "existing full castle sources plus castle_rooms"
+  },
+  "targets": {
+    "ring_wall_skin": {
+      "material": "ring_wall_skin_GI_PBR",
+      "texture_size": 2048,
+      "indirect_evidence": {
+        "max": 0.6705882549285889,
+        "mean": 0.04514471561771908,
+        "nonzero_fraction": 0.442138671875
+      },
+      "triangles": 4872,
+      "file": "assets/castle_smooth_v7/wall/ring_wall_skin.glb",
+      "bytes": 869288,
+      "sha256": "fd878350decc12705edb7065fc88b64147e06fb1b692759d292b55e465955a66",
+      "normalization_scale": 39.33167266845703,
+      "glb_bounds": [
+        [
+          -19.665836334228516,
+          68.51000213623047,
+          -19.665836334228516
+        ],
+        [
+          19.665836334228516,
+          78.20999908447266,
+          18.189178466796875
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -19.665836334228516,
+          -18.189178466796875,
+          68.51000213623047
+        ],
+        [
+          19.665836334228516,
+          19.665836334228516,
+          78.20999908447266
+        ]
+      ],
+      "vertex_colors": false,
+      "node": "ring_wall_skin.001"
+    },
+    "wall_turrets_skin": {
+      "material": "wall_turrets_skin_GI_PBR",
+      "texture_size": 2048,
+      "indirect_evidence": {
+        "max": 0.8000000715255737,
+        "mean": 0.05489151213799914,
+        "nonzero_fraction": 0.5018310546875
+      },
+      "triangles": 19100,
+      "file": "assets/castle_smooth_v7/wall/wall_turrets_skin.glb",
+      "bytes": 1584580,
+      "sha256": "0ad94f8c753f800989ecb122f6ecd34615695a295804acb19cadcd962665e7e3",
+      "normalization_scale": 40.45737075805664,
+      "glb_bounds": [
+        [
+          -19.499526977539062,
+          68.5,
+          -19.499526977539062
+        ],
+        [
+          20.957843780517578,
+          90.62000274658203,
+          9.131294250488281
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -19.499526977539062,
+          -9.131294250488281,
+          68.5
+        ],
+        [
+          20.957843780517578,
+          19.499526977539062,
+          90.62000274658203
+        ]
+      ],
+      "vertex_colors": false,
+      "node": "wall_turrets_skin.001"
+    },
+    "gatehouse_skin": {
+      "material": "gatehouse_skin_GI_PBR",
+      "texture_size": 2048,
+      "indirect_evidence": {
+        "max": 0.6431372761726379,
+        "mean": 0.08037397048875998,
+        "nonzero_fraction": 0.62213134765625
+      },
+      "triangles": 6876,
+      "file": "assets/castle_smooth_v7/wall/gatehouse_skin.glb",
+      "bytes": 1111012,
+      "sha256": "cfd853bb85857263aa7cff0863723fdb91e888cbccef8dce5991c6c9d0cea55a",
+      "normalization_scale": 26.709999084472656,
+      "glb_bounds": [
+        [
+          -6.04996395111084,
+          68.51000213623047,
+          16.55003547668457
+        ],
+        [
+          6.04996395111084,
+          95.22000122070312,
+          20.44996452331543
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -6.04996395111084,
+          -20.44996452331543,
+          68.51000213623047
+        ],
+        [
+          6.04996395111084,
+          -16.55003547668457,
+          95.22000122070312
+        ]
+      ],
+      "vertex_colors": false,
+      "node": "gatehouse_skin.001"
+    }
+  },
+  "incremental_rebake": {
+    "target": "wall_turrets_skin",
+    "reason": "Ten-sided ring cornices became isolated exposed corners through smooth cylindrical wall. Same-radius continuous40-sided cornices restore full bands. Other receiver geometry and textures unchanged from full GI bake."
+  }
+}

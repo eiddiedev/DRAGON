@@ -1,0 +1,40 @@
+{
+  "source_sha256": "7ba323a2b2bea0c2d84aaddad97748223bbb17df0435a250075997bf13cb669b",
+  "lighthouse_transform": {
+    "id": -1566080300,
+    "pos": {
+      "x": 209.0,
+      "y": 52.5611,
+      "z": 134.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": 0.0
+    },
+    "scale": {
+      "x": 28.34,
+      "y": 28.34,
+      "z": 28.34
+    }
+  },
+  "triangles": 96,
+  "maximum_original_gap": 4.748768418117528,
+  "install_position": {
+    "x": 128,
+    "y": 0,
+    "z": 128
+  },
+  "install_rotation": {
+    "x": 0,
+    "y": 1,
+    "z": 0,
+    "w": 0
+  },
+  "installed": true,
+  "node_id": 184061654,
+  "asset_id": "11585672350210",
+  "visual_verified": true,
+  "visual_scope": "Front/downslope runtime view at t: support fills visible gap and meets terrain. Opposite side not separately viewed."
+}

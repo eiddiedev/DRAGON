@@ -1,0 +1,2048 @@
+{
+  "placements": [
+    {
+      "asset": "sheep_clumped_v4",
+      "name": "sheep_0",
+      "pos": {
+        "x": 84.0,
+        "y": 42.05829996162225,
+        "z": 42.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 1.0,
+        "z": 0,
+        "w": 6.123233995736766e-17
+      },
+      "scale": {
+        "x": 1.3687050665154,
+        "y": 1.3687050665154,
+        "z": 1.3687050665154
+      },
+      "active": true,
+      "collision": false,
+      "replaces": 474737314
+    },
+    {
+      "asset": "sheep_clumped_v4",
+      "name": "sheep_1",
+      "pos": {
+        "x": 97.0,
+        "y": 43.148599961622246,
+        "z": 65.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 1.0,
+        "z": 0,
+        "w": 6.123233995736766e-17
+      },
+      "scale": {
+        "x": 1.3687050665154,
+        "y": 1.3687050665154,
+        "z": 1.3687050665154
+      },
+      "active": true,
+      "collision": false,
+      "replaces": 663729893
+    },
+    {
+      "asset": "sheep_clumped_v4",
+      "name": "sheep_2",
+      "pos": {
+        "x": 110.0,
+        "y": 40.31309996162224,
+        "z": 44.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 1.0,
+        "z": 0,
+        "w": 6.123233995736766e-17
+      },
+      "scale": {
+        "x": 1.3687050665154,
+        "y": 1.3687050665154,
+        "z": 1.3687050665154
+      },
+      "active": true,
+      "collision": false,
+      "replaces": 1189758314
+    },
+    {
+      "asset": "sheep_clumped_v4",
+      "name": "sheep_3",
+      "pos": {
+        "x": 89.0,
+        "y": 44.66799996162224,
+        "z": 67.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 1.0,
+        "z": 0,
+        "w": 6.123233995736766e-17
+      },
+      "scale": {
+        "x": 1.3687050665154,
+        "y": 1.3687050665154,
+        "z": 1.3687050665154
+      },
+      "active": true,
+      "collision": false,
+      "replaces": 348005953
+    },
+    {
+      "asset": "sheep_clumped_v4",
+      "name": "sheep_4",
+      "pos": {
+        "x": 102.0,
+        "y": 41.27579996162224,
+        "z": 46.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 1.0,
+        "z": 0,
+        "w": 6.123233995736766e-17
+      },
+      "scale": {
+        "x": 1.3687050665154,
+        "y": 1.3687050665154,
+        "z": 1.3687050665154
+      },
+      "active": true,
+      "collision": false,
+      "replaces": 945373653
+    },
+    {
+      "asset": "sheep_clumped_v4",
+      "name": "sheep_5",
+      "pos": {
+        "x": 115.0,
+        "y": 40.77939996162225,
+        "z": 69.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 1.0,
+        "z": 0,
+        "w": 6.123233995736766e-17
+      },
+      "scale": {
+        "x": 1.3687050665154,
+        "y": 1.3687050665154,
+        "z": 1.3687050665154
+      },
+      "active": true,
+      "collision": false,
+      "replaces": 449595182
+    },
+    {
+      "asset": "sheep_clumped_v4",
+      "name": "sheep_6",
+      "pos": {
+        "x": 94.0,
+        "y": 41.919799961622246,
+        "z": 48.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 1.0,
+        "z": 0,
+        "w": 6.123233995736766e-17
+      },
+      "scale": {
+        "x": 1.3687050665154,
+        "y": 1.3687050665154,
+        "z": 1.3687050665154
+      },
+      "active": true,
+      "collision": false,
+      "replaces": 647979717
+    },
+    {
+      "asset": "sheep_clumped_v4",
+      "name": "sheep_7",
+      "pos": {
+        "x": 107.0,
+        "y": 41.91879996162224,
+        "z": 71.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 1.0,
+        "z": 0,
+        "w": 6.123233995736766e-17
+      },
+      "scale": {
+        "x": 1.3687050665154,
+        "y": 1.3687050665154,
+        "z": 1.3687050665154
+      },
+      "active": true,
+      "collision": false,
+      "replaces": 1366502195
+    },
+    {
+      "asset": "sheep_clumped_v4",
+      "name": "sheep_8",
+      "pos": {
+        "x": 86.0,
+        "y": 42.50249996162224,
+        "z": 50.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 1.0,
+        "z": 0,
+        "w": 6.123233995736766e-17
+      },
+      "scale": {
+        "x": 1.3687050665154,
+        "y": 1.3687050665154,
+        "z": 1.3687050665154
+      },
+      "active": true,
+      "collision": false,
+      "replaces": 279575457
+    },
+    {
+      "asset": "sailboat_full",
+      "name": "sailboat_0",
+      "pos": {
+        "x": 206.0,
+        "y": 25.6,
+        "z": 98.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.7071067811865475,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 13.66757038581856,
+        "y": 13.66757038581856,
+        "z": 13.66757038581856
+      },
+      "active": true,
+      "collision": true,
+      "replaces": -3386768
+    },
+    {
+      "asset": "sailboat_full",
+      "name": "sailboat_1",
+      "pos": {
+        "x": 218.0,
+        "y": 25.6,
+        "z": 70.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.7071067811865475,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 13.66757038581856,
+        "y": 13.66757038581856,
+        "z": 13.66757038581856
+      },
+      "active": true,
+      "collision": true,
+      "replaces": 213562766
+    },
+    {
+      "asset": "sailboat_full",
+      "name": "sailboat_2",
+      "pos": {
+        "x": 234.0,
+        "y": 25.6,
+        "z": 110.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.7071067811865475,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 13.66757038581856,
+        "y": 13.66757038581856,
+        "z": 13.66757038581856
+      },
+      "active": true,
+      "collision": true,
+      "replaces": 543127623
+    },
+    {
+      "asset": "altarWestern",
+      "name": "altar3",
+      "pos": {
+        "x": 48.0,
+        "y": 51.6779,
+        "z": 150.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 1.0,
+        "z": 0,
+        "w": 6.123233995736766e-17
+      },
+      "scale": {
+        "x": 12.539856234162487,
+        "y": 12.539856234162487,
+        "z": 12.539856234162487
+      },
+      "active": true,
+      "collision": true,
+      "replaces": -962611212
+    },
+    {
+      "asset": "rune_stone",
+      "name": "rune_0",
+      "pos": {
+        "x": 48.0,
+        "y": 51.4662,
+        "z": 138.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.0,
+        "z": 0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 3.271075617669079,
+        "y": 3.271075617669079,
+        "z": 3.271075617669079
+      },
+      "active": true,
+      "collision": true,
+      "replaces": 881327891
+    },
+    {
+      "asset": "rune_stone",
+      "name": "rune_1",
+      "pos": {
+        "x": 58.3923,
+        "y": 51.6759,
+        "z": 156.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.8660254037844386,
+        "z": 0,
+        "w": 0.5000000000000001
+      },
+      "scale": {
+        "x": 3.271075617669079,
+        "y": 3.271075617669079,
+        "z": 3.271075617669079
+      },
+      "active": true,
+      "collision": true,
+      "replaces": 656407838
+    },
+    {
+      "asset": "rune_stone",
+      "name": "rune_2",
+      "pos": {
+        "x": 37.6077,
+        "y": 50.7098,
+        "z": 156.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.8660254037844387,
+        "z": 0,
+        "w": -0.49999999999999983
+      },
+      "scale": {
+        "x": 3.271075617669079,
+        "y": 3.271075617669079,
+        "z": 3.271075617669079
+      },
+      "active": true,
+      "collision": true,
+      "replaces": 1781239207
+    },
+    {
+      "asset": "glowing_mushrooms",
+      "name": "mush",
+      "pos": {
+        "x": 94.7501,
+        "y": 46.6773,
+        "z": 101.6995
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.0,
+        "z": 0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.331446178850777,
+        "y": 1.331446178850777,
+        "z": 1.331446178850777
+      },
+      "active": true,
+      "collision": false,
+      "replaces": 1080979803
+    },
+    {
+      "asset": "glowing_mushrooms",
+      "name": "mush_1",
+      "pos": {
+        "x": 87.3685,
+        "y": 46.732,
+        "z": 109.0153
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.4771587602596084,
+        "z": 0,
+        "w": 0.8788171126619654
+      },
+      "scale": {
+        "x": 1.4978769512071242,
+        "y": 1.4978769512071242,
+        "z": 1.4978769512071242
+      },
+      "active": true,
+      "collision": false,
+      "replaces": 919587483
+    },
+    {
+      "asset": "glowing_mushrooms",
+      "name": "mush_2",
+      "pos": {
+        "x": 78.4211,
+        "y": 46.6594,
+        "z": 103.7281
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.838670567945424,
+        "z": 0,
+        "w": 0.5446390350150271
+      },
+      "scale": {
+        "x": 1.6643077235634713,
+        "y": 1.6643077235634713,
+        "z": 1.6643077235634713
+      },
+      "active": true,
+      "collision": false,
+      "replaces": 418950640
+    },
+    {
+      "asset": "glowing_mushrooms",
+      "name": "mush_3",
+      "pos": {
+        "x": 75.7762,
+        "y": 46.6775,
+        "z": 93.6775
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.996917333733128,
+        "z": 0,
+        "w": 0.078459095727845
+      },
+      "scale": {
+        "x": 1.331446178850777,
+        "y": 1.331446178850777,
+        "z": 1.331446178850777
+      },
+      "active": true,
+      "collision": false,
+      "replaces": 486709814
+    },
+    {
+      "asset": "glowing_mushrooms",
+      "name": "mush_4",
+      "pos": {
+        "x": 84.8288,
+        "y": 46.6688,
+        "z": 88.5725
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.9135454576426009,
+        "z": 0,
+        "w": -0.40673664307580026
+      },
+      "scale": {
+        "x": 1.4978769512071242,
+        "y": 1.4978769512071242,
+        "z": 1.4978769512071242
+      },
+      "active": true,
+      "collision": false,
+      "replaces": 1642013399
+    },
+    {
+      "asset": "glowing_mushrooms",
+      "name": "mush_5",
+      "pos": {
+        "x": 94.8553,
+        "y": 46.5952,
+        "z": 91.3072
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.6087614290087209,
+        "z": 0,
+        "w": -0.793353340291235
+      },
+      "scale": {
+        "x": 1.6643077235634713,
+        "y": 1.6643077235634713,
+        "z": 1.6643077235634713
+      },
+      "active": true,
+      "collision": false,
+      "replaces": 440787093
+    },
+    {
+      "asset": "tree_trunk",
+      "name": "holy_tree3",
+      "pos": {
+        "x": 160.5,
+        "y": 38.043800000000005,
+        "z": 74.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 1.0,
+        "z": 0,
+        "w": 6.123233995736766e-17
+      },
+      "scale": {
+        "x": 23.930725091288473,
+        "y": 23.930725091288473,
+        "z": 23.930725091288473
+      },
+      "active": true,
+      "collision": true,
+      "replaces": 392009730
+    },
+    {
+      "asset": "horse_unridden_v4",
+      "name": "tripo_horse",
+      "pos": {
+        "x": 135,
+        "y": 39.29557573319286,
+        "z": 55
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.0,
+        "z": 0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 2.4239728126424054,
+        "y": 2.4239728126424054,
+        "z": 2.4239728126424054
+      },
+      "active": true,
+      "collision": false
+    },
+    {
+      "asset": "stable",
+      "name": "tripo_stable",
+      "pos": {
+        "x": 140,
+        "y": 39.358970642089844,
+        "z": 59
+      },
+      "rot": {
+        "x": 0,
+        "y": -0.7071067811865475,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 6.6637098726577255,
+        "y": 6.6637098726577255,
+        "z": 6.6637098726577255
+      },
+      "active": true,
+      "collision": true
+    },
+    {
+      "asset": "witch_world_v3",
+      "name": "tripo_witch",
+      "pos": {
+        "x": 168,
+        "y": 39.23944863774086,
+        "z": 140.5
+      },
+      "rot": {
+        "x": 0,
+        "y": -0.7071067811865475,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 2.088236791752521,
+        "y": 2.088236791752521,
+        "z": 2.088236791752521
+      },
+      "active": true,
+      "collision": false
+    },
+    {
+      "asset": "witch_staff",
+      "name": "tripo_witch_staff",
+      "pos": {
+        "x": 167.25,
+        "y": 39.218902587890625,
+        "z": 140.5
+      },
+      "rot": {
+        "x": 0,
+        "y": -0.7071067811865475,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 1.8883807862438478,
+        "y": 1.8883807862438478,
+        "z": 1.8883807862438478
+      },
+      "active": true,
+      "collision": false
+    },
+    {
+      "asset": "potion",
+      "name": "tripo_potion",
+      "pos": {
+        "x": 169,
+        "y": 39.27,
+        "z": 141
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.0,
+        "z": 0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 0.3876903916806775,
+        "y": 0.3876903916806775,
+        "z": 0.3876903916806775
+      },
+      "active": true,
+      "collision": false
+    },
+    {
+      "asset": "camp_stele",
+      "name": "tripo_camp_stele",
+      "pos": {
+        "x": 64.7,
+        "y": 43.46818542480469,
+        "z": 65
+      },
+      "rot": {
+        "x": 0,
+        "y": -0.7071067811865475,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 1.9344767586378324,
+        "y": 1.9344767586378324,
+        "z": 1.9344767586378324
+      },
+      "active": true,
+      "collision": true
+    },
+    {
+      "asset": "mushroom_skewer",
+      "name": "tripo_mushroom_skewer",
+      "pos": {
+        "x": 61,
+        "y": 43.98,
+        "z": 62.6
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.0,
+        "z": 0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 0.9236631538486179,
+        "y": 0.9236631538486179,
+        "z": 0.9236631538486179
+      },
+      "active": true,
+      "collision": false
+    },
+    {
+      "asset": "moonflowers",
+      "name": "tripo_moonflower_0",
+      "pos": {
+        "x": 148,
+        "y": 39.46063232421875,
+        "z": 60
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.0,
+        "z": 0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 0.8389413383684834,
+        "y": 0.8389413383684834,
+        "z": 0.8389413383684834
+      },
+      "active": true,
+      "collision": false
+    },
+    {
+      "asset": "moonflowers",
+      "name": "tripo_moonflower_1",
+      "pos": {
+        "x": 151,
+        "y": 39.3824462890625,
+        "z": 64
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.5807029557109398,
+        "z": 0,
+        "w": 0.8141155183563192
+      },
+      "scale": {
+        "x": 0.8389413383684834,
+        "y": 0.8389413383684834,
+        "z": 0.8389413383684834
+      },
+      "active": true,
+      "collision": false
+    },
+    {
+      "asset": "moonflowers",
+      "name": "tripo_moonflower_2",
+      "pos": {
+        "x": 146,
+        "y": 39.50471496582031,
+        "z": 64
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.9455185755993167,
+        "z": 0,
+        "w": 0.32556815445715676
+      },
+      "scale": {
+        "x": 0.8389413383684834,
+        "y": 0.8389413383684834,
+        "z": 0.8389413383684834
+      },
+      "active": true,
+      "collision": false
+    },
+    {
+      "asset": "moonflowers",
+      "name": "tripo_moonflower_3",
+      "pos": {
+        "x": 153,
+        "y": 39.34685516357422,
+        "z": 60
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.958819734868193,
+        "z": 0,
+        "w": -0.28401534470392265
+      },
+      "scale": {
+        "x": 0.8389413383684834,
+        "y": 0.8389413383684834,
+        "z": 0.8389413383684834
+      },
+      "active": true,
+      "collision": false
+    },
+    {
+      "asset": "moonflowers",
+      "name": "tripo_moonflower_4",
+      "pos": {
+        "x": 149,
+        "y": 39.35160827636719,
+        "z": 66
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.6156614753256584,
+        "z": 0,
+        "w": -0.7880107536067219
+      },
+      "scale": {
+        "x": 0.8389413383684834,
+        "y": 0.8389413383684834,
+        "z": 0.8389413383684834
+      },
+      "active": true,
+      "collision": false
+    },
+    {
+      "asset": "shadow_spirit",
+      "name": "tripo_shadow_template",
+      "pos": {
+        "x": 129,
+        "y": 38.460178482969674,
+        "z": 132
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.0,
+        "z": 0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.9411682234671641,
+        "y": 1.9411682234671641,
+        "z": 1.9411682234671641
+      },
+      "active": false,
+      "collision": false
+    },
+    {
+      "asset": "watch_lamp",
+      "name": "tripo_watch_lamp",
+      "pos": {
+        "x": 65.5,
+        "y": 43.509178161621094,
+        "z": 61
+      },
+      "rot": {
+        "x": 0,
+        "y": -0.7071067811865475,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 1.7731053461550355,
+        "y": 1.7731053461550355,
+        "z": 1.7731053461550355
+      },
+      "active": true,
+      "collision": true
+    },
+    {
+      "asset": "dragon_egg",
+      "name": "tripo_egg_stage_0",
+      "pos": {
+        "x": 127,
+        "y": 73.22,
+        "z": 193.2
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.0,
+        "z": 0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 2.6540912199863205,
+        "y": 2.6540912199863205,
+        "z": 2.6540912199863205
+      },
+      "active": true,
+      "collision": false
+    },
+    {
+      "asset": "dragon_egg_2",
+      "name": "tripo_egg_stage_1",
+      "pos": {
+        "x": 127,
+        "y": 73.22,
+        "z": 193.2
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.0,
+        "z": 0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 2.6398367288481506,
+        "y": 2.6398367288481506,
+        "z": 2.6398367288481506
+      },
+      "active": false,
+      "collision": false
+    },
+    {
+      "asset": "dragon_egg_3",
+      "name": "tripo_egg_stage_2",
+      "pos": {
+        "x": 127,
+        "y": 73.22,
+        "z": 193.2
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.0,
+        "z": 0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 2.6502749919120028,
+        "y": 2.6502749919120028,
+        "z": 2.6502749919120028
+      },
+      "active": false,
+      "collision": false
+    },
+    {
+      "asset": "dragon_egg_4",
+      "name": "tripo_egg_stage_3",
+      "pos": {
+        "x": 127,
+        "y": 73.22,
+        "z": 193.2
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.0,
+        "z": 0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 2.7258207630878437,
+        "y": 2.7258207630878437,
+        "z": 2.7258207630878437
+      },
+      "active": false,
+      "collision": false
+    },
+    {
+      "asset": "tree_single_leaf",
+      "name": "tripo_leaf_template",
+      "pos": {
+        "x": 160.5,
+        "y": 45.0,
+        "z": 74
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.0,
+        "z": 0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.3696133751306165,
+        "y": 1.3696133751306165,
+        "z": 1.3696133751306165
+      },
+      "active": false,
+      "collision": false
+    },
+    {
+      "asset": "sword",
+      "name": "tripo_sword",
+      "pos": {
+        "x": 113,
+        "y": 72.3,
+        "z": 170
+      },
+      "rot": {
+        "x": 0,
+        "y": -0.7071067811865475,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 1.967024171602369,
+        "y": 1.967024171602369,
+        "z": 1.967024171602369
+      },
+      "active": true,
+      "collision": false
+    },
+    {
+      "asset": "staff",
+      "name": "tripo_staff",
+      "pos": {
+        "x": 114.5,
+        "y": 72.3,
+        "z": 170
+      },
+      "rot": {
+        "x": 0,
+        "y": -0.7071067811865475,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 1.529975720600137,
+        "y": 1.529975720600137,
+        "z": 1.529975720600137
+      },
+      "active": true,
+      "collision": false
+    },
+    {
+      "asset": "bow",
+      "name": "tripo_bow",
+      "pos": {
+        "x": 116,
+        "y": 72.3,
+        "z": 170
+      },
+      "rot": {
+        "x": 0,
+        "y": -0.7071067811865475,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 1.5264596273291926,
+        "y": 1.5264596273291926,
+        "z": 1.5264596273291926
+      },
+      "active": true,
+      "collision": false
+    },
+    {
+      "asset": "trial_platform_red",
+      "name": "tripo_trial_platform_red",
+      "pos": {
+        "x": 123.5,
+        "y": 32.2,
+        "z": 172
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.0,
+        "z": 0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 2.3044758125282563,
+        "y": 2.3044758125282563,
+        "z": 2.3044758125282563
+      },
+      "active": true,
+      "collision": false
+    },
+    {
+      "asset": "trial_platform_blue",
+      "name": "tripo_trial_platform_blue",
+      "pos": {
+        "x": 130.5,
+        "y": 32.2,
+        "z": 172
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.0,
+        "z": 0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 2.235306729035716,
+        "y": 2.235306729035716,
+        "z": 2.235306729035716
+      },
+      "active": true,
+      "collision": false
+    },
+    {
+      "asset": "castle_armor",
+      "name": "tripo_castle_armor_0",
+      "pos": {
+        "x": 123.2,
+        "y": 72.25,
+        "z": 174
+      },
+      "rot": {
+        "x": 0,
+        "y": -0.7071067811865475,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 2.246411766538905,
+        "y": 2.246411766538905,
+        "z": 2.246411766538905
+      },
+      "active": true,
+      "collision": true
+    },
+    {
+      "asset": "castle_armor",
+      "name": "tripo_castle_armor_1",
+      "pos": {
+        "x": 130.8,
+        "y": 72.25,
+        "z": 174
+      },
+      "rot": {
+        "x": 0,
+        "y": -0.7071067811865475,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 2.246411766538905,
+        "y": 2.246411766538905,
+        "z": 2.246411766538905
+      },
+      "active": true,
+      "collision": true
+    },
+    {
+      "asset": "castle_statue",
+      "name": "tripo_castle_statue_0",
+      "pos": {
+        "x": 123,
+        "y": 72.25,
+        "z": 166
+      },
+      "rot": {
+        "x": 0,
+        "y": -0.7071067811865475,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 3.3892618711800657,
+        "y": 3.3892618711800657,
+        "z": 3.3892618711800657
+      },
+      "active": true,
+      "collision": true
+    },
+    {
+      "asset": "castle_statue",
+      "name": "tripo_castle_statue_1",
+      "pos": {
+        "x": 131,
+        "y": 72.25,
+        "z": 166
+      },
+      "rot": {
+        "x": 0,
+        "y": -0.7071067811865475,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 3.3892618711800657,
+        "y": 3.3892618711800657,
+        "z": 3.3892618711800657
+      },
+      "active": true,
+      "collision": true
+    },
+    {
+      "asset": "castle_throne",
+      "name": "tripo_castle_throne",
+      "pos": {
+        "x": 127,
+        "y": 72.88,
+        "z": 185.3
+      },
+      "rot": {
+        "x": 0,
+        "y": -0.7071067811865475,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 3.8828276528734915,
+        "y": 3.8828276528734915,
+        "z": 3.8828276528734915
+      },
+      "active": true,
+      "collision": true
+    },
+    {
+      "asset": "castle_bookshelf",
+      "name": "tripo_castle_bookshelf_0",
+      "pos": {
+        "x": 114.7,
+        "y": 72.3,
+        "z": 177
+      },
+      "rot": {
+        "x": 0,
+        "y": 1.0,
+        "z": 0,
+        "w": 6.123233995736766e-17
+      },
+      "scale": {
+        "x": 3.5748394738482636,
+        "y": 3.5748394738482636,
+        "z": 3.5748394738482636
+      },
+      "active": true,
+      "collision": true
+    },
+    {
+      "asset": "castle_bookshelf",
+      "name": "tripo_castle_bookshelf_1",
+      "pos": {
+        "x": 114.7,
+        "y": 72.3,
+        "z": 181
+      },
+      "rot": {
+        "x": 0,
+        "y": 1.0,
+        "z": 0,
+        "w": 6.123233995736766e-17
+      },
+      "scale": {
+        "x": 3.5748394738482636,
+        "y": 3.5748394738482636,
+        "z": 3.5748394738482636
+      },
+      "active": true,
+      "collision": true
+    },
+    {
+      "asset": "castle_window",
+      "name": "tripo_castle_window_0",
+      "pos": {
+        "x": 121,
+        "y": 76.3,
+        "z": 183
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.0,
+        "z": 0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 4.08948238744501,
+        "y": 4.08948238744501,
+        "z": 4.08948238744501
+      },
+      "active": true,
+      "collision": false
+    },
+    {
+      "asset": "castle_window",
+      "name": "tripo_castle_window_1",
+      "pos": {
+        "x": 133,
+        "y": 76.3,
+        "z": 183
+      },
+      "rot": {
+        "x": 0,
+        "y": 1.0,
+        "z": 0,
+        "w": 6.123233995736766e-17
+      },
+      "scale": {
+        "x": 4.08948238744501,
+        "y": 4.08948238744501,
+        "z": 4.08948238744501
+      },
+      "active": true,
+      "collision": false
+    },
+    {
+      "asset": "castle_door",
+      "name": "tripo_castle_side_door",
+      "pos": {
+        "x": 140.1,
+        "y": 72.3,
+        "z": 178
+      },
+      "rot": {
+        "x": 0,
+        "y": 1.0,
+        "z": 0,
+        "w": 6.123233995736766e-17
+      },
+      "scale": {
+        "x": 4.096128004000125,
+        "y": 4.096128004000125,
+        "z": 4.096128004000125
+      },
+      "active": true,
+      "collision": false
+    },
+    {
+      "asset": "castle_cornice",
+      "name": "tripo_castle_cornice_0",
+      "pos": {
+        "x": 122,
+        "y": 72.5,
+        "z": 166.8
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.7071067811865475,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 3.2725456906022172,
+        "y": 3.2725456906022172,
+        "z": 3.2725456906022172
+      },
+      "active": true,
+      "collision": true
+    },
+    {
+      "asset": "castle_cornice",
+      "name": "tripo_castle_cornice_1",
+      "pos": {
+        "x": 132,
+        "y": 72.5,
+        "z": 166.8
+      },
+      "rot": {
+        "x": 0,
+        "y": 0.7071067811865475,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 3.2725456906022172,
+        "y": 3.2725456906022172,
+        "z": 3.2725456906022172
+      },
+      "active": true,
+      "collision": true
+    },
+    {
+      "asset": "castle_gargoyle",
+      "name": "tripo_castle_gargoyle_0",
+      "pos": {
+        "x": 121,
+        "y": 80.2,
+        "z": 168
+      },
+      "rot": {
+        "x": 0,
+        "y": -0.7071067811865475,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 2.3785431713425034,
+        "y": 2.3785431713425034,
+        "z": 2.3785431713425034
+      },
+      "active": true,
+      "collision": false
+    },
+    {
+      "asset": "castle_gargoyle",
+      "name": "tripo_castle_gargoyle_1",
+      "pos": {
+        "x": 133,
+        "y": 80.2,
+        "z": 168
+      },
+      "rot": {
+        "x": 0,
+        "y": -0.7071067811865475,
+        "z": 0,
+        "w": 0.7071067811865476
+      },
+      "scale": {
+        "x": 2.3785431713425034,
+        "y": 2.3785431713425034,
+        "z": 2.3785431713425034
+      },
+      "active": true,
+      "collision": false
+    }
+  ],
+  "replacements": [
+    {
+      "id": 474737314,
+      "name": "sheep_0",
+      "before": {
+        "nodeName": "sheep_0",
+        "pos": {
+          "x": 84.0,
+          "y": 42.0583,
+          "z": 42.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "w": 0.0
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "tag": "Untagged",
+        "parentId": 0,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      }
+    },
+    {
+      "id": 663729893,
+      "name": "sheep_1",
+      "before": {
+        "nodeName": "sheep_1",
+        "pos": {
+          "x": 97.0,
+          "y": 43.1486,
+          "z": 65.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.939692736,
+          "z": 0.0,
+          "w": 0.342019916
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "tag": "Untagged",
+        "parentId": 0,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      }
+    },
+    {
+      "id": 1189758314,
+      "name": "sheep_2",
+      "before": {
+        "nodeName": "sheep_2",
+        "pos": {
+          "x": 110.0,
+          "y": 40.3131,
+          "z": 44.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.7660441,
+          "z": 0.0,
+          "w": 0.642788053
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "tag": "Untagged",
+        "parentId": 0,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      }
+    },
+    {
+      "id": 348005953,
+      "name": "sheep_3",
+      "before": {
+        "nodeName": "sheep_3",
+        "pos": {
+          "x": 89.0,
+          "y": 44.668,
+          "z": 67.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.500000238,
+          "z": 0.0,
+          "w": 0.8660253
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "tag": "Untagged",
+        "parentId": 0,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      }
+    },
+    {
+      "id": 945373653,
+      "name": "sheep_4",
+      "before": {
+        "nodeName": "sheep_4",
+        "pos": {
+          "x": 102.0,
+          "y": 41.2758,
+          "z": 46.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.173647955,
+          "z": 0.0,
+          "w": 0.9848078
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "tag": "Untagged",
+        "parentId": 0,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      }
+    },
+    {
+      "id": 449595182,
+      "name": "sheep_5",
+      "before": {
+        "nodeName": "sheep_5",
+        "pos": {
+          "x": 115.0,
+          "y": 40.7794,
+          "z": 69.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.173647955,
+          "z": 0.0,
+          "w": 0.9848078
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "tag": "Untagged",
+        "parentId": 0,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      }
+    },
+    {
+      "id": 647979717,
+      "name": "sheep_6",
+      "before": {
+        "nodeName": "sheep_6",
+        "pos": {
+          "x": 94.0,
+          "y": 41.9198,
+          "z": 48.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.500000238,
+          "z": 0.0,
+          "w": 0.8660253
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "tag": "Untagged",
+        "parentId": 0,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      }
+    },
+    {
+      "id": 1366502195,
+      "name": "sheep_7",
+      "before": {
+        "nodeName": "sheep_7",
+        "pos": {
+          "x": 107.0,
+          "y": 41.9188,
+          "z": 71.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.7660441,
+          "z": 0.0,
+          "w": 0.642788053
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "tag": "Untagged",
+        "parentId": 0,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      }
+    },
+    {
+      "id": 279575457,
+      "name": "sheep_8",
+      "before": {
+        "nodeName": "sheep_8",
+        "pos": {
+          "x": 86.0,
+          "y": 42.5025,
+          "z": 50.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.939692736,
+          "z": 0.0,
+          "w": 0.342019916
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "tag": "Untagged",
+        "parentId": 0,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      }
+    },
+    {
+      "id": -3386768,
+      "name": "sailboat_0",
+      "before": {
+        "nodeName": "sailboat_0",
+        "pos": {
+          "x": 206.0,
+          "y": 26.9,
+          "z": 98.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.7071068,
+          "z": 0.0,
+          "w": 0.7071068
+        },
+        "scale": {
+          "x": 17.5965214,
+          "y": 17.5965214,
+          "z": 17.5965214
+        },
+        "tag": "Untagged",
+        "parentId": 0,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      }
+    },
+    {
+      "id": 213562766,
+      "name": "sailboat_1",
+      "before": {
+        "nodeName": "sailboat_1",
+        "pos": {
+          "x": 218.0,
+          "y": 26.9,
+          "z": 70.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.7071068,
+          "z": 0.0,
+          "w": 0.7071068
+        },
+        "scale": {
+          "x": 17.5965214,
+          "y": 17.5965214,
+          "z": 17.5965214
+        },
+        "tag": "Untagged",
+        "parentId": 0,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      }
+    },
+    {
+      "id": 543127623,
+      "name": "sailboat_2",
+      "before": {
+        "nodeName": "sailboat_2",
+        "pos": {
+          "x": 234.0,
+          "y": 26.9,
+          "z": 110.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.173647955,
+          "z": 0.0,
+          "w": 0.9848078
+        },
+        "scale": {
+          "x": 17.5965214,
+          "y": 17.5965214,
+          "z": 17.5965214
+        },
+        "tag": "Untagged",
+        "parentId": 0,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      }
+    },
+    {
+      "id": -962611212,
+      "name": "altar3",
+      "before": {
+        "nodeName": "altar3",
+        "pos": {
+          "x": 48.0,
+          "y": 51.9779,
+          "z": 150.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "w": 0.0
+        },
+        "scale": {
+          "x": 14.876709,
+          "y": 14.876709,
+          "z": 14.876709
+        },
+        "tag": "Untagged",
+        "parentId": 0,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      }
+    },
+    {
+      "id": 881327891,
+      "name": "rune_0",
+      "before": {
+        "nodeName": "rune_0",
+        "pos": {
+          "x": 48.0,
+          "y": 51.4662,
+          "z": 138.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": -1.0
+        },
+        "scale": {
+          "x": 4.5493083,
+          "y": 4.5493083,
+          "z": 4.5493083
+        },
+        "tag": "Untagged",
+        "parentId": 0,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      }
+    },
+    {
+      "id": 656407838,
+      "name": "rune_1",
+      "before": {
+        "nodeName": "rune_1",
+        "pos": {
+          "x": 58.3923,
+          "y": 51.6759,
+          "z": 156.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.8660253,
+          "z": 0.0,
+          "w": -0.500000238
+        },
+        "scale": {
+          "x": 4.5493083,
+          "y": 4.5493083,
+          "z": 4.5493083
+        },
+        "tag": "Untagged",
+        "parentId": 0,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      }
+    },
+    {
+      "id": 1781239207,
+      "name": "rune_2",
+      "before": {
+        "nodeName": "rune_2",
+        "pos": {
+          "x": 37.6077,
+          "y": 50.7098,
+          "z": 156.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.8660253,
+          "z": 0.0,
+          "w": 0.500000238
+        },
+        "scale": {
+          "x": 4.5493083,
+          "y": 4.5493083,
+          "z": 4.5493083
+        },
+        "tag": "Untagged",
+        "parentId": 0,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      }
+    },
+    {
+      "id": 1080979803,
+      "name": "mush",
+      "before": {
+        "nodeName": "mush",
+        "pos": {
+          "x": 94.7501,
+          "y": 46.6773,
+          "z": 101.6995
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "w": 0.0
+        },
+        "scale": {
+          "x": 3.2,
+          "y": 3.2,
+          "z": 3.2
+        },
+        "tag": "Untagged",
+        "parentId": 0,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      }
+    },
+    {
+      "id": 919587483,
+      "name": "mush_1",
+      "before": {
+        "nodeName": "mush_1",
+        "pos": {
+          "x": 87.3685,
+          "y": 46.732,
+          "z": 109.0153
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.8338859,
+          "z": 0.0,
+          "w": 0.5519369
+        },
+        "scale": {
+          "x": 4.4,
+          "y": 4.4,
+          "z": 4.4
+        },
+        "tag": "Untagged",
+        "parentId": 0,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      }
+    },
+    {
+      "id": 418950640,
+      "name": "mush_2",
+      "before": {
+        "nodeName": "mush_2",
+        "pos": {
+          "x": 78.4211,
+          "y": 46.6594,
+          "z": 103.7281
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.390731,
+          "z": 0.0,
+          "w": 0.920505
+        },
+        "scale": {
+          "x": 5.6,
+          "y": 5.6,
+          "z": 5.6
+        },
+        "tag": "Untagged",
+        "parentId": 0,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      }
+    },
+    {
+      "id": 486709814,
+      "name": "mush_3",
+      "before": {
+        "nodeName": "mush_3",
+        "pos": {
+          "x": 75.7762,
+          "y": 46.6775,
+          "z": 93.6775
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.182235986,
+          "z": 0.0,
+          "w": 0.9832549
+        },
+        "scale": {
+          "x": 3.8,
+          "y": 3.8,
+          "z": 3.8
+        },
+        "tag": "Untagged",
+        "parentId": 0,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      }
+    },
+    {
+      "id": 1642013399,
+      "name": "mush_4",
+      "before": {
+        "nodeName": "mush_4",
+        "pos": {
+          "x": 84.8288,
+          "y": 46.6688,
+          "z": 88.5725
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.6946581,
+          "z": 0.0,
+          "w": 0.719340146
+        },
+        "scale": {
+          "x": 5.0,
+          "y": 5.0,
+          "z": 5.0
+        },
+        "tag": "Untagged",
+        "parentId": 0,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      }
+    },
+    {
+      "id": 440787093,
+      "name": "mush_5",
+      "before": {
+        "nodeName": "mush_5",
+        "pos": {
+          "x": 94.8553,
+          "y": 46.5952,
+          "z": 91.3072
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.976295948,
+          "z": 0.0,
+          "w": 0.216439992
+        },
+        "scale": {
+          "x": 3.2,
+          "y": 3.2,
+          "z": 3.2
+        },
+        "tag": "Untagged",
+        "parentId": 0,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      }
+    },
+    {
+      "id": 392009730,
+      "name": "holy_tree3",
+      "before": {
+        "nodeName": "holy_tree3",
+        "pos": {
+          "x": 160.5,
+          "y": 39.3438,
+          "z": 74.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "w": 0.0
+        },
+        "scale": {
+          "x": 29.1733818,
+          "y": 29.1733818,
+          "z": 29.1733818
+        },
+        "tag": "Untagged",
+        "parentId": 0,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      }
+    }
+  ],
+  "preserved": [
+    "dragon_v8_live",
+    "arena_gate",
+    "gothic_main",
+    "gothic_towers",
+    "castle_rooms",
+    "holy_canopy3",
+    "holy_canopy4"
+  ],
+  "note": "Leaf/template and egg stages 1–3 are inactive. No new gameplay completion claimed."
+}

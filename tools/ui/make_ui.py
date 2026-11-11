@@ -6,7 +6,7 @@ import json, os, sys
 import numpy as np, cv2
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
-ROOT = '/Users/a1234/Documents/awesomeWRLD'
+ROOT = '/Users/bytedance/Documents/ChatGPT/DRAGON'
 sys.path.insert(0, f'{ROOT}/tools/models')
 from glbw import Geo, write_glb  # noqa: E402
 

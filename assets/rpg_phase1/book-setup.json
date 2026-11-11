@@ -1,0 +1,13 @@
+{
+  "changed": {
+    "nodes": 2,
+    "components": 0,
+    "scripts": 0,
+    "resources": 0
+  },
+  "summary": "Updated 2 nodes, 0 components, 0 scripts and 0 resources",
+  "result": {
+    "book": "n162"
+  },
+  "revision": "9e5f8ed2c7e43bb6094ab1eb529061d771f08287bf9eea228167fe16ba074440"
+}

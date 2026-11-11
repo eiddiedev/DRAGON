@@ -1,0 +1,10 @@
+{
+  "protocolVersion": 3,
+  "instanceId": "awc-efab3a95-d209-4747-9d09-3ab1d9e52360",
+  "projectRoot": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-508139d3-e199-4b21-805c-0050141438e3",
+  "pid": 89992,
+  "mode": "offscreen",
+  "baseUrl": "http://127.0.0.1:51385",
+  "profile": "/Users/bytedance/.awc/profiles/awc-efab3a95-d209-4747-9d09-3ab1d9e52360",
+  "logFile": "/Users/bytedance/.awc/profiles/awc-efab3a95-d209-4747-9d09-3ab1d9e52360/awc-launch.log"
+}

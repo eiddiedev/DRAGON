@@ -1,0 +1,46 @@
+{
+  "targets": {
+    "gothic_main": {
+      "output": "assets/castle_refit_v1/exterior/gothic_main-GI.glb",
+      "bytes": 4113492,
+      "indirect": {
+        "max": 1.0,
+        "mean": 0.006185594302609824,
+        "nonzero_fraction": 0.06756591796875
+      },
+      "source": "assets/castle_refit_v1/exterior/gothic_main.glb"
+    },
+    "gothic_towers": {
+      "output": "assets/castle_refit_v1/exterior/gothic_towers-GI.glb",
+      "bytes": 3296804,
+      "indirect": {
+        "max": 0.847058892250061,
+        "mean": 0.005887579164607359,
+        "nonzero_fraction": 0.0738983154296875
+      },
+      "source": "assets/castle_refit_v1/exterior/gothic_towers.glb"
+    },
+    "gothic_wall": {
+      "output": "assets/castle_refit_v1/exterior/gothic_wall-GI.glb",
+      "bytes": 1412352,
+      "indirect": {
+        "max": 1.0,
+        "mean": 0.021828008103810248,
+        "nonzero_fraction": 0.2326812744140625
+      },
+      "source": "assets/castle_refit_v1/exterior/gothic_wall.glb"
+    }
+  },
+  "lighting_source": "interior/lighting-plan.json 25 point fixtures \u00d72.4 plus 4 stained-window AREA lights",
+  "cycles_samples": 48,
+  "diffuse_bounces": 4,
+  "max_bounces": 6,
+  "passes": [
+    "COLOR",
+    "DIRECT",
+    "INDIRECT"
+  ],
+  "sky": "neutral overcast approximation (.65,.65,.68) strength .85, no directional sun; PBR retains dynamic scene response",
+  "interior_occluders": "assets/castle_refit_v1/interior/castle_rooms.glb",
+  "exclusions": "glow meshes keep original emission; dynamic furniture and actors excluded"
+}

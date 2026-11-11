@@ -1,0 +1,185 @@
+{
+  "ok": true,
+  "command": "asset",
+  "data": {
+    "failedFiles": [],
+    "successCount": 2,
+    "totalCount": 2,
+    "assets": [
+      {
+        "id": "11719397338882",
+        "name": "clocktower-smooth-v7",
+        "desc": "该钟楼整体为修长的竖向结构，底部为多层镂空的方塔塔身，中段设有圆形表盘，顶部环绕城垛结构并衔接高耸的锥形尖顶。塔身呈深灰近黑色，搭配透出暖金色光线的长条形拱窗，钟面为浅米色调搭配深色指针。整体呈现出复古庄重的欧式哥特风格。",
+        "preview": {
+          "url": "https://p26-dy-hamlet-ugc-sign.byteimg.com/tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6c7741089c784cb9b2458644573cd5ce.png~tplv-c2ox06qgwk-image-256.png?rk3s=649a29f5&x-expires=1796974271&x-signature=EnHiy%2B7Zb0zIuNCycWY0HnC2yA8%3D",
+          "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6c7741089c784cb9b2458644573cd5ce.png"
+        },
+        "resource": {
+          "url": "https://lf26-hamlet-resource-sign.douyincdn.com/hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/hkn20w58maj4det0.glb?x-expires=1796974271&x-signature=KCIlY6Q0CZQaLlwW4scaTuma3V0%3D",
+          "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/hkn20w58maj4det0.glb"
+        },
+        "resourceType": 1,
+        "dataType": 1,
+        "resourceUrls": [],
+        "style": 4,
+        "shapeType": 1,
+        "categoryList": [],
+        "productCategoryList": [],
+        "module": 1,
+        "scale": {
+          "x": 48.42500305175781,
+          "y": 48.42500305175781,
+          "z": 48.42500305175781
+        },
+        "createTime": 1794382271,
+        "source": 4,
+        "resourceTaskId": "0",
+        "isFavorite": false,
+        "capacity": "11071",
+        "faceCount": "10671",
+        "logicalCenter": {
+          "x": 0.19617965072393417,
+          "y": -1.486835241317749,
+          "z": -0.16526585817337036
+        },
+        "rigged": false,
+        "internalCreatorUid": "66929374300",
+        "createFrom": "User",
+        "status": "Online",
+        "platformStatus": "Online",
+        "isPublish": false
+      },
+      {
+        "id": "11728851641090",
+        "name": "entrance_carved_trim",
+        "desc": "该套件由三角框、尖顶门形框、轮形构件、直杆和拱门框五类独立金属构件组成，构件均为分段拼接的框架式结构。整体呈深灰金属质感，表面带有规整的分段纹理，造型简约硬朗，呈现出模块化的工业设计风格。",
+        "preview": {
+          "url": "https://p26-dy-hamlet-ugc-sign.byteimg.com/tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/8aed068340414a7bb302801fbdc59472.png~tplv-c2ox06qgwk-image-256.png?rk3s=649a29f5&x-expires=1796974286&x-signature=dZtqIb5jCFbXtAcPetOvj1lq7wQ%3D",
+          "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/8aed068340414a7bb302801fbdc59472.png"
+        },
+        "resource": {
+          "url": "https://lf26-hamlet-resource-sign.douyincdn.com/hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/dgsqc9hjp3beeqgw.glb?x-expires=1796974286&x-signature=%2BCQ0%2BcfOeEPLtmtCvxR8rrMjP7g%3D",
+          "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/dgsqc9hjp3beeqgw.glb"
+        },
+        "resourceType": 1,
+        "dataType": 1,
+        "resourceUrls": [],
+        "style": 4,
+        "shapeType": 1,
+        "categoryList": [],
+        "productCategoryList": [],
+        "module": 1,
+        "scale": {
+          "x": 28.045684814453125,
+          "y": 28.045684814453125,
+          "z": 28.045684814453125
+        },
+        "createTime": 1794382286,
+        "source": 4,
+        "resourceTaskId": "0",
+        "isFavorite": false,
+        "capacity": "5948",
+        "faceCount": "5748",
+        "logicalCenter": {
+          "x": 0,
+          "y": -2.5675251483917236,
+          "z": -0.3069991022348404
+        },
+        "rigged": false,
+        "internalCreatorUid": "66929374300",
+        "createFrom": "User",
+        "status": "Online",
+        "platformStatus": "Online",
+        "isPublish": false
+      },
+      {
+        "id": "11629326788610",
+        "name": "entrance_masonry",
+        "desc": "该资产整体呈顶部为尖三角、下部为矩形的扁平轮廓，表面分布有长矩形镂空、圆形镂空与底部拱形缺口，三角区域两侧还带有两个小型方形凹点。整体为哑光深灰金属质感，边缘线条利落简洁，呈现出简约的工业设计风格。",
+        "preview": {
+          "url": "https://p26-dy-hamlet-ugc-sign.byteimg.com/tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/b4dac57962044fee88eac79fea6539e2.png~tplv-c2ox06qgwk-image-256.png?rk3s=649a29f5&x-expires=1796974836&x-signature=oZsiJ52UrhJdYXAK6m8sXHt9L5U%3D",
+          "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/b4dac57962044fee88eac79fea6539e2.png"
+        },
+        "resource": {
+          "url": "https://lf26-hamlet-resource-sign.douyincdn.com/hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/jggsdwluqax52oje.glb?x-expires=1796974836&x-signature=ccp8Nq3UwZY6R00tDxwagsoeiNQ%3D",
+          "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/jggsdwluqax52oje.glb"
+        },
+        "resourceType": 1,
+        "dataType": 1,
+        "resourceUrls": [],
+        "style": 4,
+        "shapeType": 1,
+        "categoryList": [],
+        "productCategoryList": [],
+        "module": 1,
+        "scale": {
+          "x": 28,
+          "y": 28,
+          "z": 28
+        },
+        "createTime": 1794382836,
+        "source": 4,
+        "resourceTaskId": "0",
+        "isFavorite": false,
+        "capacity": "1330",
+        "faceCount": "1130",
+        "logicalCenter": {
+          "x": 0,
+          "y": -2.5714285373687744,
+          "z": -0.30464285612106323
+        },
+        "rigged": false,
+        "internalCreatorUid": "66929374300",
+        "createFrom": "User",
+        "status": "Online",
+        "platformStatus": "Online",
+        "isPublish": false
+      },
+      {
+        "id": "11719397353218",
+        "name": "main_side_rear_smooth",
+        "desc": "该资产为教堂造型的平面拆分板件，由多块带哥特式尖拱窗镂空的深色板体与三角尖顶构件组成，呈未组装的展开状态。板件表面为光滑的深黑灰色哑光质感，镂空窗洞透出浅淡的暖调反光，整体是低多边形的简约几何风格。",
+        "preview": {
+          "url": "https://p9-dy-hamlet-ugc-sign.byteimg.com/tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/e0135de00d4442549bf11589aa5f3f15.png~tplv-c2ox06qgwk-image-256.png?rk3s=649a29f5&x-expires=1796975088&x-signature=lXz6jE8rz%2BNu7eZBpn9XVigyI9E%3D",
+          "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/e0135de00d4442549bf11589aa5f3f15.png"
+        },
+        "resource": {
+          "url": "https://lf26-hamlet-resource-sign.douyincdn.com/hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/s075img5qv4uaiim.glb?x-expires=1796975088&x-signature=FjIica%2BgKWgp1fjIWGZ8DvQI0kA%3D",
+          "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/s075img5qv4uaiim.glb"
+        },
+        "resourceType": 1,
+        "dataType": 1,
+        "resourceUrls": [],
+        "style": 4,
+        "shapeType": 1,
+        "categoryList": [],
+        "productCategoryList": [],
+        "module": 1,
+        "scale": {
+          "x": 28.25,
+          "y": 28.25,
+          "z": 28.25
+        },
+        "createTime": 1794383088,
+        "source": 4,
+        "resourceTaskId": "0",
+        "isFavorite": false,
+        "capacity": "459",
+        "faceCount": "259",
+        "logicalCenter": {
+          "x": 0,
+          "y": -2.548672676086426,
+          "z": 0.10716815292835236
+        },
+        "rigged": false,
+        "internalCreatorUid": "66929374300",
+        "createFrom": "User",
+        "status": "Online",
+        "platformStatus": "Online",
+        "isPublish": false
+      }
+    ],
+    "ignoredFileCount": 0,
+    "failedArchiveNames": []
+  }
+}

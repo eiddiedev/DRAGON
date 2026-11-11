@@ -1,0 +1,1 @@
+{"ok":true,"command":"authoring","data":{"changed":{"nodes":0,"components":1,"scripts":0,"resources":0},"summary":"Updated 0 nodes, 1 components, 0 scripts and 0 resources","result":{"saved":true,"prefabId":"tripo_scene_v1","nodeHandle":"n26","animationNames":["idle"],"defaultStateName":"idle"},"revision":"742e4192461e4f4576904478f2908e594de732d3fe1a70637ab8c4dc16ce0498"}}

@@ -1,0 +1,27 @@
+{
+  "changed": {
+    "nodes": 18,
+    "components": 0,
+    "scripts": 0,
+    "resources": 0
+  },
+  "summary": "Updated 18 nodes, 0 components, 0 scripts and 0 resources",
+  "result": [
+    {
+      "name": "DragonSword",
+      "wrapper": "n156",
+      "grip": "n157"
+    },
+    {
+      "name": "DragonStaff",
+      "wrapper": "n158",
+      "grip": "n159"
+    },
+    {
+      "name": "DragonBow",
+      "wrapper": "n160",
+      "grip": "n161"
+    }
+  ],
+  "revision": "195f8bfeeebf06cfe0293fa923fb45648ad6110f86395d46f778d8e142be918b"
+}

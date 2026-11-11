@@ -1,0 +1,2345 @@
+[
+  {
+    "id": -1066344707,
+    "parent": 0,
+    "name": "witch_shop_v2",
+    "pos": {
+      "x": 171.0,
+      "y": 39.2699,
+      "z": 146.0
+    },
+    "scale": {
+      "x": 17.0356083,
+      "y": 17.0356083,
+      "z": 17.0356083
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": 0.0
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/hj4jtmvsxa48la50.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/hj4jtmvsxa48la50.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 7735195,
+    "parent": -1066344707,
+    "name": "glow",
+    "pos": {
+      "x": 171.0,
+      "y": 39.2699,
+      "z": 146.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": 0.0
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/hj4jtmvsxa48la50.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0
+        ],
+        "debugSlicePath": "glow",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 1900100391,
+    "parent": 932317899,
+    "name": "glow",
+    "pos": {
+      "x": 84.0,
+      "y": 45.0823,
+      "z": 66.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": 0.0
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/t1183o7qrw9a2uew.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0
+        ],
+        "debugSlicePath": "glow",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": -601406928,
+    "parent": -1456057694,
+    "name": "glow",
+    "pos": {
+      "x": 190.0,
+      "y": 27.0,
+      "z": 83.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": 0.0
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/zvyzselvnvuv6p62.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0
+        ],
+        "debugSlicePath": "glow",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": -28061522,
+    "parent": -1566080300,
+    "name": "glow",
+    "pos": {
+      "x": 209.0,
+      "y": 52.5611,
+      "z": 134.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": 0.0
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/3an2370am6c78crs.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0
+        ],
+        "debugSlicePath": "glow",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": -1160894541,
+    "parent": 0,
+    "name": "arena",
+    "pos": {
+      "x": 127.0,
+      "y": 32.0,
+      "z": 172.0
+    },
+    "scale": {
+      "x": 27.0,
+      "y": 27.0,
+      "z": 27.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": 0.0
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/m6ekxcerb09a709k.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/m6ekxcerb09a709k.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 763071832,
+    "parent": -1160894541,
+    "name": "glow",
+    "pos": {
+      "x": 127.0,
+      "y": 32.0,
+      "z": 172.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": 0.0
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/m6ekxcerb09a709k.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0
+        ],
+        "debugSlicePath": "glow",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": -824376428,
+    "parent": 0,
+    "name": "arena_gate",
+    "pos": {
+      "x": 129.8208,
+      "y": 37.2,
+      "z": 128.490784
+    },
+    "scale": {
+      "x": 11.4708538,
+      "y": 11.4708538,
+      "z": 11.4708538
+    },
+    "rot": {
+      "x": 0.006696213,
+      "y": 0.7009594,
+      "z": 0.00502664968,
+      "w": 0.7131521
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/xspl8g16bd34pcuj.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/xspl8g16bd34pcuj.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": -3386768,
+    "parent": 0,
+    "name": "sailboat_0",
+    "pos": {
+      "x": 206.0,
+      "y": 26.9,
+      "z": 98.0
+    },
+    "scale": {
+      "x": 17.5965214,
+      "y": 17.5965214,
+      "z": 17.5965214
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.7071068,
+      "z": 0.0,
+      "w": 0.7071068
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/axmhrkxsvcqh8wp9.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/axmhrkxsvcqh8wp9.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 1241637154,
+    "parent": -3386768,
+    "name": "glow",
+    "pos": {
+      "x": 206.0,
+      "y": 26.9,
+      "z": 98.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.7071068,
+      "z": 0.0,
+      "w": 0.7071068
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/axmhrkxsvcqh8wp9.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0
+        ],
+        "debugSlicePath": "glow",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 213562766,
+    "parent": 0,
+    "name": "sailboat_1",
+    "pos": {
+      "x": 218.0,
+      "y": 26.9,
+      "z": 70.0
+    },
+    "scale": {
+      "x": 17.5965214,
+      "y": 17.5965214,
+      "z": 17.5965214
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.7071068,
+      "z": 0.0,
+      "w": 0.7071068
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/axmhrkxsvcqh8wp9.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/axmhrkxsvcqh8wp9.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 1015468605,
+    "parent": 213562766,
+    "name": "glow",
+    "pos": {
+      "x": 218.0,
+      "y": 26.9,
+      "z": 70.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.7071068,
+      "z": 0.0,
+      "w": 0.7071068
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/axmhrkxsvcqh8wp9.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0
+        ],
+        "debugSlicePath": "glow",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 543127623,
+    "parent": 0,
+    "name": "sailboat_2",
+    "pos": {
+      "x": 234.0,
+      "y": 26.9,
+      "z": 110.0
+    },
+    "scale": {
+      "x": 17.5965214,
+      "y": 17.5965214,
+      "z": 17.5965214
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.173647955,
+      "z": 0.0,
+      "w": 0.9848078
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/axmhrkxsvcqh8wp9.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/axmhrkxsvcqh8wp9.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 1808844310,
+    "parent": 543127623,
+    "name": "glow",
+    "pos": {
+      "x": 234.0,
+      "y": 26.9,
+      "z": 110.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.173647955,
+      "z": 0.0,
+      "w": 0.9848078
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/axmhrkxsvcqh8wp9.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0
+        ],
+        "debugSlicePath": "glow",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 92553766,
+    "parent": -1084074086,
+    "name": "glow",
+    "pos": {
+      "x": 117.5,
+      "y": 72.05,
+      "z": 162.5
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": 0.0
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/nmxpe0r5ywmxq5jy.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0
+        ],
+        "debugSlicePath": "glow",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 1923537689,
+    "parent": 848078987,
+    "name": "glow",
+    "pos": {
+      "x": 127.0,
+      "y": 0.0,
+      "z": 176.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": 0.0
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/lajcmkomp92y7ckf.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0
+        ],
+        "debugSlicePath": "glow",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 2121463020,
+    "parent": 194003353,
+    "name": "glow",
+    "pos": {
+      "x": 121.0,
+      "y": 39.9168,
+      "z": 57.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": 0.0
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/nmxpe0r5ywmxq5jy.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0
+        ],
+        "debugSlicePath": "glow",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 392966667,
+    "parent": 0,
+    "name": "camp",
+    "pos": {
+      "x": 62.0,
+      "y": 43.467,
+      "z": 62.0
+    },
+    "scale": {
+      "x": 4.4,
+      "y": 4.4,
+      "z": 4.4
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.9659259,
+      "z": 0.0,
+      "w": 0.258818984
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/f5da4th1088o4718.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 2
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/f5da4th1088o4718.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 2
+      }
+    }
+  },
+  {
+    "id": 1333192133,
+    "parent": 0,
+    "name": "castle_rooms",
+    "pos": {
+      "x": 127.0,
+      "y": 0.0,
+      "z": 176.0
+    },
+    "scale": {
+      "x": 30.4,
+      "y": 30.4,
+      "z": 30.4
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": 0.0
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/yhfhyi6eco5tx2ti.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/yhfhyi6eco5tx2ti.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": -1807783884,
+    "parent": -1635803035,
+    "name": "glow",
+    "pos": {
+      "x": 127.0,
+      "y": 0.0,
+      "z": 176.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": 0.0
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/njut13t1nczjf47o.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0
+        ],
+        "debugSlicePath": "glow",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": -1302742933,
+    "parent": 876523030,
+    "name": "glow",
+    "pos": {
+      "x": 127.0,
+      "y": 0.0,
+      "z": 176.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": 0.0
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/or5l3eypekrxdu83.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0
+        ],
+        "debugSlicePath": "glow",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 1837508551,
+    "parent": -908991196,
+    "name": "glow",
+    "pos": {
+      "x": 170.0,
+      "y": 42.07151,
+      "z": 92.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.9914449,
+      "z": 0.0,
+      "w": 0.130525991
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/rs4crkumjzojm7vw.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0
+        ],
+        "debugSlicePath": "glow",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 960627159,
+    "parent": -912944710,
+    "name": "glow",
+    "pos": {
+      "x": 166.0,
+      "y": 39.308876,
+      "z": 54.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.999657333,
+      "z": 0.0,
+      "w": -0.02617701
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/p9loziio67mux37c.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0
+        ],
+        "debugSlicePath": "glow",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 19621964,
+    "parent": 593379174,
+    "name": "glow",
+    "pos": {
+      "x": 180.0,
+      "y": 43.1493378,
+      "z": 77.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.999962,
+      "z": 0.0,
+      "w": -0.008727
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/vto4kimxlfzt1ejx.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0
+        ],
+        "debugSlicePath": "glow",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": -426925502,
+    "parent": 0,
+    "name": "lamp_glow",
+    "pos": {
+      "x": 128.0,
+      "y": 0.0,
+      "z": 128.0
+    },
+    "scale": {
+      "x": 93.47268,
+      "y": 93.47268,
+      "z": 93.47268
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": 0.0
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/r8ung24ss0v4n02x.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/r8ung24ss0v4n02x.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": -962611212,
+    "parent": 0,
+    "name": "altar3",
+    "pos": {
+      "x": 48.0,
+      "y": 51.9779,
+      "z": 150.0
+    },
+    "scale": {
+      "x": 14.876709,
+      "y": 14.876709,
+      "z": 14.876709
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": 0.0
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/yt2xeyf1dnk6dfq3.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/yt2xeyf1dnk6dfq3.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": -962904433,
+    "parent": 0,
+    "name": "altar3_glow",
+    "pos": {
+      "x": 48.0,
+      "y": 51.9779,
+      "z": 150.0
+    },
+    "scale": {
+      "x": 7.63264942,
+      "y": 7.63264942,
+      "z": 7.63264942
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": 0.0
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/cuq2od9oxxw9b9dv.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/cuq2od9oxxw9b9dv.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 1926795116,
+    "parent": 0,
+    "name": "rune3",
+    "pos": {
+      "x": -3.34589648,
+      "y": 30.4699669,
+      "z": 293.998474
+    },
+    "scale": {
+      "x": 4.5493083,
+      "y": 4.5493083,
+      "z": 4.5493083
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/cs7vgm6aglacl2bn.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/cs7vgm6aglacl2bn.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": -334651037,
+    "parent": 0,
+    "name": "rune3_glow",
+    "pos": {
+      "x": -3.607963,
+      "y": 34.9410248,
+      "z": 294.071136
+    },
+    "scale": {
+      "x": 1.856,
+      "y": 1.856,
+      "z": 1.856
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/owluhqlxmeqwwfr1.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/owluhqlxmeqwwfr1.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": -341505397,
+    "parent": 0,
+    "name": "rooms_glow",
+    "pos": {
+      "x": 127.0,
+      "y": 0.0,
+      "z": 176.0
+    },
+    "scale": {
+      "x": 29.80854,
+      "y": 29.80854,
+      "z": 29.80854
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": 0.0
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/nlyjbzft5sfc3xo5.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/nlyjbzft5sfc3xo5.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": -988152925,
+    "parent": 0,
+    "name": "sheep3",
+    "pos": {
+      "x": 77.7813644,
+      "y": 45.9037323,
+      "z": 137.9089
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": -259930433,
+    "parent": -997461145,
+    "name": "sheep3",
+    "pos": {
+      "x": 77.7813644,
+      "y": 45.9037323,
+      "z": 137.9089
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0,
+          0
+        ],
+        "debugSlicePath": "rig/sheep3",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 322060376,
+    "parent": 421436761,
+    "name": "glow",
+    "pos": {
+      "x": 174.0,
+      "y": 38.51051,
+      "z": 46.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.996917367,
+      "z": 0.0,
+      "w": -0.07845903
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/rs4crkumjzojm7vw.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0
+        ],
+        "debugSlicePath": "glow",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 650017696,
+    "parent": 1587785790,
+    "name": "glow",
+    "pos": {
+      "x": 176.0,
+      "y": 40.34263,
+      "z": 124.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.998134851,
+      "z": 0.0,
+      "w": 0.061048992
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/rs4crkumjzojm7vw.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0
+        ],
+        "debugSlicePath": "glow",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 1604464397,
+    "parent": 171076287,
+    "name": "glow",
+    "pos": {
+      "x": 162.0,
+      "y": 39.109314,
+      "z": 44.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.998134851,
+      "z": 0.0,
+      "w": 0.061048992
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/p9loziio67mux37c.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0
+        ],
+        "debugSlicePath": "glow",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 190072252,
+    "parent": 648406060,
+    "name": "glow",
+    "pos": {
+      "x": 154.0,
+      "y": 40.74,
+      "z": 125.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.979924738,
+      "z": 0.0,
+      "w": -0.199367955
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/p9loziio67mux37c.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0
+        ],
+        "debugSlicePath": "glow",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 1550188146,
+    "parent": 1967056495,
+    "name": "glow",
+    "pos": {
+      "x": 190.0,
+      "y": 40.6634064,
+      "z": 154.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.999657333,
+      "z": 0.0,
+      "w": -0.02617701
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/p9loziio67mux37c.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0
+        ],
+        "debugSlicePath": "glow",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 1860853797,
+    "parent": 2073709872,
+    "name": "glow",
+    "pos": {
+      "x": 190.0,
+      "y": 41.19371,
+      "z": 140.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.976295948,
+      "z": 0.0,
+      "w": -0.216439992
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/vto4kimxlfzt1ejx.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0
+        ],
+        "debugSlicePath": "glow",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 1160889310,
+    "parent": 1013531437,
+    "name": "glow",
+    "pos": {
+      "x": 186.0,
+      "y": 40.82129,
+      "z": 130.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.999048233,
+      "z": 0.0,
+      "w": 0.04361901
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/vto4kimxlfzt1ejx.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0
+        ],
+        "debugSlicePath": "glow",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 881327891,
+    "parent": 0,
+    "name": "rune_0",
+    "pos": {
+      "x": 48.0,
+      "y": 51.4662,
+      "z": 138.0
+    },
+    "scale": {
+      "x": 4.5493083,
+      "y": 4.5493083,
+      "z": 4.5493083
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": -1.0
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/cs7vgm6aglacl2bn.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/cs7vgm6aglacl2bn.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 365266838,
+    "parent": 0,
+    "name": "runeg_0",
+    "pos": {
+      "x": 48.0,
+      "y": 51.4662,
+      "z": 138.0
+    },
+    "scale": {
+      "x": 1.856,
+      "y": 1.856,
+      "z": 1.856
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": -1.0
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/owluhqlxmeqwwfr1.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/owluhqlxmeqwwfr1.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 656407838,
+    "parent": 0,
+    "name": "rune_1",
+    "pos": {
+      "x": 58.3923,
+      "y": 51.6759,
+      "z": 156.0
+    },
+    "scale": {
+      "x": 4.5493083,
+      "y": 4.5493083,
+      "z": 4.5493083
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.8660253,
+      "z": 0.0,
+      "w": -0.500000238
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/cs7vgm6aglacl2bn.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/cs7vgm6aglacl2bn.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 709299630,
+    "parent": 0,
+    "name": "runeg_1",
+    "pos": {
+      "x": 58.3923,
+      "y": 51.6759,
+      "z": 156.0
+    },
+    "scale": {
+      "x": 1.856,
+      "y": 1.856,
+      "z": 1.856
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.8660253,
+      "z": 0.0,
+      "w": -0.500000238
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/owluhqlxmeqwwfr1.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/owluhqlxmeqwwfr1.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 1781239207,
+    "parent": 0,
+    "name": "rune_2",
+    "pos": {
+      "x": 37.6077,
+      "y": 50.7098,
+      "z": 156.0
+    },
+    "scale": {
+      "x": 4.5493083,
+      "y": 4.5493083,
+      "z": 4.5493083
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.8660253,
+      "z": 0.0,
+      "w": 0.500000238
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/cs7vgm6aglacl2bn.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/cs7vgm6aglacl2bn.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 17857049,
+    "parent": 0,
+    "name": "runeg_2",
+    "pos": {
+      "x": 37.6077,
+      "y": 50.7098,
+      "z": 156.0
+    },
+    "scale": {
+      "x": 1.856,
+      "y": 1.856,
+      "z": 1.856
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.8660253,
+      "z": 0.0,
+      "w": 0.500000238
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/owluhqlxmeqwwfr1.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/owluhqlxmeqwwfr1.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 474737314,
+    "parent": 0,
+    "name": "sheep_0",
+    "pos": {
+      "x": 84.0,
+      "y": 42.0583,
+      "z": 42.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": 0.0
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": -1545656670,
+    "parent": 1712779713,
+    "name": "sheep3",
+    "pos": {
+      "x": 84.0,
+      "y": 42.0583,
+      "z": 42.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0,
+      "w": 0.0
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0,
+          0
+        ],
+        "debugSlicePath": "rig/sheep3",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 663729893,
+    "parent": 0,
+    "name": "sheep_1",
+    "pos": {
+      "x": 97.0,
+      "y": 43.1486,
+      "z": 65.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.939692736,
+      "z": 0.0,
+      "w": 0.342019916
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 433847829,
+    "parent": -793682935,
+    "name": "sheep3",
+    "pos": {
+      "x": 97.0,
+      "y": 43.1486,
+      "z": 65.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.939692736,
+      "z": 0.0,
+      "w": 0.342019916
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0,
+          0
+        ],
+        "debugSlicePath": "rig/sheep3",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 1189758314,
+    "parent": 0,
+    "name": "sheep_2",
+    "pos": {
+      "x": 110.0,
+      "y": 40.3131,
+      "z": 44.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.7660441,
+      "z": 0.0,
+      "w": 0.642788053
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 222887756,
+    "parent": -1972035736,
+    "name": "sheep3",
+    "pos": {
+      "x": 110.0,
+      "y": 40.3131,
+      "z": 44.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.7660441,
+      "z": 0.0,
+      "w": 0.642788053
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0,
+          0
+        ],
+        "debugSlicePath": "rig/sheep3",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 348005953,
+    "parent": 0,
+    "name": "sheep_3",
+    "pos": {
+      "x": 89.0,
+      "y": 44.668,
+      "z": 67.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.500000238,
+      "z": 0.0,
+      "w": 0.8660253
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": -1284742692,
+    "parent": 794875759,
+    "name": "sheep3",
+    "pos": {
+      "x": 89.0,
+      "y": 44.668,
+      "z": 67.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.500000238,
+      "z": 0.0,
+      "w": 0.8660253
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0,
+          0
+        ],
+        "debugSlicePath": "rig/sheep3",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 945373653,
+    "parent": 0,
+    "name": "sheep_4",
+    "pos": {
+      "x": 102.0,
+      "y": 41.2758,
+      "z": 46.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.173647955,
+      "z": 0.0,
+      "w": 0.9848078
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 1820479553,
+    "parent": 911122440,
+    "name": "sheep3",
+    "pos": {
+      "x": 102.0,
+      "y": 41.2758,
+      "z": 46.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.173647955,
+      "z": 0.0,
+      "w": 0.9848078
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0,
+          0
+        ],
+        "debugSlicePath": "rig/sheep3",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 449595182,
+    "parent": 0,
+    "name": "sheep_5",
+    "pos": {
+      "x": 115.0,
+      "y": 40.7794,
+      "z": 69.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.173647955,
+      "z": 0.0,
+      "w": 0.9848078
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 128233087,
+    "parent": 1647226276,
+    "name": "sheep3",
+    "pos": {
+      "x": 115.0,
+      "y": 40.7794,
+      "z": 69.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.173647955,
+      "z": 0.0,
+      "w": 0.9848078
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0,
+          0
+        ],
+        "debugSlicePath": "rig/sheep3",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 647979717,
+    "parent": 0,
+    "name": "sheep_6",
+    "pos": {
+      "x": 94.0,
+      "y": 41.9198,
+      "z": 48.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.500000238,
+      "z": 0.0,
+      "w": 0.8660253
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": -19618565,
+    "parent": -147268967,
+    "name": "sheep3",
+    "pos": {
+      "x": 94.0,
+      "y": 41.9198,
+      "z": 48.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.500000238,
+      "z": 0.0,
+      "w": 0.8660253
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0,
+          0
+        ],
+        "debugSlicePath": "rig/sheep3",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 1366502195,
+    "parent": 0,
+    "name": "sheep_7",
+    "pos": {
+      "x": 107.0,
+      "y": 41.9188,
+      "z": 71.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.7660441,
+      "z": 0.0,
+      "w": 0.642788053
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": -83564842,
+    "parent": 451604869,
+    "name": "sheep3",
+    "pos": {
+      "x": 107.0,
+      "y": 41.9188,
+      "z": 71.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.7660441,
+      "z": 0.0,
+      "w": 0.642788053
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0,
+          0
+        ],
+        "debugSlicePath": "rig/sheep3",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": 279575457,
+    "parent": 0,
+    "name": "sheep_8",
+    "pos": {
+      "x": 86.0,
+      "y": 42.5025,
+      "z": 50.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.939692736,
+      "z": 0.0,
+      "w": 0.342019916
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": -1040131111,
+    "parent": 1502076895,
+    "name": "sheep3",
+    "pos": {
+      "x": 86.0,
+      "y": 42.5025,
+      "z": 50.0
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.939692736,
+      "z": 0.0,
+      "w": 0.342019916
+    },
+    "resource": {
+      "aigcModelData": null,
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [
+          0,
+          0
+        ],
+        "debugSlicePath": "rig/sheep3",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  },
+  {
+    "id": -14357519,
+    "parent": 0,
+    "name": "ui_book",
+    "pos": {
+      "x": 117.719612,
+      "y": 47.8286171,
+      "z": 146.232574
+    },
+    "scale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "w": 1.0
+    },
+    "resource": {
+      "aigcModelData": {
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/l9lcet7nsbjkf4tc.glb",
+        "meshRefId": 0,
+        "isShowTex": true,
+        "opType": 4
+      },
+      "localPrefabData": null,
+      "glbSliceData": {
+        "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/l9lcet7nsbjkf4tc.glb",
+        "sourceMeshRefId": 0,
+        "slicePath": [],
+        "debugSlicePath": "",
+        "isShowTex": true,
+        "opType": 4
+      }
+    }
+  }
+]

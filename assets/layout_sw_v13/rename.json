@@ -1,0 +1,1 @@
+{"ok":false,"command":"authoring","error":{"code":"STALE_REVISION","message":"Prefab content changed; read the current target before editing","hint":"重读 prefab revision，合并变更后再执行。"}}

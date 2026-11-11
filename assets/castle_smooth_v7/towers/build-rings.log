@@ -1,0 +1,20 @@
+GEOMETRY {"expand_right_tower": 12286, "expand_central_tower": 7700, "expand_rear_towers": 13480, "expand_clock_auxiliary": 6368}
+/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_smooth_towers.py:249: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new(ob.name+'_source');mat.use_nodes=True;nt=mat.node_tree;pb=nt.nodes['Principled BSDF'];pb.inputs['Roughness'].default_value=.85;attr=nt.nodes.new('ShaderNodeVertexColor');attr.layer_name='Col';nt.links.new(attr.outputs['Color'],pb.inputs['Base Color']);ob.data.materials.append(mat)
+15:28:52 | INFO: Data are loaded, start creating Blender stuff
+15:28:52 | INFO: Blender create Mesh node glow
+15:28:52 | INFO: Blender create Mesh node main
+15:28:53 | INFO: glTF import finished in 0.36s
+15:28:53 | INFO: Data are loaded, start creating Blender stuff
+15:28:53 | INFO: Blender create Mesh node glow
+15:28:53 | INFO: Blender create Mesh node main
+15:28:53 | INFO: glTF import finished in 0.27s
+15:28:53 | INFO: Data are loaded, start creating Blender stuff
+15:28:53 | INFO: Blender create Mesh node glow
+15:28:53 | INFO: Blender create Mesh node main
+15:28:53 | INFO: glTF import finished in 0.11s
+15:28:53 | INFO: Data are loaded, start creating Blender stuff
+15:28:53 | INFO: Blender create Mesh node castle_rooms
+15:28:53 | INFO: glTF import finished in 0.26s
+/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_smooth_towers.py:261: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('accepted_sample_neutral_approximation');world.use_nodes=True;world.node_tree.nodes['Background'].inputs[0].default_value=(.65,.65,.68,1);world.node_tree.nodes['Background'].inputs[1].default_value=.85;scene.world=world

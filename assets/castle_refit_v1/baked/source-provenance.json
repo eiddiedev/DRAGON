@@ -1,0 +1,12 @@
+{
+  "source_hashes": {
+    "assets/castle_refit_v1/interior/castle_rooms.glb": "d203ce0b64a946816f60be5d336502bfd97f15b9de85828e3d6d3185220a8270",
+    "assets/castle_refit_v1/exterior/gothic_main.glb": "44c9cc85b50448a679298a16c4e2769b60263f3f985845aeeee1dc9a96c18ae3",
+    "assets/castle_refit_v1/exterior/gothic_towers.glb": "c5cde2c86631a75cab164ec242834e36a0c01843490480bd0e229a4f0a1fbb83",
+    "assets/castle_refit_v1/exterior/gothic_wall.glb": "e18d8e4dd12e638414f4f499325342e4c78db4faf45f9ce824db01a24e383347",
+    "assets/castle_refit_v1/environment-before.json": "79c93d1b04b165514ebd1ebf53a26ecec504059d31baead26967e9ab8043887f"
+  },
+  "world_approximation": "No original cubemap bytes; low constant twilight world intentionally omits changing sunlight. Static practical warm lights modeled, not claiming exact reproduction of editor sky.",
+  "late_change": "interior glow window palette desaturated after final geometry loading; indirect lighting dominated by explicit warm practical lights and modest blue window areas. Verify final runtime color.",
+  "scene_roots_untouched": true
+}

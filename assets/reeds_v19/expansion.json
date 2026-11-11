@@ -1,0 +1,943 @@
+{
+  "backup": "/Users/bytedance/Documents/ChatGPT/DRAGON/backups/before-v19-expand-20261110-164211",
+  "converted": 125,
+  "removed_low_grass": [
+    {
+      "nodeName": "pl_grass_275",
+      "pos": {
+        "x": 122.252,
+        "y": 37.9678,
+        "z": 34.1036
+      },
+      "rot": {
+        "x": 0.0,
+        "y": -0.549735069,
+        "z": 0.0,
+        "w": 0.835339069
+      },
+      "scale": {
+        "x": 3.7384994,
+        "y": 2.777171,
+        "z": 3.7384994
+      },
+      "tag": "Untagged",
+      "aigcModelData": null,
+      "terrainDisplayData": null,
+      "waterDisplayData": null,
+      "riverDisplayData": null,
+      "waterBodyAuthoringData": null,
+      "localPrefabData": null,
+      "appearanceData": {
+        "presetName": "Default",
+        "color": {
+          "r": 0.74,
+          "g": 0.84,
+          "b": 0.66,
+          "a": 1.0
+        },
+        "emissionColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        },
+        "metallic": 0.0,
+        "roughness": 1.0,
+        "emissionPower": 1.0,
+        "useTriplanarSample": false,
+        "visible": true,
+        "castShadows": false,
+        "isModified": true,
+        "waterDualColor": {
+          "color1": {
+            "r": 0.0,
+            "g": 0.8784314,
+            "b": 0.8666667,
+            "a": 1.0
+          },
+          "color2": {
+            "r": 0.0,
+            "g": 0.447058827,
+            "b": 0.549019635,
+            "a": 1.0
+          }
+        },
+        "transparency": 1.0,
+        "waveDensity": 1.0,
+        "waveSpeed": 1.0,
+        "waveDirection": 0.0
+      },
+      "waterAppearanceData": null,
+      "physicsColliderData": {
+        "enableCollision": false,
+        "dynamicFriction": 0.6,
+        "staticFriction": 0.6,
+        "bounciness": 0.0,
+        "enableRigidBody": false,
+        "mass": 8.272628,
+        "drag": 0.0,
+        "angularDrag": 0.0,
+        "useGravity": true,
+        "isKinematic": false
+      },
+      "assetData": {
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/93d6f864e7174ff5a4e2e5e4deac6361.png",
+        "assetID": "7600811520002"
+      },
+      "animatorData": null,
+      "ugcAnimatorData": null,
+      "glbSliceData": null,
+      "editorOnlyData": {
+        "isLock": false,
+        "isGroupRoot": false,
+        "editorData": ""
+      },
+      "lightData": null,
+      "text3DData": null,
+      "billboardPlantData": {
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/93d6f864e7174ff5a4e2e5e4deac6361.png",
+        "plantType": 1,
+        "textureRefId": 0
+      },
+      "id": 179417675,
+      "parentId": 0,
+      "isActive": true,
+      "layer": 0,
+      "isGameMod": false,
+      "isStatic": false
+    },
+    {
+      "nodeName": "pl_grass_277",
+      "pos": {
+        "x": 128.4721,
+        "y": 37.5474,
+        "z": 33.9756
+      },
+      "rot": {
+        "x": 0.0,
+        "y": 0.359435022,
+        "z": 0.0,
+        "w": 0.93317014
+      },
+      "scale": {
+        "x": 4.232814,
+        "y": 3.144376,
+        "z": 4.232814
+      },
+      "tag": "Untagged",
+      "aigcModelData": null,
+      "terrainDisplayData": null,
+      "waterDisplayData": null,
+      "riverDisplayData": null,
+      "waterBodyAuthoringData": null,
+      "localPrefabData": null,
+      "appearanceData": {
+        "presetName": "Default",
+        "color": {
+          "r": 0.74,
+          "g": 0.84,
+          "b": 0.66,
+          "a": 1.0
+        },
+        "emissionColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        },
+        "metallic": 0.0,
+        "roughness": 1.0,
+        "emissionPower": 1.0,
+        "useTriplanarSample": false,
+        "visible": true,
+        "castShadows": false,
+        "isModified": true,
+        "waterDualColor": {
+          "color1": {
+            "r": 0.0,
+            "g": 0.8784314,
+            "b": 0.8666667,
+            "a": 1.0
+          },
+          "color2": {
+            "r": 0.0,
+            "g": 0.447058827,
+            "b": 0.549019635,
+            "a": 1.0
+          }
+        },
+        "transparency": 1.0,
+        "waveDensity": 1.0,
+        "waveSpeed": 1.0,
+        "waveDirection": 0.0
+      },
+      "waterAppearanceData": null,
+      "physicsColliderData": {
+        "enableCollision": false,
+        "dynamicFriction": 0.6,
+        "staticFriction": 0.6,
+        "bounciness": 0.0,
+        "enableRigidBody": false,
+        "mass": 8.272628,
+        "drag": 0.0,
+        "angularDrag": 0.0,
+        "useGravity": true,
+        "isKinematic": false
+      },
+      "assetData": {
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/93d6f864e7174ff5a4e2e5e4deac6361.png",
+        "assetID": "7600811520002"
+      },
+      "animatorData": null,
+      "ugcAnimatorData": null,
+      "glbSliceData": null,
+      "editorOnlyData": {
+        "isLock": false,
+        "isGroupRoot": false,
+        "editorData": ""
+      },
+      "lightData": null,
+      "text3DData": null,
+      "billboardPlantData": {
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/93d6f864e7174ff5a4e2e5e4deac6361.png",
+        "plantType": 1,
+        "textureRefId": 0
+      },
+      "id": 1256386846,
+      "parentId": 0,
+      "isActive": true,
+      "layer": 0,
+      "isGameMod": false,
+      "isStatic": false
+    },
+    {
+      "nodeName": "pl_grass_278",
+      "pos": {
+        "x": 132.1121,
+        "y": 37.6939,
+        "z": 34.9726
+      },
+      "rot": {
+        "x": 0.0,
+        "y": -0.378145158,
+        "z": 0.0,
+        "w": 0.9257464
+      },
+      "scale": {
+        "x": 2.86373162,
+        "y": 2.12734342,
+        "z": 2.86373162
+      },
+      "tag": "Untagged",
+      "aigcModelData": null,
+      "terrainDisplayData": null,
+      "waterDisplayData": null,
+      "riverDisplayData": null,
+      "waterBodyAuthoringData": null,
+      "localPrefabData": null,
+      "appearanceData": {
+        "presetName": "Default",
+        "color": {
+          "r": 0.74,
+          "g": 0.84,
+          "b": 0.66,
+          "a": 1.0
+        },
+        "emissionColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        },
+        "metallic": 0.0,
+        "roughness": 1.0,
+        "emissionPower": 1.0,
+        "useTriplanarSample": false,
+        "visible": true,
+        "castShadows": false,
+        "isModified": true,
+        "waterDualColor": {
+          "color1": {
+            "r": 0.0,
+            "g": 0.8784314,
+            "b": 0.8666667,
+            "a": 1.0
+          },
+          "color2": {
+            "r": 0.0,
+            "g": 0.447058827,
+            "b": 0.549019635,
+            "a": 1.0
+          }
+        },
+        "transparency": 1.0,
+        "waveDensity": 1.0,
+        "waveSpeed": 1.0,
+        "waveDirection": 0.0
+      },
+      "waterAppearanceData": null,
+      "physicsColliderData": {
+        "enableCollision": false,
+        "dynamicFriction": 0.6,
+        "staticFriction": 0.6,
+        "bounciness": 0.0,
+        "enableRigidBody": false,
+        "mass": 8.272628,
+        "drag": 0.0,
+        "angularDrag": 0.0,
+        "useGravity": true,
+        "isKinematic": false
+      },
+      "assetData": {
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/93d6f864e7174ff5a4e2e5e4deac6361.png",
+        "assetID": "7600811520002"
+      },
+      "animatorData": null,
+      "ugcAnimatorData": null,
+      "glbSliceData": null,
+      "editorOnlyData": {
+        "isLock": false,
+        "isGroupRoot": false,
+        "editorData": ""
+      },
+      "lightData": null,
+      "text3DData": null,
+      "billboardPlantData": {
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/93d6f864e7174ff5a4e2e5e4deac6361.png",
+        "plantType": 1,
+        "textureRefId": 0
+      },
+      "id": 1546355795,
+      "parentId": 0,
+      "isActive": true,
+      "layer": 0,
+      "isGameMod": false,
+      "isStatic": false
+    },
+    {
+      "nodeName": "pl_grass_279",
+      "pos": {
+        "x": 134.0543,
+        "y": 37.5815,
+        "z": 34.4031
+      },
+      "rot": {
+        "x": 0.0,
+        "y": 0.830185,
+        "z": 0.0,
+        "w": 0.557488
+      },
+      "scale": {
+        "x": 3.587178,
+        "y": 2.66476083,
+        "z": 3.587178
+      },
+      "tag": "Untagged",
+      "aigcModelData": null,
+      "terrainDisplayData": null,
+      "waterDisplayData": null,
+      "riverDisplayData": null,
+      "waterBodyAuthoringData": null,
+      "localPrefabData": null,
+      "appearanceData": {
+        "presetName": "Default",
+        "color": {
+          "r": 0.74,
+          "g": 0.84,
+          "b": 0.66,
+          "a": 1.0
+        },
+        "emissionColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        },
+        "metallic": 0.0,
+        "roughness": 1.0,
+        "emissionPower": 1.0,
+        "useTriplanarSample": false,
+        "visible": true,
+        "castShadows": false,
+        "isModified": true,
+        "waterDualColor": {
+          "color1": {
+            "r": 0.0,
+            "g": 0.8784314,
+            "b": 0.8666667,
+            "a": 1.0
+          },
+          "color2": {
+            "r": 0.0,
+            "g": 0.447058827,
+            "b": 0.549019635,
+            "a": 1.0
+          }
+        },
+        "transparency": 1.0,
+        "waveDensity": 1.0,
+        "waveSpeed": 1.0,
+        "waveDirection": 0.0
+      },
+      "waterAppearanceData": null,
+      "physicsColliderData": {
+        "enableCollision": false,
+        "dynamicFriction": 0.6,
+        "staticFriction": 0.6,
+        "bounciness": 0.0,
+        "enableRigidBody": false,
+        "mass": 8.272628,
+        "drag": 0.0,
+        "angularDrag": 0.0,
+        "useGravity": true,
+        "isKinematic": false
+      },
+      "assetData": {
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/93d6f864e7174ff5a4e2e5e4deac6361.png",
+        "assetID": "7600811520002"
+      },
+      "animatorData": null,
+      "ugcAnimatorData": null,
+      "glbSliceData": null,
+      "editorOnlyData": {
+        "isLock": false,
+        "isGroupRoot": false,
+        "editorData": ""
+      },
+      "lightData": null,
+      "text3DData": null,
+      "billboardPlantData": {
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/93d6f864e7174ff5a4e2e5e4deac6361.png",
+        "plantType": 1,
+        "textureRefId": 0
+      },
+      "id": 1218238044,
+      "parentId": 0,
+      "isActive": true,
+      "layer": 0,
+      "isGameMod": false,
+      "isStatic": false
+    },
+    {
+      "nodeName": "pl_grass_280",
+      "pos": {
+        "x": 136.6142,
+        "y": 37.9463,
+        "z": 35.5859
+      },
+      "rot": {
+        "x": 0.0,
+        "y": 0.246251032,
+        "z": 0.0,
+        "w": 0.9692061
+      },
+      "scale": {
+        "x": 3.250592,
+        "y": 2.41472554,
+        "z": 3.250592
+      },
+      "tag": "Untagged",
+      "aigcModelData": null,
+      "terrainDisplayData": null,
+      "waterDisplayData": null,
+      "riverDisplayData": null,
+      "waterBodyAuthoringData": null,
+      "localPrefabData": null,
+      "appearanceData": {
+        "presetName": "Default",
+        "color": {
+          "r": 0.74,
+          "g": 0.84,
+          "b": 0.66,
+          "a": 1.0
+        },
+        "emissionColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        },
+        "metallic": 0.0,
+        "roughness": 1.0,
+        "emissionPower": 1.0,
+        "useTriplanarSample": false,
+        "visible": true,
+        "castShadows": false,
+        "isModified": true,
+        "waterDualColor": {
+          "color1": {
+            "r": 0.0,
+            "g": 0.8784314,
+            "b": 0.8666667,
+            "a": 1.0
+          },
+          "color2": {
+            "r": 0.0,
+            "g": 0.447058827,
+            "b": 0.549019635,
+            "a": 1.0
+          }
+        },
+        "transparency": 1.0,
+        "waveDensity": 1.0,
+        "waveSpeed": 1.0,
+        "waveDirection": 0.0
+      },
+      "waterAppearanceData": null,
+      "physicsColliderData": {
+        "enableCollision": false,
+        "dynamicFriction": 0.6,
+        "staticFriction": 0.6,
+        "bounciness": 0.0,
+        "enableRigidBody": false,
+        "mass": 8.272628,
+        "drag": 0.0,
+        "angularDrag": 0.0,
+        "useGravity": true,
+        "isKinematic": false
+      },
+      "assetData": {
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/93d6f864e7174ff5a4e2e5e4deac6361.png",
+        "assetID": "7600811520002"
+      },
+      "animatorData": null,
+      "ugcAnimatorData": null,
+      "glbSliceData": null,
+      "editorOnlyData": {
+        "isLock": false,
+        "isGroupRoot": false,
+        "editorData": ""
+      },
+      "lightData": null,
+      "text3DData": null,
+      "billboardPlantData": {
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/93d6f864e7174ff5a4e2e5e4deac6361.png",
+        "plantType": 1,
+        "textureRefId": 0
+      },
+      "id": 824146321,
+      "parentId": 0,
+      "isActive": true,
+      "layer": 0,
+      "isGameMod": false,
+      "isStatic": false
+    },
+    {
+      "nodeName": "pl_grass_311",
+      "pos": {
+        "x": 107.8805,
+        "y": 40.6432,
+        "z": 38.2146
+      },
+      "rot": {
+        "x": 0.0,
+        "y": 0.102734976,
+        "z": 0.0,
+        "w": 0.9947088
+      },
+      "scale": {
+        "x": 3.74742174,
+        "y": 2.783799,
+        "z": 3.74742174
+      },
+      "tag": "Untagged",
+      "aigcModelData": null,
+      "terrainDisplayData": null,
+      "waterDisplayData": null,
+      "riverDisplayData": null,
+      "waterBodyAuthoringData": null,
+      "localPrefabData": null,
+      "appearanceData": {
+        "presetName": "Default",
+        "color": {
+          "r": 0.74,
+          "g": 0.84,
+          "b": 0.66,
+          "a": 1.0
+        },
+        "emissionColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        },
+        "metallic": 0.0,
+        "roughness": 1.0,
+        "emissionPower": 1.0,
+        "useTriplanarSample": false,
+        "visible": true,
+        "castShadows": false,
+        "isModified": true,
+        "waterDualColor": {
+          "color1": {
+            "r": 0.0,
+            "g": 0.8784314,
+            "b": 0.8666667,
+            "a": 1.0
+          },
+          "color2": {
+            "r": 0.0,
+            "g": 0.447058827,
+            "b": 0.549019635,
+            "a": 1.0
+          }
+        },
+        "transparency": 1.0,
+        "waveDensity": 1.0,
+        "waveSpeed": 1.0,
+        "waveDirection": 0.0
+      },
+      "waterAppearanceData": null,
+      "physicsColliderData": {
+        "enableCollision": false,
+        "dynamicFriction": 0.6,
+        "staticFriction": 0.6,
+        "bounciness": 0.0,
+        "enableRigidBody": false,
+        "mass": 8.272628,
+        "drag": 0.0,
+        "angularDrag": 0.0,
+        "useGravity": true,
+        "isKinematic": false
+      },
+      "assetData": {
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/93d6f864e7174ff5a4e2e5e4deac6361.png",
+        "assetID": "7600811520002"
+      },
+      "animatorData": null,
+      "ugcAnimatorData": null,
+      "glbSliceData": null,
+      "editorOnlyData": {
+        "isLock": false,
+        "isGroupRoot": false,
+        "editorData": ""
+      },
+      "lightData": null,
+      "text3DData": null,
+      "billboardPlantData": {
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/93d6f864e7174ff5a4e2e5e4deac6361.png",
+        "plantType": 1,
+        "textureRefId": 0
+      },
+      "id": 479771592,
+      "parentId": 0,
+      "isActive": true,
+      "layer": 0,
+      "isGameMod": false,
+      "isStatic": false
+    },
+    {
+      "nodeName": "pl_grass_355",
+      "pos": {
+        "x": 106.7129,
+        "y": 40.6415,
+        "z": 41.5145
+      },
+      "rot": {
+        "x": 0.0,
+        "y": -0.9319858,
+        "z": 0.0,
+        "w": 0.362494946
+      },
+      "scale": {
+        "x": 3.04141331,
+        "y": 2.25933552,
+        "z": 3.04141331
+      },
+      "tag": "Untagged",
+      "aigcModelData": null,
+      "terrainDisplayData": null,
+      "waterDisplayData": null,
+      "riverDisplayData": null,
+      "waterBodyAuthoringData": null,
+      "localPrefabData": null,
+      "appearanceData": {
+        "presetName": "Default",
+        "color": {
+          "r": 0.74,
+          "g": 0.84,
+          "b": 0.66,
+          "a": 1.0
+        },
+        "emissionColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        },
+        "metallic": 0.0,
+        "roughness": 1.0,
+        "emissionPower": 1.0,
+        "useTriplanarSample": false,
+        "visible": true,
+        "castShadows": false,
+        "isModified": true,
+        "waterDualColor": {
+          "color1": {
+            "r": 0.0,
+            "g": 0.8784314,
+            "b": 0.8666667,
+            "a": 1.0
+          },
+          "color2": {
+            "r": 0.0,
+            "g": 0.447058827,
+            "b": 0.549019635,
+            "a": 1.0
+          }
+        },
+        "transparency": 1.0,
+        "waveDensity": 1.0,
+        "waveSpeed": 1.0,
+        "waveDirection": 0.0
+      },
+      "waterAppearanceData": null,
+      "physicsColliderData": {
+        "enableCollision": false,
+        "dynamicFriction": 0.6,
+        "staticFriction": 0.6,
+        "bounciness": 0.0,
+        "enableRigidBody": false,
+        "mass": 8.272628,
+        "drag": 0.0,
+        "angularDrag": 0.0,
+        "useGravity": true,
+        "isKinematic": false
+      },
+      "assetData": {
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/93d6f864e7174ff5a4e2e5e4deac6361.png",
+        "assetID": "7600811520002"
+      },
+      "animatorData": null,
+      "ugcAnimatorData": null,
+      "glbSliceData": null,
+      "editorOnlyData": {
+        "isLock": false,
+        "isGroupRoot": false,
+        "editorData": ""
+      },
+      "lightData": null,
+      "text3DData": null,
+      "billboardPlantData": {
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/93d6f864e7174ff5a4e2e5e4deac6361.png",
+        "plantType": 1,
+        "textureRefId": 0
+      },
+      "id": 415856616,
+      "parentId": 0,
+      "isActive": true,
+      "layer": 0,
+      "isGameMod": false,
+      "isStatic": false
+    },
+    {
+      "nodeName": "pl_grass_425",
+      "pos": {
+        "x": 113.6884,
+        "y": 40.0486,
+        "z": 46.5313
+      },
+      "rot": {
+        "x": 0.0,
+        "y": 0.5825563,
+        "z": 0.0,
+        "w": 0.8127904
+      },
+      "scale": {
+        "x": 3.3908906,
+        "y": 2.51894712,
+        "z": 3.3908906
+      },
+      "tag": "Untagged",
+      "aigcModelData": null,
+      "terrainDisplayData": null,
+      "waterDisplayData": null,
+      "riverDisplayData": null,
+      "waterBodyAuthoringData": null,
+      "localPrefabData": null,
+      "appearanceData": {
+        "presetName": "Default",
+        "color": {
+          "r": 0.74,
+          "g": 0.84,
+          "b": 0.66,
+          "a": 1.0
+        },
+        "emissionColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        },
+        "metallic": 0.0,
+        "roughness": 1.0,
+        "emissionPower": 1.0,
+        "useTriplanarSample": false,
+        "visible": true,
+        "castShadows": false,
+        "isModified": true,
+        "waterDualColor": {
+          "color1": {
+            "r": 0.0,
+            "g": 0.8784314,
+            "b": 0.8666667,
+            "a": 1.0
+          },
+          "color2": {
+            "r": 0.0,
+            "g": 0.447058827,
+            "b": 0.549019635,
+            "a": 1.0
+          }
+        },
+        "transparency": 1.0,
+        "waveDensity": 1.0,
+        "waveSpeed": 1.0,
+        "waveDirection": 0.0
+      },
+      "waterAppearanceData": null,
+      "physicsColliderData": {
+        "enableCollision": false,
+        "dynamicFriction": 0.6,
+        "staticFriction": 0.6,
+        "bounciness": 0.0,
+        "enableRigidBody": false,
+        "mass": 8.272628,
+        "drag": 0.0,
+        "angularDrag": 0.0,
+        "useGravity": true,
+        "isKinematic": false
+      },
+      "assetData": {
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/93d6f864e7174ff5a4e2e5e4deac6361.png",
+        "assetID": "7600811520002"
+      },
+      "animatorData": null,
+      "ugcAnimatorData": null,
+      "glbSliceData": null,
+      "editorOnlyData": {
+        "isLock": false,
+        "isGroupRoot": false,
+        "editorData": ""
+      },
+      "lightData": null,
+      "text3DData": null,
+      "billboardPlantData": {
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/93d6f864e7174ff5a4e2e5e4deac6361.png",
+        "plantType": 1,
+        "textureRefId": 0
+      },
+      "id": 861276303,
+      "parentId": 0,
+      "isActive": true,
+      "layer": 0,
+      "isGameMod": false,
+      "isStatic": false
+    },
+    {
+      "nodeName": "pl_grass_427",
+      "pos": {
+        "x": 119.1262,
+        "y": 39.567,
+        "z": 46.9668
+      },
+      "rot": {
+        "x": 0.0,
+        "y": -0.5066971,
+        "z": 0.0,
+        "w": 0.8621242
+      },
+      "scale": {
+        "x": 3.05633783,
+        "y": 2.27042246,
+        "z": 3.05633783
+      },
+      "tag": "Untagged",
+      "aigcModelData": null,
+      "terrainDisplayData": null,
+      "waterDisplayData": null,
+      "riverDisplayData": null,
+      "waterBodyAuthoringData": null,
+      "localPrefabData": null,
+      "appearanceData": {
+        "presetName": "Default",
+        "color": {
+          "r": 0.74,
+          "g": 0.84,
+          "b": 0.66,
+          "a": 1.0
+        },
+        "emissionColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 1.0
+        },
+        "metallic": 0.0,
+        "roughness": 1.0,
+        "emissionPower": 1.0,
+        "useTriplanarSample": false,
+        "visible": true,
+        "castShadows": false,
+        "isModified": true,
+        "waterDualColor": {
+          "color1": {
+            "r": 0.0,
+            "g": 0.8784314,
+            "b": 0.8666667,
+            "a": 1.0
+          },
+          "color2": {
+            "r": 0.0,
+            "g": 0.447058827,
+            "b": 0.549019635,
+            "a": 1.0
+          }
+        },
+        "transparency": 1.0,
+        "waveDensity": 1.0,
+        "waveSpeed": 1.0,
+        "waveDirection": 0.0
+      },
+      "waterAppearanceData": null,
+      "physicsColliderData": {
+        "enableCollision": false,
+        "dynamicFriction": 0.6,
+        "staticFriction": 0.6,
+        "bounciness": 0.0,
+        "enableRigidBody": false,
+        "mass": 8.272628,
+        "drag": 0.0,
+        "angularDrag": 0.0,
+        "useGravity": true,
+        "isKinematic": false
+      },
+      "assetData": {
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/93d6f864e7174ff5a4e2e5e4deac6361.png",
+        "assetID": "7600811520002"
+      },
+      "animatorData": null,
+      "ugcAnimatorData": null,
+      "glbSliceData": null,
+      "editorOnlyData": {
+        "isLock": false,
+        "isGroupRoot": false,
+        "editorData": ""
+      },
+      "lightData": null,
+      "text3DData": null,
+      "billboardPlantData": {
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/93d6f864e7174ff5a4e2e5e4deac6361.png",
+        "plantType": 1,
+        "textureRefId": 0
+      },
+      "id": 1027140514,
+      "parentId": 0,
+      "isActive": true,
+      "layer": 0,
+      "isGameMod": false,
+      "isStatic": false
+    }
+  ],
+  "total": 150
+}

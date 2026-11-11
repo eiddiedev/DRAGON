@@ -1,0 +1,13 @@
+{
+  "scope": "Authored asset roots and terrain; generated runtime child IDs excluded; float tolerance1e-4",
+  "authored_checked": 2102,
+  "unrelated_missing": [],
+  "unrelated_basic_changes": [],
+  "terrain_changes": [],
+  "nodes": 6270,
+  "castle_roots": [
+    "1743285643"
+  ],
+  "main_has_fixed_stone": true,
+  "main_has_split_names": true
+}

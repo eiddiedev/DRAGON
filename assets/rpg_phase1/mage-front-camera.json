@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "status": "completed",
+  "result": {
+    "name": "Player_1"
+  },
+  "startFrame": 13419,
+  "endFrame": 13419,
+  "durationMs": 0,
+  "mode": "native-puerts"
+}

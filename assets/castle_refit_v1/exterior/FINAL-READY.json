@@ -1,0 +1,103 @@
+{
+  "gothic_main-west": {
+    "file": "assets/castle_refit_v1/exterior/gothic_main-west-GI.glb",
+    "sha256": "8e3c534777f564d7da894c6cc456ffe167ab93b9ffee0225d1ab376fbe5dd17e",
+    "bytes": 2043712,
+    "triangles": 25579,
+    "bounds": [
+      [
+        -14.199999809265137,
+        71.9000015258789,
+        -21.2405948638916
+      ],
+      [
+        7.0,
+        103.9260025024414,
+        8.850000381469727
+      ]
+    ],
+    "scale": 32.0260009765625,
+    "vertex_colors": false
+  },
+  "gothic_main-east": {
+    "file": "assets/castle_refit_v1/exterior/gothic_main-east-GI.glb",
+    "sha256": "33754b26bb8e7aa157cac8e8e9c7b95f5650106a91b53e5f18a501e2061400a8",
+    "bytes": 2054776,
+    "triangles": 25775,
+    "bounds": [
+      [
+        -7.0,
+        71.9000015258789,
+        -21.2405948638916
+      ],
+      [
+        14.199999809265137,
+        103.9260025024414,
+        8.850000381469727
+      ]
+    ],
+    "scale": 32.0260009765625,
+    "vertex_colors": false
+  },
+  "gothic_towers-west": {
+    "file": "assets/castle_refit_v1/exterior/gothic_towers-west-GI.glb",
+    "sha256": "cc14c33ad9462ce2920dce396fc1c6835b92a04a714b92c816c5a9a82717cbf6",
+    "bytes": 1748920,
+    "triangles": 21448,
+    "bounds": [
+      [
+        -13.328800201416016,
+        71.9000015258789,
+        -15.593157768249512
+      ],
+      [
+        5.0,
+        139.3000030517578,
+        11.746000289916992
+      ]
+    ],
+    "scale": 67.4000015258789,
+    "vertex_colors": false
+  },
+  "gothic_towers-east": {
+    "file": "assets/castle_refit_v1/exterior/gothic_towers-east-GI.glb",
+    "sha256": "bf5f3b16b961bf01ec27b2a2e6e9b14f24fa85933897a91fb276112de210f9bb",
+    "bytes": 1626176,
+    "triangles": 19684,
+    "bounds": [
+      [
+        -5.0,
+        71.9000015258789,
+        -15.593157768249512
+      ],
+      [
+        13.089750289916992,
+        139.3000030517578,
+        11.490320205688477
+      ]
+    ],
+    "scale": 67.4000015258789,
+    "vertex_colors": false
+  },
+  "gothic_wall": {
+    "file": "assets/castle_refit_v1/exterior/gothic_wall-GI.glb",
+    "sha256": "0857b0da8812a5716a68c895354801de962175e6fb4d54793cbbbca618540a98",
+    "bytes": 1412352,
+    "triangles": 16324,
+    "bounds": [
+      [
+        -19.541234970092773,
+        68.5,
+        -19.541234970092773
+      ],
+      [
+        20.784029006958008,
+        97.80000305175781,
+        20.739999771118164
+      ]
+    ],
+    "scale": 40.32526397705078,
+    "vertex_colors": false,
+    "revision": "v10-flat-road-top72.24"
+  }
+}

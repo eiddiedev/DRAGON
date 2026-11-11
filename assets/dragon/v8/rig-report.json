@@ -1,0 +1,18 @@
+{
+  "vertices": 9706,
+  "bones": 52,
+  "clips": {
+    "idle": 6.0,
+    "takeoff": 1.8,
+    "fly": 1.4,
+    "land": 2.8
+  },
+  "max_influences": 4,
+  "max_weight_error": 2.220446049250313e-16,
+  "socket": [
+    0,
+    14.850000000000001,
+    12.69
+  ],
+  "wingspan": 54
+}

@@ -1,0 +1,66 @@
+{
+  "nodeName": "reed_v16",
+  "pos": {
+    "x": 128.0,
+    "y": 48.73178,
+    "z": 145.201355
+  },
+  "rot": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0,
+    "w": 1.0
+  },
+  "scale": {
+    "x": 1.0,
+    "y": 1.0,
+    "z": 1.0
+  },
+  "tag": "Untagged",
+  "aigcModelData": {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/dwxwsuchdkb1b8gr.glb",
+    "meshRefId": 0,
+    "isShowTex": true,
+    "opType": 4
+  },
+  "terrainDisplayData": null,
+  "waterDisplayData": null,
+  "riverDisplayData": null,
+  "waterBodyAuthoringData": null,
+  "localPrefabData": null,
+  "appearanceData": null,
+  "waterAppearanceData": null,
+  "physicsColliderData": {
+    "enableCollision": true,
+    "dynamicFriction": 0.6,
+    "staticFriction": 0.6,
+    "bounciness": 0.0,
+    "enableRigidBody": false,
+    "mass": 1.0,
+    "drag": 0.0,
+    "angularDrag": 0.0,
+    "useGravity": true,
+    "isKinematic": false
+  },
+  "assetData": {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/dwxwsuchdkb1b8gr.glb",
+    "assetID": "11724941008642"
+  },
+  "animatorData": null,
+  "ugcAnimatorData": null,
+  "glbSliceData": null,
+  "editorOnlyData": {
+    "isLock": false,
+    "isGroupRoot": true,
+    "editorData": "{\"nodeKind\":\"combination\"}"
+  },
+  "lightData": null,
+  "text3DData": null,
+  "billboardPlantData": null,
+  "id": -979458564,
+  "parentId": 0,
+  "isActive": true,
+  "layer": 0,
+  "isGameMod": false,
+  "isStatic": false
+}

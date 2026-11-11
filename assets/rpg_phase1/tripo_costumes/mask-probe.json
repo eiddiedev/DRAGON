@@ -1,0 +1,1 @@
+{"ok":true,"command":"runtime","data":{"ok":true,"status":"completed","result":[{"name":"body","mesh":"1881369605378_LOD0_body(Clone)","triangles":0},{"name":"face","mesh":"1881369605378_LOD0_face","triangles":0}],"startFrame":31732,"endFrame":31732,"durationMs":1,"mode":"native-puerts"}}

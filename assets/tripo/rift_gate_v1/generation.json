@@ -1,0 +1,20 @@
+{
+  "status": "generated_export_blocked",
+  "provider": "Tripo Studio",
+  "model": "v3.1",
+  "task_id": "ba96ed17-fff6-4c56-8b64-7eebda554dbb",
+  "url": "https://studio.tripo3d.com/workspace/generate/ba96ed17-fff6-4c56-8b64-7eebda554dbb",
+  "credits_used": 50,
+  "reference": "concept-v1.png",
+  "source_commit": "19d30d46a24fe6d51f096d5bff6b2523468708a7",
+  "target_triangles": 15000,
+  "engine_max_triangles": 30000,
+  "target_height_m": 8,
+  "preserve_node_id": -824376428,
+  "separate_vortex": true,
+  "integration_status": "not_installed",
+  "source_triangles": 1887325,
+  "source_vertices": 985340,
+  "export_blocker": "Tripo subscription required for GLB export; both 4K and 1K attempts showed subscription modal. No purchase.",
+  "downloaded": false
+}

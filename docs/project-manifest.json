@@ -1,0 +1,2465 @@
+{
+  "project": "project_lapv8fm0",
+  "files": {
+    ".ai-asset-debug-upload/workspace_6kp2f2uu_log_20261108-163031702.zip": {
+      "bytes": 174935,
+      "sha256": "31dd44a286959cd78a242e3d3b2043d25fa0d063cc6b8f7a8a409da54d146fb6"
+    },
+    ".ai-asset-debug-upload/workspace_6kp2f2uu_log_20261109-024935827.zip": {
+      "bytes": 376549,
+      "sha256": "31433a0efd7b62bd06e0ce47c72653a1a7ff4f04ca4a63e16c5c6f90df57ee16"
+    },
+    ".ai-asset-debug-upload/workspace_i6ox5xen_log_20261106-140948495.zip": {
+      "bytes": 1353993,
+      "sha256": "67a72d268bc25b9b5b94a69d1d0037682c5b7e3106c280d2ee23b362a9f15877"
+    },
+    ".ai-asset-debug-upload/workspace_jprzta3p_log_20261108-163221694.zip": {
+      "bytes": 190515,
+      "sha256": "3ff68a4e629676e0896079c05cd8c0904f6c007a4338557ccc5201fc13ba04b4"
+    },
+    ".ai-asset-debug-upload/workspace_jprzta3p_log_20261109-132120009.zip": {
+      "bytes": 397269,
+      "sha256": "e7aa4eb3db4072012666a8300cb802bcf66f6d2b0b7b8695aab6a8f1c2507fd0"
+    },
+    ".ai-asset-debug-upload/workspace_lx0mujl4_log_20261108-163226694.zip": {
+      "bytes": 398128,
+      "sha256": "ac24e8820903390c922c1efb7db1ad0fab573a185ecd7ee157f8817ca0ff7cdc"
+    },
+    ".ai-asset-debug-upload/workspace_v6zhv9k6_log_20261108-054139202.zip": {
+      "bytes": 68841,
+      "sha256": "df6e10b694250cd12bf92f982927dbdb8e9b2759b05acd95ac8eb5639433de44"
+    },
+    ".ai-asset-debug-upload/workspace_yxj8pmfy_log_20261108-162611701.zip": {
+      "bytes": 113035,
+      "sha256": "ffbc93860c3edc11b8e344f4bb30197c9e4cb7ed44d423a338464a635da3791d"
+    },
+    ".ai-asset-debug-upload/workspace_yxj8pmfy_log_20261109-132100038.zip": {
+      "bytes": 606295,
+      "sha256": "1a15a8eb7e90112dc87fdee383efcd577a38b38e95b8b845c13d8ece718fe858"
+    },
+    "ai-asset-generate-config.json": {
+      "bytes": 489741,
+      "sha256": "42adff4f8128328639ed16c8aeee90814a5a1a8b7d8cc415c8a9a884f8e55c08"
+    },
+    "ai-pcg-generate-config.json": {
+      "bytes": 39405,
+      "sha256": "00239d7c078ae30d10546c3e5171b41ae57e30a8c824b347e9e33b336c5a13be"
+    },
+    "ai-sessions/workspace_6kp2f2uu/official/core/logger.lua": {
+      "bytes": 1263,
+      "sha256": "89d79d801c9887bb1ec6335a35192ed960a026e3dc0df6299837b649517f0d6f"
+    },
+    "ai-sessions/workspace_6kp2f2uu/official/core/node_lookup.lua": {
+      "bytes": 8940,
+      "sha256": "62c10213881904b7fef2fd97f1cb92eff05bd6483a56e4a500789c2964bff835"
+    },
+    "ai-sessions/workspace_6kp2f2uu/official/core/runtime_scope.lua": {
+      "bytes": 12423,
+      "sha256": "b3f3301d854355ecad979483796fa9fe2df0c4b9e2d6af136f37dc0a64dc5cea"
+    },
+    "ai-sessions/workspace_6kp2f2uu/official/core/spawn.lua": {
+      "bytes": 7112,
+      "sha256": "ca461f4a1f68925bdd6e1fe043abafbf9913bc0ba37e104825c5bc13c6324f23"
+    },
+    "ai-sessions/workspace_6kp2f2uu/official/core/spawn_registry.lua": {
+      "bytes": 739,
+      "sha256": "722f95acc15bab690b63bcfb51010bace1d57f6c23dfbda7d2cb47a79dd4f3d6"
+    },
+    "ai-sessions/workspace_6kp2f2uu/official/geometry/containment.lua": {
+      "bytes": 11201,
+      "sha256": "0e083201f45081caa3ec578dc662adbd996038533aa0fb2ce3525ddd5f4f64a7"
+    },
+    "ai-sessions/workspace_6kp2f2uu/official/interaction/trigger.lua": {
+      "bytes": 2422,
+      "sha256": "9cb1f75f39695c23e35def010716b2b676afb1ef5beb62d45540d5a00b37952a"
+    },
+    "ai-sessions/workspace_6kp2f2uu/official/ui/animation.lua": {
+      "bytes": 12508,
+      "sha256": "9ef9e81f67a466e7172731ed7cc8f4d1e7105fc8a2c28723ae317f798235b357"
+    },
+    "ai-sessions/workspace_6o2qm5xs/map/reference-inputs/msg_1793714819471_ebutjnhl/01-upload.png": {
+      "bytes": 676869,
+      "sha256": "4f1d8b1139598c3a78ba435b7e97a50b2bc92eaaaa70b429d2008d2a8d52ee60"
+    },
+    "ai-sessions/workspace_6o2qm5xs/map/reference-inputs/msg_1793715516075_16o47i82/01-upload.png": {
+      "bytes": 859727,
+      "sha256": "65733aa462b504813b6fbab78bedcb688b67d4665a3226881a166176b84ddd24"
+    },
+    "ai-sessions/workspace_6o2qm5xs/map/reference-inputs/msg_1793718294451_say1xycv/01-upload.png": {
+      "bytes": 1702879,
+      "sha256": "1a06aba3346e4ebe676f0811264188288a87ab530042e3800ef9b44fa010eeff"
+    },
+    "ai-sessions/workspace_6o2qm5xs/official/core/logger.lua": {
+      "bytes": 1263,
+      "sha256": "89d79d801c9887bb1ec6335a35192ed960a026e3dc0df6299837b649517f0d6f"
+    },
+    "ai-sessions/workspace_6o2qm5xs/official/core/node_lookup.lua": {
+      "bytes": 8940,
+      "sha256": "62c10213881904b7fef2fd97f1cb92eff05bd6483a56e4a500789c2964bff835"
+    },
+    "ai-sessions/workspace_6o2qm5xs/official/core/runtime_scope.lua": {
+      "bytes": 12423,
+      "sha256": "b3f3301d854355ecad979483796fa9fe2df0c4b9e2d6af136f37dc0a64dc5cea"
+    },
+    "ai-sessions/workspace_6o2qm5xs/official/core/spawn.lua": {
+      "bytes": 7112,
+      "sha256": "ca461f4a1f68925bdd6e1fe043abafbf9913bc0ba37e104825c5bc13c6324f23"
+    },
+    "ai-sessions/workspace_6o2qm5xs/official/core/spawn_registry.lua": {
+      "bytes": 739,
+      "sha256": "722f95acc15bab690b63bcfb51010bace1d57f6c23dfbda7d2cb47a79dd4f3d6"
+    },
+    "ai-sessions/workspace_6o2qm5xs/official/geometry/containment.lua": {
+      "bytes": 11201,
+      "sha256": "0e083201f45081caa3ec578dc662adbd996038533aa0fb2ce3525ddd5f4f64a7"
+    },
+    "ai-sessions/workspace_6o2qm5xs/official/interaction/trigger.lua": {
+      "bytes": 2422,
+      "sha256": "9cb1f75f39695c23e35def010716b2b676afb1ef5beb62d45540d5a00b37952a"
+    },
+    "ai-sessions/workspace_6o2qm5xs/official/ui/animation.lua": {
+      "bytes": 12508,
+      "sha256": "9ef9e81f67a466e7172731ed7cc8f4d1e7105fc8a2c28723ae317f798235b357"
+    },
+    "ai-sessions/workspace_d96dejqk/official/core/logger.lua": {
+      "bytes": 1263,
+      "sha256": "89d79d801c9887bb1ec6335a35192ed960a026e3dc0df6299837b649517f0d6f"
+    },
+    "ai-sessions/workspace_d96dejqk/official/core/node_lookup.lua": {
+      "bytes": 8940,
+      "sha256": "62c10213881904b7fef2fd97f1cb92eff05bd6483a56e4a500789c2964bff835"
+    },
+    "ai-sessions/workspace_d96dejqk/official/core/runtime_scope.lua": {
+      "bytes": 12423,
+      "sha256": "b3f3301d854355ecad979483796fa9fe2df0c4b9e2d6af136f37dc0a64dc5cea"
+    },
+    "ai-sessions/workspace_d96dejqk/official/core/spawn.lua": {
+      "bytes": 7112,
+      "sha256": "ca461f4a1f68925bdd6e1fe043abafbf9913bc0ba37e104825c5bc13c6324f23"
+    },
+    "ai-sessions/workspace_d96dejqk/official/core/spawn_registry.lua": {
+      "bytes": 739,
+      "sha256": "722f95acc15bab690b63bcfb51010bace1d57f6c23dfbda7d2cb47a79dd4f3d6"
+    },
+    "ai-sessions/workspace_d96dejqk/official/geometry/containment.lua": {
+      "bytes": 11201,
+      "sha256": "0e083201f45081caa3ec578dc662adbd996038533aa0fb2ce3525ddd5f4f64a7"
+    },
+    "ai-sessions/workspace_d96dejqk/official/interaction/trigger.lua": {
+      "bytes": 2422,
+      "sha256": "9cb1f75f39695c23e35def010716b2b676afb1ef5beb62d45540d5a00b37952a"
+    },
+    "ai-sessions/workspace_d96dejqk/official/ui/animation.lua": {
+      "bytes": 12508,
+      "sha256": "9ef9e81f67a466e7172731ed7cc8f4d1e7105fc8a2c28723ae317f798235b357"
+    },
+    "ai-sessions/workspace_h2or8nwy/official/core/logger.lua": {
+      "bytes": 1263,
+      "sha256": "89d79d801c9887bb1ec6335a35192ed960a026e3dc0df6299837b649517f0d6f"
+    },
+    "ai-sessions/workspace_h2or8nwy/official/core/node_lookup.lua": {
+      "bytes": 8940,
+      "sha256": "62c10213881904b7fef2fd97f1cb92eff05bd6483a56e4a500789c2964bff835"
+    },
+    "ai-sessions/workspace_h2or8nwy/official/core/runtime_scope.lua": {
+      "bytes": 12423,
+      "sha256": "b3f3301d854355ecad979483796fa9fe2df0c4b9e2d6af136f37dc0a64dc5cea"
+    },
+    "ai-sessions/workspace_h2or8nwy/official/core/spawn.lua": {
+      "bytes": 7112,
+      "sha256": "ca461f4a1f68925bdd6e1fe043abafbf9913bc0ba37e104825c5bc13c6324f23"
+    },
+    "ai-sessions/workspace_h2or8nwy/official/core/spawn_registry.lua": {
+      "bytes": 739,
+      "sha256": "722f95acc15bab690b63bcfb51010bace1d57f6c23dfbda7d2cb47a79dd4f3d6"
+    },
+    "ai-sessions/workspace_h2or8nwy/official/geometry/containment.lua": {
+      "bytes": 11201,
+      "sha256": "0e083201f45081caa3ec578dc662adbd996038533aa0fb2ce3525ddd5f4f64a7"
+    },
+    "ai-sessions/workspace_h2or8nwy/official/interaction/trigger.lua": {
+      "bytes": 2422,
+      "sha256": "9cb1f75f39695c23e35def010716b2b676afb1ef5beb62d45540d5a00b37952a"
+    },
+    "ai-sessions/workspace_h2or8nwy/official/ui/animation.lua": {
+      "bytes": 12508,
+      "sha256": "9ef9e81f67a466e7172731ed7cc8f4d1e7105fc8a2c28723ae317f798235b357"
+    },
+    "ai-sessions/workspace_i6ox5xen/official/core/logger.lua": {
+      "bytes": 1263,
+      "sha256": "89d79d801c9887bb1ec6335a35192ed960a026e3dc0df6299837b649517f0d6f"
+    },
+    "ai-sessions/workspace_i6ox5xen/official/core/node_lookup.lua": {
+      "bytes": 8940,
+      "sha256": "62c10213881904b7fef2fd97f1cb92eff05bd6483a56e4a500789c2964bff835"
+    },
+    "ai-sessions/workspace_i6ox5xen/official/core/runtime_scope.lua": {
+      "bytes": 12423,
+      "sha256": "b3f3301d854355ecad979483796fa9fe2df0c4b9e2d6af136f37dc0a64dc5cea"
+    },
+    "ai-sessions/workspace_i6ox5xen/official/core/spawn.lua": {
+      "bytes": 7112,
+      "sha256": "ca461f4a1f68925bdd6e1fe043abafbf9913bc0ba37e104825c5bc13c6324f23"
+    },
+    "ai-sessions/workspace_i6ox5xen/official/core/spawn_registry.lua": {
+      "bytes": 739,
+      "sha256": "722f95acc15bab690b63bcfb51010bace1d57f6c23dfbda7d2cb47a79dd4f3d6"
+    },
+    "ai-sessions/workspace_i6ox5xen/official/geometry/containment.lua": {
+      "bytes": 11201,
+      "sha256": "0e083201f45081caa3ec578dc662adbd996038533aa0fb2ce3525ddd5f4f64a7"
+    },
+    "ai-sessions/workspace_i6ox5xen/official/interaction/trigger.lua": {
+      "bytes": 2422,
+      "sha256": "9cb1f75f39695c23e35def010716b2b676afb1ef5beb62d45540d5a00b37952a"
+    },
+    "ai-sessions/workspace_i6ox5xen/official/ui/animation.lua": {
+      "bytes": 12508,
+      "sha256": "9ef9e81f67a466e7172731ed7cc8f4d1e7105fc8a2c28723ae317f798235b357"
+    },
+    "ai-sessions/workspace_i6ox5xen/uploads/references/728967def940e95c.png": {
+      "bytes": 255805,
+      "sha256": "728967def940e95c19df1f3204d5c3e73bf0e189645568887eeb3269346e1cfc"
+    },
+    "ai-sessions/workspace_jprzta3p/official/core/logger.lua": {
+      "bytes": 1263,
+      "sha256": "89d79d801c9887bb1ec6335a35192ed960a026e3dc0df6299837b649517f0d6f"
+    },
+    "ai-sessions/workspace_jprzta3p/official/core/node_lookup.lua": {
+      "bytes": 8940,
+      "sha256": "62c10213881904b7fef2fd97f1cb92eff05bd6483a56e4a500789c2964bff835"
+    },
+    "ai-sessions/workspace_jprzta3p/official/core/runtime_scope.lua": {
+      "bytes": 12423,
+      "sha256": "b3f3301d854355ecad979483796fa9fe2df0c4b9e2d6af136f37dc0a64dc5cea"
+    },
+    "ai-sessions/workspace_jprzta3p/official/core/spawn.lua": {
+      "bytes": 7112,
+      "sha256": "ca461f4a1f68925bdd6e1fe043abafbf9913bc0ba37e104825c5bc13c6324f23"
+    },
+    "ai-sessions/workspace_jprzta3p/official/core/spawn_registry.lua": {
+      "bytes": 739,
+      "sha256": "722f95acc15bab690b63bcfb51010bace1d57f6c23dfbda7d2cb47a79dd4f3d6"
+    },
+    "ai-sessions/workspace_jprzta3p/official/geometry/containment.lua": {
+      "bytes": 11201,
+      "sha256": "0e083201f45081caa3ec578dc662adbd996038533aa0fb2ce3525ddd5f4f64a7"
+    },
+    "ai-sessions/workspace_jprzta3p/official/interaction/trigger.lua": {
+      "bytes": 2422,
+      "sha256": "9cb1f75f39695c23e35def010716b2b676afb1ef5beb62d45540d5a00b37952a"
+    },
+    "ai-sessions/workspace_jprzta3p/official/ui/animation.lua": {
+      "bytes": 12508,
+      "sha256": "9ef9e81f67a466e7172731ed7cc8f4d1e7105fc8a2c28723ae317f798235b357"
+    },
+    "ai-sessions/workspace_lx0mujl4/official/core/logger.lua": {
+      "bytes": 1263,
+      "sha256": "89d79d801c9887bb1ec6335a35192ed960a026e3dc0df6299837b649517f0d6f"
+    },
+    "ai-sessions/workspace_lx0mujl4/official/core/node_lookup.lua": {
+      "bytes": 8940,
+      "sha256": "62c10213881904b7fef2fd97f1cb92eff05bd6483a56e4a500789c2964bff835"
+    },
+    "ai-sessions/workspace_lx0mujl4/official/core/runtime_scope.lua": {
+      "bytes": 12423,
+      "sha256": "b3f3301d854355ecad979483796fa9fe2df0c4b9e2d6af136f37dc0a64dc5cea"
+    },
+    "ai-sessions/workspace_lx0mujl4/official/core/spawn.lua": {
+      "bytes": 7112,
+      "sha256": "ca461f4a1f68925bdd6e1fe043abafbf9913bc0ba37e104825c5bc13c6324f23"
+    },
+    "ai-sessions/workspace_lx0mujl4/official/core/spawn_registry.lua": {
+      "bytes": 739,
+      "sha256": "722f95acc15bab690b63bcfb51010bace1d57f6c23dfbda7d2cb47a79dd4f3d6"
+    },
+    "ai-sessions/workspace_lx0mujl4/official/geometry/containment.lua": {
+      "bytes": 11201,
+      "sha256": "0e083201f45081caa3ec578dc662adbd996038533aa0fb2ce3525ddd5f4f64a7"
+    },
+    "ai-sessions/workspace_lx0mujl4/official/interaction/trigger.lua": {
+      "bytes": 2422,
+      "sha256": "9cb1f75f39695c23e35def010716b2b676afb1ef5beb62d45540d5a00b37952a"
+    },
+    "ai-sessions/workspace_lx0mujl4/official/ui/animation.lua": {
+      "bytes": 12508,
+      "sha256": "9ef9e81f67a466e7172731ed7cc8f4d1e7105fc8a2c28723ae317f798235b357"
+    },
+    "ai-sessions/workspace_o5wseydg/official/core/logger.lua": {
+      "bytes": 1263,
+      "sha256": "89d79d801c9887bb1ec6335a35192ed960a026e3dc0df6299837b649517f0d6f"
+    },
+    "ai-sessions/workspace_o5wseydg/official/core/node_lookup.lua": {
+      "bytes": 8940,
+      "sha256": "62c10213881904b7fef2fd97f1cb92eff05bd6483a56e4a500789c2964bff835"
+    },
+    "ai-sessions/workspace_o5wseydg/official/core/runtime_scope.lua": {
+      "bytes": 12423,
+      "sha256": "b3f3301d854355ecad979483796fa9fe2df0c4b9e2d6af136f37dc0a64dc5cea"
+    },
+    "ai-sessions/workspace_o5wseydg/official/core/spawn.lua": {
+      "bytes": 7112,
+      "sha256": "ca461f4a1f68925bdd6e1fe043abafbf9913bc0ba37e104825c5bc13c6324f23"
+    },
+    "ai-sessions/workspace_o5wseydg/official/core/spawn_registry.lua": {
+      "bytes": 739,
+      "sha256": "722f95acc15bab690b63bcfb51010bace1d57f6c23dfbda7d2cb47a79dd4f3d6"
+    },
+    "ai-sessions/workspace_o5wseydg/official/geometry/containment.lua": {
+      "bytes": 11201,
+      "sha256": "0e083201f45081caa3ec578dc662adbd996038533aa0fb2ce3525ddd5f4f64a7"
+    },
+    "ai-sessions/workspace_o5wseydg/official/interaction/trigger.lua": {
+      "bytes": 2422,
+      "sha256": "9cb1f75f39695c23e35def010716b2b676afb1ef5beb62d45540d5a00b37952a"
+    },
+    "ai-sessions/workspace_o5wseydg/official/ui/animation.lua": {
+      "bytes": 12508,
+      "sha256": "9ef9e81f67a466e7172731ed7cc8f4d1e7105fc8a2c28723ae317f798235b357"
+    },
+    "ai-sessions/workspace_s442vk1d/official/core/logger.lua": {
+      "bytes": 1263,
+      "sha256": "89d79d801c9887bb1ec6335a35192ed960a026e3dc0df6299837b649517f0d6f"
+    },
+    "ai-sessions/workspace_s442vk1d/official/core/node_lookup.lua": {
+      "bytes": 8940,
+      "sha256": "62c10213881904b7fef2fd97f1cb92eff05bd6483a56e4a500789c2964bff835"
+    },
+    "ai-sessions/workspace_s442vk1d/official/core/runtime_scope.lua": {
+      "bytes": 12423,
+      "sha256": "b3f3301d854355ecad979483796fa9fe2df0c4b9e2d6af136f37dc0a64dc5cea"
+    },
+    "ai-sessions/workspace_s442vk1d/official/core/spawn.lua": {
+      "bytes": 7112,
+      "sha256": "ca461f4a1f68925bdd6e1fe043abafbf9913bc0ba37e104825c5bc13c6324f23"
+    },
+    "ai-sessions/workspace_s442vk1d/official/core/spawn_registry.lua": {
+      "bytes": 739,
+      "sha256": "722f95acc15bab690b63bcfb51010bace1d57f6c23dfbda7d2cb47a79dd4f3d6"
+    },
+    "ai-sessions/workspace_s442vk1d/official/geometry/containment.lua": {
+      "bytes": 11201,
+      "sha256": "0e083201f45081caa3ec578dc662adbd996038533aa0fb2ce3525ddd5f4f64a7"
+    },
+    "ai-sessions/workspace_s442vk1d/official/interaction/trigger.lua": {
+      "bytes": 2422,
+      "sha256": "9cb1f75f39695c23e35def010716b2b676afb1ef5beb62d45540d5a00b37952a"
+    },
+    "ai-sessions/workspace_s442vk1d/official/ui/animation.lua": {
+      "bytes": 12508,
+      "sha256": "9ef9e81f67a466e7172731ed7cc8f4d1e7105fc8a2c28723ae317f798235b357"
+    },
+    "ai-sessions/workspace_sbazsi67/official/core/logger.lua": {
+      "bytes": 1263,
+      "sha256": "89d79d801c9887bb1ec6335a35192ed960a026e3dc0df6299837b649517f0d6f"
+    },
+    "ai-sessions/workspace_sbazsi67/official/core/node_lookup.lua": {
+      "bytes": 8940,
+      "sha256": "62c10213881904b7fef2fd97f1cb92eff05bd6483a56e4a500789c2964bff835"
+    },
+    "ai-sessions/workspace_sbazsi67/official/core/runtime_scope.lua": {
+      "bytes": 12423,
+      "sha256": "b3f3301d854355ecad979483796fa9fe2df0c4b9e2d6af136f37dc0a64dc5cea"
+    },
+    "ai-sessions/workspace_sbazsi67/official/core/spawn.lua": {
+      "bytes": 7259,
+      "sha256": "766300ef9ecf4d247ba97958397b7f92f7f6ffe46b0b3006286080d9bb815814"
+    },
+    "ai-sessions/workspace_sbazsi67/official/core/spawn_registry.lua": {
+      "bytes": 739,
+      "sha256": "722f95acc15bab690b63bcfb51010bace1d57f6c23dfbda7d2cb47a79dd4f3d6"
+    },
+    "ai-sessions/workspace_sbazsi67/official/effect/playback.lua": {
+      "bytes": 31668,
+      "sha256": "c7e4fc8b0daa350923815e14c54161aa7d1a9242c403162ecf7244cba10985a2"
+    },
+    "ai-sessions/workspace_sbazsi67/official/geometry/containment.lua": {
+      "bytes": 11201,
+      "sha256": "0e083201f45081caa3ec578dc662adbd996038533aa0fb2ce3525ddd5f4f64a7"
+    },
+    "ai-sessions/workspace_sbazsi67/official/interaction/trigger.lua": {
+      "bytes": 2422,
+      "sha256": "9cb1f75f39695c23e35def010716b2b676afb1ef5beb62d45540d5a00b37952a"
+    },
+    "ai-sessions/workspace_sbazsi67/official/ui/animation.lua": {
+      "bytes": 12508,
+      "sha256": "9ef9e81f67a466e7172731ed7cc8f4d1e7105fc8a2c28723ae317f798235b357"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_noncombat/meta.json": {
+      "bytes": 93,
+      "sha256": "23a79693c165b0a6fe8e19d42e37a31197ea68b55b9dd14fae387107a93ab566"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_noncombat/prefab.json": {
+      "bytes": 95095,
+      "sha256": "2af26134cac1b35d9dac85fbfc9a489e13030d515e6634fe8909083acd29c85a"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_noncombat/scripts/dragon_daycycle.lua": {
+      "bytes": 91,
+      "sha256": "d549eda3e804020db5622de27d4f00d4025b58287be6cf2e375f2d22cf894fea"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_noncombat/scripts/dragon_exploration.lua": {
+      "bytes": 94,
+      "sha256": "6ac1151a8546db8a8f296715a1a051add2d3110c7d8d32857673b9339239da12"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_noncombat/scripts/dragon_progress.lua": {
+      "bytes": 91,
+      "sha256": "c07e6c1233d5aba201d45845828ce54a8a4e4b20b75bc0a4150e35dbbb034a87"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_noncombat/scripts/dragon_progress_rules.lua": {
+      "bytes": 97,
+      "sha256": "b970836c0de85945e98581340d951179a3a6aae0f2a5eda5dabce42dd34a88bd"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_noncombat/scripts/dragon_world_bridge.lua": {
+      "bytes": 95,
+      "sha256": "62ff76d59a2dc2c5f2fe1c34175e62288358c63a31a85c3e406aa4672f9c9970"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/.tmp/resource-publications/40c4f58420a188b484ffef84388e4df6b127cf6b48a87de6d81740cdc20f2a11.json": {
+      "bytes": 423,
+      "sha256": "375f79b836d19c79001953ccedfe6da9923ad7aed51189843a561e953e626ce1"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/.tmp/resource-publications/563014e2d1134bf30c397765b9f790401ea16c3d78f4d1be56662d9e2eb4c5e7.json": {
+      "bytes": 423,
+      "sha256": "8e4d4113b06a47d211b67d0afd180a5179f298d8d32ab1d881f74b7aa4738105"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/.tmp/resource-publications/9fa2639459079084109b4d12801734dba506a3668cb39a03144a803009ffe375.json": {
+      "bytes": 423,
+      "sha256": "4656db4e4442169ce816e686012bb0bf57b78c2ddfbe86fca60806178c22262e"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/.tmp/resource-publications/d5b66d6f112f41542d47820563776a526b7ee651303b6b39c1f6cbfa8c39ad12.json": {
+      "bytes": 423,
+      "sha256": "18385b992a6fa74d765e99302665517af49f34625228b029df54737e47a475b8"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/.tmp/resource-publications/e7b23cedc39a732b5e476501b51acfaf3dd9527ef0b2409938accc56a6733e0f.json": {
+      "bytes": 423,
+      "sha256": "28035f4389800257fc56523f4cad760a9c7cc50489e6868f9107ab63b089c3e6"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/audio/audio-combat-original-bow/audio.wav": {
+      "bytes": 8678,
+      "sha256": "3fe85a6f35493de6cee77100ffda58cd5d95dfe0d16f79c1d614a7ff1b6a3acc"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/audio/audio-combat-original-bow/meta.json": {
+      "bytes": 178,
+      "sha256": "1e4fb3d2253b6ec96c6d497f5d41a173f9cc333458bca464f9386406ef07ddd9"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/audio/audio-combat-original-bow/package/resource.json": {
+      "bytes": 301,
+      "sha256": "1d3e0b14149b8fbee2efcfb8d153cfd1cb5e3f1255716a76a798bcff421728fb"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/audio/audio-combat-original-enemy/audio.wav": {
+      "bytes": 11884,
+      "sha256": "866166092f8c7071212993bc1036f6a80d80a553b01b583ae85b4c1571b00ed8"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/audio/audio-combat-original-enemy/meta.json": {
+      "bytes": 156,
+      "sha256": "26c23e6f5e6135edfe5b65c7cb009800611c44666154e3acc231061d2181c99c"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/audio/audio-combat-original-enemy/package/resource.json": {
+      "bytes": 289,
+      "sha256": "bc54168e96d76d12e17ce0dc2589a31d15594e47953ef8fea0ce5af9817d6ad6"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/audio/audio-combat-original-hurt/audio.wav": {
+      "bytes": 8034,
+      "sha256": "3f669277e7c9cbbf017d788723e9ac4a6e00671e7edcfa09fad80b766db5d0cf"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/audio/audio-combat-original-hurt/meta.json": {
+      "bytes": 155,
+      "sha256": "61c15a0bf659d68f5851a26720f6cb7fcf104535a58decd7479ebb2425f1b13b"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/audio/audio-combat-original-hurt/package/resource.json": {
+      "bytes": 289,
+      "sha256": "f8a2f80d38532da072f7c0932a147c7876e356968447c38813891a6453a27091"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arena/effect.json": {
+      "bytes": 58166,
+      "sha256": "4d29f61abf5b862c6ba57df4e0c84b484f330a6a32fbf487154417c25e83163e"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arena/meta.json": {
+      "bytes": 74,
+      "sha256": "e6aaa958d892640265976c8f753b306555c12cbc16e23dfe01b831aa397fd1bd"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arena/models/f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa.glb": {
+      "bytes": 19088,
+      "sha256": "f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arena/package/resource.json": {
+      "bytes": 304,
+      "sha256": "3a81fad737cc3aec8a43492119827dd13c4cf44cdcf5e743363a15ad91ddbb01"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arena/textures/250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d.png": {
+      "bytes": 96039,
+      "sha256": "250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arena/textures/bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5.png": {
+      "bytes": 307,
+      "sha256": "bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arrow/effect.json": {
+      "bytes": 227627,
+      "sha256": "72e1ec4f630488096f50f028906edcd2ab89f23596529a577cbaf475b63b0ca1"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arrow/meta.json": {
+      "bytes": 68,
+      "sha256": "35d57d920d1de8e04d5acf2112291e10f519854cc3ec183622434570e967ef05"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arrow/models/c5d052bc4023d97f65a28830f16a0f518476a9e4c449e590a5cbef3a7def0645.glb": {
+      "bytes": 2888,
+      "sha256": "c5d052bc4023d97f65a28830f16a0f518476a9e4c449e590a5cbef3a7def0645"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arrow/models/f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa.glb": {
+      "bytes": 19088,
+      "sha256": "f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arrow/models/ffed90a8e1b00eb872c4aa83dbf9a1215aeb8b1b4e0f8371bcda04074a662a5c.glb": {
+      "bytes": 1272,
+      "sha256": "ffed90a8e1b00eb872c4aa83dbf9a1215aeb8b1b4e0f8371bcda04074a662a5c"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arrow/package/resource.json": {
+      "bytes": 298,
+      "sha256": "77f2feb6bb9c6080cf2991c4067f6521dd18fa6fe5cf32732dd79573d631ad0e"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arrow/textures/06b3b0194771891bf8463dd06ba7d4137ee7dd91644dcc4610d24ae01a8f8097.png": {
+      "bytes": 43433,
+      "sha256": "06b3b0194771891bf8463dd06ba7d4137ee7dd91644dcc4610d24ae01a8f8097"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arrow/textures/250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d.png": {
+      "bytes": 96039,
+      "sha256": "250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arrow/textures/3abe8c0dd56c3e29dd306ee2fb76a069dff39f5d2abc9fd9e74be9d4aa41c7fe.png": {
+      "bytes": 76868,
+      "sha256": "3abe8c0dd56c3e29dd306ee2fb76a069dff39f5d2abc9fd9e74be9d4aa41c7fe"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arrow/textures/3bd81f3e1e96e8d06bb21850d35de1618676ffc8472ced6f49ad58fcbfeb71e2.png": {
+      "bytes": 17914,
+      "sha256": "3bd81f3e1e96e8d06bb21850d35de1618676ffc8472ced6f49ad58fcbfeb71e2"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arrow/textures/3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4.png": {
+      "bytes": 14033,
+      "sha256": "3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arrow/textures/42be0460b3e0801ac9872bc042c11d1e7303f4159068e560822d47977c73a357.png": {
+      "bytes": 67518,
+      "sha256": "42be0460b3e0801ac9872bc042c11d1e7303f4159068e560822d47977c73a357"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arrow/textures/50d6d5981dd29929f4fabaf586a75056931d4c00b21d2bc028e95f2d067e4fa0.png": {
+      "bytes": 80958,
+      "sha256": "50d6d5981dd29929f4fabaf586a75056931d4c00b21d2bc028e95f2d067e4fa0"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arrow/textures/552ddd53fa39282684e0ffd1cff6dd5bf6448d6b12a2fcf66d39c2589a3b86de.png": {
+      "bytes": 76239,
+      "sha256": "552ddd53fa39282684e0ffd1cff6dd5bf6448d6b12a2fcf66d39c2589a3b86de"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arrow/textures/6de04cc8ba759a5d207f685468c69be755ccf23a51b29b26f1857c619fb5b25e.png": {
+      "bytes": 159216,
+      "sha256": "6de04cc8ba759a5d207f685468c69be755ccf23a51b29b26f1857c619fb5b25e"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arrow/textures/806240b90f685342065f259549437e4ec352c67bf77632f00796bfbe8c51d0ef.png": {
+      "bytes": 40909,
+      "sha256": "806240b90f685342065f259549437e4ec352c67bf77632f00796bfbe8c51d0ef"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arrow/textures/881430117a865ebb25958b6613c4d25272d11571b656b680ce05d63f8b438cfb.png": {
+      "bytes": 47962,
+      "sha256": "881430117a865ebb25958b6613c4d25272d11571b656b680ce05d63f8b438cfb"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arrow/textures/957b118c3bec230dc88212515765f9e705f98102576eea5fbe2679ea691a1840.png": {
+      "bytes": 35474,
+      "sha256": "957b118c3bec230dc88212515765f9e705f98102576eea5fbe2679ea691a1840"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arrow/textures/bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5.png": {
+      "bytes": 307,
+      "sha256": "bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arrow/textures/ccffebae8ff84b3d1c7d07fdb77a2222e4a45947551e56baf967d2d8403879a4.png": {
+      "bytes": 17448,
+      "sha256": "ccffebae8ff84b3d1c7d07fdb77a2222e4a45947551e56baf967d2d8403879a4"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arrow/textures/cebf10fe9117c13682cce56c9f73d8abae68385c3ed58514b99174934087c26a.png": {
+      "bytes": 56874,
+      "sha256": "cebf10fe9117c13682cce56c9f73d8abae68385c3ed58514b99174934087c26a"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-arrow/textures/d2aaf433f28facd095654c79b5bfb51d29aab664581858347fa83083a8b60f81.png": {
+      "bytes": 22174,
+      "sha256": "d2aaf433f28facd095654c79b5bfb51d29aab664581858347fa83083a8b60f81"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-bolt/effect.json": {
+      "bytes": 227627,
+      "sha256": "11e101855c7ab2fcd81785a3e4da84c564c38fa898e61849c7c44204dd479578"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-bolt/meta.json": {
+      "bytes": 67,
+      "sha256": "b4455aadb802baa00eb0fc146920d0922fd36e9501d5fe47f85ebf24742749de"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-bolt/models/c5d052bc4023d97f65a28830f16a0f518476a9e4c449e590a5cbef3a7def0645.glb": {
+      "bytes": 2888,
+      "sha256": "c5d052bc4023d97f65a28830f16a0f518476a9e4c449e590a5cbef3a7def0645"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-bolt/models/f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa.glb": {
+      "bytes": 19088,
+      "sha256": "f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-bolt/models/ffed90a8e1b00eb872c4aa83dbf9a1215aeb8b1b4e0f8371bcda04074a662a5c.glb": {
+      "bytes": 1272,
+      "sha256": "ffed90a8e1b00eb872c4aa83dbf9a1215aeb8b1b4e0f8371bcda04074a662a5c"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-bolt/package/resource.json": {
+      "bytes": 298,
+      "sha256": "ccf45370b49754ad1063be3289288ae5d8b50f2e3d312b67f16a078099541617"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-bolt/textures/06b3b0194771891bf8463dd06ba7d4137ee7dd91644dcc4610d24ae01a8f8097.png": {
+      "bytes": 43433,
+      "sha256": "06b3b0194771891bf8463dd06ba7d4137ee7dd91644dcc4610d24ae01a8f8097"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-bolt/textures/250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d.png": {
+      "bytes": 96039,
+      "sha256": "250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-bolt/textures/3abe8c0dd56c3e29dd306ee2fb76a069dff39f5d2abc9fd9e74be9d4aa41c7fe.png": {
+      "bytes": 76868,
+      "sha256": "3abe8c0dd56c3e29dd306ee2fb76a069dff39f5d2abc9fd9e74be9d4aa41c7fe"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-bolt/textures/3bd81f3e1e96e8d06bb21850d35de1618676ffc8472ced6f49ad58fcbfeb71e2.png": {
+      "bytes": 17914,
+      "sha256": "3bd81f3e1e96e8d06bb21850d35de1618676ffc8472ced6f49ad58fcbfeb71e2"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-bolt/textures/3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4.png": {
+      "bytes": 14033,
+      "sha256": "3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-bolt/textures/42be0460b3e0801ac9872bc042c11d1e7303f4159068e560822d47977c73a357.png": {
+      "bytes": 67518,
+      "sha256": "42be0460b3e0801ac9872bc042c11d1e7303f4159068e560822d47977c73a357"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-bolt/textures/50d6d5981dd29929f4fabaf586a75056931d4c00b21d2bc028e95f2d067e4fa0.png": {
+      "bytes": 80958,
+      "sha256": "50d6d5981dd29929f4fabaf586a75056931d4c00b21d2bc028e95f2d067e4fa0"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-bolt/textures/552ddd53fa39282684e0ffd1cff6dd5bf6448d6b12a2fcf66d39c2589a3b86de.png": {
+      "bytes": 76239,
+      "sha256": "552ddd53fa39282684e0ffd1cff6dd5bf6448d6b12a2fcf66d39c2589a3b86de"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-bolt/textures/6de04cc8ba759a5d207f685468c69be755ccf23a51b29b26f1857c619fb5b25e.png": {
+      "bytes": 159216,
+      "sha256": "6de04cc8ba759a5d207f685468c69be755ccf23a51b29b26f1857c619fb5b25e"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-bolt/textures/806240b90f685342065f259549437e4ec352c67bf77632f00796bfbe8c51d0ef.png": {
+      "bytes": 40909,
+      "sha256": "806240b90f685342065f259549437e4ec352c67bf77632f00796bfbe8c51d0ef"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-bolt/textures/881430117a865ebb25958b6613c4d25272d11571b656b680ce05d63f8b438cfb.png": {
+      "bytes": 47962,
+      "sha256": "881430117a865ebb25958b6613c4d25272d11571b656b680ce05d63f8b438cfb"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-bolt/textures/957b118c3bec230dc88212515765f9e705f98102576eea5fbe2679ea691a1840.png": {
+      "bytes": 35474,
+      "sha256": "957b118c3bec230dc88212515765f9e705f98102576eea5fbe2679ea691a1840"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-bolt/textures/bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5.png": {
+      "bytes": 307,
+      "sha256": "bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-bolt/textures/ccffebae8ff84b3d1c7d07fdb77a2222e4a45947551e56baf967d2d8403879a4.png": {
+      "bytes": 17448,
+      "sha256": "ccffebae8ff84b3d1c7d07fdb77a2222e4a45947551e56baf967d2d8403879a4"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-bolt/textures/cebf10fe9117c13682cce56c9f73d8abae68385c3ed58514b99174934087c26a.png": {
+      "bytes": 56874,
+      "sha256": "cebf10fe9117c13682cce56c9f73d8abae68385c3ed58514b99174934087c26a"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-bolt/textures/d2aaf433f28facd095654c79b5bfb51d29aab664581858347fa83083a8b60f81.png": {
+      "bytes": 22174,
+      "sha256": "d2aaf433f28facd095654c79b5bfb51d29aab664581858347fa83083a8b60f81"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-burst/effect.json": {
+      "bytes": 341064,
+      "sha256": "f67e3f1118683aabe5f42bdc03f91e13569f43ea9d1f1166ffc5b78662ef24aa"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-burst/meta.json": {
+      "bytes": 68,
+      "sha256": "117caea4e880f296eb6367bfba419cf78b9668bfb9c262f654c32063f16dcde3"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-burst/models/f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa.glb": {
+      "bytes": 19088,
+      "sha256": "f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-burst/package/resource.json": {
+      "bytes": 298,
+      "sha256": "d3b331dc026972a21984fc3677370e08f29fe96f21c90b2efd8392b5dc19a2dd"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-burst/textures/06b3b0194771891bf8463dd06ba7d4137ee7dd91644dcc4610d24ae01a8f8097.png": {
+      "bytes": 43433,
+      "sha256": "06b3b0194771891bf8463dd06ba7d4137ee7dd91644dcc4610d24ae01a8f8097"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-burst/textures/250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d.png": {
+      "bytes": 96039,
+      "sha256": "250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-burst/textures/3abe8c0dd56c3e29dd306ee2fb76a069dff39f5d2abc9fd9e74be9d4aa41c7fe.png": {
+      "bytes": 76868,
+      "sha256": "3abe8c0dd56c3e29dd306ee2fb76a069dff39f5d2abc9fd9e74be9d4aa41c7fe"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-burst/textures/3bd81f3e1e96e8d06bb21850d35de1618676ffc8472ced6f49ad58fcbfeb71e2.png": {
+      "bytes": 17914,
+      "sha256": "3bd81f3e1e96e8d06bb21850d35de1618676ffc8472ced6f49ad58fcbfeb71e2"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-burst/textures/3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4.png": {
+      "bytes": 14033,
+      "sha256": "3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-burst/textures/50d6d5981dd29929f4fabaf586a75056931d4c00b21d2bc028e95f2d067e4fa0.png": {
+      "bytes": 80958,
+      "sha256": "50d6d5981dd29929f4fabaf586a75056931d4c00b21d2bc028e95f2d067e4fa0"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-burst/textures/552ddd53fa39282684e0ffd1cff6dd5bf6448d6b12a2fcf66d39c2589a3b86de.png": {
+      "bytes": 76239,
+      "sha256": "552ddd53fa39282684e0ffd1cff6dd5bf6448d6b12a2fcf66d39c2589a3b86de"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-burst/textures/6de04cc8ba759a5d207f685468c69be755ccf23a51b29b26f1857c619fb5b25e.png": {
+      "bytes": 159216,
+      "sha256": "6de04cc8ba759a5d207f685468c69be755ccf23a51b29b26f1857c619fb5b25e"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-burst/textures/881430117a865ebb25958b6613c4d25272d11571b656b680ce05d63f8b438cfb.png": {
+      "bytes": 47962,
+      "sha256": "881430117a865ebb25958b6613c4d25272d11571b656b680ce05d63f8b438cfb"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-burst/textures/bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5.png": {
+      "bytes": 307,
+      "sha256": "bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-burst/textures/ccffebae8ff84b3d1c7d07fdb77a2222e4a45947551e56baf967d2d8403879a4.png": {
+      "bytes": 17448,
+      "sha256": "ccffebae8ff84b3d1c7d07fdb77a2222e4a45947551e56baf967d2d8403879a4"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-burst/textures/cebf10fe9117c13682cce56c9f73d8abae68385c3ed58514b99174934087c26a.png": {
+      "bytes": 56874,
+      "sha256": "cebf10fe9117c13682cce56c9f73d8abae68385c3ed58514b99174934087c26a"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-frost/effect.json": {
+      "bytes": 341069,
+      "sha256": "df5c94504d073b969dc933c7fbf04569fea150df1d0eadb36fdd004e6d79198a"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-frost/meta.json": {
+      "bytes": 68,
+      "sha256": "9a93cc15bd345c04d27426b15a79859a860af3cb0fcd3a56a17428a68ea71347"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-frost/models/f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa.glb": {
+      "bytes": 19088,
+      "sha256": "f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-frost/package/resource.json": {
+      "bytes": 298,
+      "sha256": "0526e8a16444117946b10aff9f96591f8e45f8ce20cf9577252910b00222bca6"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-frost/textures/06b3b0194771891bf8463dd06ba7d4137ee7dd91644dcc4610d24ae01a8f8097.png": {
+      "bytes": 43433,
+      "sha256": "06b3b0194771891bf8463dd06ba7d4137ee7dd91644dcc4610d24ae01a8f8097"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-frost/textures/250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d.png": {
+      "bytes": 96039,
+      "sha256": "250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-frost/textures/3abe8c0dd56c3e29dd306ee2fb76a069dff39f5d2abc9fd9e74be9d4aa41c7fe.png": {
+      "bytes": 76868,
+      "sha256": "3abe8c0dd56c3e29dd306ee2fb76a069dff39f5d2abc9fd9e74be9d4aa41c7fe"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-frost/textures/3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4.png": {
+      "bytes": 14033,
+      "sha256": "3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-frost/textures/552ddd53fa39282684e0ffd1cff6dd5bf6448d6b12a2fcf66d39c2589a3b86de.png": {
+      "bytes": 76239,
+      "sha256": "552ddd53fa39282684e0ffd1cff6dd5bf6448d6b12a2fcf66d39c2589a3b86de"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-frost/textures/bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5.png": {
+      "bytes": 307,
+      "sha256": "bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-frost/textures/ccffebae8ff84b3d1c7d07fdb77a2222e4a45947551e56baf967d2d8403879a4.png": {
+      "bytes": 17448,
+      "sha256": "ccffebae8ff84b3d1c7d07fdb77a2222e4a45947551e56baf967d2d8403879a4"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-hit/effect.json": {
+      "bytes": 169781,
+      "sha256": "c7312491ffb2880a1d1adedb0404d8a65dc8fe0bbc4c64f21a141aae3316e875"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-hit/meta.json": {
+      "bytes": 66,
+      "sha256": "8b7fae4f1a3f15a63440165d4f6dc091f9e3e41edab37675d46a50a40f845a18"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-hit/package/resource.json": {
+      "bytes": 298,
+      "sha256": "8d4143e5e7deb62542b16f3241545d0dbd9db65c20f71811e60ac55341d99616"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-hit/textures/06b3b0194771891bf8463dd06ba7d4137ee7dd91644dcc4610d24ae01a8f8097.png": {
+      "bytes": 43433,
+      "sha256": "06b3b0194771891bf8463dd06ba7d4137ee7dd91644dcc4610d24ae01a8f8097"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-hit/textures/3abe8c0dd56c3e29dd306ee2fb76a069dff39f5d2abc9fd9e74be9d4aa41c7fe.png": {
+      "bytes": 76868,
+      "sha256": "3abe8c0dd56c3e29dd306ee2fb76a069dff39f5d2abc9fd9e74be9d4aa41c7fe"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-hit/textures/3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4.png": {
+      "bytes": 14033,
+      "sha256": "3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-hit/textures/ccffebae8ff84b3d1c7d07fdb77a2222e4a45947551e56baf967d2d8403879a4.png": {
+      "bytes": 17448,
+      "sha256": "ccffebae8ff84b3d1c7d07fdb77a2222e4a45947551e56baf967d2d8403879a4"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-meteor/effect.json": {
+      "bytes": 341086,
+      "sha256": "1540c8816687faa94abc1dd74210592e343554d7ca8ff0ef737e09988b666f84"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-meteor/meta.json": {
+      "bytes": 69,
+      "sha256": "2e5dc6da0b64959a52d455d66d6f368041af2e0e2919987ce1f39283cd37ce1b"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-meteor/models/f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa.glb": {
+      "bytes": 19088,
+      "sha256": "f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-meteor/package/resource.json": {
+      "bytes": 298,
+      "sha256": "788a348466c98a971626a018b2b5b3dc4ea3b407ac4e430239149ce7f5f4a49b"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-meteor/textures/06b3b0194771891bf8463dd06ba7d4137ee7dd91644dcc4610d24ae01a8f8097.png": {
+      "bytes": 43433,
+      "sha256": "06b3b0194771891bf8463dd06ba7d4137ee7dd91644dcc4610d24ae01a8f8097"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-meteor/textures/250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d.png": {
+      "bytes": 96039,
+      "sha256": "250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-meteor/textures/3abe8c0dd56c3e29dd306ee2fb76a069dff39f5d2abc9fd9e74be9d4aa41c7fe.png": {
+      "bytes": 76868,
+      "sha256": "3abe8c0dd56c3e29dd306ee2fb76a069dff39f5d2abc9fd9e74be9d4aa41c7fe"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-meteor/textures/3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4.png": {
+      "bytes": 14033,
+      "sha256": "3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-meteor/textures/552ddd53fa39282684e0ffd1cff6dd5bf6448d6b12a2fcf66d39c2589a3b86de.png": {
+      "bytes": 76239,
+      "sha256": "552ddd53fa39282684e0ffd1cff6dd5bf6448d6b12a2fcf66d39c2589a3b86de"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-meteor/textures/bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5.png": {
+      "bytes": 307,
+      "sha256": "bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-meteor/textures/ccffebae8ff84b3d1c7d07fdb77a2222e4a45947551e56baf967d2d8403879a4.png": {
+      "bytes": 17448,
+      "sha256": "ccffebae8ff84b3d1c7d07fdb77a2222e4a45947551e56baf967d2d8403879a4"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-shield/effect.json": {
+      "bytes": 172222,
+      "sha256": "fd604a4fcf67f9d0556ea97efc03e857825aaa5bcd3db2bd782f1171d213bcc9"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-shield/meta.json": {
+      "bytes": 69,
+      "sha256": "73dcf213f8e4469f5cf91db641dbc3f9a72d97e32fd578f2fa2858cf8f8aa74f"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-shield/models/f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa.glb": {
+      "bytes": 19088,
+      "sha256": "f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-shield/package/resource.json": {
+      "bytes": 298,
+      "sha256": "231e475246fab5bebaeb405778ee071e227be8f563b945bd1ea09743fca63317"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-shield/textures/250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d.png": {
+      "bytes": 96039,
+      "sha256": "250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-shield/textures/3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4.png": {
+      "bytes": 14033,
+      "sha256": "3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-shield/textures/bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5.png": {
+      "bytes": 307,
+      "sha256": "bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-slash/effect.json": {
+      "bytes": 169262,
+      "sha256": "2223ddae1c0d9bca10b2f14cbcfa08cabcc99a887b6bc69fd49f5168b5386bab"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-slash/meshes/crescent.glb": {
+      "bytes": 4428,
+      "sha256": "ce67a020d73cfabd133e940c52d6055505c4dd1b5f1fb4f15619a353552cd6c8"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-slash/meta.json": {
+      "bytes": 68,
+      "sha256": "1958443c0753c1a6b3f027b3b3cc9663f6bdc3751f451426e0eb7c6c6b92494e"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-slash/package/resource.json": {
+      "bytes": 298,
+      "sha256": "b2ae9dd29088d6ebab8c183eacf344f617ba14207eed5de096363c7ff07e932e"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-slash/textures/250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d.png": {
+      "bytes": 96039,
+      "sha256": "250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-slash/textures/3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4.png": {
+      "bytes": 14033,
+      "sha256": "3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-slash/textures/bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5.png": {
+      "bytes": 307,
+      "sha256": "bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-tell/effect.json": {
+      "bytes": 58159,
+      "sha256": "62ca707e5401bafaa2a3375b2dbe3304530c76eb6c79a3e35b5250ead78680d8"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-tell/meta.json": {
+      "bytes": 67,
+      "sha256": "28c502e48e63523ab3928ac9c82ef991a39ec9d445d7ca70d9abf16b90b413e4"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-tell/models/f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa.glb": {
+      "bytes": 19088,
+      "sha256": "f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-tell/package/resource.json": {
+      "bytes": 298,
+      "sha256": "ecb5098a26c71bb1bdd8243405f8225095918d3dda1512da301cb3733b719d89"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-tell/textures/250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d.png": {
+      "bytes": 96039,
+      "sha256": "250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-tell/textures/bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5.png": {
+      "bytes": 307,
+      "sha256": "bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-trail/effect.json": {
+      "bytes": 153054,
+      "sha256": "e32c93284db75b7c2c8412298bfb7004083b8849c9d647ead97f5319c51d9e4d"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-trail/meta.json": {
+      "bytes": 80,
+      "sha256": "4e40c8d6f89b61f333640836f407816a5ebb8c0f9cf25a5b1d1dc63b46c11c00"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-trail/models/c5d052bc4023d97f65a28830f16a0f518476a9e4c449e590a5cbef3a7def0645.glb": {
+      "bytes": 2888,
+      "sha256": "c5d052bc4023d97f65a28830f16a0f518476a9e4c449e590a5cbef3a7def0645"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-trail/models/ffed90a8e1b00eb872c4aa83dbf9a1215aeb8b1b4e0f8371bcda04074a662a5c.glb": {
+      "bytes": 1272,
+      "sha256": "ffed90a8e1b00eb872c4aa83dbf9a1215aeb8b1b4e0f8371bcda04074a662a5c"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-trail/textures/42be0460b3e0801ac9872bc042c11d1e7303f4159068e560822d47977c73a357.png": {
+      "bytes": 67518,
+      "sha256": "42be0460b3e0801ac9872bc042c11d1e7303f4159068e560822d47977c73a357"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-trail/textures/806240b90f685342065f259549437e4ec352c67bf77632f00796bfbe8c51d0ef.png": {
+      "bytes": 40909,
+      "sha256": "806240b90f685342065f259549437e4ec352c67bf77632f00796bfbe8c51d0ef"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-trail/textures/957b118c3bec230dc88212515765f9e705f98102576eea5fbe2679ea691a1840.png": {
+      "bytes": 35474,
+      "sha256": "957b118c3bec230dc88212515765f9e705f98102576eea5fbe2679ea691a1840"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/effects/effect-combat-trail/textures/d2aaf433f28facd095654c79b5bfb51d29aab664581858347fa83083a8b60f81.png": {
+      "bytes": 22174,
+      "sha256": "d2aaf433f28facd095654c79b5bfb51d29aab664581858347fa83083a8b60f81"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-270c6a9f933186faca1275129dc28e05a07b0e3280bdf75d147324350625c399/meta.json": {
+      "bytes": 268,
+      "sha256": "47a0e9524a0bdd2c1b568a8f14949c33488696e5299472f3a83102c47d7492ad"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-270c6a9f933186faca1275129dc28e05a07b0e3280bdf75d147324350625c399/package/model-output.sha256": {
+      "bytes": 65,
+      "sha256": "3741605ef41b7f272c320a3463a4f8c9ce0c724b2b1f2e4c97f8cdf836c808b2"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-270c6a9f933186faca1275129dc28e05a07b0e3280bdf75d147324350625c399/package/model.glb": {
+      "bytes": 2562696,
+      "sha256": "42de3f1f4cc9eabcc29eeab91679468a4ea17e4dc996e695397af2bdd3247968"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-270c6a9f933186faca1275129dc28e05a07b0e3280bdf75d147324350625c399/package/resource.json": {
+      "bytes": 255,
+      "sha256": "6c9844f9b54aa57012984ac3faa4d21c5478ff970f4a0ef207185b1abae832d9"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-270c6a9f933186faca1275129dc28e05a07b0e3280bdf75d147324350625c399/topology/README.md": {
+      "bytes": 119,
+      "sha256": "f7e17d21b5c0333aa4933d5c880c919a07b12839b27e6815b4fb7656d5879cea"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-270c6a9f933186faca1275129dc28e05a07b0e3280bdf75d147324350625c399/topology/model.glb": {
+      "bytes": 640136,
+      "sha256": "05bcfdeb8c6dcfd5516ed1963bc84305706bc5b4bc73cfc8c8bf5dfb58128818"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-270c6a9f933186faca1275129dc28e05a07b0e3280bdf75d147324350625c399/topology/original-meta-7a3bf020d381b47059504e49ff6d54172d22b75628620f74ae5d2cdbf51a221f.json": {
+      "bytes": 216,
+      "sha256": "7a3bf020d381b47059504e49ff6d54172d22b75628620f74ae5d2cdbf51a221f"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-270c6a9f933186faca1275129dc28e05a07b0e3280bdf75d147324350625c399/topology/restore-model.glb": {
+      "bytes": 1281260,
+      "sha256": "929161e8e425c175ff2a22e7b79d7ba030a77a253482f99e8e7a1e0561ea0324"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-52fc51bd9db589d12ff261095985271844c8bbfb17b29020695fd69f8642402e/package/model-output.sha256": {
+      "bytes": 65,
+      "sha256": "eb55d80a36977655ed2d3062c29080f4feeb510ba51d1c026a3d3acb46fda702"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-52fc51bd9db589d12ff261095985271844c8bbfb17b29020695fd69f8642402e/package/model.glb": {
+      "bytes": 6349148,
+      "sha256": "af5526c335df8440d102d08cbbfadbebfa7e4a1def6e02b9d5cd070a76fed498"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-52fc51bd9db589d12ff261095985271844c8bbfb17b29020695fd69f8642402e/package/resource.json": {
+      "bytes": 255,
+      "sha256": "47f0172c959a9e8d9e782745183651d63b6ef3b965844a2ca9fd140151841bae"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-52fc51bd9db589d12ff261095985271844c8bbfb17b29020695fd69f8642402e/static/README.md": {
+      "bytes": 113,
+      "sha256": "3a913bfb59938cb7413c181d30a719711a8a4fb7b2bb4a37fe811edf75216eb2"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-52fc51bd9db589d12ff261095985271844c8bbfb17b29020695fd69f8642402e/static/model.glb": {
+      "bytes": 3407964,
+      "sha256": "204aa870540530d5f8018b5023703394b02b22c2942673b8aaf067808dcd380b"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-52fc51bd9db589d12ff261095985271844c8bbfb17b29020695fd69f8642402e/static/preview-module.js": {
+      "bytes": 89012,
+      "sha256": "8de12846336520690100b732f8d74efde47bcba7c2639642716996d68a2d2401"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-5620f83d4c700c1df57edac53eba5251988a5c8af169b148fa9d82ded129a4c5/package/model-output.sha256": {
+      "bytes": 65,
+      "sha256": "f6ee05e4870b222f9e015736e2943c314cc76c8ba5e35dbbbbeaf624003be979"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-5620f83d4c700c1df57edac53eba5251988a5c8af169b148fa9d82ded129a4c5/package/model.glb": {
+      "bytes": 1052584,
+      "sha256": "155045246670434033154bb9353b2281da00be1d6aaf4bdb9d8b23b7347b1055"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-5620f83d4c700c1df57edac53eba5251988a5c8af169b148fa9d82ded129a4c5/package/resource.json": {
+      "bytes": 255,
+      "sha256": "43d90fa2325e992a2bf9def378c9596ae5b223c0ea7aae5b618dd7658b98375a"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-5620f83d4c700c1df57edac53eba5251988a5c8af169b148fa9d82ded129a4c5/topology/README.md": {
+      "bytes": 144,
+      "sha256": "488e49cc3c02b98d730a8b910c1ea5dbeac0209ff0fad3a8a629f31a2408ae97"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-5620f83d4c700c1df57edac53eba5251988a5c8af169b148fa9d82ded129a4c5/topology/model.glb": {
+      "bytes": 1052584,
+      "sha256": "155045246670434033154bb9353b2281da00be1d6aaf4bdb9d8b23b7347b1055"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-97eaf5c89a25b3308158b15cd6f804beed39e1f904b75b078556c9f44fd4dd4f/package/model-output.sha256": {
+      "bytes": 65,
+      "sha256": "5410576df50d3791d411e1f7636fc939402669ce8f9f7140d0d0da58a5bf029f"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-97eaf5c89a25b3308158b15cd6f804beed39e1f904b75b078556c9f44fd4dd4f/package/model.glb": {
+      "bytes": 998516,
+      "sha256": "bec757bf4be6bb52050bcc9b8665ca4236c4935ed5a75cbd6a01abde6f58116a"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-97eaf5c89a25b3308158b15cd6f804beed39e1f904b75b078556c9f44fd4dd4f/package/resource.json": {
+      "bytes": 255,
+      "sha256": "2a09ac1777fc7108b388409f0053dd776583697031c336322c1acdcee8338a12"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-97eaf5c89a25b3308158b15cd6f804beed39e1f904b75b078556c9f44fd4dd4f/topology/README.md": {
+      "bytes": 144,
+      "sha256": "488e49cc3c02b98d730a8b910c1ea5dbeac0209ff0fad3a8a629f31a2408ae97"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-97eaf5c89a25b3308158b15cd6f804beed39e1f904b75b078556c9f44fd4dd4f/topology/model.glb": {
+      "bytes": 998516,
+      "sha256": "bec757bf4be6bb52050bcc9b8665ca4236c4935ed5a75cbd6a01abde6f58116a"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-cdf75ebd95813149d526de1262c2f8ac710716ac15c81beb48625c418a929669/package/model-output.sha256": {
+      "bytes": 65,
+      "sha256": "fa07a211fbd614e5dbb4dc19ccd335e23855ba012e6e8e1c3c5fc06e1c68ad44"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-cdf75ebd95813149d526de1262c2f8ac710716ac15c81beb48625c418a929669/package/model.glb": {
+      "bytes": 384196,
+      "sha256": "d510bce4ddcf6f31cfc95556aa37832e0db5130836a9336596008fe810660607"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-cdf75ebd95813149d526de1262c2f8ac710716ac15c81beb48625c418a929669/package/resource.json": {
+      "bytes": 255,
+      "sha256": "cc2ca5bfdad22191517918a20039e47cdb4f5ec1415afea463c8ca2609c3e8a1"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-cdf75ebd95813149d526de1262c2f8ac710716ac15c81beb48625c418a929669/topology/README.md": {
+      "bytes": 144,
+      "sha256": "488e49cc3c02b98d730a8b910c1ea5dbeac0209ff0fad3a8a629f31a2408ae97"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-cdf75ebd95813149d526de1262c2f8ac710716ac15c81beb48625c418a929669/topology/model.glb": {
+      "bytes": 384196,
+      "sha256": "d510bce4ddcf6f31cfc95556aa37832e0db5130836a9336596008fe810660607"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-fbdc6f2589a43922a95b5745030a63cca2d0c62b87e3f82ab41c58e0cdc066c5/package/model-output.sha256": {
+      "bytes": 65,
+      "sha256": "1580f24e02b830017dd0961b9a1bfbb849e2231d0a426ce64cd30c92443ba044"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-fbdc6f2589a43922a95b5745030a63cca2d0c62b87e3f82ab41c58e0cdc066c5/package/model.glb": {
+      "bytes": 1087308,
+      "sha256": "4f23a96848bf200dd7402f4616ef5bd4cc0a1a70f809a4459ff804dcbdc700ee"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-fbdc6f2589a43922a95b5745030a63cca2d0c62b87e3f82ab41c58e0cdc066c5/package/resource.json": {
+      "bytes": 255,
+      "sha256": "5ba5dfa34007b39d9922a2d0b11500ac4232e1c997cc5503af7228cf830b750b"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-fbdc6f2589a43922a95b5745030a63cca2d0c62b87e3f82ab41c58e0cdc066c5/topology/README.md": {
+      "bytes": 144,
+      "sha256": "488e49cc3c02b98d730a8b910c1ea5dbeac0209ff0fad3a8a629f31a2408ae97"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-imported-fbdc6f2589a43922a95b5745030a63cca2d0c62b87e3f82ab41c58e0cdc066c5/topology/model.glb": {
+      "bytes": 1087308,
+      "sha256": "4f23a96848bf200dd7402f4616ef5bd4cc0a1a70f809a4459ff804dcbdc700ee"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-font-v9/meta.json": {
+      "bytes": 207,
+      "sha256": "1318a5863e202e0f5be387756e9c16fff976bce723ff754e11f7bb4cd9dc7681"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-font-v9/package/model-output.sha256": {
+      "bytes": 65,
+      "sha256": "421d89729f49183faf7783f3cec03343e03aa1073039c015ba571545f6414a64"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-font-v9/package/model.glb": {
+      "bytes": 2694108,
+      "sha256": "3ece41b210982bc8f2c47c435fec5e6235cd35030e72807a6d724310fc47efc9"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-font-v9/package/resource.json": {
+      "bytes": 289,
+      "sha256": "a3d2bdc0178b60c8656fa8d8f57072d122277839958cfb97d87f483b38a438af"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-font-v9/topology/README.md": {
+      "bytes": 144,
+      "sha256": "488e49cc3c02b98d730a8b910c1ea5dbeac0209ff0fad3a8a629f31a2408ae97"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-font-v9/topology/model.glb": {
+      "bytes": 763480,
+      "sha256": "3f1262db5fa2f1aa94566af8688b484624fc76f108d831d0264d33002885687c"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-map-v10/meta.json": {
+      "bytes": 207,
+      "sha256": "c7f6be8460c886382a81d493ecce76472ee3a2294c184c513dce6c7d9c0afd86"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-map-v10/package/model-output.sha256": {
+      "bytes": 65,
+      "sha256": "b00aa8d039d39ea7cc40b46c91e118e1b8a4c8f4ca4b82c40230d8f059eb4216"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-map-v10/package/model.glb": {
+      "bytes": 3256964,
+      "sha256": "0ca98474d76db830538694cf2804868eb2155400f5aa269a9f30a24523ae88a1"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-map-v10/package/resource.json": {
+      "bytes": 289,
+      "sha256": "87cf21a6650747b952a26f20cb1a57ca9bcbe47d4b1aa1d06248f8f9ac1f4b1e"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-map-v10/topology/README.md": {
+      "bytes": 144,
+      "sha256": "488e49cc3c02b98d730a8b910c1ea5dbeac0209ff0fad3a8a629f31a2408ae97"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-map-v10/topology/model.glb": {
+      "bytes": 1056548,
+      "sha256": "cd077eab1e36cf47f6bcb0fb6fe81bf0f7a6a07aa81d53ba9441bb937ca4ee13"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-map-v7/meta.json": {
+      "bytes": 206,
+      "sha256": "4d9ed2e4ee3f785a8c101ad5c13da3c13d8bc0b17b0a20fb0d28c1cfa2a7df8b"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-map-v7/package/model-output.sha256": {
+      "bytes": 65,
+      "sha256": "9057ad4bbd97542fc433a4936929d407342f2d69d3d464a9e0ea997c76de3b60"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-map-v7/package/model.glb": {
+      "bytes": 12027860,
+      "sha256": "966d3d8a28623c8a32228d722ff7a1148feb40061b364357b13c42a40034cfe8"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-map-v7/package/resource.json": {
+      "bytes": 289,
+      "sha256": "085a6f7fb1f98b227ef779b4adddee98edfcfe7ccf0ea5fd0dd08f6324cfef7e"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-map-v7/topology/README.md": {
+      "bytes": 144,
+      "sha256": "488e49cc3c02b98d730a8b910c1ea5dbeac0209ff0fad3a8a629f31a2408ae97"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-map-v7/topology/model.glb": {
+      "bytes": 3949832,
+      "sha256": "f1f6a0d1c161cf28f86f39809efb7f8b7f0258caf7de64d704f4a04b48808160"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-oath-v7/meta.json": {
+      "bytes": 207,
+      "sha256": "27cb3d2a269a6dbeed27b69cc8823b17cfcb488ce463804cf61d697eec6fa78f"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-oath-v7/package/model-output.sha256": {
+      "bytes": 65,
+      "sha256": "491496d18c1a514eb753f9c69b370120a1d89213047dd0ccd18f4fd1685c9a20"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-oath-v7/package/model.glb": {
+      "bytes": 10985776,
+      "sha256": "a24bbd49a3ee25b3c1a262872eedcf5932a87cfcc17661c91df8c28bceadff5c"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-oath-v7/package/resource.json": {
+      "bytes": 289,
+      "sha256": "78400be84678b2cc66b9e47a64398a1626e78e2d0a9bf70030bb8e375341b4db"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-oath-v7/topology/README.md": {
+      "bytes": 144,
+      "sha256": "488e49cc3c02b98d730a8b910c1ea5dbeac0209ff0fad3a8a629f31a2408ae97"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-oath-v7/topology/model.glb": {
+      "bytes": 3625040,
+      "sha256": "dee13cfb89d569fa2c5f70d7c052a71599210e9945ea936891523bbb8ebea2ef"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-oath-v9/meta.json": {
+      "bytes": 207,
+      "sha256": "65a90091ebc1ea4899ec1bc31c35cecde5c1dab05633609e1ce9c8543446edb3"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-oath-v9/package/model-output.sha256": {
+      "bytes": 65,
+      "sha256": "f110008b2b3b8b832168d1c00499c8e6de527631fb1299ffe2f61e0ed478669c"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-oath-v9/package/model.glb": {
+      "bytes": 11171356,
+      "sha256": "aa57e01cecb91118e5a4819baa7f52fbb9549cb468f4f4582e3ebdeeb5f29cd2"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-oath-v9/package/resource.json": {
+      "bytes": 289,
+      "sha256": "5559c72400a240005871ea91675a2392204597e58df080d5e1aacee2a1e6cdc2"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-oath-v9/topology/README.md": {
+      "bytes": 144,
+      "sha256": "488e49cc3c02b98d730a8b910c1ea5dbeac0209ff0fad3a8a629f31a2408ae97"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/assets/models/model-ink-oath-v9/topology/model.glb": {
+      "bytes": 3287836,
+      "sha256": "a737987df7312b63c69cd9838d54dc3dfec4a3c9b1962fab7b4bfb4447ed4024"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/docs/.source/entries/b17654973e4c26ce5af1a3b292837f096e808deeaaaa2b59eafe43efd5a6b4fb/asset-metadata.json": {
+      "bytes": 148,
+      "sha256": "542a65dd9ccdc64583016fad75c588608f0277ea4af1ddd44cb24b924744a8be"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/meta.json": {
+      "bytes": 104,
+      "sha256": "7e3084adc1dfda93c32646f6843b040379db5931971cf8fd3a17be79b9950fcc"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/package/prefab.wprefab": {
+      "bytes": 12996882,
+      "sha256": "1d1ca248f34777b2845796b5ab2bfec75bd984e0814457e3cf556ebcbf0289e7"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/prefab.json": {
+      "bytes": 308184,
+      "sha256": "de342ed3ba3831d9214fd5f2ada07c496eca0208fa4d0ef1a2a07e3a04d5b276"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/scripts/dragon_combat.lua": {
+      "bytes": 17594,
+      "sha256": "2119ee68679d65ca353bf1f76ad0b4669419d204e15fbe2acfa6c4f156c464bf"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/scripts/dragon_combat_rules.lua": {
+      "bytes": 9842,
+      "sha256": "e2d77bdfb3b56ff6bfc236a8f665e821365c09be1b27a6ca73f49dd03c627ae6"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/scripts/dragon_daycycle.lua": {
+      "bytes": 2948,
+      "sha256": "f5c2744add3405e40fcd04295bb1913d07f376ca5dbcef5910aaf51771e95eac"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/scripts/dragon_exploration.lua": {
+      "bytes": 22842,
+      "sha256": "bb98eade4e683df0b095576186305d8cbbc09f124a1ab3b6133f097758f425fc"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/scripts/dragon_fx.lua": {
+      "bytes": 26190,
+      "sha256": "4fc607da2b7009de44b7f5db62f0a0da8ffeb36a9f2a39854e3ddabceedc241b"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/scripts/dragon_outfits.lua": {
+      "bytes": 44933,
+      "sha256": "1822d24ddeb4159a5362271fdd978aad5fd15b6c4af8782ffaff4a4778490678"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/scripts/dragon_progress.lua": {
+      "bytes": 2139,
+      "sha256": "6bd21833bb0e2f8101864c5d82ada638cc5dad7f5519d2cd7fe3e0e017778be6"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/scripts/dragon_progress_rules.lua": {
+      "bytes": 6292,
+      "sha256": "292908954b95a36aed419a7cbd4dde06b10b8933f6fd77589c4f0d23f127a560"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/scripts/dragon_rpg.lua": {
+      "bytes": 30340,
+      "sha256": "67b7fee8271e3d1a308c90e61ca21ca3c98ff889565f27b1c5414a3fe747ac85"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/scripts/dragon_rules.lua": {
+      "bytes": 3710,
+      "sha256": "f809d17fdd1920ca90aa6c788b1a55c791780c4e4da48cacaa8a09ecb8375e8a"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/scripts/dragon_timeline.lua": {
+      "bytes": 10336,
+      "sha256": "f1bbe401770d06e51d4863dadd82593c1e2dacbcf4966a87e3e6292beeea224c"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/scripts/dragon_weapons.lua": {
+      "bytes": 41184,
+      "sha256": "9d8d2869a4ecbe3b2ca3937c401ca4f10a0d4a78b0a33cc651b60d74d24a9e9f"
+    },
+    "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/scripts/dragon_world_bridge.lua": {
+      "bytes": 11706763,
+      "sha256": "e1f02680080c38937391d32ed2b01fc98e7a6b07a56e1deaa6633a7e5ff3a466"
+    },
+    "ai-sessions/workspace_v6zhv9k6/official/core/logger.lua": {
+      "bytes": 1263,
+      "sha256": "89d79d801c9887bb1ec6335a35192ed960a026e3dc0df6299837b649517f0d6f"
+    },
+    "ai-sessions/workspace_v6zhv9k6/official/core/node_lookup.lua": {
+      "bytes": 8940,
+      "sha256": "62c10213881904b7fef2fd97f1cb92eff05bd6483a56e4a500789c2964bff835"
+    },
+    "ai-sessions/workspace_v6zhv9k6/official/core/runtime_scope.lua": {
+      "bytes": 12423,
+      "sha256": "b3f3301d854355ecad979483796fa9fe2df0c4b9e2d6af136f37dc0a64dc5cea"
+    },
+    "ai-sessions/workspace_v6zhv9k6/official/core/spawn.lua": {
+      "bytes": 7112,
+      "sha256": "ca461f4a1f68925bdd6e1fe043abafbf9913bc0ba37e104825c5bc13c6324f23"
+    },
+    "ai-sessions/workspace_v6zhv9k6/official/core/spawn_registry.lua": {
+      "bytes": 739,
+      "sha256": "722f95acc15bab690b63bcfb51010bace1d57f6c23dfbda7d2cb47a79dd4f3d6"
+    },
+    "ai-sessions/workspace_v6zhv9k6/official/geometry/containment.lua": {
+      "bytes": 11201,
+      "sha256": "0e083201f45081caa3ec578dc662adbd996038533aa0fb2ce3525ddd5f4f64a7"
+    },
+    "ai-sessions/workspace_v6zhv9k6/official/interaction/trigger.lua": {
+      "bytes": 2422,
+      "sha256": "9cb1f75f39695c23e35def010716b2b676afb1ef5beb62d45540d5a00b37952a"
+    },
+    "ai-sessions/workspace_v6zhv9k6/official/ui/animation.lua": {
+      "bytes": 12508,
+      "sha256": "9ef9e81f67a466e7172731ed7cc8f4d1e7105fc8a2c28723ae317f798235b357"
+    },
+    "ai-sessions/workspace_vrztdtlb/official/core/logger.lua": {
+      "bytes": 1263,
+      "sha256": "89d79d801c9887bb1ec6335a35192ed960a026e3dc0df6299837b649517f0d6f"
+    },
+    "ai-sessions/workspace_vrztdtlb/official/core/node_lookup.lua": {
+      "bytes": 8940,
+      "sha256": "62c10213881904b7fef2fd97f1cb92eff05bd6483a56e4a500789c2964bff835"
+    },
+    "ai-sessions/workspace_vrztdtlb/official/core/runtime_scope.lua": {
+      "bytes": 12423,
+      "sha256": "b3f3301d854355ecad979483796fa9fe2df0c4b9e2d6af136f37dc0a64dc5cea"
+    },
+    "ai-sessions/workspace_vrztdtlb/official/core/spawn.lua": {
+      "bytes": 7259,
+      "sha256": "766300ef9ecf4d247ba97958397b7f92f7f6ffe46b0b3006286080d9bb815814"
+    },
+    "ai-sessions/workspace_vrztdtlb/official/core/spawn_registry.lua": {
+      "bytes": 739,
+      "sha256": "722f95acc15bab690b63bcfb51010bace1d57f6c23dfbda7d2cb47a79dd4f3d6"
+    },
+    "ai-sessions/workspace_vrztdtlb/official/effect/playback.lua": {
+      "bytes": 31668,
+      "sha256": "c7e4fc8b0daa350923815e14c54161aa7d1a9242c403162ecf7244cba10985a2"
+    },
+    "ai-sessions/workspace_vrztdtlb/official/geometry/containment.lua": {
+      "bytes": 11201,
+      "sha256": "0e083201f45081caa3ec578dc662adbd996038533aa0fb2ce3525ddd5f4f64a7"
+    },
+    "ai-sessions/workspace_vrztdtlb/official/interaction/trigger.lua": {
+      "bytes": 2422,
+      "sha256": "9cb1f75f39695c23e35def010716b2b676afb1ef5beb62d45540d5a00b37952a"
+    },
+    "ai-sessions/workspace_vrztdtlb/official/ui/animation.lua": {
+      "bytes": 12508,
+      "sha256": "9ef9e81f67a466e7172731ed7cc8f4d1e7105fc8a2c28723ae317f798235b357"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_entry_v2/meta.json": {
+      "bytes": 90,
+      "sha256": "c233d41f5438d3b703e82c0114739e4d7b746846ab0687f7ec17bab11331258c"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_entry_v2/package/prefab.wprefab": {
+      "bytes": 21228,
+      "sha256": "2bae8139d8c1c42b8498669a51bce38edc52524d6a988e8ae28ecb62eb7f6989"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_entry_v2/prefab.json": {
+      "bytes": 95887,
+      "sha256": "0da9011a1ea0b082d9c1d11ac9a783495df80e20517567941882d0fba54ce24f"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_expand_v5/meta.json": {
+      "bytes": 93,
+      "sha256": "7c4dabe46dd2fbbdf9f9cc72cc753d33de481ed31473f61d87f0a1121631ab86"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_expand_v5/package/prefab.wprefab": {
+      "bytes": 22726,
+      "sha256": "33d9ac5060d1bf5d6a77d83d3e4deb7b1dbb9b0662c82f697a17329f8a9a7aea"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_expand_v5/prefab.json": {
+      "bytes": 100485,
+      "sha256": "1e5996d9d6ebcaf3a7f644d83b9a0e27622cf1893eec0b33df7e0322bad8b48b"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_expand_v5/scripts/castle_expand_display.lua": {
+      "bytes": 2461,
+      "sha256": "6a445ca2ed0c5fede80e329e9561759a240f6bf13e3a450e52a4c01a55a925b8"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_refit_v1/meta.json": {
+      "bytes": 90,
+      "sha256": "6c7eb42488a32a487fc8e041561462e14ab1fc3ae65678af3c7f155f05f3efe3"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_refit_v1/package/prefab.wprefab": {
+      "bytes": 23603,
+      "sha256": "715fbf6f36e531e792bd574323fe592381e6f2c5928bef4047e3f98767bb99a2"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_refit_v1/prefab.json": {
+      "bytes": 119947,
+      "sha256": "a886fff9dab1a2440041b42de982c87877864bf18d3cc9bc5147d3fd834920e8"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_refit_v1/scripts/castle_baked_display.lua": {
+      "bytes": 2146,
+      "sha256": "db4add1b33365598dbbbe3e36afb83b58dd7ce31f9071ea1cff25ffd65384b38"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_sample_v3/meta.json": {
+      "bytes": 93,
+      "sha256": "f5e007250606e5f3b5af72c752ead97339a7ab73bdace17a15690232d869d870"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_sample_v3/package/prefab.wprefab": {
+      "bytes": 22553,
+      "sha256": "a216008538bfdd4d011717400f5060ab4dca61c8f9bcf086e239147f899b1ced"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_sample_v3/prefab.json": {
+      "bytes": 98654,
+      "sha256": "910c25ce0fbcf602f251bdc3a829dddc7fead4aba4222ede22d7e8fcdf8cfb83"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_sample_v3/scripts/castle_sample_display.lua": {
+      "bytes": 2452,
+      "sha256": "15f4714732fe9420e04b36e88c3b8c81e5bb98d8db313cb58522d6aaf89a6a30"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_smooth_expand_v7/meta.json": {
+      "bytes": 114,
+      "sha256": "9e162db2120d85c0cc0bb98bf44ca5b33ce1f8e76e641bd45aa8546b5112ab5f"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_smooth_expand_v7/package/prefab.wprefab": {
+      "bytes": 22704,
+      "sha256": "cfeba320575ed80d975525a62d0c59e37f1a472b92bff8af8a1ce96164c8134f"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_smooth_expand_v7/prefab.json": {
+      "bytes": 100400,
+      "sha256": "8a4b9a8e994f93b527c9557728b2bd68617097dafc41a2eeaa6ce081906d5f87"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_smooth_expand_v7/scripts/castle_smooth_display.lua": {
+      "bytes": 2446,
+      "sha256": "2c12a2cc7d81b71a8636faa719c336cb5ae05653519ae7f0b561a148fe757a5f"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_smooth_sample_v7/meta.json": {
+      "bytes": 114,
+      "sha256": "f4f33d43bf483dafff6c09ab9270208356f7621fc45bdfe93f10330a0fe2b291"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_smooth_sample_v7/package/prefab.wprefab": {
+      "bytes": 22556,
+      "sha256": "0b35208c66e4a162831dfdd03165e8d0856804d1493cc8bdd9d53311af0b1140"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_smooth_sample_v7/prefab.json": {
+      "bytes": 99344,
+      "sha256": "d007dd7a2142ffd2e1245c914f36c74890fbd1724d1068c102b1c8f027c514a0"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_smooth_sample_v7/scripts/castle_smooth_display.lua": {
+      "bytes": 2446,
+      "sha256": "faa1222abc8c1e8b2b57288e2b70b7385472f1e1f0dca259c49849a7e09bd94b"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_smooth_tone_v7/meta.json": {
+      "bytes": 108,
+      "sha256": "9213167b473c9cbc136574916fa3d20b29ab1e2c1b783eb965729bcb99cb864c"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_smooth_tone_v7/package/prefab.wprefab": {
+      "bytes": 22396,
+      "sha256": "cb064451d93fbe4393c41d8fabcd8953c5472c6132961872a3dededa1e15873f"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_smooth_tone_v7/prefab.json": {
+      "bytes": 94652,
+      "sha256": "03cc37983d4e752d8015b2fd37cf578a355440ff47af64dd0c60c4bd9b3b417c"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_smooth_tone_v7/scripts/castle_tone.lua": {
+      "bytes": 3611,
+      "sha256": "c5e7c1746e91ad3aa2cdd27a1d66911e2f8c2787504ddb36c48e4cce6d4d2891"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_tone_v6/meta.json": {
+      "bytes": 87,
+      "sha256": "102dc42822192932288e2b9b22fc8886c1f360e42b698fe906e552c587442241"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_tone_v6/package/prefab.wprefab": {
+      "bytes": 22378,
+      "sha256": "c5b7d4dad58f7e533449f5dc6ddce22e1159aa6f218ca447ff3fbb8047a7c802"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_tone_v6/prefab.json": {
+      "bytes": 94650,
+      "sha256": "36dae1223c3740c7b8e6ebbb2b9eaf7c6d66c8c9895d779816b685f113047c15"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/castle_tone_v6/scripts/castle_tone.lua": {
+      "bytes": 3598,
+      "sha256": "a4317fea9f015466b8596a3b46095cf82092b0610346a2e3d4523c249a4fa375"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/tripo_scene_v1/.tmp/scene-execute/ghost_idle-anim.js": {
+      "bytes": 2388,
+      "sha256": "ae0d9b96fc7b5b2f9dbee4f37814cdb17a10ede7fb0124c439550e670d9eb297"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/tripo_scene_v1/.tmp/scene-execute/horse_idle-anim.js": {
+      "bytes": 2732,
+      "sha256": "9bf9a3ee7f91b911e2c0788d30dd72290c846a9dbf961b950dfae4389dd8b021"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/tripo_scene_v1/.tmp/scene-execute/sheep_idle-anim.js": {
+      "bytes": 2366,
+      "sha256": "86ce9754ada6e37288a0f91ac4631edb141a1555388e9663af689c511a384fb4"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/tripo_scene_v1/.tmp/scene-execute/witch_idle-anim.js": {
+      "bytes": 2002,
+      "sha256": "00cb860a975722b8c713154b5661860b3ec49d04eea9bf72e49ad14003dac59c"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/tripo_scene_v1/meta.json": {
+      "bytes": 87,
+      "sha256": "fe80e2435d5862168cdaa56c4c1d03c2b66d000ac30ce740ec7c4f49cdb0163f"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/tripo_scene_v1/package/prefab.wprefab": {
+      "bytes": 68145,
+      "sha256": "a96b8584017e5c40d7e5c4bfbe8a4b61c41689c69b38683efab91ec5b6fd6e94"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/tripo_scene_v1/prefab.json": {
+      "bytes": 177127,
+      "sha256": "3923bf5b96195207c82731ed1029b15a310e23bcd9017f1996883ca4824e529e"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/tripo_scene_v1/scripts/horse_seat_v1.lua": {
+      "bytes": 42714,
+      "sha256": "c2a4621bbc5489cd0f4601e2e066b4429415758815daef8abf436ce8588fc456"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/tripo_scene_v1/scripts/scene_dial.lua": {
+      "bytes": 873,
+      "sha256": "488f64da06f82cfc442f0e8627158cf9a8ecd112e7293bb5800f1b73cceef4e4"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/tripo_scene_v1/scripts/scene_mushroom.lua": {
+      "bytes": 3060,
+      "sha256": "107764f6ff1022ada33875add52487c818e28090bd6aec5ea85f2c8dcecfefec"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/tripo_scene_v1/scripts/scene_sheep_sound.lua": {
+      "bytes": 350831,
+      "sha256": "2bc18f2d3b1cee6e378cedbe95587c84c3854f45d25bc1317b55474abda311ad"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/tripo_scene_v1/scripts/scene_vehicle_boat.lua": {
+      "bytes": 5619,
+      "sha256": "1d75d684882337744da3b5ad06b26a8afbd657a1a2696d360661c7cee1ef45fb"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/tripo_scene_v1/scripts/scene_vehicle_carpet.lua": {
+      "bytes": 40437,
+      "sha256": "12cd4f4093f0aca927c3e01eb6d148b3e6c2c53b0c178313a6b84823dfc23fda"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/tripo_scene_v1/scripts/tripo_sheep_motion.lua": {
+      "bytes": 2991,
+      "sha256": "0903a802f0480c6209a0e94161cb429facb5159b7318d8f194ec7b6288f266fe"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/wheat_v20/meta.json": {
+      "bytes": 72,
+      "sha256": "143fdc6072032cb03860e7d55ad425d6903c27fd6b26be45785d8e76386c9617"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/wheat_v20/package/prefab.wprefab": {
+      "bytes": 34712,
+      "sha256": "37d852a009bcf5c3baa9f2f00ba0e4f0f052154f0652756fa74b6b34579037f6"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/wheat_v20/prefab.json": {
+      "bytes": 223123,
+      "sha256": "d72b2c4abf3ed816b031f7e08e60fc8f44ee67e74af8fa148502b04f4e056b87"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/wheat_v21/meta.json": {
+      "bytes": 72,
+      "sha256": "8471613eaa565edf1fbe31023fb6641f33285fe7ff3a943fbb979e5609dea61e"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/wheat_v21/package/prefab.wprefab": {
+      "bytes": 36261,
+      "sha256": "5ffd5ecd20bb83ec1d5e67784c4d37f8235981c5f8321e080abf26a2f7af071c"
+    },
+    "ai-sessions/workspace_vrztdtlb/wprefabs/wheat_v21/prefab.json": {
+      "bytes": 225184,
+      "sha256": "ab9ae4b8f08fddd9b3cb3c0cadf9ab0131ca6fcebd00ea45a7334a39eba8689c"
+    },
+    "ai-sessions/workspace_yxj8pmfy/meta.json": {
+      "bytes": 289,
+      "sha256": "7cb76137c039e6eba74d6c05ef2518a9d7b39e08fe6224669cb014e7c7b9b0a6"
+    },
+    "ai-sessions/workspace_yxj8pmfy/official/core/logger.lua": {
+      "bytes": 1263,
+      "sha256": "89d79d801c9887bb1ec6335a35192ed960a026e3dc0df6299837b649517f0d6f"
+    },
+    "ai-sessions/workspace_yxj8pmfy/official/core/node_lookup.lua": {
+      "bytes": 8940,
+      "sha256": "62c10213881904b7fef2fd97f1cb92eff05bd6483a56e4a500789c2964bff835"
+    },
+    "ai-sessions/workspace_yxj8pmfy/official/core/runtime_scope.lua": {
+      "bytes": 12423,
+      "sha256": "b3f3301d854355ecad979483796fa9fe2df0c4b9e2d6af136f37dc0a64dc5cea"
+    },
+    "ai-sessions/workspace_yxj8pmfy/official/core/spawn.lua": {
+      "bytes": 7112,
+      "sha256": "ca461f4a1f68925bdd6e1fe043abafbf9913bc0ba37e104825c5bc13c6324f23"
+    },
+    "ai-sessions/workspace_yxj8pmfy/official/core/spawn_registry.lua": {
+      "bytes": 739,
+      "sha256": "722f95acc15bab690b63bcfb51010bace1d57f6c23dfbda7d2cb47a79dd4f3d6"
+    },
+    "ai-sessions/workspace_yxj8pmfy/official/geometry/containment.lua": {
+      "bytes": 11201,
+      "sha256": "0e083201f45081caa3ec578dc662adbd996038533aa0fb2ce3525ddd5f4f64a7"
+    },
+    "ai-sessions/workspace_yxj8pmfy/official/interaction/trigger.lua": {
+      "bytes": 2422,
+      "sha256": "9cb1f75f39695c23e35def010716b2b676afb1ef5beb62d45540d5a00b37952a"
+    },
+    "ai-sessions/workspace_yxj8pmfy/official/ui/animation.lua": {
+      "bytes": 12508,
+      "sha256": "9ef9e81f67a466e7172731ed7cc8f4d1e7105fc8a2c28723ae317f798235b357"
+    },
+    "ai-sessions/workspace_zpuv5vvs/official/core/logger.lua": {
+      "bytes": 1263,
+      "sha256": "89d79d801c9887bb1ec6335a35192ed960a026e3dc0df6299837b649517f0d6f"
+    },
+    "ai-sessions/workspace_zpuv5vvs/official/core/node_lookup.lua": {
+      "bytes": 8940,
+      "sha256": "62c10213881904b7fef2fd97f1cb92eff05bd6483a56e4a500789c2964bff835"
+    },
+    "ai-sessions/workspace_zpuv5vvs/official/core/runtime_scope.lua": {
+      "bytes": 12423,
+      "sha256": "b3f3301d854355ecad979483796fa9fe2df0c4b9e2d6af136f37dc0a64dc5cea"
+    },
+    "ai-sessions/workspace_zpuv5vvs/official/core/spawn.lua": {
+      "bytes": 7259,
+      "sha256": "766300ef9ecf4d247ba97958397b7f92f7f6ffe46b0b3006286080d9bb815814"
+    },
+    "ai-sessions/workspace_zpuv5vvs/official/core/spawn_registry.lua": {
+      "bytes": 739,
+      "sha256": "722f95acc15bab690b63bcfb51010bace1d57f6c23dfbda7d2cb47a79dd4f3d6"
+    },
+    "ai-sessions/workspace_zpuv5vvs/official/effect/playback.lua": {
+      "bytes": 31668,
+      "sha256": "c7e4fc8b0daa350923815e14c54161aa7d1a9242c403162ecf7244cba10985a2"
+    },
+    "ai-sessions/workspace_zpuv5vvs/official/geometry/containment.lua": {
+      "bytes": 11201,
+      "sha256": "0e083201f45081caa3ec578dc662adbd996038533aa0fb2ce3525ddd5f4f64a7"
+    },
+    "ai-sessions/workspace_zpuv5vvs/official/interaction/trigger.lua": {
+      "bytes": 2422,
+      "sha256": "9cb1f75f39695c23e35def010716b2b676afb1ef5beb62d45540d5a00b37952a"
+    },
+    "ai-sessions/workspace_zpuv5vvs/official/ui/animation.lua": {
+      "bytes": 12508,
+      "sha256": "9ef9e81f67a466e7172731ed7cc8f4d1e7105fc8a2c28723ae317f798235b357"
+    },
+    "ai-sessions/workspace_zpuv5vvs/wprefabs/dragon_rpg_v1/.tmp/resource-publications/a0298e2243f1b0a0381f412079b2cbcc4bf2734d50848e130e6a2e8981f424bf.json": {
+      "bytes": 423,
+      "sha256": "f40984e1de310634ff56ddc9106760ecd5c279e81af9ccc54cca511bd6be118b"
+    },
+    "ai-sessions/workspace_zpuv5vvs/wprefabs/dragon_rpg_v1/assets/models/model-dragon-contract-book/meta.json": {
+      "bytes": 216,
+      "sha256": "7a3bf020d381b47059504e49ff6d54172d22b75628620f74ae5d2cdbf51a221f"
+    },
+    "ai-sessions/workspace_zpuv5vvs/wprefabs/dragon_rpg_v1/assets/models/model-dragon-contract-book/package/model-output.sha256": {
+      "bytes": 65,
+      "sha256": "76f8b835c057e8bc865b7d3cecd157385f484bc0dd404e6312f20d079eb0977d"
+    },
+    "ai-sessions/workspace_zpuv5vvs/wprefabs/dragon_rpg_v1/assets/models/model-dragon-contract-book/package/model.glb": {
+      "bytes": 2562696,
+      "sha256": "42de3f1f4cc9eabcc29eeab91679468a4ea17e4dc996e695397af2bdd3247968"
+    },
+    "ai-sessions/workspace_zpuv5vvs/wprefabs/dragon_rpg_v1/assets/models/model-dragon-contract-book/package/resource.json": {
+      "bytes": 289,
+      "sha256": "735cd2b821e0aff56470882ab45e0116f030d4f44930b41db996fb6134f309b5"
+    },
+    "ai-sessions/workspace_zpuv5vvs/wprefabs/dragon_rpg_v1/assets/models/model-dragon-contract-book/topology/README.md": {
+      "bytes": 144,
+      "sha256": "488e49cc3c02b98d730a8b910c1ea5dbeac0209ff0fad3a8a629f31a2408ae97"
+    },
+    "ai-sessions/workspace_zpuv5vvs/wprefabs/dragon_rpg_v1/assets/models/model-dragon-contract-book/topology/model.glb": {
+      "bytes": 640136,
+      "sha256": "05bcfdeb8c6dcfd5516ed1963bc84305706bc5b4bc73cfc8c8bf5dfb58128818"
+    },
+    "ai-sessions/workspace_zpuv5vvs/wprefabs/dragon_rpg_v1/meta.json": {
+      "bytes": 84,
+      "sha256": "49276a0a115b5fe379b9c6eb7e58aff1c8c5b43d7bd0260fb657ee300d06896a"
+    },
+    "ai-sessions/workspace_zpuv5vvs/wprefabs/dragon_rpg_v1/package/prefab.wprefab": {
+      "bytes": 57241,
+      "sha256": "ef1efbd6546832c1f4ddb887f6cf6c80e70fbe27fad0c471ed47d95e5b008d0a"
+    },
+    "ai-sessions/workspace_zpuv5vvs/wprefabs/dragon_rpg_v1/prefab.json": {
+      "bytes": 199946,
+      "sha256": "093d1caf2af79264383b798ba39a0336d6f063489d46c2ed4fbe729e7a3db975"
+    },
+    "ai-sessions/workspace_zpuv5vvs/wprefabs/dragon_rpg_v1/scripts/dragon_fx.lua": {
+      "bytes": 5328,
+      "sha256": "ac67151e7fbc79d7f190eb8796ca3d6891ab094ff254d6aff85223c6a91606e7"
+    },
+    "ai-sessions/workspace_zpuv5vvs/wprefabs/dragon_rpg_v1/scripts/dragon_outfits.lua": {
+      "bytes": 44668,
+      "sha256": "55d2b5b3fb6954d1ac2bddd30955777615fbedadbc95d33fa14233e5f91496b4"
+    },
+    "ai-sessions/workspace_zpuv5vvs/wprefabs/dragon_rpg_v1/scripts/dragon_rpg.lua": {
+      "bytes": 16199,
+      "sha256": "7ed818f55b2067741171a20686a1ccc8acb62a2ef86d556ac4d4e9b7c8099189"
+    },
+    "ai-sessions/workspace_zpuv5vvs/wprefabs/dragon_rpg_v1/scripts/dragon_rules.lua": {
+      "bytes": 2996,
+      "sha256": "dea1e48bd3c1d061d6961a66dd5df4c4824fb349e7a81bf812111d90940b5bda"
+    },
+    "ai-sessions/workspace_zpuv5vvs/wprefabs/dragon_rpg_v1/scripts/dragon_timeline.lua": {
+      "bytes": 9434,
+      "sha256": "5052038417e705e84ad99d322cbe2c3a5ffa197b065d7a9e06ca43ac77cf0a2c"
+    },
+    "ai-sessions/workspace_zpuv5vvs/wprefabs/dragon_rpg_v1/scripts/dragon_weapons.lua": {
+      "bytes": 41062,
+      "sha256": "56e3da0f5104c1b45fd4b8b323c71bdcb2eee16eda7df1dce198ba151a70edc4"
+    },
+    "ai-topology-generate-config.json": {
+      "bytes": 27051,
+      "sha256": "2fff5ed5d4431973718934a7bafac10fea4469b3358d747291d6a32ec95fddee"
+    },
+    "project.json": {
+      "bytes": 128,
+      "sha256": "b19755535d8b070e8e2bce28f0ec92ed36e00a3c3d7999c0b81885f536719c7c"
+    },
+    "scene.data": {
+      "bytes": 12277858,
+      "sha256": "cec4dce9f7477c5fd5d4c534fcbe4d27e434ed05d57b22eaee4ed16f86aadd3b"
+    },
+    "scripts/client/index.lua": {
+      "bytes": 44,
+      "sha256": "1f89b91f4ffb9482f6f95b9269ec801faf1fcf692cd22e3bea077fb843ddde9c"
+    },
+    "scripts/horse_seat_v1.lua": {
+      "bytes": 42681,
+      "sha256": "caa7c0d987fcdeaf8840996534131b577532d180e65325bbea7aac60cccf08f8"
+    },
+    "scripts/modules/imported/prefab_1/tripo_sheep_motion.lua": {
+      "bytes": 2991,
+      "sha256": "0903a802f0480c6209a0e94161cb429facb5159b7318d8f194ec7b6288f266fe"
+    },
+    "scripts/modules/imported/prefab_10/dragon_combat.lua": {
+      "bytes": 14923,
+      "sha256": "6c6025383dc374030fe635252ec20938caa1dec6277ff8b92e1e82b9e846effa"
+    },
+    "scripts/modules/imported/prefab_10/dragon_combat_rules.lua": {
+      "bytes": 9796,
+      "sha256": "066275606af7f04a34d7b1bcadfe89962b78d111d92c84bf8940820c77f20b3e"
+    },
+    "scripts/modules/imported/prefab_10/dragon_daycycle.lua": {
+      "bytes": 2948,
+      "sha256": "f5c2744add3405e40fcd04295bb1913d07f376ca5dbcef5910aaf51771e95eac"
+    },
+    "scripts/modules/imported/prefab_10/dragon_exploration.lua": {
+      "bytes": 16854,
+      "sha256": "28eec145afd317db222b41c30e719283610abf259f333971644f90d61ab9bd82"
+    },
+    "scripts/modules/imported/prefab_10/dragon_fx.lua": {
+      "bytes": 26190,
+      "sha256": "4fc607da2b7009de44b7f5db62f0a0da8ffeb36a9f2a39854e3ddabceedc241b"
+    },
+    "scripts/modules/imported/prefab_10/dragon_outfits.lua": {
+      "bytes": 44933,
+      "sha256": "1822d24ddeb4159a5362271fdd978aad5fd15b6c4af8782ffaff4a4778490678"
+    },
+    "scripts/modules/imported/prefab_10/dragon_progress.lua": {
+      "bytes": 4751,
+      "sha256": "2aab3468838a8c02476ab64d62711f632e3b94cc472703b10c68ebdb652b2462"
+    },
+    "scripts/modules/imported/prefab_10/dragon_progress_rules.lua": {
+      "bytes": 6549,
+      "sha256": "899dc6946e5b1b1df84e2c27af550a48e6ae30f6ec632d756230ff037b5b61e2"
+    },
+    "scripts/modules/imported/prefab_10/dragon_rpg.lua": {
+      "bytes": 27687,
+      "sha256": "9450700094a58af04a8328260c59d28c4783bdf377aa65ed2010bc62b7aca535"
+    },
+    "scripts/modules/imported/prefab_10/dragon_rules.lua": {
+      "bytes": 3710,
+      "sha256": "f809d17fdd1920ca90aa6c788b1a55c791780c4e4da48cacaa8a09ecb8375e8a"
+    },
+    "scripts/modules/imported/prefab_10/dragon_timeline.lua": {
+      "bytes": 10336,
+      "sha256": "f1bbe401770d06e51d4863dadd82593c1e2dacbcf4966a87e3e6292beeea224c"
+    },
+    "scripts/modules/imported/prefab_10/dragon_weapons.lua": {
+      "bytes": 41184,
+      "sha256": "9d8d2869a4ecbe3b2ca3937c401ca4f10a0d4a78b0a33cc651b60d74d24a9e9f"
+    },
+    "scripts/modules/imported/prefab_10/dragon_world_bridge.lua": {
+      "bytes": 8474786,
+      "sha256": "19277fb4d2d459d9eae03291b0654721470fa00314a8ed94e735b2c7aca2b1d8"
+    },
+    "scripts/modules/imported/prefab_11/dragon_combat.lua": {
+      "bytes": 14979,
+      "sha256": "2e43f76586aa3658bc7a7e34b799ea006fa9319b3b32979092671b85186a9ea5"
+    },
+    "scripts/modules/imported/prefab_11/dragon_combat_rules.lua": {
+      "bytes": 9852,
+      "sha256": "ace393a267a5bae1f39928ffa54a7b3fdcb6636b23b09c9efedec862d85b0b01"
+    },
+    "scripts/modules/imported/prefab_11/dragon_daycycle.lua": {
+      "bytes": 3004,
+      "sha256": "440f31f663e3a60c1fd30b95df9bff967b1ebb9aae0eab8323336e4e4e42b345"
+    },
+    "scripts/modules/imported/prefab_11/dragon_exploration.lua": {
+      "bytes": 16913,
+      "sha256": "2718981a618578eaf4893cc9d840802f6c6d07290723aa257d4ded54600c838c"
+    },
+    "scripts/modules/imported/prefab_11/dragon_fx.lua": {
+      "bytes": 26246,
+      "sha256": "af58341ff4285505d7b6ab2026f3b4cb935125a977fd514ada4cbc1e5b63595f"
+    },
+    "scripts/modules/imported/prefab_11/dragon_outfits.lua": {
+      "bytes": 44989,
+      "sha256": "01c389c688829933521965ee1d558cd3d785248d1a0abfff80507a4382eb6d39"
+    },
+    "scripts/modules/imported/prefab_11/dragon_progress.lua": {
+      "bytes": 1809,
+      "sha256": "c05e375c12a181ecd40cb8cefbb1ba62591ac8acbfb543348f4cbd5db511ad8b"
+    },
+    "scripts/modules/imported/prefab_11/dragon_progress_rules.lua": {
+      "bytes": 6593,
+      "sha256": "a52acd5074dc5eb42b6e6471f41e47ebac13360f117d3d8a795ef9eeeffa045a"
+    },
+    "scripts/modules/imported/prefab_11/dragon_rpg.lua": {
+      "bytes": 27737,
+      "sha256": "6ca32fab7c8f37025d49bd1e8106b194d88cce96f0eac86bf73694632d6a29ad"
+    },
+    "scripts/modules/imported/prefab_11/dragon_rules.lua": {
+      "bytes": 3766,
+      "sha256": "bb02671bb888d23909f5b6f672b359599e3e7ff6dd5628f81a7e507304e089d6"
+    },
+    "scripts/modules/imported/prefab_11/dragon_timeline.lua": {
+      "bytes": 10392,
+      "sha256": "b77e196dc594b3cf5bf20781aa6572d9ed2a3436ae0efdfe9d4d7d78da0534a1"
+    },
+    "scripts/modules/imported/prefab_11/dragon_weapons.lua": {
+      "bytes": 41240,
+      "sha256": "f8e3e4dc4ddfd085f101e8250da844d394e6d9183911deeaa570391e172ee5d9"
+    },
+    "scripts/modules/imported/prefab_11/dragon_world_bridge.lua": {
+      "bytes": 8474842,
+      "sha256": "1d27ab789ee010817fc47dd4fc2cce2dfd0b4bff753fd6c687b1719800539717"
+    },
+    "scripts/modules/imported/prefab_12/dragon_combat.lua": {
+      "bytes": 16835,
+      "sha256": "fb4d11edc18db31de84da4a09ed42609b958f114efec3f5ee9721e22d1ea15d0"
+    },
+    "scripts/modules/imported/prefab_12/dragon_combat_rules.lua": {
+      "bytes": 9852,
+      "sha256": "ffc9f06fcbd9ec4782eeeda6e0a32b15cde2aced2bc5e6df57f6405eb66bfec1"
+    },
+    "scripts/modules/imported/prefab_12/dragon_daycycle.lua": {
+      "bytes": 3004,
+      "sha256": "4ed6d97aa92f2cbc6c79a9133016867efad45e558c6e4b722efe679a5b36f627"
+    },
+    "scripts/modules/imported/prefab_12/dragon_exploration.lua": {
+      "bytes": 20187,
+      "sha256": "6983f5e95563465c090f66f27d8772ed88b9986d3aefc618b370af2563eb7916"
+    },
+    "scripts/modules/imported/prefab_12/dragon_fx.lua": {
+      "bytes": 26246,
+      "sha256": "c513580eedbc0babb452bf8ef93a553135701e4740b3e93d79fd18a235a8969b"
+    },
+    "scripts/modules/imported/prefab_12/dragon_outfits.lua": {
+      "bytes": 44989,
+      "sha256": "5033b1c9f99d5d431b5199d87ccfda9370957bcc96a3848c65e956342dbe16da"
+    },
+    "scripts/modules/imported/prefab_12/dragon_progress.lua": {
+      "bytes": 1809,
+      "sha256": "8f4c10af7e3acce55b959bc4b1bcf4ad7e644d2fccfb45d3c6ec85a20115f1f6"
+    },
+    "scripts/modules/imported/prefab_12/dragon_progress_rules.lua": {
+      "bytes": 6612,
+      "sha256": "a78ba6f1641278b77b27d616a2eccdb96b788b9cbe9f5440c3e231d3a7e1a006"
+    },
+    "scripts/modules/imported/prefab_12/dragon_rpg.lua": {
+      "bytes": 29171,
+      "sha256": "2e763849447cf46e418df0032a36f6905553c9c8d4ef99b2f10e18655b2728c9"
+    },
+    "scripts/modules/imported/prefab_12/dragon_rules.lua": {
+      "bytes": 3766,
+      "sha256": "861e646d93b39e08a08b813064ff93cc19dac7185273ae125c5044745a073d8b"
+    },
+    "scripts/modules/imported/prefab_12/dragon_timeline.lua": {
+      "bytes": 10392,
+      "sha256": "611038632b29c4ad2f47c78f545f5630f10b87b5912f6c105449f858971fb1ac"
+    },
+    "scripts/modules/imported/prefab_12/dragon_weapons.lua": {
+      "bytes": 41240,
+      "sha256": "b52bf3f6c593fb6e72b5916bb00d4d78e73a537340a1063b3387f52e884a74db"
+    },
+    "scripts/modules/imported/prefab_12/dragon_world_bridge.lua": {
+      "bytes": 18574501,
+      "sha256": "8631f4373b038222ba8074a3f8128efe3a2bd3be93249b4925362bc0e77f5455"
+    },
+    "scripts/modules/imported/prefab_13/dragon_combat.lua": {
+      "bytes": 16835,
+      "sha256": "6f24abecc24fe921c450acf3615fd018df19edae1dc3306de8e9f4deac42c29c"
+    },
+    "scripts/modules/imported/prefab_13/dragon_combat_rules.lua": {
+      "bytes": 9852,
+      "sha256": "62c4e0b365f165ba86f2eac2d9b40e2e932dc22c2c0c486b407edcfd76e52fbc"
+    },
+    "scripts/modules/imported/prefab_13/dragon_daycycle.lua": {
+      "bytes": 3004,
+      "sha256": "58a9c76dd862e5597b8cdbf462a7b5d481aef6d46480ac9db493f56f773867df"
+    },
+    "scripts/modules/imported/prefab_13/dragon_exploration.lua": {
+      "bytes": 20187,
+      "sha256": "bb6d7b17c144150ee1e5d11aa4901528bb355b51b3ee426f2ac87ef2b9b78030"
+    },
+    "scripts/modules/imported/prefab_13/dragon_fx.lua": {
+      "bytes": 26246,
+      "sha256": "903dc3dda251baaa0ecf1bd2ae65e156d8282017a228ec22bcc7bcb5d43b6403"
+    },
+    "scripts/modules/imported/prefab_13/dragon_outfits.lua": {
+      "bytes": 44989,
+      "sha256": "0b0da1d286d6e8b45f7b9480692272e6f822fb34afa2078fe61bb7fd24036904"
+    },
+    "scripts/modules/imported/prefab_13/dragon_progress.lua": {
+      "bytes": 2195,
+      "sha256": "100abfec58dd7f25c65e68da98d1715125916c56a95e2d7f1336df00071b34de"
+    },
+    "scripts/modules/imported/prefab_13/dragon_progress_rules.lua": {
+      "bytes": 6612,
+      "sha256": "02ec63154c7ce94212a9726c9ab8c0c8f487cafa1683ebe7ab7c1357bab8bbf3"
+    },
+    "scripts/modules/imported/prefab_13/dragon_rpg.lua": {
+      "bytes": 29171,
+      "sha256": "9eeadd2fb792312b1441317939dfe92e4991872279de465f33fbc3d7ce23734b"
+    },
+    "scripts/modules/imported/prefab_13/dragon_rules.lua": {
+      "bytes": 3766,
+      "sha256": "473e79f3cfa1e31bac03bc9ca387fb2677b08eb2011d12ffcd3c9b68507bfdc2"
+    },
+    "scripts/modules/imported/prefab_13/dragon_timeline.lua": {
+      "bytes": 10392,
+      "sha256": "e7f748363989eab560edcdbeabd1fbe86c1b3f209eae96627ff433b549fdc04a"
+    },
+    "scripts/modules/imported/prefab_13/dragon_weapons.lua": {
+      "bytes": 41240,
+      "sha256": "f3c6c10178ccb969ff6e55f103767e33f3bcbc5a8280bc9f2c5e34fdb7da8e22"
+    },
+    "scripts/modules/imported/prefab_13/dragon_world_bridge.lua": {
+      "bytes": 18574498,
+      "sha256": "a7bed35df4d525c74b0152d611dcd14b95fde30bebcf33fb9b14621f54fbdb23"
+    },
+    "scripts/modules/imported/prefab_14/dragon_combat.lua": {
+      "bytes": 16835,
+      "sha256": "1e5f59211674af71783398a4ce3b5f4adf84610fc60b614f3de74da0fbcff652"
+    },
+    "scripts/modules/imported/prefab_14/dragon_combat_rules.lua": {
+      "bytes": 9852,
+      "sha256": "8154939e070096f41f83c0d74f6afb43b5c4b42703ead1571cea2d2113e27db5"
+    },
+    "scripts/modules/imported/prefab_14/dragon_daycycle.lua": {
+      "bytes": 3004,
+      "sha256": "b9b67e1dabb05e4b42e2e0fa8e642e600dcb80e37218f41b2ed41e0555b5ad8c"
+    },
+    "scripts/modules/imported/prefab_14/dragon_exploration.lua": {
+      "bytes": 19754,
+      "sha256": "6c4dacd74622056fcbe489e273723e050e02ff78a4d60758fe9cd7a08703f285"
+    },
+    "scripts/modules/imported/prefab_14/dragon_fx.lua": {
+      "bytes": 26246,
+      "sha256": "9c37a82efe151fafb640df079f995c7587e8dbaa3de34e9f4846312e828283ed"
+    },
+    "scripts/modules/imported/prefab_14/dragon_outfits.lua": {
+      "bytes": 44989,
+      "sha256": "0d200d67e62005e1f204e595d590099cadfa1e8c4152b5196a78405903f60673"
+    },
+    "scripts/modules/imported/prefab_14/dragon_progress.lua": {
+      "bytes": 2195,
+      "sha256": "b8232b9101c5e24a6f727a0ae657a57d11c4440ce3610c1de858c529a50c27c1"
+    },
+    "scripts/modules/imported/prefab_14/dragon_progress_rules.lua": {
+      "bytes": 6580,
+      "sha256": "82ca7f24db15393d40d38bb9a88da82573a61af054ffd5b2c184fad086ccda1d"
+    },
+    "scripts/modules/imported/prefab_14/dragon_rpg.lua": {
+      "bytes": 29171,
+      "sha256": "588310e725dc654151b58a53ca2f01ebd43f40545f3bc8d4c17fa4ce42dd3c4e"
+    },
+    "scripts/modules/imported/prefab_14/dragon_rules.lua": {
+      "bytes": 3766,
+      "sha256": "153cd3acd936ad38916a16762cc6fec39aca7da28fb882ab36c69ae2f6285adf"
+    },
+    "scripts/modules/imported/prefab_14/dragon_timeline.lua": {
+      "bytes": 10392,
+      "sha256": "6cf38b4d4496c0a08826f8589523f5e36fea1cc40ee55a9f29e32231c3d8ad3c"
+    },
+    "scripts/modules/imported/prefab_14/dragon_weapons.lua": {
+      "bytes": 41240,
+      "sha256": "3b86fec78a6aa435f54a37b92b919411a1e6398dfbf6789b8c8bb95827abb92b"
+    },
+    "scripts/modules/imported/prefab_14/dragon_world_bridge.lua": {
+      "bytes": 18574498,
+      "sha256": "9f3ed942ced6e6b9399ff709052b91623000578dfe6a76929a8aae0305e9ce5e"
+    },
+    "scripts/modules/imported/prefab_15/dragon_combat.lua": {
+      "bytes": 16835,
+      "sha256": "517d71e01f19a97f7240b197c499ad00f64c8a4586634d365546dae6d70616ed"
+    },
+    "scripts/modules/imported/prefab_15/dragon_combat_rules.lua": {
+      "bytes": 9852,
+      "sha256": "90762c140a87bc3b7ff28946ef2cbb1c10ed5b133fc66134e3e658254c928292"
+    },
+    "scripts/modules/imported/prefab_15/dragon_daycycle.lua": {
+      "bytes": 3004,
+      "sha256": "065a654c1112d250063fa2f69bf20c85bb75936223458d3d9a9329f43b9ab936"
+    },
+    "scripts/modules/imported/prefab_15/dragon_exploration.lua": {
+      "bytes": 19754,
+      "sha256": "47ba580b98bcacb5be1464ca1c154153ae6eacff765b29b9e5fb825c8f608f66"
+    },
+    "scripts/modules/imported/prefab_15/dragon_fx.lua": {
+      "bytes": 26246,
+      "sha256": "64629fd6f35481720926485219c02aa39a1ad12f178468e3a71c0dd40cf78aad"
+    },
+    "scripts/modules/imported/prefab_15/dragon_outfits.lua": {
+      "bytes": 44989,
+      "sha256": "d8ecc1fe2e4527d2905451c2574cb6cd44a568588820e8060e34476b60a0397a"
+    },
+    "scripts/modules/imported/prefab_15/dragon_progress.lua": {
+      "bytes": 2195,
+      "sha256": "4bde85c3ca5f4daa63c075889a0e323ea9a0b0e9f2f861a0dd314cb464aeffc8"
+    },
+    "scripts/modules/imported/prefab_15/dragon_progress_rules.lua": {
+      "bytes": 6580,
+      "sha256": "e9fd9259294bc2fb4f8ea2adb05af22190c1df724f4ec95c0db88c5129b76ce1"
+    },
+    "scripts/modules/imported/prefab_15/dragon_rpg.lua": {
+      "bytes": 29171,
+      "sha256": "a90b8c9db9f37c2a0ea8c82d8405002ab23d075dca136508338d8fb350c73168"
+    },
+    "scripts/modules/imported/prefab_15/dragon_rules.lua": {
+      "bytes": 3766,
+      "sha256": "e14a322c57b96b111652855a2809ec2fa141f31857b38ec26937f93acac70aca"
+    },
+    "scripts/modules/imported/prefab_15/dragon_timeline.lua": {
+      "bytes": 10392,
+      "sha256": "3c0316e67b8941d0c38da8df4af861356300818d7dc612240be9588053266ef7"
+    },
+    "scripts/modules/imported/prefab_15/dragon_weapons.lua": {
+      "bytes": 41240,
+      "sha256": "787d8df7cf5972958f64b0e53314df526c2f5d89f02b8179c80e6672e1949cb3"
+    },
+    "scripts/modules/imported/prefab_15/dragon_world_bridge.lua": {
+      "bytes": 8477524,
+      "sha256": "2f25c77827c83174bfb7daceb53a56303b80ba1752fab6a16288df506badf335"
+    },
+    "scripts/modules/imported/prefab_16/dragon_combat.lua": {
+      "bytes": 16835,
+      "sha256": "e5cfe44e4b8c8785871578a99e06b3e5746f72c744819c858416671e0d40713c"
+    },
+    "scripts/modules/imported/prefab_16/dragon_combat_rules.lua": {
+      "bytes": 9852,
+      "sha256": "40706b8a77e66b5b8f7c15918d12b28e7f1efceed5789ec4cfa781d8ce38b1b8"
+    },
+    "scripts/modules/imported/prefab_16/dragon_daycycle.lua": {
+      "bytes": 3004,
+      "sha256": "2bd46621127ea0eedaa6097c6d452bcc07c208543a5595474b2a66d3928650cd"
+    },
+    "scripts/modules/imported/prefab_16/dragon_exploration.lua": {
+      "bytes": 19754,
+      "sha256": "84634879fbece4c1b011ccd19742c46b7057751a8c9a0c90322e1e0361331a4a"
+    },
+    "scripts/modules/imported/prefab_16/dragon_fx.lua": {
+      "bytes": 26246,
+      "sha256": "706441bf31af551f3cffc61b1e56ff13110333499cb24522e60ffcd8b52c1ba0"
+    },
+    "scripts/modules/imported/prefab_16/dragon_outfits.lua": {
+      "bytes": 44989,
+      "sha256": "cb6678b7c85f5ed626b28605f545fac19a0f357ac40ed25c38bc9a94467dcb96"
+    },
+    "scripts/modules/imported/prefab_16/dragon_progress.lua": {
+      "bytes": 2195,
+      "sha256": "ee80ec4d808d31efc986f574f4d6fc15e29329c92b3eaa80686548efeb666683"
+    },
+    "scripts/modules/imported/prefab_16/dragon_progress_rules.lua": {
+      "bytes": 6580,
+      "sha256": "dcb111fe4fad2ecb4611c7fe921959368e95a3fa1174f6022e28859646bf772c"
+    },
+    "scripts/modules/imported/prefab_16/dragon_rpg.lua": {
+      "bytes": 29171,
+      "sha256": "166052f22828e18b49653372bdbcb839ed081e7c8f7c5291852422543ad4568d"
+    },
+    "scripts/modules/imported/prefab_16/dragon_rules.lua": {
+      "bytes": 3766,
+      "sha256": "dcb548175273f138e361f39f72e78e7d0cbea46d97e072d0e5f20fb9c0de3af5"
+    },
+    "scripts/modules/imported/prefab_16/dragon_timeline.lua": {
+      "bytes": 10392,
+      "sha256": "cddc7b3b7ded1183b5a9057b73f9a0894f731849251dd836073dd776b7227ca4"
+    },
+    "scripts/modules/imported/prefab_16/dragon_weapons.lua": {
+      "bytes": 41240,
+      "sha256": "6f3c5f71a848b270333aec0bebd18f9700bb102da62851e24cd4b5653c9856ee"
+    },
+    "scripts/modules/imported/prefab_16/dragon_world_bridge.lua": {
+      "bytes": 8477604,
+      "sha256": "d116c0a3c10c7c51138d049486812e6f3cd2ec1b3176b467c767f866ddc5378c"
+    },
+    "scripts/modules/imported/prefab_17/dragon_combat.lua": {
+      "bytes": 17294,
+      "sha256": "fecd842d83268b5f54a4ef6d3063540883b9e3079b2141a978e930ab5efe1784"
+    },
+    "scripts/modules/imported/prefab_17/dragon_combat_rules.lua": {
+      "bytes": 9852,
+      "sha256": "372b6697bb208d576c56bb83bb2c58932dec0fb98d18754369c5a43a42ee72ea"
+    },
+    "scripts/modules/imported/prefab_17/dragon_daycycle.lua": {
+      "bytes": 3004,
+      "sha256": "1264ad260e3123b5cf0f1732910f9d49a391ec1e297a3f8a0b81386ece6d6de6"
+    },
+    "scripts/modules/imported/prefab_17/dragon_exploration.lua": {
+      "bytes": 22259,
+      "sha256": "da6a35725a020581cf1d3944cee2cbc9b6862b3b4c064b9d30517dc0a591fc7c"
+    },
+    "scripts/modules/imported/prefab_17/dragon_fx.lua": {
+      "bytes": 26246,
+      "sha256": "ca31a25f8c655cb6e38b5bd90fe833ae9d0d33b99b7c22685e05559cb8d7fa77"
+    },
+    "scripts/modules/imported/prefab_17/dragon_outfits.lua": {
+      "bytes": 44989,
+      "sha256": "b58c08f226b015f3d2626b9bcf589becf6a9dcc1a0a706fc4d8054fcaf81e71b"
+    },
+    "scripts/modules/imported/prefab_17/dragon_progress.lua": {
+      "bytes": 2195,
+      "sha256": "0def5c5080757c890dc8ce01d8500bd4a69c3a043b8f515ee318cbddae74fc93"
+    },
+    "scripts/modules/imported/prefab_17/dragon_progress_rules.lua": {
+      "bytes": 6348,
+      "sha256": "7f477db8f3aaa258c79611149a84c5c4aa902dd870ee8a9077949876258c9fe6"
+    },
+    "scripts/modules/imported/prefab_17/dragon_rpg.lua": {
+      "bytes": 29588,
+      "sha256": "05378b4d401cd4d190f86d3f10a154d2d9697bceb674da5f030859d54d23b159"
+    },
+    "scripts/modules/imported/prefab_17/dragon_rules.lua": {
+      "bytes": 3766,
+      "sha256": "9d6c1c77d45158f8318ebb748d332ec569ca4e8cf5ba77d612fd26b285110f30"
+    },
+    "scripts/modules/imported/prefab_17/dragon_timeline.lua": {
+      "bytes": 10392,
+      "sha256": "b699bfef70b6c1c00f73333186509b87d8f92f0f62b16a30a6031a615573d638"
+    },
+    "scripts/modules/imported/prefab_17/dragon_weapons.lua": {
+      "bytes": 41240,
+      "sha256": "ee85f96eec158d89e295993e5f0106c02c627e31e09d3884782439ebeb685f6a"
+    },
+    "scripts/modules/imported/prefab_17/dragon_world_bridge.lua": {
+      "bytes": 8478366,
+      "sha256": "378f40c2c14d4ccf5a2c8991b46d4edc8e997b38571c532ef788202ad2d7363f"
+    },
+    "scripts/modules/imported/prefab_18/dragon_combat.lua": {
+      "bytes": 17312,
+      "sha256": "42cfa35fe1bf48029ef3e0e3662ef3fbe012bb520be9dfbbf9a5990061767f1f"
+    },
+    "scripts/modules/imported/prefab_18/dragon_combat_rules.lua": {
+      "bytes": 9898,
+      "sha256": "12d34721727960932a83e6627cc8c41531e0a542d0ca5449342f52d691c6fe1e"
+    },
+    "scripts/modules/imported/prefab_18/dragon_daycycle.lua": {
+      "bytes": 3004,
+      "sha256": "3381e8f333b165d9e4752c687cf390fb0da9bef4e6ea2c4df9c43705ecccb6e4"
+    },
+    "scripts/modules/imported/prefab_18/dragon_exploration.lua": {
+      "bytes": 22436,
+      "sha256": "b190e477ac469d07476cd9676561fd64212cf1ffe56538f381531150fc7e5109"
+    },
+    "scripts/modules/imported/prefab_18/dragon_fx.lua": {
+      "bytes": 26246,
+      "sha256": "d65e7d24bfa3ed1bb21dabd29c577ceae41952e985c77b113db1a425ca20d5e9"
+    },
+    "scripts/modules/imported/prefab_18/dragon_outfits.lua": {
+      "bytes": 44989,
+      "sha256": "414fa4b5c05d4f307407092ff33a4e5aa10a39f66ad119351ff99cd9c5576ec9"
+    },
+    "scripts/modules/imported/prefab_18/dragon_progress.lua": {
+      "bytes": 2195,
+      "sha256": "3d8cf6bc082fe0792ae4c86180aafc23dc2064b67ae1db1a4d60cb8e29b1bbfe"
+    },
+    "scripts/modules/imported/prefab_18/dragon_progress_rules.lua": {
+      "bytes": 6348,
+      "sha256": "2d6262dff85517c225b59909c59c3d147b0a9b48f1a2f929fa68c42e894043dd"
+    },
+    "scripts/modules/imported/prefab_18/dragon_rpg.lua": {
+      "bytes": 29795,
+      "sha256": "6d013d4c6d5f35d4edbc57bf7c2ae2d3a0360c7d650b1dcaf7285e5b6f0027a5"
+    },
+    "scripts/modules/imported/prefab_18/dragon_rules.lua": {
+      "bytes": 3766,
+      "sha256": "4e74d26fc20845f79e4bd5689e2830671d98ae27328df8518ee3eaf3df50234e"
+    },
+    "scripts/modules/imported/prefab_18/dragon_timeline.lua": {
+      "bytes": 10392,
+      "sha256": "3f39cf9232fef9eefb5b65b7d45770ddf5e26e1c452f5d74e4ffba4b0bd6bc2e"
+    },
+    "scripts/modules/imported/prefab_18/dragon_weapons.lua": {
+      "bytes": 41240,
+      "sha256": "116d52322ddd664db6228b814dc31a7f17ebcce1927a36971cdb781881a738fa"
+    },
+    "scripts/modules/imported/prefab_18/dragon_world_bridge.lua": {
+      "bytes": 8492596,
+      "sha256": "efaf8f6d6ad268a9e1fc87f4c825a0ec64e60c3f12f61595eb05ded26009e629"
+    },
+    "scripts/modules/imported/prefab_19/dragon_combat.lua": {
+      "bytes": 17312,
+      "sha256": "820fd94a9444b775142443dbccf25346df6a2c61cb31d6998c61f55eae466565"
+    },
+    "scripts/modules/imported/prefab_19/dragon_combat_rules.lua": {
+      "bytes": 9898,
+      "sha256": "ca858083d3eb099f50e130e3bfb28eb82d266a2d919898a10817cb097985dc35"
+    },
+    "scripts/modules/imported/prefab_19/dragon_daycycle.lua": {
+      "bytes": 3004,
+      "sha256": "67201992b568f4d6500c26ef2d9e77062f66ecc706dc48c30ea3b572ef6fda0a"
+    },
+    "scripts/modules/imported/prefab_19/dragon_exploration.lua": {
+      "bytes": 22808,
+      "sha256": "2e5fb679eae2f74b584cb69d6d8fd8a889f195aad964ea63d1314f9e293e4a47"
+    },
+    "scripts/modules/imported/prefab_19/dragon_fx.lua": {
+      "bytes": 26246,
+      "sha256": "9a1207c490f9600816095f24f7c6220efc5ba7848fc43bd0483b8c945b7c3ea3"
+    },
+    "scripts/modules/imported/prefab_19/dragon_outfits.lua": {
+      "bytes": 44989,
+      "sha256": "f7a6c6c8ef2e80ceb454448087cba53f7ba655931796d42c4ae17a0ca897b805"
+    },
+    "scripts/modules/imported/prefab_19/dragon_progress.lua": {
+      "bytes": 2195,
+      "sha256": "9baba20b3fc5eed89681693f8a6c6a5671db3462ba29c144ef7c26da4ce4377a"
+    },
+    "scripts/modules/imported/prefab_19/dragon_progress_rules.lua": {
+      "bytes": 6348,
+      "sha256": "391b0117d3ce76e2b4c67f5941456708c5351907fbbf5fe6aab68233a290b90a"
+    },
+    "scripts/modules/imported/prefab_19/dragon_rpg.lua": {
+      "bytes": 29795,
+      "sha256": "26616374ed1bba14b747c58655e1155dc8e9c5ffa82ea33a53f4e6c16567c8d0"
+    },
+    "scripts/modules/imported/prefab_19/dragon_rules.lua": {
+      "bytes": 3766,
+      "sha256": "6059b29b7f2916f5454b7bebdf4041acf164420e22e401f336f6730faa9328b5"
+    },
+    "scripts/modules/imported/prefab_19/dragon_timeline.lua": {
+      "bytes": 10392,
+      "sha256": "377a820c561c3d422b72f7c10fba614149c8246dded6fb1ba56d82fb4dc59b55"
+    },
+    "scripts/modules/imported/prefab_19/dragon_weapons.lua": {
+      "bytes": 41240,
+      "sha256": "da870f3751962afb884bc7e56c1db2b7307708105532f77588d95160723a060c"
+    },
+    "scripts/modules/imported/prefab_19/dragon_world_bridge.lua": {
+      "bytes": 8525073,
+      "sha256": "89b984b7bfff2ec2975c788aeafc32b2b7b808f0eb4a03df11ab21c56ad9bf1f"
+    },
+    "scripts/modules/imported/prefab_2/castle_baked_display.lua": {
+      "bytes": 2146,
+      "sha256": "db4add1b33365598dbbbe3e36afb83b58dd7ce31f9071ea1cff25ffd65384b38"
+    },
+    "scripts/modules/imported/prefab_20/dragon_combat.lua": {
+      "bytes": 17650,
+      "sha256": "9ed636afae7ec514f16643f4938bcef42ce1e27000ad225c90e7b8ef010eac9e"
+    },
+    "scripts/modules/imported/prefab_20/dragon_combat_rules.lua": {
+      "bytes": 9898,
+      "sha256": "964aa47b5ac798240baa82eb0f5ca3cb8a4427b06f07fba757cbe4743b45507e"
+    },
+    "scripts/modules/imported/prefab_20/dragon_daycycle.lua": {
+      "bytes": 3004,
+      "sha256": "9071c8df5069a25b458d29799417fdaa0459f842d66227585dc20733e285b68a"
+    },
+    "scripts/modules/imported/prefab_20/dragon_exploration.lua": {
+      "bytes": 22898,
+      "sha256": "d344748600f912e2007318be422bef7ea095a8201e1547800d39d9e6f5d3eada"
+    },
+    "scripts/modules/imported/prefab_20/dragon_fx.lua": {
+      "bytes": 26246,
+      "sha256": "5db5136246f72e53ce30660aa1931fee5bf4b88567ef9c4eb63e4e080b4d96e0"
+    },
+    "scripts/modules/imported/prefab_20/dragon_outfits.lua": {
+      "bytes": 44989,
+      "sha256": "51b9167dc0d149e0d00f5f9a18f6614a22723e4e583345351cfe9bf8de5949bb"
+    },
+    "scripts/modules/imported/prefab_20/dragon_progress.lua": {
+      "bytes": 2195,
+      "sha256": "e57b0ec13579bb2bd4b8a759342c641f044431759cc430de2f27b14262733d96"
+    },
+    "scripts/modules/imported/prefab_20/dragon_progress_rules.lua": {
+      "bytes": 6348,
+      "sha256": "b076be8a07cbeda2d9ed144a24ce4ffce6e1bb37b81fc7d8585dad903cc677bd"
+    },
+    "scripts/modules/imported/prefab_20/dragon_rpg.lua": {
+      "bytes": 30396,
+      "sha256": "6a75e1668fea10d978faa1b2a6e03a6142fd981eecc4fc745fcf11eaa7cf9da2"
+    },
+    "scripts/modules/imported/prefab_20/dragon_rules.lua": {
+      "bytes": 3766,
+      "sha256": "5e489e391b66a6aea109ba0cabfa7d3f7828ea0f3ff4f49fd16036f75582296d"
+    },
+    "scripts/modules/imported/prefab_20/dragon_timeline.lua": {
+      "bytes": 10392,
+      "sha256": "d155edc54c6d10b609095dfc4b751971e52d7dafe1f5cb6fe7a395ee34787020"
+    },
+    "scripts/modules/imported/prefab_20/dragon_weapons.lua": {
+      "bytes": 41240,
+      "sha256": "9b3172ded3a88df8854da6ab6a21fefc635523bf5b01056eb31066c5aaae3a0e"
+    },
+    "scripts/modules/imported/prefab_20/dragon_world_bridge.lua": {
+      "bytes": 8525408,
+      "sha256": "a0c9f0fcf1c12e244a8877aa2ffb0b4f47bc4c358b3803c2f87487ed4b07c58a"
+    },
+    "scripts/modules/imported/prefab_21/dragon_combat.lua": {
+      "bytes": 17650,
+      "sha256": "6630e9dadd2435728cbf69e3e24d01145fcc36183b2c0248690eb697e80a86d4"
+    },
+    "scripts/modules/imported/prefab_21/dragon_combat_rules.lua": {
+      "bytes": 9898,
+      "sha256": "85f3d143775a159c79d9a1bcf04b1996100f669fc14acd2fa4381469522105df"
+    },
+    "scripts/modules/imported/prefab_21/dragon_daycycle.lua": {
+      "bytes": 3004,
+      "sha256": "6072a0387c0d4cf21f5c9af711903dcefad2960c4f150de64c7419bdda2c7371"
+    },
+    "scripts/modules/imported/prefab_21/dragon_exploration.lua": {
+      "bytes": 22898,
+      "sha256": "b17597da5435a5f86e9db84bd7a412fa02078ecc20f9c938e632f7e11b690a09"
+    },
+    "scripts/modules/imported/prefab_21/dragon_fx.lua": {
+      "bytes": 26246,
+      "sha256": "efd65f6287c1d317d941e0f01b9e7536e22b08141405095109b2b3e3ceb8af7e"
+    },
+    "scripts/modules/imported/prefab_21/dragon_outfits.lua": {
+      "bytes": 44989,
+      "sha256": "d41c87c761b4edb4386f76184faa2170c7dd06a1d4a69cff43e266f2f3075a54"
+    },
+    "scripts/modules/imported/prefab_21/dragon_progress.lua": {
+      "bytes": 2195,
+      "sha256": "53b657ac04b8af983748dca5f687e6e510eea667de6e7b9a3e50effb0f59e7e0"
+    },
+    "scripts/modules/imported/prefab_21/dragon_progress_rules.lua": {
+      "bytes": 6348,
+      "sha256": "79272cddfe8c9549c3f4917c323322ee98399df5c33063b11c4fba5363af4c40"
+    },
+    "scripts/modules/imported/prefab_21/dragon_rpg.lua": {
+      "bytes": 30396,
+      "sha256": "5c4529f417c268a80cdd97c55653d6d7e1026a169461d3f9f88c56cae965c468"
+    },
+    "scripts/modules/imported/prefab_21/dragon_rules.lua": {
+      "bytes": 3766,
+      "sha256": "04ecac942cd04aec6e5a5d047164dfb89b27dcb3e5a785182487a39320fa2234"
+    },
+    "scripts/modules/imported/prefab_21/dragon_timeline.lua": {
+      "bytes": 10392,
+      "sha256": "7da939f65c94bad618fae38e9772e9ded95cc9b09c85cdf9e295097c2c5f3fed"
+    },
+    "scripts/modules/imported/prefab_21/dragon_weapons.lua": {
+      "bytes": 41240,
+      "sha256": "b784de64307edccaf07ebd9c701eb13fe9911751fb69a4af4e68cd6838eeebcc"
+    },
+    "scripts/modules/imported/prefab_21/dragon_world_bridge.lua": {
+      "bytes": 8527828,
+      "sha256": "a51a25fc91c352a9930e94e0c1902316af654679bb25c1b24580bdbaa95e0c08"
+    },
+    "scripts/modules/imported/prefab_22/dragon_combat.lua": {
+      "bytes": 17650,
+      "sha256": "3d75c7794c33bcf820da91c41bad8b45ef800dbfd4f1d0146696b223e0da9e68"
+    },
+    "scripts/modules/imported/prefab_22/dragon_combat_rules.lua": {
+      "bytes": 9898,
+      "sha256": "9c54f4edb64e6dedbdf71329d1cc4e51ba556c281d79684c6894f6acfcfb1648"
+    },
+    "scripts/modules/imported/prefab_22/dragon_daycycle.lua": {
+      "bytes": 3004,
+      "sha256": "1bb58cf191667e6df03b635fb8aba44b31c8ff7e29b431ac5a024796619ab70f"
+    },
+    "scripts/modules/imported/prefab_22/dragon_exploration.lua": {
+      "bytes": 22898,
+      "sha256": "19b848b3203ab3fc79d1effe0a94f09986e5433e0005f45172ca63a0a475c6f1"
+    },
+    "scripts/modules/imported/prefab_22/dragon_fx.lua": {
+      "bytes": 26246,
+      "sha256": "b4d6cb1a876ece84b86809af406ba8913995971a4894849bccab32e8b42a562f"
+    },
+    "scripts/modules/imported/prefab_22/dragon_outfits.lua": {
+      "bytes": 44989,
+      "sha256": "890ab90ed8dd403dfe8b1e8e0af8416fbce18d51dd78d00d98a09182c94af4f1"
+    },
+    "scripts/modules/imported/prefab_22/dragon_progress.lua": {
+      "bytes": 2195,
+      "sha256": "c7d9515b1c2aff065463331d8c700e03c87d66163ae0cdd07d34c8d058646087"
+    },
+    "scripts/modules/imported/prefab_22/dragon_progress_rules.lua": {
+      "bytes": 6348,
+      "sha256": "fb59c79ff8fc527e05f9ab60bc6311833c2ac74ad4c82b9c24373f1700e5c209"
+    },
+    "scripts/modules/imported/prefab_22/dragon_rpg.lua": {
+      "bytes": 30396,
+      "sha256": "eb2c6605b388e0bf2136722ee2ef3a7c4c6530fc21a3daeda0f9f1550491f0a6"
+    },
+    "scripts/modules/imported/prefab_22/dragon_rules.lua": {
+      "bytes": 3766,
+      "sha256": "d346c877a4c5a0fcd7e5dbf7d259702ec42c263c5748176333f5d08929bbc902"
+    },
+    "scripts/modules/imported/prefab_22/dragon_timeline.lua": {
+      "bytes": 10392,
+      "sha256": "f6f03356fe15ade6b0957233b20889041f9072cc59cabeb745bd1700c4bf8987"
+    },
+    "scripts/modules/imported/prefab_22/dragon_weapons.lua": {
+      "bytes": 41240,
+      "sha256": "5abe00ccab08a3e743ab691c82e7f167f900163eda3a6f37f8eb27b4c734fcba"
+    },
+    "scripts/modules/imported/prefab_22/dragon_world_bridge.lua": {
+      "bytes": 11706819,
+      "sha256": "b9295113747fe8aa1934b9577869b97bd683cafde981a9f80b60f53d51b20128"
+    },
+    "scripts/modules/imported/prefab_3/castle_sample_display.lua": {
+      "bytes": 2777,
+      "sha256": "98e50fdc5529e2a55f8fb1bf26f02f0abc0ee12a7940f522d3827b55438ba201"
+    },
+    "scripts/modules/imported/prefab_4/castle_sample_display.lua": {
+      "bytes": 2508,
+      "sha256": "79eff3a58446830bf6a9e66a194c8d5b7bd90f7ba98d3e42d0e53f1b4ef51dad"
+    },
+    "scripts/modules/imported/prefab_5/castle_expand_display.lua": {
+      "bytes": 2461,
+      "sha256": "6a445ca2ed0c5fede80e329e9561759a240f6bf13e3a450e52a4c01a55a925b8"
+    },
+    "scripts/modules/imported/prefab_6/castle_tone.lua": {
+      "bytes": 3598,
+      "sha256": "a4317fea9f015466b8596a3b46095cf82092b0610346a2e3d4523c249a4fa375"
+    },
+    "scripts/modules/imported/prefab_7/castle_smooth_display.lua": {
+      "bytes": 2446,
+      "sha256": "faa1222abc8c1e8b2b57288e2b70b7385472f1e1f0dca259c49849a7e09bd94b"
+    },
+    "scripts/modules/imported/prefab_8/castle_smooth_display.lua": {
+      "bytes": 2446,
+      "sha256": "2c12a2cc7d81b71a8636faa719c336cb5ae05653519ae7f0b561a148fe757a5f"
+    },
+    "scripts/modules/imported/prefab_9/castle_tone.lua": {
+      "bytes": 3611,
+      "sha256": "c5e7c1746e91ad3aa2cdd27a1d66911e2f8c2787504ddb36c48e4cce6d4d2891"
+    },
+    "scripts/modules/world_main.lua": {
+      "bytes": 8472939,
+      "sha256": "e4d31d63143706df269f3d1ff776aaa95b4bda8828838013d73241f481a6b258"
+    },
+    "scripts/scene_dial.lua": {
+      "bytes": 873,
+      "sha256": "488f64da06f82cfc442f0e8627158cf9a8ecd112e7293bb5800f1b73cceef4e4"
+    },
+    "scripts/scene_mushroom.lua": {
+      "bytes": 3060,
+      "sha256": "107764f6ff1022ada33875add52487c818e28090bd6aec5ea85f2c8dcecfefec"
+    },
+    "scripts/scene_sheep_sound.lua": {
+      "bytes": 350831,
+      "sha256": "2bc18f2d3b1cee6e378cedbe95587c84c3854f45d25bc1317b55474abda311ad"
+    },
+    "scripts/scene_vehicle_boat.lua": {
+      "bytes": 5619,
+      "sha256": "1d75d684882337744da3b5ad06b26a8afbd657a1a2696d360661c7cee1ef45fb"
+    },
+    "scripts/scene_vehicle_carpet.lua": {
+      "bytes": 40437,
+      "sha256": "12cd4f4093f0aca927c3e01eb6d148b3e6c2c53b0c178313a6b84823dfc23fda"
+    },
+    "scripts/tripo_sheep_motion.lua": {
+      "bytes": 2867,
+      "sha256": "e2bc0b232346c38a115356b5c86d571d87649e60b758bdd553f55eb6bdb2a2ce"
+    },
+    "settings/env-param-overrides.json": {
+      "bytes": 3952,
+      "sha256": "96c2dac7373625c084b2a16100b2d61e411cf9831cb50f34729447e4bb3abc5d"
+    },
+    "world-config.json": {
+      "bytes": 1629,
+      "sha256": "cb04782127cd4982916aee03a54dfb25a8aacdcdec259e57e2ecd6812d0b3dba"
+    }
+  }
+}

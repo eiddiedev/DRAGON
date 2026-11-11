@@ -1,0 +1,1 @@
+{"ok":true,"command":"runtime","data":{"ok":true,"status":"completed","result":{"fog":[0.7200000286102295,0.8600000143051147,0.9800000190734863],"frame":9951},"startFrame":9951,"endFrame":9951,"durationMs":3,"mode":"native-puerts"}}

@@ -7,7 +7,7 @@ import json, os
 import numpy as np, cv2
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
-ROOT = '/Users/a1234/Documents/awesomeWRLD'
+ROOT = '/Users/bytedance/Documents/ChatGPT/DRAGON'
 OUT = f'{ROOT}/docs/ui'
 os.makedirs(OUT, exist_ok=True)
 SEA = 26.6

@@ -1,0 +1,187 @@
+{
+  "scope": "remaining rightfront/central/rear towers and leftclock auxiliary needles; additive visual only; no collision",
+  "coordinates": "world=(127+BlenderX,BlenderZ,176+BlenderY); root127,0,176; no recenter",
+  "lighting": {
+    "passes": [
+      "COLOR",
+      "DIRECT",
+      "INDIRECT"
+    ],
+    "samples": 48,
+    "max_bounces": 6,
+    "diffuse_bounces": 4,
+    "environment": "same accepted neutral(.65,.65,.68)*.85 approximation, not source skybox reconstruction",
+    "fixtures": "existing lighting-plan \u00d72.4",
+    "occluders": "original fullcastle+interior+accepted sample source objects"
+  },
+  "palette": [
+    "#98929D",
+    "#A19BA4",
+    "#918D99",
+    "#ABA2AA",
+    "#C1B6B8",
+    "#55566D",
+    "#595B70",
+    "#53566B",
+    "#5D5E73"
+  ],
+  "color_storage": "FLOAT_COLOR linear; no double sRGB",
+  "color_squared_error": 1.5221642434185045e-16,
+  "open_face_normal_audit": {
+    "expand_right_tower": {
+      "checked": 1840,
+      "flipped_outward": 93
+    },
+    "expand_central_tower": {
+      "checked": 1504,
+      "flipped_outward": 92
+    },
+    "expand_rear_towers": {
+      "checked": 1680,
+      "flipped_outward": 356
+    },
+    "expand_clock_auxiliary": {
+      "checked": 752,
+      "flipped_outward": 59
+    }
+  },
+  "outputs": {
+    "expand_right_tower": {
+      "file": "assets/castle_expand_v5/towers/expand_right_tower.glb",
+      "sha256": "e0a67f824985f64ef0dfb89ebada2fc3c64e8c5af3059f9bf7311af5b014931a",
+      "bytes": 1931368,
+      "triangles": 19548,
+      "scale": 44.98750305175781,
+      "glb_bounds": [
+        [
+          5.617656230926514,
+          72.01249694824219,
+          4.248000144958496
+        ],
+        [
+          12.982343673706055,
+          117.0,
+          11.751999855041504
+        ]
+      ],
+      "node": "expand_right_tower_GI",
+      "material": "expand_right_tower_GI_PBR",
+      "texture_size": 2048,
+      "vertex_colors": false,
+      "indirect_evidence": {
+        "mean": 0.023995833417406704,
+        "max": 0.6196078658103943,
+        "nonzero_fraction": 0.2493896484375
+      },
+      "glb_nodes": [
+        "expand_right_tower_GI"
+      ],
+      "glb_materials": [
+        "expand_right_tower_GI_PBR"
+      ]
+    },
+    "expand_central_tower": {
+      "file": "assets/castle_expand_v5/towers/expand_central_tower.glb",
+      "sha256": "45718b16fca10b26576b94b468ead4275d3a2c7fc1c7644766dfcbb43daa133d",
+      "bytes": 1919952,
+      "triangles": 17476,
+      "scale": 45.470001220703125,
+      "glb_bounds": [
+        [
+          -5.239999771118164,
+          93.83000183105469,
+          -8.239999771118164
+        ],
+        [
+          5.239999771118164,
+          139.3000030517578,
+          2.240000009536743
+        ]
+      ],
+      "node": "expand_central_tower_GI",
+      "material": "expand_central_tower_GI_PBR",
+      "texture_size": 2048,
+      "vertex_colors": false,
+      "indirect_evidence": {
+        "mean": 0.02824388056055227,
+        "max": 0.40392160415649414,
+        "nonzero_fraction": 0.28460693359375
+      },
+      "glb_nodes": [
+        "expand_central_tower_GI"
+      ],
+      "glb_materials": [
+        "expand_central_tower_GI_PBR"
+      ]
+    },
+    "expand_rear_towers": {
+      "file": "assets/castle_expand_v5/towers/expand_rear_towers.glb",
+      "sha256": "b78420da366786bad5a5969697262ee2de9a03a7224e3b5bd3fcf5fc82cd3118",
+      "bytes": 1660000,
+      "triangles": 15136,
+      "scale": 41.58500671386719,
+      "glb_bounds": [
+        [
+          -13.274999618530273,
+          72.01499938964844,
+          -15.774999618530273
+        ],
+        [
+          13.274999618530273,
+          113.60000610351562,
+          -11.225000381469727
+        ]
+      ],
+      "node": "expand_rear_towers_GI",
+      "material": "expand_rear_towers_GI_PBR",
+      "texture_size": 2048,
+      "vertex_colors": false,
+      "indirect_evidence": {
+        "mean": 0.03356367316192177,
+        "max": 0.4705882668495178,
+        "nonzero_fraction": 0.3602294921875
+      },
+      "glb_nodes": [
+        "expand_rear_towers_GI"
+      ],
+      "glb_materials": [
+        "expand_rear_towers_GI_PBR"
+      ]
+    },
+    "expand_clock_auxiliary": {
+      "file": "assets/castle_expand_v5/towers/expand_clock_auxiliary.glb",
+      "sha256": "f38bb7f1227275de35cb5a12d69d06e9c34f3658d569643ffb4721997092ea8f",
+      "bytes": 673580,
+      "triangles": 6912,
+      "scale": 20.26800537109375,
+      "glb_bounds": [
+        [
+          -13.438982009887695,
+          85.51499938964844,
+          4.0
+        ],
+        [
+          -5.5610175132751465,
+          105.78300476074219,
+          12.0
+        ]
+      ],
+      "node": "expand_clock_auxiliary_GI",
+      "material": "expand_clock_auxiliary_GI_PBR",
+      "texture_size": 1024,
+      "vertex_colors": false,
+      "indirect_evidence": {
+        "mean": 0.08449085196116357,
+        "max": 0.6196078658103943,
+        "nonzero_fraction": 0.671630859375
+      },
+      "glb_nodes": [
+        "expand_clock_auxiliary_GI"
+      ],
+      "glb_materials": [
+        "expand_clock_auxiliary_GI_PBR"
+      ]
+    }
+  },
+  "final_state": "locked: outward normals corrected; rectangular needle windows preserved"
+}

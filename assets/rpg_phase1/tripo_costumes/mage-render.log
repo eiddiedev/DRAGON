@@ -1,0 +1,8 @@
+13:09:51 | INFO: Data are loaded, start creating Blender stuff
+13:09:51 | INFO: Blender create Mesh node tripo_mesh_e2691b48-0027-4c0a-b995-a37af01ad7f7
+13:09:51 | INFO: glTF import finished in 0.03s
+00:06.451  render           | Saved: '/Users/bytedance/Documents/ChatGPT/DRAGON/assets/rpg_phase1/tripo_costumes/mage-preview/front.png'
+00:09.820  render           | Saved: '/Users/bytedance/Documents/ChatGPT/DRAGON/assets/rpg_phase1/tripo_costumes/mage-preview/back.png'
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

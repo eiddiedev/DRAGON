@@ -4,7 +4,7 @@
 import numpy as np
 from PIL import Image
 from scipy import ndimage as nd
-ROOT = '/Users/a1234/Documents/awesomeWRLD/assets'
+ROOT = '/Users/bytedance/Documents/ChatGPT/DRAGON/assets'
 H = np.load(f'{ROOT}/terrain/native/tile_heights.npy')
 Z0, X0 = np.mgrid[0:257, 0:257].astype(float)
 H = np.where((np.hypot(X0 - 127, Z0 - 176) < 30) & (H > 70.5), H - 1.2, H)

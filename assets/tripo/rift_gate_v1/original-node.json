@@ -1,0 +1,73 @@
+{
+  "nodeName": "arena_gate",
+  "pos": {
+    "x": 125.0,
+    "y": 41.6225,
+    "z": 135.0
+  },
+  "rot": {
+    "x": 0.0,
+    "y": 1.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "scale": {
+    "x": 10.3200006,
+    "y": 10.3200006,
+    "z": 10.3200006
+  },
+  "tag": "Untagged",
+  "aigcModelData": {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wye7ghdbbw0crcic.glb",
+    "meshRefId": 0,
+    "isShowTex": true,
+    "opType": 4
+  },
+  "terrainDisplayData": null,
+  "waterDisplayData": null,
+  "riverDisplayData": null,
+  "waterBodyAuthoringData": null,
+  "localPrefabData": null,
+  "appearanceData": null,
+  "waterAppearanceData": null,
+  "physicsColliderData": {
+    "enableCollision": true,
+    "dynamicFriction": 0.6,
+    "staticFriction": 0.6,
+    "bounciness": 0.0,
+    "enableRigidBody": false,
+    "mass": 1.0,
+    "drag": 0.0,
+    "angularDrag": 0.0,
+    "useGravity": true,
+    "isKinematic": false
+  },
+  "assetData": {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wye7ghdbbw0crcic.glb",
+    "assetID": "11379472651778"
+  },
+  "animatorData": null,
+  "ugcAnimatorData": null,
+  "glbSliceData": {
+    "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wye7ghdbbw0crcic.glb",
+    "sourceMeshRefId": 0,
+    "slicePath": [],
+    "debugSlicePath": "",
+    "isShowTex": true,
+    "opType": 4
+  },
+  "editorOnlyData": {
+    "isLock": false,
+    "isGroupRoot": true,
+    "editorData": "{\"nodeKind\":\"combination\"}"
+  },
+  "lightData": null,
+  "text3DData": null,
+  "billboardPlantData": null,
+  "id": -824376428,
+  "parentId": 0,
+  "isActive": true,
+  "layer": 0,
+  "isGameMod": false,
+  "isStatic": false
+}

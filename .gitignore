@@ -7,3 +7,9 @@ backups/*
 !backups/scene.v7-ui.data
 !backups/scene.v6-placed.data
 !backups/scene.v6-before-fix.data
+
+# Machine-local automation state and conversation logs, not project dependencies
+**/.awc/
+editor_project/**/ai-sessions/*_log/
+editor_project/**/*.bak
+editor_project/**/scene.before-*.data

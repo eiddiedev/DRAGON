@@ -1,0 +1,1 @@
+{"ok":true,"command":"runtime","data":{"ok":true,"status":"completed","result":{"found":true,"position":[135,39,55],"renderers":1,"bones":21,"play":true,"delta":0.20528191328048706},"startFrame":6121,"endFrame":6133,"durationMs":595,"mode":"native-puerts"}}

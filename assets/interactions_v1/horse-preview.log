@@ -1,0 +1,10 @@
+20:41:40 | INFO: Data are loaded, start creating Blender stuff
+20:41:40 | INFO: Blender create Mesh node tripo_mesh_17e02dd8-16da-40a0-97a0-4728df18683a
+20:41:40 | INFO: glTF import finished in 0.09s
+00:05.281  render           | Saved: '/Users/bytedance/Documents/ChatGPT/DRAGON/assets/interactions_v1/horse-run-0.png'
+00:05.324  render           | Saved: '/Users/bytedance/Documents/ChatGPT/DRAGON/assets/interactions_v1/horse-run-4.png'
+00:05.377  render           | Saved: '/Users/bytedance/Documents/ChatGPT/DRAGON/assets/interactions_v1/horse-run-8.png'
+00:05.431  render           | Saved: '/Users/bytedance/Documents/ChatGPT/DRAGON/assets/interactions_v1/horse-run-12.png'
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

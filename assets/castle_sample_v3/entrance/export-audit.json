@@ -1,0 +1,39 @@
+{
+  "entrance_masonry": {
+    "triangles": 15828,
+    "bounds": [
+      [
+        -6.98799991607666,
+        72.01200103759766,
+        8.40999984741211
+      ],
+      [
+        6.98799991607666,
+        99.98799896240234,
+        8.530000686645508
+      ]
+    ],
+    "doorway_intersecting_triangles": 0,
+    "vertex_color": false,
+    "sha256": "173447033f83f4650071815ee244c4b422be81f6409caf6b5a657db0ddd58738"
+  },
+  "entrance_carved_trim": {
+    "triangles": 6108,
+    "bounds": [
+      [
+        -7.2806196212768555,
+        72.00800323486328,
+        8.289999961853027
+      ],
+      [
+        7.2806196212768555,
+        100.0536880493164,
+        8.930000305175781
+      ]
+    ],
+    "doorway_intersecting_triangles": 0,
+    "vertex_color": false,
+    "sha256": "9132df0ad105d57e177bc69e39de05e56bce5dbca3765b1fb19fa76faa706590"
+  },
+  "scope": "Visual-only additive sample; tests preserved interior clear doorwayx\u00b11.85/elevation72.25..77.95; collider remains disabled by parent assembly."
+}

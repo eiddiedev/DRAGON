@@ -121,7 +121,7 @@ end
 ---------------------------------------------------------------- 昼夜：默认黑夜，自动慢慢循环，踩时之晷可以立刻切换
 local NIGHT_SECONDS = 240
 local DAY_SECONDS = 240
-local FADE_SECONDS = 5
+local FADE_SECONDS = 12
 local DIALS = { { 121, 57 }, { 117.5, 162.5 } }  -- 出生点旁、城堡钟楼下
 local DIAL_RADIUS = 2.2
 
@@ -132,7 +132,8 @@ local dialCooldown = 0
 local sunLight = nil
 local night = nil          -- 启动时记录的夜间参数
 local envReady = false
-local skyIsDay = false
+local applyCastle
+local dialInside = false
 
 local function lerpColor(a, b, t)
     return Color(a.r + (b.r - a.r) * t, a.g + (b.g - a.g) * t, a.b + (b.b - a.b) * t, 1)
@@ -175,8 +176,10 @@ local CASTLE_NAMES = { "gothic_main", "gothic_towers", "gothic_wall" }
 local CASTLE_NIGHT = Color(.24, .21, .36, 1)
 local CASTLE_DAY = Color(1, 1, 1, 1)
 local castleMats = nil
+local castleGlowMats = {}
 local function setupCastle()
     castleMats = {}
+    castleGlowMats = {}
     for _, nm in ipairs(CASTLE_NAMES) do
         local go = UnityEngine.GameObject.Find(nm)
         if go ~= nil then
@@ -184,16 +187,24 @@ local function setupCastle()
             for i = 0, rs.Length - 1 do
                 if rs[i].gameObject.name == "main" then
                     castleMats[#castleMats + 1] = rs[i].material
+                elseif rs[i].gameObject.name == "glow" then
+                    local m=rs[i].material
+                    castleGlowMats[#castleGlowMats+1]={m=m,p=m:GetFloat("_EmissionPower"),c=m:GetColor("_BaseColor")}
                 end
             end
         end
     end
 end
-local function applyCastle(t)
+applyCastle = function(t)
     if castleMats == nil or #castleMats < 3 then setupCastle() end
     local c = lerpColor(CASTLE_NIGHT, CASTLE_DAY, t)
     for _, m in ipairs(castleMats) do
         m:SetColor("_BaseColor", c)
+    end
+    for _,v in ipairs(castleGlowMats) do
+        local k=1-.9*t
+        v.m:SetFloat("_EmissionPower",v.p*k)
+        v.m:SetColor("_BaseColor",Color(v.c.r*k,v.c.g*k,v.c.b*k,1))
     end
 end
 
@@ -265,12 +276,7 @@ local function applyEnv(t)
     RenderSettings.ambientLight = Color(math.min(a.r * s, 1), math.min(a.g * s, 1), math.min(a.b * s, 1), 1)
     applyCastle(t)
     applyDetail(t)
-    local wantDay = t > .5
-    if wantDay ~= skyIsDay then
-        skyIsDay = wantDay
-        for _, go in ipairs(nightObjects) do go:SetActive(not wantDay) end
-        for _, go in ipairs(dayObjects) do go:SetActive(wantDay) end
-    end
+    if SWIRL_LAYERS.fade then SWIRL_LAYERS.fade(t) end
 end
 
 local function setDay(day)
@@ -288,17 +294,15 @@ local function updateDayNight(actor)
         setDay(not isDay)
     end
     dialCooldown = dialCooldown - Time.deltaTime
-    if dialCooldown <= 0 then
-        local p = actor.position
-        for _, d in ipairs(DIALS) do
-            if math.sqrt((p.x - d[1]) ^ 2 + (p.z - d[2]) ^ 2) < DIAL_RADIUS then
-                dbg("dial triggered")
-                setDay(not isDay)
-                dialCooldown = 8  -- 站在上面不会反复切换
-                break
-            end
-        end
+    local entered = false
+    local p = actor.position
+    for _, d in ipairs(DIALS) do
+        if (p.x-d[1])^2+(p.z-d[2])^2 < DIAL_RADIUS^2 then entered=true;break end
     end
+    if entered and not dialInside and dialCooldown<=0 then
+        setDay(not isDay);dialCooldown=1
+    end
+    dialInside=entered
     local target = isDay and 1 or 0
     if blend ~= target then
         local step = Time.deltaTime / FADE_SECONDS
@@ -309,7 +313,7 @@ local function updateDayNight(actor)
         else
             blend = blend - step
         end
-        applyEnv(blend)
+        applyEnv(blend*blend*(3-2*blend))
     end
 end
 
@@ -567,9 +571,12 @@ end
 local fpsT, fpsN = 0, 0
 local HV = { at = nil }
 HV.list = {
+    ["k"] = { 76, 51, 88, 0, 12 },       -- 墓园铁栏接地检查
+    ["j"] = { 184, 48, 47, 0, 8 },       -- 村庄地基检查
+    ["h"] = { 147, 49, 46, 25, -18 },    -- 查看树的昼夜叶色
     ["y"] = { 196, 126, 172, 335, 6 },     -- 看龙
     ["u"] = { 106, 66, 146, 40, 14 },      -- 看山坡上的草
-    ["t"] = { 200, 110, 90, 70, 4 },       -- 高处看东边海天相接
+    ["t"] = { 188, 58, 112, 43, 0 },       -- 灯塔石基近景
     ["q"] = { 60, 70, 60, 200, 2 },        -- 高处看西南海天相接
     ["z"] = { 70, 50, 52, 20, 10 },        -- 看新松树
 }
@@ -970,6 +977,7 @@ iceParts = {}
 local function updateDragon()
     if dragonTried then return end
     dragonTried = true
+    if GameObject.Find("dragon_v8_live") then return end
     for _, nm in ipairs({ "shd_wa", "shd_wb", "shd_body", "shd_tail", "shd_head", "shd_legs" }) do
         local go = skinnedRoot(GameObject.Find(nm))
         if go == nil then
@@ -1107,13 +1115,39 @@ local function updateMount(actor, p)
 end
 
 local holyLight = nil
-local holyTried = false
+local holyTried = { materials = {}, found = {} }
 local function updateHolyLight()
-    if not holyTried then
-        holyTried = true
-        holyLight = addLight(Vector3(160.5, 60, 74), Color(1, .86, .52, 1), 42, 3.2)
+    -- Imported foliage can arrive after the first frame. Retry each canopy
+    -- independently, and retain its material instead of instantiating per frame.
+    for _, name in ipairs({ "holy_canopy3", "holy_canopy4" }) do
+        if not holyTried.found[name] then
+            local go = GameObject.Find(name)
+            if go then
+                local rs = go:GetComponentsInChildren(typeof(UnityEngine.Renderer), true)
+                if rs.Length > 0 then
+                    for i = 0, rs.Length - 1 do
+                        local m = rs[i].material
+                        m:SetColor("_BaseColor", Color(1, 1, 1, 1))
+                        m:SetTexture("_EmissionTex", UnityEngine.Texture2D.whiteTexture)
+                        m:SetColor("_EmissionColor", Color(1, .025, .055, 1))
+                        holyTried.materials[#holyTried.materials + 1] = m
+                    end
+                    holyTried.found[name] = true
+                end
+            end
+        end
     end
-    if holyLight then holyLight.intensity = (3.2 + .4 * math.sin(Time.time * .9)) * (1 - blend * .85) end
+    local night = 1 - blend
+    local glow = night * night * (.68 + .045 * math.sin(Time.time * .65))
+    for _, m in ipairs(holyTried.materials) do m:SetFloat("_EmissionPower", glow) end
+    if not holyLight then
+        local tree = GameObject.Find("holy_tree3")
+        if tree then holyLight = addLight(tree.transform.position + Vector3(0, 19, 0), Color(1, .035, .065, 1), 25, 0) end
+    end
+    if holyLight then
+        holyLight.intensity = 1.35 * night * night
+        holyLight.enabled = night > .01
+    end
 end
 
 ---- 城堡的房间：走进去时提示房间名，灯只在城堡里才开
@@ -1328,11 +1362,55 @@ function DR.ground(x, z)
     if ok and h then return h end
     return 40
 end
+-- Mesh mountains and buildings can stand far above the terrain heightmap.
+function DR.flightSurface(x,z)
+    local height=DR.ground(x,z)
+    local ok, result=pcall(function()
+        local hits=UnityEngine.Physics.RaycastAll(Vector3(x,400,z),Vector3(0,-1,0),500,-1,UnityEngine.QueryTriggerInteraction.Ignore)
+        local top=height
+        for i=0,hits.Length-1 do
+            local hit=hits[i]
+            local riderHit=DR.rider and hit.transform:IsChildOf(DR.rider.gameObject.transform)
+            if not riderHit then top=math.max(top,hit.point.y) end
+        end
+        return top
+    end)
+    return ok and result or height
+end
+function DR.flightClearance(x,z)
+    DR.clearanceTimer=(DR.clearanceTimer or 0)-Time.deltaTime
+    if DR.clearanceTimer<=0 or not DR.surfaceY then
+        local r=math.rad(DR.yaw)
+        DR.surfaceY=math.max(DR.flightSurface(x,z),DR.flightSurface(x+math.sin(r)*25,z+math.cos(r)*25),
+            DR.flightSurface(x+math.cos(r)*15,z-math.sin(r)*15),DR.flightSurface(x-math.cos(r)*15,z+math.sin(r)*15))
+        DR.clearanceTimer=.2
+    end
+    return DR.surfaceY
+end
 function DR.setup()
     DR.parts = {}
-    for _, nm in ipairs(DR.PARTS) do
-        local go = skinnedRoot(GameObject.Find(nm))
-        if go then DR.parts[#DR.parts + 1] = go.transform end
+    local rig = GameObject.Find("dragon_v8_live")
+    if rig then
+        local an = rig:GetComponentInChildren(typeof(UnityEngine.Animation), true)
+        local bones = rig:GetComponentsInChildren(typeof(UnityEngine.Transform), true)
+        local socket = nil
+        for i=0,bones.Length-1 do
+            if bones[i].name=="rider_socket" then socket=bones[i];break end
+        end
+        if not an or not socket then DR.parts=nil;return end
+        for _,clip in ipairs({"idle","takeoff","fly","land"}) do
+            if not an:GetClip(clip) then DR.parts=nil;return end
+        end
+        DR.v8,DR.an,DR.socket=true,an,socket
+        DR.perchClips=an:GetClip("perch") and an:GetClip("perch_takeoff") and an:GetClip("perch_land") and true or false
+        an.cullingType=UnityEngine.AnimationCullingType.AlwaysAnimate
+        DR.parts={rig.transform}
+        dbg("dragon_v8 ready: four clips and rider_socket")
+    else
+        for _, nm in ipairs(DR.PARTS) do
+            local go = skinnedRoot(GameObject.Find(nm))
+            if go then DR.parts[#DR.parts + 1] = go.transform end
+        end
     end
     if #DR.parts == 0 then DR.parts = nil return end
     local t = DR.parts[1]
@@ -1340,8 +1418,17 @@ function DR.setup()
     DR.homeYaw = t.rotation.eulerAngles.y      -- 根节点的朝向角就是龙头朝向
     DR.pos, DR.yaw = DR.home, DR.homeYaw
     DR.seat = GameObject("dragon_seat")
-    DR.seat.transform:SetParent(DR.parts[1], false)
-    DR.seat.transform.localPosition = DR.SEAT
+    if DR.v8 then
+        -- Skeleton scale is 54. A world-space proxy must never inherit that
+        -- scale or the bone's local axes as a seat/camera transform.
+        DR.seat.transform.localScale = Vector3.one
+        DR.seat.transform.position = DR.socket.position + Vector3(0,.35,0)
+        local cols=rig:GetComponentsInChildren(typeof(UnityEngine.Collider),true)
+        for i=0,cols.Length-1 do cols[i].enabled=false end
+    else
+        DR.seat.transform:SetParent(DR.parts[1], false)
+        DR.seat.transform.localPosition = DR.SEAT
+    end
     pcall(function()
         DouyinInputService.onJumpInputStart:AddListener(function() DR.jump = true end)
     end)
@@ -1354,24 +1441,248 @@ function DR.place(pitch)
     end
 end
 function DR.mount(actor)
-    pcall(function() actor:SitDown(DR.seat, true) end)   -- 有坐姿接口就用坐姿
+    DR.align(actor)
+    local ok,err=pcall(function() actor:SitDown(DR.seat) end)
+    if not ok then report("dragon sit: "..tostring(err)) end
+    if DR.v8 then
+        DR.actorAnimator=actor.gameObject:GetComponentInChildren(typeof(UnityEngine.Animator),true)
+        DR.cameraWarm=0
+        DR.rider=actor
+        actor.gameObject.transform:SetParent(DR.seat.transform,true)
+        local main=DouyinCameraService.GetCamera()
+        if main then
+            local go=GameObject("dragon_ride_camera")
+            DR.camera=go:AddComponent(typeof(UnityEngine.Camera))
+            DR.camera:CopyFrom(main)
+            DR.camera.depth=main.depth+3
+            DR.camera.fieldOfView=60
+            pcall(function()
+                local T=typeof(CS.UnityEngine.Rendering.Universal.UniversalAdditionalCameraData)
+                local a=main:GetComponent(T)
+                local b=go:AddComponent(T)
+                if a then b.renderPostProcessing=a.renderPostProcessing;b.renderShadows=a.renderShadows end
+            end)
+        end
+    end
     DR.align(actor)
 end
 function DR.align(actor)
     local t = DR.seat.transform
-    actor:Teleport(t.position, Quaternion.Euler(Vector3(0, DR.yaw, 0)))
+    local offset=Vector3.zero
+    if DR.v8 then
+        t.position=DR.socket.position+Vector3(0,.35,0)
+        t.rotation=Quaternion.Euler(Vector3(0,DR.yaw,0))
+        if DR.actorAnimator then
+            local hips=DR.actorAnimator:GetBoneTransform(UnityEngine.HumanBodyBones.Hips)
+            if hips then offset=hips.position-actor.gameObject.transform.position end
+        end
+        DouyinCameraService.SetDistance(42)
+        DR.cameraWarm=(DR.cameraWarm or 0)+Time.deltaTime
+        if DR.cameraWarm<1 then DouyinCameraService.SetPitch(22) end
+    end
+    if DR.v8 and DR.rider then
+        local trans=actor.gameObject.transform
+        trans.position=t.position-offset
+        trans.rotation=t.rotation
+        if DR.camera then
+            local yaw=math.rad(DouyinCameraService.GetYaw())
+            local target=t.position+Vector3(0,2,0)
+            local eye=target+Vector3(-math.sin(yaw)*40,19,-math.cos(yaw)*40)
+            DR.camera.transform.position=eye
+            DR.camera.transform.rotation=Quaternion.LookRotation(target-eye)
+        end
+        DR.seatLog=(DR.seatLog or 0)+Time.deltaTime
+        if DR.seatLog>3 then
+            DR.seatLog=0
+            dbg("seat socket="..tostring(DR.socket.position).." root="..tostring(trans.position).." offset="..tostring(offset).." camera="..tostring(DR.camera and DR.camera.transform.position))
+        end
+    else
+        actor:Teleport(t.position-offset, Quaternion.Euler(Vector3(0, DR.yaw, 0)))
+    end
 end
 function DR.dismount(actor, x, z)
+    if DR.v8 then
+        DR.rider=nil
+        actor.gameObject.transform:SetParent(nil,true)
+        if DR.camera then UnityEngine.Object.Destroy(DR.camera.gameObject);DR.camera=nil end
+    end
     pcall(function() actor:StandUp(DR.seat) end)
     actor:Immobilize(false)
     actor:Teleport(Vector3(x, DR.ground(x, z) + 1.2, z))
     DouyinCameraService.SetDistance(CAMERA_DIST)
 end
+-- New rig: animation timings are authored at 30 fps and use in-place clips.
+function DR.play(clip, loop)
+    if not DR.an then return end
+    if DR.clip == clip and DR.an:IsPlaying(clip) then return end
+    local ok, err = pcall(function()
+        DR.an.enabled = true
+        DR.an.wrapMode = loop and UnityEngine.WrapMode.Loop or UnityEngine.WrapMode.ClampForever
+        local st = DR.an:get_Item(clip)
+        st.wrapMode = loop and UnityEngine.WrapMode.Loop or UnityEngine.WrapMode.ClampForever
+        st.speed, st.time = 1, 0
+        DR.an:CrossFade(clip, .18)
+    end)
+    if ok then DR.clip = clip; dbg("dragon_v8 clip=" .. clip)
+    else report("dragon_v8 animation: " .. tostring(err)) end
+end
+function DR.homePose(weight)
+    for _, t in ipairs(DR.parts) do
+        t.rotation = Quaternion.Slerp(Quaternion.Euler(Vector3(0,DR.homeYaw,0)),DR.homeRot,weight)
+    end
+end
+function DR.ease(u)
+    u = math.max(0, math.min(1, u))
+    return u*u*(3-2*u)
+end
+function DR.phase(state, clip, loop)
+    DR.state, DR.phaseT = state, 0
+    DR.play(clip, loop)
+    dbg("dragon_v8 state=" .. state)
+end
+function DR.landingHeight(x, z)
+    -- The four-foot support footprint extends forward of the model origin.
+    local r, lo, hi = math.rad(DR.yaw), 1e9, -1e9
+    for _, a in ipairs({-5,5}) do
+        for _, b in ipairs({7,24}) do
+            local sx, sz = x+a*math.cos(r)+b*math.sin(r), z-a*math.sin(r)+b*math.cos(r)
+            if sx<3 or sx>253 or sz<3 or sz>253 then return nil end
+            local h=DR.ground(sx,sz)
+            lo,hi=math.min(lo,h),math.max(hi,h)
+        end
+    end
+    if lo<29 or hi-lo>2.5 then return nil end
+    return hi+.08
+end
+function DR.takeoff(returning)
+    DR.from = DR.pos
+    DR.returning = returning
+    DR.fromHome = DR.state=="perch"
+    DR.phase("takeoff", "takeoff", false)
+end
+function DR.landAt(target, home)
+    DR.from, DR.target, DR.homeLanding = DR.pos, target, home
+    DR.phase("touchdown", "land", false)
+end
+function DR.updateV8(actor, p)
+    local dt = math.min(Time.deltaTime, .1)
+    if Input.GetKeyDown("space") then DR.jump=true end
+    DR.cool=DR.cool-dt
+    DR.phaseT=(DR.phaseT or 0)+dt
+    if DR.state=="perch" then
+        -- The user fitted the imported rest pose to the slope. The authored
+        -- perch clip adds 6.48m of forefoot lift and must not be layered on it.
+        DR.play("idle",true)
+        DR.pos=DR.home
+        for _,t in ipairs(DR.parts) do t.position=DR.home;t.rotation=DR.homeRot end
+        local near=dist2d(p,DR.ALTAR[1],DR.ALTAR[2])<20
+        if near and not DR.said then DR.said=true;toast("在唤龙祭坛按跳跃键，召唤巨龙") end
+        if not near then DR.said=false end
+        if near and DR.jump and DR.cool<=0 then
+            DR.cool,DR.speed=2,0
+            actor:Immobilize(true);DR.mount(actor)
+            DouyinCameraService.SetDistance(42)
+            DR.takeoff(false)
+            toast("巨龙载你起飞！摇杆控制方向，按跳跃键降落")
+        end
+    elseif DR.state=="takeoff" then
+        local u=DR.phaseT/1.8
+        DR.pos=Vector3(DR.from.x,DR.from.y+14*DR.ease((u-.25)/.75),DR.from.z)
+        DR.place(0)
+        if DR.fromHome then DR.homePose(1-DR.ease((u-.25)/.75)) end
+        if not DR.returning then DR.align(actor) end
+        if u>=1 then DR.phase(DR.returning and "return_fly" or "ride","fly",true) end
+    elseif DR.state=="ride" then
+        local mx,my=moveX,moveY
+        if Input.GetKey("w") then my=1 end
+        if Input.GetKey("s") then my=-1 end
+        if Input.GetKey("a") then mx=-1 end
+        if Input.GetKey("d") then mx=1 end
+        local mag=math.min(1,math.sqrt(mx*mx+my*my))
+        local turn=0
+        if mag>.1 then
+            local want=DouyinCameraService.GetYaw()+math.deg(math.atan(mx,my))
+            local diff=(want-DR.yaw+540)%360-180
+            turn=math.max(-55*dt,math.min(55*dt,diff));DR.yaw=DR.yaw+turn
+        end
+        DR.speed=DR.speed+((mag>.1 and 26 or 7)-DR.speed)*math.min(1,dt*.8)
+        local r=math.rad(DR.yaw)
+        local x,z=DR.pos.x+math.sin(r)*DR.speed*dt,DR.pos.z+math.cos(r)*DR.speed*dt
+        -- Keep the entire dragon near the playable terrain. Turn back toward
+        -- the island before the root reaches the edge, including idle flight.
+        if x<24 or x>232 or z<24 or z>232 then
+            local inward=math.deg(math.atan(128-DR.pos.x,128-DR.pos.z))
+            local diff=(inward-DR.yaw+540)%360-180
+            DR.yaw=DR.yaw+math.max(-90*dt,math.min(90*dt,diff))
+            r=math.rad(DR.yaw)
+            x=math.max(8,math.min(248,DR.pos.x+math.sin(r)*DR.speed*dt))
+            z=math.max(8,math.min(248,DR.pos.z+math.cos(r)*DR.speed*dt))
+        end
+        local surface=DR.flightClearance(x,z)
+        local want=math.max(surface+30,62)
+        local y=math.max(surface+8,DR.pos.y+(want-DR.pos.y)*math.min(1,dt*.7))
+        DR.roll=DR.roll+((-turn/math.max(dt,.001))*.25-DR.roll)*math.min(1,dt*2)
+        local climb=(y-DR.pos.y)/math.max(dt,.001)
+        DR.pos=Vector3(x,y,z);DR.place(math.max(-12,math.min(12,-climb*.8)));DR.align(actor)
+        if DR.jump and DR.cool<=0 then
+            local h=DR.landingHeight(x,z)
+            DR.cool=1
+            if h then
+                DR.target=Vector3(x,h,z);DR.from=DR.pos
+                DR.phase("approach","fly",true);toast("巨龙正在降落")
+            else toast("请飞到平坦陆地上空再降落") end
+        end
+    elseif DR.state=="approach" then
+        local u=DR.ease(DR.phaseT/3)
+        DR.pos=Vector3(DR.target.x,DR.from.y+(DR.target.y+3-DR.from.y)*u,DR.target.z)
+        DR.roll=DR.roll*(1-math.min(1,dt*4));DR.place(0);DR.align(actor)
+        if DR.phaseT>=3 then DR.landAt(DR.target,false) end
+    elseif DR.state=="touchdown" then
+        -- Feet extend first; terrain contact coincides with the baked IK phase.
+        local u=DR.ease(DR.phaseT/(2.8*.65))
+        DR.pos=Vector3(DR.target.x,DR.from.y+(DR.target.y-DR.from.y)*u,DR.target.z)
+        DR.roll=0;DR.place(0)
+        if DR.homeLanding then DR.homePose(u) end
+        if not DR.homeLanding then DR.align(actor) end
+        if DR.phaseT>=2.8 then
+            if DR.homeLanding then
+                DR.yaw=DR.homeYaw;DR.place(0);DR.homePose(1);DR.cool=2
+                DR.phase("perch","idle",true)
+            else
+                local r=math.rad(DR.yaw)
+                DR.dismount(actor,DR.pos.x+math.cos(r)*12,DR.pos.z-math.sin(r)*12)
+                DR.phase("rest","idle",true);toast("已安全落地，巨龙稍后返回雪山")
+            end
+        end
+    elseif DR.state=="rest" then
+        if DR.phaseT>=1.5 then DR.takeoff(true) end
+    elseif DR.state=="return_fly" then
+        local to=DR.home-DR.pos
+        local flat=math.sqrt(to.x*to.x+to.z*to.z)
+        if flat>1 then
+            local want=math.deg(math.atan(to.x,to.z))
+            local diff=(want-DR.yaw+540)%360-180
+            DR.yaw=DR.yaw+math.max(-70*dt,math.min(70*dt,diff))
+        end
+        local step=math.min(flat,28*dt)
+        local x=DR.pos.x+(flat>0 and to.x/flat*step or 0)
+        local z=DR.pos.z+(flat>0 and to.z/flat*step or 0)
+        local h=flat>25 and math.max(DR.home.y+25,DR.flightClearance(x,z)+30) or DR.home.y+3
+        DR.pos=Vector3(x,DR.pos.y+(h-DR.pos.y)*math.min(1,dt*.9),z)
+        DR.roll=0;DR.place(0)
+        if flat<1 and math.abs(DR.pos.y-DR.home.y-3)<.3 then
+            DR.yaw=DR.homeYaw;DR.landAt(DR.home,true)
+        end
+    end
+    DR.jump=false
+end
+
 function DR.update(actor, p)
     if DR.parts == nil then
         DR.setup()
         if DR.parts == nil then return end
     end
+    if DR.v8 then DR.updateV8(actor,p);return end
     local dt = Time.deltaTime
     if Input.GetKeyDown("space") then DR.jump = true end
     DR.cool = DR.cool - dt
@@ -1597,6 +1908,294 @@ local castleRetry = 0
 ---------------------------------------------------------------- 界面：标题页、序章古书、地图（全部放在 UI 表里，主块只占一个局部变量）
 -- 贴图来自藏在地下的 ui_* 方片模型，音效在运行时合成。
 local UI = { state = "boot", t = 0, wait = 0, cardId = nil }
+-- Loaded inline into the existing UI table to avoid Lua's top-level local limit.
+UI.foliage = { items = {}, next = 0, names = {"pl_tree_0","pl_tree_1","pl_tree_2","pl_tree_3","pl_tree_4","pl_tree_5","pl_tree_6","pl_tree_7","pl_tree_8","pl_tree_9","pl_tree_10","pl_tree_11","pl_tree_12","pl_tree_13","pl_tree_14","pl_tree_15","pl_tree_16","pl_tree_17","pl_tree_18","pl_tree_19","pl_tree_20","pl_tree_21","pl_tree_22","pl_tree_23","pl_tree_24","pl_tree_25","pl_tree_26","pl_tree_27","pl_tree_28","pl_tree_29","pl_tree_30","pl_tree_31","pl_tree_32","pl_tree_33","pl_tree_34","pl_tree_35","pl_tree_36","pl_tree_37","pl_tree_38","pl_tree_39","pl_tree_40","pl_tree_41","pl_tree_42","pl_tree_43","pl_tree_44","pl_tree_45","pl_tree_46","pl_tree_47","pl_tree_48","pl_tree_49","pl_tree_50","pl_tree_51","pl_tree_52","pl_tree_53","pl_tree_54","pl_tree_55","pl_tree_56","pl_tree_57","pl_tree_58","pl_tree_59","pl_tree_60","pl_tree_61","pl_tree_62","pl_tree_63","pl_tree_64","pl_tree_65","pl_tree_66","pl_tree_67","pl_tree_68","pl_tree_69","pl_tree_70","pl_tree_71","pl_tree_72","pl_tree_73","pl_tree_74","pl_tree_75","pl_tree_76","pl_tree_77","pl_tree_78","pl_tree_79","pl_tree_80","pl_tree_81","pl_tree_82","pl_tree_83","pl_tree_84","pl_tree_85","pl_tree_86","pl_tree_87","pl_tree_88","pl_tree_89","pl_tree_90","pl_tree_91","pl_tree_92","pl_tree_93","pl_tree_94","pl_tree_95","pl_tree_96","pl_tree_97","pl_tree_98","pl_tree_99","pl_tree_100","pl_tree_101","pl_tree_102","pl_tree_103","pl_tree_104","pl_tree_105","pl_tree_106","pl_tree_107","pl_tree_108","pl_tree_109","pl_tree_110","pl_tree_111","pl_tree_112","pl_tree_113","pl_tree_114","pl_tree_115","pl_tree_116","pl_tree_117","pl_tree_118","pl_tree_119","pl_tree_120","pl_tree_121","pl_tree_122","pl_tree_123","pl_tree_124","pl_tree_125","pl_tree_126","pl_tree_127","pl_tree_128","pl_tree_129","pl_tree_130","pl_tree_131","pl_tree_132","pl_tree_133","pl_tree_134","pl_tree_135","pl_tree_136","pl_tree_137","pl_tree_138","pl_tree_139","pl_tree_140","pl_tree_141","pl_tree_142","pl_tree_143","pl_tree_144","pl_tree_145","pl_tree_146","pl_tree_147","pl_tree_148","pl_tree_149","pl_tree_150","pl_tree_151","pl_tree_152","pl_tree_153","pl_tree_154","pl_tree_155","pl_tree_156","pl_tree_157","pl_tree_158","pl_tree_159","pl_tree_160","pl_tree_161","pl_tree_162","pl_tree_163","pl_tree_164","pl_tree_165","pl_tree_166","pl_tree_167","pl_tree_168","pl_tree_169","pl_tree_170","pl_tree_171","pl_tree_172"} }
+function UI.updateFoliage(actor)
+    local f=UI.foliage
+    for _=1,2 do
+        if f.next>=#f.names then break end
+        f.next=f.next+1
+        local go=GameObject.Find(f.names[f.next])
+        if go then
+            local ts=go:GetComponentsInChildren(typeof(UnityEngine.Transform),true)
+            for i=0,ts.Length-1 do
+                local t=ts[i]
+                if t.name=='Leaves' then
+                    -- Leaf volumes only sense proximity: triggers never block the player.
+                    -- Trunk colliders are outside this subtree and stay solid.
+                    local meshes=t.gameObject:GetComponentsInChildren(typeof(UnityEngine.MeshFilter),true)
+                    for j=0,meshes.Length-1 do
+                        local mf=meshes[j]
+                        if mf.sharedMesh and not mf.gameObject:GetComponent(typeof(UnityEngine.Collider)) then
+                            local mc=mf.gameObject:AddComponent(typeof(UnityEngine.MeshCollider))
+                            mc.sharedMesh=mf.sharedMesh;mc.convex=true;mc.isTrigger=true
+                        end
+                    end
+                    local cols=t.gameObject:GetComponentsInChildren(typeof(UnityEngine.Collider),true)
+                    for j=0,cols.Length-1 do
+                        local mc=cols[j].gameObject:GetComponent(typeof(UnityEngine.MeshCollider))
+                        if mc then mc.convex=true end
+                        cols[j].enabled=true;cols[j].isTrigger=true
+                    end
+                    -- Keep the authored attachment rigidly anchored. A dynamic canopy
+                    -- with a world spring can drift after controller/physics contacts.
+                    local joints=t.gameObject:GetComponents(typeof(UnityEngine.ConfigurableJoint))
+                    for j=0,joints.Length-1 do UnityEngine.Object.Destroy(joints[j]) end
+                    local rb=t.gameObject:GetComponent(typeof(UnityEngine.Rigidbody))
+                    if not rb then rb=t.gameObject:AddComponent(typeof(UnityEngine.Rigidbody)) end
+                    rb.useGravity=false;rb.isKinematic=true;rb.detectCollisions=true
+                    f.items[#f.items+1]={t=t,rb=rb,cols=cols,home=t.localPosition,rot=t.localRotation,x=0,z=0,vx=0,vz=0}
+                end
+            end
+        end
+    end
+    if f.next>=#f.names and not f.ready then f.ready=true;report('soft anchored canopies ready '..#f.items) end
+    local p=actor.position+Vector3(0,1,0)
+    local dt=math.min(Time.deltaTime,.033)
+    for _,v in ipairs(f.items) do
+        local tx,tz=0,0
+        -- Always restore the local attachment, even after external teleports or bumps.
+        v.t.localPosition=v.home
+        if Vector3.Distance(v.t.position,p)<24 then
+            local distance=100
+            for j=0,v.cols.Length-1 do
+                if v.cols[j].enabled then distance=math.min(distance,Vector3.Distance(v.cols[j]:ClosestPoint(p),p)) end
+            end
+            if distance<.7 then
+                local away=v.t.position-p;away.y=0
+                if away.sqrMagnitude>.001 then
+                    local dir=v.t.parent and v.t.parent:InverseTransformDirection(away.normalized) or away.normalized
+                    local amount=(1-distance/.7)*7
+                    if not f.contactLogged then f.contactLogged=true;report("foliage soft contact active") end
+                    tx=dir.z*amount;tz=-dir.x*amount
+                end
+            end
+        end
+        -- Damped angular response only: no translation or accumulating impulses.
+        v.vx=v.vx+((tx-v.x)*55-v.vx*15)*dt
+        v.vz=v.vz+((tz-v.z)*55-v.vz*15)*dt
+        v.x=math.max(-7,math.min(7,v.x+v.vx*dt))
+        v.z=math.max(-7,math.min(7,v.z+v.vz*dt))
+        v.t.localRotation=v.rot*Quaternion.Euler(v.x,0,v.z)
+    end
+end
+
+UI.reeds={names={"golden_geometry_0","golden_geometry_1","golden_geometry_2","golden_geometry_3","golden_geometry_4","golden_geometry_5","golden_geometry_6","golden_geometry_7","golden_geometry_8","golden_geometry_9","golden_geometry_10","golden_geometry_11","golden_geometry_12","golden_geometry_13","golden_geometry_14","golden_geometry_15","golden_geometry_16","golden_geometry_17","golden_geometry_18","golden_geometry_19","golden_geometry_20","golden_geometry_21","golden_geometry_22","golden_geometry_23","golden_geometry_24","golden_geometry_25","golden_geometry_26","golden_geometry_27","golden_geometry_28","golden_geometry_29","golden_geometry_30","golden_geometry_31","golden_geometry_32","golden_geometry_33","golden_geometry_34","golden_geometry_35","golden_geometry_36","golden_geometry_37","golden_geometry_38","golden_geometry_39","golden_geometry_40","golden_geometry_41","golden_geometry_42","golden_geometry_43","golden_geometry_44","golden_geometry_45","golden_geometry_46","golden_geometry_47","golden_geometry_48","golden_geometry_49","golden_geometry_50","golden_geometry_51","golden_geometry_52","golden_geometry_53","golden_geometry_54","golden_geometry_55","golden_geometry_56","golden_geometry_57","golden_geometry_58","golden_geometry_59","golden_geometry_60","golden_geometry_61","golden_geometry_62","golden_geometry_63","golden_geometry_64","golden_geometry_65","golden_geometry_66","golden_geometry_67","golden_geometry_68","golden_geometry_69","golden_geometry_70","golden_geometry_71","golden_geometry_72","golden_geometry_73","golden_geometry_74","golden_geometry_75","golden_geometry_76","golden_geometry_77","golden_geometry_78","golden_geometry_79","golden_geometry_80","golden_geometry_81","golden_geometry_82","golden_geometry_83","golden_geometry_84","golden_geometry_85","golden_geometry_86","golden_geometry_87","golden_geometry_88","golden_geometry_89","golden_geometry_90","golden_geometry_91","golden_geometry_92","golden_geometry_93","golden_geometry_94","golden_geometry_95","golden_geometry_96","golden_geometry_97","golden_geometry_98","golden_geometry_99","golden_geometry_100","golden_geometry_101","golden_geometry_102","golden_geometry_103","golden_geometry_104","golden_geometry_105","golden_geometry_106","golden_geometry_107","golden_geometry_108","golden_geometry_109","golden_geometry_110","golden_geometry_111","golden_geometry_112","golden_geometry_113","golden_geometry_114","golden_geometry_115","golden_geometry_116","golden_geometry_117","golden_geometry_118","golden_geometry_119","golden_geometry_120","golden_geometry_121","golden_geometry_122","golden_geometry_123","golden_geometry_124","golden_geometry_125","golden_geometry_126","golden_geometry_127","golden_geometry_128","golden_geometry_129","golden_geometry_130","golden_geometry_131","golden_geometry_132","golden_geometry_133","golden_geometry_134","golden_geometry_135","golden_geometry_136","golden_geometry_137","golden_geometry_138","golden_geometry_139","golden_geometry_140","golden_geometry_141","golden_geometry_142","golden_geometry_143","golden_geometry_144","golden_geometry_145","golden_geometry_146","golden_geometry_147","golden_geometry_148","golden_geometry_149"},items={},next=0,tick=0}
+function UI.updateReeds(actor)
+    local f=UI.reeds
+    if f.next<#f.names then
+        for _=1,5 do
+            f.next=f.next+1
+            local name=f.names[f.next]
+            if not name then break end
+            local go=GameObject.Find(name)
+            if go then
+                local an=go:GetComponentInChildren(typeof(UnityEngine.Animation),true)
+                if an then an:Stop();an.enabled=false end
+                if name:match('^golden_geometry_') then
+                    local rs=go:GetComponentsInChildren(typeof(UnityEngine.Renderer),true)
+                    local tone=(tonumber(name:match('(%d+)$')) or 0)%4
+                    f.geometryMats=f.geometryMats or {}
+                    for ri=0,rs.Length-1 do
+                        if not f.geometryMats[tone] then
+                            local sh=UnityEngine.Shader.Find('Universal Render Pipeline/Lit')
+                            local m=sh and UnityEngine.Material(sh) or UnityEngine.Material(rs[ri].sharedMaterial)
+                            local c=UnityEngine.Color(.58+tone*.035,.43+tone*.03,.21+tone*.023,1)
+                            for _,key in ipairs({'_BaseColor','_Color'}) do if m:HasProperty(key) then m:SetColor(key,c) end end
+                            m:SetFloat('_Cull',0);m:SetFloat('_Smoothness',.1)
+                            f.geometryMats[tone]=m
+                        end
+                        rs[ri].sharedMaterial=f.geometryMats[tone]
+                    end
+                end
+                if not name:match('^golden_geometry_') then
+                -- The editor replaces imported glTF cutout materials with its opaque shader.
+                -- Preserve the atlas and explicitly restore alpha clipping for runtime foliage.
+                local rs=go:GetComponentsInChildren(typeof(UnityEngine.Renderer),true)
+                for ri=0,rs.Length-1 do
+                    local src=rs[ri].sharedMaterial
+                    local tex=nil
+                    for _,key in ipairs({'_BaseTex','_BaseMap','_MainTex'}) do
+                        if src:HasProperty(key) then tex=src:GetTexture(key);if tex then break end end
+                    end
+                    if not f.material and tex then
+                        local sh=UnityEngine.Shader.Find('Universal Render Pipeline/Lit')
+                        if not sh then sh=UnityEngine.Shader.Find('Legacy Shaders/Transparent/Cutout/Diffuse') end
+                        if sh then
+                            local m=UnityEngine.Material(sh)
+                            for _,key in ipairs({'_BaseMap','_MainTex'}) do if m:HasProperty(key) then m:SetTexture(key,tex) end end
+                            for _,key in ipairs({'_BaseColor','_Color'}) do if m:HasProperty(key) then m:SetColor(key,UnityEngine.Color(1,1,1,1)) end end
+                            m:SetFloat('_AlphaClip',1);m:SetFloat('_Cutoff',.35);m:SetFloat('_Cull',0);m:SetFloat('_Surface',0)
+                            m:SetFloat('_ZWrite',1);m:SetFloat('_Smoothness',.15)
+                            m:EnableKeyword('_ALPHATEST_ON');m:SetOverrideTag('RenderType','TransparentCutout');m.renderQueue=2450
+                            f.material=m;report('reed cutout shader '..sh.name)
+                        end
+                    end
+                    if f.material then rs[ri].sharedMaterial=f.material end
+                end
+                end
+                local ts=go:GetComponentsInChildren(typeof(UnityEngine.Transform),true)
+                local lower,upper
+                for j=0,ts.Length-1 do
+                    if ts[j].name=='reed_lower' then lower=ts[j] end
+                    if ts[j].name=='reed_upper' then upper=ts[j] end
+                end
+                if lower and upper then
+                    local cols=go:GetComponentsInChildren(typeof(UnityEngine.Collider),true)
+                    for j=0,cols.Length-1 do cols[j].enabled=false end
+                    f.items[#f.items+1]={root=go.transform,lo=lower,hi=upper,lr=lower.localRotation,hr=upper.localRotation,x=0,z=0,vx=0,vz=0,phase=go.transform.position.x*.32+go.transform.position.z*.22}
+                end
+            end
+        end
+        if f.next>=#f.names then report('reeds ready '..#f.items..'/'..#f.names) end
+    end
+    f.tick=f.tick+1
+    local p=actor.position
+    local dt=math.min(Time.deltaTime,.033)
+    for i,v in ipairs(f.items) do
+        local rp=v.root.position
+        local dx,dz=rp.x-p.x,rp.z-p.z
+        local d2=dx*dx+dz*dz
+        if d2<144 or (i+f.tick)%6==0 then
+            local tx,tz=0,0
+            if d2<4 and math.abs(rp.y-p.y)<2.5 then
+                local dist=math.sqrt(d2)
+                local dir=v.root:InverseTransformDirection(Vector3(dx/math.max(.05,dist),0,dz/math.max(.05,dist)))
+                local strength=(1-math.min(1,dist/2))
+                tx=dir.z*32*strength;tz=-dir.x*32*strength
+                if not f.contactLogged and strength>.3 then f.contactLogged=true;report('reeds contact bend active') end
+            end
+            v.vx=v.vx+((tx-v.x)*45-v.vx*10)*dt
+            v.vz=v.vz+((tz-v.z)*45-v.vz*10)*dt
+            v.x=v.x+v.vx*dt;v.z=v.z+v.vz*dt
+            local wind=math.sin(Time.time*1.1+v.phase)*2.2+math.sin(Time.time*.43+v.phase*.45)*1.1
+            v.lo.localRotation=v.lr*Quaternion.Euler(v.x+wind,0,v.z+wind*.42)
+            v.hi.localRotation=v.hr*Quaternion.Euler(v.x*.65+wind*1.4,0,v.z*.65+math.sin(Time.time*1.6+v.phase)*1.7)
+        end
+    end
+end
+
+-- Runtime-only visual changes: retain every authored scene transform.
+UI.motion={}
+function UI.setupMotion()
+    local state=UI.motion
+    if not skyReady then return end
+    if not state.sky then
+        local shader=UnityEngine.Shader.Find('Universal Render Pipeline/Unlit')
+        local urp=shader~=nil
+        if not shader then shader=UnityEngine.Shader.Find('Unlit/Transparent') end
+        assert(shader,'No transparent sky shader available')
+        state.sky={}
+        for _,go in ipairs(dayObjects) do go:SetActive(true) end
+        for _,go in ipairs(nightObjects) do
+            go:SetActive(true)
+            local isSwirl=string.sub(go.name,1,10)=='sky_swirl_'
+            if isSwirl then go.transform.localScale=go.transform.localScale*1.25 end
+            local rs=go:GetComponentsInChildren(typeof(UnityEngine.Renderer),true)
+            for i=0,rs.Length-1 do
+                local old=rs[i].material
+                local m=UnityEngine.Material(shader)
+                local tex=nil
+                for _,key in ipairs({'_BaseTex','_BaseMap','_MainTex'}) do
+                    if old:HasProperty(key) then tex=old:GetTexture(key);if tex then break end end
+                end
+                if not tex then tex=old.mainTexture end
+                assert(tex,'Missing sky texture: '..go.name)
+                m:SetTexture(urp and '_BaseMap' or '_MainTex',tex)
+                m:SetColor(urp and '_BaseColor' or '_Color',Color(1,1,1,1))
+                if urp then
+                    m:SetFloat('_Surface',1);m:SetFloat('_Blend',0)
+                    m:SetFloat('_SrcBlend',5);m:SetFloat('_DstBlend',10);m:SetFloat('_ZWrite',0)
+                    m:SetFloat('_Cull',0);m:EnableKeyword('_SURFACE_TYPE_TRANSPARENT')
+                end
+                -- Dome bounds are centred near the camera, so distance sorting can
+                -- incorrectly draw the opaque night dome over the distant vortex.
+                local queues={sky_dome2=2990,sky_moon2=2991,sky_swirl_a=2992,sky_swirl_b=2993,sky_swirl_c=2994}
+                m.renderQueue=queues[go.name] or 3000
+                if isSwirl then report('sky layer '..go.name..' tex='..tex.name..' bounds='..tostring(rs[i].bounds)..' shader='..old.shader.name) end
+                rs[i].material=m
+                state.sky[#state.sky+1]={m=m,prop=urp and '_BaseColor' or '_Color',gain=isSwirl and 1.8 or 1}
+            end
+        end
+        SWIRL_LAYERS.fade=function(t)
+            for _,v in ipairs(state.sky) do v.m:SetColor(v.prop,Color(v.gain,v.gain,v.gain,1-t)) end
+        end
+        SWIRL_LAYERS.fade(blend*blend*(3-2*blend))
+        report('sky crossfade ready '..#state.sky)
+    end
+    if not state.rotor then
+        local go=GameObject.Find('windmill')
+        if not go then return end
+        local fs=go:GetComponentsInChildren(typeof(UnityEngine.MeshFilter),true)
+        for k=0,fs.Length-1 do
+            local mf=fs[k]
+            if mf.gameObject.name=='main' then
+                local mesh=mf.mesh
+                local vertices=mesh.vertices
+                local tris=mesh.triangles
+                local factor=mesh.bounds.size.y/22.301563262939453
+                local oy=mesh.bounds.min.y+2*factor
+                local oz=mesh.bounds.center.z
+                -- Identify disconnected boxes, welding UV seams for connectivity.
+                local parents,keys={},{}
+                local function find(i)
+                    while parents[i]~=i do parents[i]=parents[parents[i]];i=parents[i] end
+                    return i
+                end
+                for i=0,vertices.Length-1 do
+                    local v=vertices[i]
+                    local key=string.format('%.5f,%.5f,%.5f',v.x/factor,(v.y-oy)/factor,(v.z-oz)/factor)
+                    parents[i]=keys[key] or i;keys[key]=parents[i]
+                end
+                for i=0,tris.Length-1,3 do
+                    local a,b,c=find(tris[i]),find(tris[i+1]),find(tris[i+2]);parents[b]=a;parents[c]=a
+                end
+                local bounds={}
+                for i=0,vertices.Length-1 do
+                    local id=find(i);local v=vertices[i];local z=(v.z-oz)/factor;local y=(v.y-oy)/factor
+                    local b=bounds[id] or {lo=1e9,hi=-1e9,y=1e9};bounds[id]=b
+                    b.lo=math.min(b.lo,z);b.hi=math.max(b.hi,z);b.y=math.min(b.y,y)
+                end
+                local fixed,moving={},{}
+                for i=0,tris.Length-1,3 do
+                    local b=bounds[find(tris[i])]
+                    local dst=(((b.lo>3.79 and b.hi<4.11) or (b.lo> -4.11 and b.hi< -3.79)) and b.y>2.4) and moving or fixed
+                    dst[#dst+1]=tris[i];dst[#dst+1]=tris[i+1];dst[#dst+1]=tris[i+2]
+                end
+                assert(#moving>100 and #fixed>100,'Rotor geometry not identified')
+                local function array(t)
+                    local a=CS.System.Array.CreateInstance(typeof(CS.System.Int32),#t)
+                    for i=1,#t do a[i-1]=t[i] end
+                    return a
+                end
+                local rotating=UnityEngine.Object.Instantiate(mesh)
+                mesh.triangles=array(fixed);rotating.triangles=array(moving)
+                local rotorZ=0
+                for _,idx in ipairs(moving) do rotorZ=rotorZ+vertices[idx].z end
+                rotorZ=rotorZ/#moving
+                local pivot=GameObject('windmill_rotor_pivot');pivot.transform:SetParent(mf.transform,false)
+                pivot.transform.localPosition=Vector3(mesh.bounds.center.x,oy+11.4*factor,rotorZ)
+                local rotor=GameObject('windmill_rotor');rotor.transform:SetParent(pivot.transform,false)
+                rotor.transform.localPosition=-pivot.transform.localPosition
+                rotor:AddComponent(typeof(UnityEngine.MeshFilter)).sharedMesh=rotating
+                rotor:AddComponent(typeof(UnityEngine.MeshRenderer)).sharedMaterials=mf.gameObject:GetComponent(typeof(UnityEngine.MeshRenderer)).sharedMaterials
+                local coll=mf.gameObject:GetComponent(typeof(UnityEngine.MeshCollider));if coll then coll.sharedMesh=mesh end
+                state.rotor=pivot.transform
+                report('windmill rotor ready triangles='..#moving/3)
+                break
+            end
+        end
+    end
+end
+function UI.updateMotion()
+    if not UI.motion.ready and not UI.motion.failed then
+        local ok,err=pcall(UI.setupMotion)
+        if not ok then UI.motion.failed=true;report('motion failed '..tostring(err))
+        elseif UI.motion.rotor then UI.motion.ready=true end
+    end
+    if UI.motion.rotor then UI.motion.rotor:Rotate(0,0,18*Time.deltaTime) end
+end
+
 UI.L = { title = { frames = { { 0, 0.707031, 1, 0.292969 }, { 0, 0.414062, 1, 0.292969 }, { 0, 0.121094, 1, 0.292969 } }, sub = { 0, 0, 1, 0.121094 }, aspect = 3.413333, sub_aspect = 8.258065 }, book = { aspect = 1.505882, left = { 0.0625, 0.058824, 0.433594, 0.876471 }, right = { 0.503906, 0.058824, 0.433594, 0.876471 } }, map = { M = 120, S = 5, size = 1520 }, atlas = { mapbtn = { 0.0, 0.75, 0.25, 0.25 }, arrow = { 0.25, 0.875, 0.125, 0.125 }, ring = { 0.375, 0.875, 0.125, 0.125 }, skip = { 0.5, 0.917969, 0.21875, 0.082031 }, close = { 0.75, 0.917969, 0.21875, 0.082031 }, hint_flip = { 0.0, 0.6875, 0.5, 0.0625 }, hint_map = { 0.5, 0.6875, 0.5, 0.0625 }, vignette = { 0.0, 0.375, 0.25, 0.25 }, grain = { 0.25, 0.375, 0.25, 0.25 } }, cards = { castle = { 1, 0.0, 0.800781, 0.5, 0.199219 }, dragon_peak = { 1, 0.5, 0.800781, 0.5, 0.199219 }, altar = { 1, 0.0, 0.601562, 0.5, 0.199219 }, spawn = { 1, 0.5, 0.601562, 0.5, 0.199219 }, village = { 1, 0.0, 0.402344, 0.5, 0.199219 }, rift_gate = { 1, 0.5, 0.402344, 0.5, 0.199219 }, arena = { 1, 0.0, 0.203125, 0.5, 0.199219 }, bridge = { 1, 0.5, 0.203125, 0.5, 0.199219 }, witch = { 1, 0.0, 0.003906, 0.5, 0.199219 }, windmill = { 1, 0.5, 0.003906, 0.5, 0.199219 }, camp = { 2, 0.0, 0.800781, 0.5, 0.199219 }, mushroom = { 2, 0.5, 0.800781, 0.5, 0.199219 }, flowers = { 2, 0.0, 0.601562, 0.5, 0.199219 }, glow_tree = { 2, 0.5, 0.601562, 0.5, 0.199219 }, carpet = { 2, 0.0, 0.402344, 0.5, 0.199219 }, lighthouse = { 2, 0.5, 0.402344, 0.5, 0.199219 }, harbor = { 2, 0.0, 0.203125, 0.5, 0.199219 }, meadow = { 2, 0.5, 0.203125, 0.5, 0.199219 }, lake = { 2, 0.0, 0.003906, 0.5, 0.199219 } }, card_aspect = 2.509804, poi = { { id = "castle", x = 127, z = 182, lx = 45.4, ly = 15.5, lw = 43.6, lh = 21.2 }, { id = "dragon_peak", x = 165, z = 234, lx = 41.4, ly = -5.5, lw = 43.6, lh = 21.2 }, { id = "altar", x = 48, z = 150, lx = 52.6, ly = -5.5, lw = 54.7, lh = 21.2 }, { id = "spawn", x = 121, z = 57, lx = 44.1, ly = -16.1, lw = 43.6, lh = 21.2 }, { id = "village", x = 184, z = 80, lx = -44.1, ly = 8.9, lw = 43.6, lh = 21.2 }, { id = "rift_gate", x = 125, z = 135, lx = -61.8, ly = 2.1, lw = 46.8, lh = 19.2 }, { id = "arena", x = 127, z = 160, lx = -46.1, ly = -1.8, lw = 37.6, lh = 19.2 }, { id = "bridge", x = 162, z = 110, lx = 26.3, ly = -3.2, lw = 28.4, lh = 19.2 }, { id = "witch", x = 171, z = 146, lx = 44.7, ly = -3.2, lw = 46.8, lh = 19.2 }, { id = "windmill", x = 84, z = 66, lx = 35.5, ly = -3.2, lw = 37.6, lh = 19.2 }, { id = "camp", x = 62, z = 62, lx = -13.2, ly = -20.3, lw = 56.1, lh = 19.2 }, { id = "mushroom", x = 86, z = 98, lx = 35.5, ly = -3.2, lw = 37.6, lh = 19.2 }, { id = "flowers", x = 150, z = 62, lx = 55.3, ly = -8.4, lw = 56.1, lh = 19.2 }, { id = "glow_tree", x = 160, z = 74, lx = 46.1, ly = -13.7, lw = 46.8, lh = 19.2 }, { id = "carpet", x = 96, z = 30, lx = 44.7, ly = -3.2, lw = 46.8, lh = 19.2 }, { id = "lighthouse", x = 209, z = 134, lx = 35.5, ly = -3.2, lw = 37.6, lh = 19.2 }, { id = "harbor", x = 192, z = 86, lx = 27.6, ly = -15.0, lw = 28.4, lh = 19.2 }, { id = "meadow", x = 96, z = 50, lx = -44.7, ly = -17.6, lw = 37.6, lh = 19.2 }, { id = "lake", x = 116, z = 124, lx = 38.2, ly = -15.0, lw = 28.4, lh = 19.2 } } }
 UI.TEX_NAMES = { "ui_title", "ui_book", "ui_pages1", "ui_pages2", "ui_pages3", "ui_map", "ui_atlas", "ui_cards1", "ui_cards2" }
 UI.CAM_A = Vector3(148, 52, 86)
@@ -1958,7 +2557,10 @@ function UI.camTitle(t)
     local p = Vector3.Lerp(UI.CAM_A, UI.CAM_B, k)
     p.y = p.y + math.sin(t * .3) * .6
     UI.cam.transform.position = p
-    UI.cam.transform.rotation = Quaternion.LookRotation(UI.CAM_LOOK - p)
+    -- Aim at the authored vortex centre, independent of the slow camera drift.
+    local vortex=SWIRL_LAYERS[2].transform
+    local target=vortex and vortex.position or Vector3(128,235,440)
+    UI.cam.transform.rotation = Quaternion.LookRotation(target - p)
 end
 
 function UI.camFly(k)
@@ -2230,12 +2832,45 @@ function UI.updateMap(actor, dt)
 end
 -- @@UI END
 
+function UI.updateDesktopBgm()
+    if UI.desktopBgmDisabled or UI.root == nil then return end
+    if not UI.desktopBgmModule then
+        -- The editor runs WebGL on desktop; native/mobile keeps scene audioData.
+        if UnityEngine.Application.isMobilePlatform
+            or UnityEngine.Application.platform ~= UnityEngine.RuntimePlatform.WebGLPlayer then
+            UI.desktopBgmDisabled = true
+            return
+        end
+        UI.desktopBgmModule = require("modules.desktop_bgm")
+        UI.desktopBgm = UI.desktopBgmModule.new(UI.root)
+    end
+    UI.desktopBgmModule.update(UI.desktopBgm)
+end
+
+function OnDestroy()
+    if DR.camera then UnityEngine.Object.Destroy(DR.camera.gameObject);DR.camera=nil end
+    if DR.rider then pcall(function() DR.rider.gameObject.transform:SetParent(nil,true);DR.rider:StandUp(DR.seat);DR.rider:Immobilize(false) end);DR.rider=nil end
+    if UI.desktopBgmModule then
+        UI.desktopBgmModule.dispose(UI.desktopBgm)
+        UI.desktopBgm = nil
+    end
+end
+
 function Update()
     if UI.root == nil and not UI.failed then
         local okc, errc = pcall(UI.buildCanvas)
         if not okc then UI.failed = true; report("ui canvas failed " .. tostring(errc)) end
     end
+    if not UI.desktopBgmDisabled then
+        local okb, errb = pcall(UI.updateDesktopBgm)
+        if not okb then
+            UI.desktopBgmDisabled = true
+            if UI.desktopBgmModule then pcall(UI.desktopBgmModule.dispose, UI.desktopBgm) end
+            report("desktop music failed " .. tostring(errb))
+        end
+    end
     updateSky()
+    if skyReady then UI.updateMotion() end
     if envReady and (castleMats == nil or #castleMats < 3) then
         castleRetry = castleRetry + Time.deltaTime
         if castleRetry > 1 then
@@ -2268,6 +2903,14 @@ function Update()
     end
     updateDayNight(actor)
     updatePortals(actor)
+    if not UI.reeds.failed then
+        local ok,err=pcall(UI.updateReeds,actor)
+        if not ok then UI.reeds.failed=true;report("reeds failed "..tostring(err)) end
+    end
+    if not UI.foliage.failed then
+        local ok,err=pcall(UI.updateFoliage,actor)
+        if not ok then UI.foliage.failed=true;report("foliage failed "..tostring(err)) end
+    end
     if detailMats == nil then
         detailRetry = (detailRetry or 0) - Time.deltaTime
         if detailRetry <= 0 then
@@ -2293,6 +2936,10 @@ function Update()
     if DEBUG_TELEPORT then
         updateDebug(actor)
     end
+end
+
+function LateUpdate()
+    if DR.v8 and DR.rider then DR.align(DR.rider) end
 end
 
 return {}

@@ -1,0 +1,784 @@
+{
+  "altarWestern": {
+    "blender_min": [
+      -0.48834228515625,
+      -0.490386962890625,
+      0.0
+    ],
+    "blender_max": [
+      0.48834228515625,
+      0.490386962890625,
+      0.2950592041015625
+    ],
+    "unity_min": [
+      -0.48834228515625,
+      0.0,
+      -0.490386962890625
+    ],
+    "unity_max": [
+      0.48834228515625,
+      0.2950592041015625,
+      0.490386962890625
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/altarWestern_source.glb"
+  },
+  "rune_stone": {
+    "blender_min": [
+      -0.283477783203125,
+      -0.29150390625,
+      0.0
+    ],
+    "blender_max": [
+      0.283477783203125,
+      0.29150390625,
+      0.978271484375
+    ],
+    "unity_min": [
+      -0.283477783203125,
+      0.0,
+      -0.29150390625
+    ],
+    "unity_max": [
+      0.283477783203125,
+      0.978271484375,
+      0.29150390625
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/rune_stone_source.glb"
+  },
+  "horse_unridden_v4": {
+    "blender_min": [
+      -0.21682724356651306,
+      -0.48977670073509216,
+      -6.373670657922048e-07
+    ],
+    "blender_max": [
+      0.21682721376419067,
+      0.489776074886322,
+      0.9694821834564209
+    ],
+    "unity_min": [
+      -0.21682724356651306,
+      -6.373670657922048e-07,
+      -0.489776074886322
+    ],
+    "unity_max": [
+      0.21682721376419067,
+      0.9694821834564209,
+      0.48977670073509216
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/horse_refined_v1.glb"
+  },
+  "sheep_clumped_v4": {
+    "blender_min": [
+      -0.32461532950401306,
+      -0.4899902045726776,
+      2.8039465860274504e-08
+    ],
+    "blender_max": [
+      0.32461538910865784,
+      0.48999014496803284,
+      0.8402102589607239
+    ],
+    "unity_min": [
+      -0.32461532950401306,
+      2.8039465860274504e-08,
+      -0.48999014496803284
+    ],
+    "unity_max": [
+      0.32461538910865784,
+      0.8402102589607239,
+      0.4899902045726776
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/sheep_rigged_walk.glb"
+  },
+  "sailboat_full": {
+    "blender_min": [
+      -0.23041534423828125,
+      -0.489959716796875,
+      0.0
+    ],
+    "blender_max": [
+      0.23041534423828125,
+      0.489959716796875,
+      0.731658935546875
+    ],
+    "unity_min": [
+      -0.23041534423828125,
+      0.0,
+      -0.489959716796875
+    ],
+    "unity_max": [
+      0.23041534423828125,
+      0.731658935546875,
+      0.489959716796875
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/sailboat_full_source.glb"
+  },
+  "tree_trunk": {
+    "blender_min": [
+      -0.311553955078125,
+      -0.4906768798828125,
+      0.0
+    ],
+    "blender_max": [
+      0.311553955078125,
+      0.4906768798828125,
+      0.7020263671875
+    ],
+    "unity_min": [
+      -0.311553955078125,
+      0.0,
+      -0.4906768798828125
+    ],
+    "unity_max": [
+      0.311553955078125,
+      0.7020263671875,
+      0.4906768798828125
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/tree_trunk_source.glb"
+  },
+  "tree_single_leaf": {
+    "blender_min": [
+      -0.07242202758789062,
+      -0.4917144775390625,
+      0.0
+    ],
+    "blender_max": [
+      0.07242202758789062,
+      0.4917144775390625,
+      0.730133056640625
+    ],
+    "unity_min": [
+      -0.07242202758789062,
+      0.0,
+      -0.4917144775390625
+    ],
+    "unity_max": [
+      0.07242202758789062,
+      0.730133056640625,
+      0.4917144775390625
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/tree_single_leaf_source.glb"
+  },
+  "shadow_spirit": {
+    "blender_min": [
+      -0.2691497802734375,
+      -0.48876968026161194,
+      -5.549520665226737e-08
+    ],
+    "blender_max": [
+      0.2691497802734375,
+      0.4887695610523224,
+      0.927276611328125
+    ],
+    "unity_min": [
+      -0.2691497802734375,
+      -5.549520665226737e-08,
+      -0.4887695610523224
+    ],
+    "unity_max": [
+      0.2691497802734375,
+      0.927276611328125,
+      0.48876968026161194
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/shadow_spirit_rigged.glb"
+  },
+  "watch_lamp": {
+    "blender_min": [
+      -0.1161041259765625,
+      -0.19420623779296875,
+      0.0
+    ],
+    "blender_max": [
+      0.1161041259765625,
+      0.19420623779296875,
+      0.986968994140625
+    ],
+    "unity_min": [
+      -0.1161041259765625,
+      0.0,
+      -0.19420623779296875
+    ],
+    "unity_max": [
+      0.1161041259765625,
+      0.986968994140625,
+      0.19420623779296875
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/watch_lamp_source.glb"
+  },
+  "witch_world_v3": {
+    "blender_min": [
+      -0.17861923575401306,
+      -0.2814328372478485,
+      -4.327937119796843e-08
+    ],
+    "blender_max": [
+      0.17861945927143097,
+      0.28146377205848694,
+      0.9816893935203552
+    ],
+    "unity_min": [
+      -0.17861923575401306,
+      -4.327937119796843e-08,
+      -0.28146377205848694
+    ],
+    "unity_max": [
+      0.17861945927143097,
+      0.9816893935203552,
+      0.2814328372478485
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/witch_rigged_idle.glb"
+  },
+  "witch_staff": {
+    "blender_min": [
+      -0.06184196472167969,
+      -0.10424041748046875,
+      0.0
+    ],
+    "blender_max": [
+      0.06184196472167969,
+      0.10424041748046875,
+      0.97967529296875
+    ],
+    "unity_min": [
+      -0.06184196472167969,
+      0.0,
+      -0.10424041748046875
+    ],
+    "unity_max": [
+      0.06184196472167969,
+      0.97967529296875,
+      0.10424041748046875
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/witch_staff_source.glb"
+  },
+  "dragon_egg": {
+    "blender_min": [
+      -0.453399658203125,
+      -0.4901580810546875,
+      0.0
+    ],
+    "blender_max": [
+      0.453399658203125,
+      0.4901580810546875,
+      0.847747802734375
+    ],
+    "unity_min": [
+      -0.453399658203125,
+      0.0,
+      -0.4901580810546875
+    ],
+    "unity_max": [
+      0.453399658203125,
+      0.847747802734375,
+      0.4901580810546875
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/dragon_egg_source.glb"
+  },
+  "dragon_egg_2": {
+    "blender_min": [
+      -0.4358673095703125,
+      -0.4898681640625,
+      0.0
+    ],
+    "blender_max": [
+      0.4358673095703125,
+      0.4898681640625,
+      0.852325439453125
+    ],
+    "unity_min": [
+      -0.4358673095703125,
+      0.0,
+      -0.4898681640625
+    ],
+    "unity_max": [
+      0.4358673095703125,
+      0.852325439453125,
+      0.4898681640625
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/dragon_egg_2_source.glb"
+  },
+  "dragon_egg_3": {
+    "blender_min": [
+      -0.4321136474609375,
+      -0.4904022216796875,
+      0.0
+    ],
+    "blender_max": [
+      0.4321136474609375,
+      0.4904022216796875,
+      0.848968505859375
+    ],
+    "unity_min": [
+      -0.4321136474609375,
+      0.0,
+      -0.4904022216796875
+    ],
+    "unity_max": [
+      0.4321136474609375,
+      0.848968505859375,
+      0.4904022216796875
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/dragon_egg_3_source.glb"
+  },
+  "dragon_egg_4": {
+    "blender_min": [
+      -0.4755401611328125,
+      -0.491058349609375,
+      0.0
+    ],
+    "blender_max": [
+      0.4755401611328125,
+      0.491058349609375,
+      0.825439453125
+    ],
+    "unity_min": [
+      -0.4755401611328125,
+      0.0,
+      -0.491058349609375
+    ],
+    "unity_max": [
+      0.4755401611328125,
+      0.825439453125,
+      0.491058349609375
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/dragon_egg_4_source.glb"
+  },
+  "potion": {
+    "blender_min": [
+      -0.292510986328125,
+      -0.2911834716796875,
+      0.0
+    ],
+    "blender_max": [
+      0.292510986328125,
+      0.2911834716796875,
+      0.98016357421875
+    ],
+    "unity_min": [
+      -0.292510986328125,
+      0.0,
+      -0.2911834716796875
+    ],
+    "unity_max": [
+      0.292510986328125,
+      0.98016357421875,
+      0.2911834716796875
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/potion_source.glb"
+  },
+  "sword": {
+    "blender_min": [
+      -0.1635284423828125,
+      -0.4911956787109375,
+      0.0
+    ],
+    "blender_max": [
+      0.1635284423828125,
+      0.4911956787109375,
+      0.7625732421875
+    ],
+    "unity_min": [
+      -0.1635284423828125,
+      0.0,
+      -0.4911956787109375
+    ],
+    "unity_max": [
+      0.1635284423828125,
+      0.7625732421875,
+      0.4911956787109375
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/sword_source.glb"
+  },
+  "staff": {
+    "blender_min": [
+      -0.05204582214355469,
+      -0.14151763916015625,
+      0.0
+    ],
+    "blender_max": [
+      0.05204582214355469,
+      0.14151763916015625,
+      0.98040771484375
+    ],
+    "unity_min": [
+      -0.05204582214355469,
+      0.0,
+      -0.14151763916015625
+    ],
+    "unity_max": [
+      0.05204582214355469,
+      0.98040771484375,
+      0.14151763916015625
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/staff_source.glb"
+  },
+  "bow": {
+    "blender_min": [
+      -0.08475112915039062,
+      -0.15683746337890625,
+      0.0
+    ],
+    "blender_max": [
+      0.08475112915039062,
+      0.15683746337890625,
+      0.982666015625
+    ],
+    "unity_min": [
+      -0.08475112915039062,
+      0.0,
+      -0.15683746337890625
+    ],
+    "unity_max": [
+      0.08475112915039062,
+      0.982666015625,
+      0.15683746337890625
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/bow_source.glb"
+  },
+  "mushroom_skewer": {
+    "blender_min": [
+      -0.12641143798828125,
+      -0.4921722412109375,
+      0.0
+    ],
+    "blender_max": [
+      0.12641143798828125,
+      0.4921722412109375,
+      0.23818206787109375
+    ],
+    "unity_min": [
+      -0.12641143798828125,
+      0.0,
+      -0.4921722412109375
+    ],
+    "unity_max": [
+      0.12641143798828125,
+      0.23818206787109375,
+      0.4921722412109375
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/mushroom_skewer_source.glb"
+  },
+  "camp_stele": {
+    "blender_min": [
+      -0.2183685302734375,
+      -0.3206939697265625,
+      0.0
+    ],
+    "blender_max": [
+      0.2183685302734375,
+      0.3206939697265625,
+      0.982177734375
+    ],
+    "unity_min": [
+      -0.2183685302734375,
+      0.0,
+      -0.3206939697265625
+    ],
+    "unity_max": [
+      0.2183685302734375,
+      0.982177734375,
+      0.3206939697265625
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/camp_stele_source.glb"
+  },
+  "glowing_mushrooms": {
+    "blender_min": [
+      -0.35870361328125,
+      -0.48785400390625,
+      0.0
+    ],
+    "blender_max": [
+      0.35870361328125,
+      0.48785400390625,
+      0.901275634765625
+    ],
+    "unity_min": [
+      -0.35870361328125,
+      0.0,
+      -0.48785400390625
+    ],
+    "unity_max": [
+      0.35870361328125,
+      0.901275634765625,
+      0.48785400390625
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/glowing_mushrooms_source.glb"
+  },
+  "moonflowers": {
+    "blender_min": [
+      -0.15775299072265625,
+      -0.4572601318359375,
+      0.0
+    ],
+    "blender_max": [
+      0.15775299072265625,
+      0.4572601318359375,
+      0.953582763671875
+    ],
+    "unity_min": [
+      -0.15775299072265625,
+      0.0,
+      -0.4572601318359375
+    ],
+    "unity_max": [
+      0.15775299072265625,
+      0.953582763671875,
+      0.4572601318359375
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/moonflowers_source.glb"
+  },
+  "stable": {
+    "blender_min": [
+      -0.3657379150390625,
+      -0.4903106689453125,
+      0.0
+    ],
+    "blender_max": [
+      0.3657379150390625,
+      0.4903106689453125,
+      0.630279541015625
+    ],
+    "unity_min": [
+      -0.3657379150390625,
+      0.0,
+      -0.4903106689453125
+    ],
+    "unity_max": [
+      0.3657379150390625,
+      0.630279541015625,
+      0.4903106689453125
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/stable_source.glb"
+  },
+  "trial_platform_red": {
+    "blender_min": [
+      -0.4899749755859375,
+      -0.4906768798828125,
+      0.0
+    ],
+    "blender_max": [
+      0.4899749755859375,
+      0.4906768798828125,
+      0.15187835693359375
+    ],
+    "unity_min": [
+      -0.4899749755859375,
+      0.0,
+      -0.4906768798828125
+    ],
+    "unity_max": [
+      0.4899749755859375,
+      0.15187835693359375,
+      0.4906768798828125
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/trial_platform_red_source.glb"
+  },
+  "trial_platform_blue": {
+    "blender_min": [
+      -0.4900360107421875,
+      -0.489959716796875,
+      0.0
+    ],
+    "blender_max": [
+      0.4900360107421875,
+      0.489959716796875,
+      0.15657806396484375
+    ],
+    "unity_min": [
+      -0.4900360107421875,
+      0.0,
+      -0.489959716796875
+    ],
+    "unity_max": [
+      0.4900360107421875,
+      0.15657806396484375,
+      0.489959716796875
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/trial_platform_blue_source.glb"
+  },
+  "castle_armor": {
+    "blender_min": [
+      -0.10715484619140625,
+      -0.20276641845703125,
+      0.0
+    ],
+    "blender_max": [
+      0.10715484619140625,
+      0.20276641845703125,
+      0.979339599609375
+    ],
+    "unity_min": [
+      -0.10715484619140625,
+      0.0,
+      -0.20276641845703125
+    ],
+    "unity_max": [
+      0.10715484619140625,
+      0.979339599609375,
+      0.20276641845703125
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/castle_armor_source.glb"
+  },
+  "castle_statue": {
+    "blender_min": [
+      -0.4897308349609375,
+      -0.3311309814453125,
+      0.0
+    ],
+    "blender_max": [
+      0.4897308349609375,
+      0.3311309814453125,
+      0.973663330078125
+    ],
+    "unity_min": [
+      -0.4897308349609375,
+      0.0,
+      -0.3311309814453125
+    ],
+    "unity_max": [
+      0.4897308349609375,
+      0.973663330078125,
+      0.3311309814453125
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/castle_statue_source.glb"
+  },
+  "castle_throne": {
+    "blender_min": [
+      -0.1701812744140625,
+      -0.2722015380859375,
+      0.0
+    ],
+    "blender_max": [
+      0.1701812744140625,
+      0.2722015380859375,
+      0.978668212890625
+    ],
+    "unity_min": [
+      -0.1701812744140625,
+      0.0,
+      -0.2722015380859375
+    ],
+    "unity_max": [
+      0.1701812744140625,
+      0.978668212890625,
+      0.2722015380859375
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/castle_throne_source.glb"
+  },
+  "castle_bookshelf": {
+    "blender_min": [
+      -0.1375274658203125,
+      -0.307525634765625,
+      0.0
+    ],
+    "blender_max": [
+      0.1375274658203125,
+      0.307525634765625,
+      0.97906494140625
+    ],
+    "unity_min": [
+      -0.1375274658203125,
+      0.0,
+      -0.307525634765625
+    ],
+    "unity_max": [
+      0.1375274658203125,
+      0.97906494140625,
+      0.307525634765625
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/castle_bookshelf_source.glb"
+  },
+  "castle_window": {
+    "blender_min": [
+      -0.05633735656738281,
+      -0.21587371826171875,
+      0.0
+    ],
+    "blender_max": [
+      0.05633735656738281,
+      0.21587371826171875,
+      0.978118896484375
+    ],
+    "unity_min": [
+      -0.05633735656738281,
+      0.0,
+      -0.21587371826171875
+    ],
+    "unity_max": [
+      0.05633735656738281,
+      0.978118896484375,
+      0.21587371826171875
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/castle_window_source.glb"
+  },
+  "castle_door": {
+    "blender_min": [
+      -0.1419830322265625,
+      -0.3760986328125,
+      0.0
+    ],
+    "blender_max": [
+      0.1419830322265625,
+      0.3760986328125,
+      0.976531982421875
+    ],
+    "unity_min": [
+      -0.1419830322265625,
+      0.0,
+      -0.3760986328125
+    ],
+    "unity_max": [
+      0.1419830322265625,
+      0.976531982421875,
+      0.3760986328125
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/castle_door_source.glb"
+  },
+  "castle_cornice": {
+    "blender_min": [
+      -0.07900619506835938,
+      -0.4899444580078125,
+      0.0
+    ],
+    "blender_max": [
+      0.07900619506835938,
+      0.4899444580078125,
+      0.305572509765625
+    ],
+    "unity_min": [
+      -0.07900619506835938,
+      0.0,
+      -0.4899444580078125
+    ],
+    "unity_max": [
+      0.07900619506835938,
+      0.305572509765625,
+      0.4899444580078125
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/castle_cornice_source.glb"
+  },
+  "castle_gargoyle": {
+    "blender_min": [
+      -0.2449493408203125,
+      -0.4903717041015625,
+      0.0
+    ],
+    "blender_max": [
+      0.2449493408203125,
+      0.4903717041015625,
+      0.840850830078125
+    ],
+    "unity_min": [
+      -0.2449493408203125,
+      0.0,
+      -0.4903717041015625
+    ],
+    "unity_max": [
+      0.2449493408203125,
+      0.840850830078125,
+      0.4903717041015625
+    ],
+    "path": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/approved_batch/castle_gargoyle_source.glb"
+  }
+}

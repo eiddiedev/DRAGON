@@ -1,0 +1,21 @@
+{
+  "preserved_original_asset_roots": 2097,
+  "changed_original_asset_roots": [],
+  "terrain_changes": [],
+  "script_content_changes": [],
+  "castle_sundial_removed": true,
+  "remaining_sundials": [
+    {
+      "id": "194003353",
+      "position": {
+        "x": 121.0,
+        "y": 39.9168,
+        "z": 57.0
+      }
+    }
+  ],
+  "existing_castle_root_preserved": true,
+  "new_entry_root": [
+    "-1788843370"
+  ]
+}

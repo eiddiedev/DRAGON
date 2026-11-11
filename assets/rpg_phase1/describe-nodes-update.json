@@ -1,0 +1,9 @@
+{
+  "revision": "8c16e9e4e974459dbe17d3a74ae914a45aa3e24253a6d42313f70f40b2f23325",
+  "result": {
+    "method": "nodes.update",
+    "args": "位置参数数组：[nodes: NodeHandle[], patch: {\n    /** 可选的新显示名，必须非空；省略保留原名，不改变节点身份。 */\n    name?: string;\n    /** 可选自身活动开关；省略保留原配置，不级联改写后代的 isActive。 */\n    active?: boolean;\n    /** 可选 Unity Layer 整数编号，范围 0..31；省略保留原 Layer。 */\n    layer?: number;\n    /** 可选非空 Unity Tag 字符串；省略保留原 Tag，不用来修改组件或层级。 */\n    tag?: string;\n}]\nargs[0] nodes: 当前目标中的节点身份列表，原样使用 SDK 返回的 NodeHandle；当前目标中不存在对应 ID 时拒绝。\nargs[1] patch: 要修改的 name/active/layer/tag 字段；省略字段保留，层级与变换使用专门方法。\n类型约定：\nNodeHandle：当前文档中的节点身份；文档 ID 不变则句柄不变，ID 复用后定位新节点。\nWPrefab 宿主返回 n12，直接来自文档 node.id；目标由外层操作选择，不是 Unity GetInstanceID()。",
+    "returns": "void\n操作成功后 Promise 完成且无返回值；草稿正式保存与失败回滚由宿主事务负责。\n批量修改基础属性；层级和变换分别使用专门方法。",
+    "readOnly": false
+  }
+}

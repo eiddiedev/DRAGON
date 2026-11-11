@@ -1,0 +1,29 @@
+{
+  "source": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/tripo/rift_gate_h25/source.glb",
+  "source_triangles": 501310,
+  "output_triangles": 14799,
+  "height_m": 8,
+  "source_bounds": [
+    [
+      -0.4999102056026459,
+      -0.44410353899002075,
+      -4.350714880274609e-05
+    ],
+    [
+      0.500150203704834,
+      0.4437636435031891,
+      0.6974183917045593
+    ]
+  ],
+  "textures": [
+    {
+      "name": "rift_gate_h25_source_basecolor.jpg",
+      "size": [
+        1024,
+        1024
+      ]
+    }
+  ],
+  "estimated_capacity": 15,
+  "actual_editor_capacity": null
+}

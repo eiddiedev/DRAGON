@@ -1,0 +1,78 @@
+{
+  "activeMode": "direct-model",
+  "directModelPreferences": {
+    "faceCount": 20000,
+    "modelVendor": "tripo",
+    "quality": "standard",
+    "styleId": 2
+  },
+  "hasUnreadAttention": false,
+  "messages": [
+    {
+      "executionRef": {
+        "providerId": "topology",
+        "taskId": "d6344e85-e15c-470b-87fb-3f33b438212f"
+      },
+      "kind": "direct-model",
+      "messageId": "direct-model:topology:d6344e85-e15c-470b-87fb-3f33b438212f",
+      "request": {
+        "imageUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/5dabc8672df443de8f273eaea0e91892.png",
+        "parameters": {
+          "faceCount": 20000,
+          "modelVendor": "tripo",
+          "quality": "standard",
+          "styleId": 2
+        },
+        "prompt": "原创暗黑奇幻成年西方龙，严格参考图片，炭灰蓝黑鳞甲、暗酒红翼膜、象牙色后弯角、琥珀眼睛。完整四条腿和两只独立蝙蝠翼，长尾，宽阔肩背可供骑乘。保持中立站姿，翅膀展开，四肢、翼膜、尾巴彼此分离，适合后续精细绑骨。自然真实解剖，头部威严，鳞甲清晰，模型连续完整，不要底座、场景、粒子或文字。",
+        "imageName": "reference.png"
+      },
+      "status": "succeeded",
+      "revisionId": "direct-model:topology:d6344e85-e15c-470b-87fb-3f33b438212f"
+    }
+  ],
+  "questionPreference": {
+    "mode": "ask"
+  },
+  "resources": [
+    {
+      "createdAtUtc": "2026-11-09T16:25:15.045Z",
+      "promptSummary": "原创暗黑奇幻成年西方龙，严格参考图片，炭灰蓝黑鳞甲、暗酒红翼膜、象牙色后弯角、琥珀眼睛。完整四条腿和两只独立蝙蝠翼，长尾，宽阔肩背可供骑乘。保持中立站姿，翅膀展开，四肢、翼膜、尾巴彼此分离，适合后续精细绑骨。自然真实解剖，头部威严，鳞甲清晰，模型连续完整，不要底座、场景、粒子或文字。",
+      "resource": {
+        "displayName": "原创暗黑奇幻成年西方龙，严格参考图片，炭灰蓝黑鳞甲、暗酒红翼膜、象牙色后弯角、琥珀眼睛。完整四条腿和两只独立蝙蝠翼，长尾，宽阔肩背可供骑乘。保持中立站姿，翅膀展开，四肢、翼膜、尾巴彼此分离，适合后续精细绑骨。自然真实解剖，头部威严，鳞甲清晰，模型连续完整，不要底座、场景、粒子或文字。",
+        "outputType": "topology",
+        "parts": [
+          {
+            "displayName": "原创暗黑奇幻成年西方龙，严格参考图片，炭灰蓝黑鳞甲、暗酒红翼膜、象牙色后弯角、琥珀眼睛。完整四条腿和两只独立蝙蝠翼，长尾，宽阔肩背可供骑乘。保持中立站姿，翅膀展开，四肢、翼膜、尾巴彼此分离，适合后续精细绑骨。自然真实解剖，头部威严，鳞甲清晰，模型连续完整，不要底座、场景、粒子或文字。",
+            "modelUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/j6fkcd1hz5atg94r.glb",
+            "scenePartKind": "module",
+            "sortOrder": 0,
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/d4893347192b403485e7f0646d339b53.png",
+            "resourceId": "module-direct-cd53a75f0288a473",
+            "sourceMetadata": {
+              "algorithm": 1,
+              "modelType": 1,
+              "resourceType": 1,
+              "style": 2
+            },
+            "summary": "原创暗黑奇幻成年西方龙，严格参考图片，炭灰蓝黑鳞甲、暗酒红翼膜、象牙色后弯角、琥珀眼睛。完整四条腿和两只独立蝙蝠翼，长尾，宽阔肩背可供骑乘。保持中立站姿，翅膀展开，四肢、翼膜、尾巴彼此分离，适合后续精细绑骨。自然真实解剖，头部威严，鳞甲清晰，模型连续完整，不要底座、场景、粒子或文字。"
+          }
+        ],
+        "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/d4893347192b403485e7f0646d339b53.png"
+      },
+      "resourceId": "module-direct-cd53a75f0288a473",
+      "revisionId": "direct-model:topology:d6344e85-e15c-470b-87fb-3f33b438212f",
+      "sourceMessageId": "direct-model:topology:d6344e85-e15c-470b-87fb-3f33b438212f"
+    }
+  ],
+  "routeMode": "best_effort",
+  "skillSelection": {
+    "contextSkillIds": []
+  },
+  "workspaceId": "workspace_d96dejqk",
+  "workspacePreferences": {
+    "topology": {
+      "provider": "douyin-3d",
+      "styleLora": "none"
+    }
+  }
+}

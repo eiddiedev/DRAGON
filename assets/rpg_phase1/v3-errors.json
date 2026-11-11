@@ -1,0 +1,130 @@
+{
+  "entries": [
+    {
+      "source": "unity-application",
+      "sequence": 639,
+      "timestamp": "2026-11-11T04:37:49.782Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 640,
+      "timestamp": "2026-11-11T04:37:49.832Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 641,
+      "timestamp": "2026-11-11T04:37:49.883Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 642,
+      "timestamp": "2026-11-11T04:37:49.933Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 643,
+      "timestamp": "2026-11-11T04:37:49.982Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 644,
+      "timestamp": "2026-11-11T04:37:50.038Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 645,
+      "timestamp": "2026-11-11T04:37:50.083Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 646,
+      "timestamp": "2026-11-11T04:37:50.132Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 647,
+      "timestamp": "2026-11-11T04:37:50.183Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 648,
+      "timestamp": "2026-11-11T04:37:50.232Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 649,
+      "timestamp": "2026-11-11T04:37:50.284Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 650,
+      "timestamp": "2026-11-11T04:37:50.332Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 651,
+      "timestamp": "2026-11-11T04:37:50.383Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 652,
+      "timestamp": "2026-11-11T04:37:50.433Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 653,
+      "timestamp": "2026-11-11T04:37:50.483Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    }
+  ],
+  "captureSources": [
+    "unity-application",
+    "hamlet-owner"
+  ],
+  "next": 653,
+  "truncated": true
+}

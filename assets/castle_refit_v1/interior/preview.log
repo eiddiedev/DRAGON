@@ -1,0 +1,20 @@
+11:42:29 | INFO: Data are loaded, start creating Blender stuff
+11:42:29 | INFO: Blender create Mesh node castle_rooms
+11:42:29 | INFO: glTF import finished in 0.11s
+11:42:29 | INFO: Data are loaded, start creating Blender stuff
+11:42:29 | INFO: Blender create Mesh node castle_rooms_glow
+11:42:29 | INFO: glTF import finished in 0.01s
+11:42:29 | INFO: Data are loaded, start creating Blender stuff
+11:42:29 | INFO: Blender create Mesh node glow
+11:42:29 | INFO: Blender create Mesh node main
+11:42:29 | INFO: glTF import finished in 0.04s
+/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_refit_v1/interior/preview.py:13: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if mat and mat.use_nodes:
+/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_refit_v1/interior/preview.py:19: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('Ambient');world.use_nodes=True;world.node_tree.nodes['Background'].inputs[0].default_value=(.32,.36,.5,1);world.node_tree.nodes['Background'].inputs[1].default_value=.25;scene.world=world
+00:20.497  render           | Saved: '/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_refit_v1/interior/hall-clean.png'
+00:35.497  render           | Saved: '/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_refit_v1/interior/library-clean.png'
+00:53.778  render           | Saved: '/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_refit_v1/interior/dining.png'
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

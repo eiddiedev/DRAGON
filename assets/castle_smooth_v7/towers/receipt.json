@@ -1,0 +1,169 @@
+{
+  "scope": "smooth continuous stone replacement of four tower skins; no brick grid; original layout/collision unchanged",
+  "coordinates": "world=(127+BlenderX,BlenderZ,176+BlenderY); root127,0,176; no recenter",
+  "lighting": {
+    "passes": [
+      "COLOR",
+      "DIRECT",
+      "INDIRECT"
+    ],
+    "samples": 48,
+    "max_bounces": 6,
+    "diffuse_bounces": 4,
+    "environment": "same accepted neutral(.65,.65,.68)*.85 approximation, not source skybox reconstruction",
+    "fixtures": "existing lighting-plan \u00d72.4",
+    "occluders": "original fullcastle+interior+accepted sample source objects"
+  },
+  "palette": [
+    "#98929D",
+    "#A19BA4",
+    "#918D99",
+    "#ABA2AA",
+    "#C1B6B8",
+    "#55566D",
+    "#595B70",
+    "#53566B",
+    "#5D5E73"
+  ],
+  "color_storage": "FLOAT_COLOR linear; no double sRGB",
+  "color_squared_error": 1.5221642434185045e-16,
+  "open_face_normal_audit": {
+    "expand_right_tower": {
+      "checked": 3471,
+      "flipped_outward": 103
+    },
+    "expand_central_tower": {
+      "checked": 1608,
+      "flipped_outward": 10
+    },
+    "expand_rear_towers": {
+      "checked": 4572,
+      "flipped_outward": 356
+    },
+    "expand_clock_auxiliary": {
+      "checked": 2208,
+      "flipped_outward": 14
+    }
+  },
+  "smooth_stone": {
+    "body_joint_gap": 0,
+    "per_block_color_variation": false,
+    "body_chamfer_grid": false,
+    "tone_multiplier_baked": false,
+    "roof_tiles_retained": true
+  },
+  "outputs": {
+    "expand_right_tower": {
+      "file": "assets/castle_smooth_v7/towers/expand_right_tower.glb",
+      "sha256": "38389432f7caba368a2d092fa92f15fe5e9654547a8928548ec85684d6c62060",
+      "bytes": 1237340,
+      "triangles": 12286,
+      "scale": 45.0,
+      "glb_bounds": [
+        [
+          5.617656230926514,
+          72.0,
+          4.248000144958496
+        ],
+        [
+          12.982343673706055,
+          117.0,
+          11.751999855041504
+        ]
+      ],
+      "node": "expand_right_tower_GI",
+      "material": "expand_right_tower_GI_PBR",
+      "texture_size": 2048,
+      "vertex_colors": false,
+      "indirect_evidence": {
+        "mean": 0.06809042525186253,
+        "max": 1.0,
+        "nonzero_fraction": 0.54986572265625
+      }
+    },
+    "expand_central_tower": {
+      "file": "assets/castle_smooth_v7/towers/expand_central_tower.glb",
+      "sha256": "5032dab24d5f9f2e81bdc615bda7bc7e13ada1f852b267617642404b8c448abb",
+      "bytes": 954308,
+      "triangles": 7700,
+      "scale": 45.470001220703125,
+      "glb_bounds": [
+        [
+          -5.239999771118164,
+          93.83000183105469,
+          -8.239999771118164
+        ],
+        [
+          5.239999771118164,
+          139.3000030517578,
+          2.240000009536743
+        ]
+      ],
+      "node": "expand_central_tower_GI",
+      "material": "expand_central_tower_GI_PBR",
+      "texture_size": 2048,
+      "vertex_colors": false,
+      "indirect_evidence": {
+        "mean": 0.059116262076315707,
+        "max": 1.0,
+        "nonzero_fraction": 0.51123046875
+      }
+    },
+    "expand_rear_towers": {
+      "file": "assets/castle_smooth_v7/towers/expand_rear_towers.glb",
+      "sha256": "5c96ee24a355221c765da5d9d233501520d1718d9ba21e8f876393963e9fd69c",
+      "bytes": 1241540,
+      "triangles": 13480,
+      "scale": 41.600006103515625,
+      "glb_bounds": [
+        [
+          -13.274999618530273,
+          72.0,
+          -15.774999618530273
+        ],
+        [
+          13.274999618530273,
+          113.60000610351562,
+          -11.225000381469727
+        ]
+      ],
+      "node": "expand_rear_towers_GI",
+      "material": "expand_rear_towers_GI_PBR",
+      "texture_size": 2048,
+      "vertex_colors": false,
+      "indirect_evidence": {
+        "mean": 0.080886426659409,
+        "max": 0.6196078658103943,
+        "nonzero_fraction": 0.6068115234375
+      }
+    },
+    "expand_clock_auxiliary": {
+      "file": "assets/castle_smooth_v7/towers/expand_clock_auxiliary.glb",
+      "sha256": "dfa650c4ce97da0a576d4c7e021dbe81674fc7bd053f8fcd3f7c95e029275806",
+      "bytes": 566464,
+      "triangles": 6368,
+      "scale": 20.283004760742188,
+      "glb_bounds": [
+        [
+          -13.438982009887695,
+          85.5,
+          4.0
+        ],
+        [
+          -5.5610175132751465,
+          105.78300476074219,
+          12.0
+        ]
+      ],
+      "node": "expand_clock_auxiliary_GI",
+      "material": "expand_clock_auxiliary_GI_PBR",
+      "texture_size": 1024,
+      "vertex_colors": false,
+      "indirect_evidence": {
+        "mean": 0.12287773866693404,
+        "max": 0.7529412508010864,
+        "nonzero_fraction": 0.74139404296875
+      }
+    }
+  }
+}

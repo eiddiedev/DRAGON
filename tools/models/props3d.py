@@ -6,6 +6,7 @@ import math
 import os
 import random
 import sys
+import zipfile
 
 import numpy as np
 
@@ -15,8 +16,14 @@ from glbw import Geo, Rigid, write_glb
 OUT = sys.argv[1]
 what = set(sys.argv[2:]) or {'lamps', 'sheep', 'bat', 'carpet', 'altar'}
 os.makedirs(OUT, exist_ok=True)
-ROOT = '/Users/a1234/Documents/awesomeWRLD/assets'
-H = np.load(f'{ROOT}/terrain/v3/base_heights.npy')
+ROOT = '/Users/bytedance/Documents/ChatGPT/DRAGON/assets'
+if '--terrain-scene' in sys.argv:
+    scene_path = sys.argv[sys.argv.index('--terrain-scene') + 1]
+    with zipfile.ZipFile(scene_path) as scene_zip:
+        height_name = next(n for n in scene_zip.namelist() if n.startswith('HeightMap_'))
+        H = np.frombuffer(scene_zip.read(height_name), '<f4').reshape(257, 257) * 256
+else:
+    H = np.load(f'{ROOT}/terrain/v3/base_heights.npy')
 PATH = json.load(open(f'{ROOT}/terrain/v3/path.json'))
 rnd = random.Random(8)
 UP = np.array([0, 0, 1.0])
@@ -65,6 +72,7 @@ if 'lamps' in what:
     P, Gl = Geo(ROWS), Geo(GROWS)
     roads = [[(p[0], p[1]) for p in PATH[::3]], [(130, 52), (135, 66), (149, 79), (159, 90), (162, 96)], [(162, 127), (167, 134), (171, 141)]]
     lamps = []
+    lamp_placement = []
 
     def add_line(pts, every, flip=True):
         acc, s = 0.0, 1
@@ -76,7 +84,20 @@ if 'lamps' in what:
             if acc >= every:
                 acc = 0
                 nx, ny = -(by - ay) / (L + 1e-6), (bx - ax) / (L + 1e-6)
-                lamps.append((bx + nx * 2.7 * s, by + ny * 2.7 * s, math.atan2(-ny * s, -nx * s)))
+                # A centre-height sample alone lets half the plinth hang over
+                # a cliff. Check its full footprint and move onto a shoulder.
+                candidates = []
+                for side in (s, -s):
+                    for distance in np.linspace(1.3, 3.0, 18):
+                        x, y = bx + nx * distance * side, by + ny * distance * side
+                        heights = [Gh(x + dx, y + dy) for dx in (-.4, 0, .4) for dy in (-.4, 0, .4)]
+                        span = max(heights) - min(heights)
+                        score = span * 20 + abs(distance - 2.7) + (0 if side == s else 1)
+                        candidates.append((score, x, y, side, min(heights), max(heights)))
+                _, x, y, side, low, high = min(candidates)
+                lamps.append((x, y, math.atan2(-ny * side, -nx * side), low, high))
+                lamp_placement.append(dict(x=x, z=y, ground_min=low, ground_max=high,
+                                           footprint_span=high-low, road_anchor=[bx, by]))
                 if flip:
                     s = -s
 
@@ -86,9 +107,12 @@ if 'lamps' in what:
     print('lamps', len(lamps))
     OX, OY = 128.0, 128.0
     tops = []
-    for x, y, face in lamps:
-        g_ = Gh(x, y)
+    for x, y, face, low, high in lamps:
+        g_ = high
         c = np.array([x - OX, y - OY, g_ - .1])
+        # Extend the stone plinth below the lowest sampled corner, keeping
+        # the iron shaft upright and its visible base above the high side.
+        lathe(P, c, [(.34, low-high-.15), (.34, 0)], 1, 8, .5, math.pi / 8)
         # 石基 + 铸铁灯柱：底座、收腰、竖棱、圈饰
         lathe(P, c, [(.34, 0), (.34, .18), (.26, .26), (.2, .55)], 1, 8, .55, math.pi / 8)
         lathe(P, c, [(.17, .55), (.12, .72), (.075, .95), (.06, 1.9), (.055, 3.0)], 0, 8, .55)
@@ -132,6 +156,8 @@ if 'lamps' in what:
     t1 = write_glb(os.path.join(OUT, 'lamp_posts.glb'), P, name='lamp_posts', rough=.55, metal=.3)
     t2 = write_glb(os.path.join(OUT, 'lamp_glow.glb'), Gl, name='lamp_glow', rough=.4, emissive=(1, 1, 1))
     print('lamp tris', t1, t2)
+    with open(os.path.join(OUT, 'lamp-placement.json'), 'w') as report:
+        json.dump(lamp_placement, report, indent=2)
 
 # ==================== 绵羊
 if 'sheep' in what:

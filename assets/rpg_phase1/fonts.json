@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "status": "completed",
+  "result": [
+    {
+      "name": "Arial",
+      "dynamic": true,
+      "zh": true,
+      "material": "Font Material"
+    },
+    {
+      "name": "LiberationSans",
+      "dynamic": true,
+      "zh": true,
+      "material": "Font Material"
+    },
+    {
+      "name": "NotoSansSC-Medium",
+      "dynamic": true,
+      "zh": true,
+      "material": "Font Material"
+    },
+    {
+      "name": "DouyinSansBold",
+      "dynamic": true,
+      "zh": true,
+      "material": "Font Material"
+    }
+  ],
+  "startFrame": 4259,
+  "endFrame": 4259,
+  "durationMs": 6,
+  "mode": "native-puerts"
+}

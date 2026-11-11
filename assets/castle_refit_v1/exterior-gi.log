@@ -1,0 +1,56 @@
+REFIT COMPLETE {"gothic_main": {"blender_bounds": [[-14.199999809265137, -8.850000381469727, 71.9000015258789], [14.199999809265137, 21.2405948638916, 103.9260025024414]], "unity_bounds": [[-14.199999809265137, 71.9000015258789, -21.2405948638916], [14.199999809265137, 103.9260025024414, 8.850000381469727]], "normalization_scale": 32.0260009765625, "triangles": 51066, "bytes": 4302716, "lighting_bake": "AO/albedo only; final assembly GI not yet baked"}}
+11:41:47 | INFO: Data are loaded, start creating Blender stuff
+11:41:47 | INFO: Blender create Mesh node glow
+11:41:47 | INFO: Blender create Mesh node main
+11:41:47 | INFO: glTF import finished in 0.13s
+11:41:47 | INFO: Data are loaded, start creating Blender stuff
+11:41:47 | INFO: Blender create Mesh node glow
+11:41:47 | INFO: Blender create Mesh node main
+11:41:47 | INFO: glTF import finished in 0.10s
+11:41:47 | INFO: Data are loaded, start creating Blender stuff
+11:41:47 | INFO: Blender create Mesh node glow
+11:41:47 | INFO: Blender create Mesh node main
+11:41:47 | INFO: glTF import finished in 0.04s
+11:41:47 | INFO: Data are loaded, start creating Blender stuff
+11:41:47 | INFO: Blender create Mesh node castle_rooms
+11:41:47 | INFO: glTF import finished in 0.09s
+/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_refit_exterior.py:141: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('neutral_overcast_GI');world.use_nodes=True
+/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_refit_exterior.py:170: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  final=bpy.data.materials.new(name+'_GI_PBR');final.use_nodes=True;pb=final.node_tree.nodes.get('Principled BSDF');pb.inputs['Roughness'].default_value=.9
+Info: Saved as "assembly-GI-source.blend"
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+11:41:53 | INFO: Starting glTF 2.0 export
+11:41:53 | INFO: Extracting primitive: glow
+11:41:53 | INFO: Primitives created: 4
+11:41:53 | INFO: Extracting primitive: main
+11:41:53 | INFO: Primitives created: 1
+11:41:53 | INFO: Finished glTF 2.0 export in 0.26460790634155273 s
+
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+11:42:01 | INFO: Starting glTF 2.0 export
+11:42:01 | INFO: Extracting primitive: glow.001
+11:42:01 | INFO: Primitives created: 2
+11:42:01 | INFO: Extracting primitive: main.001
+11:42:02 | INFO: Primitives created: 1
+11:42:02 | INFO: Finished glTF 2.0 export in 0.2200000286102295 s
+
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+11:42:26 | INFO: Starting glTF 2.0 export
+11:42:26 | INFO: Extracting primitive: glow.002
+11:42:26 | INFO: Primitives created: 1
+11:42:26 | INFO: Extracting primitive: main.002
+11:42:26 | INFO: Primitives created: 1
+11:42:26 | INFO: Finished glTF 2.0 export in 0.10398983955383301 s
+01:13.251  render           | Saved: 'assets/castle_refit_v1/exterior/castle-assembled-GI.png'
+02:19.492  render           | Saved: 'assets/castle_refit_v1/exterior/entrance-GI.png'
+
+GI COMPLETE {"gothic_main": {"output": "assets/castle_refit_v1/exterior/gothic_main-GI.glb", "bytes": 4093236, "indirect": {"max": 1.0, "mean": 0.00489763275675396, "nonzero_fraction": 0.0640869140625}, "source": "assets/castle_refit_v1/exterior/gothic_main.glb"}, "gothic_towers": {"output": "assets/castle_refit_v1/exterior/gothic_towers-GI.glb", "bytes": 3296804, "indirect": {"max": 0.847058892250061, "mean": 0.005887579164607359, "nonzero_fraction": 0.0738983154296875}, "source": "assets/castle_refit_v1/exterior/gothic_towers.glb"}, "gothic_wall": {"output": "assets/castle_refit_v1/exterior/gothic_wall-GI.glb", "bytes": 1299836, "indirect": {"max": 1.0, "mean": 0.02498041427703157, "nonzero_fraction": 0.2729644775390625}, "source": "assets/castle_refit_v1/exterior/gothic_wall.glb"}}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

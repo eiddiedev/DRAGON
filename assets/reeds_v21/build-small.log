@@ -1,0 +1,15 @@
+/Users/bytedance/Documents/ChatGPT/DRAGON/assets/reeds_v21/build-small.py:44: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  m=bpy.data.materials.new('straw_vertex_colours');m.use_nodes=True;m.use_backface_culling=False
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+17:10:52 | INFO: Starting glTF 2.0 export
+17:10:52 | INFO: Extracting primitive: individual_folded_blades
+17:10:52 | WARNING: The active Vertex Color will not be exported, as it is not used in the node tree of the material
+17:10:52 | INFO: Primitives created: 1
+17:10:52 | INFO: Finished glTF 2.0 export in 0.02974104881286621 s
+
+{'triangles': 798, 'high_blades': 21, 'short_blades': 18, 'bones': 3, 'texture': 0, 'independent_tufts': 3, 'bytes': 52648}
+Info: Saved as "small.blend"
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

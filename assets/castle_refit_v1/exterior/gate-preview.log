@@ -1,0 +1,11 @@
+12:03:27 | INFO: Data are loaded, start creating Blender stuff
+12:03:27 | INFO: Blender create Mesh node glow.002
+12:03:27 | INFO: Blender create Mesh node main.002
+12:03:27 | INFO: glTF import finished in 0.06s
+/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_refit_v1/exterior/gate_fit_preview.py:16: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new(name);mat.diffuse_color=kit.srgb(color);mat.use_nodes=True;mat.node_tree.nodes['Principled BSDF'].inputs['Base Color'].default_value=kit.srgb(color);mat.node_tree.nodes['Principled BSDF'].inputs['Roughness'].default_value=.9;m.materials.append(mat)
+00:16.257  render           | Saved: 'assets/castle_refit_v1/exterior/gate-terrain-final.png'
+00:25.769  render           | Saved: 'assets/castle_refit_v1/exterior/gate-left-foot-final.png'
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

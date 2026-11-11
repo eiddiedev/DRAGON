@@ -1,0 +1,1 @@
+{"ok":false,"command":"scene","error":{"code":"SCENE_OPERATION_FAILED","message":"table index is out of bounds","hint":"保留同一 --request-id 恢复原回执；unknown 时核对真实场景，禁止换新请求自动重放。","details":{"operationId":"1b210056cf04dd41fffbd336e034efd2908192afba0f284ae6ed387ae90c2668","status":"cancelled","message":"table index is out of bounds"}}}

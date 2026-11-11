@@ -1,0 +1,203 @@
+{
+  "materials": [
+    {
+      "name": "sample_entrance_masonry",
+      "power": 0.68
+    },
+    {
+      "name": "sample_entrance_carved_trim",
+      "power": 0.68
+    },
+    {
+      "name": "clock_face_receiver.001",
+      "power": 0.82
+    },
+    {
+      "name": "clocktower_skin_receiver.001",
+      "power": 0.68
+    },
+    {
+      "name": "expand_expand_right_tower",
+      "power": 0.68
+    },
+    {
+      "name": "expand_expand_central_tower",
+      "power": 0.68
+    },
+    {
+      "name": "expand_expand_rear_towers",
+      "power": 0.68
+    },
+    {
+      "name": "expand_expand_clock_auxiliary",
+      "power": 0.68
+    },
+    {
+      "name": "expand_ring_wall_skin",
+      "power": 0.68
+    },
+    {
+      "name": "expand_wall_turrets_skin",
+      "power": 0.68
+    },
+    {
+      "name": "expand_gatehouse_skin",
+      "power": 0.68
+    },
+    {
+      "name": "castle_gi_armory",
+      "power": 1.35
+    },
+    {
+      "name": "castle_gi_bedchamber",
+      "power": 1.35
+    },
+    {
+      "name": "castle_gi_dining",
+      "power": 1.35
+    },
+    {
+      "name": "castle_gi_hall_front",
+      "power": 1.35
+    },
+    {
+      "name": "castle_gi_hall_rear",
+      "power": 1.35
+    },
+    {
+      "name": "castle_gi_kitchen",
+      "power": 1.35
+    },
+    {
+      "name": "castle_gi_library",
+      "power": 1.35
+    },
+    {
+      "name": "castle_gi_sanctuary",
+      "power": 1.35
+    }
+  ],
+  "lights": [
+    {
+      "name": "site_light",
+      "position": [
+        127,
+        78,
+        184
+      ],
+      "before": 4.599999904632568,
+      "after": 6.440000057220459
+    },
+    {
+      "name": "site_light",
+      "position": [
+        127,
+        80.5,
+        193
+      ],
+      "before": 2.5999999046325684,
+      "after": 3.6399998664855957
+    },
+    {
+      "name": "site_light",
+      "position": [
+        127,
+        74.80000305175781,
+        193
+      ],
+      "before": 3,
+      "after": 4.199999809265137
+    },
+    {
+      "name": "site_light",
+      "position": [
+        135.6999969482422,
+        75.5,
+        168
+      ],
+      "before": 2.5999999046325684,
+      "after": 3.6399998664855957
+    },
+    {
+      "name": "site_light",
+      "position": [
+        117.5999984741211,
+        75.5,
+        168
+      ],
+      "before": 2.4000000953674316,
+      "after": 3.3600001335144043
+    },
+    {
+      "name": "site_light",
+      "position": [
+        137,
+        77,
+        179
+      ],
+      "before": 2.799999952316284,
+      "after": 3.919999837875366
+    },
+    {
+      "name": "site_light",
+      "position": [
+        117,
+        77,
+        179
+      ],
+      "before": 2.5999999046325684,
+      "after": 3.6399998664855957
+    },
+    {
+      "name": "site_light",
+      "position": [
+        127,
+        78,
+        172
+      ],
+      "before": 5,
+      "after": 7
+    },
+    {
+      "name": "宴厅壁炉光",
+      "position": [
+        139.39999389648438,
+        73.19999694824219,
+        179
+      ],
+      "before": 1.600000023841858,
+      "after": 2.240000009536743
+    },
+    {
+      "name": "书库桌上烛光",
+      "position": [
+        117,
+        73.5,
+        179
+      ],
+      "before": 1.600000023841858,
+      "after": 2.240000009536743
+    },
+    {
+      "name": "城堡火盆右",
+      "position": [
+        129.89999389648438,
+        73.80000305175781,
+        184.1999969482422
+      ],
+      "before": 1.600000023841858,
+      "after": 2.240000009536743
+    },
+    {
+      "name": "城堡火盆左",
+      "position": [
+        124.0999984741211,
+        73.80000305175781,
+        184.1999969482422
+      ],
+      "before": 1.600000023841858,
+      "after": 2.240000009536743
+    }
+  ],
+  "global_environment_unchanged": true
+}

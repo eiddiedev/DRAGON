@@ -1,0 +1,1 @@
+{"ok":false,"command":"runtime","error":{"code":"REQUEST_FAILED","message":"probe-error: [string \"automation-runtime-probe\"]:1: attempt to index a nil value (global 'UI')"}}

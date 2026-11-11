@@ -1,0 +1,40 @@
+REFIT COMPLETE {"gothic_main": {"blender_bounds": [[-14.199999809265137, -8.850000381469727, 71.9000015258789], [14.199999809265137, 21.2405948638916, 103.9260025024414]], "unity_bounds": [[-14.199999809265137, 71.9000015258789, -21.2405948638916], [14.199999809265137, 103.9260025024414, 8.850000381469727]], "normalization_scale": 32.0260009765625, "triangles": 51066, "bytes": 4302716, "lighting_bake": "AO/albedo only; final assembly GI not yet baked"}, "gothic_towers": {"blender_bounds": [[-13.328800201416016, -11.746000289916992, 71.9000015258789], [13.089750289916992, 15.593157768249512, 139.3000030517578]], "unity_bounds": [[-13.328800201416016, 71.9000015258789, -15.593157768249512], [13.089750289916992, 139.3000030517578, 11.746000289916992]], "normalization_scale": 67.4000015258789, "triangles": 41132, "bytes": 3540052, "lighting_bake": "AO/albedo only; final assembly GI not yet baked"}, "gothic_wall": {"blender_bounds": [[-19.541234970092773, -22.0, 68.5], [20.784029006958008, 19.541234970092773, 97.80000305175781]], "unity_bounds": [[-19.541234970092773, 68.5, -19.541234970092773], [20.784029006958008, 97.80000305175781, 22.0]], "normalization_scale": 41.54123497009277, "triangles": 15220, "bytes": 1496468, "lighting_bake": "AO/albedo only; final assembly GI not yet baked"}}
+11:44:33 | INFO: Data are loaded, start creating Blender stuff
+11:44:33 | INFO: Blender create Mesh node glow
+11:44:33 | INFO: Blender create Mesh node main
+11:44:33 | INFO: glTF import finished in 0.19s
+11:44:33 | INFO: Data are loaded, start creating Blender stuff
+11:44:33 | INFO: Blender create Mesh node glow
+11:44:33 | INFO: Blender create Mesh node main
+11:44:33 | INFO: glTF import finished in 0.15s
+11:44:33 | INFO: Data are loaded, start creating Blender stuff
+11:44:33 | INFO: Blender create Mesh node glow
+11:44:33 | INFO: Blender create Mesh node main
+11:44:33 | INFO: glTF import finished in 0.05s
+11:44:33 | INFO: Data are loaded, start creating Blender stuff
+11:44:33 | INFO: Blender create Mesh node castle_rooms
+11:44:33 | INFO: glTF import finished in 0.22s
+/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_refit_exterior.py:157: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('neutral_overcast_GI');world.use_nodes=True
+/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_refit_exterior.py:187: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  final=bpy.data.materials.new(name+'_GI_PBR');final.use_nodes=True;pb=final.node_tree.nodes.get('Principled BSDF');pb.inputs['Roughness'].default_value=.9
+Info: Saved as "assembly-GI-source.blend"
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+11:44:52 | INFO: Starting glTF 2.0 export
+11:44:52 | INFO: Extracting primitive: glow.002
+11:44:52 | INFO: Primitives created: 1
+11:44:52 | INFO: Extracting primitive: main.002
+11:44:52 | INFO: Primitives created: 1
+11:44:52 | INFO: Finished glTF 2.0 export in 0.13344407081604004 s
+/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_refit_exterior.py:203: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  final=bpy.data.materials.new(name+'_GI_PBR');final.use_nodes=True;t=final.node_tree.nodes.new('ShaderNodeTexImage');t.image=bpy.data.images.load(str((root/(name+'-GI.png')).resolve()));final.node_tree.links.new(t.outputs['Color'],final.node_tree.nodes['Principled BSDF'].inputs['Base Color'])
+00:39.804  render           | Saved: 'assets/castle_refit_v1/exterior/castle-assembled-GI.png'
+01:42.697  render           | Saved: 'assets/castle_refit_v1/exterior/entrance-GI.png'
+
+GI COMPLETE {"gothic_main": {"output": "assets/castle_refit_v1/exterior/gothic_main-GI.glb", "bytes": 4093236, "indirect": {"max": 1.0, "mean": 0.00489763275675396, "nonzero_fraction": 0.0640869140625}, "source": "assets/castle_refit_v1/exterior/gothic_main.glb"}, "gothic_towers": {"output": "assets/castle_refit_v1/exterior/gothic_towers-GI.glb", "bytes": 3296804, "indirect": {"max": 0.847058892250061, "mean": 0.005887579164607359, "nonzero_fraction": 0.0738983154296875}, "source": "assets/castle_refit_v1/exterior/gothic_towers.glb"}, "gothic_wall": {"output": "assets/castle_refit_v1/exterior/gothic_wall-GI.glb", "bytes": 1325456, "indirect": {"max": 1.0, "mean": 0.022156720354949755, "nonzero_fraction": 0.2510528564453125}, "source": "assets/castle_refit_v1/exterior/gothic_wall.glb"}}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

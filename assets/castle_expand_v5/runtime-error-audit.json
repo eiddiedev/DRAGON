@@ -1,0 +1,5 @@
+{
+  "scope": "only new extension names; existing unrelated runtime logs not asserted clean",
+  "matched_errors": [],
+  "log_entries_read": 100
+}

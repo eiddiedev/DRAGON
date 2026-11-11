@@ -1,0 +1,21 @@
+Independent addition only. Do not replace/rebuild existing castle resources.
+Use original scene root (127,0,176) and same editor rotation convention as castle_refit_v1.
+Preserve original absolute vertex positions; do not recenter.
+
+entry_stairs.glb scale4.599999904632568 : visible, collision OFF.
+entry_forecourt.glb scale26 : visible, collision OFF.
+entry_collision.glb scale26 : renderer visible:false / castShadows:false; physics ON.
+Author these as separate nodes so additions can be edited/removed independently.
+
+12 equal 0.12m risers over3.3m, width4.6. Visible treads worldZ155.7..159.
+Final riser is the existing flat road landing at72.24; new last tread is72.12.
+Hidden planar collider reaches70.80 at155.7 and72.24 at159, extends forward to155.3 below central natural terrain for lip-free approach.
+Slope23.5747deg. Physics slope can put feet at most0.12m above a tread.
+Forecourt collider72.24 matches existing road. Flat stone surface confined insideR17.5 wall footprint, |dx|<=13, worldZ159.1..168.
+Existing centralroad |dx|<=2.3 is excluded from new floor/collision to avoid z-fighting.
+The prior sundial position(117.5,162.5) is covered by the new stone floor. This asset task does not delete the scene sundial.
+
+GI: Cycles48samples, diffuse color+direct+indirect, neutral existing environment, existing castle/main/towers/wall/interior occluders and fixture plan.
+No new lights/FX, no vertex colors on final exports. Separate128px indirect evidence images included.
+Source: tools/models/castle_entry_v2.py; source/baked Blender files preserved.
+Native walking and final editor integration remain parent task.

@@ -1,0 +1,51 @@
+{
+  "wall_turrets_skin.glb": {
+    "triangles": 17088,
+    "no_COLOR_0": true,
+    "UV_present": true,
+    "glb_min": [
+      -19.499526977539062,
+      68.5114974975586,
+      -19.499526977539062
+    ],
+    "glb_max": [
+      20.957843780517578,
+      90.62000274658203,
+      9.131294250488281
+    ]
+  },
+  "ring_wall_skin.glb": {
+    "triangles": 24024,
+    "no_COLOR_0": true,
+    "UV_present": true,
+    "glb_min": [
+      -19.665836334228516,
+      68.5199966430664,
+      -19.665836334228516
+    ],
+    "glb_max": [
+      19.665836334228516,
+      78.20999908447266,
+      18.189178466796875
+    ]
+  },
+  "gatehouse_skin.glb": {
+    "triangles": 11896,
+    "no_COLOR_0": true,
+    "UV_present": true,
+    "glb_min": [
+      -6.04996395111084,
+      68.5199966430664,
+      16.55003547668457
+    ],
+    "glb_max": [
+      6.04996395111084,
+      95.22000122070312,
+      20.44996452331543
+    ],
+    "left_lower_foot_frontmost_BlenderY": -19.094999313354492,
+    "gate_foot_original_front_y": -19,
+    "left_foot_visual_skin_max_thickness": 0.095,
+    "vertices_in_old_clear_walk_throat": 0
+  }
+}

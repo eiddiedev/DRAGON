@@ -1,0 +1,1 @@
+{"ok":true,"command":"runtime","data":{"ok":true,"status":"completed","result":{"actorRotation":"(0.00000, 0.00000, 0.00000, 1.00000)","cameraRot":"(-0.15068, 0.26546, -0.04205, -0.95135)","cameraForward":"(-0.49, -0.31, 0.81)","actorPosition":"(108.74, 77.91, 91.64)"},"startFrame":7530,"endFrame":7530,"durationMs":1,"mode":"native-puerts"}}

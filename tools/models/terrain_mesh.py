@@ -4,7 +4,7 @@ import os
 
 import numpy as np
 
-V3 = '/Users/a1234/Documents/awesomeWRLD/assets/terrain/v3'
+V3 = '/Users/bytedance/Documents/ChatGPT/DRAGON/assets/terrain/v3'
 _G = None
 SEG = 120
 TILE = 64.0

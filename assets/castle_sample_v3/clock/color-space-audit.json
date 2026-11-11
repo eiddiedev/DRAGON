@@ -1,0 +1,11 @@
+{
+  "source_hex": "#98929D",
+  "expected_linear_rgb": [
+    0.31398871337571754,
+    0.2874408377269175,
+    0.33716361504833037
+  ],
+  "storage": "FLOAT_COLOR from BMesh float_color; linear values retained directly",
+  "closest_stored_squared_error": 1.5221642434185045e-16,
+  "no_double_srgb_decode": true
+}

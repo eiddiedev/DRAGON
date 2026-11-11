@@ -1,0 +1,810 @@
+{
+  "entries": [
+    {
+      "source": "unity-application",
+      "sequence": 1582,
+      "timestamp": "2026-11-11T04:18:09.200Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1583,
+      "timestamp": "2026-11-11T04:18:09.250Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1584,
+      "timestamp": "2026-11-11T04:18:09.300Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1585,
+      "timestamp": "2026-11-11T04:18:09.350Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1586,
+      "timestamp": "2026-11-11T04:18:09.400Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1587,
+      "timestamp": "2026-11-11T04:18:09.450Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1588,
+      "timestamp": "2026-11-11T04:18:09.500Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1589,
+      "timestamp": "2026-11-11T04:18:09.550Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1590,
+      "timestamp": "2026-11-11T04:18:09.602Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1591,
+      "timestamp": "2026-11-11T04:18:09.651Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1592,
+      "timestamp": "2026-11-11T04:18:09.700Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1593,
+      "timestamp": "2026-11-11T04:18:09.750Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1594,
+      "timestamp": "2026-11-11T04:18:09.800Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1595,
+      "timestamp": "2026-11-11T04:18:09.850Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1596,
+      "timestamp": "2026-11-11T04:18:09.900Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1597,
+      "timestamp": "2026-11-11T04:18:09.950Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1598,
+      "timestamp": "2026-11-11T04:18:10.000Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1599,
+      "timestamp": "2026-11-11T04:18:10.050Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1600,
+      "timestamp": "2026-11-11T04:18:10.103Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1601,
+      "timestamp": "2026-11-11T04:18:10.150Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1602,
+      "timestamp": "2026-11-11T04:18:10.200Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1603,
+      "timestamp": "2026-11-11T04:18:10.250Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1604,
+      "timestamp": "2026-11-11T04:18:10.300Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1605,
+      "timestamp": "2026-11-11T04:18:10.351Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1606,
+      "timestamp": "2026-11-11T04:18:10.400Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1607,
+      "timestamp": "2026-11-11T04:18:10.451Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1608,
+      "timestamp": "2026-11-11T04:18:10.500Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1609,
+      "timestamp": "2026-11-11T04:18:10.550Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1610,
+      "timestamp": "2026-11-11T04:18:10.600Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1611,
+      "timestamp": "2026-11-11T04:18:10.655Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1612,
+      "timestamp": "2026-11-11T04:18:10.700Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1613,
+      "timestamp": "2026-11-11T04:18:10.750Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1614,
+      "timestamp": "2026-11-11T04:18:10.800Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1615,
+      "timestamp": "2026-11-11T04:18:10.851Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1616,
+      "timestamp": "2026-11-11T04:18:10.901Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1617,
+      "timestamp": "2026-11-11T04:18:10.950Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1618,
+      "timestamp": "2026-11-11T04:18:11.000Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1619,
+      "timestamp": "2026-11-11T04:18:11.051Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1620,
+      "timestamp": "2026-11-11T04:18:11.100Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1621,
+      "timestamp": "2026-11-11T04:18:11.150Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1622,
+      "timestamp": "2026-11-11T04:18:11.202Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1623,
+      "timestamp": "2026-11-11T04:18:11.251Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1624,
+      "timestamp": "2026-11-11T04:18:11.300Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1625,
+      "timestamp": "2026-11-11T04:18:11.350Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1626,
+      "timestamp": "2026-11-11T04:18:11.400Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1627,
+      "timestamp": "2026-11-11T04:18:11.450Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1628,
+      "timestamp": "2026-11-11T04:18:11.500Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1629,
+      "timestamp": "2026-11-11T04:18:11.551Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1630,
+      "timestamp": "2026-11-11T04:18:11.600Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1631,
+      "timestamp": "2026-11-11T04:18:11.650Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1632,
+      "timestamp": "2026-11-11T04:18:11.700Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1633,
+      "timestamp": "2026-11-11T04:18:11.752Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1634,
+      "timestamp": "2026-11-11T04:18:11.800Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1635,
+      "timestamp": "2026-11-11T04:18:11.850Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1636,
+      "timestamp": "2026-11-11T04:18:11.900Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1637,
+      "timestamp": "2026-11-11T04:18:11.950Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1638,
+      "timestamp": "2026-11-11T04:18:12.000Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1639,
+      "timestamp": "2026-11-11T04:18:12.050Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1640,
+      "timestamp": "2026-11-11T04:18:12.100Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1641,
+      "timestamp": "2026-11-11T04:18:12.150Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1642,
+      "timestamp": "2026-11-11T04:18:12.201Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1643,
+      "timestamp": "2026-11-11T04:18:12.250Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1644,
+      "timestamp": "2026-11-11T04:18:12.302Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1645,
+      "timestamp": "2026-11-11T04:18:12.350Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1646,
+      "timestamp": "2026-11-11T04:18:12.400Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1647,
+      "timestamp": "2026-11-11T04:18:12.450Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1648,
+      "timestamp": "2026-11-11T04:18:12.500Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1649,
+      "timestamp": "2026-11-11T04:18:12.551Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1650,
+      "timestamp": "2026-11-11T04:18:12.600Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1651,
+      "timestamp": "2026-11-11T04:18:12.650Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1652,
+      "timestamp": "2026-11-11T04:18:12.701Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1653,
+      "timestamp": "2026-11-11T04:18:12.750Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1654,
+      "timestamp": "2026-11-11T04:18:12.803Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1655,
+      "timestamp": "2026-11-11T04:18:12.850Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1656,
+      "timestamp": "2026-11-11T04:18:12.901Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1657,
+      "timestamp": "2026-11-11T04:18:12.950Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1658,
+      "timestamp": "2026-11-11T04:18:13.000Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1659,
+      "timestamp": "2026-11-11T04:18:13.051Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1660,
+      "timestamp": "2026-11-11T04:18:13.100Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1661,
+      "timestamp": "2026-11-11T04:18:13.150Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1662,
+      "timestamp": "2026-11-11T04:18:13.200Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1663,
+      "timestamp": "2026-11-11T04:18:13.250Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1664,
+      "timestamp": "2026-11-11T04:18:13.300Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1665,
+      "timestamp": "2026-11-11T04:18:13.352Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1666,
+      "timestamp": "2026-11-11T04:18:13.401Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1667,
+      "timestamp": "2026-11-11T04:18:13.451Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1668,
+      "timestamp": "2026-11-11T04:18:13.500Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1669,
+      "timestamp": "2026-11-11T04:18:13.550Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1670,
+      "timestamp": "2026-11-11T04:18:13.600Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1671,
+      "timestamp": "2026-11-11T04:18:13.650Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1672,
+      "timestamp": "2026-11-11T04:18:13.700Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1673,
+      "timestamp": "2026-11-11T04:18:13.750Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1674,
+      "timestamp": "2026-11-11T04:18:13.800Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1675,
+      "timestamp": "2026-11-11T04:18:13.850Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1676,
+      "timestamp": "2026-11-11T04:18:13.903Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1677,
+      "timestamp": "2026-11-11T04:18:13.950Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1678,
+      "timestamp": "2026-11-11T04:18:13.999Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1679,
+      "timestamp": "2026-11-11T04:18:14.050Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1680,
+      "timestamp": "2026-11-11T04:18:14.100Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    },
+    {
+      "source": "unity-application",
+      "sequence": 1681,
+      "timestamp": "2026-11-11T04:18:14.151Z",
+      "type": 3,
+      "message": "[hero-weapon-rig] runtime host unavailable; direct script API remains available",
+      "stack": ""
+    }
+  ],
+  "captureSources": [
+    "unity-application",
+    "hamlet-owner"
+  ],
+  "next": 1681,
+  "truncated": true
+}

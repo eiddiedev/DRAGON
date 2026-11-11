@@ -1,0 +1,27 @@
+Current import set is FINAL-READY.json. Five independent GLBs all <30k triangles.
+
+Blender source command:
+/Applications/Blender.app/Contents/MacOS/Blender -b -t 6 --python tools/models/castle_refit_exterior.py -- assets/castle_refit_v1/exterior
+
+Then lighting:
+... same prefix ... -- assets/castle_refit_v1/exterior --gi
+Then rear window reduction (retains structural bake):
+... same prefix ... -- assets/castle_refit_v1/exterior --rear-window
+Then split for editor 30k hard model face limit:
+... same prefix ... -- assets/castle_refit_v1/exterior --split
+
+Incremental rebuild only gothic_wall, then --gi --wall-only; leaves main/tower outputs unchanged.
+Do not import unsplit main or tower. Source/unlit GLBs are input to GI, not final delivery.
+
+Bounds/scale crucial: main 32.026001; towers67.400002; wall40.325264.
+Wall is back to original full-envelope scale after removal of the added approach ramp.
+GLB vertices retain original absolute sea-level coordinates and origin (world root127,0,176 with original editor rotation convention). Do not recenter.
+
+Final v10 user override: original road remains flat at Y72.24 from worldZ159 to168.10.
+All added terrain-conforming approach/paving removed; only original road back-end extended0.45m to bridge the doorway seam.
+Left gate lower footprint is shortened1m on source sx=-1. Statue plinths retained. No terrain edits.
+Validate current flat geometry: python3 assets/castle_refit_v1/exterior/validate_flat_road.py
+Earlier ramp audits, v7/v8 runtime terrain reports, and ramp previews are historical evidence only; they do not describe the final flat-road GLB.
+Coordinate contract validated against runtime bounds: worldX=127+BlenderX; worldZ=176+BlenderY.
+
+Actual native visual/passability and saving are parent-task responsibilities.

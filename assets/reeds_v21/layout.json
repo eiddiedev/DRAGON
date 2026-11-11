@@ -1,0 +1,3152 @@
+[
+  {
+    "name": "golden_geometry_0",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 125.8566987450987,
+      "y": 38.23823699951172,
+      "z": 38.195467997343414
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.34053714949824626,
+      "z": 0,
+      "w": 0.9402310619265932
+    },
+    "scale": {
+      "x": 1.195007430166627,
+      "y": 0.7880122649422912,
+      "z": 1.195007430166627
+    }
+  },
+  {
+    "name": "golden_geometry_1",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 109.52539340765296,
+      "y": 40.270650482177736,
+      "z": 43.7514387532785
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.8949703154324328,
+      "z": 0,
+      "w": 0.44612569360525717
+    },
+    "scale": {
+      "x": 1.1802696299367503,
+      "y": 0.8496589904483225,
+      "z": 1.1802696299367503
+    }
+  },
+  {
+    "name": "golden_geometry_2",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 113.57429555037794,
+      "y": 39.959756469726564,
+      "z": 44.747677206475046
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.6814960971696831,
+      "z": 0,
+      "w": 0.7318217471095607
+    },
+    "scale": {
+      "x": 1.346143846198357,
+      "y": 1.0658393117636262,
+      "z": 1.346143846198357
+    }
+  },
+  {
+    "name": "golden_geometry_3",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 117.37676281718016,
+      "y": 39.31805191040039,
+      "z": 41.8996027340188
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.3912722865982018,
+      "z": 0,
+      "w": 0.9202749576839602
+    },
+    "scale": {
+      "x": 1.3422349447964204,
+      "y": 1.0960776233234995,
+      "z": 1.3422349447964204
+    }
+  },
+  {
+    "name": "golden_geometry_4",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 114.31380756736388,
+      "y": 39.996595001220705,
+      "z": 46.77243439674301
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.4140660797844541,
+      "z": 0,
+      "w": 0.9102468245327385
+    },
+    "scale": {
+      "x": 1.3038837556609515,
+      "y": 0.7208326532148052,
+      "z": 1.3038837556609515
+    }
+  },
+  {
+    "name": "golden_geometry_5",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 124.76198237932596,
+      "y": 38.35437164306641,
+      "z": 38.647759230300146
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.9704693921167893,
+      "z": 0,
+      "w": 0.2412242918208477
+    },
+    "scale": {
+      "x": 1.301501731767958,
+      "y": 1.0998482485698868,
+      "z": 1.301501731767958
+    }
+  },
+  {
+    "name": "golden_geometry_6",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 111.20706146306733,
+      "y": 40.157891845703126,
+      "z": 44.3969459073909
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.9637408975492422,
+      "z": 0,
+      "w": 0.2668398066087238
+    },
+    "scale": {
+      "x": 1.2961742098428066,
+      "y": 0.9769326200796483,
+      "z": 1.2961742098428066
+    }
+  },
+  {
+    "name": "golden_geometry_7",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 120.30393633069963,
+      "y": 38.466600036621095,
+      "z": 36.587297297427654
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.731285265179235,
+      "z": 0,
+      "w": 0.6820717417777518
+    },
+    "scale": {
+      "x": 1.2074540776904465,
+      "y": 0.7240551872035523,
+      "z": 1.2074540776904465
+    }
+  },
+  {
+    "name": "golden_geometry_8",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 130.92089094627732,
+      "y": 38.007093048095705,
+      "z": 37.02268058550575
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.4998329063057759,
+      "z": 0,
+      "w": 0.8661218538831135
+    },
+    "scale": {
+      "x": 1.1537161576348753,
+      "y": 1.0272290023199566,
+      "z": 1.1537161576348753
+    }
+  },
+  {
+    "name": "golden_geometry_9",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 134.95880728633807,
+      "y": 38.6079345703125,
+      "z": 42.51767257759445
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.8901433786639763,
+      "z": 0,
+      "w": 0.45568055194475987
+    },
+    "scale": {
+      "x": 1.3462511682150642,
+      "y": 0.7757750404923133,
+      "z": 1.3462511682150642
+    }
+  },
+  {
+    "name": "golden_geometry_10",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 135.28547661443926,
+      "y": 38.359754180908205,
+      "z": 40.23238081425467
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.9999519718296237,
+      "z": 0,
+      "w": 0.00980071599667689
+    },
+    "scale": {
+      "x": 1.3474265159208445,
+      "y": 1.0946410823155315,
+      "z": 1.3474265159208445
+    }
+  },
+  {
+    "name": "golden_geometry_11",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 112.47062994795024,
+      "y": 39.9697624206543,
+      "z": 43.04136067345826
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.9997063410904139,
+      "z": 0,
+      "w": 0.02423286164729656
+    },
+    "scale": {
+      "x": 1.2603713509522056,
+      "y": 0.9473868356018191,
+      "z": 1.2603713509522056
+    }
+  },
+  {
+    "name": "golden_geometry_12",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 116.3449378814986,
+      "y": 38.88920364379883,
+      "z": 36.684287606250514
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.9396124818361826,
+      "z": 0,
+      "w": 0.3422402430715146
+    },
+    "scale": {
+      "x": 1.2347965277086634,
+      "y": 0.8846660497096237,
+      "z": 1.2347965277086634
+    }
+  },
+  {
+    "name": "golden_geometry_13",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 122.7335460016035,
+      "y": 38.88514862060547,
+      "z": 41.079219266018974
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.9581753170613021,
+      "z": 0,
+      "w": 0.28618186835380255
+    },
+    "scale": {
+      "x": 1.3480677912035988,
+      "y": 0.7383241619348533,
+      "z": 1.3480677912035988
+    }
+  },
+  {
+    "name": "golden_geometry_14",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 116.99943333552032,
+      "y": 39.23812255859375,
+      "z": 40.367331900767766
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.41393569495339255,
+      "z": 0,
+      "w": 0.9103061245775796
+    },
+    "scale": {
+      "x": 1.328242653693817,
+      "y": 0.9521622891279911,
+      "z": 1.328242653693817
+    }
+  },
+  {
+    "name": "golden_geometry_15",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 116.34581565873577,
+      "y": 39.22549209594727,
+      "z": 39.21166500792371
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.4140774232737297,
+      "z": 0,
+      "w": 0.9102416643589704
+    },
+    "scale": {
+      "x": 1.1396429243172859,
+      "y": 0.779147374078396,
+      "z": 1.1396429243172859
+    }
+  },
+  {
+    "name": "golden_geometry_16",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 112.35363183400472,
+      "y": 39.494432067871095,
+      "z": 37.060600564005
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.5071161999586671,
+      "z": 0,
+      "w": 0.8618776941883814
+    },
+    "scale": {
+      "x": 1.1491033216127904,
+      "y": 0.9458535632091125,
+      "z": 1.1491033216127904
+    }
+  },
+  {
+    "name": "golden_geometry_17",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 133.9139764265541,
+      "y": 38.62759170532227,
+      "z": 43.111078770693055
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.6966783585664079,
+      "z": 0,
+      "w": 0.7173836245031076
+    },
+    "scale": {
+      "x": 1.271514274595663,
+      "y": 1.0755587802481366,
+      "z": 1.271514274595663
+    }
+  },
+  {
+    "name": "golden_geometry_18",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 116.16685374065256,
+      "y": 39.8198486328125,
+      "z": 46.55839515987499
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.9843724429384912,
+      "z": 0,
+      "w": 0.1760991015971028
+    },
+    "scale": {
+      "x": 1.338110064903463,
+      "y": 1.0833857522622998,
+      "z": 1.338110064903463
+    }
+  },
+  {
+    "name": "golden_geometry_19",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 118.6277692265241,
+      "y": 39.04774627685547,
+      "z": 40.75443404417162
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.9783886086890798,
+      "z": 0,
+      "w": 0.20677458835032564
+    },
+    "scale": {
+      "x": 1.2118956113918382,
+      "y": 1.0770870253198108,
+      "z": 1.2118956113918382
+    }
+  },
+  {
+    "name": "golden_geometry_20",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 121.94703922450638,
+      "y": 39.18754348754883,
+      "z": 44.03047429585651
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.4842853410500801,
+      "z": 0,
+      "w": 0.8749101144940591
+    },
+    "scale": {
+      "x": 1.2011566024902807,
+      "y": 0.8825600094224735,
+      "z": 1.2011566024902807
+    }
+  },
+  {
+    "name": "golden_geometry_21",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 104.84646139863722,
+      "y": 40.82675704956055,
+      "z": 43.156196602297875
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.431382387710891,
+      "z": 0,
+      "w": 0.9021691834533313
+    },
+    "scale": {
+      "x": 1.1362873839045722,
+      "y": 0.7394825349593566,
+      "z": 1.1362873839045722
+    }
+  },
+  {
+    "name": "golden_geometry_22",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 117.02645606093171,
+      "y": 38.67248306274414,
+      "z": 35.66965502600704
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.8050567641709546,
+      "z": 0,
+      "w": 0.593197780223925
+    },
+    "scale": {
+      "x": 1.238483709857787,
+      "y": 0.9225782489873171,
+      "z": 1.238483709857787
+    }
+  },
+  {
+    "name": "golden_geometry_23",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 112.39102661040238,
+      "y": 40.12846908569336,
+      "z": 45.799342493855214
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.023405603866220665,
+      "z": 0,
+      "w": 0.9997260513298919
+    },
+    "scale": {
+      "x": 1.153477491980191,
+      "y": 1.0257280154634656,
+      "z": 1.153477491980191
+    }
+  },
+  {
+    "name": "golden_geometry_24",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 126.25031107259666,
+      "y": 38.042928314208986,
+      "z": 36.65236213769067
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.9832499857377313,
+      "z": 0,
+      "w": 0.18226207928900434
+    },
+    "scale": {
+      "x": 1.1258575513625866,
+      "y": 0.9422566035102193,
+      "z": 1.1258575513625866
+    }
+  },
+  {
+    "name": "golden_geometry_25",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 110.7920973653356,
+      "y": 39.95198211669922,
+      "z": 35.51317391527682
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.8702041449112043,
+      "z": 0,
+      "w": 0.49269132951510286
+    },
+    "scale": {
+      "x": 1.1764056759105457,
+      "y": 0.93827985548113,
+      "z": 1.1764056759105457
+    }
+  },
+  {
+    "name": "golden_geometry_26",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 124.29141709157427,
+      "y": 38.219773864746095,
+      "z": 37.11134536300986
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.9357150787991466,
+      "z": 0,
+      "w": 0.35275670271152454
+    },
+    "scale": {
+      "x": 1.1224384780920185,
+      "y": 1.0411434141822782,
+      "z": 1.1224384780920185
+    }
+  },
+  {
+    "name": "golden_geometry_27",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 118.2719012081661,
+      "y": 39.351968383789064,
+      "z": 43.17947263997344
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.3230749997686215,
+      "z": 0,
+      "w": 0.9463733642302625
+    },
+    "scale": {
+      "x": 1.1524993289617476,
+      "y": 1.039919044248705,
+      "z": 1.1524993289617476
+    }
+  },
+  {
+    "name": "golden_geometry_28",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 130.00819941912906,
+      "y": 38.827378845214845,
+      "z": 44.79770211256684
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.8090149136592593,
+      "z": 0,
+      "w": 0.5877881161412685
+    },
+    "scale": {
+      "x": 1.2510702637900957,
+      "y": 1.077417492984643,
+      "z": 1.2510702637900957
+    }
+  },
+  {
+    "name": "golden_geometry_29",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 134.52341820674764,
+      "y": 38.117017364501955,
+      "z": 37.69948599460631
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.4676837945803621,
+      "z": 0,
+      "w": 0.8838958469677939
+    },
+    "scale": {
+      "x": 1.1647541170014333,
+      "y": 1.0032631563779726,
+      "z": 1.1647541170014333
+    }
+  },
+  {
+    "name": "golden_geometry_30",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 105.55377445541289,
+      "y": 40.823533630371095,
+      "z": 40.74458894695701
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.17859518749816922,
+      "z": 0,
+      "w": 0.98392263872852
+    },
+    "scale": {
+      "x": 1.1845755412512202,
+      "y": 0.8193477836027709,
+      "z": 1.1845755412512202
+    }
+  },
+  {
+    "name": "golden_geometry_31",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 121.80539788775641,
+      "y": 39.28890380859375,
+      "z": 46.2927802681188
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.40496053326368786,
+      "z": 0,
+      "w": 0.9143341656630739
+    },
+    "scale": {
+      "x": 1.276189764400438,
+      "y": 0.9043151040245727,
+      "z": 1.276189764400438
+    }
+  },
+  {
+    "name": "golden_geometry_32",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 122.79545577778036,
+      "y": 38.28932342529297,
+      "z": 36.50613462684677
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.9707349829739655,
+      "z": 0,
+      "w": 0.2401532694562678
+    },
+    "scale": {
+      "x": 1.2988044503242349,
+      "y": 0.8387669188248026,
+      "z": 1.2988044503242349
+    }
+  },
+  {
+    "name": "golden_geometry_33",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 137.82709887997166,
+      "y": 38.58491668701172,
+      "z": 42.61327571272356
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.7738425925773055,
+      "z": 0,
+      "w": 0.6333779613415944
+    },
+    "scale": {
+      "x": 1.2763301609544866,
+      "y": 0.7506490375869235,
+      "z": 1.2763301609544866
+    }
+  },
+  {
+    "name": "golden_geometry_34",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 112.09665215843101,
+      "y": 39.898233032226564,
+      "z": 41.90598750452071
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.017037256560961802,
+      "z": 0,
+      "w": 0.9998548554109621
+    },
+    "scale": {
+      "x": 1.2425057261618788,
+      "y": 0.8708766107882034,
+      "z": 1.2425057261618788
+    }
+  },
+  {
+    "name": "golden_geometry_35",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 130.6808104402992,
+      "y": 38.697808837890626,
+      "z": 43.423740580561805
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.8906883447914492,
+      "z": 0,
+      "w": 0.4546144217385415
+    },
+    "scale": {
+      "x": 1.1179398675564898,
+      "y": 0.7227072236036288,
+      "z": 1.1179398675564898
+    }
+  },
+  {
+    "name": "golden_geometry_36",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 109.53978013281967,
+      "y": 40.14683303833008,
+      "z": 40.078894220051254
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.9624464447103481,
+      "z": 0,
+      "w": 0.27147162110322104
+    },
+    "scale": {
+      "x": 1.1600428988963563,
+      "y": 1.090313210190595,
+      "z": 1.1600428988963563
+    }
+  },
+  {
+    "name": "golden_geometry_37",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 108.53986342973262,
+      "y": 40.33687744140625,
+      "z": 41.36304194268619
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.99987763926571,
+      "z": 0,
+      "w": 0.015643097405265947
+    },
+    "scale": {
+      "x": 1.1347041509776619,
+      "y": 0.9315655383320716,
+      "z": 1.1347041509776619
+    }
+  },
+  {
+    "name": "golden_geometry_38",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 127.15363073748792,
+      "y": 38.43403778076172,
+      "z": 39.704757765441
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.23626033752372155,
+      "z": 0,
+      "w": 0.9716897925331814
+    },
+    "scale": {
+      "x": 1.2381646260052945,
+      "y": 0.8752878146867333,
+      "z": 1.2381646260052945
+    }
+  },
+  {
+    "name": "golden_geometry_39",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 129.699157756602,
+      "y": 38.58679351806641,
+      "z": 41.552626263306415
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.760495764378051,
+      "z": 0,
+      "w": 0.6493428927485416
+    },
+    "scale": {
+      "x": 1.2751626715859612,
+      "y": 0.7414980819746102,
+      "z": 1.2751626715859612
+    }
+  },
+  {
+    "name": "golden_geometry_40",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 126.60832489096401,
+      "y": 38.56165084838867,
+      "z": 41.29149106629196
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.12138537324844637,
+      "z": 0,
+      "w": 0.9926054559397381
+    },
+    "scale": {
+      "x": 1.2799969971960232,
+      "y": 0.8680614199664741,
+      "z": 1.2799969971960232
+    }
+  },
+  {
+    "name": "golden_geometry_41",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 113.63943141940916,
+      "y": 39.39063415527344,
+      "z": 38.03984465805567
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.24216984106941974,
+      "z": 0,
+      "w": 0.9702338728762319
+    },
+    "scale": {
+      "x": 1.3979235358503017,
+      "y": 0.9819495014711016,
+      "z": 1.3979235358503017
+    }
+  },
+  {
+    "name": "golden_geometry_42",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 127.97991377507594,
+      "y": 38.64685974121094,
+      "z": 41.68115618383024
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.9463830653268379,
+      "z": 0,
+      "w": 0.3230465812581494
+    },
+    "scale": {
+      "x": 1.191409035728858,
+      "y": 0.7076021415050016,
+      "z": 1.191409035728858
+    }
+  },
+  {
+    "name": "golden_geometry_43",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 122.79106726379412,
+      "y": 38.14547119140625,
+      "z": 35.49397296715502
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.8438969246735948,
+      "z": 0,
+      "w": 0.5365053406318051
+    },
+    "scale": {
+      "x": 1.1579441684893235,
+      "y": 0.8464526688007394,
+      "z": 1.1579441684893235
+    }
+  },
+  {
+    "name": "golden_geometry_44",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 114.75738507470211,
+      "y": 39.86136016845703,
+      "z": 44.593718354176225
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.9726919985155518,
+      "z": 0,
+      "w": 0.23209971138246147
+    },
+    "scale": {
+      "x": 1.263428558748916,
+      "y": 0.783130380983087,
+      "z": 1.263428558748916
+    }
+  },
+  {
+    "name": "golden_geometry_45",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 124.55974956665186,
+      "y": 39.06989440917969,
+      "z": 44.54758334060924
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.8526453711478664,
+      "z": 0,
+      "w": 0.5224900679057135
+    },
+    "scale": {
+      "x": 1.2195064476542645,
+      "y": 1.01623552906346,
+      "z": 1.2195064476542645
+    }
+  },
+  {
+    "name": "golden_geometry_46",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 129.0806653975814,
+      "y": 38.66736755371094,
+      "z": 42.54709549415327
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.8233557858969502,
+      "z": 0,
+      "w": 0.5675255499358733
+    },
+    "scale": {
+      "x": 1.3883030692498917,
+      "y": 1.0529089620974552,
+      "z": 1.3883030692498917
+    }
+  },
+  {
+    "name": "golden_geometry_47",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 132.2365167454164,
+      "y": 38.025464630126955,
+      "z": 37.168427824176
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.3489638457051015,
+      "z": 0,
+      "w": 0.9371361877500549
+    },
+    "scale": {
+      "x": 1.3414718281618905,
+      "y": 0.7882228578849804,
+      "z": 1.3414718281618905
+    }
+  },
+  {
+    "name": "golden_geometry_48",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 111.00416182509366,
+      "y": 40.07762680053711,
+      "z": 42.92792996201446
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.9676938951548993,
+      "z": 0,
+      "w": 0.25212799384427476
+    },
+    "scale": {
+      "x": 1.270240712503195,
+      "y": 0.7625180191256836,
+      "z": 1.270240712503195
+    }
+  },
+  {
+    "name": "golden_geometry_49",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 126.81173087531519,
+      "y": 38.30396423339844,
+      "z": 38.67509233922709
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.02881600423979407,
+      "z": 0,
+      "w": 0.9995847327263718
+    },
+    "scale": {
+      "x": 1.1897800515978298,
+      "y": 1.0611084787998537,
+      "z": 1.1897800515978298
+    }
+  },
+  {
+    "name": "golden_geometry_50",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 125.31454544960172,
+      "y": 38.04232559204102,
+      "z": 36.21758331581268
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.9494353797636201,
+      "z": 0,
+      "w": 0.31396251313351164
+    },
+    "scale": {
+      "x": 1.3279426702986892,
+      "y": 0.9456214286099462,
+      "z": 1.3279426702986892
+    }
+  },
+  {
+    "name": "golden_geometry_51",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 136.80740412807341,
+      "y": 38.43203887939453,
+      "z": 40.23962661484674
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.9881681219071226,
+      "z": 0,
+      "w": 0.153374583443771
+    },
+    "scale": {
+      "x": 1.122324608563039,
+      "y": 0.8663128789759736,
+      "z": 1.122324608563039
+    }
+  },
+  {
+    "name": "golden_geometry_52",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 114.39726163971322,
+      "y": 39.448533630371095,
+      "z": 39.46073418210366
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.9428149724113765,
+      "z": 0,
+      "w": 0.33331655793994913
+    },
+    "scale": {
+      "x": 1.2118745006678389,
+      "y": 0.724188135373627,
+      "z": 1.2118745006678389
+    }
+  },
+  {
+    "name": "golden_geometry_53",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 115.48911613814307,
+      "y": 38.80574188232422,
+      "z": 35.51362999045312
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.7859489985949035,
+      "z": 0,
+      "w": 0.6182913323083773
+    },
+    "scale": {
+      "x": 1.1668181836999714,
+      "y": 0.7216045775997806,
+      "z": 1.1668181836999714
+    }
+  },
+  {
+    "name": "golden_geometry_54",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 130.2730780100703,
+      "y": 38.40187225341797,
+      "z": 39.6219423621937
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.9777208663945175,
+      "z": 0,
+      "w": 0.20990928377933685
+    },
+    "scale": {
+      "x": 1.2276003136939795,
+      "y": 0.7038535270182393,
+      "z": 1.2276003136939795
+    }
+  },
+  {
+    "name": "golden_geometry_55",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 132.42168209168096,
+      "y": 38.46883926391602,
+      "z": 41.69137332264191
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.4242859309609915,
+      "z": 0,
+      "w": 0.9055282705628603
+    },
+    "scale": {
+      "x": 1.2792416007339327,
+      "y": 1.0087757336432852,
+      "z": 1.2792416007339327
+    }
+  },
+  {
+    "name": "golden_geometry_56",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 116.65744912459044,
+      "y": 39.532483673095705,
+      "z": 43.482602576409995
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.7976870121182357,
+      "z": 0,
+      "w": 0.6030716629869801
+    },
+    "scale": {
+      "x": 1.3734208956553295,
+      "y": 0.9279097152186395,
+      "z": 1.3734208956553295
+    }
+  },
+  {
+    "name": "golden_geometry_57",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 129.41882660567012,
+      "y": 38.32037124633789,
+      "z": 38.8670755076847
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.7563472746554537,
+      "z": 0,
+      "w": 0.6541703143075721
+    },
+    "scale": {
+      "x": 1.1542884071744164,
+      "y": 1.078555636522798,
+      "z": 1.1542884071744164
+    }
+  },
+  {
+    "name": "golden_geometry_58",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 109.17914963466693,
+      "y": 40.29580841064453,
+      "z": 38.66603417614799
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.45369595231448084,
+      "z": 0,
+      "w": 0.8911565422828115
+    },
+    "scale": {
+      "x": 1.2960865930699346,
+      "y": 0.75847872538404,
+      "z": 1.2960865930699346
+    }
+  },
+  {
+    "name": "golden_geometry_59",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 125.17543582909069,
+      "y": 39.142999267578126,
+      "z": 45.39202902135275
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.961901363316746,
+      "z": 0,
+      "w": 0.2733967213581488
+    },
+    "scale": {
+      "x": 1.1253695856660457,
+      "y": 0.944874468431415,
+      "z": 1.1253695856660457
+    }
+  },
+  {
+    "name": "golden_geometry_60",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 125.74076521539376,
+      "y": 38.991845703125,
+      "z": 44.31610729321164
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.45478846157135056,
+      "z": 0,
+      "w": 0.8905994920398081
+    },
+    "scale": {
+      "x": 1.1286099076429914,
+      "y": 0.8984478116062484,
+      "z": 1.1286099076429914
+    }
+  },
+  {
+    "name": "golden_geometry_61",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 106.36537565391134,
+      "y": 40.6504264831543,
+      "z": 43.26094024383196
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.4471264270027277,
+      "z": 0,
+      "w": 0.8944707699392834
+    },
+    "scale": {
+      "x": 1.1983668256072324,
+      "y": 1.0721837331334136,
+      "z": 1.1983668256072324
+    }
+  },
+  {
+    "name": "golden_geometry_62",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 131.8282243831875,
+      "y": 38.62527618408203,
+      "z": 43.109642799901714
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.7391270052962603,
+      "z": 0,
+      "w": 0.673566084390969
+    },
+    "scale": {
+      "x": 1.2702685358140409,
+      "y": 1.0118303464843437,
+      "z": 1.2702685358140409
+    }
+  },
+  {
+    "name": "golden_geometry_63",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 114.86355033573925,
+      "y": 38.985215759277345,
+      "z": 36.29735862742785
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.9819795147774902,
+      "z": 0,
+      "w": 0.18898738729704923
+    },
+    "scale": {
+      "x": 1.3174889386925215,
+      "y": 0.7560771911512151,
+      "z": 1.3174889386925215
+    }
+  },
+  {
+    "name": "golden_geometry_64",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 106.8755868615322,
+      "y": 40.6943717956543,
+      "z": 39.93836521686539
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.7526880257278986,
+      "z": 0,
+      "w": 0.6583773507084203
+    },
+    "scale": {
+      "x": 1.32722938125944,
+      "y": 0.9481937939642945,
+      "z": 1.32722938125944
+    }
+  },
+  {
+    "name": "golden_geometry_65",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 127.45246873703366,
+      "y": 38.82546768188477,
+      "z": 43.87606401987238
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.8134924819713615,
+      "z": 0,
+      "w": 0.5815754308566294
+    },
+    "scale": {
+      "x": 1.2744171259223824,
+      "y": 0.7793367993238802,
+      "z": 1.2744171259223824
+    }
+  },
+  {
+    "name": "golden_geometry_66",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 111.72965731055629,
+      "y": 39.72110137939453,
+      "z": 40.06106518905407
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.9644840794511881,
+      "z": 0,
+      "w": 0.2641409860002692
+    },
+    "scale": {
+      "x": 1.1039194212441639,
+      "y": 0.796128546022578,
+      "z": 1.1039194212441639
+    }
+  },
+  {
+    "name": "golden_geometry_67",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 133.48862693127873,
+      "y": 38.47168884277344,
+      "z": 41.8085403753171
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.7893866982259694,
+      "z": 0,
+      "w": 0.6138962784248674
+    },
+    "scale": {
+      "x": 1.2718641447582955,
+      "y": 1.0579954937882952,
+      "z": 1.2718641447582955
+    }
+  },
+  {
+    "name": "golden_geometry_68",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 132.52130346754964,
+      "y": 38.185540771484376,
+      "z": 38.48557673992677
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.026531716186140492,
+      "z": 0,
+      "w": 0.9996479720562724
+    },
+    "scale": {
+      "x": 1.1054339963127393,
+      "y": 0.8140502071681665,
+      "z": 1.1054339963127393
+    }
+  },
+  {
+    "name": "golden_geometry_69",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 123.06259558378548,
+      "y": 38.386041259765626,
+      "z": 37.47860973801425
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.537753023950416,
+      "z": 0,
+      "w": 0.843102416810783
+    },
+    "scale": {
+      "x": 1.2828464562313984,
+      "y": 1.010081937235507,
+      "z": 1.2828464562313984
+    }
+  },
+  {
+    "name": "golden_geometry_70",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 119.08232837763563,
+      "y": 38.376992797851564,
+      "z": 34.93952374301512
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.09760118096989735,
+      "z": 0,
+      "w": 0.9952256073239281
+    },
+    "scale": {
+      "x": 1.3944998052820754,
+      "y": 0.8140472977888014,
+      "z": 1.3944998052820754
+    }
+  },
+  {
+    "name": "golden_geometry_71",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 126.97279381365958,
+      "y": 39.089097595214845,
+      "z": 45.65165626500895
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.41398496546487423,
+      "z": 0,
+      "w": 0.9102837186114267
+    },
+    "scale": {
+      "x": 1.2604659505398828,
+      "y": 0.8076436200092922,
+      "z": 1.2604659505398828
+    }
+  },
+  {
+    "name": "golden_geometry_72",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 107.63180031048338,
+      "y": 40.541375732421876,
+      "z": 44.790674557683
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.5574730653866972,
+      "z": 0,
+      "w": 0.830195026104324
+    },
+    "scale": {
+      "x": 1.363241798615666,
+      "y": 0.836821030370315,
+      "z": 1.363241798615666
+    }
+  },
+  {
+    "name": "golden_geometry_73",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 121.56852603238363,
+      "y": 38.97710952758789,
+      "z": 41.28819918643454
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.6293784737013502,
+      "z": 0,
+      "w": 0.7770989234591429
+    },
+    "scale": {
+      "x": 1.212613738043805,
+      "y": 0.7638684347980306,
+      "z": 1.212613738043805
+    }
+  },
+  {
+    "name": "golden_geometry_74",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 130.98564310401127,
+      "y": 38.232164001464845,
+      "z": 38.579561161479276
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.6067900267915007,
+      "z": 0,
+      "w": 0.7948621662819094
+    },
+    "scale": {
+      "x": 1.2076644892109394,
+      "y": 1.0400560097316274,
+      "z": 1.2076644892109394
+    }
+  },
+  {
+    "name": "golden_geometry_75",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 117.12036234230786,
+      "y": 39.80335006713867,
+      "z": 47.30936923436241
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.05109235486120432,
+      "z": 0,
+      "w": 0.9986939327315135
+    },
+    "scale": {
+      "x": 1.2456361689924471,
+      "y": 0.9987224894958453,
+      "z": 1.2456361689924471
+    }
+  },
+  {
+    "name": "golden_geometry_76",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 117.73269607005064,
+      "y": 39.50571975708008,
+      "z": 44.18920167698104
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.9100772925808547,
+      "z": 0,
+      "w": 0.4144385618263597
+    },
+    "scale": {
+      "x": 1.1450034419443806,
+      "y": 0.7945182982621737,
+      "z": 1.1450034419443806
+    }
+  },
+  {
+    "name": "golden_geometry_77",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 116.66169127115533,
+      "y": 38.58211669921875,
+      "z": 34.695556539968244
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.76076275531793,
+      "z": 0,
+      "w": 0.6490300687341622
+    },
+    "scale": {
+      "x": 1.38453817761464,
+      "y": 0.7915044245369085,
+      "z": 1.38453817761464
+    }
+  },
+  {
+    "name": "golden_geometry_78",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 132.6790339812551,
+      "y": 38.715955352783205,
+      "z": 44.166272587859346
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.43665200934796955,
+      "z": 0,
+      "w": 0.8996304923313686
+    },
+    "scale": {
+      "x": 1.2175645868729275,
+      "y": 1.084079045681657,
+      "z": 1.2175645868729275
+    }
+  },
+  {
+    "name": "golden_geometry_79",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 119.50163166380125,
+      "y": 38.74806365966797,
+      "z": 38.41394066999916
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.7352118229882318,
+      "z": 0,
+      "w": 0.6778374254482565
+    },
+    "scale": {
+      "x": 1.366155131103004,
+      "y": 1.06702496996303,
+      "z": 1.366155131103004
+    }
+  },
+  {
+    "name": "golden_geometry_80",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 118.34815915513424,
+      "y": 38.73791656494141,
+      "z": 37.235305461054615
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.6996283137464049,
+      "z": 0,
+      "w": 0.7145069786953533
+    },
+    "scale": {
+      "x": 1.1010960924635749,
+      "y": 0.8558694105589074,
+      "z": 1.1010960924635749
+    }
+  },
+  {
+    "name": "golden_geometry_81",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 123.18044210046132,
+      "y": 38.93094024658203,
+      "z": 42.43229222294922
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.049604414271225084,
+      "z": 0,
+      "w": 0.9987689432920953
+    },
+    "scale": {
+      "x": 1.2002091593588287,
+      "y": 0.9741936536583246,
+      "z": 1.2002091593588287
+    }
+  },
+  {
+    "name": "golden_geometry_82",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 125.90294943437165,
+      "y": 38.78750762939453,
+      "z": 43.03487849380749
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.8716949389167146,
+      "z": 0,
+      "w": 0.4900489092600709
+    },
+    "scale": {
+      "x": 1.307672362836546,
+      "y": 0.8025043680322811,
+      "z": 1.307672362836546
+    }
+  },
+  {
+    "name": "golden_geometry_83",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 110.04594240605336,
+      "y": 40.330361938476564,
+      "z": 45.38657492312715
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.39676618417435383,
+      "z": 0,
+      "w": 0.9179197105933191
+    },
+    "scale": {
+      "x": 1.1926684167336654,
+      "y": 0.9525457570961433,
+      "z": 1.1926684167336654
+    }
+  },
+  {
+    "name": "golden_geometry_84",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 120.67492780880694,
+      "y": 39.319329833984376,
+      "z": 45.14014234954081
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.06460516046738783,
+      "z": 0,
+      "w": 0.9979109044604048
+    },
+    "scale": {
+      "x": 1.334087154801668,
+      "y": 1.0509645617958003,
+      "z": 1.334087154801668
+    }
+  },
+  {
+    "name": "golden_geometry_85",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 110.03243346894499,
+      "y": 40.05012664794922,
+      "z": 40.94449897690148
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.9209708407249423,
+      "z": 0,
+      "w": 0.38963150608542035
+    },
+    "scale": {
+      "x": 1.12550816365726,
+      "y": 0.7249036410608162,
+      "z": 1.12550816365726
+    }
+  },
+  {
+    "name": "golden_geometry_86",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 127.36078671328133,
+      "y": 37.975091552734376,
+      "z": 36.40803103848905
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.6482453956325084,
+      "z": 0,
+      "w": 0.7614314854543728
+    },
+    "scale": {
+      "x": 1.3404314513118525,
+      "y": 0.8962365722983417,
+      "z": 1.3404314513118525
+    }
+  },
+  {
+    "name": "golden_geometry_87",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 117.70768215504366,
+      "y": 38.948133087158205,
+      "z": 38.47833598656112
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.40227423153725184,
+      "z": 0,
+      "w": 0.9155192202466934
+    },
+    "scale": {
+      "x": 1.12742704959081,
+      "y": 0.8911008749799892,
+      "z": 1.12742704959081
+    }
+  },
+  {
+    "name": "golden_geometry_88",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 116.91675309576975,
+      "y": 38.932305908203126,
+      "z": 37.58475074595727
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.8642369687482798,
+      "z": 0,
+      "w": 0.5030849449633579
+    },
+    "scale": {
+      "x": 1.314735711369895,
+      "y": 0.8976128151469164,
+      "z": 1.314735711369895
+    }
+  },
+  {
+    "name": "golden_geometry_89",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 122.01921802876508,
+      "y": 38.83368072509766,
+      "z": 39.99246775123633
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.1689776051948886,
+      "z": 0,
+      "w": 0.9856198906995538
+    },
+    "scale": {
+      "x": 1.1849477950798009,
+      "y": 0.9720065843574958,
+      "z": 1.1849477950798009
+    }
+  },
+  {
+    "name": "golden_geometry_90",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 114.73532447009919,
+      "y": 39.67345199584961,
+      "z": 42.531772602768946
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.44418648262253,
+      "z": 0,
+      "w": 0.8959343551038909
+    },
+    "scale": {
+      "x": 1.1538158074099847,
+      "y": 1.0443961278086509,
+      "z": 1.1538158074099847
+    }
+  },
+  {
+    "name": "golden_geometry_91",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 116.37736068663955,
+      "y": 39.454690551757814,
+      "z": 42.226109380589754
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.3584516356099002,
+      "z": 0,
+      "w": 0.9335482981231272
+    },
+    "scale": {
+      "x": 1.3327968432863897,
+      "y": 0.8000083714941464,
+      "z": 1.3327968432863897
+    }
+  },
+  {
+    "name": "golden_geometry_92",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 138.08365086639765,
+      "y": 38.476556396484376,
+      "z": 41.434016826811494
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.9770193198940531,
+      "z": 0,
+      "w": 0.21315076484442147
+    },
+    "scale": {
+      "x": 1.3921585525340403,
+      "y": 0.8633603017984073,
+      "z": 1.3921585525340403
+    }
+  },
+  {
+    "name": "golden_geometry_93",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 108.56984088225522,
+      "y": 40.422036743164064,
+      "z": 44.49934670814588
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.8104255705532264,
+      "z": 0,
+      "w": 0.5858416122071541
+    },
+    "scale": {
+      "x": 1.101428565483203,
+      "y": 0.9979447569931948,
+      "z": 1.101428565483203
+    }
+  },
+  {
+    "name": "golden_geometry_94",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 135.6474033948661,
+      "y": 38.553948974609376,
+      "z": 41.764991551931345
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.195989551394929,
+      "z": 0,
+      "w": 0.9806059839425897
+    },
+    "scale": {
+      "x": 1.1293603321908878,
+      "y": 1.0978521385145597,
+      "z": 1.1293603321908878
+    }
+  },
+  {
+    "name": "golden_geometry_95",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 128.75535781277574,
+      "y": 38.522637939453126,
+      "z": 40.60682270368593
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.8736744843690956,
+      "z": 0,
+      "w": 0.4865109406399768
+    },
+    "scale": {
+      "x": 1.1818355821530653,
+      "y": 0.8390632553877158,
+      "z": 1.1818355821530653
+    }
+  },
+  {
+    "name": "golden_geometry_96",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 111.99182430299415,
+      "y": 39.58044204711914,
+      "z": 36.112150263269584
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.989125013461033,
+      "z": 0,
+      "w": 0.14707721694984335
+    },
+    "scale": {
+      "x": 1.2540055823555103,
+      "y": 0.8010174876088265,
+      "z": 1.2540055823555103
+    }
+  },
+  {
+    "name": "golden_geometry_97",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 133.33713440100843,
+      "y": 38.0090690612793,
+      "z": 37.20018520827551
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.06283535975406478,
+      "z": 0,
+      "w": 0.9980239063091512
+    },
+    "scale": {
+      "x": 1.1120709147243633,
+      "y": 0.9132878125429515,
+      "z": 1.1120709147243633
+    }
+  },
+  {
+    "name": "golden_geometry_98",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 130.46900693129135,
+      "y": 38.5078483581543,
+      "z": 40.93110572536678
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.6080639616196852,
+      "z": 0,
+      "w": 0.7938880390706072
+    },
+    "scale": {
+      "x": 1.3419946443908042,
+      "y": 0.7800417192176227,
+      "z": 1.3419946443908042
+    }
+  },
+  {
+    "name": "golden_geometry_99",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 112.4142579958418,
+      "y": 40.054002380371095,
+      "z": 44.447739539328666
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.7935545788772298,
+      "z": 0,
+      "w": 0.6084990799853214
+    },
+    "scale": {
+      "x": 1.120715108617902,
+      "y": 1.0585459035986098,
+      "z": 1.120715108617902
+    }
+  },
+  {
+    "name": "golden_geometry_100",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 109.8008502410045,
+      "y": 40.29364166259766,
+      "z": 35.61176458584922
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.48210965544020545,
+      "z": 0,
+      "w": 0.8761108834681409
+    },
+    "scale": {
+      "x": 1.246593882799568,
+      "y": 0.7361875198172335,
+      "z": 1.246593882799568
+    }
+  },
+  {
+    "name": "golden_geometry_101",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 122.35906073507138,
+      "y": 38.619039154052736,
+      "z": 38.759396812511284
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.958849951914135,
+      "z": 0,
+      "w": 0.2839133137319577
+    },
+    "scale": {
+      "x": 1.353225840311957,
+      "y": 0.8998747274242564,
+      "z": 1.353225840311957
+    }
+  },
+  {
+    "name": "golden_geometry_102",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 120.47667902938218,
+      "y": 39.106702423095705,
+      "z": 42.34508452463413
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.7128521003315798,
+      "z": 0,
+      "w": 0.7013143967243618
+    },
+    "scale": {
+      "x": 1.1943734799402617,
+      "y": 1.0266724977907895,
+      "z": 1.1943734799402617
+    }
+  },
+  {
+    "name": "golden_geometry_103",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 120.5825350179269,
+      "y": 38.752828216552736,
+      "z": 38.961861652361854
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.5913158138906712,
+      "z": 0,
+      "w": 0.8064400834797418
+    },
+    "scale": {
+      "x": 1.261290927350266,
+      "y": 0.8747125058318279,
+      "z": 1.261290927350266
+    }
+  },
+  {
+    "name": "golden_geometry_104",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 123.80817742134958,
+      "y": 38.13989791870117,
+      "z": 36.06529126195998
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.282885745390723,
+      "z": 0,
+      "w": 0.959153613898595
+    },
+    "scale": {
+      "x": 1.1654664350270554,
+      "y": 0.7751661526920745,
+      "z": 1.1654664350270554
+    }
+  },
+  {
+    "name": "golden_geometry_105",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 113.83532058085662,
+      "y": 39.14160308837891,
+      "z": 36.44818225634819
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.9875648795471805,
+      "z": 0,
+      "w": 0.15721198645447768
+    },
+    "scale": {
+      "x": 1.1680327720895012,
+      "y": 0.9797803359593122,
+      "z": 1.1680327720895012
+    }
+  },
+  {
+    "name": "golden_geometry_106",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 110.83026135859062,
+      "y": 39.8467041015625,
+      "z": 37.82509132121779
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.2938489906511894,
+      "z": 0,
+      "w": 0.9558518560390398
+    },
+    "scale": {
+      "x": 1.2334132282579704,
+      "y": 0.7715500734240642,
+      "z": 1.2334132282579704
+    }
+  },
+  {
+    "name": "golden_geometry_107",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 125.35329275529604,
+      "y": 39.22418365478516,
+      "z": 46.55957404017889
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.5992007848939551,
+      "z": 0,
+      "w": 0.8005987880221079
+    },
+    "scale": {
+      "x": 1.1725741627669404,
+      "y": 0.7564552825133954,
+      "z": 1.1725741627669404
+    }
+  },
+  {
+    "name": "golden_geometry_108",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 133.7689655080251,
+      "y": 38.307916259765626,
+      "z": 40.29428544948736
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.22520312224546785,
+      "z": 0,
+      "w": 0.9743118359800895
+    },
+    "scale": {
+      "x": 1.3935033240864008,
+      "y": 0.9672325479669592,
+      "z": 1.3935033240864008
+    }
+  },
+  {
+    "name": "golden_geometry_109",
+    "kind": "group",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "pos": {
+      "x": 114.11817564514266,
+      "y": 39.83595428466797,
+      "z": 43.31941540673669
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.14062194415604015,
+      "z": 0,
+      "w": 0.9900633660638977
+    },
+    "scale": {
+      "x": 1.2897912316432745,
+      "y": 0.7625948487994995,
+      "z": 1.2897912316432745
+    }
+  },
+  {
+    "name": "golden_geometry_110",
+    "kind": "small",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+    "pos": {
+      "x": 123.8652089684618,
+      "y": 37.99156723022461,
+      "z": 34.99702640596648
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.32067299627542567,
+      "z": 0,
+      "w": 0.9471899648221263
+    },
+    "scale": {
+      "x": 0.8007094077420752,
+      "y": 0.562658594514045,
+      "z": 0.8007094077420752
+    }
+  },
+  {
+    "name": "golden_geometry_111",
+    "kind": "small",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+    "pos": {
+      "x": 101.39023493809776,
+      "y": 41.035516357421876,
+      "z": 41.31413491013504
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.4968678338462194,
+      "z": 0,
+      "w": 0.8678262243611711
+    },
+    "scale": {
+      "x": 0.8128556996830638,
+      "y": 0.5390922830376698,
+      "z": 0.8128556996830638
+    }
+  },
+  {
+    "name": "golden_geometry_112",
+    "kind": "small",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+    "pos": {
+      "x": 101.98887550533888,
+      "y": 41.01861724853516,
+      "z": 42.30508100822483
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.9808694066069834,
+      "z": 0,
+      "w": 0.19466691342512307
+    },
+    "scale": {
+      "x": 0.8408216983296629,
+      "y": 0.5205689038036393,
+      "z": 0.8408216983296629
+    }
+  },
+  {
+    "name": "golden_geometry_113",
+    "kind": "small",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+    "pos": {
+      "x": 140.48472156576878,
+      "y": 38.64933547973633,
+      "z": 42.70177196095635
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.4846223418465012,
+      "z": 0,
+      "w": 0.8747234910434343
+    },
+    "scale": {
+      "x": 1.1111546473414415,
+      "y": 0.7158305924436834,
+      "z": 1.1111546473414415
+    }
+  },
+  {
+    "name": "golden_geometry_114",
+    "kind": "small",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+    "pos": {
+      "x": 139.27332668287576,
+      "y": 38.752099609375,
+      "z": 44.29952427133115
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.2877649651621311,
+      "z": 0,
+      "w": 0.9577010623494355
+    },
+    "scale": {
+      "x": 0.8560349442353414,
+      "y": 0.600835329564147,
+      "z": 0.8560349442353414
+    }
+  },
+  {
+    "name": "golden_geometry_115",
+    "kind": "small",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+    "pos": {
+      "x": 136.7168930648883,
+      "y": 38.85347900390625,
+      "z": 45.26273618391991
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.7146608886280076,
+      "z": 0,
+      "w": 0.6994710960900575
+    },
+    "scale": {
+      "x": 1.1185085006832363,
+      "y": 0.5696872174180834,
+      "z": 1.1185085006832363
+    }
+  },
+  {
+    "name": "golden_geometry_116",
+    "kind": "small",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+    "pos": {
+      "x": 116.21393598754074,
+      "y": 39.976697540283205,
+      "z": 48.767111105861
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.18337476942255895,
+      "z": 0,
+      "w": 0.9830430783740982
+    },
+    "scale": {
+      "x": 1.0600953143354412,
+      "y": 0.7096763241108539,
+      "z": 1.0600953143354412
+    }
+  },
+  {
+    "name": "golden_geometry_117",
+    "kind": "small",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+    "pos": {
+      "x": 104.16823926672109,
+      "y": 41.0448356628418,
+      "z": 38.07931736573338
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.9172319212898433,
+      "z": 0,
+      "w": 0.39835361497913213
+    },
+    "scale": {
+      "x": 1.1029024843428565,
+      "y": 0.7147771055179614,
+      "z": 1.1029024843428565
+    }
+  },
+  {
+    "name": "golden_geometry_118",
+    "kind": "small",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+    "pos": {
+      "x": 134.90553868838185,
+      "y": 38.834127044677736,
+      "z": 45.26495013813346
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.27336403078941535,
+      "z": 0,
+      "w": 0.9619106542036863
+    },
+    "scale": {
+      "x": 0.8881943541971777,
+      "y": 0.6914420423650204,
+      "z": 0.8881943541971777
+    }
+  },
+  {
+    "name": "golden_geometry_119",
+    "kind": "small",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+    "pos": {
+      "x": 108.4030749819137,
+      "y": 40.60974655151367,
+      "z": 36.87640695401153
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.2195826909456721,
+      "z": 0,
+      "w": 0.9755938918612895
+    },
+    "scale": {
+      "x": 1.0514598149342556,
+      "y": 0.7901215863573563,
+      "z": 1.0514598149342556
+    }
+  },
+  {
+    "name": "golden_geometry_120",
+    "kind": "small",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+    "pos": {
+      "x": 138.2290436200524,
+      "y": 38.698072052001955,
+      "z": 43.831691534351236
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.49139286684618566,
+      "z": 0,
+      "w": 0.870938029031163
+    },
+    "scale": {
+      "x": 0.9585012372614813,
+      "y": 0.47193579979445904,
+      "z": 0.9585012372614813
+    }
+  },
+  {
+    "name": "golden_geometry_121",
+    "kind": "small",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+    "pos": {
+      "x": 110.6282835014649,
+      "y": 40.407003021240236,
+      "z": 47.46839084779108
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.7368599860871069,
+      "z": 0,
+      "w": 0.6760453837603719
+    },
+    "scale": {
+      "x": 1.0692194945181595,
+      "y": 0.5571098205829292,
+      "z": 1.0692194945181595
+    }
+  },
+  {
+    "name": "golden_geometry_122",
+    "kind": "small",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+    "pos": {
+      "x": 138.014206156592,
+      "y": 38.2690788269043,
+      "z": 38.25976135302044
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.6814927691965423,
+      "z": 0,
+      "w": 0.7318248462117342
+    },
+    "scale": {
+      "x": 1.1498295413206905,
+      "y": 0.5384682559681389,
+      "z": 1.1498295413206905
+    }
+  },
+  {
+    "name": "golden_geometry_123",
+    "kind": "small",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+    "pos": {
+      "x": 106.58552580091508,
+      "y": 40.84900817871094,
+      "z": 38.28516114659956
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.9670639820532042,
+      "z": 0,
+      "w": 0.2545334056963839
+    },
+    "scale": {
+      "x": 1.1364174434366383,
+      "y": 0.6686879215127929,
+      "z": 1.1364174434366383
+    }
+  },
+  {
+    "name": "golden_geometry_124",
+    "kind": "small",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+    "pos": {
+      "x": 106.99068164172655,
+      "y": 40.898484802246095,
+      "z": 36.840323348760755
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.9310177653271935,
+      "z": 0,
+      "w": 0.364973862961663
+    },
+    "scale": {
+      "x": 1.07850485005397,
+      "y": 0.4642425673515092,
+      "z": 1.07850485005397
+    }
+  },
+  {
+    "name": "golden_geometry_125",
+    "kind": "small",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+    "pos": {
+      "x": 126.03085743944969,
+      "y": 39.236367797851564,
+      "z": 48.248167508769775
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.9811228277090862,
+      "z": 0,
+      "w": 0.19338561722146427
+    },
+    "scale": {
+      "x": 1.1396465735217733,
+      "y": 0.6929386500083741,
+      "z": 1.1396465735217733
+    }
+  },
+  {
+    "name": "golden_geometry_126",
+    "kind": "small",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+    "pos": {
+      "x": 111.66562176128551,
+      "y": 39.6728874206543,
+      "z": 33.388115297004035
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.6666595978089017,
+      "z": 0,
+      "w": 0.7453623150181886
+    },
+    "scale": {
+      "x": 0.9004238755755979,
+      "y": 0.6314916505614373,
+      "z": 0.9004238755755979
+    }
+  },
+  {
+    "name": "golden_geometry_127",
+    "kind": "small",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+    "pos": {
+      "x": 133.27262396440003,
+      "y": 38.818772888183595,
+      "z": 46.56970554468489
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.3797453307119314,
+      "z": 0,
+      "w": 0.9250910678427751
+    },
+    "scale": {
+      "x": 0.9589020597489346,
+      "y": 0.6568133713365014,
+      "z": 0.9589020597489346
+    }
+  },
+  {
+    "name": "golden_geometry_128",
+    "kind": "small",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+    "pos": {
+      "x": 123.92461554666954,
+      "y": 39.32700119018555,
+      "z": 47.885912970709384
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.46436847282397786,
+      "z": 0,
+      "w": 0.8856420955708499
+    },
+    "scale": {
+      "x": 0.8784888226765651,
+      "y": 0.5223717410644833,
+      "z": 0.8784888226765651
+    }
+  },
+  {
+    "name": "golden_geometry_129",
+    "kind": "small",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+    "pos": {
+      "x": 103.8152628771945,
+      "y": 41.01077041625977,
+      "z": 39.68144357424748
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.24843851774615966,
+      "z": 0,
+      "w": 0.9686476670596441
+    },
+    "scale": {
+      "x": 1.0393411060575783,
+      "y": 0.6769268117215438,
+      "z": 1.0393411060575783
+    }
+  },
+  {
+    "name": "golden_geometry_130",
+    "kind": "single",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+    "pos": {
+      "x": 99.7278819912024,
+      "y": 41.08119354248047,
+      "z": 41.165161973034124
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.14051638457483254,
+      "z": 0,
+      "w": 0.9900783532963529
+    },
+    "scale": {
+      "x": 1.1102034994796206,
+      "y": 0.408766344716608,
+      "z": 1.1102034994796206
+    }
+  },
+  {
+    "name": "golden_geometry_131",
+    "kind": "single",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+    "pos": {
+      "x": 137.57219663638526,
+      "y": 38.88591537475586,
+      "z": 45.975315412474664
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.41732069957734486,
+      "z": 0,
+      "w": 0.9087592825959334
+    },
+    "scale": {
+      "x": 1.125720110246605,
+      "y": 0.3693390711275674,
+      "z": 1.125720110246605
+    }
+  },
+  {
+    "name": "golden_geometry_132",
+    "kind": "single",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+    "pos": {
+      "x": 139.07172706585143,
+      "y": 38.022805786132814,
+      "z": 36.09561635951261
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.8449130715424163,
+      "z": 0,
+      "w": 0.5349036376178046
+    },
+    "scale": {
+      "x": 1.0568596573933622,
+      "y": 0.6080662055851153,
+      "z": 1.0568596573933622
+    }
+  },
+  {
+    "name": "golden_geometry_133",
+    "kind": "single",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+    "pos": {
+      "x": 100.79551014880468,
+      "y": 41.21270904541016,
+      "z": 45.29959246907405
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.8473796137511236,
+      "z": 0,
+      "w": 0.5309875612469623
+    },
+    "scale": {
+      "x": 0.8862733118051966,
+      "y": 0.6237262683197184,
+      "z": 0.8862733118051966
+    }
+  },
+  {
+    "name": "golden_geometry_134",
+    "kind": "single",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+    "pos": {
+      "x": 121.69821821455209,
+      "y": 39.588025665283205,
+      "z": 50.31215102394182
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.8892591487276164,
+      "z": 0,
+      "w": 0.45740372364491644
+    },
+    "scale": {
+      "x": 1.0572175769122665,
+      "y": 0.4235445405467071,
+      "z": 1.0572175769122665
+    }
+  },
+  {
+    "name": "golden_geometry_135",
+    "kind": "single",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+    "pos": {
+      "x": 101.11587432063675,
+      "y": 41.05576858520508,
+      "z": 37.32528643628984
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.5672846068770525,
+      "z": 0,
+      "w": 0.8235218119760691
+    },
+    "scale": {
+      "x": 1.0625033053564306,
+      "y": 0.5242505191023399,
+      "z": 1.0625033053564306
+    }
+  },
+  {
+    "name": "golden_geometry_136",
+    "kind": "single",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+    "pos": {
+      "x": 119.34076134063703,
+      "y": 37.98985061645508,
+      "z": 32.49803479294272
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.37162593789117726,
+      "z": 0,
+      "w": 0.9283825516921905
+    },
+    "scale": {
+      "x": 1.1217147244890282,
+      "y": 0.45610279769286133,
+      "z": 1.1217147244890282
+    }
+  },
+  {
+    "name": "golden_geometry_137",
+    "kind": "single",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+    "pos": {
+      "x": 114.37286715585599,
+      "y": 40.220872497558595,
+      "z": 50.18643873650316
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.20470473906479167,
+      "z": 0,
+      "w": 0.9788237685121952
+    },
+    "scale": {
+      "x": 1.0719312527357199,
+      "y": 0.5076601916983323,
+      "z": 1.0719312527357199
+    }
+  },
+  {
+    "name": "golden_geometry_138",
+    "kind": "single",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+    "pos": {
+      "x": 102.48286603537856,
+      "y": 41.055764770507814,
+      "z": 37.02856022795399
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.18868644786136807,
+      "z": 0,
+      "w": 0.9820373844174464
+    },
+    "scale": {
+      "x": 1.1355037893501083,
+      "y": 0.6039201292584582,
+      "z": 1.1355037893501083
+    }
+  },
+  {
+    "name": "golden_geometry_139",
+    "kind": "single",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+    "pos": {
+      "x": 102.3251074689244,
+      "y": 41.10471878051758,
+      "z": 44.83332292308052
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.5193007966234019,
+      "z": 0,
+      "w": 0.8545915296949181
+    },
+    "scale": {
+      "x": 0.8027161039557952,
+      "y": 0.3727622731286834,
+      "z": 0.8027161039557952
+    }
+  },
+  {
+    "name": "golden_geometry_140",
+    "kind": "single",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+    "pos": {
+      "x": 134.3769081694294,
+      "y": 38.85024795532227,
+      "z": 46.936009069113624
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.15041497507786647,
+      "z": 0,
+      "w": 0.9886229489913355
+    },
+    "scale": {
+      "x": 0.8581415185829107,
+      "y": 0.5858972069101431,
+      "z": 0.8581415185829107
+    }
+  },
+  {
+    "name": "golden_geometry_141",
+    "kind": "single",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+    "pos": {
+      "x": 143.88080996281195,
+      "y": 38.61466751098633,
+      "z": 39.599680326497335
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.9552705601797288,
+      "z": 0,
+      "w": 0.2957332528714131
+    },
+    "scale": {
+      "x": 1.0745911808585373,
+      "y": 0.49277250544625417,
+      "z": 1.0745911808585373
+    }
+  },
+  {
+    "name": "golden_geometry_142",
+    "kind": "single",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+    "pos": {
+      "x": 144.50572094799585,
+      "y": 38.761376953125,
+      "z": 41.89304241059046
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.20564062422509938,
+      "z": 0,
+      "w": 0.9786275765930119
+    },
+    "scale": {
+      "x": 0.8207636639527995,
+      "y": 0.40406968144368843,
+      "z": 0.8207636639527995
+    }
+  },
+  {
+    "name": "golden_geometry_143",
+    "kind": "single",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+    "pos": {
+      "x": 98.4102014022155,
+      "y": 41.154443359375,
+      "z": 44.57012986058031
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.5088082689092581,
+      "z": 0,
+      "w": 0.8608798670485703
+    },
+    "scale": {
+      "x": 0.9014294301353774,
+      "y": 0.5376993145706246,
+      "z": 0.9014294301353774
+    }
+  },
+  {
+    "name": "golden_geometry_144",
+    "kind": "single",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+    "pos": {
+      "x": 143.19543488764475,
+      "y": 38.66040191650391,
+      "z": 40.460158533418834
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.39152590067722476,
+      "z": 0,
+      "w": 0.9201670875981643
+    },
+    "scale": {
+      "x": 1.1332879130868985,
+      "y": 0.44491965774641073,
+      "z": 1.1332879130868985
+    }
+  },
+  {
+    "name": "golden_geometry_145",
+    "kind": "single",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+    "pos": {
+      "x": 100.95850632592882,
+      "y": 41.09205017089844,
+      "z": 43.618579027357114
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.9593658790683373,
+      "z": 0,
+      "w": 0.28216504049835167
+    },
+    "scale": {
+      "x": 1.0716569020553446,
+      "y": 0.4274442785990499,
+      "z": 1.0716569020553446
+    }
+  },
+  {
+    "name": "golden_geometry_146",
+    "kind": "single",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+    "pos": {
+      "x": 137.93258684989485,
+      "y": 38.01206741333008,
+      "z": 36.0388200746328
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.05490639023761919,
+      "z": 0,
+      "w": 0.9984915063790349
+    },
+    "scale": {
+      "x": 0.9672089385403146,
+      "y": 0.4739676760405344,
+      "z": 0.9672089385403146
+    }
+  },
+  {
+    "name": "golden_geometry_147",
+    "kind": "single",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+    "pos": {
+      "x": 103.86267738492351,
+      "y": 41.05578765869141,
+      "z": 36.92557254676086
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.8891390215383895,
+      "z": 0,
+      "w": 0.4576371929572107
+    },
+    "scale": {
+      "x": 1.1286836348577667,
+      "y": 0.6135629976248157,
+      "z": 1.1286836348577667
+    }
+  },
+  {
+    "name": "golden_geometry_148",
+    "kind": "single",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+    "pos": {
+      "x": 141.24244834129541,
+      "y": 38.7763916015625,
+      "z": 44.991261859812944
+    },
+    "rot": {
+      "x": 0,
+      "y": 0.9246972303921134,
+      "z": 0,
+      "w": 0.3807033387102809
+    },
+    "scale": {
+      "x": 0.818306984257549,
+      "y": 0.5311367813816251,
+      "z": 0.818306984257549
+    }
+  },
+  {
+    "name": "golden_geometry_149",
+    "kind": "single",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+    "pos": {
+      "x": 137.54238197240034,
+      "y": 38.960801696777345,
+      "z": 47.0513850581118
+    },
+    "rot": {
+      "x": 0,
+      "y": -0.06030573302748552,
+      "z": 0,
+      "w": 0.9981799529964612
+    },
+    "scale": {
+      "x": 0.9379740832799184,
+      "y": 0.38408625067305113,
+      "z": 0.9379740832799184
+    }
+  }
+]

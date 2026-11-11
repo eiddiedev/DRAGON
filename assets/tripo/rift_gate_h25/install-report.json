@@ -1,0 +1,26 @@
+{
+  "backup": "/Users/bytedance/Documents/ChatGPT/DRAGON/backups/before-rift-h25-20261110-144131",
+  "asset": {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/xspl8g16bd34pcuj.glb",
+    "assetID": "11629325715202"
+  },
+  "capacity": 15,
+  "before_total": 1630,
+  "with_extra_test_node_total": 1645,
+  "position": {
+    "x": 125.0,
+    "y": 41.6225,
+    "z": 135.0
+  },
+  "rotation": {
+    "x": 0.0,
+    "y": 1.0,
+    "z": 0.0,
+    "w": 0.0
+  },
+  "unrelated_nodes_unchanged": true,
+  "runtime_verified": false,
+  "final_total": 1643,
+  "net_capacity_increase": 13,
+  "editor_visual_verified": true
+}

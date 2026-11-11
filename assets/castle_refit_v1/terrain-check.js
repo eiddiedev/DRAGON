@@ -1,0 +1,1 @@
+const U=CS.UnityEngine;const out=[];for(const x of [122,123,124.7,125,127,129,129.3,131,132])for(const z of [154,155,156,157,158,159]){const hs=U.Physics.RaycastAll(new U.Vector3(x,74,z),U.Vector3.down,25);const hits=[];for(let i=0;i<hs.Length;i++){const h=hs.get_Item(i);hits.push({name:h.collider.gameObject.name,y:h.point.y});}out.push({x,z,hits});}return out;

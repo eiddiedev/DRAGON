@@ -5,7 +5,7 @@ import numpy as np
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from glbw import Geo, write_glb
 OUT = sys.argv[1]
-ROOT = '/Users/a1234/Documents/awesomeWRLD/assets'
+ROOT = '/Users/bytedance/Documents/ChatGPT/DRAGON/assets'
 H = np.load(f'{ROOT}/terrain/v3/base_heights.npy')
 SITES = json.load(open(f'{ROOT}/terrain/v3/sites.json'))
 path = json.load(open(f'{ROOT}/terrain/v3/path.json'))

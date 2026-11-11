@@ -1,0 +1,67 @@
+{
+  "ring_wall_skin": {
+    "triangles": 4872,
+    "no_COLOR_0": true,
+    "UV_present": true,
+    "glb_min": [
+      -19.665836334228516,
+      68.51000213623047,
+      -19.665836334228516
+    ],
+    "glb_max": [
+      19.665836334228516,
+      78.20999908447266,
+      18.189178466796875
+    ],
+    "node_names": [
+      "ring_wall_skin.001"
+    ],
+    "materials": [
+      "ring_wall_skin_GI_PBR"
+    ]
+  },
+  "wall_turrets_skin": {
+    "triangles": 19100,
+    "no_COLOR_0": true,
+    "UV_present": true,
+    "glb_min": [
+      -19.499526977539062,
+      68.5,
+      -19.499526977539062
+    ],
+    "glb_max": [
+      20.957843780517578,
+      90.62000274658203,
+      9.131294250488281
+    ],
+    "node_names": [
+      "wall_turrets_skin.001"
+    ],
+    "materials": [
+      "wall_turrets_skin_GI_PBR"
+    ]
+  },
+  "gatehouse_skin": {
+    "triangles": 6876,
+    "no_COLOR_0": true,
+    "UV_present": true,
+    "glb_min": [
+      -6.04996395111084,
+      68.51000213623047,
+      16.55003547668457
+    ],
+    "glb_max": [
+      6.04996395111084,
+      95.22000122070312,
+      20.44996452331543
+    ],
+    "node_names": [
+      "gatehouse_skin.001"
+    ],
+    "materials": [
+      "gatehouse_skin_GI_PBR"
+    ],
+    "left_lower_foot_frontmost_BlenderY": -19.094999313354492,
+    "vertices_in_old_clear_walk_throat": 0
+  }
+}

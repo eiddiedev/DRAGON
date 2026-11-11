@@ -1,0 +1,18 @@
+{
+  "approach": "flat only; all added terrain-conforming ramp removed",
+  "flat_road_world_z": [
+    159.0,
+    168.10000038146973
+  ],
+  "top_y_range": [
+    72.1300048828125,
+    72.1300048828125
+  ],
+  "max_plane_slope_deg": 8.537736462515939e-07,
+  "up_facing_road_triangles": 2,
+  "road_front_world_z": 159,
+  "overlap_with_main_floor_m": 0.1,
+  "left_gate_foot": "sx=-1 lower south footprint reduced 1m; unchanged fromv7",
+  "statue_plinths": "unchanged",
+  "source_road_box": "width4.6 length9.10 height3.63 center(0,-12.45,70.315)"
+}

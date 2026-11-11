@@ -1,0 +1,20 @@
+{
+  "Idle": {
+    "duration_s": 3.2,
+    "max_ankle_target_error": 2.7837666410609194e-07,
+    "stride_model_units": 0,
+    "ground_speed_model_units_per_s": 0
+  },
+  "Walk": {
+    "duration_s": 1.6,
+    "max_ankle_target_error": 2.2756995612681135e-05,
+    "stride_model_units": 0.16,
+    "ground_speed_model_units_per_s": 0.15151515151515152
+  },
+  "Trot": {
+    "duration_s": 0.9,
+    "max_ankle_target_error": 0.001632699326731429,
+    "stride_model_units": 0.2,
+    "ground_speed_model_units_per_s": 0.39682539682539675
+  }
+}

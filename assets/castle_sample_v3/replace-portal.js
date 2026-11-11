@@ -1,0 +1,7 @@
+const items=[{"root": "n2", "name": "sample_entrance_masonry", "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4khyzwwbfoqxltls.glb", "scale": {"x": 27.975997924804688, "y": 27.975997924804688, "z": 27.975997924804688}}, {"root": "n3", "name": "sample_entrance_carved_trim", "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6lb10mfra9g07voh.glb", "scale": {"x": 28.045684814453125, "y": 28.045684814453125, "z": 28.045684814453125}}];const out=[];for(const p of items){
+ const n=(await scene.assets.replaceModel({root:p.root,replacement:p.uri,name:p.name})).root;
+ await scene.transforms.set({nodes:[n],space:'world',scope:'subtree',value:{position:{x:127,y:0,z:176},rotation:{x:0,y:1,z:0,w:0},scale:p.scale}});
+ const ns=await scene.nodes.query({subtree:n},{fields:['handle','componentTypes'],limit:100});if(ns.nextCursor)throw new Error('Unexpected subtree');
+ for(const node of ns.items){const v={nodes:[node.handle],type:'physicsColliderData',values:{enableCollision:false,enableRigidBody:false}};if(node.componentTypes.includes('physicsColliderData'))await scene.components.set(v);else await scene.components.add(v);}
+ out.push({name:p.name,root:n});
+}return out;

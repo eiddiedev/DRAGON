@@ -1,0 +1,1 @@
+{"ok":true,"command":"authoring","data":{"exitCode":0,"signal":null,"stdout":"{\"codeFile\":\"wprefabs/tripo_scene_v1/.tmp/scene-execute/witch_idle-anim.js\",\"byteLength\":2002,\"prefabId\":\"tripo_scene_v1\",\"nodeHandle\":\"n26\",\"animationNames\":[\"idle\"],\"defaultStateName\":\"idle\"}\n","stderr":"","status":"completed"}}

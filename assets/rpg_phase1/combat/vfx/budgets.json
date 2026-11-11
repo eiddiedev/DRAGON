@@ -1,0 +1,42 @@
+{
+  "slash": {
+    "systems": 3,
+    "capacity": 72,
+    "packBytes": 243032
+  },
+  "shield": {
+    "systems": 3,
+    "capacity": 192,
+    "packBytes": 254163
+  },
+  "bolt": {
+    "systems": 4,
+    "capacity": 196,
+    "packBytes": 1097450
+  },
+  "arrow": {
+    "systems": 4,
+    "capacity": 196,
+    "packBytes": 1097457
+  },
+  "burst": {
+    "systems": 6,
+    "capacity": 384,
+    "packBytes": 1059267
+  },
+  "hit": {
+    "systems": 3,
+    "capacity": 192,
+    "packBytes": 322674
+  },
+  "tell": {
+    "systems": 1,
+    "capacity": 4,
+    "packBytes": 217011
+  },
+  "arena": {
+    "systems": 1,
+    "capacity": 4,
+    "packBytes": 217041
+  }
+}

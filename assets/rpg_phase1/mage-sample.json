@@ -1,0 +1,14 @@
+{
+  "ok": true,
+  "status": "completed",
+  "result": {
+    "maxRightHandTravel": 0.18281335417841382,
+    "maxLeftHandTravel": 0.052401874713774915,
+    "peakActiveEffects": 3,
+    "effectFrames": 14
+  },
+  "startFrame": 13764,
+  "endFrame": 13964,
+  "durationMs": 9998,
+  "mode": "native-puerts"
+}

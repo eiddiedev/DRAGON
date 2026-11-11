@@ -15,7 +15,7 @@ from glbw import Geo, write_glb
 OUT = sys.argv[1]
 what = set(sys.argv[2:]) or {'trees', 'grass', 'holy'}
 os.makedirs(OUT, exist_ok=True)
-ROOT = '/Users/a1234/Documents/awesomeWRLD/assets'
+ROOT = '/Users/bytedance/Documents/ChatGPT/DRAGON/assets'
 H = np.load(f'{ROOT}/terrain/v3/base_heights.npy')
 SITES = json.load(open(f'{ROOT}/terrain/v3/sites.json'))
 PATH = json.load(open(f'{ROOT}/terrain/v3/path.json'))
@@ -323,7 +323,7 @@ if 'grass' in what:
 # ---------- 圣树（真实树枝和叶子）
 if 'holy' in what:
     rnd = random.Random(508)
-    ROWS = [[(0, '#1a1214'), (.5, '#3a2a28'), (1, '#6a5046')], [(0, '#c28a2e'), (.5, '#f4d27a'), (1, '#fff8df')], [(0, '#6d3fc0'), (.6, '#b488ee'), (1, '#efdcff')]]
+    ROWS = [[(0, '#1a1214'), (.5, '#3a2a28'), (1, '#6a5046')], [(0, '#173222'), (.5, '#467449'), (1, '#8fac65')], [(0, '#23432a'), (.6, '#64834c'), (1, '#b0bb77')]]
     tr = Geo(ROWS)
     gl = Geo(ROWS)
     ends = []
@@ -376,21 +376,6 @@ if 'holy' in what:
         L = rnd.uniform(4.5, 8)
         rp = [(math.cos(a) * 1.6, math.sin(a) * 1.6, 2.5), (math.cos(a) * L * .32, math.sin(a) * L * .32, 1.0), (math.cos(a + .12) * L * .68, math.sin(a + .12) * L * .68, .15), (math.cos(a + .25) * L, math.sin(a + .25) * L, -.55)]
         tube(rp, [1.05, .72, .42, .14], 8)
-    # 发光纹路
-    for k in range(6):
-        ph = k / 6 * math.tau
-        pts = []
-        for i in range(24):
-            t = i / 23
-            ang = t * 1.2 + ph + t * 2.2
-            cx, cy = math.cos(t * 1.2) * t * 1.3, math.sin(t * 1.2) * t * 1.3
-            rr = (2.8 * (1 - t) ** 1.8 + 1.15) * 1.02
-            pts.append(np.array([cx + math.cos(ang) * rr, cy + math.sin(ang) * rr, t * 12.5 - .3]))
-        for a, b in zip(pts, pts[1:]):
-            s = unit(np.cross(b - a, (0, 0, 1))) * .05
-            nr = unit(a - np.array([0, 0, a[2]]))
-            gl.tri(a - s, a + s, b + s, .8, 1, normals=[nr] * 3)
-            gl.tri(a - s, b + s, b - s, .8, 1, normals=[nr] * 3)
     top = np.asarray(tp[-1])
     for i in range(7):
         a = i / 7 * math.tau + rnd.uniform(-.25, .25)
@@ -441,5 +426,5 @@ if 'holy' in what:
     print('holy tris', tr.tris_count(), gl.tris_count())
     write_glb(os.path.join(OUT, 'holy_tree3.glb'), tr, name='holy_tree3', rough=.85)
     print('canopy', gl.tris_count(), gl_b.tris_count())
-    write_glb(os.path.join(OUT, 'holy_canopy3.glb'), gl, name='holy_canopy3', rough=.6, emissive=(1, 1, 1))
-    write_glb(os.path.join(OUT, 'holy_canopy4.glb'), gl_b, name='holy_canopy4', rough=.6, emissive=(1, 1, 1))
+    write_glb(os.path.join(OUT, 'holy_canopy3.glb'), gl, name='holy_canopy3', rough=.82)
+    write_glb(os.path.join(OUT, 'holy_canopy4.glb'), gl_b, name='holy_canopy4', rough=.82)

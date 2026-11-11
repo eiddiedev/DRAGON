@@ -1,0 +1,18 @@
+{
+  "original_node_count": 6277,
+  "preserved_authored_roots": 2097,
+  "changed_authored_roots": [],
+  "protected_castle_nodes": 48,
+  "changed_castle_nodes": [],
+  "terrain_changes": [],
+  "original_script_changes": [],
+  "settings_changes": [],
+  "spawn_configuration_preserved": true,
+  "sample_nodes": 8,
+  "added_collision_nodes": [],
+  "host_generated_ids_or_animated_child_poses_not_used_as_layout_evidence": true,
+  "host_added_empty_editor_records": [
+    "1940242341",
+    "1615744379"
+  ]
+}

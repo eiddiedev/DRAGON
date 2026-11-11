@@ -1,6 +1,1002 @@
 {
-  "version": "1.0.6",
+  "version": "1.0.7",
   "workspaces": [
+    {
+      "activeMode": "agent",
+      "directModelPreferences": {
+        "faceCount": 20000,
+        "modelVendor": "tripo",
+        "quality": "standard",
+        "styleId": 2
+      },
+      "hasUnreadAttention": false,
+      "messages": [],
+      "starlightTurns": [],
+      "questionPreference": {
+        "mode": "ask"
+      },
+      "results": [
+        {
+          "createdAtUtc": "2026-11-11T08:16:41.555Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠第一阶段玩法",
+            "summary": "dragon_rpg_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/9e4b0759393f444c99361c88b552e268.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/3j8dd0zaaf2zfb7z.wprefab",
+            "metadata": {
+              "capacity": 106390,
+              "faceCount": 53086,
+              "logicalCenter": [
+                -56.605825420137464,
+                0.14434570074081401,
+                -22.10924626061758
+              ],
+              "rigged": true
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": true,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "dragon_phase1_merged",
+          "revisionId": "external:automation:39b8e593-2c42-4b7e-beb5-b852f462decd:81d2ae3e7384fa2a82c01cda7e14d0da98584050949215e71e53d5d488a3ab7c:81d2ae3e7384fa2a82c01cda7e14d0da98584050949215e71e53d5d488a3ab7c"
+        },
+        {
+          "createdAtUtc": "2026-11-11T08:36:55.516Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠第一阶段玩法",
+            "summary": "dragon_rpg_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ac79c76aa7604660b6c7799242a5235b.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/njf669a2mi40jr7u.wprefab",
+            "metadata": {
+              "capacity": 106390,
+              "faceCount": 53086,
+              "logicalCenter": [
+                -56.605825420137464,
+                0.14434570074081401,
+                -22.10924626061758
+              ],
+              "rigged": true
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": true,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "dragon_phase1_merged",
+          "revisionId": "external:automation:9f162150-13a1-495d-97de-006dd220a315:40ec5276bd1026d45efddb162a31540f7a31de4a001e0f8198b7a2dae9b2e83a:40ec5276bd1026d45efddb162a31540f7a31de4a001e0f8198b7a2dae9b2e83a"
+        },
+        {
+          "createdAtUtc": "2026-11-11T08:38:39.084Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠第一阶段玩法",
+            "summary": "dragon_rpg_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/cfcff5ad284943adbfdf7b47a9b61447.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6ikc8wgdcb5afyxm.wprefab",
+            "metadata": {
+              "capacity": 106150,
+              "faceCount": 53086,
+              "logicalCenter": [
+                -56.605825420137464,
+                0.14434570074081401,
+                -22.10924626061758
+              ],
+              "rigged": true
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": true,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "dragon_phase1_merged",
+          "revisionId": "external:automation:7eb9d079-0ad8-473f-b066-a5b256cee325:0bf1f1378a169aef3b759e9124a8b7442c35391bc6bbbc16fd2f92ff834c1d2d:0bf1f1378a169aef3b759e9124a8b7442c35391bc6bbbc16fd2f92ff834c1d2d"
+        },
+        {
+          "createdAtUtc": "2026-11-11T09:10:21.225Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠第一阶段玩法",
+            "summary": "dragon_rpg_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/210125e8d2d14a6f9fa3f95d6885ceeb.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/94cjdv8952yi8wmx.wprefab",
+            "metadata": {
+              "capacity": 106360,
+              "faceCount": 53086,
+              "logicalCenter": [
+                -56.605825420137464,
+                0.14434570074081401,
+                -22.10924626061758
+              ],
+              "rigged": true
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": true,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "dragon_phase1_merged",
+          "revisionId": "external:automation:f0527c9b-de59-4325-be6e-98c8ab04873b:b334c62b327ce22e0d9c39782de7e6f427b2e04b6b83c66c50e00e4bff88834d:b334c62b327ce22e0d9c39782de7e6f427b2e04b6b83c66c50e00e4bff88834d"
+        },
+        {
+          "createdAtUtc": "2026-11-11T09:13:26.664Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠无限资源测试版",
+            "summary": "dragon_rpg_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/b7331be8d2af4022a2e2a61b79c6aeb1.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/pi1uo04di0jiz611.wprefab",
+            "metadata": {
+              "capacity": 106390,
+              "faceCount": 53086,
+              "logicalCenter": [
+                -56.605825420137464,
+                0.14434570074081401,
+                -22.10924626061758
+              ],
+              "rigged": true
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": true,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "dragon_phase1_merged",
+          "revisionId": "external:automation:fb366dc3-dee7-47ec-88ef-c05b5023c0f1:1c085903fe417fc5251c81b48bfb4ec82a4fb381954f8a5560e56b7d79067cbe:1c085903fe417fc5251c81b48bfb4ec82a4fb381954f8a5560e56b7d79067cbe"
+        },
+        {
+          "createdAtUtc": "2026-11-11T09:15:48.831Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠无限资源测试版",
+            "summary": "dragon_rpg_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/e6c4be1e6c1d4761b1d31a0c32aeb088.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/zgekrj6g078mffst.wprefab",
+            "metadata": {
+              "capacity": 106270,
+              "faceCount": 53086,
+              "logicalCenter": [
+                -56.605825420137464,
+                0.14434570074081401,
+                -22.10924626061758
+              ],
+              "rigged": true
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": true,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "dragon_phase1_merged",
+          "revisionId": "external:automation:fc1d45f1-ff91-4cd1-bc37-4fb2ea657924:27100c181520522492ffb63d90e144361a271296dc910e7d031185740424a5b9:27100c181520522492ffb63d90e144361a271296dc910e7d031185740424a5b9"
+        },
+        {
+          "createdAtUtc": "2026-11-11T09:49:21.606Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠无限资源测试版",
+            "summary": "dragon_rpg_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/51937ecc47e14c6b9625bf4193fd9af0.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/gxycrjvc5xukn1b6.wprefab",
+            "metadata": {
+              "capacity": 106674,
+              "faceCount": 53090,
+              "logicalCenter": [
+                -56.605825420137464,
+                100,
+                -22.10924626061758
+              ],
+              "rigged": true
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": true,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "dragon_phase1_merged",
+          "revisionId": "external:automation:05770cd2-1735-47f0-835a-7b4753cd6396:dc0c8d18eb78016ce7a2654c35d594c8b8b4218c529de8ac5cf60c28989e4729:dc0c8d18eb78016ce7a2654c35d594c8b8b4218c529de8ac5cf60c28989e4729"
+        },
+        {
+          "createdAtUtc": "2026-11-11T09:58:01.465Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠无限资源测试版",
+            "summary": "dragon_rpg_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/15621100e7e843fba2e82d25c23952c2.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ukei5d1fu5zi2vpk.wprefab",
+            "metadata": {
+              "capacity": 106674,
+              "faceCount": 53090,
+              "logicalCenter": [
+                -58.19074635141122,
+                0.14434570074081401,
+                -72.71962717948841
+              ],
+              "rigged": true
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": true,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "dragon_phase1_merged",
+          "revisionId": "external:automation:c465d9b2-6a84-4cc4-8d7f-754bc65e5d01:d263192c2d4c9fdb4951df04df209c50eff8eccecfebb747c020426c65395e5e:d263192c2d4c9fdb4951df04df209c50eff8eccecfebb747c020426c65395e5e"
+        },
+        {
+          "createdAtUtc": "2026-11-11T11:34:26.598Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠无限资源测试版",
+            "summary": "dragon_rpg_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/f1763cd074b045979cc3962b1dd45da2.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/7iaklq661yt32lj3.wprefab",
+            "metadata": {
+              "capacity": 106794,
+              "faceCount": 53090,
+              "logicalCenter": [
+                -58.19074635141122,
+                0.14434570074081401,
+                -72.71962717948841
+              ],
+              "rigged": true
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": true,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "dragon_phase1_merged",
+          "revisionId": "external:automation:d3b021af-44a5-4eaf-b655-c67fa8fccb16:db59209d19d4aace9487037df58ac886e1e50dd486ea5705a32e72b906ed79ef:db59209d19d4aace9487037df58ac886e1e50dd486ea5705a32e72b906ed79ef"
+        },
+        {
+          "createdAtUtc": "2026-11-11T11:57:20.453Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠无限资源测试版",
+            "summary": "dragon_rpg_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/2358336376b14a06affc8851a815b9d4.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/u3d3x0w7e3zaqfve.wprefab",
+            "metadata": {
+              "capacity": 107056,
+              "faceCount": 53092,
+              "logicalCenter": [
+                -58.19074635141122,
+                0.14434570074081401,
+                -72.71962717948841
+              ],
+              "rigged": true
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": true,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "dragon_phase1_merged",
+          "revisionId": "external:automation:616c50da-acb2-4025-9221-978433cece3f:726fb9c5cfd7038ac6383e9bf53cb22f6933a04f78b693edd39038b0ea47e5fa:726fb9c5cfd7038ac6383e9bf53cb22f6933a04f78b693edd39038b0ea47e5fa"
+        },
+        {
+          "createdAtUtc": "2026-11-11T12:11:16.731Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠无限资源测试版",
+            "summary": "dragon_rpg_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/96c5b21f5b974bd3833f6cf2f55fbc5c.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/0rxt8yxri4ofy0sw.wprefab",
+            "metadata": {
+              "capacity": 107176,
+              "faceCount": 53092,
+              "logicalCenter": [
+                -58.19074635141122,
+                0.14434570074081401,
+                -72.71962717948841
+              ],
+              "rigged": true
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": true,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "dragon_phase1_merged",
+          "revisionId": "external:automation:70cc7256-ea5b-4e94-aa47-d4e3ea0968fd:7466e5e1cdc0f6e8244521fcf460812dff0897707a7a6947b10884eae9318d9c:7466e5e1cdc0f6e8244521fcf460812dff0897707a7a6947b10884eae9318d9c"
+        },
+        {
+          "createdAtUtc": "2026-11-11T12:40:55.409Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠无限资源测试版",
+            "summary": "dragon_rpg_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/eabf9d9a19404220b4e474d9c5f2e849.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/a4aavby1s09e1xnb.wprefab",
+            "metadata": {
+              "capacity": 107236,
+              "faceCount": 53092,
+              "logicalCenter": [
+                -58.19074635141122,
+                0.14434570074081401,
+                -72.71962717948841
+              ],
+              "rigged": true
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": true,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "dragon_phase1_merged",
+          "revisionId": "external:automation:9a79b79f-65ce-4d3b-b54b-7617dfe9139e:d69fc05e2be1e15af22e38015d28e2bf08ad13cc53905049fcc562976935b8c5:d69fc05e2be1e15af22e38015d28e2bf08ad13cc53905049fcc562976935b8c5"
+        },
+        {
+          "createdAtUtc": "2026-11-11T14:42:27.789Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠玩法与东侧麦田v13",
+            "summary": "dragon_rpg_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/afe8e0563c584546a60714fb97145007.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/gi9wc5wkflzez9hr.wprefab",
+            "metadata": {
+              "capacity": 318096,
+              "faceCount": 241952,
+              "logicalCenter": [
+                -89.0928379488199,
+                0.14434570074081401,
+                -72.71962717948841
+              ],
+              "rigged": true
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": true,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "dragon_phase1_merged",
+          "revisionId": "external:automation:9d260840-0492-402c-aede-07ea58339b26:2c9fef93045fdf289771fc1a15d1000c4827896d30caee6a0a6e05471481d2b0:2c9fef93045fdf289771fc1a15d1000c4827896d30caee6a0a6e05471481d2b0"
+        },
+        {
+          "createdAtUtc": "2026-11-11T15:10:46.659Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠麦田避让与定位阵v14",
+            "summary": "dragon_rpg_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/1eadb4a5d81c48d1806fa8f240d859bb.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/tz2i7f5uzuu89a90.wprefab",
+            "metadata": {
+              "capacity": 318126,
+              "faceCount": 241952,
+              "logicalCenter": [
+                -89.12563485252326,
+                0.14434570074081401,
+                -72.71962717948841
+              ],
+              "rigged": true
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": true,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "dragon_phase1_merged",
+          "revisionId": "external:automation:a3d9b83f-d410-4e83-90a2-4412745124c2:e45c8628447384028faa7d3a1fba74c17cc02ed0e785422e9bee8b28bcd00b08:e45c8628447384028faa7d3a1fba74c17cc02ed0e785422e9bee8b28bcd00b08"
+        }
+      ],
+      "routeMode": "best_effort",
+      "skillSelection": {
+        "contextSkillIds": []
+      },
+      "workspaceId": "workspace_sbazsi67",
+      "workspacePreferences": {
+        "topology": {
+          "provider": "douyin-3d",
+          "styleLora": "none"
+        }
+      }
+    },
+    {
+      "activeMode": "agent",
+      "directModelPreferences": {
+        "faceCount": 20000,
+        "modelVendor": "tripo",
+        "quality": "standard",
+        "styleId": 2
+      },
+      "hasUnreadAttention": false,
+      "messages": [],
+      "starlightTurns": [],
+      "questionPreference": {
+        "mode": "ask"
+      },
+      "results": [
+        {
+          "createdAtUtc": "2026-11-11T04:08:47.079Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠职业武器验证",
+            "summary": "dragon_rpg_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/dd599e80424c4744bf7f25ddeebd170d.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6itnu6hqszg7qoxq.wprefab",
+            "metadata": {
+              "capacity": 81796,
+              "faceCount": 49126,
+              "logicalCenter": [
+                0.005724905362924915,
+                0.14434570074081401,
+                -0.06712717948841473
+              ],
+              "rigged": false
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": false,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "dragon_rpg_v1",
+          "revisionId": "external:automation:8560b4b6-994a-42ee-9cde-9805df216be7:00b11140ca2ed9ebe705d137e58fabe5b09cf43f16f9ae492c66fadcd1b5332e:00b11140ca2ed9ebe705d137e58fabe5b09cf43f16f9ae492c66fadcd1b5332e"
+        }
+      ],
+      "routeMode": "best_effort",
+      "skillSelection": {
+        "contextSkillIds": []
+      },
+      "workspaceId": "workspace_zpuv5vvs",
+      "workspacePreferences": {
+        "topology": {
+          "provider": "douyin-3d",
+          "styleLora": "none"
+        }
+      }
+    },
+    {
+      "activeMode": "agent",
+      "directModelPreferences": {
+        "faceCount": 20000,
+        "modelVendor": "tripo",
+        "quality": "standard",
+        "styleId": 2
+      },
+      "hasUnreadAttention": false,
+      "messages": [],
+      "starlightTurns": [],
+      "questionPreference": {
+        "mode": "ask"
+      },
+      "results": [
+        {
+          "createdAtUtc": "2026-11-10T09:01:05.545Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "麦金草海轻量版",
+            "summary": "wheat_v20",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/e1f9e5f98c6f4bd3a6d8bffe5d17ec41.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6skhn758gjowgyej.wprefab",
+            "metadata": {
+              "capacity": 389100,
+              "faceCount": 359100,
+              "logicalCenter": [
+                -121.95188672592042,
+                -37.97504577636719,
+                -40.41826493514697
+              ],
+              "rigged": true
+            },
+            "hasAudio": false,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "wheat_v20",
+          "revisionId": "external:automation:15c24e25-6fed-47f9-8909-466466f4b64b:08c43309393203183c73e7931bab9226594638896360df6fe2ef0bcdd321e381:08c43309393203183c73e7931bab9226594638896360df6fe2ef0bcdd321e381"
+        },
+        {
+          "createdAtUtc": "2026-11-10T09:47:51.655Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠精细模型",
+            "summary": "tripo_scene_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/f842579aa8b54da0b58cdcf4796ef33d.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/5dspzy01gggg0kdo.wprefab",
+            "metadata": {
+              "capacity": 11847,
+              "faceCount": 11447,
+              "logicalCenter": [
+                -1.4901161193847656e-8,
+                7.922523082015687e-7,
+                -3.2782554626464844e-7
+              ],
+              "rigged": true
+            },
+            "hasAudio": false,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "tripo_scene_v1",
+          "revisionId": "external:automation:8025ad92-bc69-401d-b4fd-73cc3bd2c4c5:b69af10bf4b1fa01e56c685a3068271c492c07cb5f3ac6ae71ea953a7719ec9a:b69af10bf4b1fa01e56c685a3068271c492c07cb5f3ac6ae71ea953a7719ec9a"
+        },
+        {
+          "createdAtUtc": "2026-11-10T09:53:08.116Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠精细模型",
+            "summary": "tripo_scene_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/a943d3a06e6f4d4e891023eb7442e85a.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/vp8913m384zt89u7.wprefab",
+            "metadata": {
+              "capacity": 265305,
+              "faceCount": 249365,
+              "logicalCenter": [
+                -138.7312556515851,
+                -25.6,
+                -117.94612915300118
+              ],
+              "rigged": true
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": false,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "tripo_scene_v1",
+          "revisionId": "external:automation:c77ad32c-2d75-4a4c-825f-84ab114745fc:d2808a53af1b520cedb1235111a3ca93bb0c515c43687d6ff527e17d8c16c615:d2808a53af1b520cedb1235111a3ca93bb0c515c43687d6ff527e17d8c16c615"
+        },
+        {
+          "createdAtUtc": "2026-11-10T10:01:56.450Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠精细模型",
+            "summary": "tripo_scene_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/db67fc171cd643869f554902688f2edc.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6hit0j61s0zwlmbs.wprefab",
+            "metadata": {
+              "capacity": 265305,
+              "faceCount": 249365,
+              "logicalCenter": [
+                -138.7312556515851,
+                -25.6,
+                -117.94612915300117
+              ],
+              "rigged": true
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": false,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "tripo_scene_v1",
+          "revisionId": "external:automation:61d709d3-1112-482a-a5e2-33e1f538d188:7304bb553e06fa001eb17b3a0851674d5d6e3b6700b9c224343d85b497c552b0:7304bb553e06fa001eb17b3a0851674d5d6e3b6700b9c224343d85b497c552b0"
+        },
+        {
+          "createdAtUtc": "2026-11-11T03:48:39.417Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠城堡精修",
+            "summary": "castle_refit_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ed3ee3826295439294dda0926ced0786.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/2q25b0v2rcqq0qnm.wprefab",
+            "metadata": {
+              "capacity": 144066,
+              "faceCount": 140066,
+              "logicalCenter": [
+                -132.66343419254542,
+                -38.59049124442879,
+                -131.8171439044604
+              ],
+              "rigged": false
+            },
+            "hasAudio": false,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "castle_refit_v1",
+          "revisionId": "external:automation:d545c333-e9c2-438b-9962-babf7403ce88:09098b4a7a08b713501e55648cce65e03ecd1b0ec92de04249f6e6876f9127f6:09098b4a7a08b713501e55648cce65e03ecd1b0ec92de04249f6e6876f9127f6"
+        },
+        {
+          "createdAtUtc": "2026-11-11T04:03:40.982Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠城堡精修",
+            "summary": "castle_refit_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/be136ef6f5604e73883e66ed3dc9e3e5.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wgz0cgtr47frc8y2.wprefab",
+            "metadata": {
+              "capacity": 177541,
+              "faceCount": 170221,
+              "logicalCenter": [
+                -132.66343419254542,
+                -38.59049124442879,
+                -131.8171439044604
+              ],
+              "rigged": false
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": false,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "castle_refit_v1",
+          "revisionId": "external:automation:658d3463-5ce1-47cc-8dcd-1cac85e1dfb5:4e3f1c4c4e620ef1908e5ea87d46d05f957b3244e7b1339d7bc3fc72ceb71bf4:4e3f1c4c4e620ef1908e5ea87d46d05f957b3244e7b1339d7bc3fc72ceb71bf4"
+        },
+        {
+          "createdAtUtc": "2026-11-11T04:15:11.892Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠城堡精修",
+            "summary": "castle_refit_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/15b2875cd0ed439e89ed17ece5205342.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/nd0jfoyewsm5haar.wprefab",
+            "metadata": {
+              "capacity": 177541,
+              "faceCount": 170221,
+              "logicalCenter": [
+                -132.66343419254542,
+                -38.59049124442879,
+                -131.8171439044604
+              ],
+              "rigged": false
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": false,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "castle_refit_v1",
+          "revisionId": "external:automation:07f38618-fc27-4049-931c-d4481224f495:e8934a2c6986e732ba330949dbd6834dfd3e00020065fe16d0e8f2f254b7bc4c:e8934a2c6986e732ba330949dbd6834dfd3e00020065fe16d0e8f2f254b7bc4c"
+        },
+        {
+          "createdAtUtc": "2026-11-11T04:24:40.520Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠城堡精修",
+            "summary": "castle_refit_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/8a0c0186a95944978ba72537bc95f84c.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/tn3p209rb68evyza.wprefab",
+            "metadata": {
+              "capacity": 174741,
+              "faceCount": 167421,
+              "logicalCenter": [
+                -132.66343419254542,
+                -38.59049124442879,
+                -131.8171439044604
+              ],
+              "rigged": false
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": false,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "castle_refit_v1",
+          "revisionId": "external:automation:71bbb105-55fc-4553-903b-30d888e3eed8:e3535c6ab44eb563ed207e8f1d0fe7fd78cb786e62618ae664f243411c3f484b:e3535c6ab44eb563ed207e8f1d0fe7fd78cb786e62618ae664f243411c3f484b"
+        },
+        {
+          "createdAtUtc": "2026-11-11T04:28:26.574Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠城堡精修",
+            "summary": "castle_refit_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/37438292eb30494fa57fe3db8cad4d3a.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/xl4igirl5t3samwi.wprefab",
+            "metadata": {
+              "capacity": 174741,
+              "faceCount": 167421,
+              "logicalCenter": [
+                -132.66343419254542,
+                -38.59049124442879,
+                -131.8171439044604
+              ],
+              "rigged": false
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": false,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "castle_refit_v1",
+          "revisionId": "external:automation:2ed44200-4518-4e9e-95c3-b8b6e5f33e0d:07747b25346578e33a62f96fd157948dbc8b20e25011bb9859977939674d6726:07747b25346578e33a62f96fd157948dbc8b20e25011bb9859977939674d6726"
+        },
+        {
+          "createdAtUtc": "2026-11-11T05:30:29.515Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "城堡入口石阶与前庭",
+            "summary": "castle_entry_v2",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/c150a8fd6a1d4485aa6fc156dea455dc.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/uyw8fjsvsjc5xg16.wprefab",
+            "metadata": {
+              "capacity": 4592,
+              "faceCount": 4392,
+              "logicalCenter": [
+                -127,
+                -69.80000591278076,
+                -161.6499991118908
+              ],
+              "rigged": false
+            },
+            "hasAudio": false,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "castle_entry_v2",
+          "revisionId": "external:automation:5758c7a0-bbfd-4268-92bb-9f4b7d56d2cb:e7612228cb4d915cbe117ded6e83712eee3c7ce5b5f9576cb0e1652248f07b1e:e7612228cb4d915cbe117ded6e83712eee3c7ce5b5f9576cb0e1652248f07b1e"
+        },
+        {
+          "createdAtUtc": "2026-11-11T05:35:00.667Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "城堡入口石阶与前庭",
+            "summary": "castle_entry_v2",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/845b0c2318f1427a940925ae3985d231.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/z41mmb3o93r1qec6.wprefab",
+            "metadata": {
+              "capacity": 4592,
+              "faceCount": 4392,
+              "logicalCenter": [
+                -127,
+                -69.80000591278076,
+                -161.6499991118908
+              ],
+              "rigged": false
+            },
+            "hasAudio": false,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "castle_entry_v2",
+          "revisionId": "external:automation:42beb967-be76-4657-a8b1-ef4fc04fa897:4fd284aa6f5121693f0ef1bf9eed80ddba992d8f804f56af83e31c258589ed37:4fd284aa6f5121693f0ef1bf9eed80ddba992d8f804f56af83e31c258589ed37"
+        },
+        {
+          "createdAtUtc": "2026-11-11T05:56:28.646Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "城堡入口与钟塔精修样板",
+            "summary": "castle_sample_v3",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/b3fc9e4e67964073b7451b52ae6ad0fa.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/2fioczhxn9s7681j.wprefab",
+            "metadata": {
+              "capacity": 41365,
+              "faceCount": 40155,
+              "logicalCenter": [
+                -124.27581026146527,
+                -72.00800106497627,
+                -167.99700043730817
+              ],
+              "rigged": false
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": false,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "castle_sample_v3",
+          "revisionId": "external:automation:901a9016-0c22-46a6-b806-a613d634bfe4:0e16656b13bcdf287ac7c903fc5834d3db85e9f6e8a80a851a8347abe4b756e6:0e16656b13bcdf287ac7c903fc5834d3db85e9f6e8a80a851a8347abe4b756e6"
+        },
+        {
+          "createdAtUtc": "2026-11-11T06:05:13.716Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "城堡入口与钟塔精修样板",
+            "summary": "castle_sample_v3",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/c1203fe0832d448eb586b4e1c1a7dd0c.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/bqndgcmush218l2p.wprefab",
+            "metadata": {
+              "capacity": 42597,
+              "faceCount": 41387,
+              "logicalCenter": [
+                -124.27581026146525,
+                -72.00800106497626,
+                -167.99700043730817
+              ],
+              "rigged": false
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": false,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "castle_sample_v3",
+          "revisionId": "external:automation:44c1edd6-d95b-41f0-919e-71ffce0d115f:9e0eb7b2a4cbf958980f01fd8292029fdad4b51b087f7c736e49e6a5d052d3d9:9e0eb7b2a4cbf958980f01fd8292029fdad4b51b087f7c736e49e6a5d052d3d9"
+        },
+        {
+          "createdAtUtc": "2026-11-11T06:07:55.026Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "城堡入口与钟塔精修样板",
+            "summary": "castle_sample_v3",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/06d9d3ef0c0345d9bdeea41f00848a6a.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/cgwojccfbflq9knr.wprefab",
+            "metadata": {
+              "capacity": 42597,
+              "faceCount": 41387,
+              "logicalCenter": [
+                -124.27581026146525,
+                -72.00800106497626,
+                -167.99700043730817
+              ],
+              "rigged": false
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": false,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "castle_sample_v3",
+          "revisionId": "external:automation:fb8b8d01-5471-4be7-b9f0-d3e6afaf4911:4d771f899ef1ae680f095b56b55a6be9207da2f0c522da1eee378671e8d0df28:4d771f899ef1ae680f095b56b55a6be9207da2f0c522da1eee378671e8d0df28"
+        },
+        {
+          "createdAtUtc": "2026-11-11T06:30:47.831Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "城堡塔楼与外围城墙精修",
+            "summary": "castle_expand_v5",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/590d48491f154de5b5e313e456db8727.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/vjsj5kbla3mnmdg0.wprefab",
+            "metadata": {
+              "capacity": 113290,
+              "faceCount": 112080,
+              "logicalCenter": [
+                -127.64600399212827,
+                -68.51149653846778,
+                -175.6079355620634
+              ],
+              "rigged": false
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": false,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "castle_expand_v5",
+          "revisionId": "external:automation:9d32d593-ea13-45b6-8769-51afe1fd6478:fec67f7ed65df088a76d6767834f89d12050b6c8cd5c36b92ead8d9e7dd1c3c9:fec67f7ed65df088a76d6767834f89d12050b6c8cd5c36b92ead8d9e7dd1c3c9"
+        },
+        {
+          "createdAtUtc": "2026-11-11T06:50:53.257Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "城堡外暗内亮调色",
+            "summary": "castle_tone_v6",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/50vzmq87q1sl53rb.wprefab",
+            "metadata": {
+              "capacity": 1210,
+              "faceCount": 0,
+              "logicalCenter": [
+                0,
+                0,
+                0
+              ],
+              "rigged": false
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": false,
+            "hasExpandableAssets": false
+          },
+          "artifactId": "castle_tone_v6",
+          "revisionId": "external:automation:2f0b96c5-1b0f-436a-9e0a-f5723ab47ef3:39e788f7e74059778319ec40140e623a9d210ab128e1156a06e879a7aa2e6c51:39e788f7e74059778319ec40140e623a9d210ab128e1156a06e879a7aa2e6c51"
+        },
+        {
+          "createdAtUtc": "2026-11-11T07:20:53.538Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "城堡外暗内亮调色",
+            "summary": "castle_smooth_tone_v7",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/jbtkv7mgvnm4tx6e.wprefab",
+            "metadata": {
+              "capacity": 1210,
+              "faceCount": 0,
+              "logicalCenter": [
+                0,
+                0,
+                0
+              ],
+              "rigged": false
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": false,
+            "hasExpandableAssets": false
+          },
+          "artifactId": "castle_smooth_tone_v7",
+          "revisionId": "external:automation:a2706f2f-616c-4549-8079-17e80ad2e10b:02e26889957b523aeb77aa21825ac9a6308da75ae8b5f64abbe5a8af07285829:02e26889957b523aeb77aa21825ac9a6308da75ae8b5f64abbe5a8af07285829"
+        },
+        {
+          "createdAtUtc": "2026-11-11T07:35:40.036Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "城堡塔楼与外围城墙精修",
+            "summary": "castle_smooth_expand_v7",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/5ebff62b7fae4af88599b4f4882d1a57.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/y421tlnpg6qie528.wprefab",
+            "metadata": {
+              "capacity": 71892,
+              "faceCount": 70682,
+              "logicalCenter": [
+                -127.64600399212827,
+                -68.4999987581582,
+                -175.6079361450693
+              ],
+              "rigged": false
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": false,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "castle_smooth_expand_v7",
+          "revisionId": "external:automation:74896f14-a97f-4453-ac2b-6853efcf0538:71bd88e76d006a54748fa549328bd2172be62afe105c6ef6379087a66beb448a:71bd88e76d006a54748fa549328bd2172be62afe105c6ef6379087a66beb448a"
+        },
+        {
+          "createdAtUtc": "2026-11-11T07:44:53.738Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "城堡入口与钟塔精修样板",
+            "summary": "castle_smooth_sample_v7",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/9cdfcc962c584020a4a28dd83635e236.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ourydi7ywwcc4vcn.wprefab",
+            "metadata": {
+              "capacity": 19018,
+              "faceCount": 17808,
+              "logicalCenter": [
+                -127,
+                -71.99999904632568,
+                -177.41000059366013
+              ],
+              "rigged": false
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": false,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "castle_smooth_sample_v7",
+          "revisionId": "external:automation:6ed52ce6-9f0e-4443-a09f-b51f6f26fc7d:bc2089544c3e417d2d86ec215759e9bc01c9364ed3635e4c9ec4a367edbad60d:bc2089544c3e417d2d86ec215759e9bc01c9364ed3635e4c9ec4a367edbad60d"
+        }
+      ],
+      "routeMode": "best_effort",
+      "skillSelection": {
+        "contextSkillIds": []
+      },
+      "workspaceId": "workspace_vrztdtlb",
+      "workspacePreferences": {
+        "topology": {
+          "provider": "douyin-3d",
+          "styleLora": "none"
+        }
+      }
+    },
+    {
+      "activeMode": "direct-model",
+      "directModelPreferences": {
+        "faceCount": 20000,
+        "modelVendor": "tripo",
+        "quality": "standard",
+        "styleId": 2
+      },
+      "hasUnreadAttention": false,
+      "messages": [
+        {
+          "executionRef": {
+            "providerId": "topology",
+            "taskId": "d6344e85-e15c-470b-87fb-3f33b438212f"
+          },
+          "kind": "direct-model",
+          "messageId": "direct-model:topology:d6344e85-e15c-470b-87fb-3f33b438212f",
+          "request": {
+            "imageName": "reference.png",
+            "imageUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/5dabc8672df443de8f273eaea0e91892.png",
+            "parameters": {
+              "faceCount": 20000,
+              "modelVendor": "tripo",
+              "quality": "standard",
+              "styleId": 2
+            },
+            "prompt": "原创暗黑奇幻成年西方龙，严格参考图片，炭灰蓝黑鳞甲、暗酒红翼膜、象牙色后弯角、琥珀眼睛。完整四条腿和两只独立蝙蝠翼，长尾，宽阔肩背可供骑乘。保持中立站姿，翅膀展开，四肢、翼膜、尾巴彼此分离，适合后续精细绑骨。自然真实解剖，头部威严，鳞甲清晰，模型连续完整，不要底座、场景、粒子或文字。"
+          },
+          "revisionId": "direct-model:topology:d6344e85-e15c-470b-87fb-3f33b438212f",
+          "status": "succeeded"
+        }
+      ],
+      "starlightTurns": [],
+      "questionPreference": {
+        "mode": "ask"
+      },
+      "results": [
+        {
+          "createdAtUtc": "2026-11-09T16:25:15.045Z",
+          "promptSummary": "原创暗黑奇幻成年西方龙，严格参考图片，炭灰蓝黑鳞甲、暗酒红翼膜、象牙色后弯角、琥珀眼睛。完整四条腿和两只独立蝙蝠翼，长尾，宽阔肩背可供骑乘。保持中立站姿，翅膀展开，四肢、翼膜、尾巴彼此分离，适合后续精细绑骨。自然真实解剖，头部威严，鳞甲清晰，模型连续完整，不要底座、场景、粒子或文字。",
+          "type": "model",
+          "artifact": {
+            "displayName": "原创暗黑奇幻成年西方龙，严格参考图片，炭灰蓝黑鳞甲、暗酒红翼膜、象牙色后弯角、琥珀眼睛。完整四条腿和两只独立蝙蝠翼，长尾，宽阔肩背可供骑乘。保持中立站姿，翅膀展开，四肢、翼膜、尾巴彼此分离，适合后续精细绑骨。自然真实解剖，头部威严，鳞甲清晰，模型连续完整，不要底座、场景、粒子或文字。",
+            "summary": "原创暗黑奇幻成年西方龙，严格参考图片，炭灰蓝黑鳞甲、暗酒红翼膜、象牙色后弯角、琥珀眼睛。完整四条腿和两只独立蝙蝠翼，长尾，宽阔肩背可供骑乘。保持中立站姿，翅膀展开，四肢、翼膜、尾巴彼此分离，适合后续精细绑骨。自然真实解剖，头部威严，鳞甲清晰，模型连续完整，不要底座、场景、粒子或文字。",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/d4893347192b403485e7f0646d339b53.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/j6fkcd1hz5atg94r.glb",
+            "modelType": 1,
+            "sourceMetadata": {
+              "algorithm": 1,
+              "style": 2
+            }
+          },
+          "artifactId": "module-direct-cd53a75f0288a473",
+          "revisionId": "direct-model:topology:d6344e85-e15c-470b-87fb-3f33b438212f",
+          "sourceMessageId": "direct-model:topology:d6344e85-e15c-470b-87fb-3f33b438212f"
+        }
+      ],
+      "routeMode": "best_effort",
+      "skillSelection": {
+        "contextSkillIds": []
+      },
+      "workspaceId": "workspace_d96dejqk",
+      "workspacePreferences": {
+        "topology": {
+          "provider": "douyin-3d",
+          "styleLora": "none"
+        }
+      }
+    },
     {
       "activeMode": "agent",
       "directModelPreferences": {
@@ -303,33 +1299,18 @@
       "questionPreference": {
         "mode": "ask"
       },
-      "resources": [
+      "results": [
         {
           "createdAtUtc": "2026-11-08T16:33:09.940Z",
           "promptSummary": "一座原创的魔法传送门，写实风格，高约 6 米：古老的风化石拱门，石块大小不一、边缘有磨损和裂纹，拱顶中央是一块镶着紫色水晶的拱心石，门框上刻满发光的蓝紫色...",
-          "resource": {
+          "type": "wprefab",
+          "artifact": {
             "displayName": "古魔法传送门",
-            "parts": [
-              {
-                "displayName": "古魔法传送门",
-                "resourceId": "module-magic-portal",
-                "modelUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/jkkjnx18b1lypq1g.glb",
-                "scenePartKind": "module",
-                "sortOrder": 0,
-                "sourceMetadata": {
-                  "algorithm": 0,
-                  "modelType": 1,
-                  "resourceType": 1,
-                  "style": 2
-                },
-                "summary": "写实风化的古石拱魔法传送门，拱心石镶紫水晶、门框刻发光符文、缠枯藤与苔藓，门洞内为蓝紫色魔法漩涡。",
-                "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/616e6763f8624dbe81fc3fbdeeb18701.png"
-              }
-            ],
-            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/616e6763f8624dbe81fc3fbdeeb18701.png",
-            "outputType": "topology"
+            "summary": "写实风化的古石拱魔法传送门，拱心石镶紫水晶、门框刻发光符文、缠枯藤与苔藓，门洞内为蓝紫色魔法漩涡。",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/948814341c884173a311e07bbdcda7c1.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ks3areidueph9oop.wprefab"
           },
-          "resourceId": "module-magic-portal",
+          "artifactId": "module-magic-portal",
           "revisionId": "turn_1794155034103_knis0575__module-magic-portal",
           "sourceMessageId": "agent:turn_1794155034103_knis0575:assistant"
         }
@@ -2236,32 +3217,19 @@
       "questionPreference": {
         "mode": "ask"
       },
-      "resources": [
+      "results": [
         {
           "createdAtUtc": "2026-11-09T13:45:34.152Z",
           "promptSummary": "刚才的任务失败了，请重试",
-          "resource": {
+          "type": "wprefab",
+          "artifact": {
             "displayName": "写实绵羊",
-            "parts": [
-              {
-                "displayName": "写实绵羊",
-                "resourceId": "module-realistic-sheep",
-                "modelUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/xxvzyoevenxxsrel.glb",
-                "scenePartKind": "module",
-                "sortOrder": 0,
-                "sourceMetadata": {
-                  "isHaveScript": true,
-                  "modelType": 2,
-                  "resourceType": 1
-                },
-                "summary": "一只写实绵羊，会在草地上缓慢游荡、低头吃草和抬头张望，玩家靠得太近时会转身走开。",
-                "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/b79ad7ace0de4cc2a00ef926dd743121.png"
-              }
-            ],
-            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/b79ad7ace0de4cc2a00ef926dd743121.png",
-            "outputType": "geometry"
+            "summary": "一只写实绵羊，会在草地上缓慢游荡、低头吃草和抬头张望，玩家靠得太近时会转身走开。",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/d23b4b9825134ec283ac3215a5e7a0fd.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/vj0361idw1f86bja.wprefab",
+            "hasRuntimeScript": true
           },
-          "resourceId": "module-realistic-sheep",
+          "artifactId": "module-realistic-sheep",
           "revisionId": "turn_1794229934552_1hd97ow9__module-realistic-sheep",
           "sourceMessageId": "agent:turn_1794229934552_1hd97ow9:assistant"
         }
@@ -4345,32 +5313,19 @@
       "questionPreference": {
         "mode": "ask"
       },
-      "resources": [
+      "results": [
         {
           "createdAtUtc": "2026-11-09T14:17:22.065Z",
           "promptSummary": "重新生成这匹马：上一版用几何体拼出来的马太粗糙，请改用「拓扑生成真实网格」的路线做写实马的外形（肌肉线条、马头、鬃毛和马尾都要自然），然后把四条腿、头颈和...",
-          "resource": {
+          "type": "wprefab",
+          "artifact": {
             "displayName": "写实骏马坐骑",
-            "parts": [
-              {
-                "displayName": "写实骏马坐骑",
-                "resourceId": "module-horse",
-                "modelUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/2zr86f7dsc9s3hjl.glb",
-                "scenePartKind": "module",
-                "sortOrder": 0,
-                "sourceMetadata": {
-                  "isHaveScript": true,
-                  "modelType": 2,
-                  "resourceType": 1
-                },
-                "summary": "深棕色写实骏马坐骑，靠近可上马，支持摇杆奔跑、跳跃与骑乘镜头。",
-                "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/a18fbe855ade438f85f8c606694e672c.png"
-              }
-            ],
-            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/a18fbe855ade438f85f8c606694e672c.png",
-            "outputType": "geometry"
+            "summary": "深棕色写实骏马坐骑，靠近可上马，支持摇杆奔跑、跳跃与骑乘镜头。",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/fc5e9c1bbb9741f38e5ace1357eba8a8.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/8wqsztu5kiqhx02n.wprefab",
+            "hasRuntimeScript": true
           },
-          "resourceId": "module-horse",
+          "artifactId": "module-horse",
           "revisionId": "turn_1794192060393_qte2mucu__module-horse",
           "sourceMessageId": "agent:turn_1794192060393_qte2mucu:assistant"
         }
@@ -4398,24 +5353,8 @@
       "hasUnreadAttention": false,
       "messages": [
         {
-          "assetGeneration": {
-            "version": 1,
-            "executionSkillId": "asset.mix",
-            "executionSkillSource": "explicit",
-            "contextSkillIds": [],
-            "topologyPreference": {
-              "provider": "douyin-3d",
-              "styleLora": "none",
-              "styleId": 2
-            }
-          },
           "content": "一座原创的哥特式暗黑城堡，矗立在山顶，写实风格，细节丰富、有石雕雕琢感，不要方块感和生硬的棱角。主楼高耸，正面是带尖拱的大门和圆形玫瑰花窗，外墙用深灰色风化石块砌成，石缝清晰，墙面有浮雕、扶壁和飞扶壁，屋檐下有石雕滴水兽和花饰线脚。四角和两侧有高低错落的圆塔与八角塔，塔顶是陡峭的深蓝灰石板尖顶，尖顶装饰铁艺尖刺和小尖塔。城墙有锯齿形垛口和箭窗，墙头挂着暗紫色旗帜（原创纹样）。窗户是细长尖拱窗，窗棂精致，窗内透出暖黄色灯光。整体剪影丰富、层次多，适合夜景。不要十字架图案，不要文字。",
           "richInput": [
-            {
-              "type": "executionSkill",
-              "skillId": "asset.mix",
-              "text": "MIX"
-            },
             {
               "type": "text",
               "text": " 一座原创的哥特式暗黑城堡，矗立在山顶，写实风格，细节丰富、有石雕雕琢感，不要方块感和生硬的棱角。主楼高耸，正面是带尖拱的大门和圆形玫瑰花窗，外墙用深灰色风化石块砌成，石缝清晰，墙面有浮雕、扶壁和飞扶壁，屋檐下有石雕滴水兽和花饰线脚。四角和两侧有高低错落的圆塔与八角塔，塔顶是陡峭的深蓝灰石板尖顶，尖顶装饰铁艺尖刺和小尖塔。城墙有锯齿形垛口和箭窗，墙头挂着暗紫色旗帜（原创纹样）。窗户是细长尖拱窗，窗棂精致，窗内透出暖黄色灯光。整体剪影丰富、层次多，适合夜景。不要十字架图案，不要文字。"
@@ -5334,17 +6273,6 @@
           "startTime": 1794154655583
         },
         {
-          "assetGeneration": {
-            "version": 1,
-            "executionSkillId": "asset.mix",
-            "executionSkillSource": "explicit",
-            "contextSkillIds": [],
-            "topologyPreference": {
-              "provider": "douyin-3d",
-              "styleLora": "none",
-              "styleId": 2
-            }
-          },
           "content": "刚才的任务失败了，请重试",
           "richInput": [
             {
@@ -5518,58 +6446,19 @@
       "questionPreference": {
         "mode": "ask"
       },
-      "resources": [
+      "results": [
         {
           "createdAtUtc": "2026-11-09T13:38:11.284Z",
           "promptSummary": "刚才的任务失败了，请重试",
-          "resource": {
+          "type": "wprefab",
+          "artifact": {
             "displayName": "哥特暗黑城堡",
-            "parts": [
-              {
-                "displayName": "哥特暗黑城堡",
-                "modelUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/x2fzdshlxuam7xao.glb",
-                "scenePartKind": "mix-root",
-                "sortOrder": 0,
-                "summary": "可进入的哥特式暗黑城堡夜景资产：石台与锯齿城墙、尖拱城门、玫瑰花窗、八角尖塔与旗帜，主厅内有拱肋、石柱与摇曳烛火。",
-                "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ac21bb7dae7e4ea69c30eb4f762edaf6.png"
-              },
-              {
-                "config": {
-                  "translation": [
-                    0,
-                    0,
-                    0
-                  ],
-                  "rotation": [
-                    0,
-                    0,
-                    0,
-                    1
-                  ],
-                  "scale": [
-                    1,
-                    1,
-                    1
-                  ]
-                },
-                "displayName": "哥特暗黑城堡",
-                "resourceId": "module-gothic-castle",
-                "modelUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/7730c0kpimi7uf3u.glb",
-                "scenePartKind": "module",
-                "sortOrder": 1,
-                "sourceMetadata": {
-                  "isHaveScript": true,
-                  "modelType": 2,
-                  "resourceType": 1
-                },
-                "summary": "山顶石台上的哥特式暗黑城堡，可从尖拱城门穿过城墙与主楼大门进入点着烛火的石砌大厅。",
-                "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/c641fc55351345b49c49639aacc40276.png"
-              }
-            ],
-            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/0f7cfa1605bd49ee89cd4ad6d001fc95.png",
-            "outputType": "mix"
+            "summary": "可进入的哥特式暗黑城堡夜景资产：石台与锯齿城墙、尖拱城门、玫瑰花窗、八角尖塔与旗帜，主厅内有拱肋、石柱与摇曳烛火。",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/b657687644ad4e928c8014342880df88.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/marn98uvz1vdok3r.wprefab",
+            "hasRuntimeScript": true
           },
-          "resourceId": "mix-gothic-castle",
+          "artifactId": "mix-gothic-castle",
           "revisionId": "turn_1794229947046_jg09969e__mix-gothic-castle",
           "sourceMessageId": "agent:turn_1794229947046_jg09969e:assistant"
         }
@@ -5608,23 +6497,6 @@
             }
           },
           "content": "",
-          "materialAttachments": [
-            {
-              "id": "asset:11345726880514",
-              "kind": "asset",
-              "placement": "tray",
-              "title": "灯祭者（动作版）",
-              "previewUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/f44adf26c76b4ac487f06a2db75d5994.png",
-              "assetReference": {
-                "assetId": "11345726880514",
-                "name": "灯祭者（动作版）",
-                "resourceType": "model",
-                "previewUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/f44adf26c76b4ac487f06a2db75d5994.png",
-                "resourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/pe0ycofc1q6cllhu.glb",
-                "resourceUrl": "https://lf26-hamlet-resource-sign.douyincdn.com/hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/pe0ycofc1q6cllhu.glb?x-expires=1796706212&x-signature=SiK8hb517HUkYAm5jhvgSybnyKQ%3D"
-              }
-            }
-          ],
           "kind": "agent",
           "messageId": "agent:turn_1794114217012_j7mva64x:user",
           "role": "user",
@@ -5971,34 +6843,18 @@
       "questionPreference": {
         "mode": "ask"
       },
-      "resources": [
+      "results": [
         {
           "createdAtUtc": "2026-11-08T05:06:41.775Z",
-          "resource": {
+          "type": "wprefab",
+          "artifact": {
             "displayName": "灯祭者（动作版）",
-            "parts": [
-              {
-                "displayName": "灯祭者（动作版）",
-                "resourceId": "module-healer-animated",
-                "modelUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/9h9s2e55ds5zy1pr.glb",
-                "scenePartKind": "module",
-                "sortOrder": 0,
-                "sourceMetadata": {
-                  "algorithm": 0,
-                  "isHaveScript": true,
-                  "isHumanoidRigged": true,
-                  "modelType": 1,
-                  "resourceType": 1,
-                  "style": 2
-                },
-                "summary": "完整保留灯祭者原外形、材质与手工骨骼绑定的独立动画版，提供待机、缓慢行走、举杖施法攻击与受击四套逐骨骼关键帧动作，并带有可关闭的互动预览面板。",
-                "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/16b57791bfac47b589b4dbc789f54537.png"
-              }
-            ],
-            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/16b57791bfac47b589b4dbc789f54537.png",
-            "outputType": "topology"
+            "summary": "完整保留灯祭者原外形、材质与手工骨骼绑定的独立动画版，提供待机、缓慢行走、举杖施法攻击与受击四套逐骨骼关键帧动作，并带有可关闭的互动预览面板。",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/75168a71aa2f425292002310ca62321d.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ot4xm1tnwmnm1b52.wprefab",
+            "hasRuntimeScript": true
           },
-          "resourceId": "module-healer-animated",
+          "artifactId": "module-healer-animated",
           "revisionId": "turn_1794114217012_j7mva64x__module-healer-animated",
           "sourceMessageId": "agent:turn_1794114217012_j7mva64x:assistant"
         }
@@ -6958,34 +7814,19 @@
       "questionPreference": {
         "mode": "ask"
       },
-      "resources": [
+      "results": [
         {
           "createdAtUtc": "2026-11-08T05:49:39.548Z",
           "promptSummary": "刚才的任务失败了，请重试",
-          "resource": {
+          "type": "wprefab",
+          "artifact": {
             "displayName": "紫水晶女巫",
-            "parts": [
-              {
-                "displayName": "紫水晶女巫",
-                "resourceId": "module-dark-witch",
-                "modelUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/z710yo3btlbfbi3g.glb",
-                "scenePartKind": "module",
-                "sortOrder": 0,
-                "sourceMetadata": {
-                  "algorithm": 0,
-                  "isHaveScript": true,
-                  "modelType": 1,
-                  "resourceType": 1,
-                  "style": 1
-                },
-                "summary": "Q版暗黑奇幻女巫，玩家靠近后可按按钮交谈，头顶浮起紫色魔法气泡并轮播呓语。",
-                "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6b9e887c32f645e58e83879e5dad106c.png"
-              }
-            ],
-            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6b9e887c32f645e58e83879e5dad106c.png",
-            "outputType": "topology"
+            "summary": "Q版暗黑奇幻女巫，玩家靠近后可按按钮交谈，头顶浮起紫色魔法气泡并轮播呓语。",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/cff3e9405bd9426bbb367503aa31a151.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/u5qwybgtc2h3weew.wprefab",
+            "hasRuntimeScript": true
           },
-          "resourceId": "module-dark-witch",
+          "artifactId": "module-dark-witch",
           "revisionId": "turn_1794115846814_ewnvrd5q__module-dark-witch",
           "sourceMessageId": "agent:turn_1794115846814_ewnvrd5q:assistant"
         }
@@ -7080,91 +7921,61 @@
       "questionPreference": {
         "mode": "ask"
       },
-      "resources": [
+      "results": [
         {
           "createdAtUtc": "2026-11-07T13:19:36.429Z",
           "promptSummary": "模型生成任务-Douyin3D-写实风格",
-          "resource": {
+          "type": "model",
+          "artifact": {
             "displayName": "模型生成任务-Douyin3D-写实风格",
-            "parts": [
-              {
-                "displayName": "模型生成任务-Douyin3D-写实风格",
-                "resourceId": "module-direct-926d39a7b7bb3c9b",
-                "modelUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/24rlm90xqqnwrqm0.glb",
-                "scenePartKind": "module",
-                "sortOrder": 0,
-                "sourceMetadata": {
-                  "algorithm": 0,
-                  "modelType": 1,
-                  "resourceType": 1,
-                  "style": 2
-                },
-                "summary": "模型生成任务-Douyin3D-写实风格",
-                "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/2eb05adaeb50476999ffb1ae3eb8512d.png"
-              }
-            ],
+            "summary": "模型生成任务-Douyin3D-写实风格",
             "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/2eb05adaeb50476999ffb1ae3eb8512d.png",
-            "outputType": "topology"
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/24rlm90xqqnwrqm0.glb",
+            "modelType": 1,
+            "sourceMetadata": {
+              "algorithm": 0,
+              "style": 2
+            }
           },
-          "resourceId": "module-direct-926d39a7b7bb3c9b",
+          "artifactId": "module-direct-926d39a7b7bb3c9b",
           "revisionId": "direct-model:topology:2b4d614e-c1e2-42f5-9669-61af9b7bd4c7",
           "sourceMessageId": "direct-model:topology:2b4d614e-c1e2-42f5-9669-61af9b7bd4c7"
         },
         {
           "createdAtUtc": "2026-11-07T13:27:29.928Z",
           "promptSummary": "模型生成任务-Hyper3D-写实风格",
-          "resource": {
+          "type": "model",
+          "artifact": {
             "displayName": "模型生成任务-Hyper3D-写实风格",
-            "parts": [
-              {
-                "displayName": "模型生成任务-Hyper3D-写实风格",
-                "resourceId": "module-direct-5442a32de583bac1",
-                "modelUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ic7ike42dupq284u.glb",
-                "scenePartKind": "module",
-                "sortOrder": 0,
-                "sourceMetadata": {
-                  "algorithm": 2,
-                  "modelType": 1,
-                  "resourceType": 1,
-                  "style": 2
-                },
-                "summary": "模型生成任务-Hyper3D-写实风格",
-                "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/b84d03d01ae24476a4072d756d669035.png"
-              }
-            ],
+            "summary": "模型生成任务-Hyper3D-写实风格",
             "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/b84d03d01ae24476a4072d756d669035.png",
-            "outputType": "topology"
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ic7ike42dupq284u.glb",
+            "modelType": 1,
+            "sourceMetadata": {
+              "algorithm": 2,
+              "style": 2
+            }
           },
-          "resourceId": "module-direct-5442a32de583bac1",
+          "artifactId": "module-direct-5442a32de583bac1",
           "revisionId": "direct-model:topology:87e9b6a7-7d3b-4a54-9ff2-bff55d38d75a",
           "sourceMessageId": "direct-model:topology:87e9b6a7-7d3b-4a54-9ff2-bff55d38d75a"
         },
         {
           "createdAtUtc": "2026-11-07T13:28:28.797Z",
           "promptSummary": "模型生成任务-Tripo-写实风格",
-          "resource": {
+          "type": "model",
+          "artifact": {
             "displayName": "模型生成任务-Tripo-写实风格",
-            "parts": [
-              {
-                "displayName": "模型生成任务-Tripo-写实风格",
-                "resourceId": "module-direct-672a11265a115fa2",
-                "modelUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/57yal9qda4mtt8cr.glb",
-                "scenePartKind": "module",
-                "sortOrder": 0,
-                "sourceMetadata": {
-                  "algorithm": 1,
-                  "modelType": 1,
-                  "resourceType": 1,
-                  "style": 2
-                },
-                "summary": "模型生成任务-Tripo-写实风格",
-                "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a7288a6793643edb1755263ad7cfba6.png"
-              }
-            ],
+            "summary": "模型生成任务-Tripo-写实风格",
             "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a7288a6793643edb1755263ad7cfba6.png",
-            "outputType": "topology"
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/57yal9qda4mtt8cr.glb",
+            "modelType": 1,
+            "sourceMetadata": {
+              "algorithm": 1,
+              "style": 2
+            }
           },
-          "resourceId": "module-direct-672a11265a115fa2",
+          "artifactId": "module-direct-672a11265a115fa2",
           "revisionId": "direct-model:topology:1a1496be-f3bf-415b-a1ff-9b2ec1e8b073",
           "sourceMessageId": "direct-model:topology:1a1496be-f3bf-415b-a1ff-9b2ec1e8b073"
         }
@@ -9884,60 +10695,34 @@
       "questionPreference": {
         "mode": "ask"
       },
-      "resources": [
+      "results": [
         {
           "createdAtUtc": "2026-11-06T13:59:07.570Z",
           "promptSummary": "生成一个可以飞、可以骑乘、翅膀会挥动，静态时如图这种姿势的龙，西方龙。",
-          "resource": {
+          "type": "wprefab",
+          "artifact": {
             "displayName": "玄甲黑龙坐骑",
-            "parts": [
-              {
-                "displayName": "玄甲黑龙坐骑",
-                "resourceId": "module-black-dragon",
-                "modelUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/vgy1g01dbsw3xldg.glb",
-                "scenePartKind": "module",
-                "sortOrder": 0,
-                "sourceMetadata": {
-                  "isHaveScript": true,
-                  "modelType": 2,
-                  "resourceType": 1
-                },
-                "summary": "可骑乘飞行的黑色西方龙，双翼持续挥动，骑乘后可前后飞行、左右转向并升降。",
-                "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/53e5e853915f4173aee7f1765f8d471c.png"
-              }
-            ],
-            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/53e5e853915f4173aee7f1765f8d471c.png",
-            "outputType": "geometry"
+            "summary": "可骑乘飞行的黑色西方龙，双翼持续挥动，骑乘后可前后飞行、左右转向并升降。",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/76dd9a8edb624e3e946594fd15e5c457.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/dga0owsxt8yoj12e.wprefab",
+            "hasRuntimeScript": true
           },
-          "resourceId": "module-black-dragon",
+          "artifactId": "module-black-dragon",
           "revisionId": "turn_1793972938432_by1z47h9__module-black-dragon",
           "sourceMessageId": "agent:turn_1793972938432_by1z47h9:assistant"
         },
         {
           "createdAtUtc": "2026-11-06T14:54:37.789Z",
           "promptSummary": "不是，你这他妈是啥呀？你自己看看你跟参考图的关系。",
-          "resource": {
+          "type": "wprefab",
+          "artifact": {
             "displayName": "玄甲黑龙坐骑",
-            "parts": [
-              {
-                "displayName": "玄甲黑龙坐骑",
-                "resourceId": "module-black-dragon",
-                "modelUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/xlur5gizmg9th00r.glb",
-                "scenePartKind": "module",
-                "sortOrder": 0,
-                "sourceMetadata": {
-                  "isHaveScript": true,
-                  "modelType": 2,
-                  "resourceType": 1
-                },
-                "summary": "可骑乘飞行的黑色西方龙，双翼持续挥动，骑乘后可前后飞行、左右转向并升降。",
-                "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/5d202c38ebd0409aae7bc742423c3c2f.png"
-              }
-            ],
-            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/5d202c38ebd0409aae7bc742423c3c2f.png",
-            "outputType": "geometry"
+            "summary": "可骑乘飞行的黑色西方龙，双翼持续挥动，骑乘后可前后飞行、左右转向并升降。",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/b111a301f89a4005bb32dd3a385713cf.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/yuk7b29ilw55mdf6.wprefab",
+            "hasRuntimeScript": true
           },
-          "resourceId": "module-black-dragon",
+          "artifactId": "module-black-dragon",
           "revisionId": "turn_1793973647794_7n4r961o__module-black-dragon",
           "sourceMessageId": "agent:turn_1793973647794_7n4r961o:assistant"
         }
@@ -10121,34 +10906,24 @@
       "questionPreference": {
         "mode": "ask"
       },
-      "resources": [
+      "results": [
         {
           "assetLibraryResourceId": "11538663582978",
           "createdAtUtc": "2026-11-06T02:29:48.365Z",
           "promptSummary": "一头原创奇幻巨龙，圣洁威严的守护神，长颈高昂，双翼完全展开，四足站立，长尾盘绕，头上有弯曲的角，身披银白与深蓝色的细密鳞片，翼膜半透明，金色发光纹路，写实风格，高细节，完整全身，无底座",
-          "resource": {
+          "type": "model",
+          "artifact": {
             "displayName": "一头原创奇幻巨龙，圣洁威严的守护神，长颈高昂，双翼完全展开，四足站立，长尾盘绕，头上有弯曲的角，身披银白与深蓝色的细密鳞片，翼膜半透明，金色发光纹路，写实风格，高细节，完整全身，无底座",
-            "parts": [
-              {
-                "displayName": "一头原创奇幻巨龙，圣洁威严的守护神，长颈高昂，双翼完全展开，四足站立，长尾盘绕，头上有弯曲的角，身披银白与深蓝色的细密鳞片，翼膜半透明，金色发光纹路，写实风格，高细节，完整全身，无底座",
-                "resourceId": "module-direct-1b5510ca6ce77c2e",
-                "modelUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/51yxgw9m84cl8m02.glb",
-                "scenePartKind": "module",
-                "sortOrder": 0,
-                "sourceMetadata": {
-                  "algorithm": 0,
-                  "modelType": 1,
-                  "resourceType": 1,
-                  "style": 2
-                },
-                "summary": "一头原创奇幻巨龙，圣洁威严的守护神，长颈高昂，双翼完全展开，四足站立，长尾盘绕，头上有弯曲的角，身披银白与深蓝色的细密鳞片，翼膜半透明，金色发光纹路，写实风格，高细节，完整全身，无底座",
-                "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/b02cb8f039fd4e2e98f156adcc544cf4.png"
-              }
-            ],
+            "summary": "一头原创奇幻巨龙，圣洁威严的守护神，长颈高昂，双翼完全展开，四足站立，长尾盘绕，头上有弯曲的角，身披银白与深蓝色的细密鳞片，翼膜半透明，金色发光纹路，写实风格，高细节，完整全身，无底座",
             "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/b02cb8f039fd4e2e98f156adcc544cf4.png",
-            "outputType": "topology"
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/51yxgw9m84cl8m02.glb",
+            "modelType": 1,
+            "sourceMetadata": {
+              "algorithm": 0,
+              "style": 2
+            }
           },
-          "resourceId": "module-direct-1b5510ca6ce77c2e",
+          "artifactId": "module-direct-1b5510ca6ce77c2e",
           "revisionId": "direct-model:topology:9c7bdd3d-4d17-40c9-8713-ef56d7d87cab",
           "sourceMessageId": "direct-model:topology:9c7bdd3d-4d17-40c9-8713-ef56d7d87cab"
         },
@@ -10156,29 +10931,19 @@
           "assetLibraryResourceId": "11471548034050",
           "createdAtUtc": "2026-11-06T02:30:10.936Z",
           "promptSummary": "一头原创奇幻坐骑幼龙，温顺可亲，滑翔飞行姿态，双翼平展，四肢收拢，尾巴向后伸直，背上有皮革鞍具和金色挂饰，鳞片乳白带淡金，翼膜浅蓝，写实风格，高细节，完整全身，无底座",
-          "resource": {
+          "type": "model",
+          "artifact": {
             "displayName": "一头原创奇幻坐骑幼龙，温顺可亲，滑翔飞行姿态，双翼平展，四肢收拢，尾巴向后伸直，背上有皮革鞍具和金色挂饰，鳞片乳白带淡金，翼膜浅蓝，写实风格，高细节，完整全身，无底座",
-            "parts": [
-              {
-                "displayName": "一头原创奇幻坐骑幼龙，温顺可亲，滑翔飞行姿态，双翼平展，四肢收拢，尾巴向后伸直，背上有皮革鞍具和金色挂饰，鳞片乳白带淡金，翼膜浅蓝，写实风格，高细节，完整全身，无底座",
-                "resourceId": "module-direct-913e995cb635a558",
-                "modelUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/bcbjwpwphwwpkh0y.glb",
-                "scenePartKind": "module",
-                "sortOrder": 0,
-                "sourceMetadata": {
-                  "algorithm": 0,
-                  "modelType": 1,
-                  "resourceType": 1,
-                  "style": 2
-                },
-                "summary": "一头原创奇幻坐骑幼龙，温顺可亲，滑翔飞行姿态，双翼平展，四肢收拢，尾巴向后伸直，背上有皮革鞍具和金色挂饰，鳞片乳白带淡金，翼膜浅蓝，写实风格，高细节，完整全身，无底座",
-                "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/62cd0b7d094f42f3b0d394c191dc104d.png"
-              }
-            ],
+            "summary": "一头原创奇幻坐骑幼龙，温顺可亲，滑翔飞行姿态，双翼平展，四肢收拢，尾巴向后伸直，背上有皮革鞍具和金色挂饰，鳞片乳白带淡金，翼膜浅蓝，写实风格，高细节，完整全身，无底座",
             "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/62cd0b7d094f42f3b0d394c191dc104d.png",
-            "outputType": "topology"
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/bcbjwpwphwwpkh0y.glb",
+            "modelType": 1,
+            "sourceMetadata": {
+              "algorithm": 0,
+              "style": 2
+            }
           },
-          "resourceId": "module-direct-913e995cb635a558",
+          "artifactId": "module-direct-913e995cb635a558",
           "revisionId": "direct-model:topology:9eab21e5-06fb-4529-ad41-d199153bae9b",
           "sourceMessageId": "direct-model:topology:9eab21e5-06fb-4529-ad41-d199153bae9b"
         },
@@ -10186,29 +10951,19 @@
           "assetLibraryResourceId": "11591078632194",
           "createdAtUtc": "2026-11-06T02:36:03.356Z",
           "promptSummary": "一座原创的古老唤龙祭坛，圆形石台分三层台阶，中央竖立一颗巨大的水晶，石面刻满龙纹和发光符文，青苔覆盖，写实风格，高细节，完整全貌",
-          "resource": {
+          "type": "model",
+          "artifact": {
             "displayName": "一座原创的古老唤龙祭坛，圆形石台分三层台阶，中央竖立一颗巨大的水晶，石面刻满龙纹和发光符文，青苔覆盖，写实风格，高细节，完整全貌",
-            "parts": [
-              {
-                "displayName": "一座原创的古老唤龙祭坛，圆形石台分三层台阶，中央竖立一颗巨大的水晶，石面刻满龙纹和发光符文，青苔覆盖，写实风格，高细节，完整全貌",
-                "resourceId": "module-direct-d84d3c312154ec75",
-                "modelUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/py4igaz7khjkkggl.glb",
-                "scenePartKind": "module",
-                "sortOrder": 0,
-                "sourceMetadata": {
-                  "algorithm": 0,
-                  "modelType": 1,
-                  "resourceType": 1,
-                  "style": 2
-                },
-                "summary": "一座原创的古老唤龙祭坛，圆形石台分三层台阶，中央竖立一颗巨大的水晶，石面刻满龙纹和发光符文，青苔覆盖，写实风格，高细节，完整全貌",
-                "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/e71b20d4f8804328b54e51ebec128d13.png"
-              }
-            ],
+            "summary": "一座原创的古老唤龙祭坛，圆形石台分三层台阶，中央竖立一颗巨大的水晶，石面刻满龙纹和发光符文，青苔覆盖，写实风格，高细节，完整全貌",
             "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/e71b20d4f8804328b54e51ebec128d13.png",
-            "outputType": "topology"
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/py4igaz7khjkkggl.glb",
+            "modelType": 1,
+            "sourceMetadata": {
+              "algorithm": 0,
+              "style": 2
+            }
           },
-          "resourceId": "module-direct-d84d3c312154ec75",
+          "artifactId": "module-direct-d84d3c312154ec75",
           "revisionId": "direct-model:topology:d6dc123c-b187-4d20-80c6-d43970a32fa9",
           "sourceMessageId": "direct-model:topology:d6dc123c-b187-4d20-80c6-d43970a32fa9"
         },
@@ -10216,29 +10971,19 @@
           "assetLibraryResourceId": "11471548035842",
           "createdAtUtc": "2026-11-06T02:36:11.214Z",
           "promptSummary": "一处原创的冒险者篝火营地，石头围成的篝火堆，堆得整齐的木柴，周围有倒下的原木当长凳，木桶和皮革背包，写实风格，高细节，完整全貌，无底座",
-          "resource": {
+          "type": "model",
+          "artifact": {
             "displayName": "一处原创的冒险者篝火营地，石头围成的篝火堆，堆得整齐的木柴，周围有倒下的原木当长凳，木桶和皮革背包，写实风格，高细节，完整全貌，无底座",
-            "parts": [
-              {
-                "displayName": "一处原创的冒险者篝火营地，石头围成的篝火堆，堆得整齐的木柴，周围有倒下的原木当长凳，木桶和皮革背包，写实风格，高细节，完整全貌，无底座",
-                "resourceId": "module-direct-d7b458f572143499",
-                "modelUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/m0xrhj5umjfhwko1.glb",
-                "scenePartKind": "module",
-                "sortOrder": 0,
-                "sourceMetadata": {
-                  "algorithm": 0,
-                  "modelType": 1,
-                  "resourceType": 1,
-                  "style": 2
-                },
-                "summary": "一处原创的冒险者篝火营地，石头围成的篝火堆，堆得整齐的木柴，周围有倒下的原木当长凳，木桶和皮革背包，写实风格，高细节，完整全貌，无底座",
-                "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/7d0292ad7c9c4c609458e2afddd80180.png"
-              }
-            ],
+            "summary": "一处原创的冒险者篝火营地，石头围成的篝火堆，堆得整齐的木柴，周围有倒下的原木当长凳，木桶和皮革背包，写实风格，高细节，完整全貌，无底座",
             "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/7d0292ad7c9c4c609458e2afddd80180.png",
-            "outputType": "topology"
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/m0xrhj5umjfhwko1.glb",
+            "modelType": 1,
+            "sourceMetadata": {
+              "algorithm": 0,
+              "style": 2
+            }
           },
-          "resourceId": "module-direct-d7b458f572143499",
+          "artifactId": "module-direct-d7b458f572143499",
           "revisionId": "direct-model:topology:89fde686-ac31-425e-ac98-b6729f5463cf",
           "sourceMessageId": "direct-model:topology:89fde686-ac31-425e-ac98-b6729f5463cf"
         },
@@ -10246,29 +10991,19 @@
           "assetLibraryResourceId": "11394471970306",
           "createdAtUtc": "2026-11-06T02:36:20.657Z",
           "promptSummary": "一组原创的发光巨型蘑菇丛，高矮不一五六朵，深蓝紫色菌盖，青色发光菌褶，带苔藓的根部，魔法森林感，写实风格，高细节，完整全貌，无底座",
-          "resource": {
+          "type": "model",
+          "artifact": {
             "displayName": "一组原创的发光巨型蘑菇丛，高矮不一五六朵，深蓝紫色菌盖，青色发光菌褶，带苔藓的根部，魔法森林感，写实风格，高细节，完整全貌，无底座",
-            "parts": [
-              {
-                "displayName": "一组原创的发光巨型蘑菇丛，高矮不一五六朵，深蓝紫色菌盖，青色发光菌褶，带苔藓的根部，魔法森林感，写实风格，高细节，完整全貌，无底座",
-                "resourceId": "module-direct-cadfeee8f59dcdc4",
-                "modelUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/2aub4pt71431xrg6.glb",
-                "scenePartKind": "module",
-                "sortOrder": 0,
-                "sourceMetadata": {
-                  "algorithm": 0,
-                  "modelType": 1,
-                  "resourceType": 1,
-                  "style": 2
-                },
-                "summary": "一组原创的发光巨型蘑菇丛，高矮不一五六朵，深蓝紫色菌盖，青色发光菌褶，带苔藓的根部，魔法森林感，写实风格，高细节，完整全貌，无底座",
-                "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/9f64f368ec084cd291d7050033ffcab9.png"
-              }
-            ],
+            "summary": "一组原创的发光巨型蘑菇丛，高矮不一五六朵，深蓝紫色菌盖，青色发光菌褶，带苔藓的根部，魔法森林感，写实风格，高细节，完整全貌，无底座",
             "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/9f64f368ec084cd291d7050033ffcab9.png",
-            "outputType": "topology"
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/2aub4pt71431xrg6.glb",
+            "modelType": 1,
+            "sourceMetadata": {
+              "algorithm": 0,
+              "style": 2
+            }
           },
-          "resourceId": "module-direct-cadfeee8f59dcdc4",
+          "artifactId": "module-direct-cadfeee8f59dcdc4",
           "revisionId": "direct-model:topology:b1bc625d-7797-4cc2-90f3-d03a8218ea21",
           "sourceMessageId": "direct-model:topology:b1bc625d-7797-4cc2-90f3-d03a8218ea21"
         },
@@ -10276,58 +11011,38 @@
           "assetLibraryResourceId": "11507681639170",
           "createdAtUtc": "2026-11-06T02:41:00.614Z",
           "promptSummary": "一顶原创的中世纪冒险者帆布帐篷，木杆支撑，入口敞开，深蓝色布面带金色纹样，顶部有小旗，写实风格，高细节，完整全貌，无底座",
-          "resource": {
+          "type": "model",
+          "artifact": {
             "displayName": "一顶原创的中世纪冒险者帆布帐篷，木杆支撑，入口敞开，深蓝色布面带金色纹样，顶部有小旗，写实风格，高细节，完整全貌，无底座",
-            "parts": [
-              {
-                "displayName": "一顶原创的中世纪冒险者帆布帐篷，木杆支撑，入口敞开，深蓝色布面带金色纹样，顶部有小旗，写实风格，高细节，完整全貌，无底座",
-                "resourceId": "module-direct-17808afb6b5da0bf",
-                "modelUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/yhbew8iq8q42h0uq.glb",
-                "scenePartKind": "module",
-                "sortOrder": 0,
-                "sourceMetadata": {
-                  "algorithm": 0,
-                  "modelType": 1,
-                  "resourceType": 1,
-                  "style": 2
-                },
-                "summary": "一顶原创的中世纪冒险者帆布帐篷，木杆支撑，入口敞开，深蓝色布面带金色纹样，顶部有小旗，写实风格，高细节，完整全貌，无底座",
-                "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/49d2617b145e42cf9e1d99089b33f93b.png"
-              }
-            ],
+            "summary": "一顶原创的中世纪冒险者帆布帐篷，木杆支撑，入口敞开，深蓝色布面带金色纹样，顶部有小旗，写实风格，高细节，完整全貌，无底座",
             "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/49d2617b145e42cf9e1d99089b33f93b.png",
-            "outputType": "topology"
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/yhbew8iq8q42h0uq.glb",
+            "modelType": 1,
+            "sourceMetadata": {
+              "algorithm": 0,
+              "style": 2
+            }
           },
-          "resourceId": "module-direct-17808afb6b5da0bf",
+          "artifactId": "module-direct-17808afb6b5da0bf",
           "revisionId": "direct-model:topology:3211461f-4d4a-4f2a-ad9b-70e221bf5f48",
           "sourceMessageId": "direct-model:topology:3211461f-4d4a-4f2a-ad9b-70e221bf5f48"
         },
         {
           "createdAtUtc": "2026-11-06T02:42:38.520Z",
           "promptSummary": "一块原创的古老符文立石，不规则的高大灰色岩石单体石柱，表面刻着发青蓝光的符文和线条，底部长满苔藓，写实风格，高细节，完整全貌，无底座",
-          "resource": {
+          "type": "model",
+          "artifact": {
             "displayName": "一块原创的古老符文立石，不规则的高大灰色岩石单体石柱，表面刻着发青蓝光的符文和线条，底部长满苔藓，写实风格，高细节，完整全貌，无底座",
-            "parts": [
-              {
-                "displayName": "一块原创的古老符文立石，不规则的高大灰色岩石单体石柱，表面刻着发青蓝光的符文和线条，底部长满苔藓，写实风格，高细节，完整全貌，无底座",
-                "resourceId": "module-direct-d787355f93fbecf3",
-                "modelUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/hk8e7685sg04c4i5.glb",
-                "scenePartKind": "module",
-                "sortOrder": 0,
-                "sourceMetadata": {
-                  "algorithm": 0,
-                  "modelType": 1,
-                  "resourceType": 1,
-                  "style": 2
-                },
-                "summary": "一块原创的古老符文立石，不规则的高大灰色岩石单体石柱，表面刻着发青蓝光的符文和线条，底部长满苔藓，写实风格，高细节，完整全貌，无底座",
-                "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/a2378411651548c59c1283400bf4ad14.png"
-              }
-            ],
+            "summary": "一块原创的古老符文立石，不规则的高大灰色岩石单体石柱，表面刻着发青蓝光的符文和线条，底部长满苔藓，写实风格，高细节，完整全貌，无底座",
             "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/a2378411651548c59c1283400bf4ad14.png",
-            "outputType": "topology"
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/hk8e7685sg04c4i5.glb",
+            "modelType": 1,
+            "sourceMetadata": {
+              "algorithm": 0,
+              "style": 2
+            }
           },
-          "resourceId": "module-direct-d787355f93fbecf3",
+          "artifactId": "module-direct-d787355f93fbecf3",
           "revisionId": "direct-model:topology:5e565d59-b6b7-4b1a-b2bd-453a70d2a330",
           "sourceMessageId": "direct-model:topology:5e565d59-b6b7-4b1a-b2bd-453a70d2a330"
         },
@@ -10335,29 +11050,19 @@
           "assetLibraryResourceId": "11379887261442",
           "createdAtUtc": "2026-11-06T02:49:38.765Z",
           "promptSummary": "一块原创的古老龙纹立石，高大的深灰色岩石石柱，表面浮雕盘旋的龙和螺旋纹，纹路发青蓝色光，不要十字形图案，底部长满青苔，写实风格，高细节，完整全貌，无底座",
-          "resource": {
+          "type": "model",
+          "artifact": {
             "displayName": "一块原创的古老龙纹立石，高大的深灰色岩石石柱，表面浮雕盘旋的龙和螺旋纹，纹路发青蓝色光，不要十字形图案，底部长满青苔，写实风格，高细节，完整全貌，无底座",
-            "parts": [
-              {
-                "displayName": "一块原创的古老龙纹立石，高大的深灰色岩石石柱，表面浮雕盘旋的龙和螺旋纹，纹路发青蓝色光，不要十字形图案，底部长满青苔，写实风格，高细节，完整全貌，无底座",
-                "resourceId": "module-direct-19492014b6e503f0",
-                "modelUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/hgkwpkptwfpwj51a.glb",
-                "scenePartKind": "module",
-                "sortOrder": 0,
-                "sourceMetadata": {
-                  "algorithm": 0,
-                  "modelType": 1,
-                  "resourceType": 1,
-                  "style": 2
-                },
-                "summary": "一块原创的古老龙纹立石，高大的深灰色岩石石柱，表面浮雕盘旋的龙和螺旋纹，纹路发青蓝色光，不要十字形图案，底部长满青苔，写实风格，高细节，完整全貌，无底座",
-                "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/f6ee859bb38e4eb5a53e79360325cc81.png"
-              }
-            ],
+            "summary": "一块原创的古老龙纹立石，高大的深灰色岩石石柱，表面浮雕盘旋的龙和螺旋纹，纹路发青蓝色光，不要十字形图案，底部长满青苔，写实风格，高细节，完整全貌，无底座",
             "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/f6ee859bb38e4eb5a53e79360325cc81.png",
-            "outputType": "topology"
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/hgkwpkptwfpwj51a.glb",
+            "modelType": 1,
+            "sourceMetadata": {
+              "algorithm": 0,
+              "style": 2
+            }
           },
-          "resourceId": "module-direct-19492014b6e503f0",
+          "artifactId": "module-direct-19492014b6e503f0",
           "revisionId": "direct-model:topology:39bc7a4b-95c1-45c9-b279-e564485eef06",
           "sourceMessageId": "direct-model:topology:39bc7a4b-95c1-45c9-b279-e564485eef06"
         }
@@ -10379,8 +11084,8 @@
     "activeMode": "agent",
     "directModelPreferences": {
       "faceCount": 20000,
-      "modelVendor": "douyin-3d",
-      "quality": "fine",
+      "modelVendor": "tripo",
+      "quality": "standard",
       "styleId": 2
     },
     "questionPreference": {

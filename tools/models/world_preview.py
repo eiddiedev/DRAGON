@@ -4,7 +4,7 @@ import bpy, glob, json, math, os, sys
 from mathutils import Euler, Vector
 a = sys.argv[sys.argv.index('--') + 1:]
 out = a[0]; cl = tuple(map(float, a[1].split(','))); tg = tuple(map(float, a[2].split(','))); lens = float(a[3])
-R = '/Users/a1234/Documents/awesomeWRLD/assets'
+R = '/Users/bytedance/Documents/ChatGPT/DRAGON/assets'
 bpy.ops.wm.read_factory_settings(use_empty=True)
 s = bpy.context.scene; s.render.engine = 'CYCLES'; s.cycles.device = 'CPU'; s.cycles.samples = 32
 s.view_settings.view_transform = 'Standard'; s.render.resolution_x, s.render.resolution_y = 1280, 720

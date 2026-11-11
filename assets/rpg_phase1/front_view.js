@@ -1,0 +1,1 @@
+const a=CS.DouyinActorService.GetLocalActor();CS.DouyinCameraService.SetYaw(a.rotation.eulerAngles.y+150);CS.DouyinCameraService.SetPitch(8);CS.DouyinCameraService.SetDistance(2.0);return {name:a.gameObject.name};

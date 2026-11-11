@@ -1,0 +1,44 @@
+/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_sample_clock.py:149: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new(ob.name+'_source_material');mat.use_nodes=True;nt=mat.node_tree;pb=nt.nodes['Principled BSDF'];pb.inputs['Roughness'].default_value=.85
+GEOMETRY clocktower_skin_receiver 14964
+GEOMETRY clock_face_receiver 3255
+13:53:30 | INFO: Data are loaded, start creating Blender stuff
+13:53:30 | INFO: Blender create Mesh node glow
+13:53:30 | INFO: Blender create Mesh node main
+13:53:30 | INFO: glTF import finished in 0.13s
+13:53:30 | INFO: Data are loaded, start creating Blender stuff
+13:53:30 | INFO: Blender create Mesh node glow
+13:53:30 | INFO: Blender create Mesh node main
+13:53:30 | INFO: glTF import finished in 0.10s
+13:53:30 | INFO: Data are loaded, start creating Blender stuff
+13:53:30 | INFO: Blender create Mesh node glow
+13:53:30 | INFO: Blender create Mesh node main
+13:53:31 | INFO: glTF import finished in 0.04s
+13:53:31 | INFO: Data are loaded, start creating Blender stuff
+13:53:31 | INFO: Blender create Mesh node castle_rooms
+13:53:31 | INFO: glTF import finished in 0.08s
+/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_sample_clock.py:157: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('sample_approximate_neutral_environment');world.use_nodes=True;world.node_tree.nodes['Background'].inputs[0].default_value=(.65,.65,.68,1);world.node_tree.nodes['Background'].inputs[1].default_value=.85;scene.world=world
+/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_sample_clock.py:168: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  final=bpy.data.materials.new(ob.name+'_GI_PBR');final.use_nodes=True;pb=final.node_tree.nodes['Principled BSDF'];pb.inputs['Roughness'].default_value=.85;t=final.node_tree.nodes.new('ShaderNodeTexImage');t.image=im;final.node_tree.links.new(t.outputs['Color'],pb.inputs['Base Color']);ob['final_material']=final.name
+Info: Saved as "clock-source.blend"
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+13:54:18 | INFO: Starting glTF 2.0 export
+13:54:18 | INFO: Extracting primitive: clock_face_receiver.001
+13:54:18 | INFO: Primitives created: 1
+13:54:18 | INFO: Extracting primitive: clocktower_skin_receiver.001
+13:54:19 | INFO: Primitives created: 1
+13:54:19 | INFO: Finished glTF 2.0 export in 0.3178689479827881 s
+01:16.671  render           | Saved: 'assets/castle_sample_v3/clock/clocktower-context.png'
+01:55.409  render           | Saved: 'assets/castle_sample_v3/clock/clocktower-close.png'
+
+Info: Saved as "clock-baked.blend"
+CLOCK DONE {"scope": "only LEFT clock tower additive visual skin; no collisions; original castle untouched", "coordinate_contract": "world=(127+bx,bz,176+by); root127,0,176; do not recenter", "lighting": {"approximation": "neutral World(.65,.65,.68)*.85, existing fixtures\u00d72.4; NOT reconstruction of original skybox", "actual_environment_reference": "parent environment-before: sunpitch40 yaw60 #a8c2ff .95, ambient#6b6b9e", "cycles_samples": 48, "max_bounces": 6, "diffuse_bounces": 4, "passes": ["COLOR", "DIRECT", "INDIRECT"], "occluders": "existing fullcastle sources+castle_rooms"}, "targets": {"clocktower_skin_receiver": {"material": "clocktower_skin_receiver_GI_PBR", "texture_size": 2048, "indirect_evidence": {"max": 1.0, "mean": 0.02808909853843981, "nonzero_fraction": 0.31329345703125}, "triangles": 14964}, "clock_face_receiver": {"material": "clock_face_receiver_GI_PBR", "texture_size": 1024, "indirect_evidence": {"max": 0.988235354423523, "mean": 0.08950818133269915, "nonzero_fraction": 0.464111328125}, "triangles": 3255}}, "file": "assets/castle_sample_v3/clock/clocktower-sample-v2.glb", "bytes": 1947684, "sha256": "20dbf131850cd067e89d95e1751340c17f0af390ee105cd95aceb44459bf7e6b", "normalization_scale": 48.412506103515625, "glb_bounds": [[-12.729000091552734, 72.01249694824219, 4.770999908447266], [-6.270999908447266, 120.42500305175781, 11.234999656677246]], "triangles": 18219, "vertex_colors": false}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

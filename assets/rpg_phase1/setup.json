@@ -1,0 +1,51 @@
+{
+  "changed": {
+    "nodes": 159,
+    "components": 0,
+    "scripts": 7,
+    "resources": 0
+  },
+  "summary": "Updated 159 nodes, 0 components, 7 scripts and 0 resources",
+  "result": {
+    "root": "n155",
+    "scripts": {
+      "dragon_rpg.lua": {
+        "handle": "bd0f4571-9e3d-4e07-a976-86b831fddd77",
+        "id": "bd0f4571-9e3d-4e07-a976-86b831fddd77",
+        "filePath": "scripts/dragon_rpg.lua",
+        "referenceName": "dragon_rpg.lua"
+      },
+      "dragon_outfits.lua": {
+        "handle": "1c4128ac-0d75-431c-b406-2c24e259a71d",
+        "id": "1c4128ac-0d75-431c-b406-2c24e259a71d",
+        "filePath": "scripts/dragon_outfits.lua",
+        "referenceName": "dragon_outfits.lua"
+      },
+      "dragon_weapons.lua": {
+        "handle": "be827bc8-3532-4e03-bde5-dc23044f8f42",
+        "id": "be827bc8-3532-4e03-bde5-dc23044f8f42",
+        "filePath": "scripts/dragon_weapons.lua",
+        "referenceName": "dragon_weapons.lua"
+      },
+      "dragon_timeline.lua": {
+        "handle": "4cbd84ec-be58-40be-92cd-86de5544daca",
+        "id": "4cbd84ec-be58-40be-92cd-86de5544daca",
+        "filePath": "scripts/dragon_timeline.lua",
+        "referenceName": "dragon_timeline.lua"
+      },
+      "dragon_fx.lua": {
+        "handle": "6329c644-9169-4c74-b1c2-6cf72ca3dae4",
+        "id": "6329c644-9169-4c74-b1c2-6cf72ca3dae4",
+        "filePath": "scripts/dragon_fx.lua",
+        "referenceName": "dragon_fx.lua"
+      },
+      "dragon_rules.lua": {
+        "handle": "f554579e-f9d9-438d-a027-577b6310c6e2",
+        "id": "f554579e-f9d9-438d-a027-577b6310c6e2",
+        "filePath": "scripts/dragon_rules.lua",
+        "referenceName": "dragon_rules.lua"
+      }
+    }
+  },
+  "revision": "601ae73b951480520ebdfe841a1b8f22afb885bce8b5ef4be8aae52525c424aa"
+}

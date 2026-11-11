@@ -1,0 +1,12 @@
+{
+  "gothic_main": {
+    "triangle_geometry_preserved": true,
+    "source_triangles": 51066,
+    "parts_triangles": 51066
+  },
+  "gothic_towers": {
+    "triangle_geometry_preserved": true,
+    "source_triangles": 41132,
+    "parts_triangles": 41132
+  }
+}

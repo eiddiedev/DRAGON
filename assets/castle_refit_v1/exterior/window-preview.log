@@ -1,0 +1,9 @@
+12:04:32 | INFO: Data are loaded, start creating Blender stuff
+12:04:32 | INFO: Blender create Mesh node glow
+12:04:32 | INFO: Blender create Mesh node main
+12:04:32 | INFO: Blender create Mesh node rear_rose_tracery
+12:04:32 | INFO: glTF import finished in 0.13s
+00:15.433  render           | Saved: 'assets/castle_refit_v1/exterior/rear-window-final.png'
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

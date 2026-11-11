@@ -1,0 +1,12 @@
+applyCastle = function(t)
+    if castleMats == nil or #castleMats < 3 then setupCastle() end
+    local c = lerpColor(CASTLE_NIGHT, CASTLE_DAY, t)
+    for _, m in ipairs(castleMats) do
+        m:SetColor("_BaseColor", c)
+    end
+    for _,v in ipairs(castleGlowMats) do
+        local k=1-.9*t
+        v.m:SetFloat("_EmissionPower",v.p*k)
+        v.m:SetColor("_BaseColor",Color(v.c.r*k,v.c.g*k,v.c.b*k,1))
+    end
+end

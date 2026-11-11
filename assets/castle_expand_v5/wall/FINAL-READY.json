@@ -1,0 +1,157 @@
+{
+  "scope": "ring wall, five small round towers, southern gatehouse additive visual skins only",
+  "coordinate_contract": "world=(127+bx,bz,176+by); root127,0,176; no recenter",
+  "source": "/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_expand_wall.py",
+  "source_sha256": "ba9fd4eb744d7e763502aad2d2a43c3af71c3211236bba1b1f88d9898c23428d",
+  "lighting": {
+    "approximation": "neutral World(.65,.65,.68)*.85, existing fixtures x2.4; NOT reconstruction of runtime skybox",
+    "cycles_samples": 48,
+    "max_bounces": 6,
+    "diffuse_bounces": 4,
+    "passes": [
+      "COLOR",
+      "DIRECT",
+      "INDIRECT"
+    ],
+    "occluders": "existing full castle sources plus castle_rooms"
+  },
+  "targets": {
+    "ring_wall_skin": {
+      "material": "ring_wall_skin_GI_PBR",
+      "texture_size": 2048,
+      "indirect_evidence": {
+        "max": 0.49803924560546875,
+        "mean": 0.016102670811278585,
+        "nonzero_fraction": 0.1812744140625
+      },
+      "triangles": 24024,
+      "file": "assets/castle_expand_v5/wall/ring_wall_skin.glb",
+      "bytes": 2313800,
+      "sha256": "0f2ab8202eee4319fbcec6d2329321aa4d038ebb7a57c31164f8b7a740238c37",
+      "normalization_scale": 39.33167266845703,
+      "glb_bounds": [
+        [
+          -19.665836334228516,
+          68.5199966430664,
+          -19.665836334228516
+        ],
+        [
+          19.665836334228516,
+          78.20999908447266,
+          18.189178466796875
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -19.665836334228516,
+          -18.189178466796875,
+          68.5199966430664
+        ],
+        [
+          19.665836334228516,
+          19.665836334228516,
+          78.20999908447266
+        ]
+      ],
+      "vertex_colors": false,
+      "node": "ring_wall_skin.001"
+    },
+    "wall_turrets_skin": {
+      "material": "wall_turrets_skin_GI_PBR",
+      "texture_size": 2048,
+      "indirect_evidence": {
+        "max": 0.4549019932746887,
+        "mean": 0.03809112567888443,
+        "nonzero_fraction": 0.46673583984375
+      },
+      "triangles": 17088,
+      "file": "assets/castle_expand_v5/wall/wall_turrets_skin.glb",
+      "bytes": 1756540,
+      "sha256": "ab2ab8de360de0b66d7c8e2ea0084ef49b0c1ffb02957b5de8a4551b29369033",
+      "normalization_scale": 40.45737075805664,
+      "glb_bounds": [
+        [
+          -19.499526977539062,
+          68.5114974975586,
+          -19.499526977539062
+        ],
+        [
+          20.957843780517578,
+          90.62000274658203,
+          9.131294250488281
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -19.499526977539062,
+          -9.131294250488281,
+          68.5114974975586
+        ],
+        [
+          20.957843780517578,
+          19.499526977539062,
+          90.62000274658203
+        ]
+      ],
+      "vertex_colors": false,
+      "node": "wall_turrets_skin.001"
+    },
+    "gatehouse_skin": {
+      "material": "gatehouse_skin_GI_PBR",
+      "texture_size": 2048,
+      "indirect_evidence": {
+        "max": 0.5254902243614197,
+        "mean": 0.05922006178711096,
+        "nonzero_fraction": 0.5947265625
+      },
+      "triangles": 11896,
+      "file": "assets/castle_expand_v5/wall/gatehouse_skin.glb",
+      "bytes": 1524860,
+      "sha256": "1c4646e1bfc464b82e32b156e6d9dd5e55560dbfe71f54addf80087e106ba620",
+      "normalization_scale": 26.70000457763672,
+      "glb_bounds": [
+        [
+          -6.04996395111084,
+          68.5199966430664,
+          16.55003547668457
+        ],
+        [
+          6.04996395111084,
+          95.22000122070312,
+          20.44996452331543
+        ]
+      ],
+      "blender_bounds": [
+        [
+          -6.04996395111084,
+          -20.44996452331543,
+          68.5199966430664
+        ],
+        [
+          6.04996395111084,
+          -16.55003547668457,
+          95.22000122070312
+        ]
+      ],
+      "vertex_colors": false,
+      "node": "gatehouse_skin.001"
+    }
+  },
+  "status": "FROZEN - all three GLB verified, parent may import",
+  "total_triangles": 53008,
+  "total_bytes": 5595200,
+  "fixed_GI_runtime_materials": [
+    "ring_wall_skin_GI_PBR",
+    "wall_turrets_skin_GI_PBR",
+    "gatehouse_skin_GI_PBR"
+  ],
+  "checks": [
+    "GLB triangle totals parsed from indices",
+    "No COLOR_0; UV and embedded baked color texture present",
+    "Every main roof shingle normal points radially outward after recalc",
+    "Old gate walk throat has zero added vertices",
+    "Left lower foot front remains -19 plus .095m visual skin",
+    "Same gatehouse preview inspected: no black wedges, original globes/window glass visible"
+  ],
+  "preview_caveat": "Offline context retains old main castle occluders; does not claim live editor validation."
+}

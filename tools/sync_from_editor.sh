@@ -4,6 +4,5 @@ set -euo pipefail
 REPO="$(cd "$(dirname "$0")/.." && pwd)"
 SRC="$HOME/Library/Application Support/AI World Creator/projects/project_lapv8fm0"
 mkdir -p "$REPO/editor_project"
-rsync -a --delete --exclude '.DS_Store' "$SRC/" "$REPO/editor_project/project_lapv8fm0/"
-cp "$REPO/scripts/world_main_v5.lua" "$REPO/scripts/world_main.lua"
+rsync -a --delete --exclude '.DS_Store' --exclude '*_log/' --exclude '.awc/' --exclude '*.bak' --exclude 'scene.before-*.data' "$SRC/" "$REPO/editor_project/project_lapv8fm0/"
 echo "已同步 $SRC → editor_project/"

@@ -1,0 +1,26 @@
+{
+  "type": "wprefab",
+  "artifactId": "dragon_rpg_v1",
+  "revisionId": "external:automation:8560b4b6-994a-42ee-9cde-9805df216be7:00b11140ca2ed9ebe705d137e58fabe5b09cf43f16f9ae492c66fadcd1b5332e:00b11140ca2ed9ebe705d137e58fabe5b09cf43f16f9ae492c66fadcd1b5332e",
+  "createdAtUtc": "2026-11-11T04:08:47.079Z",
+  "artifact": {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6itnu6hqszg7qoxq.wprefab",
+    "displayName": "龙眠职业武器验证",
+    "summary": "dragon_rpg_v1",
+    "hasRuntimeScript": true,
+    "hasAudio": false,
+    "hasExpandableAssets": true,
+    "metadata": {
+      "capacity": 81796,
+      "faceCount": 49126,
+      "logicalCenter": [
+        0.005724905362924915,
+        0.14434570074081401,
+        -0.06712717948841473
+      ],
+      "rigged": false
+    },
+    "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/dd599e80424c4744bf7f25ddeebd170d.png"
+  },
+  "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6itnu6hqszg7qoxq.wprefab"
+}

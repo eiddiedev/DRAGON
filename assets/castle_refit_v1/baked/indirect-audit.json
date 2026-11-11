@@ -1,0 +1,9 @@
+{
+  "pass": "DIFFUSE INDIRECT only",
+  "max_linear": 1.0,
+  "mean_linear": 0.11590662593005636,
+  "nonzero_pixel_fraction": 0.7830810546875,
+  "diffuse_bounces": 4,
+  "source": "final-source.blend",
+  "note": "Diagnostic only, not a replacement albedo texture"
+}

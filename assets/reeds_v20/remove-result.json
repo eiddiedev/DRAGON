@@ -1,0 +1,1 @@
+{"ok":false,"command":"scene","error":{"code":"INVALID_ARGUMENT","message":"rootIDs 必须包含 1 至 64 个明确节点 ID","hint":"保留 --request-id \"grass-v20-remove-20261110\" 及相同目标、参数以恢复原回执，不要换新请求自动重试。","details":{"requestId":"grass-v20-remove-20261110","instanceId":"8076003f-3d59-48fd-8225-60d26d83df30"}}}

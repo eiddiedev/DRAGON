@@ -1,0 +1,656 @@
+{
+  "source": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project_lapv8fm0/scene.data",
+  "scene_sha256": "dc63d1f7784c08a8d6d67f34932b412d576ce468eed91d9772b8b87c44af6106",
+  "height_sha256": "a0c00b1a6c796054d68f2ce69dd56b9ee6bd2926cddafadd7bc8986902687966",
+  "moves": [
+    {
+      "id": -908991196,
+      "name": "house_a",
+      "before": {
+        "x": 170.0,
+        "y": 39.7708,
+        "z": 88.0
+      },
+      "before_rot": {
+        "x": 0.0,
+        "y": 0.9914449,
+        "z": 0.0,
+        "w": 0.130525991
+      },
+      "before_scale": {
+        "x": 9.981706,
+        "y": 9.981706,
+        "z": 9.981706
+      },
+      "after": {
+        "x": 170.0,
+        "y": 42.071508865422295,
+        "z": 92.0
+      },
+      "ground_range": [
+        40.89122404529898,
+        41.9915088654223
+      ]
+    },
+    {
+      "id": -912944710,
+      "name": "house_b",
+      "before": {
+        "x": 196.0,
+        "y": 25.8044,
+        "z": 82.0
+      },
+      "before_rot": {
+        "x": 0.0,
+        "y": 0.999657333,
+        "z": 0.0,
+        "w": -0.02617701
+      },
+      "before_scale": {
+        "x": 10.35391,
+        "y": 10.35391,
+        "z": 10.35391
+      },
+      "after": {
+        "x": 166.0,
+        "y": 39.30887466995178,
+        "z": 54.0
+      },
+      "ground_range": [
+        38.42544329726555,
+        39.22887466995178
+      ]
+    },
+    {
+      "id": 593379174,
+      "name": "house_c",
+      "before": {
+        "x": 182.0,
+        "y": 38.964,
+        "z": 79.0
+      },
+      "before_rot": {
+        "x": 0.0,
+        "y": 0.999962,
+        "z": 0.0,
+        "w": -0.008727
+      },
+      "before_scale": {
+        "x": 11.05,
+        "y": 11.05,
+        "z": 11.05
+      },
+      "after": {
+        "x": 180.0,
+        "y": 43.149335903708064,
+        "z": 77.0
+      },
+      "ground_range": [
+        41.5332205764386,
+        43.069335903708065
+      ]
+    },
+    {
+      "id": 421436761,
+      "name": "hs_house_a_0",
+      "before": {
+        "x": 188.0,
+        "y": 32.1724,
+        "z": 66.0
+      },
+      "before_rot": {
+        "x": 0.0,
+        "y": 0.996917367,
+        "z": 0.0,
+        "w": -0.07845903
+      },
+      "before_scale": {
+        "x": 9.981706,
+        "y": 9.981706,
+        "z": 9.981706
+      },
+      "after": {
+        "x": 174.0,
+        "y": 38.510510426809525,
+        "z": 46.0
+      },
+      "ground_range": [
+        37.833012462641555,
+        38.430510426809526
+      ]
+    },
+    {
+      "id": 1587785790,
+      "name": "hs_house_a_1",
+      "before": {
+        "x": 176.0,
+        "y": 39.5415,
+        "z": 124.0
+      },
+      "before_rot": {
+        "x": 0.0,
+        "y": 0.998134851,
+        "z": 0.0,
+        "w": 0.061048992
+      },
+      "before_scale": {
+        "x": 9.981706,
+        "y": 9.981706,
+        "z": 9.981706
+      },
+      "after": {
+        "x": 176.0,
+        "y": 40.34263004405784,
+        "z": 124.0
+      },
+      "ground_range": [
+        39.55073067786424,
+        40.26263004405784
+      ]
+    },
+    {
+      "id": 171076287,
+      "name": "hs_house_b_0",
+      "before": {
+        "x": 176.0,
+        "y": 38.5424,
+        "z": 60.0
+      },
+      "before_rot": {
+        "x": 0.0,
+        "y": 0.998134851,
+        "z": 0.0,
+        "w": 0.061048992
+      },
+      "before_scale": {
+        "x": 10.35391,
+        "y": 10.35391,
+        "z": 10.35391
+      },
+      "after": {
+        "x": 162.0,
+        "y": 39.10931240043501,
+        "z": 44.0
+      },
+      "ground_range": [
+        38.64865181010772,
+        39.02931240043501
+      ]
+    },
+    {
+      "id": 648406060,
+      "name": "hs_house_b_1",
+      "before": {
+        "x": 186.0,
+        "y": 20.5741,
+        "z": 95.0
+      },
+      "before_rot": {
+        "x": 0.0,
+        "y": 0.979924738,
+        "z": 0.0,
+        "w": -0.199367955
+      },
+      "before_scale": {
+        "x": 10.35391,
+        "y": 10.35391,
+        "z": 10.35391
+      },
+      "after": {
+        "x": 154.0,
+        "y": 40.73999984741211,
+        "z": 125.0
+      },
+      "ground_range": [
+        38.79321890175296,
+        40.65999984741211
+      ]
+    },
+    {
+      "id": 1967056495,
+      "name": "hs_house_b_2",
+      "before": {
+        "x": 196.0,
+        "y": 34.6822,
+        "z": 158.0
+      },
+      "before_rot": {
+        "x": 0.0,
+        "y": 0.999657333,
+        "z": 0.0,
+        "w": -0.02617701
+      },
+      "before_scale": {
+        "x": 10.35391,
+        "y": 10.35391,
+        "z": 10.35391
+      },
+      "after": {
+        "x": 190.0,
+        "y": 40.66340639020914,
+        "z": 154.0
+      },
+      "ground_range": [
+        39.870900957590464,
+        40.58340639020914
+      ]
+    },
+    {
+      "id": 2073709872,
+      "name": "hs_house_c_0",
+      "before": {
+        "x": 200.0,
+        "y": 40.9528,
+        "z": 140.0
+      },
+      "before_rot": {
+        "x": 0.0,
+        "y": 0.976295948,
+        "z": 0.0,
+        "w": -0.216439992
+      },
+      "before_scale": {
+        "x": 11.05,
+        "y": 11.05,
+        "z": 11.05
+      },
+      "after": {
+        "x": 190.0,
+        "y": 41.19370981851755,
+        "z": 140.0
+      },
+      "ground_range": [
+        40.482413600435095,
+        41.11370981851755
+      ]
+    },
+    {
+      "id": 1013531437,
+      "name": "hs_house_c_1",
+      "before": {
+        "x": 190.0,
+        "y": 38.2197,
+        "z": 128.0
+      },
+      "before_rot": {
+        "x": 0.0,
+        "y": 0.999048233,
+        "z": 0.0,
+        "w": 0.04361901
+      },
+      "before_scale": {
+        "x": 11.05,
+        "y": 11.05,
+        "z": 11.05
+      },
+      "after": {
+        "x": 186.0,
+        "y": 40.821290196619366,
+        "z": 130.0
+      },
+      "ground_range": [
+        39.841516762617644,
+        40.74129019661937
+      ]
+    }
+  ],
+  "disable": [
+    {
+      "id": 283557889,
+      "name": "pl_grass_366",
+      "reason": "house footprint"
+    },
+    {
+      "id": 245958886,
+      "name": "pl_grass_367",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1887693280,
+      "name": "pl_forget_32",
+      "reason": "house footprint"
+    },
+    {
+      "id": 385923792,
+      "name": "pl_grass_369",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1883098717,
+      "name": "pl_lav_6",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1126557162,
+      "name": "pl_lav_7",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1890265585,
+      "name": "pl_grass_397",
+      "reason": "house footprint"
+    },
+    {
+      "id": 123710065,
+      "name": "pl_grass_398",
+      "reason": "house footprint"
+    },
+    {
+      "id": 833062674,
+      "name": "pl_grass_399",
+      "reason": "house footprint"
+    },
+    {
+      "id": 2086073240,
+      "name": "pl_grass_400",
+      "reason": "house footprint"
+    },
+    {
+      "id": 390803380,
+      "name": "pl_grass_401",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1906154628,
+      "name": "pl_grass_402",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1756372375,
+      "name": "pl_lav_12",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1238443949,
+      "name": "pl_lav_13",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1315337435,
+      "name": "pl_grass_431",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1277544039,
+      "name": "pl_grass_433",
+      "reason": "house footprint"
+    },
+    {
+      "id": 788863095,
+      "name": "pl_grass_434",
+      "reason": "house footprint"
+    },
+    {
+      "id": 509301295,
+      "name": "pl_lav_21",
+      "reason": "house footprint"
+    },
+    {
+      "id": 643240631,
+      "name": "pl_lav_22",
+      "reason": "house footprint"
+    },
+    {
+      "id": 177232897,
+      "name": "pl_lav_23",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1412163590,
+      "name": "pl_lav_24",
+      "reason": "house footprint"
+    },
+    {
+      "id": 899162096,
+      "name": "pl_grass_459",
+      "reason": "house footprint"
+    },
+    {
+      "id": 13749697,
+      "name": "pl_grass_461",
+      "reason": "house footprint"
+    },
+    {
+      "id": 377930402,
+      "name": "pl_lav_33",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1930663413,
+      "name": "pl_lav_34",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1075759307,
+      "name": "pl_lav_35",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1847777864,
+      "name": "pl_lav_36",
+      "reason": "house footprint"
+    },
+    {
+      "id": 441358518,
+      "name": "pl_lav_47",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1529071026,
+      "name": "pl_lav_48",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1678386052,
+      "name": "pl_lav_49",
+      "reason": "house footprint"
+    },
+    {
+      "id": 2076285285,
+      "name": "pl_grass_527",
+      "reason": "house footprint"
+    },
+    {
+      "id": 670216687,
+      "name": "pl_grass_607",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1433959868,
+      "name": "pl_grass_626",
+      "reason": "house footprint"
+    },
+    {
+      "id": 2100939787,
+      "name": "pl_grass_656",
+      "reason": "house footprint"
+    },
+    {
+      "id": 2029279568,
+      "name": "pl_grass_823",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1211272960,
+      "name": "pl_grass_852",
+      "reason": "house footprint"
+    },
+    {
+      "id": 62594956,
+      "name": "pl_grass_1005",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1071974257,
+      "name": "pl_grass_1006",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1979980546,
+      "name": "pl_grass_1007",
+      "reason": "house footprint"
+    },
+    {
+      "id": 887422375,
+      "name": "pl_grass_1008",
+      "reason": "house footprint"
+    },
+    {
+      "id": 16234411,
+      "name": "pl_grass_1031",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1887482987,
+      "name": "pl_grass_1032",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1933358018,
+      "name": "pl_grass_1033",
+      "reason": "house footprint"
+    },
+    {
+      "id": 289907548,
+      "name": "pl_grass_1034",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1686933411,
+      "name": "pl_grass_1057",
+      "reason": "house footprint"
+    },
+    {
+      "id": 26017419,
+      "name": "pl_grass_1058",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1605886862,
+      "name": "pl_grass_1063",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1998474946,
+      "name": "pl_grass_1087",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1781031014,
+      "name": "pl_grass_1121",
+      "reason": "house footprint"
+    },
+    {
+      "id": 887848384,
+      "name": "pl_grass_1122",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1175775553,
+      "name": "pl_grass_1140",
+      "reason": "house footprint"
+    },
+    {
+      "id": 680172422,
+      "name": "pl_forget_115",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1584926714,
+      "name": "pl_grass_1141",
+      "reason": "house footprint"
+    },
+    {
+      "id": 710762253,
+      "name": "pl_forget_116",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1506696811,
+      "name": "pl_grass_1151",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1067680522,
+      "name": "pl_grass_1152",
+      "reason": "house footprint"
+    },
+    {
+      "id": 236728898,
+      "name": "pl_grass_1153",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1022738154,
+      "name": "pl_grass_1176",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1803824801,
+      "name": "pl_grass_1177",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1095271451,
+      "name": "pl_grass_1178",
+      "reason": "house footprint"
+    },
+    {
+      "id": 869551484,
+      "name": "pl_grass_1185",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1373817830,
+      "name": "pl_grass_1186",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1390294805,
+      "name": "pl_grass_1187",
+      "reason": "house footprint"
+    },
+    {
+      "id": 972244252,
+      "name": "pl_grass_1199",
+      "reason": "house footprint"
+    },
+    {
+      "id": 1972680169,
+      "name": "pl_grass_1200",
+      "reason": "house footprint"
+    },
+    {
+      "id": 529413945,
+      "name": "pl_grass_1201",
+      "reason": "house footprint"
+    },
+    {
+      "id": 955189833,
+      "name": "pl_grass_1210",
+      "reason": "house footprint"
+    }
+  ],
+  "meshes": [
+    {
+      "file": "assets/refit_v12/lamp_posts_v8.glb",
+      "method": "rebuilt from current terrain",
+      "count": 18
+    },
+    {
+      "file": "assets/refit_v12/lamp_glow_v8.glb",
+      "method": "rebuilt from current terrain",
+      "count": 18
+    },
+    {
+      "file": "assets/refit_v12/graveyard_v8.glb",
+      "min_shift": -7.346144131385628,
+      "max_shift": 5.141825962096107
+    },
+    {
+      "file": "assets/refit_v12/village_bases.glb",
+      "method": "stone footings and entrance stairs",
+      "count": 10
+    }
+  ]
+}

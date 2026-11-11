@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "resultType": "table",
+  "result": {
+    "class": "melee",
+    "contract": false,
+    "held": false,
+    "mode": "combat",
+    "nativeSlots": 2,
+    "outfit": "visible",
+    "pending": 0,
+    "ready": true,
+    "sequence": 1,
+    "weapon": "melee:bone:true length=1.00"
+  },
+  "bindingKey": "-22290:bd0f4571-9e3d-4e07-a976-86b831fddd77"
+}

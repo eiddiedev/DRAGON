@@ -10,7 +10,7 @@ from glbw import Geo, write_glb
 import terrain_mesh as TM
 OUT = sys.argv[1]
 os.makedirs(OUT, exist_ok=True)
-ROOT = '/Users/a1234/Documents/awesomeWRLD/assets'
+ROOT = '/Users/bytedance/Documents/ChatGPT/DRAGON/assets'
 SITES = json.load(open(f'{ROOT}/terrain/v3/sites.json'))
 PATH = json.load(open(f'{ROOT}/terrain/v3/path.json'))
 ROAD = [(130, 52), (135, 66), (149, 79), (159, 90), (162, 96), (162, 127), (167, 134), (171, 141)]

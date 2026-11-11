@@ -1,0 +1,1 @@
+await scene.components.set({nodes:['n3'],type:'appearanceData',values:{visible:false,transparency:0,castShadows:false,isModified:true}}); return true;

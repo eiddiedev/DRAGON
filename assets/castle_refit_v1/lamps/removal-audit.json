@@ -1,0 +1,63 @@
+{
+  "source_lamp_index": 13,
+  "world_center": {
+    "x": 127.31547075409871,
+    "z": 159.18150140983892,
+    "ground_min": 70.79555898200731,
+    "ground_max": 70.79980828346554,
+    "footprint_span": 0.004249301458230548,
+    "road_anchor": [
+      127.0,
+      156.5
+    ]
+  },
+  "string_beads_removed": 8,
+  "origin": [
+    128,
+    128
+  ],
+  "outputs": {
+    "lamp_posts": {
+      "original_triangles": 9612,
+      "removed_triangles": 534,
+      "retained_triangles": 9078,
+      "newly_unreferenced_vertices": 1602,
+      "geometry_retained_sha256": "0d2bbc200e247274e142b7ebbc1b4841b792cdc6c92c9149c50232719e5318c0",
+      "bounds_gltf": [
+        [
+          -32.33556365966797,
+          38.590492248535156,
+          -32.63395309448242
+        ],
+        [
+          41.66243362426758,
+          74.03501892089844,
+          61.60630798339844
+        ]
+      ],
+      "max_dimension": 94.24026489257812,
+      "vertex_buffers_unchanged": true
+    },
+    "lamp_glow": {
+      "original_triangles": 2752,
+      "removed_triangles": 184,
+      "retained_triangles": 2568,
+      "newly_unreferenced_vertices": 552,
+      "geometry_retained_sha256": "74e6ce4fb1b848cec862d407d07a83ce2e80d235635621d1067b77a659becfcd",
+      "bounds_gltf": [
+        [
+          -31.428565979003906,
+          40.950504302978516,
+          -31.88802146911621
+        ],
+        [
+          41.63743209838867,
+          73.3650131225586,
+          61.58465576171875
+        ]
+      ],
+      "max_dimension": 93.4726791381836,
+      "vertex_buffers_unchanged": true
+    }
+  }
+}

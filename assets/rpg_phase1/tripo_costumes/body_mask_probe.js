@@ -1,0 +1,1 @@
+const U=CS.UnityEngine,a=CS.DouyinActorService.GetLocalActor(),rs=a.gameObject.GetComponentsInChildren(puer.$typeof(U.SkinnedMeshRenderer));let out=[];for(let i=0;i<rs.Length;i++){let r=rs.get_Item(i),m=r.sharedMesh;if(!m)continue;out.push({name:r.name,mesh:m.name,readable:m.isReadable,triangles:m.GetIndexCount(0),submeshes:m.subMeshCount});}return out;

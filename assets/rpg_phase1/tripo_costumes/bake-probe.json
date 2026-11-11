@@ -1,0 +1,1 @@
+{"ok":true,"command":"runtime","data":{"ok":true,"status":"completed","result":{"name":"body","readable":true,"triangles":85344,"vertices":20061,"uv":20061,"weights":20061,"bindposes":52},"startFrame":32815,"endFrame":32815,"durationMs":4,"mode":"native-puerts"}}

@@ -1,0 +1,32 @@
+{
+  "full_width": {
+    "max_longitudinal_degrees": 27.58805661768089,
+    "max_cross_degrees": 48.376881871868996,
+    "max_combined_degrees": 49.956844205355786,
+    "worst_combined_world_xyz": [
+      124.90000001589458,
+      70.50368245442708,
+      155.08333333333334
+    ]
+  },
+  "central_4m": {
+    "max_longitudinal_degrees": 21.131772649254028,
+    "max_cross_degrees": 20.290384540008283,
+    "max_combined_degrees": 27.436230716599415,
+    "worst_combined_world_xyz": [
+      125.16666666666667,
+      70.7061996459961,
+      155.16666666666666
+    ]
+  },
+  "central_3m": {
+    "max_longitudinal_degrees": 18.793517153167713,
+    "max_cross_degrees": 20.28961540675484,
+    "max_combined_degrees": 25.907937320995323,
+    "worst_combined_world_xyz": [
+      125.67133335272472,
+      70.90169779459636,
+      155.16200002034506
+    ]
+  }
+}

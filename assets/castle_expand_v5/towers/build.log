@@ -1,0 +1,65 @@
+GEOMETRY {"expand_right_tower": 20508, "expand_central_tower": 17476, "expand_rear_towers": 15136, "expand_clock_auxiliary": 7872}
+/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_expand_towers.py:207: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new(ob.name+'_source');mat.use_nodes=True;nt=mat.node_tree;pb=nt.nodes['Principled BSDF'];pb.inputs['Roughness'].default_value=.85;attr=nt.nodes.new('ShaderNodeVertexColor');attr.layer_name='Col';nt.links.new(attr.outputs['Color'],pb.inputs['Base Color']);ob.data.materials.append(mat)
+14:21:27 | INFO: Data are loaded, start creating Blender stuff
+14:21:27 | INFO: Blender create Mesh node glow
+14:21:27 | INFO: Blender create Mesh node main
+14:21:27 | INFO: glTF import finished in 0.14s
+14:21:27 | INFO: Data are loaded, start creating Blender stuff
+14:21:27 | INFO: Blender create Mesh node glow
+14:21:27 | INFO: Blender create Mesh node main
+14:21:28 | INFO: glTF import finished in 0.11s
+14:21:28 | INFO: Data are loaded, start creating Blender stuff
+14:21:28 | INFO: Blender create Mesh node glow
+14:21:28 | INFO: Blender create Mesh node main
+14:21:28 | INFO: glTF import finished in 0.05s
+14:21:28 | INFO: Data are loaded, start creating Blender stuff
+14:21:28 | INFO: Blender create Mesh node castle_rooms
+14:21:28 | INFO: glTF import finished in 0.10s
+/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_expand_towers.py:219: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('accepted_sample_neutral_approximation');world.use_nodes=True;world.node_tree.nodes['Background'].inputs[0].default_value=(.65,.65,.68,1);world.node_tree.nodes['Background'].inputs[1].default_value=.85;scene.world=world
+/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_expand_towers.py:229: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  final=bpy.data.materials.new(ob.name+'_GI_PBR');final.use_nodes=True;pb=final.node_tree.nodes['Principled BSDF'];pb.inputs['Roughness'].default_value=.85;t=final.node_tree.nodes.new('ShaderNodeTexImage');t.image=im;final.node_tree.links.new(t.outputs['Color'],pb.inputs['Base Color']);ob['final_material']=final.name
+Info: Saved as "towers-source.blend"
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+14:21:39 | INFO: Starting glTF 2.0 export
+14:21:39 | INFO: Extracting primitive: expand_right_tower.001
+14:21:39 | INFO: Primitives created: 1
+14:21:39 | INFO: Finished glTF 2.0 export in 0.15552496910095215 s
+
+READY expand_right_tower
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+14:21:50 | INFO: Starting glTF 2.0 export
+14:21:50 | INFO: Extracting primitive: expand_central_tower.001
+14:21:50 | INFO: Primitives created: 1
+14:21:50 | INFO: Finished glTF 2.0 export in 0.15668106079101562 s
+
+READY expand_central_tower
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+14:22:02 | INFO: Starting glTF 2.0 export
+14:22:02 | INFO: Extracting primitive: expand_rear_towers.001
+14:22:03 | INFO: Primitives created: 1
+14:22:03 | INFO: Finished glTF 2.0 export in 0.15710902214050293 s
+
+READY expand_rear_towers
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+14:22:23 | INFO: Starting glTF 2.0 export
+14:22:23 | INFO: Extracting primitive: expand_clock_auxiliary.001
+14:22:23 | INFO: Primitives created: 1
+14:22:23 | INFO: Finished glTF 2.0 export in 0.12562084197998047 s
+
+READY expand_clock_auxiliary
+01:27.529  render           | Saved: 'assets/castle_expand_v5/towers/towers-front.png'
+01:59.725  render           | Saved: 'assets/castle_expand_v5/towers/towers-rear.png'
+02:19.196  render           | Saved: 'assets/castle_expand_v5/towers/central-close.png'
+Info: Saved as "towers-baked.blend"
+TOWERS DONE {"scope": "remaining rightfront/central/rear towers and leftclock auxiliary needles; additive visual only; no collision", "coordinates": "world=(127+BlenderX,BlenderZ,176+BlenderY); root127,0,176; no recenter", "lighting": {"passes": ["COLOR", "DIRECT", "INDIRECT"], "samples": 48, "max_bounces": 6, "diffuse_bounces": 4, "environment": "same accepted neutral(.65,.65,.68)*.85 approximation, not source skybox reconstruction", "fixtures": "existing lighting-plan \u00d72.4", "occluders": "original fullcastle+interior+accepted sample source objects"}, "palette": ["#98929D", "#A19BA4", "#918D99", "#ABA2AA", "#C1B6B8", "#55566D", "#595B70", "#53566B", "#5D5E73"], "color_storage": "FLOAT_COLOR linear; no double sRGB", "color_squared_error": 1.5221642434185045e-16, "outputs": {"expand_right_tower": {"file": "assets/castle_expand_v5/towers/expand_right_tower.glb", "sha256": "6933b36fca4316dcc21a0cba030f73cb432b5da0122a27646f9f7aabb63bb294", "bytes": 2003736, "triangles": 20508, "scale": 44.98750305175781, "glb_bounds": [[5.617656230926514, 72.01249694824219, 4.248000144958496], [12.982343673706055, 117.0, 11.751999855041504]], "node": "expand_right_tower_GI", "material": "expand_right_tower_GI_PBR", "texture_size": 2048, "vertex_colors": false, "indirect_evidence": {"mean": 0.0270464744283269, "max": 1.0, "nonzero_fraction": 0.250732421875}}, "expand_central_tower": {"file": "assets/castle_expand_v5/towers/expand_central_tower.glb", "sha256": "9d750071aed9ab37899dcd02d31ebe999f892b5240d2110bb7aa884f453e82cb", "bytes": 1921344, "triangles": 17476, "scale": 45.470001220703125, "glb_bounds": [[-5.239999771118164, 93.83000183105469, -8.239999771118164], [5.239999771118164, 139.3000030517578, 2.240000009536743]], "node": "expand_central_tower_GI", "material": "expand_central_tower_GI_PBR", "texture_size": 2048, "vertex_colors": false, "indirect_evidence": {"mean": 0.028278507026935056, "max": 0.7803922295570374, "nonzero_fraction": 0.27825927734375}}, "expand_rear_towers": {"file": "assets/castle_expand_v5/towers/expand_rear_towers.glb", "sha256": "c6c6989d5b1eeb8e71c6c9bd5293d1e542b0b6645b206d36c43173a139f0df2c", "bytes": 1645840, "triangles": 15136, "scale": 41.58500671386719, "glb_bounds": [[-13.274999618530273, 72.01499938964844, -15.774999618530273], [13.274999618530273, 113.60000610351562, -11.225000381469727]], "node": "expand_rear_towers_GI", "material": "expand_rear_towers_GI_PBR", "texture_size": 2048, "vertex_colors": false, "indirect_evidence": {"mean": 0.02451355522517436, "max": 0.46274513006210327, "nonzero_fraction": 0.32635498046875}}, "expand_clock_auxiliary": {"file": "assets/castle_expand_v5/towers/expand_clock_auxiliary.glb", "sha256": "92936c88dd2c75dc5dfca2f9a4461d8485430bf4295222f8d29849fb6877cf51", "bytes": 758116, "triangles": 7872, "scale": 20.26800537109375, "glb_bounds": [[-13.438982009887695, 85.51499938964844, 4.0], [-5.5610175132751465, 105.78300476074219, 12.0]], "node": "expand_clock_auxiliary_GI", "material": "expand_clock_auxiliary_GI_PBR", "texture_size": 1024, "vertex_colors": false, "indirect_evidence": {"mean": 0.07426119955214479, "max": 0.6000000238418579, "nonzero_fraction": 0.55474853515625}}}}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

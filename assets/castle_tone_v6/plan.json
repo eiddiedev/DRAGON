@@ -1,0 +1,12 @@
+{
+  "scope": "castle exterior fixed-GI display exposure and interior lights/display exposure",
+  "exterior_power": 0.68,
+  "clock_face_power": 0.82,
+  "interior_gi_power": 1.35,
+  "interior_light_multiplier": 1.4,
+  "preserve": "all geometry, terrain, original script definitions, openings, collisions, global day/night",
+  "new_textures": 0,
+  "new_triangles": 0,
+  "paid_generation": false,
+  "baseline": "scene-before.data"
+}

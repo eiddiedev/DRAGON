@@ -1,0 +1,22 @@
+{
+  "idle": {
+    "max_ankle_distance_from_bind_m": {
+      "front_foot.L": 0.0007743991432709527,
+      "front_foot.R": 0.0007756921265582103,
+      "hind_foot.L": 5.102380409010099e-06,
+      "hind_foot.R": 4.702349406079297e-06
+    },
+    "max_ankle_motion_m": 1.3944939437761077e-05,
+    "wing_tip_span_m": 4.963719009102976
+  },
+  "perch": {
+    "max_ankle_distance_from_bind_m": {
+      "front_foot.L": 6.479778828149005,
+      "front_foot.R": 6.479776767750724,
+      "hind_foot.L": 5.9604644775390625e-06,
+      "hind_foot.R": 5.9795075435564295e-06
+    },
+    "max_ankle_motion_m": 3.6489727916162475e-05,
+    "wing_tip_span_m": 4.980428059729614
+  }
+}

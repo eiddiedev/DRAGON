@@ -1,0 +1,3 @@
+const U=CS.UnityEngine;const all=U.Object.FindObjectsOfType(puer.$typeof(U.Renderer));const out=[];
+for(let i=0;i<all.Length;i++){const r=all.get_Item(i);if(r.gameObject.name==='ForestHood'){const m=r.sharedMaterial;let p=[];for(let j=0;j<m.shader.GetPropertyCount();j++){let k=m.shader.GetPropertyName(j);p.push([k,String(m.shader.GetPropertyType(j))]);}out.push({name:r.name,color:m.GetColor('_BaseColor').ToString(),properties:p});}}
+const a=CS.DouyinActorService.GetLocalActor();const rs=a.gameObject.GetComponentsInChildren(puer.$typeof(U.SkinnedMeshRenderer));for(let i=0;i<rs.Length;i++){let r=rs.get_Item(i);out.push({name:r.name,bounds:r.bounds.ToString()});}return out;

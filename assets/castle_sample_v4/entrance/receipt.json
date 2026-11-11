@@ -1,0 +1,68 @@
+{
+  "source": "/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_sample_entrance_v4.py",
+  "coordinates": "world=(127+x,z,176+y); glTF=(x,z,-y)",
+  "collision": false,
+  "revision": "v4-existing-arch-profile",
+  "door_profile": "castle_refit_exterior.door_arch: spring76,baseinnerhalfwidth1.9,baseapex78,grow.22",
+  "source_color_fix": "BYTE_COLOR color_srgb reassigned to linear color to undo kit double decode",
+  "passes": [
+    "COLOR",
+    "DIRECT",
+    "INDIRECT"
+  ],
+  "samples": 40,
+  "diffuse_bounces": 4,
+  "environment": "neutral approximation (.65,.65,.68)*.85; existing fixtures x2.4, not reconstructed actual skybox",
+  "occluders": [
+    "existing gothic_main",
+    "existing gothic_towers",
+    "existing gothic_wall"
+  ],
+  "outputs": {
+    "entrance_masonry": {
+      "file": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_sample_v4/entrance/entrance_masonry.glb",
+      "material": "entrance_masonry_GI_COLOR",
+      "triangles": 17420,
+      "bytes": 1819616,
+      "sha256": "4fb66d994c33d11d496844f41b58933f8b13d06c303ca128dd825ead679f2a5e",
+      "bounds_gltf": [
+        [
+          -6.98799991607666,
+          72.01200103759766,
+          8.40999984741211
+        ],
+        [
+          6.98799991607666,
+          99.98799896240234,
+          8.530000686645508
+        ]
+      ],
+      "normalization_scale": 27.975997924804688,
+      "vertex_colors": false,
+      "texture_size": 2048
+    },
+    "entrance_carved_trim": {
+      "file": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_sample_v4/entrance/entrance_carved_trim.glb",
+      "material": "entrance_carved_trim_GI_COLOR",
+      "triangles": 5748,
+      "bytes": 1032720,
+      "sha256": "afef4535b955e8e6ed991aed9b6fbbd2dd44bce706e9ec8e712e7c81bc6cdd83",
+      "bounds_gltf": [
+        [
+          -7.2806196212768555,
+          72.00800323486328,
+          8.289999961853027
+        ],
+        [
+          7.2806196212768555,
+          100.0536880493164,
+          8.930000305175781
+        ]
+      ],
+      "normalization_scale": 28.045684814453125,
+      "vertex_colors": false,
+      "texture_size": 2048
+    }
+  },
+  "source_sha256": "e2f9cae5fb0b5bbb5b8e221b618df2461ac8cb4213d8f4e4cea371bf9b149446"
+}

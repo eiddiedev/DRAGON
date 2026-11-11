@@ -1,0 +1,152 @@
+{
+  "ok": true,
+  "status": "completed",
+  "result": [
+    {
+      "name": "ForestHood",
+      "color": "RGBA(0.140, 0.190, 0.100, 1.000)",
+      "properties": [
+        [
+          "_AlphaCutoff",
+          "3"
+        ],
+        [
+          "_Cull_Mode",
+          "2"
+        ],
+        [
+          "_UseVertexColor",
+          "2"
+        ],
+        [
+          "_TriplanarTiling",
+          "1"
+        ],
+        [
+          "_TriplanarOffset",
+          "1"
+        ],
+        [
+          "_TriplanarSmooth",
+          "2"
+        ],
+        [
+          "_Alpha",
+          "3"
+        ],
+        [
+          "_BaseTex",
+          "4"
+        ],
+        [
+          "_BaseColor",
+          "0"
+        ],
+        [
+          "_ColorPower",
+          "2"
+        ],
+        [
+          "_BaseTexSpeed",
+          "1"
+        ],
+        [
+          "_Normalmap",
+          "4"
+        ],
+        [
+          "_NormalScale",
+          "3"
+        ],
+        [
+          "_NormalmapSpeed",
+          "1"
+        ],
+        [
+          "_ORM",
+          "4"
+        ],
+        [
+          "_ORMSpeed",
+          "1"
+        ],
+        [
+          "_Metallic",
+          "3"
+        ],
+        [
+          "_Smoothness",
+          "3"
+        ],
+        [
+          "_AOIntensity",
+          "3"
+        ],
+        [
+          "_EmissionMask",
+          "4"
+        ],
+        [
+          "_EmissionMaskSpeed",
+          "1"
+        ],
+        [
+          "_EmissionTex",
+          "4"
+        ],
+        [
+          "_EmissionTexSpeed",
+          "1"
+        ],
+        [
+          "_EmissionColor",
+          "0"
+        ],
+        [
+          "_EmissionPower",
+          "2"
+        ],
+        [
+          "_RimColor",
+          "0"
+        ],
+        [
+          "_RimPower",
+          "2"
+        ],
+        [
+          "_FresnelInt",
+          "3"
+        ],
+        [
+          "_UseTriplanarSample",
+          "2"
+        ],
+        [
+          "_CullMode",
+          "2"
+        ],
+        [
+          "_DepthBiasFactor",
+          "2"
+        ],
+        [
+          "_DepthBiasUnits",
+          "2"
+        ]
+      ]
+    },
+    {
+      "name": "body",
+      "bounds": "Center: (119.74, 78.28, 88.64), Extents: (0.29, 0.47, 0.19)"
+    },
+    {
+      "name": "face",
+      "bounds": "Center: (119.74, 78.54, 88.74), Extents: (0.12, 0.11, 0.06)"
+    }
+  ],
+  "startFrame": 29818,
+  "endFrame": 29818,
+  "durationMs": 1,
+  "mode": "native-puerts"
+}

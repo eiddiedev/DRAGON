@@ -1,0 +1,98 @@
+{
+  "ok": true,
+  "status": "completed",
+  "result": [
+    {
+      "name": "Label",
+      "text": "武器",
+      "font": "Arial",
+      "dynamic": true,
+      "material": "Default UI Material",
+      "rect": "(x:-49.00, y:-40.00, width:98.00, height:80.00)",
+      "scale": "(0.70, 0.70, 0.70)",
+      "fontSize": 26,
+      "verts": 0
+    },
+    {
+      "name": "Title",
+      "text": "在命运之书上签约",
+      "font": "Arial",
+      "dynamic": true,
+      "material": "Default UI Material",
+      "rect": "(x:-410.00, y:-35.00, width:820.00, height:70.00)",
+      "scale": "(0.70, 0.70, 0.70)",
+      "fontSize": 36,
+      "verts": 32
+    },
+    {
+      "name": "Hint",
+      "text": "选择你的职业 · 可以在出生圣树重新签约",
+      "font": "Arial",
+      "dynamic": true,
+      "material": "Default UI Material",
+      "rect": "(x:-410.00, y:-25.00, width:820.00, height:50.00)",
+      "scale": "(0.70, 0.70, 0.70)",
+      "fontSize": 23,
+      "verts": 72
+    },
+    {
+      "name": "Label",
+      "text": "骑士\n剑",
+      "font": "Arial",
+      "dynamic": true,
+      "material": "Default UI Material",
+      "rect": "(x:-110.00, y:-60.50, width:220.00, height:121.00)",
+      "scale": "(0.70, 0.70, 0.70)",
+      "fontSize": 30,
+      "verts": 12
+    },
+    {
+      "name": "Label",
+      "text": "法师\n法杖",
+      "font": "Arial",
+      "dynamic": true,
+      "material": "Default UI Material",
+      "rect": "(x:-110.00, y:-60.50, width:220.00, height:121.00)",
+      "scale": "(0.70, 0.70, 0.70)",
+      "fontSize": 30,
+      "verts": 16
+    },
+    {
+      "name": "Label",
+      "text": "游侠\n弓",
+      "font": "Arial",
+      "dynamic": true,
+      "material": "Default UI Material",
+      "rect": "(x:-110.00, y:-60.50, width:220.00, height:121.00)",
+      "scale": "(0.70, 0.70, 0.70)",
+      "fontSize": 30,
+      "verts": 12
+    },
+    {
+      "name": "Label",
+      "text": "选择职业后签约",
+      "font": "Arial",
+      "dynamic": true,
+      "material": "Default UI Material",
+      "rect": "(x:-185.00, y:-35.00, width:370.00, height:70.00)",
+      "scale": "(0.70, 0.70, 0.70)",
+      "fontSize": 26,
+      "verts": 28
+    },
+    {
+      "name": "Status",
+      "text": "骑士守护近战 · 法师星火爆裂 · 游侠月羽连射",
+      "font": "Arial",
+      "dynamic": true,
+      "material": "Default UI Material",
+      "rect": "(x:-425.00, y:-35.00, width:850.00, height:70.00)",
+      "scale": "(0.70, 0.70, 0.70)",
+      "fontSize": 22,
+      "verts": 80
+    }
+  ],
+  "startFrame": 2780,
+  "endFrame": 2780,
+  "durationMs": 12,
+  "mode": "native-puerts"
+}

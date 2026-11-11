@@ -1,0 +1,83 @@
+/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_refit_bake.py:12: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  s.world=bpy.data.worlds.new('TwilightApproximation');s.world.use_nodes=True;s.world.node_tree.nodes['Background'].inputs[0].default_value=(.22,.25,.4,1);s.world.node_tree.nodes['Background'].inputs[1].default_value=.12
+11:43:25 | INFO: Data are loaded, start creating Blender stuff
+11:43:25 | INFO: Blender create Mesh node castle_rooms
+11:43:25 | INFO: glTF import finished in 0.10s
+11:43:25 | INFO: Data are loaded, start creating Blender stuff
+11:43:25 | INFO: Blender create Mesh node castle_rooms_glow
+11:43:25 | INFO: glTF import finished in 0.01s
+11:43:25 | INFO: Data are loaded, start creating Blender stuff
+11:43:25 | INFO: Blender create Mesh node glow
+11:43:25 | INFO: Blender create Mesh node main
+11:43:25 | INFO: glTF import finished in 0.15s
+11:43:25 | INFO: Data are loaded, start creating Blender stuff
+11:43:25 | INFO: Blender create Mesh node glow
+11:43:25 | INFO: Blender create Mesh node main
+11:43:25 | INFO: glTF import finished in 0.13s
+11:43:25 | INFO: Data are loaded, start creating Blender stuff
+11:43:25 | INFO: Blender create Mesh node glow
+11:43:25 | INFO: Blender create Mesh node main
+11:43:26 | INFO: glTF import finished in 0.04s
+11:43:26 | INFO: Data are loaded, start creating Blender stuff
+11:43:26 | INFO: Blender create Mesh node meshes[0]
+11:43:26 | INFO: glTF import finished in 0.01s
+11:43:26 | INFO: Data are loaded, start creating Blender stuff
+11:43:26 | INFO: Blender create Mesh node meshes[0]
+11:43:26 | INFO: glTF import finished in 0.01s
+11:43:26 | INFO: Data are loaded, start creating Blender stuff
+11:43:26 | INFO: Blender create Mesh node meshes[0]
+11:43:26 | INFO: glTF import finished in 0.01s
+11:43:26 | INFO: Data are loaded, start creating Blender stuff
+11:43:26 | INFO: Blender create Mesh node meshes[0]
+11:43:26 | INFO: glTF import finished in 0.01s
+11:43:26 | INFO: Data are loaded, start creating Blender stuff
+11:43:26 | INFO: Blender create Mesh node meshes[0]
+11:43:26 | INFO: glTF import finished in 0.01s
+Info: Saved as "final-source.blend"
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED castle_gi_hall_front 175.1953637599945
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED castle_gi_hall_rear 104.60593605041504
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED castle_gi_library 156.17450594902039
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED castle_gi_dining 92.17415118217468
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED castle_gi_armory 41.16521406173706
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED castle_gi_kitchen 32.168888092041016
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED castle_gi_sanctuary 33.206382751464844
+Info: Baking map saved to internal image, save it externally or pack it
+BAKED castle_gi_bedchamber 43.99931073188782
+/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_refit_bake.py:72: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  im=bpy.data.images[o['baked_image']];m=bpy.data.materials.new(o.name+'_baked');m.use_nodes=True;p=m.node_tree.nodes['Principled BSDF'];p.inputs['Roughness'].default_value=.85;t=m.node_tree.nodes.new('ShaderNodeTexImage');t.image=im;m.node_tree.links.new(t.outputs['Color'],p.inputs['Base Color']);o.data.materials.clear();o.data.materials.append(m)
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+11:54:45 | INFO: Starting glTF 2.0 export
+11:54:45 | INFO: Extracting primitive: castle_rooms.005
+11:54:45 | INFO: Primitives created: 1
+11:54:45 | INFO: Extracting primitive: castle_rooms.008
+11:54:45 | INFO: Primitives created: 1
+11:54:45 | INFO: Extracting primitive: castle_rooms.004
+11:54:45 | INFO: Primitives created: 1
+11:54:45 | INFO: Extracting primitive: castle_rooms.001
+11:54:45 | INFO: Primitives created: 1
+11:54:45 | INFO: Extracting primitive: castle_rooms.002
+11:54:45 | INFO: Primitives created: 1
+11:54:45 | INFO: Extracting primitive: castle_rooms.006
+11:54:45 | INFO: Primitives created: 1
+11:54:45 | INFO: Extracting primitive: castle_rooms.003
+11:54:45 | INFO: Primitives created: 1
+11:54:45 | INFO: Extracting primitive: castle_rooms.007
+11:54:45 | INFO: Primitives created: 1
+11:54:45 | INFO: Finished glTF 2.0 export in 0.439500093460083 s
+12:17.029  render           | Saved: '/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_refit_v1/baked/final-library.png'
+13:10.018  render           | Saved: '/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_refit_v1/baked/final-hall.png'
+13:44.853  render           | Saved: '/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_refit_v1/baked/final-dining.png'
+
+Info: Saved as "final-preview.blend"
+DONE {"status": "baked_not_runtime_verified", "mode": "final", "seconds": 822.5030889511108, "samples": 48, "bounces": 6, "diffuse_bounces": 4, "passes": ["COLOR", "DIRECT", "INDIRECT"], "world": "Designed approximate twilight constant ambient .12, not reconstructed original sky; no fixed solar shadows", "lights": [{"name": "hall_wall_-1_-5.6", "position_blender": [-5.9, -5.6, 75.05], "energy_watts": 192.0, "color": [1, 0.56, 0.25], "radius": 0.8}, {"name": "hall_wall_-1_-2.6", "position_blender": [-5.9, -2.6, 75.05], "energy_watts": 192.0, "color": [1, 0.56, 0.25], "radius": 0.8}, {"name": "hall_wall_-1_-0.3", "position_blender": [-5.9, -0.3, 75.05], "energy_watts": 192.0, "color": [1, 0.56, 0.25], "radius": 0.8}, {"name": "hall_wall_-1_6.4", "position_blender": [-5.9, 6.4, 75.05], "energy_watts": 192.0, "color": [1, 0.56, 0.25], "radius": 0.8}, {"name": "dais_-1", "position_blender": [-2.9, 8.2, 73.8], "energy_watts": 264.0, "color": [1, 0.56, 0.25], "radius": 0.8}, {"name": "hall_wall_1_-5.6", "position_blender": [5.9, -5.6, 75.05], "energy_watts": 192.0, "color": [1, 0.56, 0.25], "radius": 0.8}, {"name": "hall_wall_1_-2.6", "position_blender": [5.9, -2.6, 75.05], "energy_watts": 192.0, "color": [1, 0.56, 0.25], "radius": 0.8}, {"name": "hall_wall_1_-0.3", "position_blender": [5.9, -0.3, 75.05], "energy_watts": 192.0, "color": [1, 0.56, 0.25], "radius": 0.8}, {"name": "hall_wall_1_6.4", "position_blender": [5.9, 6.4, 75.05], "energy_watts": 192.0, "color": [1, 0.56, 0.25], "radius": 0.8}, {"name": "dais_1", "position_blender": [2.9, 8.2, 73.8], "energy_watts": 264.0, "color": [1, 0.56, 0.25], "radius": 0.8}, {"name": "chandelier_-3", "position_blender": [0, -3, 80.8], "energy_watts": 600.0, "color": [1, 0.56, 0.25], "radius": 1.8}, {"name": "chandelier_5", "position_blender": [0, 5, 80.8], "energy_watts": 600.0, "color": [1, 0.56, 0.25], "radius": 1.8}, {"name": "library_1.7", "position_blender": [-12.6, 1.7, 75], "energy_watts": 204.0, "color": [1, 0.56, 0.25], "radius": 0.8}, {"name": "library_4.5", "position_blender": [-12.6, 4.5, 75], "energy_watts": 204.0, "color": [1, 0.56, 0.25], "radius": 0.8}, {"name": "dining_fire", "position_blender": [12.4, 3, 73.2], "energy_watts": 384.0, "color": [1, 0.56, 0.25], "radius": 1.1}, {"name": "dining_0", "position_blender": [12.6, 0, 74.9], "energy_watts": 144.0, "color": [1, 0.56, 0.25], "radius": 0.8}, {"name": "dining_6", "position_blender": [12.6, 6, 74.9], "energy_watts": 144.0, "color": [1, 0.56, 0.25], "radius": 0.8}, {"name": "kitchen_fire", "position_blender": [9.3, -9.4, 73.2], "energy_watts": 288.0, "color": [1, 0.56, 0.25], "radius": 0.8}, {"name": "armory", "position_blender": [-7.4, -9.4, 75], "energy_watts": 216.0, "color": [1, 0.56, 0.25], "radius": 0.8}, {"name": "sanctuary", "position_blender": [4.3, 16.3, 73.7], "energy_watts": 156.0, "color": [1, 0.56, 0.25], "radius": 0.8}, {"name": "sanctuary", "position_blender": [-4.3, 16.3, 73.7], "energy_watts": 156.0, "color": [1, 0.56, 0.25], "radius": 0.8}, {"name": "sanctuary", "position_blender": [2, 18.5, 73.7], "energy_watts": 156.0, "color": [1, 0.56, 0.25], "radius": 0.8}, {"name": "sanctuary", "position_blender": [-2, 18.5, 73.7], "energy_watts": 156.0, "color": [1, 0.56, 0.25], "radius": 0.8}, {"name": "bedchamber", "position_blender": [4.3, 18.1, 78.7], "energy_watts": 192.0, "color": [1, 0.56, 0.25], "radius": 0.8}, {"name": "bedchamber", "position_blender": [-4.3, 18.1, 78.7], "energy_watts": 192.0, "color": [1, 0.56, 0.25], "radius": 0.8}, {"name": "reading_candle_a", "position_blender": [-10.3, 3.6, 73.5], "energy_watts": 156.0, "color": [1, 0.65, 0.35], "radius": 0.45}, {"name": "reading_candle_b", "position_blender": [-9.72, 2.35, 73.5], "energy_watts": 156.0, "color": [1, 0.65, 0.35], "radius": 0.45}], "outputs": [{"object": "castle_gi_hall_front", "image": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_refit_v1/baked/castle_gi_hall_front_final.png", "resolution": 2048, "seconds": 175.19535279273987}, {"object": "castle_gi_hall_rear", "image": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_refit_v1/baked/castle_gi_hall_rear_final.png", "resolution": 2048, "seconds": 104.6059319972992}, {"object": "castle_gi_library", "image": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_refit_v1/baked/castle_gi_library_final.png", "resolution": 2048, "seconds": 156.17449307441711}, {"object": "castle_gi_dining", "image": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_refit_v1/baked/castle_gi_dining_final.png", "resolution": 2048, "seconds": 92.17413330078125}, {"object": "castle_gi_armory", "image": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_refit_v1/baked/castle_gi_armory_final.png", "resolution": 1024, "seconds": 41.16519117355347}, {"object": "castle_gi_kitchen", "image": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_refit_v1/baked/castle_gi_kitchen_final.png", "resolution": 1024, "seconds": 32.16888380050659}, {"object": "castle_gi_sanctuary", "image": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_refit_v1/baked/castle_gi_sanctuary_final.png", "resolution": 1024, "seconds": 33.20637893676758}, {"object": "castle_gi_bedchamber", "image": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_refit_v1/baked/castle_gi_bedchamber_final.png", "resolution": 1024, "seconds": 43.99930691719055}], "receivers": ["castle_gi_hall_front", "castle_gi_hall_rear", "castle_gi_library", "castle_gi_dining", "castle_gi_armory", "castle_gi_kitchen", "castle_gi_sanctuary", "castle_gi_bedchamber"], "excluded": ["Emissive flames and stained glass retain original material", "Tripo throne/bookshelves/armor are casters and retain PBR runtime material"], "source_coordinates": "Blender east north up absolute elevation; GLTF east up -north", "runtime_display": "Use verified EnvLit GI emission display on castle_gi_* renderers only; must verify shader and material count"}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

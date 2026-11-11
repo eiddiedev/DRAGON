@@ -1,0 +1,16 @@
+{
+  "revision": "a52e47ef9fda3121e471224d291c1106a7abc115f75d45f7ed5772f40f96aca3",
+  "result": {
+    "prefabId": "dragon_rpg_ui_v2",
+    "resourceId": "model-tripo-warrior",
+    "sourcePath": "assets/models/model-tripo-warrior",
+    "path": "assets/models/model-tripo-warrior/package/model.glb",
+    "sourceState": "topology",
+    "canonicalResourceId": "model-tripo-warrior",
+    "sourceFiles": [
+      "meta.json",
+      "topology/README.md",
+      "topology/model.glb"
+    ]
+  }
+}

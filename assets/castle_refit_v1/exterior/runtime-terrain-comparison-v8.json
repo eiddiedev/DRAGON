@@ -1,0 +1,180 @@
+{
+  "coordinate_contract": "world_x=127+Blender_x; world_z=176+Blender_y=176-GLB_z; verified against actual main-west runtime bounds",
+  "samples": [
+    {
+      "world_x": 124.7,
+      "world_z": 155,
+      "runtime_terrain_y": 70.10427856445312,
+      "fixed_mesh_y": 70.24639124812771,
+      "clearance": 0.14211268367458274
+    },
+    {
+      "world_x": 124.7,
+      "world_z": 156,
+      "runtime_terrain_y": 70.62852478027344,
+      "fixed_mesh_y": 70.76889797820816,
+      "clearance": 0.14037319793472136
+    },
+    {
+      "world_x": 124.7,
+      "world_z": 157,
+      "runtime_terrain_y": 70.75822448730469,
+      "fixed_mesh_y": 71.18819425142526,
+      "clearance": 0.4299697641205711
+    },
+    {
+      "world_x": 124.7,
+      "world_z": 158,
+      "runtime_terrain_y": 70.78947448730469,
+      "fixed_mesh_y": 71.65909575409871,
+      "clearance": 0.8696212667940273
+    },
+    {
+      "world_x": 124.7,
+      "world_z": 159,
+      "runtime_terrain_y": 70.7988510131836,
+      "fixed_mesh_y": 72.1300048828125,
+      "clearance": 1.3311538696289062
+    },
+    {
+      "world_x": 125,
+      "world_z": 155,
+      "runtime_terrain_y": 70.44180297851562,
+      "fixed_mesh_y": 70.58401489257812,
+      "clearance": 0.1422119140625
+    },
+    {
+      "world_x": 125,
+      "world_z": 156,
+      "runtime_terrain_y": 70.78556823730469,
+      "fixed_mesh_y": 70.97051239013672,
+      "clearance": 0.18494415283203125
+    },
+    {
+      "world_x": 125,
+      "world_z": 157,
+      "runtime_terrain_y": 70.79338073730469,
+      "fixed_mesh_y": 71.35700988769531,
+      "clearance": 0.563629150390625
+    },
+    {
+      "world_x": 125,
+      "world_z": 158,
+      "runtime_terrain_y": 70.80119323730469,
+      "fixed_mesh_y": 71.7435073852539,
+      "clearance": 0.9423141479492188
+    },
+    {
+      "world_x": 125,
+      "world_z": 159,
+      "runtime_terrain_y": 70.80119323730469,
+      "fixed_mesh_y": 72.1300048828125,
+      "clearance": 1.3288116455078125
+    },
+    {
+      "world_x": 127,
+      "world_z": 155,
+      "runtime_terrain_y": 70.84026336669922,
+      "fixed_mesh_y": 70.97694396972656,
+      "clearance": 0.13668060302734375
+    },
+    {
+      "world_x": 127,
+      "world_z": 156,
+      "runtime_terrain_y": 70.78556823730469,
+      "fixed_mesh_y": 71.26520538330078,
+      "clearance": 0.47963714599609375
+    },
+    {
+      "world_x": 127,
+      "world_z": 157,
+      "runtime_terrain_y": 70.80119323730469,
+      "fixed_mesh_y": 71.55347442626953,
+      "clearance": 0.7522811889648438
+    },
+    {
+      "world_x": 127,
+      "world_z": 158,
+      "runtime_terrain_y": 70.80119323730469,
+      "fixed_mesh_y": 71.84173583984375,
+      "clearance": 1.0405426025390625
+    },
+    {
+      "world_x": 127,
+      "world_z": 159,
+      "runtime_terrain_y": 70.80119323730469,
+      "fixed_mesh_y": 72.1300048828125,
+      "clearance": 1.3288116455078125
+    },
+    {
+      "world_x": 129,
+      "world_z": 155,
+      "runtime_terrain_y": 70.79338073730469,
+      "fixed_mesh_y": 70.9345474243164,
+      "clearance": 0.14116668701171875
+    },
+    {
+      "world_x": 129,
+      "world_z": 156,
+      "runtime_terrain_y": 70.77775573730469,
+      "fixed_mesh_y": 71.23341369628906,
+      "clearance": 0.455657958984375
+    },
+    {
+      "world_x": 129,
+      "world_z": 157,
+      "runtime_terrain_y": 70.78556823730469,
+      "fixed_mesh_y": 71.53227233886719,
+      "clearance": 0.7467041015625
+    },
+    {
+      "world_x": 129,
+      "world_z": 158,
+      "runtime_terrain_y": 70.79338073730469,
+      "fixed_mesh_y": 71.83113861083984,
+      "clearance": 1.0377578735351562
+    },
+    {
+      "world_x": 129,
+      "world_z": 159,
+      "runtime_terrain_y": 70.79338073730469,
+      "fixed_mesh_y": 72.1300048828125,
+      "clearance": 1.3366241455078125
+    },
+    {
+      "world_x": 129.3,
+      "world_z": 155,
+      "runtime_terrain_y": 70.78634643554688,
+      "fixed_mesh_y": 70.92695617555121,
+      "clearance": 0.14060974000433646
+    },
+    {
+      "world_x": 129.3,
+      "world_z": 156,
+      "runtime_terrain_y": 70.7754135131836,
+      "fixed_mesh_y": 71.22771453766836,
+      "clearance": 0.4523010244847683
+    },
+    {
+      "world_x": 129.3,
+      "world_z": 157,
+      "runtime_terrain_y": 70.7832260131836,
+      "fixed_mesh_y": 71.52848052918246,
+      "clearance": 0.7452545159988659
+    },
+    {
+      "world_x": 129.3,
+      "world_z": 158,
+      "runtime_terrain_y": 70.7886962890625,
+      "fixed_mesh_y": 71.82923889129961,
+      "clearance": 1.0405426022371103
+    },
+    {
+      "world_x": 129.3,
+      "world_z": 159,
+      "runtime_terrain_y": 70.7886962890625,
+      "fixed_mesh_y": 72.1300048828125,
+      "clearance": 1.34130859375
+    }
+  ]
+}

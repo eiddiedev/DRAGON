@@ -1,0 +1,1 @@
+{"ok":false,"command":"scene","error":{"code":"TIMEOUT","message":"Creator 请求超时，写入结果需要重新读取确认","hint":"超时不代表失败；查询原任务或重读目标，不自动重新提交。 保留 --request-id \"dragon-phase1-integrate-v1\" 及相同目标、参数以恢复原回执，不要换新请求自动重试。","details":{"requestId":"dragon-phase1-integrate-v1","instanceId":"e585f679-61ed-4883-b9f5-86d3f3f80a42"}}}

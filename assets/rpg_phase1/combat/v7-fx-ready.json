@@ -1,0 +1,1 @@
+{"ok":true,"command":"runtime","data":{"ok":true,"resultType":"table","result":{"arena":false,"audio":{"failed":0,"played":0,"playing":0,"warmed":22},"available":true,"emitted":0,"failed":0,"flying":0,"refs":{"arrow":true,"blast":true,"bolt":true,"hit":true,"shield":true,"slash":true,"tell":true}},"bindingKey":"-20842:9a5a287f-7f5e-466d-a185-b295c3aaee64"}}

@@ -1,0 +1,7 @@
+{
+  "source": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project_lapv8fm0/scripts/modules/world_main.lua",
+  "sha256": "e4d31d63143706df269f3d1ff776aaa95b4bda8828838013d73241f481a6b258",
+  "installed": false,
+  "scope": "opening contract gates only; no transforms or castle edits",
+  "remaining": "player persistence, tree respec native trigger, shared battle/mainline are not installed"
+}

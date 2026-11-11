@@ -1,0 +1,1 @@
+{"ok":false,"command":"authoring","data":{"exitCode":1,"signal":null,"stdout":"","stderr":"AI_AGENT_CORE_TOOL_BRIDGE_URL is not configured\n","status":"failed","continuation":{"action":"stop","automaticRetry":false,"repeatKey":"f4c84d2a934abb409830ea6647762df440acc208299dec3868dbb2a57715a8fe"}}}

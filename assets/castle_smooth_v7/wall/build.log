@@ -1,0 +1,62 @@
+ROOF_NORMALS ring_wall_skin shingles 0 fixed 0
+ROOF_NORMALS wall_turrets_skin shingles 1360 fixed 340
+ROOF_NORMALS gatehouse_skin shingles 880 fixed 226
+GEOMETRY ring_wall_skin 4872
+GEOMETRY wall_turrets_skin 13700
+GEOMETRY gatehouse_skin 6876
+/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_smooth_wall.py:212: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new(ob.name+'_source');mat.use_nodes=True;nt=mat.node_tree;pb=nt.nodes['Principled BSDF'];pb.inputs['Roughness'].default_value=.85
+15:13:11 | INFO: Data are loaded, start creating Blender stuff
+15:13:11 | INFO: Blender create Mesh node glow
+15:13:11 | INFO: Blender create Mesh node main
+15:13:12 | INFO: glTF import finished in 0.13s
+15:13:12 | INFO: Data are loaded, start creating Blender stuff
+15:13:12 | INFO: Blender create Mesh node glow
+15:13:12 | INFO: Blender create Mesh node main
+15:13:12 | INFO: glTF import finished in 0.09s
+15:13:12 | INFO: Data are loaded, start creating Blender stuff
+15:13:12 | INFO: Blender create Mesh node glow
+15:13:12 | INFO: Blender create Mesh node main
+15:13:12 | INFO: glTF import finished in 0.04s
+15:13:12 | INFO: Data are loaded, start creating Blender stuff
+15:13:12 | INFO: Blender create Mesh node castle_rooms
+15:13:12 | INFO: glTF import finished in 0.08s
+/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_smooth_wall.py:219: DeprecationWarning: 'World.use_nodes' is expected to be removed in Blender 6.0
+  world=bpy.data.worlds.new('v7_approximate_neutral_environment');world.use_nodes=True;world.node_tree.nodes['Background'].inputs[0].default_value=(.65,.65,.68,1);world.node_tree.nodes['Background'].inputs[1].default_value=.85;scene.world=world
+/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_smooth_wall.py:230: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  final=bpy.data.materials.new(ob.name+'_GI_PBR');final.use_nodes=True;pb=final.node_tree.nodes['Principled BSDF'];pb.inputs['Roughness'].default_value=.85;t=final.node_tree.nodes.new('ShaderNodeTexImage');t.image=im;final.node_tree.links.new(t.outputs['Color'],pb.inputs['Base Color']);ob['final_material']=final.name
+Info: Saved as "wall-source.blend"
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+15:14:21 | INFO: Starting glTF 2.0 export
+15:14:21 | INFO: Extracting primitive: ring_wall_skin.001
+15:14:21 | INFO: Primitives created: 1
+15:14:21 | INFO: Finished glTF 2.0 export in 0.15761995315551758 s
+
+EXPORTED ring_wall_skin
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+15:15:19 | INFO: Starting glTF 2.0 export
+15:15:19 | INFO: Extracting primitive: wall_turrets_skin.001
+15:15:19 | INFO: Primitives created: 1
+15:15:19 | INFO: Finished glTF 2.0 export in 0.16397786140441895 s
+
+EXPORTED wall_turrets_skin
+Info: Baking map saved to internal image, save it externally or pack it
+Info: Baking map saved to internal image, save it externally or pack it
+15:18:39 | INFO: Starting glTF 2.0 export
+15:18:39 | INFO: Extracting primitive: gatehouse_skin.001
+15:18:39 | INFO: Primitives created: 1
+15:18:39 | INFO: Finished glTF 2.0 export in 0.3133199214935303 s
+
+EXPORTED gatehouse_skin
+06:36.867  render           | Saved: 'assets/castle_smooth_v7/wall/gatehouse-context.png'
+08:10.990  render           | Saved: 'assets/castle_smooth_v7/wall/ring-wall-context.png'
+10:14.722  render           | Saved: 'assets/castle_smooth_v7/wall/ring-wall-back.png'
+Info: Saved as "wall-baked.blend"
+DONE {"scope": "smooth continuous stone replacement: ring wall, five small round towers, southern gatehouse; original trim/window/roof retained", "runtime_tone_not_baked": 0.68, "coordinate_contract": "world=(127+bx,bz,176+by); root127,0,176; no recenter", "source": "/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_smooth_wall.py", "source_sha256": "8d77818353f4b693b2b0d0cf1972717fef6fbd1d70ba7748a97fad792f29470e", "lighting": {"approximation": "neutral World(.65,.65,.68)*.85, existing fixtures x2.4; NOT reconstruction of runtime skybox", "cycles_samples": 48, "max_bounces": 6, "diffuse_bounces": 4, "passes": ["COLOR", "DIRECT", "INDIRECT"], "occluders": "existing full castle sources plus castle_rooms"}, "targets": {"ring_wall_skin": {"material": "ring_wall_skin_GI_PBR", "texture_size": 2048, "indirect_evidence": {"max": 0.6705882549285889, "mean": 0.04514471561771908, "nonzero_fraction": 0.442138671875}, "triangles": 4872, "file": "assets/castle_smooth_v7/wall/ring_wall_skin.glb", "bytes": 869288, "sha256": "fd878350decc12705edb7065fc88b64147e06fb1b692759d292b55e465955a66", "normalization_scale": 39.33167266845703, "glb_bounds": [[-19.665836334228516, 68.51000213623047, -19.665836334228516], [19.665836334228516, 78.20999908447266, 18.189178466796875]], "blender_bounds": [[-19.665836334228516, -18.189178466796875, 68.51000213623047], [19.665836334228516, 19.665836334228516, 78.20999908447266]], "vertex_colors": false, "node": "ring_wall_skin.001"}, "wall_turrets_skin": {"material": "wall_turrets_skin_GI_PBR", "texture_size": 2048, "indirect_evidence": {"max": 0.7647059559822083, "mean": 0.05732669527998269, "nonzero_fraction": 0.51397705078125}, "triangles": 13700, "file": "assets/castle_smooth_v7/wall/wall_turrets_skin.glb", "bytes": 1237796, "sha256": "9bd1f2100f9c3f203da1b118ee3d3116ed7b07f6605fbaf26202d0cfa82f71d5", "normalization_scale": 40.45737075805664, "glb_bounds": [[-19.499526977539062, 68.5, -19.499526977539062], [20.957843780517578, 90.62000274658203, 9.131294250488281]], "blender_bounds": [[-19.499526977539062, -9.131294250488281, 68.5], [20.957843780517578, 19.499526977539062, 90.62000274658203]], "vertex_colors": false, "node": "wall_turrets_skin.001"}, "gatehouse_skin": {"material": "gatehouse_skin_GI_PBR", "texture_size": 2048, "indirect_evidence": {"max": 0.6431372761726379, "mean": 0.08037397048875998, "nonzero_fraction": 0.62213134765625}, "triangles": 6876, "file": "assets/castle_smooth_v7/wall/gatehouse_skin.glb", "bytes": 1111012, "sha256": "cfd853bb85857263aa7cff0863723fdb91e888cbccef8dce5991c6c9d0cea55a", "normalization_scale": 26.709999084472656, "glb_bounds": [[-6.04996395111084, 68.51000213623047, 16.55003547668457], [6.04996395111084, 95.22000122070312, 20.44996452331543]], "blender_bounds": [[-6.04996395111084, -20.44996452331543, 68.51000213623047], [6.04996395111084, -16.55003547668457, 95.22000122070312]], "vertex_colors": false, "node": "gatehouse_skin.001"}}}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

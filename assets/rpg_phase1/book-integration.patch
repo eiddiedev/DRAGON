@@ -1,0 +1,69 @@
+--- current/world_main.lua
++++ proposed/world_main.lua
+@@ -2763,7 +2763,7 @@
+     UI.fadePanels(dt)
+ end
+ 
+-function UI.enterPlay(actor)
++function UI.enterPlayAfterContract(actor)
+     UI.show(UI.P_hud, true)
+     UI.P_hud.fade = 2
+     UI.P_hud.btn.rt.anchoredPosition = UI.V2(UI.BTN_X, -UI.BTN_Y)
+@@ -2772,7 +2772,7 @@
+     UI.lockPlayer(actor, false)
+ end
+ 
+-function UI.finishBook(actor)
++function UI.finishBookAfterContract(actor)
+     pcall(function()
+         UnityEngine.PlayerPrefs.SetInt("dr_prologue_v1", 1)
+         UnityEngine.PlayerPrefs.Save()
+@@ -2784,6 +2784,36 @@
+     UI.P_hud.btn.rt.anchoredPosition = UI.V2(UI.halfW(), -500)
+     UI.state = "settle"
+     UI.st = UI.t
++end
++
++-- RPG bridge: the book owns the opening transition; RPG owns class selection.
++function UI.getRpg()
++    if UI.rpg then return UI.rpg end
++    local root=UnityEngine.GameObject.Find("龙眠职业与战斗")
++    local component=root and root:GetDouyinScript("dragon_rpg.lua")
++    if component then UI.rpg=component.script end
++    return UI.rpg
++end
++function UI.contractThen(actor, continuation)
++    local rpg=UI.getRpg()
++    if not rpg then
++        toast("职业之书正在准备，请稍候")
++        return false
++    end
++    local profile=rpg.GetProfile()
++    if profile and profile.class then continuation(actor);return true end
++    local before=UI.state
++    if rpg.OpenContract(false,function()
++        continuation(actor)
++    end) then UI.state="contract";return true end
++    UI.state=before
++    return false
++end
++function UI.enterPlay(actor)
++    UI.contractThen(actor,UI.enterPlayAfterContract)
++end
++function UI.finishBook(actor)
++    UI.contractThen(actor,UI.finishBookAfterContract)
+ end
+ 
+ function UI.updateMap(actor, dt)
+@@ -3109,6 +3139,11 @@
+             pcall(UI.lockPlayer, actor, false)
+         end
+     end
++    local rpg=UI.getRpg()
++    if rpg then
++        rpg.SetExplorationReady(UI.state=="play")
++        rpg.SetContext({menu=UI.state~="play",mounted=DR.rider~=nil or actor:IsSitting() or actor:IsFlying()})
++    end
+     updateDayNight(actor)
+     updatePortals(actor)
+     if not UI.reeds.failed then

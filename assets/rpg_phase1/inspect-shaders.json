@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "resultType": "table",
+  "result": {
+    "Douyin/AI/PBR/EnvLit_AI": true,
+    "Standard": true,
+    "Universal Render Pipeline/Lit": true,
+    "Unlit/Color": false
+  },
+  "bindingKey": "-69784:bd0f4571-9e3d-4e07-a976-86b831fddd77"
+}

@@ -1,9 +1,5 @@
 {
   "version": 1,
-  "selected": {
-    "scope": "official",
-    "templateId": "env_night"
-  },
   "overrides": {
     "official": {
       "env_night": {
@@ -61,7 +57,7 @@
           "flarePitch": 59.400001525878906,
           "flareYaw": 180
         },
-        "updatedAt": 1794237028176
+        "updatedAt": 1794300174595
       },
       "env_star": {
         "params": {

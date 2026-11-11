@@ -1,0 +1,1 @@
+{"ok":false,"command":"asset","error":{"code":"ASSET_IMPORT_FAILED","message":"资产未完整导入或没有任何成功项，请查看失败/不支持格式明细。","details":{"failureMessages":["上传模型最大面数限制为3w面（当前模型：5.1066w面），请调整面数后上传"],"failedFiles":["gothic_main-GI.glb"],"successCount":0,"totalCount":1,"assets":[],"ignoredFileCount":0,"failedArchiveNames":[]}}}

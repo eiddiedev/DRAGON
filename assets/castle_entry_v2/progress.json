@@ -1,0 +1,41 @@
+{
+  "status": "complete_saved_verified",
+  "project": "project_lapv8fm0",
+  "scene_root": "-1788843370",
+  "archive_uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/z41mmb3o93r1qec6.wprefab",
+  "archive_receipt": "archive-hidden.json",
+  "prefab": "castle_entry_v2",
+  "author_workspace": "workspace_vrztdtlb",
+  "addition_capacity": 4.592,
+  "triangles": 4392,
+  "stairs": {
+    "width": 4.6,
+    "rise": 0.12,
+    "count": 12,
+    "start_z": 155.7,
+    "landing_z": 159,
+    "landing_y": 72.24
+  },
+  "forecourt_y": 72.24,
+  "removed_sundial": -1084074086,
+  "preserved_spawn_sundial": 194003353,
+  "native_walk": {
+    "x": 126.96254730225,
+    "y": 72.242156982422,
+    "z": 175.01507568359
+  },
+  "left_floor_walk": {
+    "x": 117.51329040527,
+    "y": 72.242156982422,
+    "z": 165.01173400879
+  },
+  "right_floor_walk": {
+    "x": 136.42610168457,
+    "y": 72.242156982422,
+    "z": 165.01023864746
+  },
+  "save_committed": true,
+  "paid_generation": false,
+  "own_instance_stopped": "awc-af049254-29f1-4e07-a8d1-24a6a55c75cf",
+  "pending": []
+}

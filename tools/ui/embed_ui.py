@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """把 scripts/ui_v1.lua（填好排版数据）嵌进 world_main_v5.lua 的 UI 标记之间。"""
 import json, re
-ROOT = '/Users/a1234/Documents/awesomeWRLD'
+ROOT = '/Users/bytedance/Documents/ChatGPT/DRAGON'
 L = json.load(open(f'{ROOT}/assets/ui/layout.json'))
 
 

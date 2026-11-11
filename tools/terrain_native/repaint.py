@@ -8,7 +8,7 @@ from PIL import Image
 from scipy import ndimage as nd
 OUT = sys.argv[1]
 os.makedirs(OUT, exist_ok=True)
-ROOT = '/Users/a1234/Documents/awesomeWRLD/assets'
+ROOT = '/Users/bytedance/Documents/ChatGPT/DRAGON/assets'
 H = np.load(f'{ROOT}/terrain/native/tile_heights.npy').astype(np.float64)   # [z, x]，原贴图地形的实际地面
 Z0, X0 = np.mgrid[0:257, 0:257].astype(float)
 # 城堡平台整体压低 1.2 米，避免地面从庭院和房间地板里冒出来

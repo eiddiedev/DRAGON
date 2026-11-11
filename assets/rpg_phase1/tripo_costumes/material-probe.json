@@ -1,0 +1,1 @@
+{"ok":true,"command":"runtime","data":{"ok":true,"status":"completed","result":[{"name":"tripo_node_40b8b3f4-565f-4343-897e-e20124bc5afb","active":true,"mat":[{"name":"EnvLit_AI_Mat","shader":"Douyin/AI/PBR/EnvLit_AI","main":null,"color":"RGBA(0.000, 0.000, 0.000, 0.000)"}]}],"startFrame":28759,"endFrame":28759,"durationMs":4,"mode":"native-puerts"}}

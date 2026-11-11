@@ -1,0 +1,16 @@
+{
+  "revision": "4d9188779c8f4a41fa0ad7e0918c2003874dd936933faec48e8900fc136860bb",
+  "result": {
+    "prefabId": "dragon_rpg_v1",
+    "resourceId": "model-dragon-contract-book",
+    "sourcePath": "assets/models/model-dragon-contract-book",
+    "path": "assets/models/model-dragon-contract-book/package/model.glb",
+    "sourceState": "topology",
+    "canonicalResourceId": "model-dragon-contract-book",
+    "sourceFiles": [
+      "meta.json",
+      "topology/README.md",
+      "topology/model.glb"
+    ]
+  }
+}

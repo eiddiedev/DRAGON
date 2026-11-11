@@ -1,0 +1,68 @@
+{
+  "scope": "only LEFT clock tower additive visual skin; no collisions; original castle untouched",
+  "coordinate_contract": "world=(127+bx,bz,176+by); root127,0,176; do not recenter",
+  "lighting": {
+    "approximation": "neutral World(.65,.65,.68)*.85, existing fixtures\u00d72.4; NOT reconstruction of original skybox",
+    "actual_environment_reference": "parent environment-before: sunpitch40 yaw60 #a8c2ff .95, ambient#6b6b9e",
+    "cycles_samples": 48,
+    "max_bounces": 6,
+    "diffuse_bounces": 4,
+    "passes": [
+      "COLOR",
+      "DIRECT",
+      "INDIRECT"
+    ],
+    "occluders": "existing fullcastle sources+castle_rooms"
+  },
+  "targets": {
+    "clocktower_skin_receiver": {
+      "material": "clocktower_skin_receiver_GI_PBR",
+      "texture_size": 2048,
+      "indirect_evidence": {
+        "max": 1.0,
+        "mean": 0.02808909853843981,
+        "nonzero_fraction": 0.31329345703125
+      },
+      "triangles": 14964
+    },
+    "clock_face_receiver": {
+      "material": "clock_face_receiver_GI_PBR",
+      "texture_size": 1024,
+      "indirect_evidence": {
+        "max": 0.988235354423523,
+        "mean": 0.08950818133269915,
+        "nonzero_fraction": 0.464111328125
+      },
+      "triangles": 3255
+    }
+  },
+  "file": "assets/castle_sample_v3/clock/clocktower-sample-v2.glb",
+  "bytes": 1947684,
+  "sha256": "20dbf131850cd067e89d95e1751340c17f0af390ee105cd95aceb44459bf7e6b",
+  "normalization_scale": 48.412506103515625,
+  "glb_bounds": [
+    [
+      -12.729000091552734,
+      72.01249694824219,
+      4.770999908447266
+    ],
+    [
+      -6.270999908447266,
+      120.42500305175781,
+      11.234999656677246
+    ]
+  ],
+  "triangles": 18219,
+  "vertex_colors": false,
+  "glb_nodes": [
+    "clock_face_receiver.001",
+    "clocktower_skin_receiver.001"
+  ],
+  "glb_materials": [
+    "clock_face_receiver_GI_PBR",
+    "clocktower_skin_receiver_GI_PBR"
+  ],
+  "color_space_audit": "color-space-audit.json",
+  "revision": "v2 only slate color range/sequence changed; geometry retained",
+  "geometry_unchanged_vs_v1": true
+}

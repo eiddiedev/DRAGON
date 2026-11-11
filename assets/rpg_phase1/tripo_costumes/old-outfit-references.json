@@ -1,0 +1,1 @@
+{"ok":true,"command":"authoring","data":{"revision":"af1f61a8f530bc9351b0a6ad4d3fe7a07ec61d9a62f56545ca83e871edb7b9f8","result":{"items":[{"owner":{"$ref":"node","handle":"n2"},"field":"basic/parentId"}],"revision":"af1f61a8f530bc9351b0a6ad4d3fe7a07ec61d9a62f56545ca83e871edb7b9f8","truncated":false}}}

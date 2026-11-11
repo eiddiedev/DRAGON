@@ -1,0 +1,40 @@
+FINAL LOCKED DELIVERY - no further GLB writes after parent integration begins.
+All meshes are additive static VISUAL skins. Collision OFF on every new instance.
+Do not replace existing castle, change room/door/window layouts, move sample nodes, or recenter vertices.
+World coordinates=(127+BlenderX,BlenderZ,176+BlenderY). Same original root(127,0,176).
+
+File                                triangles  normalization scale
+expand_right_tower.glb              19548      44.98750305175781
+expand_central_tower.glb            17476      45.470001220703125
+expand_rear_towers.glb              15136      41.58500671386719
+expand_clock_auxiliary.glb           6912      20.26800537109375
+TOTAL                              59072      6,184,900 bytes / ~5.90MiB GLB
+
+Renderer node: <file stem>_GI
+Material:     <file stem>_GI_PBR
+Single material per model. Parent fixed GI display adapter required; no COLOR_0.
+Textures: 3x2048 for principal towers, 1x1024 for clock auxiliary needles.
+Clock auxiliary excludes accepted left main tower skin, clock face and main slate spire.
+
+Appearance matches accepted stone/trim/slate palette. All source colors use FLOAT_COLOR linear data.
+Existing rectangular needle windows remain rectangular; original pointed windows remain pointed.
+Old ten-sided rear ring phase measured at18degrees and matched in new bands.
+5776 open roof/pinnacle faces audited after BMesh recalculation and forced outward via radial normal dot.
+Corrected face counts: right93, central92, rear356, clockaux59. No exposure/color workaround.
+
+True Cycles DIFFUSE COLOR+DIRECT+INDIRECT,48samples,6bounces/4diffuse.
+Original full castle/interior and accepted sample source geometry remain reflectors/occluders.
+Neutral world(.65,.65,.68)*.85 plus existing25fixtures*2.4 is the same accepted design approximation;
+it is not reconstruction of original purple skybox.
+Independent128px indirect evidence and numeric results included in receipt.json.
+Mother files: towers-source.blend, towers-baked.blend.
+Rebuild source: tools/models/castle_expand_towers.py (6threads).
+
+Actual composite renders inspected: towers-front.png, towers-rear.png, central-close.png.
+Major black stripes/wedges from open-face normal flips are corrected and rebaked.
+KNOWN CLOSE-UP LIMITATION retained with parent acceptance: at the very upper taper of the right
+front spire, original coarse metal rib intersection produces localized dark slender wedges.
+At overall viewing distance these read as dark metal termination; parent will verify native distance.
+Do not claim this model has absolutely no intersections.
+
+Native importing, fixed-GI shader binding, capacity checking, gameplay verification and saving belong to parent task.

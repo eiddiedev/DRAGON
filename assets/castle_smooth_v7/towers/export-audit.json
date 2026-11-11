@@ -1,0 +1,56 @@
+{
+  "outputs": {
+    "expand_right_tower": {
+      "triangles": 12286,
+      "previous_triangles": 19548,
+      "no_vertex_colors": true,
+      "nodes": [
+        "expand_right_tower_GI"
+      ],
+      "materials": [
+        "expand_right_tower_GI_PBR"
+      ],
+      "sha256_verified": true
+    },
+    "expand_central_tower": {
+      "triangles": 7700,
+      "previous_triangles": 17476,
+      "no_vertex_colors": true,
+      "nodes": [
+        "expand_central_tower_GI"
+      ],
+      "materials": [
+        "expand_central_tower_GI_PBR"
+      ],
+      "sha256_verified": true
+    },
+    "expand_rear_towers": {
+      "triangles": 13480,
+      "previous_triangles": 15136,
+      "no_vertex_colors": true,
+      "nodes": [
+        "expand_rear_towers_GI"
+      ],
+      "materials": [
+        "expand_rear_towers_GI_PBR"
+      ],
+      "sha256_verified": true
+    },
+    "expand_clock_auxiliary": {
+      "triangles": 6368,
+      "previous_triangles": 6912,
+      "no_vertex_colors": true,
+      "nodes": [
+        "expand_clock_auxiliary_GI"
+      ],
+      "materials": [
+        "expand_clock_auxiliary_GI_PBR"
+      ],
+      "sha256_verified": true
+    }
+  },
+  "total_triangles": 39834,
+  "previous_total_triangles": 59072,
+  "tone_multiplier_baked": false,
+  "central_resource_reused_unchanged": true
+}

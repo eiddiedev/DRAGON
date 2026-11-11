@@ -1,0 +1,1 @@
+{"ok":false,"command":"authoring","data":{"exitCode":1,"signal":null,"stdout":"","stderr":"codeFile must be a safe JavaScript path under this Prefab .tmp/scene-execute\n","status":"failed","continuation":{"action":"stop","automaticRetry":false,"repeatKey":"9529482a07e78844d8360f0c900c33c8fe33e8cabf96508bf92f9e0fee7461ee"}}}

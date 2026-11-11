@@ -1,0 +1,38 @@
+{
+  "status": "complete_saved_verified",
+  "project": "project_lapv8fm0",
+  "scene_root": "1743285643",
+  "author_workspace": "workspace_vrztdtlb",
+  "prefab": "castle_refit_v1",
+  "archive_uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/xl4igirl5t3samwi.wprefab",
+  "archive_receipt": "archive-gate-level.json",
+  "wall_import": "import-gothic_wall-v5.json",
+  "wall_sha256": "0857b0da8812a5716a68c895354801de962175e6fb4d54793cbbbca618540a98",
+  "wall_scale": 40.32526397705078,
+  "user_latest_requirement": "Keep road flat; remove overhanging extension only. All terrain-following approach versions rejected.",
+  "road": {
+    "front_z": 159,
+    "back_z": 168.1,
+    "top_y": 72.24,
+    "slope_degrees": 0
+  },
+  "package_capacity": 174.741,
+  "capacity_scope": "Replacement assembly, not net increase or whole-world total",
+  "save_committed": true,
+  "own_instance_stopped": "awc-9076ac9e-cc15-4861-8ce6-081cbca8de10",
+  "no_paid_generation": true,
+  "verification": {
+    "native_road_to_hall": {
+      "x": 127.01313781738,
+      "y": 72.242156982422,
+      "z": 174.28176879883
+    },
+    "GI_materials": 8,
+    "GI_unsupported": 0,
+    "day_night_materials_equal": true,
+    "unrelated_asset_roots_preserved": 2102,
+    "terrain_unchanged": true,
+    "no_temp_hooks": true
+  },
+  "pending": []
+}

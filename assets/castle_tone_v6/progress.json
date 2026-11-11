@@ -1,0 +1,23 @@
+{
+  "status": "complete_saved_verified",
+  "root": "81652010",
+  "author": "castle_tone_v6",
+  "workspace": "workspace_vrztdtlb",
+  "archive": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/50vzmq87q1sl53rb.wprefab",
+  "capacity_points": 1.21,
+  "triangles": 0,
+  "new_textures": 0,
+  "tone": {
+    "exteriorMaterials": 11,
+    "exteriorPower": 0.68,
+    "interiorMaterials": 8,
+    "interiorPower": 1.35,
+    "lightGain": 1.4,
+    "lights": 12
+  },
+  "preserved_original_layout_and_scripts": true,
+  "save_committed": true,
+  "runtime_reload_verified": true,
+  "own_instance_stopped": "awc-b69d2b55-9f93-4be6-98d8-acc7f0e66210",
+  "paid_generation": false
+}

@@ -17,7 +17,7 @@ scene.cycles.use_denoising = False
 scene.view_settings.view_transform = 'Standard'
 if len(a) > 4:
     ox, oz, x0, x1, z0, z1 = [float(x) for x in a[4].split(',')]
-    H = np.load('/Users/a1234/Documents/awesomeWRLD/assets/terrain/v3/base_heights.npy')
+    H = np.load('/Users/bytedance/Documents/ChatGPT/DRAGON/assets/terrain/v3/base_heights.npy')
     verts, faces = [], []
     xs = range(int(x0), int(x1)); zs = range(int(z0), int(z1))
     w = len(xs)

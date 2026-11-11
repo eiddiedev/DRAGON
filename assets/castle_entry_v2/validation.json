@@ -1,0 +1,61 @@
+{
+  "ramp_sample_count": 225,
+  "incline_degrees": 23.57470620191262,
+  "all_ramp_points_match_planar_grade": true,
+  "forecourt_test_points": [
+    [
+      117.5,
+      162.5,
+      72.23999786376953
+    ],
+    [
+      123,
+      166,
+      72.23999786376953
+    ],
+    [
+      131,
+      166,
+      72.23999786376953
+    ],
+    [
+      115,
+      166,
+      72.23999786376953
+    ],
+    [
+      139,
+      166,
+      72.23999786376953
+    ],
+    [
+      124.69,
+      159.5,
+      72.23999786376953
+    ],
+    [
+      129.31,
+      159.5,
+      72.23999786376953
+    ]
+  ],
+  "sundial_point_stone_y": 72.23999786376953,
+  "central_road_overlap": false,
+  "glbs": [
+    {
+      "file": "entry_collision.glb",
+      "triangles": 140,
+      "vertex_color": false
+    },
+    {
+      "file": "entry_forecourt.glb",
+      "triangles": 3388,
+      "vertex_color": false
+    },
+    {
+      "file": "entry_stairs.glb",
+      "triangles": 864,
+      "vertex_color": false
+    }
+  ]
+}

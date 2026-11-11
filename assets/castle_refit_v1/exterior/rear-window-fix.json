@@ -1,0 +1,12 @@
+{
+  "changed_glow_faces": 52,
+  "radius_preserved": 3,
+  "center_blender": [
+    0,
+    13.1,
+    82.5
+  ],
+  "emission_strength": 0.18,
+  "geometry_delta_tris": 288,
+  "lighting_note": "local decorative glass reduction; previously baked structural GI remains, no new light added"
+}

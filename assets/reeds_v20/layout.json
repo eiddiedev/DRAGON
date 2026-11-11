@@ -1,0 +1,3902 @@
+[
+  {
+    "nodeName": "golden_geometry_0",
+    "pos": {
+      "x": 122.43358334999999,
+      "y": 38.9211669921875,
+      "z": 41.319785599999996
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.07436924,
+      "z": 0.0,
+      "w": 0.997230768
+    },
+    "scale": {
+      "x": 1.08243179,
+      "y": 0.892886162,
+      "z": 1.08243179
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000000
+  },
+  {
+    "nodeName": "golden_geometry_1",
+    "pos": {
+      "x": 121.0037872,
+      "y": 38.576959228515626,
+      "z": 37.6547088
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.8673476,
+      "z": 0.0,
+      "w": 0.497702956
+    },
+    "scale": {
+      "x": 1.10951746,
+      "y": 0.9046172,
+      "z": 1.10951746
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000001
+  },
+  {
+    "nodeName": "golden_geometry_2",
+    "pos": {
+      "x": 122.0231104,
+      "y": 39.04519424438477,
+      "z": 42.608452784
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.6183086,
+      "z": 0.0,
+      "w": 0.7859354
+    },
+    "scale": {
+      "x": 1.13309312,
+      "y": 1.168934,
+      "z": 1.13309312
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000002
+  },
+  {
+    "nodeName": "golden_geometry_3",
+    "pos": {
+      "x": 121.5254157,
+      "y": 38.63775787353516,
+      "z": 38.42844959999999
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.491163,
+      "z": 0.0,
+      "w": 0.8710677
+    },
+    "scale": {
+      "x": 1.161997,
+      "y": 0.844687164,
+      "z": 1.161997
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000003
+  },
+  {
+    "nodeName": "golden_geometry_4",
+    "pos": {
+      "x": 118.5965451,
+      "y": 38.94825897216797,
+      "z": 39.922924848
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.9332756,
+      "z": 0.0,
+      "w": 0.359161079
+    },
+    "scale": {
+      "x": 0.960608959,
+      "y": 0.813677847,
+      "z": 0.960608959
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000004
+  },
+  {
+    "nodeName": "golden_geometry_5",
+    "pos": {
+      "x": 121.18416815,
+      "y": 38.902139282226564,
+      "z": 40.353153024
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.447613746,
+      "z": 0.0,
+      "w": 0.894227
+    },
+    "scale": {
+      "x": 1.11449826,
+      "y": 0.8759723,
+      "z": 1.11449826
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000005
+  },
+  {
+    "nodeName": "golden_geometry_6",
+    "pos": {
+      "x": 119.80537335,
+      "y": 38.81347808837891,
+      "z": 39.3757344
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.8630757,
+      "z": 0.0,
+      "w": 0.5050747
+    },
+    "scale": {
+      "x": 1.01676869,
+      "y": 0.981199265,
+      "z": 1.01676869
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000006
+  },
+  {
+    "nodeName": "golden_geometry_7",
+    "pos": {
+      "x": 120.2328157,
+      "y": 39.062982177734376,
+      "z": 41.866462976
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.7487697,
+      "z": 0.0,
+      "w": 0.6628303
+    },
+    "scale": {
+      "x": 1.15507531,
+      "y": 0.81392926,
+      "z": 1.15507531
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000007
+  },
+  {
+    "nodeName": "golden_geometry_8",
+    "pos": {
+      "x": 121.49822625,
+      "y": 38.792962646484376,
+      "z": 39.575432752000005
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.5740341,
+      "z": 0.0,
+      "w": 0.8188314
+    },
+    "scale": {
+      "x": 1.06634545,
+      "y": 0.955057263,
+      "z": 1.06634545
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000008
+  },
+  {
+    "nodeName": "golden_geometry_9",
+    "pos": {
+      "x": 122.95007135,
+      "y": 38.57126388549805,
+      "z": 38.7607088
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.005909746,
+      "z": 0.0,
+      "w": 0.999982536
+    },
+    "scale": {
+      "x": 1.07158482,
+      "y": 0.889914334,
+      "z": 1.07158482
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000009
+  },
+  {
+    "nodeName": "golden_geometry_10",
+    "pos": {
+      "x": 122.41226350000001,
+      "y": 38.51796875,
+      "z": 38.019949312
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.9982263,
+      "z": 0.0,
+      "w": 0.0595336258
+    },
+    "scale": {
+      "x": 1.14525533,
+      "y": 0.817838669,
+      "z": 1.14525533
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000010
+  },
+  {
+    "nodeName": "golden_geometry_11",
+    "pos": {
+      "x": 119.26693415,
+      "y": 38.774392700195314,
+      "z": 38.526086384
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.3403683,
+      "z": 0.0,
+      "w": 0.940292239
+    },
+    "scale": {
+      "x": 1.04656291,
+      "y": 1.01579893,
+      "z": 1.04656291
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000011
+  },
+  {
+    "nodeName": "golden_geometry_12",
+    "pos": {
+      "x": 120.8889298,
+      "y": 39.13717041015625,
+      "z": 42.7744752
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.6804871,
+      "z": 0.0,
+      "w": 0.7327601
+    },
+    "scale": {
+      "x": 1.0473789,
+      "y": 0.8889551,
+      "z": 1.0473789
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000012
+  },
+  {
+    "nodeName": "golden_geometry_13",
+    "pos": {
+      "x": 119.44666534999999,
+      "y": 39.069234466552736,
+      "z": 41.59880616
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.35856685,
+      "z": 0.0,
+      "w": 0.933504045
+    },
+    "scale": {
+      "x": 1.08999407,
+      "y": 1.0154351,
+      "z": 1.08999407
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000013
+  },
+  {
+    "nodeName": "golden_geometry_14",
+    "pos": {
+      "x": 123.3742937,
+      "y": 38.822427368164064,
+      "z": 41.0132752
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.0350599624,
+      "z": 0.0,
+      "w": 0.999385238
+    },
+    "scale": {
+      "x": 1.14772379,
+      "y": 1.15626919,
+      "z": 1.14772379
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000014
+  },
+  {
+    "nodeName": "golden_geometry_15",
+    "pos": {
+      "x": 118.3484395,
+      "y": 39.14703140258789,
+      "z": 41.292304048
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.108917713,
+      "z": 0.0,
+      "w": 0.9940508
+    },
+    "scale": {
+      "x": 0.9887029,
+      "y": 1.14941692,
+      "z": 0.9887029
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000015
+  },
+  {
+    "nodeName": "golden_geometry_16",
+    "pos": {
+      "x": 121.82478714999999,
+      "y": 38.93209228515625,
+      "z": 40.908705392
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.310821116,
+      "z": 0.0,
+      "w": 0.9504684
+    },
+    "scale": {
+      "x": 0.953011155,
+      "y": 1.09245241,
+      "z": 0.953011155
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000016
+  },
+  {
+    "nodeName": "golden_geometry_17",
+    "pos": {
+      "x": 120.20702924999999,
+      "y": 38.86445770263672,
+      "z": 39.987955968
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.780168653,
+      "z": 0.0,
+      "w": 0.6255692
+    },
+    "scale": {
+      "x": 1.07291293,
+      "y": 0.9907459,
+      "z": 1.07291293
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000017
+  },
+  {
+    "nodeName": "golden_geometry_18",
+    "pos": {
+      "x": 120.37662664999999,
+      "y": 38.72174987792969,
+      "z": 38.651228800000005
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.992102861,
+      "z": 0.0,
+      "w": 0.125427052
+    },
+    "scale": {
+      "x": 1.12029552,
+      "y": 1.0058825,
+      "z": 1.12029552
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000018
+  },
+  {
+    "nodeName": "golden_geometry_19",
+    "pos": {
+      "x": 122.62337015,
+      "y": 38.75047073364258,
+      "z": 39.830336352
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.996816635,
+      "z": 0.0,
+      "w": 0.0797281638
+    },
+    "scale": {
+      "x": 1.07110393,
+      "y": 0.97752744,
+      "z": 1.07110393
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000019
+  },
+  {
+    "nodeName": "golden_geometry_20",
+    "pos": {
+      "x": 120.7473464,
+      "y": 38.99545440673828,
+      "z": 41.116583999999996
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.464648873,
+      "z": 0.0,
+      "w": 0.885495
+    },
+    "scale": {
+      "x": 1.17873955,
+      "y": 0.925112665,
+      "z": 1.17873955
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000020
+  },
+  {
+    "nodeName": "golden_geometry_21",
+    "pos": {
+      "x": 119.6237113,
+      "y": 39.17080841064453,
+      "z": 42.648016
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.6172201,
+      "z": 0.0,
+      "w": 0.7867906
+    },
+    "scale": {
+      "x": 0.992758155,
+      "y": 1.003107,
+      "z": 0.992758155
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000021
+  },
+  {
+    "nodeName": "golden_geometry_22",
+    "pos": {
+      "x": 123.09706779999999,
+      "y": 38.902322387695314,
+      "z": 41.984337599999996
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.6758983,
+      "z": 0.0,
+      "w": 0.7369949
+    },
+    "scale": {
+      "x": 1.06343424,
+      "y": 1.115683,
+      "z": 1.06343424
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000022
+  },
+  {
+    "nodeName": "golden_geometry_23",
+    "pos": {
+      "x": 121.1595662,
+      "y": 39.06024322509766,
+      "z": 42.097744096
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.647371531,
+      "z": 0.0,
+      "w": 0.7621746
+    },
+    "scale": {
+      "x": 1.0369885,
+      "y": 0.8107676,
+      "z": 1.0369885
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000023
+  },
+  {
+    "nodeName": "golden_geometry_24",
+    "pos": {
+      "x": 119.434695,
+      "y": 38.89541015625,
+      "z": 40.11501896
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.894255459,
+      "z": 0.0,
+      "w": 0.447556883
+    },
+    "scale": {
+      "x": 0.9660936,
+      "y": 0.85666734,
+      "z": 0.9660936
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880000024
+  },
+  {
+    "nodeName": "golden_geometry_25",
+    "pos": {
+      "x": 129.9495751,
+      "y": 38.651963806152345,
+      "z": 42.817021536000006
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.04026837,
+      "z": 0.0,
+      "w": 0.9991889
+    },
+    "scale": {
+      "x": 1.0495429,
+      "y": 1.17478931,
+      "z": 1.0495429
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010025
+  },
+  {
+    "nodeName": "golden_geometry_26",
+    "pos": {
+      "x": 126.6602,
+      "y": 38.00709686279297,
+      "z": 36.45842
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.503410459,
+      "z": 0.0,
+      "w": 0.864047468
+    },
+    "scale": {
+      "x": 1.0810040713108495,
+      "y": 1.155007467506582,
+      "z": 1.0810040713108495
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010026
+  },
+  {
+    "nodeName": "golden_geometry_27",
+    "pos": {
+      "x": 107.1572076,
+      "y": 40.547097778320314,
+      "z": 42.4887744
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.312038928,
+      "z": 0.0,
+      "w": 0.9500693
+    },
+    "scale": {
+      "x": 1.0762793427113335,
+      "y": 0.6864847208779662,
+      "z": 1.0762793427113335
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010027
+  },
+  {
+    "nodeName": "golden_geometry_28",
+    "pos": {
+      "x": 107.43261650000001,
+      "y": 40.567666625976564,
+      "z": 40.497831376
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.703451931,
+      "z": 0.0,
+      "w": 0.710742831
+    },
+    "scale": {
+      "x": 0.9556901953599751,
+      "y": 0.869461236488182,
+      "z": 0.9556901953599751
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010028
+  },
+  {
+    "nodeName": "golden_geometry_29",
+    "pos": {
+      "x": 129.35897535,
+      "y": 38.54501113891602,
+      "z": 40.869471456
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.3779168,
+      "z": 0.0,
+      "w": 0.925839543
+    },
+    "scale": {
+      "x": 1.17417,
+      "y": 0.95250684,
+      "z": 1.17417
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010029
+  },
+  {
+    "nodeName": "golden_geometry_30",
+    "pos": {
+      "x": 126.6310247,
+      "y": 38.660989379882814,
+      "z": 42.040483200000004
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.342361242,
+      "z": 0.0,
+      "w": 0.9395684
+    },
+    "scale": {
+      "x": 1.018792,
+      "y": 0.8309805,
+      "z": 1.018792
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010030
+  },
+  {
+    "nodeName": "golden_geometry_31",
+    "pos": {
+      "x": 109.26362234999999,
+      "y": 40.34535369873047,
+      "z": 44.451675200000004
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.114548706,
+      "z": 0.0,
+      "w": 0.9934176
+    },
+    "scale": {
+      "x": 1.10064988755453,
+      "y": 0.7259618332985456,
+      "z": 1.10064988755453
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010031
+  },
+  {
+    "nodeName": "golden_geometry_32",
+    "pos": {
+      "x": 114.09073125,
+      "y": 39.3923583984375,
+      "z": 38.397519568
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.769142449,
+      "z": 0.0,
+      "w": 0.639077365
+    },
+    "scale": {
+      "x": 1.139082,
+      "y": 1.19763672,
+      "z": 1.139082
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010032
+  },
+  {
+    "nodeName": "golden_geometry_33",
+    "pos": {
+      "x": 115.95091835000001,
+      "y": 39.03366241455078,
+      "z": 37.391030224
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.704672,
+      "z": 0.0,
+      "w": 0.7095332
+    },
+    "scale": {
+      "x": 1.22704792,
+      "y": 0.8570461,
+      "z": 1.22704792
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010033
+  },
+  {
+    "nodeName": "golden_geometry_34",
+    "pos": {
+      "x": 125.22666310000001,
+      "y": 38.576646423339845,
+      "z": 40.8901984
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.516090155,
+      "z": 0.0,
+      "w": 0.856534243
+    },
+    "scale": {
+      "x": 1.05270708,
+      "y": 0.774563849,
+      "z": 1.05270708
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010034
+  },
+  {
+    "nodeName": "golden_geometry_35",
+    "pos": {
+      "x": 127.59264205000001,
+      "y": 38.283345794677736,
+      "z": 38.632261376
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.166376427,
+      "z": 0.0,
+      "w": 0.986062348
+    },
+    "scale": {
+      "x": 1.07835126,
+      "y": 0.774387836,
+      "z": 1.07835126
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010035
+  },
+  {
+    "nodeName": "golden_geometry_36",
+    "pos": {
+      "x": 114.06129585,
+      "y": 39.920709228515626,
+      "z": 44.795495599999995
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.8498588,
+      "z": 0.0,
+      "w": 0.527010441
+    },
+    "scale": {
+      "x": 1.021126431792941,
+      "y": 0.72753506272008,
+      "z": 1.021126431792941
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010036
+  },
+  {
+    "nodeName": "golden_geometry_37",
+    "pos": {
+      "x": 128.829045,
+      "y": 38.373399353027345,
+      "z": 39.253310559999996
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.996415555,
+      "z": 0.0,
+      "w": 0.08459337
+    },
+    "scale": {
+      "x": 1.0691793,
+      "y": 0.879858434,
+      "z": 1.0691793
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010037
+  },
+  {
+    "nodeName": "golden_geometry_38",
+    "pos": {
+      "x": 114.80239265,
+      "y": 39.805257415771486,
+      "z": 43.786660752
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.009734421,
+      "z": 0.0,
+      "w": 0.9999526
+    },
+    "scale": {
+      "x": 1.1436852549593233,
+      "y": 1.128531909401466,
+      "z": 1.1436852549593233
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010038
+  },
+  {
+    "nodeName": "golden_geometry_39",
+    "pos": {
+      "x": 108.6621781,
+      "y": 40.32669219970703,
+      "z": 42.865928352
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.9176909,
+      "z": 0.0,
+      "w": 0.397295326
+    },
+    "scale": {
+      "x": 1.0718089194666978,
+      "y": 0.7998423366564418,
+      "z": 1.0718089194666978
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010039
+  },
+  {
+    "nodeName": "golden_geometry_40",
+    "pos": {
+      "x": 108.49255425,
+      "y": 40.515367126464845,
+      "z": 37.972712976
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.244327813,
+      "z": 0.0,
+      "w": 0.9696927
+    },
+    "scale": {
+      "x": 0.9803442743568994,
+      "y": 0.8005663584773081,
+      "z": 0.9803442743568994
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010040
+  },
+  {
+    "nodeName": "golden_geometry_41",
+    "pos": {
+      "x": 117.5476278,
+      "y": 38.96945343017578,
+      "z": 38.478123728
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.9626461,
+      "z": 0.0,
+      "w": 0.270762742
+    },
+    "scale": {
+      "x": 1.23911333,
+      "y": 0.7821543,
+      "z": 1.23911333
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010041
+  },
+  {
+    "nodeName": "golden_geometry_42",
+    "pos": {
+      "x": 116.4255199,
+      "y": 39.739732360839845,
+      "z": 45.876445344000004
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.179178119,
+      "z": 0.0,
+      "w": 0.9838167
+    },
+    "scale": {
+      "x": 0.9217593994895527,
+      "y": 0.5337760338100696,
+      "z": 0.9217593994895527
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010042
+  },
+  {
+    "nodeName": "golden_geometry_43",
+    "pos": {
+      "x": 126.1712593,
+      "y": 38.068643188476564,
+      "z": 36.8753344
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.977840662,
+      "z": 0.0,
+      "w": 0.209350646
+    },
+    "scale": {
+      "x": 1.2305547,
+      "y": 1.06799316,
+      "z": 1.2305547
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010043
+  },
+  {
+    "nodeName": "golden_geometry_44",
+    "pos": {
+      "x": 120.6594243,
+      "y": 38.237481689453126,
+      "z": 35.1088144
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.429015875,
+      "z": 0.0,
+      "w": 0.903296947
+    },
+    "scale": {
+      "x": 0.9665014393232036,
+      "y": 0.6248512927920609,
+      "z": 0.9665014393232036
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010044
+  },
+  {
+    "nodeName": "golden_geometry_45",
+    "pos": {
+      "x": 128.2997575,
+      "y": 38.717874145507814,
+      "z": 42.589589855999996
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.5647165,
+      "z": 0.0,
+      "w": 0.825285
+    },
+    "scale": {
+      "x": 1.19141328,
+      "y": 1.07077861,
+      "z": 1.19141328
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010045
+  },
+  {
+    "nodeName": "golden_geometry_46",
+    "pos": {
+      "x": 115.66996415,
+      "y": 39.32593688964844,
+      "z": 39.555621296
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.8433926,
+      "z": 0.0,
+      "w": 0.5372978
+    },
+    "scale": {
+      "x": 1.21053839,
+      "y": 0.92738086,
+      "z": 1.21053839
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010046
+  },
+  {
+    "nodeName": "golden_geometry_47",
+    "pos": {
+      "x": 110.28434855,
+      "y": 40.04963836669922,
+      "z": 41.604138144000004
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.817960262,
+      "z": 0.0,
+      "w": 0.5752747
+    },
+    "scale": {
+      "x": 0.9996745723854128,
+      "y": 0.955940338182421,
+      "z": 0.9996745723854128
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010047
+  },
+  {
+    "nodeName": "golden_geometry_48",
+    "pos": {
+      "x": 117.10742850000001,
+      "y": 38.655477142333986,
+      "z": 35.606918944
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.503662169,
+      "z": 0.0,
+      "w": 0.8639007
+    },
+    "scale": {
+      "x": 1.1189159683511065,
+      "y": 0.9271552509967274,
+      "z": 1.1189159683511065
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010048
+  },
+  {
+    "nodeName": "golden_geometry_49",
+    "pos": {
+      "x": 127.595555,
+      "y": 38.5049072265625,
+      "z": 40.513072
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.2915417,
+      "z": 0.0,
+      "w": 0.956558168
+    },
+    "scale": {
+      "x": 1.12316871,
+      "y": 1.065983,
+      "z": 1.12316871
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010049
+  },
+  {
+    "nodeName": "golden_geometry_50",
+    "pos": {
+      "x": 114.4562921,
+      "y": 39.10376892089844,
+      "z": 36.746593648
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.8754313,
+      "z": 0.0,
+      "w": 0.483342677
+    },
+    "scale": {
+      "x": 1.00448847,
+      "y": 1.19610167,
+      "z": 1.00448847
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010050
+  },
+  {
+    "nodeName": "golden_geometry_51",
+    "pos": {
+      "x": 134.16184339999998,
+      "y": 38.20722351074219,
+      "z": 38.666584
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.8824343,
+      "z": 0.0,
+      "w": 0.470435679
+    },
+    "scale": {
+      "x": 0.9534110598599504,
+      "y": 0.9880355995292567,
+      "z": 0.9534110598599504
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010051
+  },
+  {
+    "nodeName": "golden_geometry_52",
+    "pos": {
+      "x": 113.49936905,
+      "y": 39.813863372802736,
+      "z": 42.438814672
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.9312619,
+      "z": 0.0,
+      "w": 0.364350617
+    },
+    "scale": {
+      "x": 1.22414982,
+      "y": 1.19754827,
+      "z": 1.22414982
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010052
+  },
+  {
+    "nodeName": "golden_geometry_53",
+    "pos": {
+      "x": 135.3849466,
+      "y": 38.264215087890626,
+      "z": 38.9071264
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.998095036,
+      "z": 0.0,
+      "w": 0.0616955571
+    },
+    "scale": {
+      "x": 1.0667811860669594,
+      "y": 0.6156784319661691,
+      "z": 1.0667811860669594
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010053
+  },
+  {
+    "nodeName": "golden_geometry_54",
+    "pos": {
+      "x": 116.35753995,
+      "y": 39.56014404296875,
+      "z": 43.390009728
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.7275276,
+      "z": 0.0,
+      "w": 0.68607837
+    },
+    "scale": {
+      "x": 1.07794583,
+      "y": 1.06356728,
+      "z": 1.07794583
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010054
+  },
+  {
+    "nodeName": "golden_geometry_55",
+    "pos": {
+      "x": 109.78890095,
+      "y": 40.27893218994141,
+      "z": 36.00824832
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.868123055,
+      "z": 0.0,
+      "w": 0.496349037
+    },
+    "scale": {
+      "x": 1.1720595709399586,
+      "y": 0.5396045453214648,
+      "z": 1.1720595709399586
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010055
+  },
+  {
+    "nodeName": "golden_geometry_56",
+    "pos": {
+      "x": 128.9038778,
+      "y": 38.04334030151367,
+      "z": 37.1073424
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.8751276,
+      "z": 0.0,
+      "w": 0.483892173
+    },
+    "scale": {
+      "x": 1.20649362,
+      "y": 0.8148432,
+      "z": 1.20649362
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010056
+  },
+  {
+    "nodeName": "golden_geometry_57",
+    "pos": {
+      "x": 133.1100925,
+      "y": 38.307977294921876,
+      "z": 40.2358496
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.754012048,
+      "z": 0.0,
+      "w": 0.6568606
+    },
+    "scale": {
+      "x": 1.0556107227974456,
+      "y": 0.8489121261645652,
+      "z": 1.0556107227974456
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010057
+  },
+  {
+    "nodeName": "golden_geometry_58",
+    "pos": {
+      "x": 107.7451221,
+      "y": 40.585260009765626,
+      "z": 39.25692928
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.4408027,
+      "z": 0.0,
+      "w": 0.897604048
+    },
+    "scale": {
+      "x": 0.9935961442118281,
+      "y": 0.7564318549828745,
+      "z": 0.9935961442118281
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010058
+  },
+  {
+    "nodeName": "golden_geometry_59",
+    "pos": {
+      "x": 105.96981305,
+      "y": 40.78907928466797,
+      "z": 40.539577584
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.7719232,
+      "z": 0.0,
+      "w": 0.635715842
+    },
+    "scale": {
+      "x": 0.9391921838543349,
+      "y": 0.6344064143721071,
+      "z": 0.9391921838543349
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010059
+  },
+  {
+    "nodeName": "golden_geometry_60",
+    "pos": {
+      "x": 137.8842876,
+      "y": 38.33241424560547,
+      "z": 39.172731936000005
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.168597937,
+      "z": 0.0,
+      "w": 0.985684931
+    },
+    "scale": {
+      "x": 1.0019957947760745,
+      "y": 0.6245226348923922,
+      "z": 1.0019957947760745
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010060
+  },
+  {
+    "nodeName": "golden_geometry_61",
+    "pos": {
+      "x": 120.1313558,
+      "y": 38.46635208129883,
+      "z": 36.566472000000005
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.05710207,
+      "z": 0.0,
+      "w": 0.9983683
+    },
+    "scale": {
+      "x": 1.1939944,
+      "y": 0.919347763,
+      "z": 1.1939944
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010061
+  },
+  {
+    "nodeName": "golden_geometry_62",
+    "pos": {
+      "x": 133.34236950000002,
+      "y": 38.10569534301758,
+      "z": 37.85273375999999
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.415443,
+      "z": 0.0,
+      "w": 0.9096192
+    },
+    "scale": {
+      "x": 1.1879665396592611,
+      "y": 0.7359902559738555,
+      "z": 1.1879665396592611
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010062
+  },
+  {
+    "nodeName": "golden_geometry_63",
+    "pos": {
+      "x": 116.54789715,
+      "y": 39.43566665649414,
+      "z": 42.2318268
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.996289849,
+      "z": 0.0,
+      "w": 0.08606107
+    },
+    "scale": {
+      "x": 1.06291735,
+      "y": 0.89200604,
+      "z": 1.06291735
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010063
+  },
+  {
+    "nodeName": "golden_geometry_64",
+    "pos": {
+      "x": 136.57586705,
+      "y": 38.100606536865236,
+      "z": 36.7720816
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.222711384,
+      "z": 0.0,
+      "w": 0.97488445
+    },
+    "scale": {
+      "x": 0.9665648165116912,
+      "y": 0.7176912689801911,
+      "z": 0.9665648165116912
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010064
+  },
+  {
+    "nodeName": "golden_geometry_65",
+    "pos": {
+      "x": 133.10659995,
+      "y": 38.46608123779297,
+      "z": 41.833402704
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.69881773,
+      "z": 0.0,
+      "w": 0.7152998
+    },
+    "scale": {
+      "x": 1.1929267529269008,
+      "y": 0.9515556138085103,
+      "z": 1.1929267529269008
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010065
+  },
+  {
+    "nodeName": "golden_geometry_66",
+    "pos": {
+      "x": 124.40534,
+      "y": 39.02099380493164,
+      "z": 43.978067072
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.1926719,
+      "z": 0.0,
+      "w": 0.9812632
+    },
+    "scale": {
+      "x": 1.0016271901854823,
+      "y": 0.749058389385465,
+      "z": 1.0016271901854823
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010066
+  },
+  {
+    "nodeName": "golden_geometry_67",
+    "pos": {
+      "x": 113.0858946,
+      "y": 39.49817428588867,
+      "z": 38.852250319999996
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.976836,
+      "z": 0.0,
+      "w": 0.213989317
+    },
+    "scale": {
+      "x": 1.06513548,
+      "y": 1.134175,
+      "z": 1.06513548
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010067
+  },
+  {
+    "nodeName": "golden_geometry_68",
+    "pos": {
+      "x": 123.87432175000001,
+      "y": 38.25766143798828,
+      "z": 37.0109552
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.9147817,
+      "z": 0.0,
+      "w": 0.4039487
+    },
+    "scale": {
+      "x": 1.0051955,
+      "y": 0.810850859,
+      "z": 1.0051955
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010068
+  },
+  {
+    "nodeName": "golden_geometry_69",
+    "pos": {
+      "x": 117.3481994,
+      "y": 39.425225830078126,
+      "z": 43.0164288
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.786750734,
+      "z": 0.0,
+      "w": 0.6172708
+    },
+    "scale": {
+      "x": 1.21571839,
+      "y": 1.16286051,
+      "z": 1.21571839
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010069
+  },
+  {
+    "nodeName": "golden_geometry_70",
+    "pos": {
+      "x": 122.84791799999999,
+      "y": 39.19769439697266,
+      "z": 45.113416
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.402707428,
+      "z": 0.0,
+      "w": 0.915328741
+    },
+    "scale": {
+      "x": 1.1186319736232475,
+      "y": 0.5491098390741704,
+      "z": 1.1186319736232475
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010070
+  },
+  {
+    "nodeName": "golden_geometry_71",
+    "pos": {
+      "x": 117.67137355000001,
+      "y": 38.83923110961914,
+      "z": 37.391953103999995
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.262071759,
+      "z": 0.0,
+      "w": 0.965048432
+    },
+    "scale": {
+      "x": 1.04040515,
+      "y": 1.19230151,
+      "z": 1.04040515
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010071
+  },
+  {
+    "nodeName": "golden_geometry_72",
+    "pos": {
+      "x": 119.8886897,
+      "y": 39.277547454833986,
+      "z": 44.188818928
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.6659911,
+      "z": 0.0,
+      "w": 0.745959759
+    },
+    "scale": {
+      "x": 1.1372362876988702,
+      "y": 0.9252027274570551,
+      "z": 1.1372362876988702
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010072
+  },
+  {
+    "nodeName": "golden_geometry_73",
+    "pos": {
+      "x": 130.4582983,
+      "y": 38.36058578491211,
+      "z": 39.3430304
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.7039772,
+      "z": 0.0,
+      "w": 0.710222542
+    },
+    "scale": {
+      "x": 1.17335832,
+      "y": 0.885040343,
+      "z": 1.17335832
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010073
+  },
+  {
+    "nodeName": "golden_geometry_74",
+    "pos": {
+      "x": 115.39708985000001,
+      "y": 38.825032806396486,
+      "z": 35.582245455999995
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.948399067,
+      "z": 0.0,
+      "w": 0.317079216
+    },
+    "scale": {
+      "x": 1.0298172398548882,
+      "y": 0.8812961753608503,
+      "z": 1.0298172398548882
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010074
+  },
+  {
+    "nodeName": "golden_geometry_75",
+    "pos": {
+      "x": 136.57823605,
+      "y": 38.455484008789064,
+      "z": 40.516403776
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.9498988,
+      "z": 0.0,
+      "w": 0.312557727
+    },
+    "scale": {
+      "x": 0.9213161136515228,
+      "y": 0.6461943539087073,
+      "z": 0.9213161136515228
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010075
+  },
+  {
+    "nodeName": "golden_geometry_76",
+    "pos": {
+      "x": 112.98771565,
+      "y": 39.382188415527345,
+      "z": 37.497483200000005
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.9273606,
+      "z": 0.0,
+      "w": 0.374168873
+    },
+    "scale": {
+      "x": 1.24056554,
+      "y": 0.9759036,
+      "z": 1.24056554
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010076
+  },
+  {
+    "nodeName": "golden_geometry_77",
+    "pos": {
+      "x": 135.1692687,
+      "y": 38.01691589355469,
+      "z": 36.73828795199999
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.759096,
+      "z": 0.0,
+      "w": 0.6509787
+    },
+    "scale": {
+      "x": 1.1504934925881611,
+      "y": 0.9459994997800785,
+      "z": 1.1504934925881611
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010077
+  },
+  {
+    "nodeName": "golden_geometry_78",
+    "pos": {
+      "x": 110.11130000000001,
+      "y": 40.02729949951172,
+      "z": 39.10248408
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.2597216,
+      "z": 0.0,
+      "w": 0.9656836
+    },
+    "scale": {
+      "x": 1.0739661339213795,
+      "y": 1.0032209003682604,
+      "z": 1.0739661339213795
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010078
+  },
+  {
+    "nodeName": "golden_geometry_79",
+    "pos": {
+      "x": 130.18185325,
+      "y": 38.146356201171876,
+      "z": 37.825851408
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.3864879,
+      "z": 0.0,
+      "w": 0.9222945
+    },
+    "scale": {
+      "x": 1.17575526,
+      "y": 1.19111979,
+      "z": 1.17575526
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010079
+  },
+  {
+    "nodeName": "golden_geometry_80",
+    "pos": {
+      "x": 114.8115087,
+      "y": 39.485398864746095,
+      "z": 40.426771856
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.655255556,
+      "z": 0.0,
+      "w": 0.7554073
+    },
+    "scale": {
+      "x": 1.093471,
+      "y": 1.18466973,
+      "z": 1.093471
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010080
+  },
+  {
+    "nodeName": "golden_geometry_81",
+    "pos": {
+      "x": 124.43459025,
+      "y": 38.5419059753418,
+      "z": 39.7908176
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.6285026,
+      "z": 0.0,
+      "w": 0.7778075
+    },
+    "scale": {
+      "x": 1.05397642,
+      "y": 0.9735055,
+      "z": 1.05397642
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010081
+  },
+  {
+    "nodeName": "golden_geometry_82",
+    "pos": {
+      "x": 117.8566328,
+      "y": 39.51636276245117,
+      "z": 44.4353568
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.2093902,
+      "z": 0.0,
+      "w": 0.977832139
+    },
+    "scale": {
+      "x": 1.0583505357968186,
+      "y": 0.9095690543323385,
+      "z": 1.0583505357968186
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010082
+  },
+  {
+    "nodeName": "golden_geometry_83",
+    "pos": {
+      "x": 126.31475515,
+      "y": 38.27577362060547,
+      "z": 38.4955712
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.934141,
+      "z": 0.0,
+      "w": 0.356904268
+    },
+    "scale": {
+      "x": 1.02401042,
+      "y": 0.9017533,
+      "z": 1.02401042
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010083
+  },
+  {
+    "nodeName": "golden_geometry_84",
+    "pos": {
+      "x": 118.751043,
+      "y": 38.64495620727539,
+      "z": 37.020430399999995
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.986697137,
+      "z": 0.0,
+      "w": 0.162569419
+    },
+    "scale": {
+      "x": 1.11225331,
+      "y": 0.7619483,
+      "z": 1.11225331
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010084
+  },
+  {
+    "nodeName": "golden_geometry_85",
+    "pos": {
+      "x": 131.63838,
+      "y": 38.098897552490236,
+      "z": 37.695481615999995
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.3965844,
+      "z": 0.0,
+      "w": 0.9179983
+    },
+    "scale": {
+      "x": 1.1618876361670543,
+      "y": 1.0165990336689303,
+      "z": 1.1618876361670543
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010085
+  },
+  {
+    "nodeName": "golden_geometry_86",
+    "pos": {
+      "x": 111.8211062,
+      "y": 39.978250122070314,
+      "z": 42.5143104
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.604940534,
+      "z": 0.0,
+      "w": 0.7962707
+    },
+    "scale": {
+      "x": 1.1698220734028784,
+      "y": 1.0547453645537594,
+      "z": 1.1698220734028784
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010086
+  },
+  {
+    "nodeName": "golden_geometry_87",
+    "pos": {
+      "x": 131.29319485,
+      "y": 38.47817764282227,
+      "z": 41.2312048
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.790534,
+      "z": 0.0,
+      "w": 0.6124181
+    },
+    "scale": {
+      "x": 1.0182530338195317,
+      "y": 1.1762415093751961,
+      "z": 1.0182530338195317
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010087
+  },
+  {
+    "nodeName": "golden_geometry_88",
+    "pos": {
+      "x": 110.626615,
+      "y": 39.915689086914064,
+      "z": 40.2639168
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.878880262,
+      "z": 0.0,
+      "w": 0.477042437
+    },
+    "scale": {
+      "x": 1.130996286006804,
+      "y": 0.7184407735519367,
+      "z": 1.130996286006804
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010088
+  },
+  {
+    "nodeName": "golden_geometry_89",
+    "pos": {
+      "x": 111.8886388,
+      "y": 39.60318145751953,
+      "z": 39.186698559999996
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.9997292,
+      "z": 0.0,
+      "w": 0.023270091
+    },
+    "scale": {
+      "x": 1.025630593072741,
+      "y": 1.0516821228654651,
+      "z": 1.025630593072741
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010089
+  },
+  {
+    "nodeName": "golden_geometry_90",
+    "pos": {
+      "x": 131.303513,
+      "y": 38.00460968017578,
+      "z": 37.0016479
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.9809713,
+      "z": 0.0,
+      "w": 0.19415307
+    },
+    "scale": {
+      "x": 1.1464816825014041,
+      "y": 0.8263997957664536,
+      "z": 1.1464816825014041
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010090
+  },
+  {
+    "nodeName": "golden_geometry_91",
+    "pos": {
+      "x": 134.99547725,
+      "y": 38.34161529541016,
+      "z": 40.279893152
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.9949235,
+      "z": 0.0,
+      "w": 0.100634895
+    },
+    "scale": {
+      "x": 1.0905900711737295,
+      "y": 0.8325006791314867,
+      "z": 1.0905900711737295
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010091
+  },
+  {
+    "nodeName": "golden_geometry_92",
+    "pos": {
+      "x": 111.8894024,
+      "y": 39.60809097290039,
+      "z": 36.563475999999994
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.46168977,
+      "z": 0.0,
+      "w": 0.8870415
+    },
+    "scale": {
+      "x": 1.2318112566864785,
+      "y": 0.9402921625019827,
+      "z": 1.2318112566864785
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010092
+  },
+  {
+    "nodeName": "golden_geometry_93",
+    "pos": {
+      "x": 124.493462,
+      "y": 37.97839508056641,
+      "z": 35.1509552
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.138985738,
+      "z": 0.0,
+      "w": 0.9902944
+    },
+    "scale": {
+      "x": 1.0348655896955365,
+      "y": 0.8381158530996682,
+      "z": 1.0348655896955365
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010093
+  },
+  {
+    "nodeName": "golden_geometry_94",
+    "pos": {
+      "x": 109.56149305000001,
+      "y": 40.14214859008789,
+      "z": 40.582058736
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.793741,
+      "z": 0.0,
+      "w": 0.608256
+    },
+    "scale": {
+      "x": 0.9565253337402585,
+      "y": 0.7367539686052802,
+      "z": 0.9565253337402585
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010094
+  },
+  {
+    "nodeName": "golden_geometry_95",
+    "pos": {
+      "x": 132.3047797,
+      "y": 38.21961364746094,
+      "z": 38.734411200000004
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.63958323,
+      "z": 0.0,
+      "w": 0.768721938
+    },
+    "scale": {
+      "x": 1.0458903247257032,
+      "y": 1.0575661680741508,
+      "z": 1.0458903247257032
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010095
+  },
+  {
+    "nodeName": "golden_geometry_96",
+    "pos": {
+      "x": 134.8010502,
+      "y": 38.61411819458008,
+      "z": 42.651416655999995
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.9999081,
+      "z": 0.0,
+      "w": 0.0135581326
+    },
+    "scale": {
+      "x": 1.0941317398533512,
+      "y": 0.7820040675440517,
+      "z": 1.0941317398533512
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010096
+  },
+  {
+    "nodeName": "golden_geometry_97",
+    "pos": {
+      "x": 111.31849065,
+      "y": 40.148110961914064,
+      "z": 44.38493776
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.716098,
+      "z": 0.0,
+      "w": 0.6979998
+    },
+    "scale": {
+      "x": 1.0551188922779877,
+      "y": 0.6603988858841979,
+      "z": 1.0551188922779877
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010097
+  },
+  {
+    "nodeName": "golden_geometry_98",
+    "pos": {
+      "x": 128.99147,
+      "y": 37.99695358276367,
+      "z": 36.77895
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.6870532,
+      "z": 0.0,
+      "w": 0.7266071
+    },
+    "scale": {
+      "x": 1.04693544,
+      "y": 1.188908,
+      "z": 1.04693544
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010098
+  },
+  {
+    "nodeName": "golden_geometry_99",
+    "pos": {
+      "x": 125.27455945,
+      "y": 38.38217697143555,
+      "z": 39.0580016
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.136558935,
+      "z": 0.0,
+      "w": 0.990632
+    },
+    "scale": {
+      "x": 1.21702516,
+      "y": 1.14328957,
+      "z": 1.21702516
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010099
+  },
+  {
+    "nodeName": "golden_geometry_100",
+    "pos": {
+      "x": 116.49794,
+      "y": 39.30713424682617,
+      "z": 40.607851552
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.693204165,
+      "z": 0.0,
+      "w": 0.7207413
+    },
+    "scale": {
+      "x": 1.16497862,
+      "y": 1.00979626,
+      "z": 1.16497862
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010100
+  },
+  {
+    "nodeName": "golden_geometry_101",
+    "pos": {
+      "x": 112.73396815000001,
+      "y": 39.972791290283205,
+      "z": 43.4645072
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.935050547,
+      "z": 0.0,
+      "w": 0.35451436
+    },
+    "scale": {
+      "x": 1.232569150878306,
+      "y": 1.170821343338141,
+      "z": 1.232569150878306
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010101
+  },
+  {
+    "nodeName": "golden_geometry_102",
+    "pos": {
+      "x": 117.37928505000001,
+      "y": 39.129541015625,
+      "z": 39.790952
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.6336606,
+      "z": 0.0,
+      "w": 0.7736112
+    },
+    "scale": {
+      "x": 1.02131081,
+      "y": 1.11390126,
+      "z": 1.02131081
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010102
+  },
+  {
+    "nodeName": "golden_geometry_103",
+    "pos": {
+      "x": 115.00882225000001,
+      "y": 39.59795150756836,
+      "z": 42.206192016
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.43930307,
+      "z": 0.0,
+      "w": 0.898339
+    },
+    "scale": {
+      "x": 1.23911881,
+      "y": 0.8258103,
+      "z": 1.23911881
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010103
+  },
+  {
+    "nodeName": "golden_geometry_104",
+    "pos": {
+      "x": 118.2473476,
+      "y": 38.5751091003418,
+      "z": 35.945032944
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.916149557,
+      "z": 0.0,
+      "w": 0.4008366
+    },
+    "scale": {
+      "x": 1.064463635861606,
+      "y": 1.0298670049119134,
+      "z": 1.064463635861606
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010104
+  },
+  {
+    "nodeName": "golden_geometry_105",
+    "pos": {
+      "x": 123.58325905,
+      "y": 38.94450149536133,
+      "z": 42.962182608
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.0378149375,
+      "z": 0.0,
+      "w": 0.999284744
+    },
+    "scale": {
+      "x": 1.12396586,
+      "y": 0.8243395,
+      "z": 1.12396586
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010105
+  },
+  {
+    "nodeName": "golden_geometry_106",
+    "pos": {
+      "x": 132.1230222,
+      "y": 38.535867309570314,
+      "z": 42.2350944
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.9739502,
+      "z": 0.0,
+      "w": 0.226762086
+    },
+    "scale": {
+      "x": 1.1426188632807113,
+      "y": 1.0793727190643336,
+      "z": 1.1426188632807113
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010106
+  },
+  {
+    "nodeName": "golden_geometry_107",
+    "pos": {
+      "x": 128.34154734999998,
+      "y": 38.61849365234375,
+      "z": 41.530630528
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.9611298,
+      "z": 0.0,
+      "w": 0.27609688
+    },
+    "scale": {
+      "x": 1.23285723,
+      "y": 1.131505,
+      "z": 1.23285723
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010107
+  },
+  {
+    "nodeName": "golden_geometry_108",
+    "pos": {
+      "x": 131.582605,
+      "y": 38.33187637329102,
+      "z": 39.640899663999996
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.999885142,
+      "z": 0.0,
+      "w": 0.0151593415
+    },
+    "scale": {
+      "x": 1.15207132707251,
+      "y": 0.8955369690642393,
+      "z": 1.15207132707251
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010108
+  },
+  {
+    "nodeName": "golden_geometry_109",
+    "pos": {
+      "x": 113.05446625,
+      "y": 39.65988693237305,
+      "z": 40.5672352
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.77987957,
+      "z": 0.0,
+      "w": 0.6259296
+    },
+    "scale": {
+      "x": 1.02576041,
+      "y": 0.958868563,
+      "z": 1.02576041
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010109
+  },
+  {
+    "nodeName": "golden_geometry_110",
+    "pos": {
+      "x": 122.4743382,
+      "y": 39.11884460449219,
+      "z": 43.738621264
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.6848197,
+      "z": 0.0,
+      "w": 0.728712559
+    },
+    "scale": {
+      "x": 1.2125346336165046,
+      "y": 0.9435458989806715,
+      "z": 1.2125346336165046
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010110
+  },
+  {
+    "nodeName": "golden_geometry_111",
+    "pos": {
+      "x": 118.41048775,
+      "y": 39.36532745361328,
+      "z": 43.488878400000004
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.9787485,
+      "z": 0.0,
+      "w": 0.2050645
+    },
+    "scale": {
+      "x": 1.081231957028489,
+      "y": 1.0320386212305226,
+      "z": 1.081231957028489
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010111
+  },
+  {
+    "nodeName": "golden_geometry_112",
+    "pos": {
+      "x": 122.64855055,
+      "y": 38.32388076782227,
+      "z": 36.6640912
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.6464362,
+      "z": 0.0,
+      "w": 0.762968
+    },
+    "scale": {
+      "x": 1.07031178,
+      "y": 0.969562,
+      "z": 1.07031178
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010112
+  },
+  {
+    "nodeName": "golden_geometry_113",
+    "pos": {
+      "x": 124.6454508,
+      "y": 38.73126373291016,
+      "z": 41.771900592
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.1671137,
+      "z": 0.0,
+      "w": 0.985937655
+    },
+    "scale": {
+      "x": 1.16674769,
+      "y": 1.07580566,
+      "z": 1.16674769
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010113
+  },
+  {
+    "nodeName": "golden_geometry_114",
+    "pos": {
+      "x": 127.42009605,
+      "y": 38.83477935791016,
+      "z": 43.976279999999996
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.9516846,
+      "z": 0.0,
+      "w": 0.307077348
+    },
+    "scale": {
+      "x": 0.9963271971838799,
+      "y": 0.8311134387001133,
+      "z": 0.9963271971838799
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010114
+  },
+  {
+    "nodeName": "golden_geometry_115",
+    "pos": {
+      "x": 121.15272255000001,
+      "y": 39.240701293945314,
+      "z": 44.013468591999995
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.606667161,
+      "z": 0.0,
+      "w": 0.794956
+    },
+    "scale": {
+      "x": 1.1352825243712168,
+      "y": 0.9326962512266008,
+      "z": 1.1352825243712168
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010115
+  },
+  {
+    "nodeName": "golden_geometry_116",
+    "pos": {
+      "x": 124.7809185,
+      "y": 38.05985794067383,
+      "z": 36.016434288000006
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.975791931,
+      "z": 0.0,
+      "w": 0.218701035
+    },
+    "scale": {
+      "x": 1.2269686398881985,
+      "y": 0.9376120151264704,
+      "z": 1.2269686398881985
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010116
+  },
+  {
+    "nodeName": "golden_geometry_117",
+    "pos": {
+      "x": 111.27603380000001,
+      "y": 39.72729263305664,
+      "z": 37.8009136
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.7333656,
+      "z": 0.0,
+      "w": 0.679834545
+    },
+    "scale": {
+      "x": 1.2165403397120698,
+      "y": 0.8176388980630173,
+      "z": 1.2165403397120698
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010117
+  },
+  {
+    "nodeName": "golden_geometry_118",
+    "pos": {
+      "x": 123.2037395,
+      "y": 38.09002838134766,
+      "z": 35.343064528
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.90312016,
+      "z": 0.0,
+      "w": 0.429387927
+    },
+    "scale": {
+      "x": 1.0470181813648625,
+      "y": 0.79085728908181,
+      "z": 1.0470181813648625
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010118
+  },
+  {
+    "nodeName": "golden_geometry_119",
+    "pos": {
+      "x": 110.1899692,
+      "y": 40.203145599365236,
+      "z": 43.739075199999995
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.677340865,
+      "z": 0.0,
+      "w": 0.7356693
+    },
+    "scale": {
+      "x": 1.0507323246502829,
+      "y": 0.898981974214393,
+      "z": 1.0507323246502829
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010119
+  },
+  {
+    "nodeName": "golden_geometry_120",
+    "pos": {
+      "x": 125.74851124999999,
+      "y": 38.80752334594727,
+      "z": 43.1071824
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.6890767,
+      "z": 0.0,
+      "w": 0.7246885
+    },
+    "scale": {
+      "x": 1.02366829,
+      "y": 1.031436,
+      "z": 1.02366829
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010120
+  },
+  {
+    "nodeName": "golden_geometry_121",
+    "pos": {
+      "x": 126.551884,
+      "y": 38.47148666381836,
+      "z": 40.094337599999996
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.6467074,
+      "z": 0.0,
+      "w": 0.762738168
+    },
+    "scale": {
+      "x": 1.14712656,
+      "y": 0.8202887,
+      "z": 1.14712656
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010121
+  },
+  {
+    "nodeName": "golden_geometry_122",
+    "pos": {
+      "x": 116.20542025,
+      "y": 39.67004928588867,
+      "z": 44.5197936
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.992436349,
+      "z": 0.0,
+      "w": 0.122760534
+    },
+    "scale": {
+      "x": 1.0011419781769249,
+      "y": 0.782578184447564,
+      "z": 1.0011419781769249
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010122
+  },
+  {
+    "nodeName": "golden_geometry_123",
+    "pos": {
+      "x": 110.1239983,
+      "y": 40.08040008544922,
+      "z": 37.67949832
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.475242943,
+      "z": 0.0,
+      "w": 0.8798546
+    },
+    "scale": {
+      "x": 1.1444452865350567,
+      "y": 0.8760452487012871,
+      "z": 1.1444452865350567
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010123
+  },
+  {
+    "nodeName": "golden_geometry_124",
+    "pos": {
+      "x": 111.79964605,
+      "y": 39.87671051025391,
+      "z": 41.407835744
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.40349,
+      "z": 0.0,
+      "w": 0.914984047
+    },
+    "scale": {
+      "x": 1.1361897082508912,
+      "y": 1.0273178164576515,
+      "z": 1.1361897082508912
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010124
+  },
+  {
+    "nodeName": "golden_geometry_125",
+    "pos": {
+      "x": 125.28860555,
+      "y": 38.207627868652345,
+      "z": 37.840024
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.988968551,
+      "z": 0.0,
+      "w": 0.148125857
+    },
+    "scale": {
+      "x": 1.07984793,
+      "y": 1.10746717,
+      "z": 1.07984793
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010125
+  },
+  {
+    "nodeName": "golden_geometry_126",
+    "pos": {
+      "x": 108.69709785,
+      "y": 40.35225067138672,
+      "z": 39.75637144
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.9998887,
+      "z": 0.0,
+      "w": 0.0149194533
+    },
+    "scale": {
+      "x": 1.0411228049249117,
+      "y": 0.6423139256456283,
+      "z": 1.0411228049249117
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010126
+  },
+  {
+    "nodeName": "golden_geometry_127",
+    "pos": {
+      "x": 107.99846595,
+      "y": 40.42796096801758,
+      "z": 41.651771856
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.9997177,
+      "z": 0.0,
+      "w": 0.0237613935
+    },
+    "scale": {
+      "x": 0.9079249943567358,
+      "y": 0.6444892257197469,
+      "z": 0.9079249943567358
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010127
+  },
+  {
+    "nodeName": "golden_geometry_128",
+    "pos": {
+      "x": 115.79107755,
+      "y": 39.453271484375,
+      "z": 41.499907248
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.19560869,
+      "z": 0.0,
+      "w": 0.980682
+    },
+    "scale": {
+      "x": 1.09284031,
+      "y": 0.843396,
+      "z": 1.09284031
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010128
+  },
+  {
+    "nodeName": "golden_geometry_129",
+    "pos": {
+      "x": 125.312958,
+      "y": 37.98413238525391,
+      "z": 35.657
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.946282864,
+      "z": 0.0,
+      "w": 0.323339969
+    },
+    "scale": {
+      "x": 1.0895386529445403,
+      "y": 1.0093982203019893,
+      "z": 1.0895386529445403
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010129
+  },
+  {
+    "nodeName": "golden_geometry_130",
+    "pos": {
+      "x": 130.1835,
+      "y": 38.01659927368164,
+      "z": 36.9719429
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.236890644,
+      "z": 0.0,
+      "w": 0.971536338
+    },
+    "scale": {
+      "x": 1.026318,
+      "y": 0.86265,
+      "z": 1.026318
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010130
+  },
+  {
+    "nodeName": "golden_geometry_131",
+    "pos": {
+      "x": 121.38408759999999,
+      "y": 39.299424743652345,
+      "z": 45.543406399999995
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.93678844,
+      "z": 0.0,
+      "w": 0.349896282
+    },
+    "scale": {
+      "x": 1.0565704538952183,
+      "y": 0.4844850152949935,
+      "z": 1.0565704538952183
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010131
+  },
+  {
+    "nodeName": "golden_geometry_132",
+    "pos": {
+      "x": 116.6699846,
+      "y": 38.840955352783205,
+      "z": 36.6010688
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.1240872,
+      "z": 0.0,
+      "w": 0.992271364
+    },
+    "scale": {
+      "x": 1.08731067,
+      "y": 0.8488108,
+      "z": 1.08731067
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010132
+  },
+  {
+    "nodeName": "golden_geometry_133",
+    "pos": {
+      "x": 113.34277354999999,
+      "y": 39.16822204589844,
+      "z": 35.560122656000004
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.2882776,
+      "z": 0.0,
+      "w": 0.9575469
+    },
+    "scale": {
+      "x": 1.1755085293813214,
+      "y": 0.7607263031669504,
+      "z": 1.1755085293813214
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010133
+  },
+  {
+    "nodeName": "golden_geometry_134",
+    "pos": {
+      "x": 114.126801,
+      "y": 39.48869857788086,
+      "z": 39.617089248
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.9246817,
+      "z": 0.0,
+      "w": 0.38074103
+    },
+    "scale": {
+      "x": 1.11026466,
+      "y": 1.054663,
+      "z": 1.11026466
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010134
+  },
+  {
+    "nodeName": "golden_geometry_135",
+    "pos": {
+      "x": 121.2268435,
+      "y": 38.42918167114258,
+      "z": 36.52449832
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.00404359726,
+      "z": 0.0,
+      "w": 0.999991834
+    },
+    "scale": {
+      "x": 1.0658441062870023,
+      "y": 0.8353845943445122,
+      "z": 1.0658441062870023
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010135
+  },
+  {
+    "nodeName": "golden_geometry_136",
+    "pos": {
+      "x": 128.5545055,
+      "y": 38.200173950195314,
+      "z": 38.1509696
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.93501246,
+      "z": 0.0,
+      "w": 0.354614854
+    },
+    "scale": {
+      "x": 1.23387372,
+      "y": 0.772370934,
+      "z": 1.23387372
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010136
+  },
+  {
+    "nodeName": "golden_geometry_137",
+    "pos": {
+      "x": 123.8557389,
+      "y": 38.391187286376955,
+      "z": 38.221212192
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.189823,
+      "z": 0.0,
+      "w": 0.9818183
+    },
+    "scale": {
+      "x": 1.17529786,
+      "y": 0.8472333,
+      "z": 1.17529786
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010137
+  },
+  {
+    "nodeName": "golden_geometry_138",
+    "pos": {
+      "x": 134.188551,
+      "y": 38.47687301635742,
+      "z": 41.7032064
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.3288767,
+      "z": 0.0,
+      "w": 0.9443729
+    },
+    "scale": {
+      "x": 1.0738312002930146,
+      "y": 0.6798450406592782,
+      "z": 1.0738312002930146
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010138
+  },
+  {
+    "nodeName": "golden_geometry_139",
+    "pos": {
+      "x": 134.9903011,
+      "y": 38.15080032348633,
+      "z": 37.799370688
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.985141158,
+      "z": 0.0,
+      "w": 0.171746671
+    },
+    "scale": {
+      "x": 0.9925023632446832,
+      "y": 0.691287321491146,
+      "z": 0.9925023632446832
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010139
+  },
+  {
+    "nodeName": "golden_geometry_140",
+    "pos": {
+      "x": 127.5391659,
+      "y": 38.11253890991211,
+      "z": 37.481559488
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.683085561,
+      "z": 0.0,
+      "w": 0.730338335
+    },
+    "scale": {
+      "x": 1.061295,
+      "y": 1.13157344,
+      "z": 1.061295
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010140
+  },
+  {
+    "nodeName": "golden_geometry_141",
+    "pos": {
+      "x": 113.97871665,
+      "y": 39.66467819213867,
+      "z": 41.4586544
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.8328692,
+      "z": 0.0,
+      "w": 0.553469956
+    },
+    "scale": {
+      "x": 1.15842867,
+      "y": 0.97471863,
+      "z": 1.15842867
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010141
+  },
+  {
+    "nodeName": "golden_geometry_142",
+    "pos": {
+      "x": 116.06021435,
+      "y": 39.17532501220703,
+      "z": 38.5371232
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.494883925,
+      "z": 0.0,
+      "w": 0.868959069
+    },
+    "scale": {
+      "x": 1.16205442,
+      "y": 0.777969539,
+      "z": 1.16205442
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010142
+  },
+  {
+    "nodeName": "golden_geometry_143",
+    "pos": {
+      "x": 127.716484,
+      "y": 37.97504577636719,
+      "z": 36.50729
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.814706743,
+      "z": 0.0,
+      "w": 0.5798733
+    },
+    "scale": {
+      "x": 1.1832343056249737,
+      "y": 0.9458507077109849,
+      "z": 1.1832343056249737
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010143
+  },
+  {
+    "nodeName": "golden_geometry_144",
+    "pos": {
+      "x": 109.0945505,
+      "y": 40.23703155517578,
+      "z": 41.533531440000004
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.5094951,
+      "z": 0.0,
+      "w": 0.8604736
+    },
+    "scale": {
+      "x": 1.1052368859214765,
+      "y": 0.9120195776679634,
+      "z": 1.1052368859214765
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010144
+  },
+  {
+    "nodeName": "golden_geometry_145",
+    "pos": {
+      "x": 118.40534609999999,
+      "y": 39.25434265136719,
+      "z": 42.39474424
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.9905018,
+      "z": 0.0,
+      "w": 0.137499437
+    },
+    "scale": {
+      "x": 1.06757665,
+      "y": 0.88303,
+      "z": 1.06757665
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010145
+  },
+  {
+    "nodeName": "golden_geometry_146",
+    "pos": {
+      "x": 110.5673739,
+      "y": 40.09754333496094,
+      "z": 42.700207999999996
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.165773809,
+      "z": 0.0,
+      "w": 0.9861638
+    },
+    "scale": {
+      "x": 1.1447140220095418,
+      "y": 0.9064227611862599,
+      "z": 1.1447140220095418
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010146
+  },
+  {
+    "nodeName": "golden_geometry_147",
+    "pos": {
+      "x": 134.13639965000002,
+      "y": 37.97749481201172,
+      "z": 36.98048
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.7708969,
+      "z": 0.0,
+      "w": 0.63695997
+    },
+    "scale": {
+      "x": 1.0810680537763422,
+      "y": 1.0432248907801493,
+      "z": 1.0810680537763422
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010147
+  },
+  {
+    "nodeName": "golden_geometry_148",
+    "pos": {
+      "x": 131.048476,
+      "y": 38.59814224243164,
+      "z": 42.28090452799999
+    },
+    "rot": {
+      "x": 0.0,
+      "y": -0.6023189,
+      "z": 0.0,
+      "w": 0.798255563
+    },
+    "scale": {
+      "x": 1.05388939,
+      "y": 0.7750229,
+      "z": 1.05388939
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010148
+  },
+  {
+    "nodeName": "golden_geometry_149",
+    "pos": {
+      "x": 137.45949485,
+      "y": 38.2158561706543,
+      "z": 37.84239839999999
+    },
+    "rot": {
+      "x": 0.0,
+      "y": 0.4710692,
+      "z": 0.0,
+      "w": 0.8820963
+    },
+    "scale": {
+      "x": 1.0240925570037476,
+      "y": 0.657017564651372,
+      "z": 1.0240925570037476
+    },
+    "tag": "Untagged",
+    "parentId": 0,
+    "isActive": true,
+    "layer": 0,
+    "isGameMod": false,
+    "isStatic": false,
+    "id": 1880010149
+  }
+]

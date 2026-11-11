@@ -1,0 +1,31 @@
+{
+  "runtimeId": "9ff3c26d-0239-4b0a-ada5-6e9705b81787",
+  "status": "running",
+  "sampledAt": "2026-11-11T04:16:55.429Z",
+  "diagnostic": null,
+  "source": {
+    "kind": "project"
+  },
+  "frameCount": 9213,
+  "frameState": {
+    "acceptingActivity": true,
+    "strictSuspensionAvailable": true,
+    "activityReasons": [
+      "local-editor-preview"
+    ],
+    "cadenceMode": "responsive",
+    "cadenceReasons": [
+      "local-editor-preview"
+    ],
+    "logicFramesPerSecond": 20,
+    "renderFrameInterval": 1,
+    "mainLoopState": "running",
+    "suspendReasons": [],
+    "suspensionDisabled": false,
+    "debugFrameLockActive": false
+  },
+  "runtimeMemory": {
+    "wasmLinearBytes": 449839104
+  },
+  "next": "保存 AWC_RUNTIME_ID=9ff3c26d-0239-4b0a-ada5-6e9705b81787，后续截图/输入/探针绑定同一轮项目运行；douyin-world runtime stop 停止预览。"
+}

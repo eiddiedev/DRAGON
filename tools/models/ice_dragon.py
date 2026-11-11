@@ -15,7 +15,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from glbw import Geo, Rigid, q_between, q_rot, write_glb
 
 OUT = sys.argv[1]
-H = np.load('/Users/a1234/Documents/awesomeWRLD/assets/terrain/v3/base_heights.npy')
+H = np.load('/Users/bytedance/Documents/ChatGPT/DRAGON/assets/terrain/v3/base_heights.npy')
 OX, OZ = 165.0, 242.0
 rnd = random.Random(9)
 

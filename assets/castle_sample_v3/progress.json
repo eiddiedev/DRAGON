@@ -1,0 +1,28 @@
+{
+  "status": "sample_complete_saved_verified",
+  "scope": [
+    "entrance facade",
+    "left clock tower"
+  ],
+  "scene_root": "-1910942728",
+  "archive_receipt": "archive-final.json",
+  "archive_uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/cgwojccfbflq9knr.wprefab",
+  "package_capacity_points": 42.597,
+  "capacity_scope": "Additive sample package, not whole world total",
+  "triangles": 41387,
+  "layout_and_collision_preserved": true,
+  "native_walk_to_hall": {
+    "x": 126.97914886475,
+    "y": 72.242156982422,
+    "z": 175.01495361328
+  },
+  "display": {
+    "materials": 4,
+    "renderers": 4,
+    "unsupported": 0
+  },
+  "save_committed": true,
+  "own_instance_stopped": "awc-ac81d056-2d95-4913-8d2a-c2a7cc31f4d9",
+  "paid_generation": false,
+  "pending": []
+}

@@ -2,6 +2,67 @@
   "version": "1.0.0",
   "tasks": [
     {
+      "id": "d6344e85-e15c-470b-87fb-3f33b438212f",
+      "workspaceId": "workspace_d96dejqk",
+      "cost": {
+        "threadId": "direct-model-d6344e85-e15c-470b-87fb-3f33b438212f",
+        "traceId": "10c60ad8613941c693a5121849dc8f6c",
+        "worldId": "11184638361602",
+        "startReported": true,
+        "endReported": true,
+        "jobIds": [
+          "91334021890"
+        ]
+      },
+      "billing": {
+        "phase": "finished",
+        "lease": {
+          "userId": "66929374300",
+          "threadId": "direct-model-d6344e85-e15c-470b-87fb-3f33b438212f",
+          "traceId": "10c60ad8613941c693a5121849dc8f6c",
+          "usageKey": "asset:model:topology:d6344e85-e15c-470b-87fb-3f33b438212f"
+        }
+      },
+      "createdAt": 1794241515045,
+      "updatedAt": 1794241724833,
+      "executionDurationMs": 202884,
+      "resumed": false,
+      "status": "success",
+      "phase": "succeeded",
+      "algorithm": 1,
+      "faceCount": 20000,
+      "genQuality": 2,
+      "style": 2,
+      "telemetryContext": {
+        "enterMethod": "new_create"
+      },
+      "input": {
+        "prompt": "原创暗黑奇幻成年西方龙，严格参考图片，炭灰蓝黑鳞甲、暗酒红翼膜、象牙色后弯角、琥珀眼睛。完整四条腿和两只独立蝙蝠翼，长尾，宽阔肩背可供骑乘。保持中立站姿，翅膀展开，四肢、翼膜、尾巴彼此分离，适合后续精细绑骨。自然真实解剖，头部威严，鳞甲清晰，模型连续完整，不要底座、场景、粒子或文字。",
+        "imageUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/5dabc8672df443de8f273eaea0e91892.png"
+      },
+      "queue": {
+        "jobId": "91334021890"
+      },
+      "image": {
+        "taskId": "11558906898946",
+        "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/b33f05a6d61847a9891781d8913ac44f.png",
+        "creationsId": "88409857538"
+      },
+      "model": {
+        "attempt": 1,
+        "taskId": "11719434263810",
+        "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ppl_atom_task_88552980226.glb",
+        "previewUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/d4893347192b403485e7f0646d339b53.png",
+        "creationsId": "88409857538",
+        "scale": {
+          "x": 12.023483365949119,
+          "y": 12.023483365949119,
+          "z": 12.023483365949119
+        }
+      },
+      "terminalAt": 1794241724833
+    },
+    {
       "id": "1a1496be-f3bf-415b-a1ff-9b2ec1e8b073",
       "workspaceId": "workspace_o5wseydg",
       "cost": {

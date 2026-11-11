@@ -1,0 +1,1 @@
+{"ok":true,"command":"runtime","data":{"ok":true,"status":"completed","result":{"maxAnchorDrift":0,"contactAngle":6.5861382484436035,"returnErrorDegrees":0},"startFrame":2365,"endFrame":2645,"durationMs":14630,"mode":"native-puerts"}}

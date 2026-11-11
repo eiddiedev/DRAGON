@@ -1,0 +1,118 @@
+{
+  "source": "assets/interactions_v1/before-recovered-install.data",
+  "status": "staged-not-installed-not-runtime-tested",
+  "nodes": [
+    {
+      "id": -1084074086,
+      "name": "time_dial",
+      "kind": "dial"
+    },
+    {
+      "id": 194003353,
+      "name": "time_dial",
+      "kind": "dial"
+    },
+    {
+      "id": -2081863013,
+      "name": "flying_carpet",
+      "kind": "carpet"
+    },
+    {
+      "id": -1372397970,
+      "name": "tripo_horse",
+      "kind": "horse"
+    },
+    {
+      "id": -165596210,
+      "name": "sheep_0",
+      "kind": "sheep_sound"
+    },
+    {
+      "id": 1318906986,
+      "name": "sheep_1",
+      "kind": "sheep_sound"
+    },
+    {
+      "id": -520888166,
+      "name": "sheep_2",
+      "kind": "sheep_sound"
+    },
+    {
+      "id": 1200968100,
+      "name": "sheep_3",
+      "kind": "sheep_sound"
+    },
+    {
+      "id": -1909999755,
+      "name": "sheep_4",
+      "kind": "sheep_sound"
+    },
+    {
+      "id": 1710378230,
+      "name": "sheep_5",
+      "kind": "sheep_sound"
+    },
+    {
+      "id": 1732271102,
+      "name": "sheep_6",
+      "kind": "sheep_sound"
+    },
+    {
+      "id": -1721747151,
+      "name": "sheep_7",
+      "kind": "sheep_sound"
+    },
+    {
+      "id": 1532887236,
+      "name": "sheep_8",
+      "kind": "sheep_sound"
+    },
+    {
+      "id": 350661006,
+      "name": "mush",
+      "kind": "mushroom"
+    },
+    {
+      "id": -57342482,
+      "name": "mush_1",
+      "kind": "mushroom"
+    },
+    {
+      "id": 100624142,
+      "name": "mush_2",
+      "kind": "mushroom"
+    },
+    {
+      "id": 1547281123,
+      "name": "mush_3",
+      "kind": "mushroom"
+    },
+    {
+      "id": -139148579,
+      "name": "mush_4",
+      "kind": "mushroom"
+    },
+    {
+      "id": -1584450413,
+      "name": "mush_5",
+      "kind": "mushroom"
+    },
+    {
+      "id": -1053215899,
+      "name": "sailboat_0",
+      "kind": "boat"
+    },
+    {
+      "id": 401307912,
+      "name": "sailboat_1",
+      "kind": "boat"
+    },
+    {
+      "id": 511313575,
+      "name": "sailboat_2",
+      "kind": "boat"
+    }
+  ],
+  "preservedAllBasicTransforms": true,
+  "treeGlow": "masked emission and two canopy lights; needs visual verification"
+}

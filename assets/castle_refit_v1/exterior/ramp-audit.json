@@ -1,0 +1,11 @@
+{
+  "sample_count": 2135,
+  "minimum_clearance": 0.13892885832807167,
+  "worst_sample_glb_x_z_height_terrain": [
+    -2.29,
+    20.99,
+    70.26173711562176,
+    70.12280825729368
+  ],
+  "no_holes": true
+}

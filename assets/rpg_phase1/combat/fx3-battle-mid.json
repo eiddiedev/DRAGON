@@ -1,0 +1,1 @@
+{"ok":true,"command":"runtime","data":{"ok":true,"resultType":"table","result":{"ack":10,"authority":true,"damage":8,"enemyCount":2,"epoch":"1794378350:1:1","hp":5,"maxHP":6,"netReady":true,"phase":"active","preview":true,"shield":0,"time":9.3492999896406},"bindingKey":"-48300:aefc0a8b-6527-42b0-87c6-745b6a5d536b"}}

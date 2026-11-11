@@ -1,0 +1,88 @@
+{
+  "ok": true,
+  "status": "completed",
+  "result": {
+    "bones": {
+      "Hips": "(119.74, 78.22, 88.66)",
+      "Chest": "(119.75, 78.30, 88.66)",
+      "Head": "(119.75, 78.43, 88.64)",
+      "LeftUpperArm": "(119.69, 78.38, 88.65)"
+    },
+    "parts": [
+      {
+        "name": "TailoredCape1",
+        "bounds": "Center: (119.82, 78.16, 88.53), Extents: (0.07, 0.17, 0.04)",
+        "shader": "Douyin/AI/PBR/EnvLit_AI",
+        "props": [
+          [
+            "_Color",
+            false
+          ],
+          [
+            "_BaseColor",
+            true
+          ],
+          [
+            "_BaseColorFactor",
+            false
+          ],
+          [
+            "_MainColor",
+            false
+          ],
+          [
+            "_BaseTex",
+            true
+          ],
+          [
+            "_BaseMap",
+            false
+          ],
+          [
+            "_MainTex",
+            false
+          ]
+        ]
+      },
+      {
+        "name": "ForestHood",
+        "bounds": "Center: (119.75, 78.48, 88.61), Extents: (0.14, 0.15, 0.13)",
+        "shader": "Douyin/AI/PBR/EnvLit_AI",
+        "props": [
+          [
+            "_Color",
+            false
+          ],
+          [
+            "_BaseColor",
+            true
+          ],
+          [
+            "_BaseColorFactor",
+            false
+          ],
+          [
+            "_MainColor",
+            false
+          ],
+          [
+            "_BaseTex",
+            true
+          ],
+          [
+            "_BaseMap",
+            false
+          ],
+          [
+            "_MainTex",
+            false
+          ]
+        ]
+      }
+    ]
+  },
+  "startFrame": 29246,
+  "endFrame": 29246,
+  "durationMs": 1,
+  "mode": "native-puerts"
+}

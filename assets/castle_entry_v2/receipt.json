@@ -1,0 +1,99 @@
+{
+  "coordinates": "world=(127+BlenderX,BlenderZ,176+BlenderY); original root127,0,176; no recenter",
+  "lighting": {
+    "passes": [
+      "COLOR",
+      "DIRECT",
+      "INDIRECT"
+    ],
+    "samples": 48,
+    "bounces": 6,
+    "diffuse_bounces": 4,
+    "environment": "neutral existing world; no directional sun",
+    "occluders": "existing gothic main/towers/wall and castle_rooms",
+    "fixtures": "existing lighting-plan25 points \u00d72.4; no added local fixtures"
+  },
+  "stairs": {
+    "riser_count": 12,
+    "riser_height": 0.12,
+    "tread_depth": 0.27499999999999997,
+    "visible_world_z": [
+      155.7,
+      159
+    ],
+    "landing_y": 72.24,
+    "hidden_incline_degrees": 23.57470620191262,
+    "max_visual_foot_hover": 0.12,
+    "collision_world_z": [
+      155.3,
+      159
+    ]
+  },
+  "outputs": {
+    "entry_collision": {
+      "file": "assets/castle_entry_v2/entry_collision.glb",
+      "sha256": "396b114c31f9296667348e2de94458bef8fbdd5c662b7406016e6431a22546b8",
+      "bytes": 7384,
+      "triangles": 140,
+      "glb_bounds": [
+        [
+          -13.0,
+          69.80000305175781,
+          8.0
+        ],
+        [
+          13.0,
+          72.23999786376953,
+          20.700000762939453
+        ]
+      ],
+      "normalization_scale": 26.0,
+      "vertex_colors": false,
+      "physics_only": true
+    },
+    "entry_stairs": {
+      "file": "assets/castle_entry_v2/entry_stairs.glb",
+      "sha256": "eb35b4eb7bd7c496645a68abe7c14e82961784154b4973f520745d3c92a8e4c0",
+      "bytes": 97824,
+      "triangles": 864,
+      "glb_bounds": [
+        [
+          -2.299999952316284,
+          70.29999542236328,
+          17.0
+        ],
+        [
+          2.299999952316284,
+          72.12000274658203,
+          20.30000114440918
+        ]
+      ],
+      "normalization_scale": 4.599999904632568,
+      "vertex_colors": false,
+      "physics_only": false,
+      "texture_size": 1024
+    },
+    "entry_forecourt": {
+      "file": "assets/castle_entry_v2/entry_forecourt.glb",
+      "sha256": "a20ef086d0d991b3983351c6521f253e274bdaea06a0e70cda441049504f3144",
+      "bytes": 354976,
+      "triangles": 3388,
+      "glb_bounds": [
+        [
+          -13.0,
+          70.30000305175781,
+          8.0
+        ],
+        [
+          13.0,
+          72.23999786376953,
+          16.899999618530273
+        ]
+      ],
+      "normalization_scale": 26.0,
+      "vertex_colors": false,
+      "physics_only": false,
+      "texture_size": 2048
+    }
+  }
+}

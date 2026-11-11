@@ -1,0 +1,67 @@
+{
+  "source": "/Users/bytedance/Documents/ChatGPT/DRAGON/tools/models/castle_sample_entrance.py",
+  "coordinates": "world=(127+x,z,176+y); glTF=(x,z,-y)",
+  "collision": false,
+  "source_color_fix": "BYTE_COLOR color_srgb reassigned to linear color to undo kit double decode",
+  "passes": [
+    "COLOR",
+    "DIRECT",
+    "INDIRECT"
+  ],
+  "samples": 40,
+  "diffuse_bounces": 4,
+  "environment": "neutral approximation (.65,.65,.68)*.85; existing fixtures x2.4, not reconstructed actual skybox",
+  "occluders": [
+    "existing gothic_main",
+    "existing gothic_towers",
+    "existing gothic_wall"
+  ],
+  "outputs": {
+    "entrance_masonry": {
+      "file": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_sample_v3/entrance/entrance_masonry.glb",
+      "material": "entrance_masonry_GI_COLOR",
+      "triangles": 15828,
+      "bytes": 1715216,
+      "sha256": "173447033f83f4650071815ee244c4b422be81f6409caf6b5a657db0ddd58738",
+      "bounds_gltf": [
+        [
+          -6.98799991607666,
+          72.01200103759766,
+          8.40999984741211
+        ],
+        [
+          6.98799991607666,
+          99.98799896240234,
+          8.530000686645508
+        ]
+      ],
+      "normalization_scale": 27.975997924804688,
+      "vertex_colors": false,
+      "texture_size": 2048
+    },
+    "entrance_carved_trim": {
+      "file": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_sample_v3/entrance/entrance_carved_trim.glb",
+      "material": "entrance_carved_trim_GI_COLOR",
+      "triangles": 6108,
+      "bytes": 1057328,
+      "sha256": "9132df0ad105d57e177bc69e39de05e56bce5dbca3765b1fb19fa76faa706590",
+      "bounds_gltf": [
+        [
+          -7.2806196212768555,
+          72.00800323486328,
+          8.289999961853027
+        ],
+        [
+          7.2806196212768555,
+          100.0536880493164,
+          8.930000305175781
+        ]
+      ],
+      "normalization_scale": 28.045684814453125,
+      "vertex_colors": false,
+      "texture_size": 2048
+    }
+  },
+  "source_sha256": "ef042082a350e3ce3acff396207efd4eb7f70722ef29d4d14746b25d445a6f3d",
+  "revision": "v3-gable-clipped-color-corrected"
+}

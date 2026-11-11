@@ -1,0 +1,261 @@
+{
+  "status": "concepts_approved_generation_started",
+  "excluded": [
+    "已完成传送门",
+    "已完成龙",
+    "松树暂不做"
+  ],
+  "constraints": [
+    "所有龙纹为西方龙",
+    "城堡只添加独立装饰，不改变布局",
+    "容量上限4000，表内为面数目标而非实测容量",
+    "古树只做一套树干和一片独立叶片；叶片由用户自行复制摆放，颜色和发光通过材质调整。"
+  ],
+  "entries": [
+    {
+      "id": "altarWestern",
+      "name": "唤龙祭坛·西方龙修订",
+      "category": "场景",
+      "triangles": 15000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "rune_stone",
+      "name": "祭坛符文石",
+      "category": "场景",
+      "triangles": 2000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "horse_unridden_v4",
+      "name": "骑乘马·无骑手版",
+      "category": "生物",
+      "triangles": 12000,
+      "status": "concept_approved",
+      "supersedes": "horse_world_v3"
+    },
+    {
+      "id": "sheep_clumped_v4",
+      "name": "绵羊·团状羊毛微卡通版",
+      "category": "生物",
+      "triangles": 4000,
+      "status": "concept_approved",
+      "supersedes": "sheep_world_v3"
+    },
+    {
+      "id": "sailboat_full",
+      "name": "雾港帆船",
+      "category": "场景",
+      "triangles": 10000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "tree_trunk",
+      "name": "古树·独立树干",
+      "category": "场景",
+      "triangles": 8000,
+      "status": "concept_approved",
+      "supersedes": "ancient_tree_day"
+    },
+    {
+      "id": "tree_single_leaf",
+      "name": "古树·独立单片叶",
+      "category": "场景",
+      "triangles": 100,
+      "status": "concept_approved",
+      "supersedes": "tree_canopy",
+      "notes": "单片叶目标100面以内，用户自行复制摆放；复用几何与材质，实测累计容量。"
+    },
+    {
+      "id": "shadow_spirit",
+      "name": "影灵",
+      "category": "生物",
+      "triangles": 3000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "watch_lamp",
+      "name": "守夜灯",
+      "category": "道具",
+      "triangles": 2000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "witch_world_v3",
+      "name": "女巫·场景风格修订",
+      "category": "生物",
+      "triangles": 15000,
+      "status": "concept_approved",
+      "supersedes": "witch_cartoon"
+    },
+    {
+      "id": "witch_staff",
+      "name": "女巫蘑菇手杖",
+      "category": "道具",
+      "triangles": 2000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "dragon_egg",
+      "name": "龙蛋·完整",
+      "category": "龙蛋",
+      "triangles": 6000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "dragon_egg_2",
+      "name": "龙蛋·细裂纹",
+      "category": "龙蛋",
+      "triangles": 6000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "dragon_egg_3",
+      "name": "龙蛋·裂纹扩展",
+      "category": "龙蛋",
+      "triangles": 6000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "dragon_egg_4",
+      "name": "龙蛋·破壳",
+      "category": "龙蛋",
+      "triangles": 6000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "potion",
+      "name": "药水瓶",
+      "category": "道具",
+      "triangles": 2000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "sword",
+      "name": "剑誓长剑",
+      "category": "道具",
+      "triangles": 2000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "staff",
+      "name": "星誓法杖",
+      "category": "道具",
+      "triangles": 2000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "bow",
+      "name": "风誓长弓",
+      "category": "道具",
+      "triangles": 2000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "mushroom_skewer",
+      "name": "蘑菇串",
+      "category": "道具",
+      "triangles": 1000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "camp_stele",
+      "name": "篝火石碑",
+      "category": "场景",
+      "triangles": 3000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "glowing_mushrooms",
+      "name": "发光蘑菇丛",
+      "category": "采集物",
+      "triangles": 2000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "moonflowers",
+      "name": "月见花丛",
+      "category": "采集物",
+      "triangles": 2000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "stable",
+      "name": "马厩",
+      "category": "场景",
+      "triangles": 5000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "trial_platform_red",
+      "name": "试炼圆台·红",
+      "category": "场景",
+      "triangles": 3000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "trial_platform_blue",
+      "name": "试炼圆台·蓝",
+      "category": "场景",
+      "triangles": 3000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "castle_armor",
+      "name": "城堡·盔甲架",
+      "category": "城堡装饰",
+      "triangles": 5000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "castle_statue",
+      "name": "城堡·西方龙守门石像",
+      "category": "城堡装饰",
+      "triangles": 8000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "castle_throne",
+      "name": "城堡·王座",
+      "category": "城堡装饰",
+      "triangles": 5000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "castle_bookshelf",
+      "name": "城堡·书架",
+      "category": "城堡装饰",
+      "triangles": 5000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "castle_window",
+      "name": "城堡·尖拱窗装饰",
+      "category": "城堡装饰",
+      "triangles": 3000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "castle_door",
+      "name": "城堡·大门饰框",
+      "category": "城堡装饰",
+      "triangles": 5000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "castle_cornice",
+      "name": "城堡·雕花檐口",
+      "category": "城堡装饰",
+      "triangles": 3000,
+      "status": "concept_approved"
+    },
+    {
+      "id": "castle_gargoyle",
+      "name": "城堡·滴水兽",
+      "category": "城堡装饰",
+      "triangles": 3000,
+      "status": "concept_approved"
+    }
+  ],
+  "style_reference": "实际工程 sheep3.glb 离线渲染、现有哥特建筑与女巫商店预览；场景未发现同名马或女巫NPC。"
+}

@@ -1,0 +1,15 @@
+20:40:43 | INFO: Data are loaded, start creating Blender stuff
+20:40:43 | INFO: Blender create Mesh node tripo_mesh_17e02dd8-16da-40a0-97a0-4728df18683a
+20:40:43 | INFO: glTF import finished in 0.07s
+Info: Saved as "horse_riding_v2.blend"
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+20:40:46 | INFO: Starting glTF 2.0 export
+20:40:46 | INFO: Extracting primitive: tripo_mesh_17e02dd8-16da-40a0-97a0-4728df18683a
+20:40:46 | INFO: Primitives created: 1
+20:40:47 | INFO: Finished glTF 2.0 export in 0.3858528137207031 s
+
+{"Idle": {"duration_s": 3.2, "max_ankle_target_error": 2.7837666410609194e-07, "stride_model_units": 0, "ground_speed_model_units_per_s": 0}, "Walk": {"duration_s": 1.0, "max_ankle_target_error": 0.015429796240663804, "stride_model_units": 0.28, "ground_speed_model_units_per_s": 0.42424242424242425}, "Trot": {"duration_s": 0.65, "max_ankle_target_error": 0.048258772189042926, "stride_model_units": 0.4, "ground_speed_model_units_per_s": 1.0989010989010988}, "Run": {"duration_s": 0.5, "max_ankle_target_error": 0.07103138946771764, "stride_model_units": 0.48, "ground_speed_model_units_per_s": 1.714285714285714}}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

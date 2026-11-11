@@ -1,0 +1,51 @@
+11:55:49 | INFO: Data are loaded, start creating Blender stuff
+11:55:49 | INFO: Blender create Mesh node castle_rooms.005
+11:55:49 | INFO: Blender create Mesh node castle_rooms.008
+11:55:49 | INFO: Blender create Mesh node castle_rooms.004
+11:55:49 | INFO: Blender create Mesh node castle_rooms.001
+11:55:49 | INFO: Blender create Mesh node castle_rooms.002
+11:55:49 | INFO: Blender create Mesh node castle_rooms.006
+11:55:49 | INFO: Blender create Mesh node castle_rooms.003
+11:55:49 | INFO: Blender create Mesh node castle_rooms.007
+11:55:49 | INFO: glTF import finished in 0.12s
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+11:55:53 | INFO: Starting glTF 2.0 export
+11:55:53 | INFO: Extracting primitive: castle_rooms.005
+11:55:53 | INFO: Primitives created: 1
+11:55:53 | INFO: Extracting primitive: castle_rooms.008
+11:55:53 | INFO: Primitives created: 1
+11:55:53 | INFO: Extracting primitive: castle_rooms.004
+11:55:53 | INFO: Primitives created: 1
+11:55:53 | INFO: Extracting primitive: castle_rooms.001
+11:55:53 | INFO: Primitives created: 1
+11:55:53 | INFO: Extracting primitive: castle_rooms.002
+11:55:53 | INFO: Primitives created: 1
+11:55:53 | INFO: Extracting primitive: castle_rooms.006
+11:55:53 | INFO: Primitives created: 1
+11:55:53 | INFO: Extracting primitive: castle_rooms.003
+11:55:53 | INFO: Primitives created: 1
+11:55:53 | INFO: Extracting primitive: castle_rooms.007
+11:55:53 | INFO: Primitives created: 1
+11:55:53 | INFO: Finished glTF 2.0 export in 0.2064378261566162 s
+
+{'runtime_glb': '/Users/bytedance/Documents/ChatGPT/DRAGON/assets/castle_refit_v1/baked/castle_rooms_gi-runtime.glb', 'bytes': 7524448, 'master_bytes': 25423028, 'images': [{'name': 'castle_gi_armory_final', 'master': [1024, 1024], 'runtime': [512, 512]}, {'name': 'castle_gi_bedchamber_final', 'master': [1024, 1024], 'runtime': [512, 512]}, {'name': 'castle_gi_dining_final', 'master': [2048, 2048], 'runtime': [1024, 1024]}, {'name': 'castle_gi_hall_front_final', 'master': [2048, 2048], 'runtime': [1024, 1024]}, {'name': 'castle_gi_hall_rear_final', 'master': [2048, 2048], 'runtime': [1024, 1024]}, {'name': 'castle_gi_kitchen_final', 'master': [1024, 1024], 'runtime': [512, 512]}, {'name': 'castle_gi_library_final', 'master': [2048, 2048], 'runtime': [1024, 1024]}, {'name': 'castle_gi_sanctuary_final', 'master': [1024, 1024], 'runtime': [512, 512]}], 'rgba8_mips_mib': 26.666666666666664, 'blender_bounds': [[-13.100000381469727, -10.100000381469727, 72.21099853515625], [13.100000381469727, 20.299999237060547, 88.80000305175781]], 'normalization_scale': 30.399999618530273, 'triangles': 24048, 'renderer_names': ['castle_gi_armory', 'castle_gi_bedchamber', 'castle_gi_dining', 'castle_gi_hall_front', 'castle_gi_hall_rear', 'castle_gi_kitchen', 'castle_gi_library', 'castle_gi_sanctuary'], 'note': 'Same exact baked GI, half-resolution runtime texture pack; saved separately from 2K/1K master.'}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+castle_gi_armory_final
+castle_gi_armory_final.png
+castle_gi_bedchamber_final
+castle_gi_bedchamber_final.png
+castle_gi_dining_final
+castle_gi_dining_final.png
+castle_gi_hall_front_final
+castle_gi_hall_front_final.png
+castle_gi_hall_rear_final
+castle_gi_hall_rear_final.png
+castle_gi_kitchen_final
+castle_gi_kitchen_final.png
+castle_gi_library_final
+castle_gi_library_final.png
+castle_gi_sanctuary_final
+castle_gi_sanctuary_final.png
+
+Blender quit

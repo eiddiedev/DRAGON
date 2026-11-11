@@ -1,0 +1,65 @@
+{
+  "castle_rooms.glb": {
+    "triangles": 24048,
+    "bytes": 2600244,
+    "bounds_gltf": [
+      [
+        -13.100000381469727,
+        72.21099853515625,
+        -20.299999237060547
+      ],
+      [
+        13.100000381469727,
+        88.80000305175781,
+        10.100000381469727
+      ]
+    ],
+    "max_dimension": 30.399999618530273
+  },
+  "castle_rooms_glow.glb": {
+    "triangles": 1915,
+    "bytes": 208904,
+    "bounds_gltf": [
+      [
+        -12.819999694824219,
+        72.36000061035156,
+        -20.049999237060547
+      ],
+      [
+        12.819999694824219,
+        85.80000305175781,
+        9.75048542022705
+      ]
+    ],
+    "max_dimension": 29.800484657287598
+  },
+  "source": "tools/models/castle_refit_interior.py",
+  "baked": false,
+  "removed": [
+    "old embedded throne seat and wing backdrop",
+    "all embedded library bookshelves",
+    "unsupported old library ladder",
+    "old embedded emissive dragon egg"
+  ],
+  "retained": [
+    "dais steps and braziers",
+    "main floor height72.22 and layout",
+    "paired northbound stairs and north gallery",
+    "library table chairs globe window",
+    "banquet table/fireplace/chairs",
+    "armory and kitchen",
+    "sanctuary podium/fire bowls/windows",
+    "upper bedchamber"
+  ],
+  "fixes_after_preview": [
+    "west/east stained inner glazing moved from \u00b113.0 to \u00b112.82 to sit inward of shell inner wall \u00b112.9",
+    "old floating reading-board replaced by floor-thin rug",
+    "glow only muted violet/amber palette and consistent tone across each pane; no lattice geometry changes"
+  ],
+  "preview_files": [
+    "hall-clean.png",
+    "library-clean.png",
+    "dining.png"
+  ],
+  "preview_scope": "unbaked actual interior GLB with original shell as context, no separately imported Tripo furnishings; glass palette in screenshots precedes final muted version"
+}

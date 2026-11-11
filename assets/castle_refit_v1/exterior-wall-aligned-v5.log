@@ -1,0 +1,17 @@
+Info: Baking map saved to internal image, save it externally or pack it
+INFO Draco is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_draco_bridge.dylib
+INFO MeshOptimizer is available, use library at /Applications/Blender.app/Contents/Resources/5.2/scripts/addons_core/io_scene_gltf2/libbf_intern_meshopt_bridge.dylib
+11:57:53 | INFO: Starting glTF 2.0 export
+11:57:53 | INFO: Extracting primitive: glow
+11:57:53 | INFO: Primitives created: 1
+11:57:53 | INFO: Extracting primitive: main
+11:57:53 | INFO: Primitives created: 1
+11:57:53 | INFO: Finished glTF 2.0 export in 0.04900407791137695 s
+00:18.611  render           | Saved: 'assets/castle_refit_v1/exterior/gothic_wall.png'
+
+BUILT gothic_wall tris 19112 MB 1.81
+Info: Saved as "gothic_wall-unlit.blend"
+REFIT COMPLETE {"gothic_main": {"blender_bounds": [[-14.199999809265137, -8.850000381469727, 71.9000015258789], [14.199999809265137, 21.2405948638916, 103.9260025024414]], "unity_bounds": [[-14.199999809265137, 71.9000015258789, -21.2405948638916], [14.199999809265137, 103.9260025024414, 8.850000381469727]], "normalization_scale": 32.0260009765625, "triangles": 51066, "bytes": 4302716, "lighting_bake": "AO/albedo only; final assembly GI not yet baked"}, "gothic_towers": {"blender_bounds": [[-13.328800201416016, -11.746000289916992, 71.9000015258789], [13.089750289916992, 15.593157768249512, 139.3000030517578]], "unity_bounds": [[-13.328800201416016, 71.9000015258789, -15.593157768249512], [13.089750289916992, 139.3000030517578, 11.746000289916992]], "normalization_scale": 67.4000015258789, "triangles": 41132, "bytes": 3540052, "lighting_bake": "AO/albedo only; final assembly GI not yet baked"}, "gothic_wall": {"blender_bounds": [[-19.541234970092773, -22.0, 62.0], [20.784029006958008, 19.541234970092773, 97.80000305175781]], "unity_bounds": [[-19.541234970092773, 62.0, -19.541234970092773], [20.784029006958008, 97.80000305175781, 22.0]], "normalization_scale": 41.54123497009277, "triangles": 19112, "bytes": 1811668, "lighting_bake": "AO/albedo only; final assembly GI not yet baked"}}
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:49:19)
+
+Blender quit

@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "status": "completed",
+  "result": {
+    "name": "Player_1",
+    "position": "(119.74, 77.91, 88.64)"
+  },
+  "startFrame": 7717,
+  "endFrame": 7717,
+  "durationMs": 4,
+  "mode": "native-puerts"
+}

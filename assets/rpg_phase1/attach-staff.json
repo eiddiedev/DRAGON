@@ -1,0 +1,13 @@
+{
+  "changed": {
+    "nodes": 1,
+    "components": 1,
+    "scripts": 0,
+    "resources": 0
+  },
+  "summary": "Updated 1 nodes, 1 components, 0 scripts and 0 resources",
+  "result": {
+    "root": "n153"
+  },
+  "revision": "7182a44cce2bfbf829fd231020c4497e87c67a359a96ecba7a7f556bbc21e193"
+}

@@ -1,0 +1,49 @@
+{
+  "status": "complete_saved_verified",
+  "scope": [
+    "central/right/rear towers",
+    "left clock accessory pinnacles",
+    "perimeter walls",
+    "outer gate and small wall turrets"
+  ],
+  "preserve": [
+    "accepted entrance and left clock sample",
+    "all authored transforms",
+    "door and window openings",
+    "roads, stairs, terrain, collisions",
+    "other gameplay and runtime scripts"
+  ],
+  "source": "procedural refinement of existing Blender mothers",
+  "palette": "accepted sample grey-purple masonry, blue-grey slate, muted warm brass",
+  "quality": "COLOR DIRECT INDIRECT GI with neutral sky approximation and existing light fixture recipe",
+  "budget": "separate resource packages; provisional new package upper bound 160 points, measure actual import/archive cost; 4000 world limit not inferred from package",
+  "schedule": "independent towers and wall production; reserve integration/runtime views/traversal/persistence checks",
+  "paid_generation": false,
+  "started": "2026-11-11T14:17:31.255507",
+  "target_mesh_triangles": 113952,
+  "prepared_author": "castle_expand_v5",
+  "own_instance": "awc-cd8df388-0093-4548-9841-67b71fe7e3c2",
+  "baseline_images": [
+    "before-wide.png",
+    "before-gate.png"
+  ],
+  "archive_uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/vjsj5kbla3mnmdg0.wprefab",
+  "package_capacity_points": 113.29,
+  "triangles": 112080,
+  "scene_root": "1525019778",
+  "capacity_scope": "Additive package, not whole world total",
+  "layout_and_collision_preserved": true,
+  "native_walk_to_hall": {
+    "x": 127.00408172607,
+    "y": 72.242179870605,
+    "z": 175.01240539551
+  },
+  "display": {
+    "materials": 7,
+    "renderers": 7,
+    "unsupported": 0
+  },
+  "save_committed": true,
+  "own_instance_stopped": "awc-cd8df388-0093-4548-9841-67b71fe7e3c2",
+  "pending": []
+}
