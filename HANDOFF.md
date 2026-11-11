@@ -4,6 +4,7 @@
 
 - **世界观、故事、地名、UI 定调**：[docs/世界观与UI定调.md](docs/世界观与UI定调.md)
 - **未实现玩法的详细设计**（影灵、守夜灯、龙蛋龙契、篝火、女巫药水、誓约、试炼场、城堡房间、探索点亮、马）：[docs/玩法设计.md](docs/玩法设计.md)
+- **城堡重制的设计结构**（坐标、平面、房间、高度、模块拆分、生图提示词、验收）：[docs/城堡设计.md](docs/城堡设计.md)
 - **要重做和新增的资产清单、Codex 生图提示词、Tripo 设置、容量预算**：[docs/资产重制提示词.md](docs/资产重制提示词.md)
 - **编辑器实测踩坑记录**：[docs/claude-memory/world-editor-pipeline.md](docs/claude-memory/world-editor-pipeline.md)，这份最重要
 - **用户确认过的美术方向和历史反馈**：[docs/claude-memory/dragonrest-final-vision.md](docs/claude-memory/dragonrest-final-vision.md)

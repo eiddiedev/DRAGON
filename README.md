@@ -5,6 +5,7 @@
 - 换电脑、工程结构、操作流程、待办：**[HANDOFF.md](HANDOFF.md)**
 - 世界观、故事、地名、UI 定调：[docs/世界观与UI定调.md](docs/世界观与UI定调.md)
 - 未实现玩法的设计：[docs/玩法设计.md](docs/玩法设计.md)
+- 城堡重制设计：[docs/城堡设计.md](docs/城堡设计.md)
 - 资产重制提示词（Codex → Tripo）：[docs/资产重制提示词.md](docs/资产重制提示词.md)
 
 快速开始（macOS，需先安装造世界编辑器并用同一个抖音账号登录）：
