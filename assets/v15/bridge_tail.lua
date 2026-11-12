@@ -330,3 +330,7 @@ function LateUpdate()
  local ok,err=pcall(UI.dizzyLate)
  if not ok and not UI.dizzy.err then UI.dizzy.err=true;report('dizzy '..tostring(err))end
 end
+
+---------------------------------------------------------------- v16：加密的麦簇也登记进随风摆动的名单
+function UI.addReedNames()for i=260,349 do UI.reeds.names[#UI.reeds.names+1]='golden_geometry_'..i end end
+UI.addReedNames()

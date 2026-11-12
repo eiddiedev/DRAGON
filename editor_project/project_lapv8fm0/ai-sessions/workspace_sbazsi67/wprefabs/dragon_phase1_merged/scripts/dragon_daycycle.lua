@@ -17,6 +17,7 @@ local function now()return CS.DouyinUtility.GetServerUnixTime()end
 local function read(raw)local d=type(raw)=='string'and dkjson.decode(raw);if d and type(d.day)=='boolean'and type(d.at)=='number'then state=d end end
 -- v15 唤龙同步：同一时间只有一位龙骑能唤龙；龙的位置由唤龙的人上报，房主写进同步变量
 local dragon=nil
+local battleWas=false
 local dragonRegistered=false
 local function readDragon(raw)local d=type(raw)=='string'and raw~=''and dkjson.decode(raw);if d and type(d.id)=='string'then dragon=d end end
 local function me()local a=CS.DouyinActorService.GetLocalActor();return a and tostring(a.actorID)or nil end
@@ -63,7 +64,7 @@ function OnOwnershipTransferred()if net then read(DayState:GetValue());readDrago
 function IsDay()return state and state.day or false end
 function GetWorldClock()
  if not state then return nil end
- local minutes=((state.day and 360 or 1080)+math.min(240,math.max(0,now()-state.at))*3)%1440
+ local minutes=((state.day and 360 or 1080)+math.min(720,math.max(0,now()-state.at)))%1440
  return string.format('%02d:%02d',math.floor(minutes/60),math.floor(minutes%60))
 end
 function GetStatus()return{ready=state~=nil,day=IsDay(),authority=net and self:HasOwnership(),at=state and state.at}end
@@ -83,7 +84,13 @@ end
 function Update()
  if not main then main=scope:GetScript('dragon_world_bridge.lua');exploration=scope:GetScript('dragon_exploration.lua')end
  if net and CS.DouyinNetService.isNetworkSettled and self:HasOwnership()and not state then state={day=false,at=now(),version=1};DayState:SetValue(dkjson.encode(state))end
- if state and net and self:HasOwnership()and now()-state.at>=240 and not(exploration and exploration.IsBattleActive())then
+ local fighting=exploration and exploration.IsBattleActive()
+ if state and net and self:HasOwnership()and battleWas and not fighting and not state.day and now()-state.at>=600 then
+  -- 刚打完一场：黑夜至少再留两分钟，魔法阵不会一退出就消失
+  state={day=false,at=now()-600,version=state.version+1};DayState:SetValue(dkjson.encode(state))
+ end
+ battleWas=fighting
+ if state and net and self:HasOwnership()and now()-state.at>=720 and not fighting then
   state={day=not state.day,at=now(),version=state.version+1};DayState:SetValue(dkjson.encode(state))
  end
  if main and not dragonRegistered then dragonRegistered=true;main.RegisterScript('cycle',{IsDay=IsDay,GetWorldClock=GetWorldClock,DragonClaim=DragonClaim,DragonPose=DragonPose,DragonRelease=DragonRelease,DragonOwner=DragonOwner,DragonRemote=DragonRemote})end

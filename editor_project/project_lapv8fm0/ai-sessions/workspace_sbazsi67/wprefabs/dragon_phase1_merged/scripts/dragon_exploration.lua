@@ -191,7 +191,7 @@ local function roastReset()
  R.zoneX=-230+math.random()*460
  R.zoneW=150-math.min(60,(R.streak or 0)*14)
  R.zone.rt.sizeDelta=V2(R.zoneW,60);R.zone.rt.anchoredPosition=V2(R.zoneX,0)
- R.speed=560+math.random()*140+math.min(260,(R.streak or 0)*60)
+ R.speed=(560+math.random()*140+math.min(260,(R.streak or 0)*60))*.75
  R.phase=math.random()*4;R.locked=nil
  R.result.go:SetActive(false)
 end

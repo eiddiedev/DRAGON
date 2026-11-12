@@ -1206,12 +1206,12 @@
       "sha256": "7e3084adc1dfda93c32646f6843b040379db5931971cf8fd3a17be79b9950fcc"
     },
     "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/package/prefab.wprefab": {
-      "bytes": 12215236,
-      "sha256": "b2fe5221cfe24f91ca8bd60e7678303145ca5302b2cb7f4646a705c08dd2942c"
+      "bytes": 12224494,
+      "sha256": "1600f6828f4c06d5416173b50f8aa902a0c73d7cd90d8774fd162f714dd28191"
     },
     "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/prefab.json": {
-      "bytes": 325309,
-      "sha256": "9f437d470fe317bebe034edc2a22622c078b5236783be1f55d22fecae0d92202"
+      "bytes": 408989,
+      "sha256": "3390258c9abc70ba0125ced3d7813c6f5d037d7b5443946375ade0f117210e3b"
     },
     "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/scripts/dragon_combat.lua": {
       "bytes": 20411,
@@ -1222,12 +1222,12 @@
       "sha256": "d35024da31444e7fe136116c222bc7ecb184042edaba21a1967e7b8d8d3dc8e5"
     },
     "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/scripts/dragon_daycycle.lua": {
-      "bytes": 5503,
-      "sha256": "82a5984c121d72d6b5eb36e8c222d36f7bfec232fb035d8613cfd778f43e3dd3"
+      "bytes": 5876,
+      "sha256": "a2822f13997413e370a1f7425d61716648007bec814d5d419edbdafafe32e070"
     },
     "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/scripts/dragon_exploration.lua": {
-      "bytes": 23367,
-      "sha256": "45b59b8a2dc53e1371ee669c4a92c6d1d8c0b1f0572cf2c16de5d9964d1475b7"
+      "bytes": 23373,
+      "sha256": "e7dacbcc07e45445b220e370b79b112e41725c28500575d38894576c4fa4d2ae"
     },
     "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/scripts/dragon_fx.lua": {
       "bytes": 29197,
@@ -1246,8 +1246,8 @@
       "sha256": "03cf733c27b2de6de4e0d22ae7c72be72ec24e215d5467ec49f05c2bc11d4655"
     },
     "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/scripts/dragon_rpg.lua": {
-      "bytes": 32321,
-      "sha256": "0ee3a3c45d2e022db6f1bdb20f2ab28b9469fec1798f8c6cf7655ac620617eb6"
+      "bytes": 32439,
+      "sha256": "67584772dacddb8d72134a290d88326fb5ec9b59d74f8a9c3adae5ef2a727bef"
     },
     "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/scripts/dragon_rules.lua": {
       "bytes": 3710,
@@ -1262,8 +1262,8 @@
       "sha256": "9d8d2869a4ecbe3b2ca3937c401ca4f10a0d4a78b0a33cc651b60d74d24a9e9f"
     },
     "ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/scripts/dragon_world_bridge.lua": {
-      "bytes": 10749762,
-      "sha256": "43e040c0af1ff16b08a28484257c431fdb3231c5f8858d72e46a3f767550489b"
+      "bytes": 10750008,
+      "sha256": "d6c2fb6874006dd0c6e45902e1de4b2a01f2bdeffef323173eb9c3d359ee0420"
     },
     "ai-sessions/workspace_v6zhv9k6/official/core/logger.lua": {
       "bytes": 1263,
@@ -1662,8 +1662,8 @@
       "sha256": "b19755535d8b070e8e2bce28f0ec92ed36e00a3c3d7999c0b81885f536719c7c"
     },
     "scene.data": {
-      "bytes": 11486247,
-      "sha256": "fde868de7f57862267d5c97d87fedc97eef46834486202c5568c68fc2f807a2e"
+      "bytes": 11538368,
+      "sha256": "3219af208591beb5b1c1680357b21b6809d96d2de735fadc0ad8d972623a615c"
     },
     "scripts/client/index.lua": {
       "bytes": 44,

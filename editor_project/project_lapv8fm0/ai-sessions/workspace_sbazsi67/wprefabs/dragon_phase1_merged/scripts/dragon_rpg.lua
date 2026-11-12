@@ -463,7 +463,8 @@ function Update()
    C15.togglePos=j.position+q
   end
  end
- if C15.togglePos then rt.position=C15.togglePos
+ if context.mode=="combat"then rt.anchoredPosition=V2(-(U.Screen.width-safe.xMax)*scale-74,(safe.yMin)*scale+392)
+ elseif C15.togglePos then rt.position=C15.togglePos
  else rt.anchoredPosition=V2(-(U.Screen.width-safe.xMax)*scale-108,(safe.yMin)*scale+350)end
  if not available and context.mode=="combat"then SetMode("explore")end
  if context.mode=="combat"then

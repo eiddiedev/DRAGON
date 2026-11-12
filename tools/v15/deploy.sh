@@ -7,7 +7,7 @@ cd "$(dirname "$0")/../.."
 I=$1; TAG=$2; OLD=$3
 R=assets/layout_v15/receipts; mkdir -p $R
 W="--workspace-id workspace_sbazsi67 --instance $I"
-step() { echo "== $1"; }
+step() { echo "== $1"; open -a "造世界编辑器"; }   # 编辑器被挡住时导入/保存会卡死，每一步前都切到最前
 ok() { python3 -c "import json,sys;d=json.load(open('$1'));print(json.dumps(d.get('data',d.get('error')),ensure_ascii=False)[:260]);sys.exit(0 if d['ok'] else 1)"; }
 step validate; douyin-world authoring prefab validate dragon_phase1_merged $W --json > $R/validate-$TAG.json 2>&1; ok $R/validate-$TAG.json || exit 1
 step build; douyin-world authoring prefab build dragon_phase1_merged $W --json > $R/build-$TAG.json 2>&1; ok $R/build-$TAG.json || exit 1
@@ -17,4 +17,5 @@ step stop; douyin-world runtime stop --instance $I --json 2>&1 | head -c 160; ec
 [ "$OLD" = none ] || { step remove; douyin-world scene remove --args "{\"rootIDs\":[\"$OLD\"]}" --request-id v15-remove-$TAG --instance $I --timeout-ms 200000 --json > $R/remove-$TAG.json 2>&1; ok $R/remove-$TAG.json || exit 1; }
 step import; douyin-world scene import --uri "$URI" --request-id v15-import-$TAG --instance $I --timeout-ms 240000 --json > $R/import-$TAG.json 2>&1; ok $R/import-$TAG.json || exit 1
 step save; douyin-world scene save --request-id v15-save-$TAG --instance $I --timeout-ms 240000 --json > $R/save-$TAG.json 2>&1; ok $R/save-$TAG.json || exit 1
+[ "${NORUN:-}" = 1 ] && exit 0
 step run; douyin-world runtime start --instance $I --timeout-ms 240000 --json > $R/run-$TAG.json 2>&1; ok $R/run-$TAG.json

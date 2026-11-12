@@ -36,6 +36,25 @@
 - 战斗由另一个对话推进。不要把之前的所有交互、技能、多人行为写成已全面验收；参考本轮回执与用户最新反馈逐项验证。
 - 用户明确要求保留最新模型与摆放；编辑采用公开 CLI 场景导入/删除/保存及 Scene SDK，不直接写主 scene.data，不恢复旧场景。
 
+## v16（2026-11-11 晚，Claude）已改好但**尚未归档导入**——接手后先做这一步
+
+用户反馈的六条都已写进作者包源码，构建通过（`build-k.json`），但归档反复超时，没有导入主场景。**磁盘上的主场景仍是 v15 的根 `2144325317`**，所以现在打开游戏看到的还是旧脚本和旧麦簇。
+
+**接手要做的（编辑器窗口必须一直在最前面，被挡住就会超时或卡死）**
+1. 打开工程后拿到实例 ID：`douyin-world instance list`。
+2. `NORUN=1 bash tools/v15/deploy.sh <实例ID> n 2144325317`（validate → build → 归档 → 删旧根 2144325317 → 导入 → 保存）。去掉 `NORUN=1` 会在最后启动预览。
+3. 归档或导入超时：不要换参数乱试。归档可以直接重跑；导入超时后先 `douyin-world scene operation <原requestId>` 查结果，报「自动化会话暂停清理尚未完成」就重启实例，换新标签从头跑。保存报 `table index is out of bounds` / `null function` 也是重启后重做。
+4. 保存成功后：`bash tools/sync_from_editor.sh && python3 tools/verify_handoff.py --write`，提交推送。
+
+**v16 改了什么（都在作者包 `ai-sessions/workspace_sbazsi67/wprefabs/dragon_phase1_merged/` 里）**
+- 魔法阵退出后还能再进：打完一场后黑夜至少再留两分钟（`dragon_daycycle.lua` 的 `battleWas`）。之前是战斗期间昼夜计时照走，一退出立刻变白天，魔法阵只在夜里出现所以就没了。
+- 昼夜各 12 分钟（`dragon_daycycle.lua` 的 720、`dragon_world_bridge.lua` 的 `DAY_SECONDS/NIGHT_SECONDS`）。
+- 战斗时的退出键固定在右侧 (-74, 392)，不再压在技能键上（`dragon_rpg.lua`）。
+- 烤蘑菇光标速度降 25%（`dragon_exploration.lua` 的 `R.speed`）。
+- 麦田加密：作者包 `prefab.json` 新增 90 簇（`golden_geometry_260`~`349`），主脚本尾段把它们登记进随风摆动的名单。
+- 麦田贴坡：全部麦簇的高度改为脚下一圈里最低的地面再下埋 4 厘米。西侧 150 簇和新麦簇脚下的麦金底色**已直接写进 scene.data**（`tools/terrain/wheat_v16.py`，备份在 `backups/before-v16-*`）；东侧 110 簇和新增 90 簇在作者包里，要等上面的导入才生效。
+- 以上全部**没有实机验证**（用户要求不测试直接推送）。v15 里未验证的清单见下一节，同样有效。
+
 ## v15（2026-11-11，Claude）本轮改动与验证状态
 
 场景新根 `2144325317`（「龙眠玩法与界面v15」），保存 `v15-save-j` committed。回执在 `assets/layout_v15/receipts/`。
