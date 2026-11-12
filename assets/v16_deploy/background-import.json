@@ -1,0 +1,1 @@
+{"ok":false,"command":"scene","error":{"code":"SESSION_CLOSED","message":"客户端会话已暂停或断开","hint":"保留 --request-id \"v16-bg-import-20261112\" 及相同目标、参数以恢复原回执，不要换新请求自动重试。","details":{"requestId":"v16-bg-import-20261112","instanceId":"awc-dc598356-06c5-4cba-a5b9-15a415bc7a96"}}}
