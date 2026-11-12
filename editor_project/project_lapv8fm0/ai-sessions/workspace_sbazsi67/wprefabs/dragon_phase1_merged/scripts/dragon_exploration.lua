@@ -6,20 +6,18 @@ local V=U.Vector3
 local V2=U.Vector2
 local scope=require('official.core.runtime_scope').from(self)
 local progress,rules,cycle,main,actor
-local root,panel,title,body,notice,nearButton,nearLabel,taskButton,font,content,bar,marker
+local K=nil
+local root,dim,book,content,roast,reader
 local mode=nil
-local selected={}
 local targets={}
 local current=nil
-local cooking=nil
 local hatchStart=nil
 local potion=nil
+local buff=nil
 local callback=nil
 local pendingClass=nil
 local lastScan=-100
 local lastPosition=nil
-local sprites={}
-local resources={}
 local eggs={}
 local eggStage=-1
 local firstReady=false
@@ -28,55 +26,38 @@ local potionBusy=false
 local nextPotionAt=0
 local lastNativeClick=-10
 local witchPlaced=false
-local roastSkin,closeButton
 local altarPlaced=false
-local ink=U.Color(.20,.14,.09,1)
-local labels={mushroom='蘑菇',flower='月见花',wool='羊毛',charred='焦蘑菇',wind='疾风',grow='变大',shrink='变小',glow='萤火',sheep='变羊'}
+local R={}                 -- 烤蘑菇面板的状态
+local lore={got={},n=0}
+local buffHud=nil
+local LORE_TOTAL=8
 local function toast(s)CS.DouyinUtility.Toast(s or '')end
 local function battleScript()return scope:GetScript('dragon_combat.lua')end
 
 function IsBattleActive()local b=battleScript();return b and b.IsParticipating()or false end
+function GetLoreCount()return lore.n end
 local function mounted()return actor and(actor:IsSitting()or actor:IsFlying()or(main and main.IsMounted()))end
 local function unavailable()return not actor or mounted()or IsBattleActive()end
-local function rect(parent,name,w,h,x,y,anchor)
- local go=U.GameObject(name);go.transform:SetParent(parent,false);local rt=go:AddComponent(typeof(U.RectTransform));rt.anchorMin=anchor or V2(.5,.5);rt.anchorMax=rt.anchorMin;rt.sizeDelta=V2(w,h);rt.anchoredPosition=V2(x,y);return go
-end
-local function text(parent,name,value,size,w,h,x,y,color)
- local go=rect(parent,name,w,h,x,y);local t=go:AddComponent(typeof(U.UI.Text));t.font=font;t.fontSize=size;t.text=value;t.color=color or ink;t.alignment=U.TextAnchor.MiddleCenter;t.raycastTarget=false;if main then main.ApplyInkText(t)end;return t
-end
-local shapes={book={{8,12,30,16},{30,16,54,12},{54,12,54,49},{54,49,32,54},{32,54,8,49},{8,49,8,12},{32,17,32,54},{13,23,25,26},{13,31,25,34},{39,25,49,22},{39,34,49,31}},leaf={{12,51,25,27},{25,27,53,10},{53,10,47,41},{47,41,31,50},{31,50,12,51},{22,40,40,25}},potion={{25,7,39,7},{25,7,25,23},{39,7,39,23},{25,23,14,40},{14,40,17,53},{17,53,47,53},{47,53,50,40},{50,40,39,23},{19,38,45,38}},star={{32,5,38,25},{38,25,57,32},{57,32,38,39},{38,39,32,59},{32,59,25,39},{25,39,7,32},{7,32,25,25},{25,25,32,5}}}
-local function icon(key)
- if sprites[key]then return sprites[key]end
- local t=U.Texture2D(64,64,U.TextureFormat.RGBA32,false);t.filterMode=U.FilterMode.Bilinear
- for y=0,63 do for x=0,63 do local a=0
-  for _,l in ipairs(shapes[key]or shapes.star)do local dx,dy=l[3]-l[1],l[4]-l[2];local k=math.max(0,math.min(1,((x-l[1])*dx+(y-l[2])*dy)/(dx*dx+dy*dy)));local d=math.sqrt((x-l[1]-dx*k)^2+(y-l[2]-dy*k)^2);a=math.max(a,math.max(0,math.min(1,2.3-d)))end
-  t:SetPixel(x,63-y,U.Color(1,1,1,a))
- end end;t:Apply();local s=U.Sprite.Create(t,U.Rect(0,0,64,64),V2(.5,.5),100);sprites[key]=s;resources[#resources+1]=s;resources[#resources+1]=t;return s
-end
-local function button(parent,name,value,x,y,w,h,fn)
- local go=rect(parent,name,w,h,x,y);local im=go:AddComponent(typeof(U.UI.Image));im.color=U.Color(.45,.28,.12,.025)
- local b=go:AddComponent(typeof(U.UI.Button));b.targetGraphic=im;b.onClick:AddListener(fn);local t=text(go.transform,'Label',value,23,w-12,h-6,0,0);return b,t
-end
+
 local function clearContent()
- if content then U.Object.Destroy(content)end;content=rect(panel.transform,'PageControls',1000,620,0,0);bar=nil;marker=nil
+ if content then U.Object.Destroy(content)end
+ local go,rt=K.node(book.rt,'PageControls',false);rt.sizeDelta=V2(10,10);content=go
+ return rt
 end
 function Close()
  if mode=='class'and callback then return end
- if cooking then return end
- if panel then panel:SetActive(false)end;mode=nil;selected={}
+ if dim then dim:SetActive(false)end
+ if book then book.go:SetActive(false)end
+ if roast then roast.go:SetActive(false)end
+ if reader then reader.go:SetActive(false)end
+ if mode then K.play('close')end
+ mode=nil
  if main then main.SetExplorationMenu(false)end
 end
-local function show(kind,heading,description)
+local function open(kind)
  if unavailable()then toast('请先结束战斗或骑乘');return false end
- clearContent();mode=kind;panel:SetActive(true);title.text=heading;body.text=description
- local book=panel:GetComponent(typeof(U.UI.RawImage));if book then book.enabled=kind~='cook'end
- if roastSkin then roastSkin:SetActive(kind=='cook')end
- title.rectTransform.anchoredPosition=kind=='cook'and V2(0,175)or V2(-260,270)
- body.rectTransform.anchoredPosition=kind=='cook'and V2(0,80)or V2(-260,25)
- body.rectTransform.sizeDelta=kind=='cook'and V2(700,90)or V2(410,400)
- body.alignment=kind=='cook'and U.TextAnchor.MiddleCenter or U.TextAnchor.UpperLeft
- title.color=kind=='cook'and U.Color(1,.84,.55,1)or ink;body.color=kind=='cook'and U.Color(.95,.91,.82,1)or ink
- if closeButton then closeButton.transform.anchoredPosition=kind=='cook'and V2(500,175)or V2(660,310)end
+ mode=kind;dim:SetActive(true)
+ book.go:SetActive(kind=='tasks');roast.go:SetActive(kind=='cook');reader.go:SetActive(kind=='lore')
  if main then main.SetExplorationMenu(true)end
  return true
 end
@@ -97,6 +78,13 @@ local function nearby(t)
  end
  return p and math.abs(actor.position.y-p.y)<(t.height or 4)and V.Distance(actor.position,p)<t.radius
 end
+
+---------------------------------------------------------------- 药水与蘑菇的临时效果
+local function restoreBuff()
+ if not buff then return end
+ if actor then actor.speed=buff.speed end
+ buff=nil
+end
 local function restorePotion()
  if not potion then return end
  if actor then actor.speed=potion.speed;actor.scale=potion.scale end
@@ -105,8 +93,21 @@ local function restorePotion()
  if potion.hidden then for _,entry in ipairs(potion.hidden)do if entry.r then entry.r.enabled=entry.enabled end end end
  potion=nil
 end
+-- 熟蘑菇：二十秒脚步轻快；生蘑菇：十秒天旋地转、脚步发飘
+local function applyBuff(kind)
+ restoreBuff();restorePotion()
+ if not actor then return end
+ buff={kind=kind,untilTime=U.Time.time+(kind=='speed'and 20 or 10),speed=actor.speed}
+ if kind=='speed'then
+  actor.speed=buff.speed*1.7
+  local fx=scope:GetScript('dragon_fx.lua');if fx then pcall(function()fx.Area('ranged','skill1',actor.position+V(0,.4,0),1)end)end
+ else
+  actor.speed=buff.speed*.7
+  if main then main.SetDizzy(10)end
+ end
+end
 local function applyPotion(kind)
- restorePotion();if unavailable()then return end
+ restorePotion();restoreBuff();if unavailable()then return end
  potion={kind=kind,untilTime=U.Time.time+10,speed=actor.speed,scale=actor.scale}
  local fx=scope:GetScript('dragon_fx.lua');if fx then fx.Area('mage','skill1',actor.position+V(0,.5,0),1)end
  if kind=='wind'then actor.speed=potion.speed*1.8
@@ -133,7 +134,7 @@ local function applyPotion(kind)
   local go=U.GameObject('PotionFirefly');local light=go:AddComponent(typeof(U.Light));light.type=U.LightType.Point;light.color=U.Color(.6,1,.24,1);light.range=3;light.intensity=1.5;light.shadows=U.LightShadows.None;potion.light=go
  end
 end
-function ClearPotion()restorePotion()end
+function ClearPotion()restorePotion();restoreBuff()end
 function OpenContract(respec,continuation)
  local rpg=scope:GetScript('dragon_rpg.lua')
  if unavailable()or not rpg then return false end
@@ -143,24 +144,110 @@ function OpenContract(respec,continuation)
  end)
 end
 
-local function openTasks()
+---------------------------------------------------------------- 誓约之书（主线任务面板）
+function OpenTasks()
+ if not root or mode then return end
  local p=progress.GetProfile();if not p then return end
- local objective,destination=rules.Objective(p)
- if show('tasks','墨曜的长梦','第一章 · 守夜人的誓约\n\n'..objective..'\n\n前往  '..destination)then
-  local art=rect(content.transform,'DragonEtching',330,250,-260,-155);local im=art:AddComponent(typeof(U.UI.RawImage));im.texture=main.GetInkTexture('oath');im.uvRect=U.Rect(0,0,1/3,.527);im.raycastTarget=false
-  text(content.transform,'OfferingTitle','龙 蛋 供 奉',27,420,50,265,265)
-  local rows={{'月辉',p.deposited.moon,30},{'火种',p.deposited.ember,3},{'星露',p.deposited.stardew,1}}
-  for i,v in ipairs(rows)do
-   text(content.transform,'Offer'..i,v[1]..'    '..v[2]..' / '..v[3],23,390,40,265,210-(i-1)*75)
-   local tr=rect(content.transform,'Track'..i,330,3,265,184-(i-1)*75);tr:AddComponent(typeof(U.UI.Image)).color=U.Color(.36,.25,.14,.2)
-   local fill=rect(tr.transform,'InkProgress',330*v[2]/v[3],3,-165+165*v[2]/v[3],0);fill:AddComponent(typeof(U.UI.Image)).color=U.Color(.36,.25,.14,.75)
-  end
-  text(content.transform,'BagHeading','随 身 材 料',25,420,40,265,-55)
-  text(content.transform,'BagCounts','蘑菇  '..p.mushroom..'    月见花  '..p.flower..'    羊毛  '..p.wool..'\n\n月辉  '..p.moon..'    火种  '..p.ember..'    星露  '..p.stardew,21,400,120,265,-135)
-  text(content.transform,'WitchHint','未知药剂 · 前往女巫药铺试饮',19,400,52,265,-240)
+ if not open('tasks')then return end
+ local rt=clearContent()
+ local bw=book.w
+ local lx,rx=-.2207*bw,.2207*bw
+ local idx=rules.ObjectiveIndex(p);local steps=rules.Steps(p)
+ K.img(rt,'q_title',nil,nil,lx,292)
+ local o=K.img(rt,'q_obj_'..idx,nil,nil,lx,128);o.rt.pivot=V2(.5,.5)
+ for i=1,6 do
+  local y=-22-(i-1)*48
+  local s=K.img(rt,'q_step_'..i,nil,nil,0,0);s.rt.pivot=V2(0,.5);s.rt.anchoredPosition=V2(lx-170,y)
+  if steps[i]then K.img(rt,'q_check',36,nil,lx-200,y+2);s.ri.color=U.Color(1,1,1,.55)
+  elseif (i==idx-1)or(idx==7 and i==6)or(idx==1 and i==1)then K.img(rt,'q_now',nil,nil,lx-200,y)end
  end
+ K.img(rt,'q_offer',nil,nil,rx,300)
+ local rows={{'moon',p.deposited.moon,30},{'ember',p.deposited.ember,3},{'dew',p.deposited.stardew,1}}
+ for i,v in ipairs(rows)do
+  local y=228-(i-1)*72
+  K.img(rt,'it_'..v[1],52,52,rx-215,y)
+  local nm=K.img(rt,'nm_it_'..v[1],nil,nil,0,0);nm.rt.pivot=V2(0,.5);nm.rt.anchoredPosition=V2(rx-180,y)
+  local bg=K.img(rt,'bar_bg',210,16,rx+20,y-2)
+  local w=210*math.max(0,math.min(1,v[2]/v[3]))
+  if w>2 then local f=K.img(rt,'bar_fill',w,16,rx+20-105+w/2,y-2)end
+  local n=K.num(rt,'i',.9,rx+240,y,1);n.set(v[2]..'/'..v[3])
+ end
+ K.img(rt,'q_bag',nil,nil,rx,-2)
+ local bag={{'mush',p.mushroom},{'flower',p.flower},{'wool',p.wool},{'moon',p.moon},{'ember',p.ember},{'dew',p.stardew}}
+ for i,v in ipairs(bag)do
+  local col,row=(i-1)%3,math.floor((i-1)/3)
+  local x,y=rx-185+col*178,-72-row*84
+  K.img(rt,'it_'..v[1],48,48,x-30,y)
+  local nm=K.img(rt,'nm_it_'..v[1],nil,nil,0,0);nm.rt.pivot=V2(0,.5);nm.rt.anchoredPosition=V2(x-2,y+16);nm.rt.localScale=V(.8,.8,1)
+  local n=K.num(rt,'i',.72,x+2,y-16,-1);n.set(tostring(math.min(v[2],99999)))
+ end
+ local lh=K.img(rt,'q_lorehead',nil,nil,rx-60,-262)
+ local ln=K.num(rt,'i',.9,rx+120,-262,0);ln.set(lore.n..'/'..LORE_TOTAL)
+ K.img(rt,'q_hint',nil,nil,rx,-312)
 end
 
+---------------------------------------------------------------- 篝火烤蘑菇：蘑菇串来回晃，晃进金色火区时按「出锅」
+local function roastReset()
+ R.zoneX=-230+math.random()*460
+ R.zoneW=150-math.min(60,(R.streak or 0)*14)
+ R.zone.rt.sizeDelta=V2(R.zoneW,60);R.zone.rt.anchoredPosition=V2(R.zoneX,0)
+ R.speed=560+math.random()*140+math.min(260,(R.streak or 0)*60)
+ R.phase=math.random()*4;R.locked=nil
+ R.result.go:SetActive(false)
+end
+local function roastPress()
+ if mode~='cook'or R.locked then return end
+ if not current or current.kind~='camp'or not nearby(current)then toast('离篝火太远了');Close();return end
+ local hit=math.abs(R.x-R.zoneX)<=R.zoneW*.5
+ local ok=submit('roast',{hit=hit},function()
+  R.locked=U.Time.unscaledTime
+  K.set(R.result,hit and 'roast_ok'or 'roast_bad',1);R.result.go:SetActive(true)
+  K.play(hit and 'card'or 'stamp')
+  if hit then R.streak=(R.streak or 0)+1 else R.streak=0 end
+  applyBuff(hit and 'speed'or 'dizzy')
+ end)
+ if not ok then R.locked=nil end
+end
+local function cook()
+ if not open('cook')then return end
+ R.streak=0;roastReset()
+end
+local function updateRoast()
+ if mode~='cook'then return end
+ local t=U.Time.unscaledTime
+ if R.locked then
+  -- 出锅后停一下给结果，再换一串
+  local a=t-R.locked
+  local s=1+.25*math.max(0,1-a*4)
+  R.result.rt.localScale=V(s,s,1)
+  if a>1.3 then roastReset()end
+  return
+ end
+ R.phase=R.phase+U.Time.unscaledDeltaTime*R.speed/340
+ -- 三角波来回，两头稍微停顿
+ local u=R.phase%2;if u>1 then u=2-u end
+ u=u*u*(3-2*u)
+ R.x=-340+680*u
+ R.cursor.rt.anchoredPosition=V2(R.x,70+math.sin(t*9)*3)
+ local inZone=math.abs(R.x-R.zoneX)<=R.zoneW*.5
+ R.zone.ri.color=inZone and U.Color(1,1,1,1)or U.Color(1,1,1,.8)
+ local pulse=1+.04*math.sin(t*6)
+ R.btn.rt.localScale=V(pulse,pulse,1)
+ if U.Input.GetKeyDown('space')then roastPress()end
+end
+
+---------------------------------------------------------------- 手稿与碑文
+local function readLore(id)
+ if not open('lore')then return end
+ local L=K.L.lore;local t=K.tex.lore
+ local col,row=(id-1)%L.cols,math.floor((id-1)/L.cols)
+ reader.text.ri.uvRect=U.Rect(col*L.w/t.width,1-(row+1)*L.h/t.height,L.w/t.width,L.h/t.height)
+ K.play('open')
+ if not lore.got[id]then
+  lore.got[id]=true;lore.n=lore.n+1
+  if main then main.ShowNote('lore',nil,lore.n,LORE_TOTAL)end
+ end
+end
 
 local function witch()
  if unavailable()or not current or current.kind~='witch'or not nearby(current)then return end
@@ -176,33 +263,9 @@ local function drinkMystery()
  end)
  if not ok then potionBusy=false end
 end
-local function finishCook()
- if not cooking or cooking.starting or cooking.finishing then return end
- cooking.finishing=true
- submit('cookFinish',{token=cooking.token},function()cooking=nil;Close()end)
-end
-local function cook()
- show('cook','篝火烤蘑菇','按住下方按钮烤制，在金色区间松手。\n每串消耗一份蘑菇；每二十秒可烤一串。')
- local track=rect(content.transform,'RoastTrack',600,28,0,25);track:AddComponent(typeof(U.UI.Image)).color=U.Color(.22,.16,.10,.25)
- local gold=rect(track.transform,'PerfectZone',78,28,69,0);gold:AddComponent(typeof(U.UI.Image)).color=U.Color(.85,.62,.18,1)
- marker=rect(track.transform,'HeatPointer',8,42,-300,0);marker:AddComponent(typeof(U.UI.Image)).color=U.Color(.62,.16,.10,1)
- local b=button(content.transform,'HoldRoast','按住烤制 · 松手出锅',0,-100,450,90,function()end)
- local tr=b.gameObject:AddComponent(typeof(U.EventSystems.EventTrigger))
- local function event(id,fn)local e=U.EventSystems.EventTrigger.Entry();e.eventID=id;e.callback:AddListener(fn);tr.triggers:Add(e)end
- event(U.EventSystems.EventTriggerType.PointerDown,function()
-  if cooking or not nearby(current)then return end
-  local duration=4.5+math.random()*.8;cooking={starting=true,duration=duration,released=false}
-  local ok,token=submit('cookStart',{duration=duration},function()
-   if not cooking then return end;cooking.starting=false;cooking.at=CS.DouyinUtility.GetServerUnixTime();local p=progress.GetProfile();cooking.at=p.cook.at;cooking.token=p.cook.token
-   if cooking.released then finishCook()end
-  end)
-  if ok then cooking.token=token else cooking=nil end
- end)
- event(U.EventSystems.EventTriggerType.PointerUp,function()if cooking then cooking.released=true;finishCook()end end)
- event(U.EventSystems.EventTriggerType.PointerExit,function()if cooking then cooking.released=true;finishCook()end end)
-end
 local function beginHatch()
- if hatchStart then return end;hatchStart=U.Time.time;show('hatch','龙魂苏醒','月辉、篝火与星露交织。\n墨曜终于听见了你的名字。')
+ if hatchStart then return end;hatchStart=U.Time.time
+ toast('月辉、火种与星露渗进了蛋壳……')
 end
 local function interact()
  if unavailable()or not current or not nearby(current)then return end
@@ -210,25 +273,50 @@ local function interact()
  if kind=='tree'then OpenContract(true,nil)
  elseif kind=='witch'then witch()
  elseif kind=='camp'then cook()
- elseif kind=='egg'then local p=progress.GetProfile();if p.hatchReady and not p.pact then beginHatch()else submit('deposit',{},function()if progress.GetProfile().hatchReady and not progress.GetProfile().pact then beginHatch()end end)end
+ elseif kind=='lore'then readLore(current.id)
+ elseif kind=='egg'then local p=progress.GetProfile()
+  if p.pact then toast('龙魂已经归位。点左侧的龙印，唤墨曜降临')
+  elseif p.hatchReady then beginHatch()
+  else submit('deposit',{},function()if progress.GetProfile().hatchReady and not progress.GetProfile().pact then beginHatch()end end)end
  elseif kind=='bed'then if main then main.ReplayPrologue()end
  else submit('gather',{material=kind,isDay=cycle.IsDay()})end
 end
 local function buildUI()
  if root then return true end
- font=main and main.GetInkFont();local fonts=U.Resources.FindObjectsOfTypeAll(typeof(U.Font));for i=0,fonts.Length-1 do if not font and fonts[i].name=='NotoSansSC-Medium'then font=fonts[i];break end end
- if not font then return false end
- root=U.GameObject('DragonExplorationControls');local canvas=root:AddComponent(typeof(U.Canvas));canvas.renderMode=U.RenderMode.ScreenSpaceOverlay;canvas.sortingOrder=230
+ K=main.GetKit();if not K then return false end
+ root=U.GameObject('DragonExplorationControls');local canvas=root:AddComponent(typeof(U.Canvas));canvas.renderMode=U.RenderMode.ScreenSpaceOverlay;canvas.sortingOrder=930
  local scaler=root:AddComponent(typeof(U.UI.CanvasScaler));scaler.uiScaleMode=U.UI.CanvasScaler.ScaleMode.ScaleWithScreenSize;scaler.referenceResolution=V2(1920,1080);scaler.matchWidthOrHeight=1;root:AddComponent(typeof(U.UI.GraphicRaycaster))
- panel=rect(root.transform,'QuestBook',1100,740,0,0)
- -- Reuse the world's book page texture, rather than an unrelated new UI skin.
- local tex=main and main.GetBookTexture();if tex then local im=panel:AddComponent(typeof(U.UI.RawImage));im.texture=tex;im.color=U.Color.white else panel:AddComponent(typeof(U.UI.Image)).color=U.Color(.91,.85,.72,1)end
- roastSkin=rect(panel.transform,'CampfirePanel',900,460,0,0);roastSkin:AddComponent(typeof(U.UI.Image)).color=U.Color(.10,.065,.04,.93);roastSkin:SetActive(false)
- title=text(panel.transform,'Heading','',30,430,65,-260,270);body=text(panel.transform,'Description','',22,410,400,-260,25);body.alignment=U.TextAnchor.UpperLeft
- closeButton=button(panel.transform,'Close','',660,310,170,64,Close);closeButton.image.sprite=main.GetBookCloseSprite();closeButton.image.color=U.Color.white;panel:SetActive(false)
- taskButton=button(root.transform,'QuestEntry','',0,0,72,72,openTasks);taskButton.transform.anchorMin=V2(0,1);taskButton.transform.anchorMax=V2(0,1);taskButton.transform.anchoredPosition=V2(86,-320);taskButton.image.color=U.Color.white;taskButton.image.sprite=main.GetQuestEntrySprite()or icon('book')
- nearButton,nearLabel=button(root.transform,'ExploreInteract','',0,0,310,72,interact);nearButton.transform.anchorMin=V2(1,.5);nearButton.transform.anchorMax=V2(1,.5);nearButton.transform.anchoredPosition=V2(-230,40);nearButton.image.color=U.Color(1,1,1,.15);nearLabel.color=U.Color.white;nearButton.gameObject:SetActive(false)
- notice=text(root.transform,'ProgressStatus','',18,650,50,0,460,U.Color(1,1,1,.9))
+ -- 压暗的底，同时挡住下面的摇杆
+ local dgo,drt=K.node(root.transform,'Dim',true);local dimg=dgo:AddComponent(typeof(U.UI.Image));dimg.color=U.Color(.02,.015,.03,.72);dim=dgo
+ local dbtn=dgo:AddComponent(typeof(U.UI.Button));dbtn.targetGraphic=dimg;dbtn.transition=U.UI.Selectable.Transition.None
+ dbtn.onClick:AddListener(function()if mode=='lore'then Close()end end)
+ dim:SetActive(false)
+ -- 誓约之书：用世界里那本古书
+ local bh=860;local bw=bh*K.bookAspect
+ book=K.raw(root.transform,K.bookTex,nil,bw,bh,0,6);book.w=bw;book.go.name='QuestBook';book.ri.raycastTarget=true
+ K.button(book.rt,'btn_x',100,bw/2-36,bh/2-44,Close)
+ book.go:SetActive(false)
+ -- 烤蘑菇
+ roast=K.img(root.transform,'roast_bg',nil,nil,0,0);roast.go.name='CampfirePanel';roast.ri.raycastTarget=true
+ K.img(roast.rt,'roast_title',nil,nil,0,168)
+ K.img(roast.rt,'roast_hint',nil,nil,0,-52)
+ K.img(roast.rt,'roast_hint2',nil,nil,0,-90)
+ R.bar=K.img(roast.rt,'roast_bar',nil,nil,0,22)
+ R.zone=K.img(R.bar.rt,'roast_zone',150,60,0,0)
+ R.cursor=K.img(roast.rt,'roast_cursor',72,nil,0,70)
+ R.btn=K.button(roast.rt,'roast_btn',150,330,-150,roastPress);R.btn.go.name='RoastServe'
+ R.result=K.img(roast.rt,'roast_ok',nil,nil,-60,-158)
+ K.button(roast.rt,'btn_x',92,412,196,Close)
+ R.x=0;R.zoneX=0;R.zoneW=150
+ roast.go:SetActive(false)
+ -- 手稿 / 碑文
+ reader=K.img(root.transform,'lore_bg',700,nil,0,10);reader.go.name='LoreReader'
+ reader.text=K.raw(reader.rt,K.tex.lore,nil,700*560/640,700*560/640*720/560,0,0)
+ local hint=K.img(reader.rt,'hint_read',nil,nil,0,-reader.h/2-30)
+ reader.go:SetActive(false)
+ -- 蘑菇效果的小提示（屏幕下方正中）
+ local bgo,brt=K.node(root.transform,'BuffStatus',false);brt.anchorMin=V2(.5,0);brt.anchorMax=V2(.5,0);brt.anchoredPosition=V2(0,210)
+ buffHud={go=bgo,label=K.img(brt,'buff_speed',nil,nil,-30,0)};buffHud.num=K.num(brt,'w',.9,70,0,0);bgo:SetActive(false)
  return true
 end
 local function discover()
@@ -251,16 +339,26 @@ local function discover()
   local bottle=U.GameObject.Find('tripo_potion');if house and bottle then bottle.transform.position=house.transform.position+V(1,.65,.5)end
   if house and witch then witch.transform.position=house.transform.position+V(0,.15,0);witchPlaced=true end
  end
- local function add(name,kind,radius,caption)
-  local go=U.GameObject.Find(name);if go then targets[#targets+1]={go=go,kind=kind,radius=radius,label=caption}end
+ local function add(name,kind,radius,caption,id)
+  local go=U.GameObject.Find(name);if go then targets[#targets+1]={go=go,kind=kind,radius=radius,label=caption,id=id}end
+  return go~=nil
  end
- add('holy_tree3','tree',9,'古树 · 重新签约');add('tripo_witch','witch',2.8,'女巫 · 调制');add('camp','camp',4,'篝火 · 烤蘑菇')
- local egg=U.GameObject.Find('tripo_egg_stage_0');if egg then targets[#targets+1]={position=egg.transform.position,kind='egg',radius=5,height=5,label='龙蛋 · 供奉'}end
+ add('holy_tree3','tree',9,'古树 · 重新立誓');add('tripo_witch','witch',2.8,'女巫 · 调制');add('camp','camp',4,'篝火 · 烤蘑菇')
+ local egg=U.GameObject.Find('tripo_egg_stage_0');if egg then targets[#targets+1]={position=egg.transform.position,kind='egg',radius=5,height=5,label='龙魂之卵 · 供奉'}end
  for i=0,35 do add(i==0 and 'mush'or 'mush_'..i,'mushroom',3.5,'采集蘑菇')end
  for i=0,8 do add('sheep_'..i,'wool',3,'取羊毛')end
  -- Flowers are terrain decoration; one bounded collection patch avoids per-blade scripts.
  targets[#targets+1]={position=V(150,40,62),kind='flower',radius=9,height=6,label='采集月见花'}
  targets[#targets+1]={position=V(127,80.5,193),kind='bed',radius=3,height=2,label='重读序章'}
+ -- 手稿与碑文：书库三处、营地石碑、祭坛三柱、圣所契碑
+ targets[#targets+1]={position=V(115.4,73.3,177),kind='lore',id=1,radius=1.9,height=3,label='翻阅手稿'}
+ targets[#targets+1]={position=V(115.4,73.3,181),kind='lore',id=2,radius=1.9,height=3,label='翻阅手稿'}
+ targets[#targets+1]={position=V(117.6,73.5,179),kind='lore',id=3,radius=1.5,height=3,label='读桌上的信'}
+ if not add('tripo_camp_stele','lore',3,'读石碑',4)then targets[#targets+1]={position=V(64.7,43.5,65),kind='lore',id=4,radius=3,label='读石碑'}end
+ for i=0,2 do
+  if not add('rune_'..i,'lore',3.6,'读柱上的铭文',5+i)then local q=({{48,138},{58.4,156},{37.6,156}})[i+1];targets[#targets+1]={position=V(q[1],52,q[2]),kind='lore',id=5+i,radius=3.6,height=6,label='读柱上的铭文'}end
+ end
+ targets[#targets+1]={position=V(127,73.3,193.2),kind='lore',id=8,radius=2.4,height=3,label='读契碑'}
  local all=U.Resources.FindObjectsOfTypeAll(typeof(U.Transform))
  for j=0,all.Length-1 do local t=all[j];local i=tonumber(string.match(t.name,'^tripo_egg_stage_(%d)$'))
   if i and i<=3 and t.gameObject.scene.IsValid and t.gameObject.scene:IsValid()then eggs[i]={go=t.gameObject,scale=t.localScale}end
@@ -275,19 +373,19 @@ local function handleNativeClick(index)
 end
 function OnInteractorButtonClick(index)handleNativeClick(index)end
 
-function GetStatus()return{loaded=progress and progress.IsLoaded(),mode=mode,target=current and current.kind,targets=#targets,potion=potion and potion.kind,eggStage=eggStage,cooking=cooking~=nil,bridge=main~=nil}end
+function GetStatus()return{loaded=progress and progress.IsLoaded(),mode=mode,target=current and current.kind,targets=#targets,potion=potion and potion.kind,buff=buff and buff.kind,eggStage=eggStage,lore=lore.n,bridge=main~=nil,roastX=R.x,roastZone=R.zoneX,roastW=R.zoneW}end
+function DebugOpen(kind,id)if kind=='cook'then cook()elseif kind=='lore'then readLore(id or 1)elseif kind=='tasks'then OpenTasks()elseif kind=='serve'then roastPress()elseif kind=='buff'then applyBuff(id)end end
 function Update()
  if not progress then progress=scope:GetScript('dragon_progress.lua');rules=scope:GetScript('dragon_progress_rules.lua');cycle=scope:GetScript('dragon_daycycle.lua');main=scope:GetScript('dragon_world_bridge.lua')end
  if not progress or not rules or not cycle or not main then progress=nil;return end
+ if not R.registered then R.registered=true;main.RegisterScript('explore',{OpenTasks=OpenTasks,IsBattleActive=IsBattleActive,GetLoreCount=GetLoreCount})end
  actor=CS.DouyinActorService.GetLocalActor();if not actor or not buildUI()then return end
  if U.Time.time-lastScan>5 then lastScan=U.Time.time;if #targets==0 then discover()end end
- local p=progress.GetProfile();notice.text="";notice.gameObject:SetActive(false)
- if not p then taskButton.gameObject:SetActive(false);nearButton.gameObject:SetActive(false);return end
+ local p=progress.GetProfile()
+ if not p then return end
  local world=main.GetExplorationState();local available=world=='play'and not unavailable()
- taskButton.gameObject:SetActive(available and not mode)
  current=nil;local best=1e9
  for _,t in ipairs(targets)do if nearby(t)then local pos=t.go and t.go.transform.position or t.position;local d=V.Distance(actor.position,pos);if d<best then current=t;best=d end end end
- nearButton.gameObject:SetActive(false)
  local wanted=available and not mode and current or nil
  if wanted~=nativeTarget then
   if nativeExplore then self:RemoveInteractorButton(nativeExplore);nativeExplore=nil end
@@ -305,16 +403,24 @@ function Update()
  local stage=rules.EggStage(p)
  if stage~=eggStage then for i,e in pairs(eggs)do e.go:SetActive(i==stage)end;eggStage=stage end
  if hatchStart then
-  local age=U.Time.time-hatchStart;local e=eggs[2];if e then e.go.transform.localScale=e.scale*(1+.025*math.sin(age*9))end
+  -- 蛋抖三秒，然后龙魂离壳
+  local age=U.Time.time-hatchStart;local e=eggs[2];if e then e.go.transform.localScale=e.scale*(1+.03*math.sin(age*14)*math.min(1,age))end
   if age>3 and not progress.GetStatus().pending then
    if e then e.go.transform.localScale=e.scale end
-   submit('hatch',{},function()hatchStart=nil;Close()end)
+   hatchStart=nil
+   submit('hatch',{},function()if main then main.DragonAwaken()end end)
   end
  end
- if cooking and not cooking.starting and marker then
-  local t=CS.DouyinUtility.GetServerUnixTime()+CS.DouyinUtility.GetServerTime().Millisecond/1000
-  marker.transform.anchoredPosition=V2(-300+600*math.min(1,(t-cooking.at)/cooking.duration),0)
-  if t-cooking.at>cooking.duration*1.15 then finishCook()end
+ updateRoast()
+ if buff then
+  if U.Time.time>=buff.untilTime or mounted()then restoreBuff()end
+ end
+ if buffHud then
+  buffHud.go:SetActive(buff~=nil and not mode)
+  if buff then
+   if buffHud.kind~=buff.kind then buffHud.kind=buff.kind;K.set(buffHud.label,buff.kind=='speed'and 'buff_speed'or 'buff_dizzy',1)end
+   buffHud.num.set(tostring(math.max(0,math.ceil(buff.untilTime-U.Time.time))))
+  end
  end
  if potion then
   local moved=lastPosition and V.Distance(actor.position,lastPosition)>8
@@ -325,8 +431,8 @@ function Update()
  elseif potion.light then potion.light.transform.position=actor.position+V(math.sin(U.Time.time*2)*.6,1.2,math.cos(U.Time.time*2)*.6)end
  end
  lastPosition=actor.position
- if mode and unavailable()then callback=nil;cooking=nil;hatchStart=nil;Close()end
+ if mode and unavailable()then callback=nil;hatchStart=nil;Close()end
 end
-function OnApplicationFocus(focused)if not focused then restorePotion();if cooking then cooking.released=true;finishCook()end end end
-function OnDisable()if nativePotion then self:RemoveInteractorButton(nativePotion);nativePotion=nil end;if nativeExplore then self:RemoveInteractorButton(nativeExplore);nativeExplore=nil;nativeTarget=nil end;restorePotion();callback=nil;cooking=nil;if root then root:SetActive(false)end;if main then main.SetExplorationMenu(false)end end
-function OnDestroy()OnDisable();if root then U.Object.Destroy(root)end;for _,r in ipairs(resources)do U.Object.Destroy(r)end end
+function OnApplicationFocus(focused)if not focused then restorePotion()end end
+function OnDisable()if nativePotion then self:RemoveInteractorButton(nativePotion);nativePotion=nil end;if nativeExplore then self:RemoveInteractorButton(nativeExplore);nativeExplore=nil;nativeTarget=nil end;restorePotion();restoreBuff();callback=nil;if root then root:SetActive(false)end;if main then main.SetExplorationMenu(false)end end
+function OnDestroy()OnDisable();if root then U.Object.Destroy(root)end end

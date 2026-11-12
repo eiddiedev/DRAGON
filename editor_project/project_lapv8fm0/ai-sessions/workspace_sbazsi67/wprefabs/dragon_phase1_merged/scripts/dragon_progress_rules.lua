@@ -53,6 +53,11 @@ function Apply(current,op)
   elseif ratio>.68 and ratio<=.85+1e-7 then result='烤熟了'
   elseif ratio>.85 then p.charred=p.charred+1;result='烤焦了，下次早点松手'else result='还没烤熟'end
  elseif op.kind=='cookCancel'then p.cook=nil;result='烹饪已中断'
+ elseif op.kind=='roast'then
+  -- v15 烤蘑菇：光标落在金色火区时出锅算烤熟，得火种；否则是生的
+  if p.mushroom<1 then return nil,'需要一份蘑菇'end
+  p.mushroom=p.mushroom-1
+  if op.hit==true then p.ember=p.ember+1;result='烤熟了，得到一枚火种'else result='没烤熟'end
  elseif op.kind=='drink'then
   if not potions[op.potion]or p.potions[op.potion]<1 then return nil,'没有这瓶药水'end
   p.potions[op.potion]=p.potions[op.potion]-1;result='饮用药水'
@@ -61,7 +66,7 @@ function Apply(current,op)
   if moved==0 then return nil,p.pact and '已经缔结龙契'or '暂时没有可供奉的材料'end
   p.hatchReady=p.deposited.moon==30 and p.deposited.ember==3 and p.deposited.stardew==1;result=p.hatchReady and '龙魂正在苏醒'or '供奉完成'
  elseif op.kind=='hatch'then
-  if not p.hatchReady then return nil,'材料尚未集齐'end;p.pact=true;result='龙契已缔结，可以前往唤龙祭坛'
+  if not p.hatchReady then return nil,'材料尚未集齐'end;p.pact=true;result='龙魂归位，龙契已成'
  elseif op.kind=='battle'then
   if type(op.battleId)~='string'or #op.battleId>120 or not count(op.amount)or op.amount>100 then return nil,'战斗结算无效'end
   if p.battles[op.battleId]then return p,'这场战斗已结算',true end
@@ -76,12 +81,21 @@ function EggStage(p)
  local total=p.deposited.moon/30+p.deposited.ember/3+p.deposited.stardew
  return total==0 and 0 or(total<2 and 1 or 2)
 end
+function ObjectiveIndex(p)
+ if not p.class then return 1 end
+ if p.pact then return 7 end
+ if p.hatchReady then return 6 end
+ if p.stardew+p.deposited.stardew<1 then return 2 end
+ if p.ember+p.deposited.ember<3 then return 3 end
+ if p.moon+p.deposited.moon<30 then return 4 end
+ return 5
+end
+-- 六个步骤各自是否已完成（誓约之书左页的清单）
+function Steps(p)
+ return {p.class~=nil,p.stardew+p.deposited.stardew>=1,p.ember+p.deposited.ember>=3,p.moon+p.deposited.moon>=30,p.hatchReady or p.pact,p.pact}
+end
 function Objective(p)
- if not p.class then return '在古书上签下职业誓约','出生古书'end
- if p.pact then return '墨曜已认可你，前往祭坛召唤巨龙','唤龙祭坛'end
- if p.hatchReady then return '回到唤龙祭坛，见证龙魂苏醒','唤龙祭坛'end
- if p.stardew+p.deposited.stardew<1 then return '白天采集蘑菇3、月见花3、羊毛1，交给女巫','女巫药铺'end
- if p.ember+p.deposited.ember<3 then return '在营地完美烤制蘑菇，收集三枚火种','守夜人营地'end
- if p.moon+p.deposited.moon<30 then return '参加麦田魔法阵试炼，收集三十月辉','麦田试炼'end
- return '三种材料已备齐，前往祭坛中央供奉龙蛋','唤龙祭坛'
+ local i=ObjectiveIndex(p)
+ local t={{'在古书上签下职业誓约','出生古书'},{'白天采集蘑菇3、月见花3、羊毛1，交给女巫调制星露','女巫药铺'},{'在营地把蘑菇烤熟，攒够三枚火种','守夜人营地'},{'入夜后到麦田魔法阵迎战影灵，攒够三十月辉','影灵试炼'},{'三样供品已备齐，献给祭坛上的龙魂之卵','唤龙祭坛'},{'回到唤龙祭坛，见证龙魂苏醒','唤龙祭坛'},{'龙契已成，点左侧龙印唤墨曜降临','唤龙祭坛'}}
+ return t[i][1],t[i][2]
 end

@@ -563,7 +563,8 @@ local function originalSound(kind,position)
  if v.clip~=c[1]then v.source:Stop();v.clip=c[1]end
  v.go.transform.position=position;v.source.volume=math.max(0,math.min(1,c[2]));v.source.minDistance=math.min(2,c[3]*.1);v.source.maxDistance=c[3];v.source:PlayOneShot(c[1]);audioPlayed=audioPlayed+1;audioLast='original-'..kind
 end
-function Hurt(p)originalSound('Hurt',p)end
+local hurtFeel=nil
+function Hurt(p)originalSound('Hurt',p);if hurtFeel then hurtFeel()end end
 local flying={}
 local queued={}
 local arena=nil
@@ -573,14 +574,28 @@ local arenaRetry=0
 local emitted=0
 local failed=0
 local lastReason=nil
+-- v15：特效整体放大、叠层、带余爆；大招带屏幕闪光和镜头震动
+local BOOM=1.55
+local later={}
+local bridge=nil
+local scope15=require('official.core.runtime_scope').from(self)
+local function feel(flash,shake,duration)
+ if not bridge then bridge=scope15:GetScript('dragon_world_bridge.lua')end
+ if bridge then pcall(function()bridge.ScreenFx(flash,shake,duration or .35)end)end
+end
 local function one(key,p,rotation,scale)
  if not key then return end
- local go,why=Effect.spawn(self,key,p,{rotation=rotation or U.Quaternion.identity,scale=scale or 1})
+ local go,why=Effect.spawn(self,key,p,{rotation=rotation or U.Quaternion.identity,scale=(scale or 1)*BOOM})
  if go then emitted=emitted+1 else failed=failed+1;lastReason=why end
 end
-local function projectile(key,p,d,speed,life,pierce)
- if not key or #flying>=18 then return end
- local h,why=Effect.create(self,key,p,{rotation=U.Quaternion.LookRotation(d,V.up),scale=1})
+hurtFeel=function()if not bridge then bridge=scope15:GetScript('dragon_world_bridge.lua')end;if bridge then pcall(function()bridge.ScreenFx(.3,.6,.3,true)end)end end
+local function after(delay,fn)later[#later+1]={at=U.Time.time+delay,fn=fn}end
+local function ring(key,p,count,radius,scale,y)
+ for i=1,count do local a=i*math.pi*2/count+radius;one(key,p+V(math.cos(a)*radius,y or .1,math.sin(a)*radius),nil,scale)end
+end
+local function projectile(key,p,d,speed,life,pierce,scale)
+ if not key or #flying>=26 then return end
+ local h,why=Effect.create(self,key,p,{rotation=U.Quaternion.LookRotation(d,V.up),scale=scale or 1.5})
  if not h then failed=failed+1;lastReason=why;return end
  emitted=emitted+1
  flying[#flying+1]={h=h,p=p,d=d,speed=speed,start=U.Time.time,life=life,pierce=pierce,stop=false}
@@ -588,22 +603,36 @@ end
 function Charge(kind,action,p,target)
  if action=='attack'then return end
  if kind=='mage'and action=='skill3'then
-  sound('v2-meteor-fall');local start=target+V(-2,9,-1);projectile(BoltEffect,start,(target-start).normalized,10,.9)
- elseif kind=='ranged'and action=='skill3'then sound('v2-rain-fall')
- elseif kind=='melee'and action=='skill3'then sound('v2-giant-awaken',.8)
- elseif kind=='ranged'and action=='skill2'then sound('v2-leaf-charge',.75)end
+  sound('v2-meteor-fall');local start=target+V(-3,14,-2)
+  for i=0,2 do after(i*.12,function()projectile(BoltEffect,start+V(i*.8,i*1.2,0),(target-start).normalized,16,.95,false,2.6)end)end
+  one(TellEffect,V(target.x,target.y-.5,target.z),nil,2.6)
+ elseif kind=='mage'then one(HitEffect,p+V(0,.6,0),nil,1.3)
+ elseif kind=='ranged'and action=='skill3'then sound('v2-rain-fall');one(TellEffect,V(target.x,target.y-.5,target.z),nil,2.4)
+ elseif kind=='melee'and action=='skill3'then sound('v2-giant-awaken',.8);one(ShieldEffect,p-V(0,.45,0),nil,1.1);ring(HitEffect,p,6,1.4,.9,.4)
+ elseif kind=='ranged'and action=='skill2'then sound('v2-leaf-charge',.75);one(HitEffect,p,nil,1.2)end
 end
 function Area(kind,action,p,burst)
  if kind=='ranged'then
   sound('v2-rain-hit',.8)
-  for i=1,7 do local a=i*2.39996;local radius=.6+(i%3)*.7;local at=p+V(math.cos(a)*radius,0,math.sin(a)*radius)
-   projectile(ArrowEffect,at+V(0,4,0),V.down,25,.16);one(HitEffect,at,nil,.7)
+  for i=1,12 do local a=i*2.39996;local radius=.5+(i%4)*.8;local at=p+V(math.cos(a)*radius,0,math.sin(a)*radius)
+   after(i*.035,function()projectile(ArrowEffect,at+V(0,7,0),V.down,34,.2,false,1.6);one(HitEffect,at,nil,1)end)
   end
+  after(.45,function()one(BlastEffect,p,nil,1.3);ring(HitEffect,p,8,3,.9)end)
+  feel(.16,.5,.45)
  elseif action=='skill2'then
-  sound('v2-time-hit');one(FrostEffect,p,nil,1.1)
-  for i=1,6 do local a=i*math.pi/3;projectile(BoltEffect,p,V(math.cos(a),.15,math.sin(a)),4,.45)end
- else sound(action=='skill3'and'v2-meteor-impact'or'v2-magic-burst');one(action=='skill3'and MeteorEffect or BlastEffect,p,nil,action=='skill3'and 1.8 or 1.4)
-  if action=='skill3'then for i=1,7 do local a=i*2.39996;one(HitEffect,p+V(math.cos(a)*2,.1,math.sin(a)*2),nil,1.2)end end
+  sound('v2-time-hit');one(FrostEffect,p,nil,1.9);ring(FrostEffect,p,5,2.4,.7)
+  for i=1,10 do local a=i*math.pi/5;projectile(BoltEffect,p+V(0,.3,0),V(math.cos(a),.2,math.sin(a)),7,.5,false,1.3)end
+  after(.25,function()one(FrostEffect,p,nil,1.2)end)
+  feel(.14,.35,.3)
+ elseif action=='skill3'then
+  sound('v2-meteor-impact');one(MeteorEffect,p,nil,2.6);one(BlastEffect,p,nil,2.4);ring(HitEffect,p,10,2.6,1.4)
+  after(.18,function()ring(BlastEffect,p,5,3.2,1.1);sound('v2-cannon-explode',.7)end)
+  after(.4,function()ring(HitEffect,p,12,4.4,1.1);one(MeteorEffect,p,nil,1.5)end)
+  feel(.4,1.4,.7)
+ else
+  sound('v2-magic-burst');one(BlastEffect,p,nil,2.1);ring(HitEffect,p,7,1.9,1.1)
+  after(.16,function()one(BlastEffect,p+V(0,.4,0),nil,1.2);ring(HitEffect,p,5,3,.8)end)
+  feel(.2,.6,.4)
  end
 end
 function Play(kind,action,origin,direction)
@@ -611,24 +640,43 @@ function Play(kind,action,origin,direction)
  local q=U.Quaternion.LookRotation(d,V.up)
  if action=='skill'then action='skill1'end
  if kind=='melee'then
-  if action=='skill1'then sound('v2-giant-hit',.8);one(ShieldEffect,origin-V(0,.45,0),nil,1.5)
-  elseif action=='skill2'then sound('v2-sword-swing');for i=0,2 do one(SlashEffect,origin,q*U.Quaternion.Euler(0,i*120,0),1.25)end
-  elseif action=='skill3'then sound('v2-giant-hit');one(SlashEffect,origin,q*U.Quaternion.Euler(0,0,85),1.7);one(ShieldEffect,origin+d*2-V(0,.45,0),nil,1.2)
-  else sound('v2-sword-swing');one(SlashEffect,origin+V(0,.05,0),q,1)end
+  if action=='skill1'then
+   sound('v2-giant-hit',.8);one(ShieldEffect,origin-V(0,.45,0),nil,2.3);ring(HitEffect,origin,8,2.6,1)
+   after(.15,function()one(ShieldEffect,origin-V(0,.45,0),nil,3.2)end);feel(.18,.6,.4)
+  elseif action=='skill2'then
+   sound('v2-sword-swing')
+   for i=0,5 do after(i*.05,function()one(SlashEffect,origin+V(0,.1*(i%2),0),q*U.Quaternion.Euler(0,i*60,i%2==0 and 12 or -12),1.7)end)end
+   after(.2,function()ring(HitEffect,origin,8,3,1)end);feel(.1,.45,.35)
+  elseif action=='skill3'then
+   sound('v2-giant-hit')
+   one(SlashEffect,origin,q*U.Quaternion.Euler(0,0,85),2.6);one(SlashEffect,origin,q*U.Quaternion.Euler(0,0,95),2.1)
+   local hit=origin+d*2.6
+   one(ShieldEffect,hit-V(0,.45,0),nil,2);one(BlastEffect,hit,nil,1.6);one(MeteorEffect,hit,nil,1.3)
+   after(.12,function()for i=1,4 do one(HitEffect,origin+d*(1.5+i*1.1)-V(0,.3,0),nil,1.5)end;sound('v2-wall-break',.7)end)
+   feel(.34,1.2,.6)
+  else
+   sound('v2-sword-swing');one(SlashEffect,origin+V(0,.05,0),q,1.45);one(SlashEffect,origin+V(0,.25,0),q*U.Quaternion.Euler(0,0,24),1.1)
+  end
  elseif kind=='mage'then
-  if action~='attack'then Area(kind,action,origin+d*6,1)else sound('v2-magic-shot',.8);projectile(BoltEffect,origin,d,16,.75)end
+  if action~='attack'then Area(kind,action,origin+d*6,1)else sound('v2-magic-shot',.8);one(HitEffect,origin+d*.6,nil,.9);projectile(BoltEffect,origin,d,18,.75,false,1.8)end
  else
   if action=='skill3'then Area(kind,action,origin+d*6,1)
-  elseif action=='skill1'then for i=0,4 do queued[#queued+1]={at=U.Time.time+i*.16,p=origin,d=d}end
-  else originalSound('Bow',origin);projectile(ArrowEffect,origin,d,24,.75,action=='skill2');if action=='skill2'then projectile(ArrowEffect,origin+V(0,.1,0),d,24,.75,true)end end
+  elseif action=='skill1'then for i=0,4 do queued[#queued+1]={at=U.Time.time+i*.16,p=origin,d=(q*U.Quaternion.Euler(0,(i-2)*3.5,0))*V.forward}end
+  else originalSound('Bow',origin);one(HitEffect,origin+d*.5,nil,.7);projectile(ArrowEffect,origin,d,26,.75,action=='skill2',action=='skill2'and 2.4 or 1.6)
+   if action=='skill2'then projectile(ArrowEffect,origin+V(0,.12,0),d,26,.75,true,2);projectile(BoltEffect,origin,d,26,.75,true,1.2);feel(.08,.3,.25)end end
  end
 end
 function Impact(kind,position,amount,class)
- if kind=='tell'then one(TellEffect,V(position.x,position.y-.5,position.z),nil,1.1)
- elseif kind=='blast'then one(BlastEffect,position,nil,1.25)
+ if kind=='tell'then one(TellEffect,V(position.x,position.y-.5,position.z),nil,1.25)
+ elseif kind=='blast'then one(BlastEffect,position,nil,1.6)
  elseif kind=='hit'then
   sound(class=='mage'and'v2-magic-hit'or(class=='ranged'and'v2-arrow-hit'or'v2-sword-hit'),.8)
-  one(HitEffect,position,nil,1)
+  local big=(amount or 0)>=3
+  one(HitEffect,position,nil,big and 1.8 or 1.25)
+  if class=='mage'then one(BlastEffect,position,nil,big and 1.1 or .6)
+  elseif class=='melee'then one(SlashEffect,position,U.Quaternion.Euler(0,math.random()*360,60),big and 1.2 or .8)
+  else ring(HitEffect,position,3,.5,.6,.2)end
+  if big then feel(.1,.4,.25)end
   -- End only nearby cosmetic flights; authoritative hit/damage lives in combat rules.
   for _,v in ipairs(flying)do
    if not v.stop then
@@ -636,7 +684,7 @@ function Impact(kind,position,amount,class)
     if not v.pierce and (p-position).sqrMagnitude<1.5 then v.h:Stop();v.stop=true;v.release=U.Time.time+.35 end
    end
   end
- elseif kind=='strike'then originalSound('Enemy',position);one(HitEffect,V(position.x,position.y-.4,position.z),nil,.6)end
+ elseif kind=='strike'then originalSound('Enemy',position);one(HitEffect,V(position.x,position.y-.4,position.z),nil,.9)end
 end
 function SetArena(center,radius,visible)
  if not visible then wantedArena=nil;if arena then arena:Release();arena=nil;arenaKey=nil end;return end
@@ -651,7 +699,8 @@ end
 function Update()
  local now=U.Time.time
  if warmIndex<=#SOUND_NAMES then local name=SOUND_NAMES[warmIndex];audioClips[name]=audioClips[name]or buildClip(name);warmIndex=warmIndex+1 end
- for i=#queued,1,-1 do local q=queued[i];if now>=q.at then originalSound('Bow',q.p);projectile(ArrowEffect,q.p,q.d,24,.75);table.remove(queued,i)end end
+ for i=#queued,1,-1 do local q=queued[i];if now>=q.at then originalSound('Bow',q.p);projectile(ArrowEffect,q.p,q.d,26,.75,false,1.6);table.remove(queued,i)end end
+ for i=#later,1,-1 do local q=later[i];if now>=q.at then table.remove(later,i);pcall(q.fn)end end
  for i=#flying,1,-1 do
   local v=flying[i];local age=now-v.start
   if not v.stop then
@@ -668,7 +717,7 @@ function GetStatus()
 end
 function Clear()
  for _,v in ipairs(flying)do v.h:Release()end;flying={}
- SetArena(V.zero,1,false);queued={}
+ SetArena(V.zero,1,false);queued={};later={}
 end
 function OnDisable()Clear()end
 function OnDestroy()

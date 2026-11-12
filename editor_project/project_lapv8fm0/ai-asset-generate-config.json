@@ -365,6 +365,81 @@
           },
           "artifactId": "dragon_phase1_merged",
           "revisionId": "external:automation:a3d9b83f-d410-4e83-90a2-4412745124c2:e45c8628447384028faa7d3a1fba74c17cc02ed0e785422e9bee8b28bcd00b08:e45c8628447384028faa7d3a1fba74c17cc02ed0e785422e9bee8b28bcd00b08"
+        },
+        {
+          "createdAtUtc": "2026-11-12T02:33:06.934Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠玩法与界面v15",
+            "summary": "dragon_rpg_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/53921169c4ab4ac6b987a88f2e2397e4.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/m3ichq2exh5l6cuj.wprefab",
+            "metadata": {
+              "capacity": 321526,
+              "faceCount": 241952,
+              "logicalCenter": [
+                -75.91217492792335,
+                0.14434570074081401,
+                -72.71962717948841
+              ],
+              "rigged": true
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": true,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "dragon_phase1_merged",
+          "revisionId": "external:automation:3232a36c-758f-4f71-a6b9-0187529bc219:47579560d1d831a1d69cf71f8cb00c86eb3981759bd7decf6b9c3f6d9a31afae:47579560d1d831a1d69cf71f8cb00c86eb3981759bd7decf6b9c3f6d9a31afae"
+        },
+        {
+          "createdAtUtc": "2026-11-12T03:04:17.782Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠玩法与界面v15",
+            "summary": "dragon_rpg_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/c1e06ad4d2a84e6a8b1a75b4a588166c.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/v2tq4p76ryz7n9im.wprefab",
+            "metadata": {
+              "capacity": 321586,
+              "faceCount": 241952,
+              "logicalCenter": [
+                -75.91217492792335,
+                0.14434570074081401,
+                -72.71962717948841
+              ],
+              "rigged": true
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": true,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "dragon_phase1_merged",
+          "revisionId": "external:automation:ad645b6a-dda3-40fd-b8af-bc620860fb60:89bc39cef78c171261a122da55497f0c08d748beb3e55f5c1a8f002c07ef8c5c:89bc39cef78c171261a122da55497f0c08d748beb3e55f5c1a8f002c07ef8c5c"
+        },
+        {
+          "createdAtUtc": "2026-11-12T03:36:52.427Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠玩法与界面v15",
+            "summary": "dragon_rpg_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/96c45899d9794614891692a1a1c6c45f.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/cb3ik5yyw8n2yctu.wprefab",
+            "metadata": {
+              "capacity": 321586,
+              "faceCount": 241952,
+              "logicalCenter": [
+                -75.91217492792335,
+                0.14434570074081401,
+                -72.71962717948841
+              ],
+              "rigged": true
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": true,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "dragon_phase1_merged",
+          "revisionId": "external:automation:c7b2a94c-6120-4f1c-b3c3-ca506f904e54:4cc54a6a9d40dd11b7e805a3664742d344823d834a97b5c57bec5c202d0f7248:4cc54a6a9d40dd11b7e805a3664742d344823d834a97b5c57bec5c202d0f7248"
         }
       ],
       "routeMode": "best_effort",

@@ -1,0 +1,1 @@
+{"ok":false,"command":"scene","error":{"code":"SCENE_OPERATION_FAILED","message":"null function","hint":"先 runtime stop 并退出笔刷编辑；排除保存错误后用新的 --request-id 再保存。原 ID 只恢复原回执。","details":{"operationId":"f60bbbc2b03b91f8ff21ee82903147e6a91c19cd2764f1bb87dd7cad292103f1","status":"failed","message":"null function","requestId":"v15-save-g-c"}}}

@@ -1,0 +1,1 @@
+{"ok":false,"command":"scene","error":{"code":"SCENE_OPERATION_FAILED","message":"table index is out of bounds","hint":"先 runtime stop 并退出笔刷编辑；排除保存错误后用新的 --request-id 再保存。原 ID 只恢复原回执。","details":{"operationId":"a252549a9c8c769ac41856d06c503d922f0ca0fb9d1673dbb923409062713f3c","status":"failed","message":"table index is out of bounds","requestId":"v15-save-f2"}}}

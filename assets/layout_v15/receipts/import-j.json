@@ -1,0 +1,2 @@
+{"ok":true,"command":"scene","data":{"operationId":"7e287ed09e943cb1c44b38e61450b5600fcbb1d7f33a6441ada73cf5c5c0b808","status":"committed","rootIDs":["2144325317"],"requestId":"v15-import-j"}}
+douyin-world scene import --uri "$URI" --request-id v15-import-j --instance $  0.20s user 0.04s system 0% cpu 2:33.20 total
