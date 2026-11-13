@@ -288,6 +288,56 @@
           },
           "artifactId": "dragon_v17",
           "revisionId": "external:automation:454ce82f-da7b-46ad-9237-f5eb816c64ba:cb514b027ed3db7072f6c06ba92cf47345deff88a144bb2db36f7cebe027ca97:cb514b027ed3db7072f6c06ba92cf47345deff88a144bb2db36f7cebe027ca97"
+        },
+        {
+          "createdAtUtc": "2026-11-13T20:54:11.874Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠玩法v29",
+            "summary": "dragon_rpg_v1",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/96eb933d4fea44278d8961db6f3333a1.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/b1cc4f7rfrko70nv.wprefab",
+            "metadata": {
+              "capacity": 318624,
+              "faceCount": 235728,
+              "logicalCenter": [
+                -68.688677566846,
+                500,
+                -78.31712717948841
+              ],
+              "rigged": true
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": true,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "gameplay_v29",
+          "revisionId": "external:automation:f5e21615-2255-41cd-a1e6-91489f951fdd:56fda9eeda6a161e5bcc58eda9224d9405e90e679e41f9050d0e7dda8e950b96:56fda9eeda6a161e5bcc58eda9224d9405e90e679e41f9050d0e7dda8e950b96"
+        },
+        {
+          "createdAtUtc": "2026-11-13T20:54:20.959Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠动物v29",
+            "summary": "mobile_actors_v23",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4b687b6c6b06487fa20af276054f5b69.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/aom014rdbvbjgbav.wprefab",
+            "metadata": {
+              "capacity": 88152,
+              "faceCount": 68032,
+              "logicalCenter": [
+                -255.41746049502547,
+                164.81680481176778,
+                -225.32040621941144
+              ],
+              "rigged": true
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": false,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "actors_v29",
+          "revisionId": "external:automation:c2ca7638-54c8-463a-ad14-a99ff2232dda:2520702f72c2a273f705175f8221442b575fb87b4846cbdbde584618823d74ec:2520702f72c2a273f705175f8221442b575fb87b4846cbdbde584618823d74ec"
         }
       ],
       "routeMode": "auto",
