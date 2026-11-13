@@ -1,4 +1,4 @@
----@id 9f92fce5-f943-4992-8c13-08c3b5518a41
+---@id 3c2b8f2d-043c-43f5-a0bd-65e5d9a624b9
 ---@sourceScriptId f8282ad6-a565-4d4e-a7b9-6cd59266b13a
 ---@referenceName dragon_combat_rules.lua
 -- Deterministic encounter simulation. No rendering, network or avatar side effects.
@@ -14,13 +14,14 @@ local function emit(s,kind,data)
  if #s.events>32 then table.remove(s.events,1)end
 end
 function Classes()return C end
-function New(x,y,z,radius,epoch)
- return {schema=1,epoch=epoch,x=x,y=y,z=z,radius=radius,t=0,phase='ready',members={},enemies={},shots={},queue={},events={},eventId=0,nextShot=0,prep=2}
+function New(x,y,z,radius,epoch,duel)
+ return {schema=1,duel=duel==true,epoch=epoch,x=x,y=y,z=z,radius=radius,t=0,phase='ready',members={},enemies={},shots={},queue={},events={},eventId=0,nextShot=0,prep=2}
 end
 function Join(s,id,class,pos)
  if not C[class]or not pos or s.phase~='ready' or s.members[id]then return false end
  if distance(pos.x,pos.z,s.x,s.z)>s.radius then return false end
- s.members[id]={class=class,hp=C[class].hp,maxHP=C[class].hp,damage=0,ack=0,attackUntil=0,skillUntil=0,busy=0,shield=0,invulnerable=0,x=pos.x,z=pos.z}
+ local hp=C[class].hp*(s.duel and 4 or 1)
+ s.members[id]={id=id,class=class,hp=hp,maxHP=hp,damage=0,ack=0,attackUntil=0,skillUntil=0,busy=0,shield=0,invulnerable=0,x=pos.x,z=pos.z}
  return true
 end
 function Spawn(s)
@@ -35,9 +36,16 @@ function Spawn(s)
  end
  s.phase='active';s.intermission=nil;emit(s,'begin',{stage=s.stage})
 end
+-- v15 对决：双人对战时，攻击目标是其他参战者而不是影灵
+local function victims(s,owner)
+ if not s.duel then return s.enemies end
+ local list={}
+ for id,m in pairs(s.members)do if id~=owner and m.hp>0 then m.id=id;m.player=true;list[#list+1]=m end end
+ return list
+end
 local function target(s,m,dx,dz,range)
  local best,score=nil,-1e9
- for _,e in ipairs(s.enemies)do if e.hp>0 then local x,z=e.x-m.x,e.z-m.z;local d=math.sqrt(x*x+z*z);local dot=d>.01 and(x*dx+z*dz)/d or 1
+ for _,e in ipairs(victims(s,m.id))do if e.hp>0 then local x,z=e.x-m.x,e.z-m.z;local d=math.sqrt(x*x+z*z);local dot=d>.01 and(x*dx+z*dz)/d or 1
   if d<=range then local v=dot*3-d*.15;if v>score then best=e;score=v end end
  end end
  return best
@@ -46,7 +54,7 @@ function Aim(s,id,dx,dz,range)
  local m=s.members[id];if not m then return nil end;return target(s,m,dx,dz,range)
 end
 function Request(s,id,seq,kind,dx,dz)
- local m=s.members[id];if not m or s.phase~='active'or m.hp<=0 or type(seq)~='number'or seq%1~=0 or seq<=m.ack then return false end
+ local m=s.members[id];if not m or (s.phase~='active'and not(kind=='retreat'and s.phase=='ready'))or m.hp<=0 or type(seq)~='number'or seq%1~=0 or seq<=m.ack then return false end
  m.ack=seq
  if kind=='retreat'then m.hp=0;m.retreat=true;return true end
  if kind=='skill'then kind='skill1'end
@@ -64,7 +72,16 @@ function Request(s,id,seq,kind,dx,dz)
  emit(s,'action',{owner=id,class=m.class,kind=kind,x=m.x,z=m.z,tx=tx,tz=tz});return true
 end
 local function damage(s,e,value,owner)
- if e.hp<=0 then return end;local amount=math.min(e.hp,value);e.hp=e.hp-amount;e.hit=s.t+.18
+ if e.hp<=0 then return end
+ if e.player then
+  if s.t<(e.invulnerable or 0)or s.t<(e.shield or 0)then return end
+  local amount=math.min(e.hp,value);e.hp=e.hp-amount;e.invulnerable=s.t+.3
+  local m=s.members[owner];if m then m.damage=m.damage+amount end
+  emit(s,'hurt',{owner=e.id,x=e.x,z=e.z,damage=amount})
+  emit(s,'hit',{x=e.x,z=e.z,damage=amount,dead=e.hp<=0,class=m and m.class,owner=owner,enemyId=e.id})
+  return
+ end
+ local amount=math.min(e.hp,value);e.hp=e.hp-amount;e.hit=s.t+.18
  local m=s.members[owner];if m then m.damage=m.damage+amount end
  emit(s,'hit',{x=e.x,z=e.z,damage=amount,dead=e.hp<=0,class=m and m.class,owner=owner,enemyId=e.id})
 end
@@ -73,7 +90,7 @@ local function launch(s,q)
  local si=tonumber(string.match(q.kind,'^skill([123])$'))
  if q.class=='melee'then
   if si==1 then m.shield=s.t+3 end
-  for _,e in ipairs(s.enemies)do if e.hp>0 then
+  for _,e in ipairs(victims(s,q.owner))do if e.hp>0 then
    local dx,dz=e.x-m.x,e.z-m.z;local d=math.sqrt(dx*dx+dz*dz)
    local reach=si==3 and 5 or(si and 3.5 or c.range)
    if d<=reach and(si==1 or si==2 or d<.01 or(dx*q.dx+dz*q.dz)/d>=.5)then
@@ -86,7 +103,7 @@ local function launch(s,q)
   local tx,tz=clamp(q.tx,q.tz,s,.5);local d=distance(tx,tz,m.x,m.z);if d>10 then tx,tz=m.x+(tx-m.x)*10/d,m.z+(tz-m.z)*10/d end
   local radius=si==3 and 3.6 or 3
   emit(s,'area',{x=tx,z=tz,class=q.class,kind=q.kind,burst=q.burst})
-  for _,e in ipairs(s.enemies)do if e.hp>0 and distance(e.x,e.z,tx,tz)<=radius then
+  for _,e in ipairs(victims(s,q.owner))do if e.hp>0 and distance(e.x,e.z,tx,tz)<=radius then
    damage(s,e,q.class=='ranged'and 1 or(si==3 and 5 or(si==2 and 2 or 3)),q.owner)
    if q.class=='mage'and si==2 then e.state='stun';e.timer=2 end
   end end
@@ -107,10 +124,22 @@ function Step(s,dt,positions,blocked)
   if m.hp>0 then alive=alive+1 end
  end
  if alive==0 then s.phase='defeat';emit(s,'defeat');return end
- if s.phase=='ready'then if s.t>=s.prep then Spawn(s)end;return end
+ if s.phase=='ready'then
+  if s.duel then
+   -- 对决：等第二个人进场，倒数三秒后开打；一个人等太久就散场
+   local n=0;for _ in pairs(s.members)do n=n+1 end
+   if n>=2 then s.readyAt=s.readyAt or s.t+3;if s.t>=s.readyAt then s.stage=1;s.phase='active';emit(s,'begin',{stage=1})end
+   elseif s.t>120 then s.phase='defeat';emit(s,'defeat')end
+  elseif s.t>=s.prep then Spawn(s)end
+  return
+ end
+ if s.duel and alive<=1 then
+  for id,m in pairs(s.members)do if m.hp>0 then s.winner=id end end
+  s.queue={};s.shots={};s.phase='victory';emit(s,'victory',{winner=s.winner});return
+ end
  for i=#s.queue,1,-1 do local q=s.queue[i];if q.at<=s.t then launch(s,q);table.remove(s.queue,i)end end
  for i=#s.shots,1,-1 do local q=s.shots[i];local step=math.min(q.left,q.speed*dt);local nx,nz=q.x+q.dx*step,q.z+q.dz*step;local hit,best=nil,2
-  for _,e in ipairs(s.enemies)do if e.hp>0 and not q.hitIds[e.id]then local d,t=segmentDistance(e.x,e.z,q.x,q.z,nx,nz);if d<(e.elite and .7 or .5)and t<best then hit=e;best=t end end end
+  for _,e in ipairs(victims(s,q.owner))do if e.hp>0 and not q.hitIds[e.id]then local d,t=segmentDistance(e.x,e.z,q.x,q.z,nx,nz);if d<((e.elite or e.player) and .8 or .5)and t<best then hit=e;best=t end end end
   local wall=blocked and blocked(q.x,q.z,nx,nz)
   if hit and not wall then damage(s,hit,q.damage,q.owner);q.hitIds[hit.id]=true end
   q.left=q.left-step;q.x,q.z=nx,nz
@@ -142,7 +171,7 @@ function Step(s,dt,positions,blocked)
    elseif dist>.01 then local step=math.min(dist-1.3,e.speed*dt);e.x,e.z=clamp(e.x+(closest.x-e.x)/dist*step,e.z+(closest.z-e.z)/dist*step,s,.7)end
   end
  end end
- if enemiesAlive==0 then
+ if enemiesAlive==0 and not s.duel then
   s.queue={};s.shots={}
   if s.stage<3 then
    if not s.intermission then s.intermission=s.t+3;emit(s,'reinforcement',{stage=s.stage+1})end

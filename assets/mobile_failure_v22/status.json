@@ -1,0 +1,33 @@
+{
+  "v21A": "phone validation failed: models missing and lag unchanged or worse",
+  "rollback": "committed",
+  "mainRoots": [
+    {
+      "id": 1250625426,
+      "name": "龙眠精细模型"
+    },
+    {
+      "id": 1743285643,
+      "name": "龙眠城堡精修"
+    },
+    {
+      "id": -526571371,
+      "name": "龙眠玩法轻量版"
+    }
+  ],
+  "mobilePackage": "18:15:34 remains failed old phone preview until regenerated",
+  "cloudErrorReport": "client reports total 0; cannot infer no errors",
+  "missingModels": [
+    "horse",
+    "wheat",
+    "shadow",
+    "dragon or sheep",
+    "witch",
+    "flying carpet"
+  ],
+  "latestPhoneObservation": "User subsequently toured without obvious lag; attack effects trigger return to Douyin page",
+  "currentPriority": "No quality reduction. Fix duplicate render camera; investigate missing imported animated models versus createWLRD.",
+  "latestUserVerdict": "User reports none of the visible problems resolved after v22; do not present it as a successful mobile fix",
+  "formatAudit": "Horse/shadow use KTX2; wheat has no textures but also disappears, so texture decoding alone cannot explain all missing models",
+  "nextRequiredEvidence": "Compare same rigged asset with and without external animation binding in isolated mobile fixture; capture skill-specific failure independently"
+}

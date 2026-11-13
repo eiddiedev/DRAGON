@@ -1,0 +1,42 @@
+[
+  {
+    "effect": "hit",
+    "systems": 2,
+    "maxParticles": 8
+  },
+  {
+    "effect": "bolt",
+    "systems": 2,
+    "maxParticles": 8
+  },
+  {
+    "effect": "shield",
+    "systems": 2,
+    "maxParticles": 8
+  },
+  {
+    "effect": "arrow",
+    "systems": 2,
+    "maxParticles": 8
+  },
+  {
+    "effect": "frost",
+    "systems": 2,
+    "maxParticles": 8
+  },
+  {
+    "effect": "slash",
+    "systems": 2,
+    "maxParticles": 8
+  },
+  {
+    "effect": "meteor",
+    "systems": 2,
+    "maxParticles": 8
+  },
+  {
+    "effect": "burst",
+    "systems": 2,
+    "maxParticles": 8
+  }
+]

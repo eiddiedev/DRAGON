@@ -1,0 +1,6 @@
+{
+  "cameraTests": "50 consecutive shakes; expiry; cleanup; external FOV preserved; transform unchanged",
+  "originalEffectDispatch": "byte-identical",
+  "nativeRuntimeVerified": false,
+  "phoneVerified": false
+}

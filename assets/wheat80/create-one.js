@@ -1,0 +1,1 @@
+return await scene.assets.instantiateModel({resource:'hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb',parent:null,name:'WheatTemplate'});

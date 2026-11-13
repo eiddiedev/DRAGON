@@ -1,4 +1,4 @@
----@id 6e6411da-efb0-447a-9adb-853b7e8bfade
+---@id a508dbd1-84ff-4c35-85e3-0314a850fe18
 ---@sourceScriptId e3d6fae0-7eb5-419b-ba94-d312f39858de
 ---@referenceName dragon_progress.lua
 ---@displayName 龙眠本次游玩进度
@@ -9,6 +9,7 @@
 local scope=require('official.core.runtime_scope').from(self)
 local rules,profile
 local sequence=0
+-- Session-only progression: materials and daily quotas follow normal rules.
 local stopped=false
 local message=''
 local function ready()
@@ -21,7 +22,7 @@ end
 function IsLoaded()return ready()end
 function GetProfile()if ready()then return rules.Copy(profile)end end
 function CanRideDragon()return ready()and profile.pact==true end
-function GetStatus()return{loaded=ready(),busy=false,pending=false,message=message,revision=profile and profile.revision,preview=PreviewOnly,persistent=false}end
+function GetStatus()return{loaded=ready(),busy=false,pending=false,message=message,revision=profile and profile.revision,preview=PreviewOnly,persistent=false,testMode=false}end
 function Submit(kind,args,callback)
  if not ready()then return false,'玩法正在初始化'end
  local t=CS.DouyinUtility.GetServerUnixTime()+CS.DouyinUtility.GetServerTime().Millisecond/1000

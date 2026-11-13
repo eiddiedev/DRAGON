@@ -1,0 +1,1624 @@
+[
+  {
+    "oldId": -2081863013,
+    "name": "flying_carpet",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/f0bh5iwrdslfk9fj.glb",
+    "childName": "rig",
+    "childScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "transform": {
+      "position": {
+        "x": 96.0,
+        "y": 41.8414,
+        "z": 30.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.173647955,
+        "z": 0.0,
+        "w": 0.9848078
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      }
+    },
+    "physics": {
+      "physicsColliderData": {
+        "enableCollision": false,
+        "dynamicFriction": 0.6,
+        "staticFriction": 0.6,
+        "bounciness": 0.0,
+        "enableRigidBody": false,
+        "mass": 1.0,
+        "drag": 0.0,
+        "angularDrag": 0.0,
+        "useGravity": true,
+        "isKinematic": false,
+        "hasCenterOfMass": false,
+        "centerOfMass": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "triggerData": [
+        {
+          "shape": "box",
+          "enabled": true,
+          "center": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          },
+          "size": {
+            "x": 6.0,
+            "y": 4.0,
+            "z": 6.0
+          },
+          "radius": 0.5,
+          "height": 2.0,
+          "direction": 1
+        }
+      ]
+    },
+    "anim": {
+      "schemaVersion": 2,
+      "controllerKey": "mobile-controller/flying_carpet",
+      "overrides": [],
+      "animationAssets": [
+        {
+          "assetId": "mobile/flying_carpet",
+          "assetData": {
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/pqhjzj16oi7c1xio.glb"
+          },
+          "resourceRefId": 0,
+          "clips": [
+            {
+              "animationIndex": 0,
+              "animationName": "ripple",
+              "loop": true,
+              "skipFirstFrame": null
+            }
+          ]
+        }
+      ],
+      "animationSet": {
+        "name": "ModelExternalAnimations",
+        "guid": "mobile/flying_carpet",
+        "embed": true,
+        "defaultControllerKey": "mobile-controller/flying_carpet",
+        "defaultAssetId": "mobile/flying_carpet",
+        "defaultClip": "ripple",
+        "controllers": [
+          {
+            "key": "mobile-controller/flying_carpet",
+            "json": "{\"schemaVersion\": 2, \"animationSetName\": \"ModelExternalAnimations\", \"controller\": {\"name\": \"mobile-controller/flying_carpet\", \"layers\": [{\"name\": \"External\", \"index\": 0, \"weight\": 1, \"stateMachine\": \"sm:External\"}]}, \"graph\": {\"parameters\": {}, \"stateMachines\": {\"sm:External\": {\"id\": \"sm:External\", \"name\": \"External\", \"defaultNode\": \"state:0\", \"childNodes\": [\"state:0\"]}}, \"nodes\": {\"state:0\": {\"id\": \"state:0\", \"type\": \"state\", \"name\": \"ripple\", \"stateMachine\": \"sm:External\", \"speed\": 1, \"motion\": {\"kind\": \"clip\", \"animationSetName\": \"ModelExternalAnimations\", \"assetId\": \"mobile/flying_carpet\", \"clipName\": \"ripple\"}}}, \"transitions\": []}}"
+          }
+        ],
+        "assetIds": []
+      },
+      "embeddedAnimationAssetId": "mobile/flying_carpet",
+      "bindOnLoad": true
+    },
+    "binds": [
+      {
+        "id": "823781fb-438b-44cd-8ed9-c1f828ee79fe",
+        "params": {}
+      }
+    ]
+  },
+  {
+    "oldId": -1916271379,
+    "name": "dragon_v8_live",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/enpa9awsx0ocotdc.glb",
+    "childName": "dragon_rig",
+    "childScale": {
+      "x": 54.0,
+      "y": 54.0,
+      "z": 54.0
+    },
+    "transform": {
+      "position": {
+        "x": 158.31926,
+        "y": 109.216156,
+        "z": 245.0742
+      },
+      "rotation": {
+        "x": -0.07518486,
+        "y": 0.9506249,
+        "z": 0.174786553,
+        "w": 0.245172024
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      }
+    },
+    "physics": {
+      "physicsColliderData": {
+        "enableCollision": true,
+        "dynamicFriction": 0.6,
+        "staticFriction": 0.6,
+        "bounciness": 0.0,
+        "enableRigidBody": false,
+        "mass": 1.0,
+        "drag": 0.0,
+        "angularDrag": 0.0,
+        "useGravity": true,
+        "isKinematic": false,
+        "hasCenterOfMass": false,
+        "centerOfMass": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "triggerData": []
+    },
+    "anim": {
+      "schemaVersion": 2,
+      "controllerKey": "mobile-controller/dragon_v8_live",
+      "overrides": [],
+      "animationAssets": [
+        {
+          "assetId": "mobile/dragon_v8_live",
+          "assetData": {
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/9d7xc6emz5a8mt0v.glb"
+          },
+          "resourceRefId": 0,
+          "clips": [
+            {
+              "animationIndex": 0,
+              "animationName": "idle",
+              "loop": true,
+              "skipFirstFrame": null
+            },
+            {
+              "animationIndex": 1,
+              "animationName": "takeoff",
+              "loop": false,
+              "skipFirstFrame": null
+            },
+            {
+              "animationIndex": 2,
+              "animationName": "fly",
+              "loop": true,
+              "skipFirstFrame": null
+            },
+            {
+              "animationIndex": 3,
+              "animationName": "land",
+              "loop": false,
+              "skipFirstFrame": null
+            },
+            {
+              "animationIndex": 4,
+              "animationName": "perch",
+              "loop": true,
+              "skipFirstFrame": null
+            },
+            {
+              "animationIndex": 5,
+              "animationName": "perch_takeoff",
+              "loop": false,
+              "skipFirstFrame": null
+            },
+            {
+              "animationIndex": 6,
+              "animationName": "perch_land",
+              "loop": false,
+              "skipFirstFrame": null
+            }
+          ]
+        }
+      ],
+      "animationSet": {
+        "name": "ModelExternalAnimations",
+        "guid": "mobile/dragon_v8_live",
+        "embed": true,
+        "defaultControllerKey": "mobile-controller/dragon_v8_live",
+        "defaultAssetId": "mobile/dragon_v8_live",
+        "defaultClip": "perch",
+        "controllers": [
+          {
+            "key": "mobile-controller/dragon_v8_live",
+            "json": "{\"schemaVersion\": 2, \"animationSetName\": \"ModelExternalAnimations\", \"controller\": {\"name\": \"mobile-controller/dragon_v8_live\", \"layers\": [{\"name\": \"External\", \"index\": 0, \"weight\": 1, \"stateMachine\": \"sm:External\"}]}, \"graph\": {\"parameters\": {}, \"stateMachines\": {\"sm:External\": {\"id\": \"sm:External\", \"name\": \"External\", \"defaultNode\": \"state:4\", \"childNodes\": [\"state:0\", \"state:1\", \"state:2\", \"state:3\", \"state:4\", \"state:5\", \"state:6\"]}}, \"nodes\": {\"state:0\": {\"id\": \"state:0\", \"type\": \"state\", \"name\": \"idle\", \"stateMachine\": \"sm:External\", \"speed\": 1, \"motion\": {\"kind\": \"clip\", \"animationSetName\": \"ModelExternalAnimations\", \"assetId\": \"mobile/dragon_v8_live\", \"clipName\": \"idle\"}}, \"state:1\": {\"id\": \"state:1\", \"type\": \"state\", \"name\": \"takeoff\", \"stateMachine\": \"sm:External\", \"speed\": 1, \"motion\": {\"kind\": \"clip\", \"animationSetName\": \"ModelExternalAnimations\", \"assetId\": \"mobile/dragon_v8_live\", \"clipName\": \"takeoff\"}}, \"state:2\": {\"id\": \"state:2\", \"type\": \"state\", \"name\": \"fly\", \"stateMachine\": \"sm:External\", \"speed\": 1, \"motion\": {\"kind\": \"clip\", \"animationSetName\": \"ModelExternalAnimations\", \"assetId\": \"mobile/dragon_v8_live\", \"clipName\": \"fly\"}}, \"state:3\": {\"id\": \"state:3\", \"type\": \"state\", \"name\": \"land\", \"stateMachine\": \"sm:External\", \"speed\": 1, \"motion\": {\"kind\": \"clip\", \"animationSetName\": \"ModelExternalAnimations\", \"assetId\": \"mobile/dragon_v8_live\", \"clipName\": \"land\"}}, \"state:4\": {\"id\": \"state:4\", \"type\": \"state\", \"name\": \"perch\", \"stateMachine\": \"sm:External\", \"speed\": 1, \"motion\": {\"kind\": \"clip\", \"animationSetName\": \"ModelExternalAnimations\", \"assetId\": \"mobile/dragon_v8_live\", \"clipName\": \"perch\"}}, \"state:5\": {\"id\": \"state:5\", \"type\": \"state\", \"name\": \"perch_takeoff\", \"stateMachine\": \"sm:External\", \"speed\": 1, \"motion\": {\"kind\": \"clip\", \"animationSetName\": \"ModelExternalAnimations\", \"assetId\": \"mobile/dragon_v8_live\", \"clipName\": \"perch_takeoff\"}}, \"state:6\": {\"id\": \"state:6\", \"type\": \"state\", \"name\": \"perch_land\", \"stateMachine\": \"sm:External\", \"speed\": 1, \"motion\": {\"kind\": \"clip\", \"animationSetName\": \"ModelExternalAnimations\", \"assetId\": \"mobile/dragon_v8_live\", \"clipName\": \"perch_land\"}}}, \"transitions\": []}}"
+          }
+        ],
+        "assetIds": []
+      },
+      "embeddedAnimationAssetId": "mobile/dragon_v8_live",
+      "bindOnLoad": true
+    },
+    "binds": []
+  },
+  {
+    "oldId": -1372397970,
+    "name": "tripo_horse",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/uyduwywgnj13xzsn.glb",
+    "childName": "Armature",
+    "childScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "transform": {
+      "position": {
+        "x": 140.5,
+        "y": 39.2955742,
+        "z": 51.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.866025448,
+        "z": 0.0,
+        "w": 0.49999997
+      },
+      "scale": {
+        "x": 2.42397285,
+        "y": 2.42397285,
+        "z": 2.42397285
+      }
+    },
+    "physics": {
+      "physicsColliderData": {
+        "enableCollision": false,
+        "dynamicFriction": 0.6,
+        "staticFriction": 0.6,
+        "bounciness": 0.0,
+        "enableRigidBody": false,
+        "mass": 1.0,
+        "drag": 0.0,
+        "angularDrag": 0.0,
+        "useGravity": true,
+        "isKinematic": false,
+        "hasCenterOfMass": false,
+        "centerOfMass": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "triggerData": [
+        {
+          "shape": "box",
+          "enabled": true,
+          "center": {
+            "x": 0.0,
+            "y": 0.4125459,
+            "z": 0.0
+          },
+          "size": {
+            "x": 2.06272936,
+            "y": 1.65018356,
+            "z": 2.06272936
+          },
+          "radius": 0.5,
+          "height": 2.0,
+          "direction": 1
+        }
+      ]
+    },
+    "anim": {
+      "schemaVersion": 2,
+      "controllerKey": "__ugc_external__/creator-animation-set-e9eaa5fc22046a00",
+      "overrides": [],
+      "animationAssets": [
+        {
+          "assetId": "__ugc_local__/f561dd400456e9ec",
+          "assetData": {
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/8jrmh59sec126edf.glb",
+            "assetID": "11618320970754"
+          },
+          "resourceRefId": 0,
+          "style": null,
+          "clips": [
+            {
+              "animationIndex": 0,
+              "animationName": "Idle",
+              "loop": true,
+              "skipFirstFrame": null
+            },
+            {
+              "animationIndex": 1,
+              "animationName": "Walk",
+              "loop": true,
+              "skipFirstFrame": null
+            },
+            {
+              "animationIndex": 2,
+              "animationName": "Trot",
+              "loop": true,
+              "skipFirstFrame": null
+            },
+            {
+              "animationIndex": 3,
+              "animationName": "Run",
+              "loop": true,
+              "skipFirstFrame": null
+            }
+          ]
+        }
+      ],
+      "animationSet": {
+        "name": "ModelExternalAnimations",
+        "guid": "wprefab/553502939F9DEFD5B1F3BBD995D0F98DA2385A258C0B2C8D275940EC7FDD1615",
+        "embed": true,
+        "retarget": null,
+        "retargetRootBone": null,
+        "defaultControllerKey": "__ugc_external__/creator-animation-set-e9eaa5fc22046a00",
+        "defaultAssetId": "__ugc_local__/f561dd400456e9ec",
+        "defaultClip": "Idle",
+        "skeletonSkinIndex": null,
+        "controllers": [
+          {
+            "key": "__ugc_external__/creator-animation-set-e9eaa5fc22046a00",
+            "json": "{\"schemaVersion\":2,\"animationSetName\":\"ModelExternalAnimations\",\"controller\":{\"name\":\"__ugc_external__/creator-animation-set-e9eaa5fc22046a00\",\"layers\":[{\"name\":\"External\",\"index\":0,\"weight\":1,\"stateMachine\":\"sm:External\"}]},\"graph\":{\"parameters\":{},\"stateMachines\":{\"sm:External\":{\"id\":\"sm:External\",\"name\":\"External\",\"defaultNode\":\"state:External/0\",\"childNodes\":[\"state:External/0\",\"state:External/1\",\"state:External/2\",\"state:External/3\",\"state:External/4\"]}},\"nodes\":{\"state:External/0\":{\"id\":\"state:External/0\",\"type\":\"state\",\"name\":\"Idle\",\"stateMachine\":\"sm:External\",\"speed\":1,\"motion\":{\"kind\":\"clip\",\"animationSetName\":\"ModelExternalAnimations\",\"assetId\":\"__ugc_local__/f561dd400456e9ec\",\"clipName\":\"Idle\"}},\"state:External/1\":{\"id\":\"state:External/1\",\"type\":\"state\",\"name\":\"Walk\",\"stateMachine\":\"sm:External\",\"speed\":1.6,\"motion\":{\"kind\":\"clip\",\"animationSetName\":\"ModelExternalAnimations\",\"assetId\":\"__ugc_local__/f561dd400456e9ec\",\"clipName\":\"Walk\"}},\"state:External/2\":{\"id\":\"state:External/2\",\"type\":\"state\",\"name\":\"Trot\",\"stateMachine\":\"sm:External\",\"speed\":1.35,\"motion\":{\"kind\":\"clip\",\"animationSetName\":\"ModelExternalAnimations\",\"assetId\":\"__ugc_local__/f561dd400456e9ec\",\"clipName\":\"Trot\"}},\"state:External/3\":{\"id\":\"state:External/3\",\"type\":\"state\",\"name\":\"Run\",\"stateMachine\":\"sm:External\",\"speed\":1,\"motion\":{\"kind\":\"clip\",\"animationSetName\":\"ModelExternalAnimations\",\"assetId\":\"__ugc_local__/f561dd400456e9ec\",\"clipName\":\"Run\"}},\"state:External/4\":{\"id\":\"state:External/4\",\"type\":\"state\",\"name\":\"RunFast\",\"stateMachine\":\"sm:External\",\"speed\":1.4,\"motion\":{\"kind\":\"clip\",\"animationSetName\":\"ModelExternalAnimations\",\"assetId\":\"__ugc_local__/f561dd400456e9ec\",\"clipName\":\"Run\"}}},\"transitions\":[]}}"
+          }
+        ],
+        "assetIds": []
+      },
+      "embeddedAnimationAssetId": "__ugc_local__/f561dd400456e9ec",
+      "bindOnLoad": true
+    },
+    "binds": [
+      {
+        "id": "477c87bb-5048-402f-89b8-b4d351cc10b7",
+        "params": {}
+      }
+    ]
+  },
+  {
+    "oldId": -165596210,
+    "name": "sheep_0",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/fqbdmedl2dqglinx.glb",
+    "childName": "Armature",
+    "childScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "transform": {
+      "position": {
+        "x": 84.0,
+        "y": 42.0583,
+        "z": 42.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0,
+        "w": 6.123234e-17
+      },
+      "scale": {
+        "x": 1.368705,
+        "y": 1.368705,
+        "z": 1.368705
+      }
+    },
+    "physics": {
+      "physicsColliderData": {
+        "enableCollision": true,
+        "dynamicFriction": 0.6,
+        "staticFriction": 0.6,
+        "bounciness": 0.0,
+        "enableRigidBody": true,
+        "mass": 12.0,
+        "drag": 2.5,
+        "angularDrag": 5.0,
+        "useGravity": true,
+        "isKinematic": false,
+        "hasCenterOfMass": false,
+        "centerOfMass": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "triggerData": [
+        {
+          "shape": "box",
+          "enabled": true,
+          "center": {
+            "x": 0.0,
+            "y": 0.913272,
+            "z": 0.0
+          },
+          "size": {
+            "x": 7.306176,
+            "y": 3.653088,
+            "z": 7.306176
+          },
+          "radius": 0.5,
+          "height": 2.0,
+          "direction": 1
+        }
+      ]
+    },
+    "anim": {
+      "schemaVersion": 2,
+      "controllerKey": "__ugc_external__/creator-animation-set-330d52caec95343e",
+      "overrides": [],
+      "animationAssets": [
+        {
+          "assetId": "__ugc_local__/0df4e337c1f14e53",
+          "assetData": {
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ep9wk7s4vwsfksw0.glb",
+            "assetID": ""
+          },
+          "resourceRefId": 0,
+          "style": null,
+          "clips": [
+            {
+              "animationIndex": 0,
+              "animationName": "Walk",
+              "loop": true,
+              "skipFirstFrame": null
+            },
+            {
+              "animationIndex": 1,
+              "animationName": "Idle",
+              "loop": true,
+              "skipFirstFrame": null
+            }
+          ]
+        }
+      ],
+      "animationSet": {
+        "name": "ModelExternalAnimations_43c2d2e92d780d4d",
+        "guid": "wprefab/40650C7EFF079FC5375314AFACF8796BA5C98D84111F3C58BC6B077FDE963964",
+        "embed": true,
+        "retarget": null,
+        "retargetRootBone": null,
+        "defaultControllerKey": "__ugc_external__/creator-animation-set-330d52caec95343e",
+        "defaultAssetId": "__ugc_local__/0df4e337c1f14e53",
+        "defaultClip": "Idle",
+        "skeletonSkinIndex": null,
+        "controllers": [
+          {
+            "key": "__ugc_external__/creator-animation-set-330d52caec95343e",
+            "json": "{\"schemaVersion\":2,\"animationSetName\":\"ModelExternalAnimations_43c2d2e92d780d4d\",\"controller\":{\"name\":\"__ugc_external__/creator-animation-set-330d52caec95343e\",\"layers\":[{\"name\":\"External\",\"index\":0,\"weight\":1,\"stateMachine\":\"sm:External\"}]},\"graph\":{\"parameters\":{},\"stateMachines\":{\"sm:External\":{\"id\":\"sm:External\",\"name\":\"External\",\"defaultNode\":\"state:External/1\",\"childNodes\":[\"state:External/0\",\"state:External/1\"]}},\"nodes\":{\"state:External/0\":{\"id\":\"state:External/0\",\"type\":\"state\",\"name\":\"Walk\",\"stateMachine\":\"sm:External\",\"speed\":1,\"motion\":{\"kind\":\"clip\",\"animationSetName\":\"ModelExternalAnimations\",\"assetId\":\"__ugc_local__/0df4e337c1f14e53\",\"clipName\":\"Walk\"}},\"state:External/1\":{\"id\":\"state:External/1\",\"type\":\"state\",\"name\":\"Idle\",\"stateMachine\":\"sm:External\",\"speed\":1,\"motion\":{\"kind\":\"clip\",\"animationSetName\":\"ModelExternalAnimations\",\"assetId\":\"__ugc_local__/0df4e337c1f14e53\",\"clipName\":\"Idle\"}}},\"transitions\":[]}}"
+          }
+        ],
+        "assetIds": []
+      },
+      "embeddedAnimationAssetId": "__ugc_local__/0df4e337c1f14e53",
+      "bindOnLoad": true
+    },
+    "binds": [
+      {
+        "id": "e59fb775-946f-4711-be95-857448a20f46",
+        "params": {}
+      },
+      {
+        "id": "fd28059b-f481-44d4-917a-864d005c3b29",
+        "params": {}
+      }
+    ]
+  },
+  {
+    "oldId": 1318906986,
+    "name": "sheep_1",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/fqbdmedl2dqglinx.glb",
+    "childName": "Armature",
+    "childScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "transform": {
+      "position": {
+        "x": 97.0,
+        "y": 43.1486,
+        "z": 65.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0,
+        "w": 6.123234e-17
+      },
+      "scale": {
+        "x": 1.368705,
+        "y": 1.368705,
+        "z": 1.368705
+      }
+    },
+    "physics": {
+      "physicsColliderData": {
+        "enableCollision": true,
+        "dynamicFriction": 0.6,
+        "staticFriction": 0.6,
+        "bounciness": 0.0,
+        "enableRigidBody": true,
+        "mass": 12.0,
+        "drag": 2.5,
+        "angularDrag": 5.0,
+        "useGravity": true,
+        "isKinematic": false,
+        "hasCenterOfMass": false,
+        "centerOfMass": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "triggerData": [
+        {
+          "shape": "box",
+          "enabled": true,
+          "center": {
+            "x": 0.0,
+            "y": 0.913272,
+            "z": 0.0
+          },
+          "size": {
+            "x": 7.306176,
+            "y": 3.653088,
+            "z": 7.306176
+          },
+          "radius": 0.5,
+          "height": 2.0,
+          "direction": 1
+        }
+      ]
+    },
+    "anim": {
+      "schemaVersion": 2,
+      "controllerKey": "__ugc_external__/creator-animation-set-330d52caec95343e",
+      "overrides": [],
+      "animationAssets": [
+        {
+          "assetId": "__ugc_local__/0df4e337c1f14e53",
+          "assetData": {
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ep9wk7s4vwsfksw0.glb",
+            "assetID": ""
+          },
+          "resourceRefId": 0,
+          "style": null,
+          "clips": [
+            {
+              "animationIndex": 0,
+              "animationName": "Walk",
+              "loop": true,
+              "skipFirstFrame": null
+            },
+            {
+              "animationIndex": 1,
+              "animationName": "Idle",
+              "loop": true,
+              "skipFirstFrame": null
+            }
+          ]
+        }
+      ],
+      "animationSet": {
+        "name": "ModelExternalAnimations_43c2d2e92d780d4d",
+        "guid": "wprefab/40650C7EFF079FC5375314AFACF8796BA5C98D84111F3C58BC6B077FDE963964",
+        "embed": true,
+        "retarget": null,
+        "retargetRootBone": null,
+        "defaultControllerKey": "__ugc_external__/creator-animation-set-330d52caec95343e",
+        "defaultAssetId": "__ugc_local__/0df4e337c1f14e53",
+        "defaultClip": "Idle",
+        "skeletonSkinIndex": null,
+        "controllers": [
+          {
+            "key": "__ugc_external__/creator-animation-set-330d52caec95343e",
+            "json": "{\"schemaVersion\":2,\"animationSetName\":\"ModelExternalAnimations_43c2d2e92d780d4d\",\"controller\":{\"name\":\"__ugc_external__/creator-animation-set-330d52caec95343e\",\"layers\":[{\"name\":\"External\",\"index\":0,\"weight\":1,\"stateMachine\":\"sm:External\"}]},\"graph\":{\"parameters\":{},\"stateMachines\":{\"sm:External\":{\"id\":\"sm:External\",\"name\":\"External\",\"defaultNode\":\"state:External/1\",\"childNodes\":[\"state:External/0\",\"state:External/1\"]}},\"nodes\":{\"state:External/0\":{\"id\":\"state:External/0\",\"type\":\"state\",\"name\":\"Walk\",\"stateMachine\":\"sm:External\",\"speed\":1,\"motion\":{\"kind\":\"clip\",\"animationSetName\":\"ModelExternalAnimations\",\"assetId\":\"__ugc_local__/0df4e337c1f14e53\",\"clipName\":\"Walk\"}},\"state:External/1\":{\"id\":\"state:External/1\",\"type\":\"state\",\"name\":\"Idle\",\"stateMachine\":\"sm:External\",\"speed\":1,\"motion\":{\"kind\":\"clip\",\"animationSetName\":\"ModelExternalAnimations\",\"assetId\":\"__ugc_local__/0df4e337c1f14e53\",\"clipName\":\"Idle\"}}},\"transitions\":[]}}"
+          }
+        ],
+        "assetIds": []
+      },
+      "embeddedAnimationAssetId": "__ugc_local__/0df4e337c1f14e53",
+      "bindOnLoad": true
+    },
+    "binds": [
+      {
+        "id": "e59fb775-946f-4711-be95-857448a20f46",
+        "params": {}
+      },
+      {
+        "id": "fd28059b-f481-44d4-917a-864d005c3b29",
+        "params": {}
+      }
+    ]
+  },
+  {
+    "oldId": -520888166,
+    "name": "sheep_2",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/fqbdmedl2dqglinx.glb",
+    "childName": "Armature",
+    "childScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "transform": {
+      "position": {
+        "x": 110.0,
+        "y": 40.3131,
+        "z": 44.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0,
+        "w": 6.123234e-17
+      },
+      "scale": {
+        "x": 1.368705,
+        "y": 1.368705,
+        "z": 1.368705
+      }
+    },
+    "physics": {
+      "physicsColliderData": {
+        "enableCollision": true,
+        "dynamicFriction": 0.6,
+        "staticFriction": 0.6,
+        "bounciness": 0.0,
+        "enableRigidBody": true,
+        "mass": 12.0,
+        "drag": 2.5,
+        "angularDrag": 5.0,
+        "useGravity": true,
+        "isKinematic": false,
+        "hasCenterOfMass": false,
+        "centerOfMass": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "triggerData": [
+        {
+          "shape": "box",
+          "enabled": true,
+          "center": {
+            "x": 0.0,
+            "y": 0.913272,
+            "z": 0.0
+          },
+          "size": {
+            "x": 7.306176,
+            "y": 3.653088,
+            "z": 7.306176
+          },
+          "radius": 0.5,
+          "height": 2.0,
+          "direction": 1
+        }
+      ]
+    },
+    "anim": {
+      "schemaVersion": 2,
+      "controllerKey": "__ugc_external__/creator-animation-set-330d52caec95343e",
+      "overrides": [],
+      "animationAssets": [
+        {
+          "assetId": "__ugc_local__/0df4e337c1f14e53",
+          "assetData": {
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ep9wk7s4vwsfksw0.glb",
+            "assetID": ""
+          },
+          "resourceRefId": 0,
+          "style": null,
+          "clips": [
+            {
+              "animationIndex": 0,
+              "animationName": "Walk",
+              "loop": true,
+              "skipFirstFrame": null
+            },
+            {
+              "animationIndex": 1,
+              "animationName": "Idle",
+              "loop": true,
+              "skipFirstFrame": null
+            }
+          ]
+        }
+      ],
+      "animationSet": {
+        "name": "ModelExternalAnimations_43c2d2e92d780d4d",
+        "guid": "wprefab/40650C7EFF079FC5375314AFACF8796BA5C98D84111F3C58BC6B077FDE963964",
+        "embed": true,
+        "retarget": null,
+        "retargetRootBone": null,
+        "defaultControllerKey": "__ugc_external__/creator-animation-set-330d52caec95343e",
+        "defaultAssetId": "__ugc_local__/0df4e337c1f14e53",
+        "defaultClip": "Idle",
+        "skeletonSkinIndex": null,
+        "controllers": [
+          {
+            "key": "__ugc_external__/creator-animation-set-330d52caec95343e",
+            "json": "{\"schemaVersion\":2,\"animationSetName\":\"ModelExternalAnimations_43c2d2e92d780d4d\",\"controller\":{\"name\":\"__ugc_external__/creator-animation-set-330d52caec95343e\",\"layers\":[{\"name\":\"External\",\"index\":0,\"weight\":1,\"stateMachine\":\"sm:External\"}]},\"graph\":{\"parameters\":{},\"stateMachines\":{\"sm:External\":{\"id\":\"sm:External\",\"name\":\"External\",\"defaultNode\":\"state:External/1\",\"childNodes\":[\"state:External/0\",\"state:External/1\"]}},\"nodes\":{\"state:External/0\":{\"id\":\"state:External/0\",\"type\":\"state\",\"name\":\"Walk\",\"stateMachine\":\"sm:External\",\"speed\":1,\"motion\":{\"kind\":\"clip\",\"animationSetName\":\"ModelExternalAnimations\",\"assetId\":\"__ugc_local__/0df4e337c1f14e53\",\"clipName\":\"Walk\"}},\"state:External/1\":{\"id\":\"state:External/1\",\"type\":\"state\",\"name\":\"Idle\",\"stateMachine\":\"sm:External\",\"speed\":1,\"motion\":{\"kind\":\"clip\",\"animationSetName\":\"ModelExternalAnimations\",\"assetId\":\"__ugc_local__/0df4e337c1f14e53\",\"clipName\":\"Idle\"}}},\"transitions\":[]}}"
+          }
+        ],
+        "assetIds": []
+      },
+      "embeddedAnimationAssetId": "__ugc_local__/0df4e337c1f14e53",
+      "bindOnLoad": true
+    },
+    "binds": [
+      {
+        "id": "e59fb775-946f-4711-be95-857448a20f46",
+        "params": {}
+      },
+      {
+        "id": "fd28059b-f481-44d4-917a-864d005c3b29",
+        "params": {}
+      }
+    ]
+  },
+  {
+    "oldId": 1200968100,
+    "name": "sheep_3",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/fqbdmedl2dqglinx.glb",
+    "childName": "Armature",
+    "childScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "transform": {
+      "position": {
+        "x": 89.0,
+        "y": 44.668,
+        "z": 67.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0,
+        "w": 6.123234e-17
+      },
+      "scale": {
+        "x": 1.368705,
+        "y": 1.368705,
+        "z": 1.368705
+      }
+    },
+    "physics": {
+      "physicsColliderData": {
+        "enableCollision": true,
+        "dynamicFriction": 0.6,
+        "staticFriction": 0.6,
+        "bounciness": 0.0,
+        "enableRigidBody": true,
+        "mass": 12.0,
+        "drag": 2.5,
+        "angularDrag": 5.0,
+        "useGravity": true,
+        "isKinematic": false,
+        "hasCenterOfMass": false,
+        "centerOfMass": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "triggerData": [
+        {
+          "shape": "box",
+          "enabled": true,
+          "center": {
+            "x": 0.0,
+            "y": 0.913272,
+            "z": 0.0
+          },
+          "size": {
+            "x": 7.306176,
+            "y": 3.653088,
+            "z": 7.306176
+          },
+          "radius": 0.5,
+          "height": 2.0,
+          "direction": 1
+        }
+      ]
+    },
+    "anim": {
+      "schemaVersion": 2,
+      "controllerKey": "__ugc_external__/creator-animation-set-330d52caec95343e",
+      "overrides": [],
+      "animationAssets": [
+        {
+          "assetId": "__ugc_local__/0df4e337c1f14e53",
+          "assetData": {
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ep9wk7s4vwsfksw0.glb",
+            "assetID": ""
+          },
+          "resourceRefId": 0,
+          "style": null,
+          "clips": [
+            {
+              "animationIndex": 0,
+              "animationName": "Walk",
+              "loop": true,
+              "skipFirstFrame": null
+            },
+            {
+              "animationIndex": 1,
+              "animationName": "Idle",
+              "loop": true,
+              "skipFirstFrame": null
+            }
+          ]
+        }
+      ],
+      "animationSet": {
+        "name": "ModelExternalAnimations_43c2d2e92d780d4d",
+        "guid": "wprefab/40650C7EFF079FC5375314AFACF8796BA5C98D84111F3C58BC6B077FDE963964",
+        "embed": true,
+        "retarget": null,
+        "retargetRootBone": null,
+        "defaultControllerKey": "__ugc_external__/creator-animation-set-330d52caec95343e",
+        "defaultAssetId": "__ugc_local__/0df4e337c1f14e53",
+        "defaultClip": "Idle",
+        "skeletonSkinIndex": null,
+        "controllers": [
+          {
+            "key": "__ugc_external__/creator-animation-set-330d52caec95343e",
+            "json": "{\"schemaVersion\":2,\"animationSetName\":\"ModelExternalAnimations_43c2d2e92d780d4d\",\"controller\":{\"name\":\"__ugc_external__/creator-animation-set-330d52caec95343e\",\"layers\":[{\"name\":\"External\",\"index\":0,\"weight\":1,\"stateMachine\":\"sm:External\"}]},\"graph\":{\"parameters\":{},\"stateMachines\":{\"sm:External\":{\"id\":\"sm:External\",\"name\":\"External\",\"defaultNode\":\"state:External/1\",\"childNodes\":[\"state:External/0\",\"state:External/1\"]}},\"nodes\":{\"state:External/0\":{\"id\":\"state:External/0\",\"type\":\"state\",\"name\":\"Walk\",\"stateMachine\":\"sm:External\",\"speed\":1,\"motion\":{\"kind\":\"clip\",\"animationSetName\":\"ModelExternalAnimations\",\"assetId\":\"__ugc_local__/0df4e337c1f14e53\",\"clipName\":\"Walk\"}},\"state:External/1\":{\"id\":\"state:External/1\",\"type\":\"state\",\"name\":\"Idle\",\"stateMachine\":\"sm:External\",\"speed\":1,\"motion\":{\"kind\":\"clip\",\"animationSetName\":\"ModelExternalAnimations\",\"assetId\":\"__ugc_local__/0df4e337c1f14e53\",\"clipName\":\"Idle\"}}},\"transitions\":[]}}"
+          }
+        ],
+        "assetIds": []
+      },
+      "embeddedAnimationAssetId": "__ugc_local__/0df4e337c1f14e53",
+      "bindOnLoad": true
+    },
+    "binds": [
+      {
+        "id": "e59fb775-946f-4711-be95-857448a20f46",
+        "params": {}
+      },
+      {
+        "id": "fd28059b-f481-44d4-917a-864d005c3b29",
+        "params": {}
+      }
+    ]
+  },
+  {
+    "oldId": -1909999755,
+    "name": "sheep_4",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/fqbdmedl2dqglinx.glb",
+    "childName": "Armature",
+    "childScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "transform": {
+      "position": {
+        "x": 102.0,
+        "y": 41.2758,
+        "z": 46.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0,
+        "w": 6.123234e-17
+      },
+      "scale": {
+        "x": 1.368705,
+        "y": 1.368705,
+        "z": 1.368705
+      }
+    },
+    "physics": {
+      "physicsColliderData": {
+        "enableCollision": true,
+        "dynamicFriction": 0.6,
+        "staticFriction": 0.6,
+        "bounciness": 0.0,
+        "enableRigidBody": true,
+        "mass": 12.0,
+        "drag": 2.5,
+        "angularDrag": 5.0,
+        "useGravity": true,
+        "isKinematic": false,
+        "hasCenterOfMass": false,
+        "centerOfMass": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "triggerData": [
+        {
+          "shape": "box",
+          "enabled": true,
+          "center": {
+            "x": 0.0,
+            "y": 0.913272,
+            "z": 0.0
+          },
+          "size": {
+            "x": 7.306176,
+            "y": 3.653088,
+            "z": 7.306176
+          },
+          "radius": 0.5,
+          "height": 2.0,
+          "direction": 1
+        }
+      ]
+    },
+    "anim": {
+      "schemaVersion": 2,
+      "controllerKey": "__ugc_external__/creator-animation-set-330d52caec95343e",
+      "overrides": [],
+      "animationAssets": [
+        {
+          "assetId": "__ugc_local__/0df4e337c1f14e53",
+          "assetData": {
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ep9wk7s4vwsfksw0.glb",
+            "assetID": ""
+          },
+          "resourceRefId": 0,
+          "style": null,
+          "clips": [
+            {
+              "animationIndex": 0,
+              "animationName": "Walk",
+              "loop": true,
+              "skipFirstFrame": null
+            },
+            {
+              "animationIndex": 1,
+              "animationName": "Idle",
+              "loop": true,
+              "skipFirstFrame": null
+            }
+          ]
+        }
+      ],
+      "animationSet": {
+        "name": "ModelExternalAnimations_43c2d2e92d780d4d",
+        "guid": "wprefab/40650C7EFF079FC5375314AFACF8796BA5C98D84111F3C58BC6B077FDE963964",
+        "embed": true,
+        "retarget": null,
+        "retargetRootBone": null,
+        "defaultControllerKey": "__ugc_external__/creator-animation-set-330d52caec95343e",
+        "defaultAssetId": "__ugc_local__/0df4e337c1f14e53",
+        "defaultClip": "Idle",
+        "skeletonSkinIndex": null,
+        "controllers": [
+          {
+            "key": "__ugc_external__/creator-animation-set-330d52caec95343e",
+            "json": "{\"schemaVersion\":2,\"animationSetName\":\"ModelExternalAnimations_43c2d2e92d780d4d\",\"controller\":{\"name\":\"__ugc_external__/creator-animation-set-330d52caec95343e\",\"layers\":[{\"name\":\"External\",\"index\":0,\"weight\":1,\"stateMachine\":\"sm:External\"}]},\"graph\":{\"parameters\":{},\"stateMachines\":{\"sm:External\":{\"id\":\"sm:External\",\"name\":\"External\",\"defaultNode\":\"state:External/1\",\"childNodes\":[\"state:External/0\",\"state:External/1\"]}},\"nodes\":{\"state:External/0\":{\"id\":\"state:External/0\",\"type\":\"state\",\"name\":\"Walk\",\"stateMachine\":\"sm:External\",\"speed\":1,\"motion\":{\"kind\":\"clip\",\"animationSetName\":\"ModelExternalAnimations\",\"assetId\":\"__ugc_local__/0df4e337c1f14e53\",\"clipName\":\"Walk\"}},\"state:External/1\":{\"id\":\"state:External/1\",\"type\":\"state\",\"name\":\"Idle\",\"stateMachine\":\"sm:External\",\"speed\":1,\"motion\":{\"kind\":\"clip\",\"animationSetName\":\"ModelExternalAnimations\",\"assetId\":\"__ugc_local__/0df4e337c1f14e53\",\"clipName\":\"Idle\"}}},\"transitions\":[]}}"
+          }
+        ],
+        "assetIds": []
+      },
+      "embeddedAnimationAssetId": "__ugc_local__/0df4e337c1f14e53",
+      "bindOnLoad": true
+    },
+    "binds": [
+      {
+        "id": "e59fb775-946f-4711-be95-857448a20f46",
+        "params": {}
+      },
+      {
+        "id": "fd28059b-f481-44d4-917a-864d005c3b29",
+        "params": {}
+      }
+    ]
+  },
+  {
+    "oldId": 1710378230,
+    "name": "sheep_5",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/fqbdmedl2dqglinx.glb",
+    "childName": "Armature",
+    "childScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "transform": {
+      "position": {
+        "x": 115.0,
+        "y": 40.7794,
+        "z": 69.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0,
+        "w": 6.123234e-17
+      },
+      "scale": {
+        "x": 1.368705,
+        "y": 1.368705,
+        "z": 1.368705
+      }
+    },
+    "physics": {
+      "physicsColliderData": {
+        "enableCollision": true,
+        "dynamicFriction": 0.6,
+        "staticFriction": 0.6,
+        "bounciness": 0.0,
+        "enableRigidBody": true,
+        "mass": 12.0,
+        "drag": 2.5,
+        "angularDrag": 5.0,
+        "useGravity": true,
+        "isKinematic": false,
+        "hasCenterOfMass": false,
+        "centerOfMass": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "triggerData": [
+        {
+          "shape": "box",
+          "enabled": true,
+          "center": {
+            "x": 0.0,
+            "y": 0.913272,
+            "z": 0.0
+          },
+          "size": {
+            "x": 7.306176,
+            "y": 3.653088,
+            "z": 7.306176
+          },
+          "radius": 0.5,
+          "height": 2.0,
+          "direction": 1
+        }
+      ]
+    },
+    "anim": {
+      "schemaVersion": 2,
+      "controllerKey": "__ugc_external__/creator-animation-set-330d52caec95343e",
+      "overrides": [],
+      "animationAssets": [
+        {
+          "assetId": "__ugc_local__/0df4e337c1f14e53",
+          "assetData": {
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ep9wk7s4vwsfksw0.glb",
+            "assetID": ""
+          },
+          "resourceRefId": 0,
+          "style": null,
+          "clips": [
+            {
+              "animationIndex": 0,
+              "animationName": "Walk",
+              "loop": true,
+              "skipFirstFrame": null
+            },
+            {
+              "animationIndex": 1,
+              "animationName": "Idle",
+              "loop": true,
+              "skipFirstFrame": null
+            }
+          ]
+        }
+      ],
+      "animationSet": {
+        "name": "ModelExternalAnimations_43c2d2e92d780d4d",
+        "guid": "wprefab/40650C7EFF079FC5375314AFACF8796BA5C98D84111F3C58BC6B077FDE963964",
+        "embed": true,
+        "retarget": null,
+        "retargetRootBone": null,
+        "defaultControllerKey": "__ugc_external__/creator-animation-set-330d52caec95343e",
+        "defaultAssetId": "__ugc_local__/0df4e337c1f14e53",
+        "defaultClip": "Idle",
+        "skeletonSkinIndex": null,
+        "controllers": [
+          {
+            "key": "__ugc_external__/creator-animation-set-330d52caec95343e",
+            "json": "{\"schemaVersion\":2,\"animationSetName\":\"ModelExternalAnimations_43c2d2e92d780d4d\",\"controller\":{\"name\":\"__ugc_external__/creator-animation-set-330d52caec95343e\",\"layers\":[{\"name\":\"External\",\"index\":0,\"weight\":1,\"stateMachine\":\"sm:External\"}]},\"graph\":{\"parameters\":{},\"stateMachines\":{\"sm:External\":{\"id\":\"sm:External\",\"name\":\"External\",\"defaultNode\":\"state:External/1\",\"childNodes\":[\"state:External/0\",\"state:External/1\"]}},\"nodes\":{\"state:External/0\":{\"id\":\"state:External/0\",\"type\":\"state\",\"name\":\"Walk\",\"stateMachine\":\"sm:External\",\"speed\":1,\"motion\":{\"kind\":\"clip\",\"animationSetName\":\"ModelExternalAnimations\",\"assetId\":\"__ugc_local__/0df4e337c1f14e53\",\"clipName\":\"Walk\"}},\"state:External/1\":{\"id\":\"state:External/1\",\"type\":\"state\",\"name\":\"Idle\",\"stateMachine\":\"sm:External\",\"speed\":1,\"motion\":{\"kind\":\"clip\",\"animationSetName\":\"ModelExternalAnimations\",\"assetId\":\"__ugc_local__/0df4e337c1f14e53\",\"clipName\":\"Idle\"}}},\"transitions\":[]}}"
+          }
+        ],
+        "assetIds": []
+      },
+      "embeddedAnimationAssetId": "__ugc_local__/0df4e337c1f14e53",
+      "bindOnLoad": true
+    },
+    "binds": [
+      {
+        "id": "e59fb775-946f-4711-be95-857448a20f46",
+        "params": {}
+      },
+      {
+        "id": "fd28059b-f481-44d4-917a-864d005c3b29",
+        "params": {}
+      }
+    ]
+  },
+  {
+    "oldId": 1732271102,
+    "name": "sheep_6",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/fqbdmedl2dqglinx.glb",
+    "childName": "Armature",
+    "childScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "transform": {
+      "position": {
+        "x": 94.0,
+        "y": 41.9198,
+        "z": 48.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0,
+        "w": 6.123234e-17
+      },
+      "scale": {
+        "x": 1.368705,
+        "y": 1.368705,
+        "z": 1.368705
+      }
+    },
+    "physics": {
+      "physicsColliderData": {
+        "enableCollision": true,
+        "dynamicFriction": 0.6,
+        "staticFriction": 0.6,
+        "bounciness": 0.0,
+        "enableRigidBody": true,
+        "mass": 12.0,
+        "drag": 2.5,
+        "angularDrag": 5.0,
+        "useGravity": true,
+        "isKinematic": false,
+        "hasCenterOfMass": false,
+        "centerOfMass": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "triggerData": [
+        {
+          "shape": "box",
+          "enabled": true,
+          "center": {
+            "x": 0.0,
+            "y": 0.913272,
+            "z": 0.0
+          },
+          "size": {
+            "x": 7.306176,
+            "y": 3.653088,
+            "z": 7.306176
+          },
+          "radius": 0.5,
+          "height": 2.0,
+          "direction": 1
+        }
+      ]
+    },
+    "anim": {
+      "schemaVersion": 2,
+      "controllerKey": "__ugc_external__/creator-animation-set-330d52caec95343e",
+      "overrides": [],
+      "animationAssets": [
+        {
+          "assetId": "__ugc_local__/0df4e337c1f14e53",
+          "assetData": {
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ep9wk7s4vwsfksw0.glb",
+            "assetID": ""
+          },
+          "resourceRefId": 0,
+          "style": null,
+          "clips": [
+            {
+              "animationIndex": 0,
+              "animationName": "Walk",
+              "loop": true,
+              "skipFirstFrame": null
+            },
+            {
+              "animationIndex": 1,
+              "animationName": "Idle",
+              "loop": true,
+              "skipFirstFrame": null
+            }
+          ]
+        }
+      ],
+      "animationSet": {
+        "name": "ModelExternalAnimations_43c2d2e92d780d4d",
+        "guid": "wprefab/40650C7EFF079FC5375314AFACF8796BA5C98D84111F3C58BC6B077FDE963964",
+        "embed": true,
+        "retarget": null,
+        "retargetRootBone": null,
+        "defaultControllerKey": "__ugc_external__/creator-animation-set-330d52caec95343e",
+        "defaultAssetId": "__ugc_local__/0df4e337c1f14e53",
+        "defaultClip": "Idle",
+        "skeletonSkinIndex": null,
+        "controllers": [
+          {
+            "key": "__ugc_external__/creator-animation-set-330d52caec95343e",
+            "json": "{\"schemaVersion\":2,\"animationSetName\":\"ModelExternalAnimations_43c2d2e92d780d4d\",\"controller\":{\"name\":\"__ugc_external__/creator-animation-set-330d52caec95343e\",\"layers\":[{\"name\":\"External\",\"index\":0,\"weight\":1,\"stateMachine\":\"sm:External\"}]},\"graph\":{\"parameters\":{},\"stateMachines\":{\"sm:External\":{\"id\":\"sm:External\",\"name\":\"External\",\"defaultNode\":\"state:External/1\",\"childNodes\":[\"state:External/0\",\"state:External/1\"]}},\"nodes\":{\"state:External/0\":{\"id\":\"state:External/0\",\"type\":\"state\",\"name\":\"Walk\",\"stateMachine\":\"sm:External\",\"speed\":1,\"motion\":{\"kind\":\"clip\",\"animationSetName\":\"ModelExternalAnimations\",\"assetId\":\"__ugc_local__/0df4e337c1f14e53\",\"clipName\":\"Walk\"}},\"state:External/1\":{\"id\":\"state:External/1\",\"type\":\"state\",\"name\":\"Idle\",\"stateMachine\":\"sm:External\",\"speed\":1,\"motion\":{\"kind\":\"clip\",\"animationSetName\":\"ModelExternalAnimations\",\"assetId\":\"__ugc_local__/0df4e337c1f14e53\",\"clipName\":\"Idle\"}}},\"transitions\":[]}}"
+          }
+        ],
+        "assetIds": []
+      },
+      "embeddedAnimationAssetId": "__ugc_local__/0df4e337c1f14e53",
+      "bindOnLoad": true
+    },
+    "binds": [
+      {
+        "id": "e59fb775-946f-4711-be95-857448a20f46",
+        "params": {}
+      },
+      {
+        "id": "fd28059b-f481-44d4-917a-864d005c3b29",
+        "params": {}
+      }
+    ]
+  },
+  {
+    "oldId": -1721747151,
+    "name": "sheep_7",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/fqbdmedl2dqglinx.glb",
+    "childName": "Armature",
+    "childScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "transform": {
+      "position": {
+        "x": 107.0,
+        "y": 41.9188,
+        "z": 71.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0,
+        "w": 6.123234e-17
+      },
+      "scale": {
+        "x": 1.368705,
+        "y": 1.368705,
+        "z": 1.368705
+      }
+    },
+    "physics": {
+      "physicsColliderData": {
+        "enableCollision": true,
+        "dynamicFriction": 0.6,
+        "staticFriction": 0.6,
+        "bounciness": 0.0,
+        "enableRigidBody": true,
+        "mass": 12.0,
+        "drag": 2.5,
+        "angularDrag": 5.0,
+        "useGravity": true,
+        "isKinematic": false,
+        "hasCenterOfMass": false,
+        "centerOfMass": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "triggerData": [
+        {
+          "shape": "box",
+          "enabled": true,
+          "center": {
+            "x": 0.0,
+            "y": 0.913272,
+            "z": 0.0
+          },
+          "size": {
+            "x": 7.306176,
+            "y": 3.653088,
+            "z": 7.306176
+          },
+          "radius": 0.5,
+          "height": 2.0,
+          "direction": 1
+        }
+      ]
+    },
+    "anim": {
+      "schemaVersion": 2,
+      "controllerKey": "__ugc_external__/creator-animation-set-330d52caec95343e",
+      "overrides": [],
+      "animationAssets": [
+        {
+          "assetId": "__ugc_local__/0df4e337c1f14e53",
+          "assetData": {
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ep9wk7s4vwsfksw0.glb",
+            "assetID": ""
+          },
+          "resourceRefId": 0,
+          "style": null,
+          "clips": [
+            {
+              "animationIndex": 0,
+              "animationName": "Walk",
+              "loop": true,
+              "skipFirstFrame": null
+            },
+            {
+              "animationIndex": 1,
+              "animationName": "Idle",
+              "loop": true,
+              "skipFirstFrame": null
+            }
+          ]
+        }
+      ],
+      "animationSet": {
+        "name": "ModelExternalAnimations_43c2d2e92d780d4d",
+        "guid": "wprefab/40650C7EFF079FC5375314AFACF8796BA5C98D84111F3C58BC6B077FDE963964",
+        "embed": true,
+        "retarget": null,
+        "retargetRootBone": null,
+        "defaultControllerKey": "__ugc_external__/creator-animation-set-330d52caec95343e",
+        "defaultAssetId": "__ugc_local__/0df4e337c1f14e53",
+        "defaultClip": "Idle",
+        "skeletonSkinIndex": null,
+        "controllers": [
+          {
+            "key": "__ugc_external__/creator-animation-set-330d52caec95343e",
+            "json": "{\"schemaVersion\":2,\"animationSetName\":\"ModelExternalAnimations_43c2d2e92d780d4d\",\"controller\":{\"name\":\"__ugc_external__/creator-animation-set-330d52caec95343e\",\"layers\":[{\"name\":\"External\",\"index\":0,\"weight\":1,\"stateMachine\":\"sm:External\"}]},\"graph\":{\"parameters\":{},\"stateMachines\":{\"sm:External\":{\"id\":\"sm:External\",\"name\":\"External\",\"defaultNode\":\"state:External/1\",\"childNodes\":[\"state:External/0\",\"state:External/1\"]}},\"nodes\":{\"state:External/0\":{\"id\":\"state:External/0\",\"type\":\"state\",\"name\":\"Walk\",\"stateMachine\":\"sm:External\",\"speed\":1,\"motion\":{\"kind\":\"clip\",\"animationSetName\":\"ModelExternalAnimations\",\"assetId\":\"__ugc_local__/0df4e337c1f14e53\",\"clipName\":\"Walk\"}},\"state:External/1\":{\"id\":\"state:External/1\",\"type\":\"state\",\"name\":\"Idle\",\"stateMachine\":\"sm:External\",\"speed\":1,\"motion\":{\"kind\":\"clip\",\"animationSetName\":\"ModelExternalAnimations\",\"assetId\":\"__ugc_local__/0df4e337c1f14e53\",\"clipName\":\"Idle\"}}},\"transitions\":[]}}"
+          }
+        ],
+        "assetIds": []
+      },
+      "embeddedAnimationAssetId": "__ugc_local__/0df4e337c1f14e53",
+      "bindOnLoad": true
+    },
+    "binds": [
+      {
+        "id": "e59fb775-946f-4711-be95-857448a20f46",
+        "params": {}
+      },
+      {
+        "id": "fd28059b-f481-44d4-917a-864d005c3b29",
+        "params": {}
+      }
+    ]
+  },
+  {
+    "oldId": 1532887236,
+    "name": "sheep_8",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/fqbdmedl2dqglinx.glb",
+    "childName": "Armature",
+    "childScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "transform": {
+      "position": {
+        "x": 86.0,
+        "y": 42.5025,
+        "z": 50.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0,
+        "w": 6.123234e-17
+      },
+      "scale": {
+        "x": 1.368705,
+        "y": 1.368705,
+        "z": 1.368705
+      }
+    },
+    "physics": {
+      "physicsColliderData": {
+        "enableCollision": true,
+        "dynamicFriction": 0.6,
+        "staticFriction": 0.6,
+        "bounciness": 0.0,
+        "enableRigidBody": true,
+        "mass": 12.0,
+        "drag": 2.5,
+        "angularDrag": 5.0,
+        "useGravity": true,
+        "isKinematic": false,
+        "hasCenterOfMass": false,
+        "centerOfMass": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "triggerData": [
+        {
+          "shape": "box",
+          "enabled": true,
+          "center": {
+            "x": 0.0,
+            "y": 0.913272,
+            "z": 0.0
+          },
+          "size": {
+            "x": 7.306176,
+            "y": 3.653088,
+            "z": 7.306176
+          },
+          "radius": 0.5,
+          "height": 2.0,
+          "direction": 1
+        }
+      ]
+    },
+    "anim": {
+      "schemaVersion": 2,
+      "controllerKey": "__ugc_external__/creator-animation-set-330d52caec95343e",
+      "overrides": [],
+      "animationAssets": [
+        {
+          "assetId": "__ugc_local__/0df4e337c1f14e53",
+          "assetData": {
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ep9wk7s4vwsfksw0.glb",
+            "assetID": ""
+          },
+          "resourceRefId": 0,
+          "style": null,
+          "clips": [
+            {
+              "animationIndex": 0,
+              "animationName": "Walk",
+              "loop": true,
+              "skipFirstFrame": null
+            },
+            {
+              "animationIndex": 1,
+              "animationName": "Idle",
+              "loop": true,
+              "skipFirstFrame": null
+            }
+          ]
+        }
+      ],
+      "animationSet": {
+        "name": "ModelExternalAnimations_43c2d2e92d780d4d",
+        "guid": "wprefab/40650C7EFF079FC5375314AFACF8796BA5C98D84111F3C58BC6B077FDE963964",
+        "embed": true,
+        "retarget": null,
+        "retargetRootBone": null,
+        "defaultControllerKey": "__ugc_external__/creator-animation-set-330d52caec95343e",
+        "defaultAssetId": "__ugc_local__/0df4e337c1f14e53",
+        "defaultClip": "Idle",
+        "skeletonSkinIndex": null,
+        "controllers": [
+          {
+            "key": "__ugc_external__/creator-animation-set-330d52caec95343e",
+            "json": "{\"schemaVersion\":2,\"animationSetName\":\"ModelExternalAnimations_43c2d2e92d780d4d\",\"controller\":{\"name\":\"__ugc_external__/creator-animation-set-330d52caec95343e\",\"layers\":[{\"name\":\"External\",\"index\":0,\"weight\":1,\"stateMachine\":\"sm:External\"}]},\"graph\":{\"parameters\":{},\"stateMachines\":{\"sm:External\":{\"id\":\"sm:External\",\"name\":\"External\",\"defaultNode\":\"state:External/1\",\"childNodes\":[\"state:External/0\",\"state:External/1\"]}},\"nodes\":{\"state:External/0\":{\"id\":\"state:External/0\",\"type\":\"state\",\"name\":\"Walk\",\"stateMachine\":\"sm:External\",\"speed\":1,\"motion\":{\"kind\":\"clip\",\"animationSetName\":\"ModelExternalAnimations\",\"assetId\":\"__ugc_local__/0df4e337c1f14e53\",\"clipName\":\"Walk\"}},\"state:External/1\":{\"id\":\"state:External/1\",\"type\":\"state\",\"name\":\"Idle\",\"stateMachine\":\"sm:External\",\"speed\":1,\"motion\":{\"kind\":\"clip\",\"animationSetName\":\"ModelExternalAnimations\",\"assetId\":\"__ugc_local__/0df4e337c1f14e53\",\"clipName\":\"Idle\"}}},\"transitions\":[]}}"
+          }
+        ],
+        "assetIds": []
+      },
+      "embeddedAnimationAssetId": "__ugc_local__/0df4e337c1f14e53",
+      "bindOnLoad": true
+    },
+    "binds": [
+      {
+        "id": "e59fb775-946f-4711-be95-857448a20f46",
+        "params": {}
+      },
+      {
+        "id": "fd28059b-f481-44d4-917a-864d005c3b29",
+        "params": {}
+      }
+    ]
+  },
+  {
+    "oldId": 1798857614,
+    "name": "tripo_witch",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/0jp063z00sm2brlt.glb",
+    "childName": "Armature",
+    "childScale": {
+      "x": 1.0,
+      "y": 1.0,
+      "z": 1.0
+    },
+    "transform": {
+      "position": {
+        "x": 168.0,
+        "y": 39.23945,
+        "z": 140.5
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.7071068,
+        "z": 0.0,
+        "w": 0.7071068
+      },
+      "scale": {
+        "x": 2.08823681,
+        "y": 2.08823681,
+        "z": 2.08823681
+      }
+    },
+    "physics": {
+      "physicsColliderData": {
+        "enableCollision": false,
+        "dynamicFriction": 0.6,
+        "staticFriction": 0.6,
+        "bounciness": 0.0,
+        "enableRigidBody": false,
+        "mass": 1.0,
+        "drag": 0.0,
+        "angularDrag": 0.0,
+        "useGravity": true,
+        "isKinematic": false,
+        "hasCenterOfMass": false,
+        "centerOfMass": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "triggerData": []
+    },
+    "anim": {
+      "schemaVersion": 2,
+      "controllerKey": "__ugc_external__/creator-animation-set-e325e339fa9ebba5",
+      "overrides": [],
+      "animationAssets": [
+        {
+          "assetId": "__ugc_local__/09e161a563a9af99",
+          "assetData": {
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/kuycbmhe6ydh4hvh.glb",
+            "assetID": ""
+          },
+          "resourceRefId": 0,
+          "style": null,
+          "clips": [
+            {
+              "animationIndex": 0,
+              "animationName": "idle",
+              "loop": true,
+              "skipFirstFrame": null
+            }
+          ]
+        }
+      ],
+      "animationSet": {
+        "name": "ModelExternalAnimations_7449978aa84ef88e",
+        "guid": "wprefab/0A955C2609759600BA27A34697DAF76CD7505D4907EF52E0E4EDFF99712956D3",
+        "embed": true,
+        "retarget": null,
+        "retargetRootBone": null,
+        "defaultControllerKey": "__ugc_external__/creator-animation-set-e325e339fa9ebba5",
+        "defaultAssetId": "__ugc_local__/09e161a563a9af99",
+        "defaultClip": "idle",
+        "skeletonSkinIndex": null,
+        "controllers": [
+          {
+            "key": "__ugc_external__/creator-animation-set-e325e339fa9ebba5",
+            "json": "{\"schemaVersion\":2,\"animationSetName\":\"ModelExternalAnimations_7449978aa84ef88e\",\"controller\":{\"name\":\"__ugc_external__/creator-animation-set-e325e339fa9ebba5\",\"layers\":[{\"name\":\"External\",\"index\":0,\"weight\":1,\"stateMachine\":\"sm:External\"}]},\"graph\":{\"parameters\":{},\"stateMachines\":{\"sm:External\":{\"id\":\"sm:External\",\"name\":\"External\",\"defaultNode\":\"state:External/0\",\"childNodes\":[\"state:External/0\"]}},\"nodes\":{\"state:External/0\":{\"id\":\"state:External/0\",\"type\":\"state\",\"name\":\"idle\",\"stateMachine\":\"sm:External\",\"speed\":1,\"motion\":{\"kind\":\"clip\",\"animationSetName\":\"ModelExternalAnimations\",\"assetId\":\"__ugc_local__/09e161a563a9af99\",\"clipName\":\"idle\"}}},\"transitions\":[]}}"
+          }
+        ],
+        "assetIds": []
+      },
+      "embeddedAnimationAssetId": "__ugc_local__/09e161a563a9af99",
+      "bindOnLoad": true
+    },
+    "binds": []
+  }
+]

@@ -1,0 +1,1 @@
+{"ok":false,"command":"scene","error":{"code":"SESSION_CLOSED","message":"客户端会话已暂停或断开","hint":"保留 --request-id \"v24-dizzy-main-after-stop\" 及相同目标、参数以恢复原回执，不要换新请求自动重试。","details":{"requestId":"v24-dizzy-main-after-stop","instanceId":"1d1aa98e-dab4-4b8d-97c0-4ba4d2070f76"}}}

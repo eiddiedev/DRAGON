@@ -1,0 +1,147 @@
+{
+  "references": [
+    "prefab_1",
+    "prefab_2",
+    "prefab_27",
+    "prefab_7",
+    "prefab_8",
+    "prefab_9"
+  ],
+  "directories": [
+    {
+      "directory": "prefab_2",
+      "bytes": 2146,
+      "referenced": true
+    },
+    {
+      "directory": "prefab_5",
+      "bytes": 2461,
+      "referenced": false
+    },
+    {
+      "directory": "prefab_22",
+      "bytes": 11925841,
+      "referenced": false
+    },
+    {
+      "directory": "prefab_25",
+      "bytes": 10981751,
+      "referenced": false
+    },
+    {
+      "directory": "prefab_13",
+      "bytes": 18788987,
+      "referenced": false
+    },
+    {
+      "directory": "prefab_14",
+      "bytes": 18788522,
+      "referenced": false
+    },
+    {
+      "directory": "prefab_4",
+      "bytes": 2508,
+      "referenced": false
+    },
+    {
+      "directory": "prefab_3",
+      "bytes": 2777,
+      "referenced": false
+    },
+    {
+      "directory": "prefab_15",
+      "bytes": 8691548,
+      "referenced": false
+    },
+    {
+      "directory": "prefab_12",
+      "bytes": 18788604,
+      "referenced": false
+    },
+    {
+      "directory": "prefab_24",
+      "bytes": 17125359,
+      "referenced": false
+    },
+    {
+      "directory": "prefab_23",
+      "bytes": 17124280,
+      "referenced": false
+    },
+    {
+      "directory": "prefab_26",
+      "bytes": 10982494,
+      "referenced": false
+    },
+    {
+      "directory": "prefab_19",
+      "bytes": 8743066,
+      "referenced": false
+    },
+    {
+      "directory": "prefab_21",
+      "bytes": 8746850,
+      "referenced": false
+    },
+    {
+      "directory": "prefab_17",
+      "bytes": 8695539,
+      "referenced": false
+    },
+    {
+      "directory": "prefab_10",
+      "bytes": 8684647,
+      "referenced": false
+    },
+    {
+      "directory": "prefab_8",
+      "bytes": 2446,
+      "referenced": true
+    },
+    {
+      "directory": "prefab_6",
+      "bytes": 3598,
+      "referenced": false
+    },
+    {
+      "directory": "prefab_1",
+      "bytes": 2991,
+      "referenced": true
+    },
+    {
+      "directory": "prefab_11",
+      "bytes": 8682362,
+      "referenced": false
+    },
+    {
+      "directory": "prefab_16",
+      "bytes": 8691628,
+      "referenced": false
+    },
+    {
+      "directory": "prefab_20",
+      "bytes": 8744430,
+      "referenced": false
+    },
+    {
+      "directory": "prefab_27",
+      "bytes": 10982458,
+      "referenced": true
+    },
+    {
+      "directory": "prefab_18",
+      "bytes": 8710217,
+      "referenced": false
+    },
+    {
+      "directory": "prefab_7",
+      "bytes": 2446,
+      "referenced": true
+    },
+    {
+      "directory": "prefab_9",
+      "bytes": 3611,
+      "referenced": true
+    }
+  ]
+}

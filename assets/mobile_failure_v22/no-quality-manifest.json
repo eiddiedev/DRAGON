@@ -1,0 +1,20 @@
+{
+  "source": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-1facc28c-97a0-4f56-bec3-bf9acaf89fb9/ai-sessions/workspace_m293a9tg/wprefabs/dragon_fx_mobile_v22",
+  "status": "main imported and saved; native runtime passed; awaiting phone",
+  "visualChanges": false,
+  "changes": [
+    "one camera for original shake and FOV",
+    "registered offline original audio replaces runtime synthesis"
+  ],
+  "deferred": "reduced particles / textures / LOD NOT applied",
+  "userEvidence": "tour smooth this run; attack effects trigger return to Douyin; carpet also missing",
+  "mainRoot": 1356710006,
+  "archive": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/z8z6bjphqrlym6p9.wprefab",
+  "quality": "original effect resources and dispatch retained; no texture or geometry reduction",
+  "remaining": [
+    "mobile attack validation",
+    "missing imported animated models",
+    "white vegetation"
+  ],
+  "previewTimestamp": "2026-11-12 18:46:48 Asia/Shanghai"
+}

@@ -71,7 +71,7 @@ local function align(actor)
 end
 local function setSeat()
  local t=self.transform
- if kind=='horse' then seat.transform.position=t:TransformPoint(U.Vector3(0,.72,.025))
+ if kind=='horse' then seat.transform.position=t:TransformPoint(U.Vector3(0,.69,.025))
  elseif kind=='boat' then seat.transform.position=t:TransformPoint(U.Vector3(0,.72,-2.0))
  else seat.transform.position=t.position+U.Vector3(0,.55,0) end
  seat.transform.rotation=U.Quaternion.Euler(0,yaw,0)

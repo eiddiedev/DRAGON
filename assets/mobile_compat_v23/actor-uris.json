@@ -1,0 +1,31 @@
+[
+  {
+    "name": "flying_carpet",
+    "oldUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/pqhjzj16oi7c1xio.glb",
+    "newUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/f0bh5iwrdslfk9fj.glb",
+    "clipsRemoved": 1
+  },
+  {
+    "name": "dragon_v8_live",
+    "oldUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/9d7xc6emz5a8mt0v.glb",
+    "newUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/enpa9awsx0ocotdc.glb",
+    "clipsRemoved": 7
+  },
+  {
+    "name": "tripo_horse",
+    "oldUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6od1v15qufjsxrw2.glb",
+    "newUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/uyduwywgnj13xzsn.glb"
+  },
+  {
+    "name": "sheep",
+    "oldUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ep9wk7s4vwsfksw0.glb",
+    "newUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/fqbdmedl2dqglinx.glb",
+    "clipsRemoved": 2
+  },
+  {
+    "name": "tripo_witch",
+    "oldUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/kuycbmhe6ydh4hvh.glb",
+    "newUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/0jp063z00sm2brlt.glb",
+    "clipsRemoved": 1
+  }
+]

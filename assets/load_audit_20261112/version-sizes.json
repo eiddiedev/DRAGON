@@ -1,0 +1,102 @@
+[
+  {
+    "rev": "a94a449",
+    "zipMB": 3.01,
+    "nodes": 16768,
+    "luaMB": 0.15,
+    "largest": [
+      [
+        "a87ebe50-812d-4151-a056-727a118aecbd",
+        0.1
+      ],
+      [
+        "official/ui/animation.lua",
+        0.01
+      ],
+      [
+        "official/core/runtime_scope.lua",
+        0.01
+      ]
+    ]
+  },
+  {
+    "rev": "72a764a",
+    "zipMB": 11.71,
+    "nodes": 15726,
+    "luaMB": 11.9,
+    "largest": [
+      [
+        "dragon_world_bridge.lua",
+        11.16
+      ],
+      [
+        "scene_sheep_sound.lua",
+        0.33
+      ],
+      [
+        "dragon_outfits.lua",
+        0.04
+      ]
+    ]
+  },
+  {
+    "rev": "6675418",
+    "zipMB": 10.95,
+    "nodes": 20911,
+    "luaMB": 11.0,
+    "largest": [
+      [
+        "dragon_world_bridge.lua",
+        10.25
+      ],
+      [
+        "scene_sheep_sound.lua",
+        0.33
+      ],
+      [
+        "dragon_outfits.lua",
+        0.04
+      ]
+    ]
+  },
+  {
+    "rev": "2b75b8a",
+    "zipMB": 11.0,
+    "nodes": 20911,
+    "luaMB": 11.0,
+    "largest": [
+      [
+        "dragon_world_bridge.lua",
+        10.25
+      ],
+      [
+        "scene_sheep_sound.lua",
+        0.33
+      ],
+      [
+        "dragon_outfits.lua",
+        0.04
+      ]
+    ]
+  },
+  {
+    "rev": "HEAD",
+    "zipMB": 11.0,
+    "nodes": 20911,
+    "luaMB": 11.0,
+    "largest": [
+      [
+        "dragon_world_bridge.lua",
+        10.25
+      ],
+      [
+        "scene_sheep_sound.lua",
+        0.33
+      ],
+      [
+        "dragon_outfits.lua",
+        0.04
+      ]
+    ]
+  }
+]

@@ -1,4 +1,5 @@
----@id f554579e-f9d9-438d-a027-577b6310c6e2
+---@id 46a4bdde-c253-4fe4-9e0d-e2ed8bee4d24
+---@sourceScriptId f554579e-f9d9-438d-a027-577b6310c6e2
 ---@referenceName dragon_rules.lua
 -- RPG 职业与动作规则；由绑定的协调器调用，不依赖表现层。
 ---@displayName 龙眠职业与战斗规则

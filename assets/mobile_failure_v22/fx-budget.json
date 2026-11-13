@@ -1,0 +1,58 @@
+[
+  {
+    "effect": "slash",
+    "systemsBefore": 3,
+    "systemsAfter": 2,
+    "maxParticlesBefore": 72,
+    "maxParticlesAfter": 12
+  },
+  {
+    "effect": "shield",
+    "systemsBefore": 3,
+    "systemsAfter": 2,
+    "maxParticlesBefore": 192,
+    "maxParticlesAfter": 12
+  },
+  {
+    "effect": "hit",
+    "systemsBefore": 3,
+    "systemsAfter": 2,
+    "maxParticlesBefore": 192,
+    "maxParticlesAfter": 12
+  },
+  {
+    "effect": "bolt",
+    "systemsBefore": 4,
+    "systemsAfter": 2,
+    "maxParticlesBefore": 196,
+    "maxParticlesAfter": 12
+  },
+  {
+    "effect": "arrow",
+    "systemsBefore": 4,
+    "systemsAfter": 2,
+    "maxParticlesBefore": 196,
+    "maxParticlesAfter": 12
+  },
+  {
+    "effect": "burst",
+    "systemsBefore": 6,
+    "systemsAfter": 2,
+    "maxParticlesBefore": 384,
+    "maxParticlesAfter": 12
+  },
+  {
+    "effect": "frost",
+    "systemsBefore": 6,
+    "systemsAfter": 2,
+    "maxParticlesBefore": 384,
+    "maxParticlesAfter": 12
+  },
+  {
+    "effect": "meteor",
+    "systemsBefore": 6,
+    "systemsAfter": 2,
+    "maxParticlesBefore": 384,
+    "maxParticlesAfter": 12
+  }
+]

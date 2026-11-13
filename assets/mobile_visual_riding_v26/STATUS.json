@@ -1,0 +1,27 @@
+{
+  "version": "v26-bundled-ui-actor-follow",
+  "mainInstalled": true,
+  "mainSaved": true,
+  "mainLayoutChanged": false,
+  "reviewUploaded": false,
+  "reviewPhoneVerified": false,
+  "githubPushed": false,
+  "authorBuiltAndArchived": true,
+  "faultTest": "13 nil asset parameters, 13 bundled images loaded, no missing UI; title/book/contract/play reached via clicks",
+  "ridingTest": "native ride button; controlled 4m movement; W input about 15m; native dismount, sitting=false parent=nil",
+  "mobileMemoryValidated": false,
+  "testSceneRestored": true,
+  "candidateGameplayArchive": "archive-gameplay.json",
+  "candidateActorsArchive": "archive-actors.json",
+  "doNotInstall": "archive-nil-assets-test.json is intentionally broken-reference test package, never install it in main",
+  "mainSourceFilesUpdated": [
+    "scripts/modules/imported/prefab_20/dragon_world_bridge.lua",
+    "scripts/modules/imported/prefab_14/horse_seat_v1.lua"
+  ],
+  "mainSceneSha256": "673742f831afab0487784ec8bc8436aaaa6a82adfec53ba76b5c97235f5f9366",
+  "mainSaveOperation": "v26-main-scripts-save",
+  "mainSaveReceipt": "main-save-operation.json",
+  "mainOffscreenStopped": true,
+  "mainRuntimeStarted": false,
+  "mainNodeSerializationAudit": "Current saved scene and latest review ZIP both have 11722 nodes and five groups of 1744 platform water Trigger nodes. Newly serialized group existed in review output already; node model resources unchanged. No new upload-test blocker found."
+}

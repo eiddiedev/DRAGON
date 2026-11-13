@@ -1,0 +1,132 @@
+{
+  "ui_title": {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/7uqp7j85swlbiijg.glb",
+    "source": "review GLB embedded PNG (same URI)",
+    "bytes": 364095,
+    "size": [
+      1024,
+      1024
+    ],
+    "sha256": "bef05c95fe0e8ea91d758a8d9bc546a884d147d840feeea6a5a7566595de5280"
+  },
+  "ui_book": {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/l9lcet7nsbjkf4tc.glb",
+    "source": "review GLB embedded PNG (same URI)",
+    "bytes": 638627,
+    "size": [
+      1024,
+      680
+    ],
+    "sha256": "84e492643dfd8a82ce0570b94acb27f0754d0ddbf0a3c6315129514b285f515a"
+  },
+  "ui_pages1": {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/pabz9r2n7q0tzigl.glb",
+    "source": "review GLB embedded PNG (same URI)",
+    "bytes": 101326,
+    "size": [
+      1024,
+      683
+    ],
+    "sha256": "a51751e5298e93eb7c37b03b3f8fde73905ac2c8e6a0f2b4e6093af3a2511d20"
+  },
+  "ui_pages2": {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/63nk01yhkuh3xe0l.glb",
+    "source": "review GLB embedded PNG (same URI)",
+    "bytes": 114572,
+    "size": [
+      1024,
+      683
+    ],
+    "sha256": "ffc48bdcfe63c72c9e2f2fad9a6fed9e467e72a12b527aef9a2524d87af73851"
+  },
+  "ui_pages3": {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/63lrf5s6y69f5bo0.glb",
+    "source": "review GLB embedded PNG (same URI)",
+    "bytes": 77421,
+    "size": [
+      1024,
+      683
+    ],
+    "sha256": "363a335911475cbea9f1b65e9f039aebdcbb9a22c93b594b31cc261fd984ec3b"
+  },
+  "ui_map": {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/qeauecy11i93xrgo.glb",
+    "source": "review GLB embedded PNG (same URI)",
+    "bytes": 1447000,
+    "size": [
+      1024,
+      1024
+    ],
+    "sha256": "f95e9fabcee6f24e1d9d52a4a7abc85951ca652d130d07fe80af3aaf5f3fd0a6"
+  },
+  "ui_atlas": {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/38mogmr0hptmbw0x.glb",
+    "source": "review GLB embedded PNG (same URI)",
+    "bytes": 314959,
+    "size": [
+      1024,
+      1024
+    ],
+    "sha256": "e104cba7274294501be00d9dc47d20136435e3b055038c8d59f6d32c57d4241b"
+  },
+  "ui_cards1": {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/mig8nntwogyrnruy.glb",
+    "source": "review GLB embedded PNG (same URI)",
+    "bytes": 1334374,
+    "size": [
+      1024,
+      1024
+    ],
+    "sha256": "71eefde73c35cc7562f3da43b606bb745ca635e8a2a163bf8a6a859acbb38c3a"
+  },
+  "ui_cards2": {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ob365i5bojpqw65v.glb",
+    "source": "review GLB embedded PNG (same URI)",
+    "bytes": 1184246,
+    "size": [
+      1024,
+      1024
+    ],
+    "sha256": "f6dba542061d205845aab4045bf8bf4a769319e6bb3b16863235079b93764f25"
+  },
+  "InkCarrier_oath": {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/xavyl1qx47u8o3gp.glb",
+    "source": "review GLB embedded PNG (same URI)",
+    "bytes": 1304557,
+    "size": [
+      1024,
+      683
+    ],
+    "sha256": "e54b28771a1f5c6adb78e0ff8c8c5c45b8243489b3cf9ce18dfc9c067ab2962b"
+  },
+  "InkCarrier_font": {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/94t3vhcrokny943k.glb",
+    "source": "review GLB embedded PNG (same URI)",
+    "bytes": 400386,
+    "size": [
+      1024,
+      768
+    ],
+    "sha256": "7f7772283596aaea545c0161500e65ce1f90254992056083c97c130c0852b643"
+  },
+  "InkCarrier_map": {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/41o3kx2ajeqyjttu.glb",
+    "source": "original map source PNG",
+    "bytes": 1055523,
+    "size": [
+      1520,
+      1520
+    ],
+    "sha256": "fddbbb6da4b8d1fe71d8971bb74933353e90bd0a0df9835b8ec4bf0d8a028a6e"
+  },
+  "MobileGroundColorSource": {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ilnm8zdke7cvnbki.glb",
+    "source": "original saved ground color PNG",
+    "bytes": 2196285,
+    "size": [
+      2048,
+      2048
+    ],
+    "sha256": "d6b33233bfc4a4de9bbdc5333559da41278a7fa8863bf92eb9f9543fd61d3a0e"
+  }
+}

@@ -1,10 +1,11 @@
----@id 313ebddc-058f-40f1-be60-76f6a590e9f8
+---@id af139707-c08e-4422-947a-81a757d68841
+---@sourceScriptId 313ebddc-058f-40f1-be60-76f6a590e9f8
 ---@referenceName dragon_combat.lua
 ---@displayName 龙眠魔法阵遭遇战
 ---@start
 ---@var PreviewMode:boolean=false
 ---@name 独立验证模式
----@var ArenaX:number=157
+---@var ArenaX:number=133
 ---@name 魔法阵中心X
 ---@var ArenaZ:number=27
 ---@name 魔法阵中心Z
@@ -18,12 +19,57 @@ local V=U.Vector3
 local Q=U.Quaternion
 local json=dkjson
 local scope=require('official.core.runtime_scope').from(self)
+-- mobile-v21: resolve each dependency at most once a second, at most 30 attempts.
+do
+ local target=scope
+ local original=target.GetScript
+ local memo,attempts,nextAt={},{},{}
+ local failures={}
+ target.GetScript=function(_,name)
+  if memo[name] then return memo[name] end
+  local now=CS.UnityEngine.Time.realtimeSinceStartup
+  if (attempts[name] or 0)>=30 or now<(nextAt[name] or 0) then return nil end
+  attempts[name]=(attempts[name] or 0)+1;nextAt[name]=now+1
+  local ok,value=pcall(original,target,name)
+  if ok and value then memo[name]=value;return value end
+  if attempts[name]==30 then failures[name]=tostring(value or 'not loaded');print('[mobile-v21] dependency failed: '..name..' '..failures[name]) end
+  return nil
+ end
+ function GetDependencyDiagnostics() return {build='mobile-v21',attempts=attempts,failures=failures} end
+ local destroy=OnDestroy
+ -- Installed after lifecycle definitions below; clears references on scene exit.
+ ReleaseMobileDependencies=function()memo={};attempts={};nextAt={};failures={} end
+end
+
 local Spawn=require('official.core.spawn')
 local engine,rpg,fx,rules
 local state=nil
 local netReady=false
 local previewCenter=nil
 local visuals={}
+local shadowReady={source=nil,attempts=0,nextAt=0,status='pending',error=nil,spawnAttempts={}}
+local function shadowSource()
+ if shadowReady.source then return shadowReady.source end
+ local now=U.Time.realtimeSinceStartup
+ if shadowReady.attempts>=30 or now<shadowReady.nextAt then return nil end
+ shadowReady.attempts=shadowReady.attempts+1;shadowReady.nextAt=now+1
+ local go=scope:GetGameObjectByPath('ShadowSpiritSource')
+ if go then
+  local rs=go:GetComponentsInChildren(typeof(U.Renderer),true)
+  for i=0,rs.Length-1 do
+   local skin=rs[i].gameObject:GetComponent(typeof(U.SkinnedMeshRenderer))
+   local mesh=rs[i].gameObject:GetComponent(typeof(U.MeshFilter))
+   if (skin and skin.sharedMesh)or(mesh and mesh.sharedMesh)then shadowReady.source=go;shadowReady.status='ready';return go end
+  end
+ end
+ if shadowReady.attempts==30 then shadowReady.status='failed';shadowReady.error='shadow mesh not loaded';print('[mobile-v21] shadow source failed')end
+ return nil
+end
+function GetShadowDiagnostics()
+ local count=0;for _,v in pairs(visuals)do if v.go and v.go.activeInHierarchy then count=count+1 end end
+ return {build='mobile-v21',source=shadowReady.status,error=shadowReady.error,attempts=shadowReady.attempts,visible=count}
+end
+
 local seenEvent=0
 local seenEpoch=nil
 local published=0
@@ -36,7 +82,10 @@ local function id(a)return tostring(a.actorID)end
 local function localActor()return CS.DouyinActorService.GetLocalActor()end
 local function authority()return netReady and CS.DouyinNetService.isNetworkSettled and self:HasOwnership()end
 local function ground(x,z,a)
- local hits=U.Physics.RaycastAll(V(x,a.position.y+10,z),V.down,80,1,U.QueryTriggerInteraction.Ignore)
+ -- v15：先读地形高度（射线会打到树冠、麦子甚至天空罩，魔法阵就飘到看不见的地方去了）
+ local okT,hT=pcall(function()local t=U.Terrain.activeTerrain;return t:SampleHeight(V(x,0,z))+t.transform.position.y end)
+ if okT and hT and hT>1 then return hT end
+ local hits=U.Physics.RaycastAll(V(x,400,z),V.down,600,1,U.QueryTriggerInteraction.Ignore)
  local y=a.position.y;local nearest=1e9
  for i=0,hits.Length-1 do local hit=hits[i];if hit.normal.y>.45 and hit.distance<nearest then y=hit.point.y;nearest=hit.distance end end
  return y
@@ -46,6 +95,13 @@ local function center(a)
  return V(ArenaX,ground(ArenaX,ArenaZ,a),ArenaZ)
 end
 local function active()return state and(state.phase=='ready'or state.phase=='active')end
+-- v15 对决场：裂隙之门通到的地下试炼场
+local DUEL={x=127,z=172,r=9.5}
+local bridge=nil
+local function inDuelZone(a)return a.position.y<38 and(a.position.x-DUEL.x)^2+(a.position.z-DUEL.z)^2<=(DUEL.r+6)^2 end
+function IsNearDuel()local a=CS.DouyinActorService.GetLocalActor();return a and inDuelZone(a)or false end
+function IsDuel()return state~=nil and state.duel==true and active()==true end
+function IsDuelOpen()return state~=nil and state.duel==true and state.phase=='ready'end
 local function receive(value)
  if type(value)~='string'or value==''then return end
  local decoded=json.decode(value);if decoded and decoded.schema==1 then state=decoded end
@@ -69,7 +125,16 @@ function ReceiveRequest(raw)
  local a=CS.DouyinActorService.GetActorById(tonumber(q.id)or -1);if not a or a:IsSitting()or a:IsFlying()then return end
  if q.kind=='join'then
   if not engine.Classes()[q.class]then return end
-  local c=center(a);if V.Distance(V(a.position.x,c.y,a.position.z),c)>ArenaRadius then return end
+  if q.duel then
+   if not inDuelZone(a)then return end
+   if active()and(not state.duel or state.phase~='ready')then return end
+   if not active()then serial=serial+1;state=engine.New(DUEL.x,a.position.y,DUEL.z,DUEL.r,tostring(os.time())..':duel:'..q.id..':'..serial,true)end
+   local jx,jz=engine.Boundary(state,a.position.x,a.position.z)
+   engine.Join(state,q.id,q.class,{x=jx,z=jz});publish();return
+  end
+  if active()and state.duel then return end
+  if not IsNight()then return end
+  local c=center(a);if V.Distance(V(a.position.x,c.y,a.position.z),c)>ArenaRadius+2 then return end
   if not active()then serial=serial+1;state=engine.New(c.x,c.y,c.z,ArenaRadius,tostring(os.time())..':'..q.id..':'..serial)end
   engine.Join(state,q.id,q.class,{x=a.position.x,z=a.position.z});publish();return
  end
@@ -80,12 +145,23 @@ function Configure(client,profileRules,effects,simulation)
  if not client or not client.GetProfile or not simulation or not simulation.Step then return false end
  rpg=client;rules=profileRules;fx=effects;engine=simulation;return true
 end
-function Begin()
+function IsNight()local day=scope:GetScript('dragon_daycycle.lua');return day and not day.IsDay()or false end
+function IsNearArena()local a=localActor();if not a then return false end;local c=center(a);return (a.position.x-c.x)^2+(a.position.z-c.z)^2<=(ArenaRadius+2)^2 end
+function Begin(duel)
  local a=localActor();local profile=rpg and rpg.GetProfile()
  if not a or not profile or not profile.class then return false,'先在古书选择职业'end
- if not engine or not scope:GetGameObjectByPath('ShadowSpiritSource')then return false,'影灵正在准备'end
+ if duel then
+  if not engine then return false,'对决正在准备'end
+  if not inDuelZone(a)then return false,'请先穿过裂隙之门，进入试炼场'end
+  if active()and(not state.duel or state.phase~='ready')then return false,'请等这场战斗结束'end
+  if not rpg.SetMode('combat')then return false,'请先结束当前操作'end
+  local packet={kind='join',id=id(a),class=profile.class,duel=true};if not request(packet)then return false,'房间战斗尚未就绪'end
+  pending.join={packet=packet,next=U.Time.time+.5,expires=U.Time.time+3};return true
+ end
+ if not IsNight()then return false,'晚上才能挑战影灵'end
+ if not engine or not shadowSource()then return false,shadowReady.status=='failed'and '影灵资源加载失败，请重新进入世界'or '影灵正在准备'end
  if PreviewMode and not active()then previewCenter=nil end
- local c=center(a);if V.Distance(V(a.position.x,c.y,a.position.z),c)>ArenaRadius then return false,'请走近麦田旁的魔法阵'end
+ local c=center(a);if V.Distance(V(a.position.x,c.y,a.position.z),c)>ArenaRadius+2 then return false,'请走近麦田旁的魔法阵'end
  if active()and state.phase~='ready'then return false,'请等这场战斗结束'end
  if not rpg.SetMode('combat')then return false,'请先结束当前操作'end
  local packet={kind='join',id=id(a),class=profile.class};if not request(packet)then return false,'房间战斗尚未就绪'end
@@ -109,7 +185,8 @@ function IsParticipating()local a=localActor();local m=a and state and state.mem
 function GetStatus()
  local a=localActor();local m=a and state and state.members[id(a)]
  local alive=0;if state then for _,e in ipairs(state.enemies)do if e.hp>0 then alive=alive+1 end end end
- return {dependencies={engine=engine~=nil,rpg=rpg~=nil,fx=fx~=nil,rules=rules~=nil,profileClass=rpg and rpg.GetProfile()and rpg.GetProfile().class},stage=state and state.stage,phase=state and state.phase or 'idle',hp=m and m.hp,maxHP=m and m.maxHP,shield=m and math.max(0,m.shield-state.t),enemyCount=alive,epoch=state and state.epoch,time=state and state.t,netReady=netReady,authority=authority(),preview=PreviewMode,attackBoneCount=(function()local n=0;for _,v in pairs(visuals)do for _ in pairs(v.bones or{})do n=n+1 end end;return n end)(),damage=m and m.damage,ack=m and m.ack}
+ local foe,count=nil,0;if state and state.duel then for k,v in pairs(state.members)do count=count+1;if not a or k~=id(a)then foe=v end end end
+ return {duel=state and state.duel or false,members=count,foeHp=foe and foe.hp,foeMax=foe and foe.maxHP,winner=state and state.winner,me=a and id(a),member=m~=nil,readyAt=state and state.readyAt,dependencies={engine=engine~=nil,rpg=rpg~=nil,fx=fx~=nil,rules=rules~=nil,profileClass=rpg and rpg.GetProfile()and rpg.GetProfile().class},stage=state and state.stage,phase=state and state.phase or 'idle',hp=m and m.hp,maxHP=m and m.maxHP,shield=m and math.max(0,m.shield-state.t),enemyCount=alive,epoch=state and state.epoch,time=state and state.t,netReady=netReady,authority=authority(),preview=PreviewMode,attackBoneCount=(function()local n=0;for _,v in pairs(visuals)do for _ in pairs(v.bones or{})do n=n+1 end end;return n end)(),damage=m and m.damage,ack=m and m.ack}
 end
 function GetSnapshot()return state end
 function GetHUD()
@@ -120,16 +197,23 @@ function GetHUD()
  return string.format('心火 %d / %d    影灵 %d%s',s.hp or 0,s.maxHP or 0,s.enemyCount,s.shield and s.shield>0 and '    圣盾' or '')
 end
 local function clearVisuals()
- for _,v in pairs(visuals)do if v.go then Spawn.destroy(v.go)end;for _,m in ipairs(v.materials or{})do U.Object.Destroy(m)end end;visuals={}
+ for _,v in pairs(visuals)do if v.go then Spawn.destroy(v.go)end;for _,m in ipairs(v.materials or{})do U.Object.Destroy(m)end end;visuals={};shadowReady.spawnAttempts={}
 end
 local function syncVisuals()
  if not state then return end
- local source=scope:GetGameObjectByPath('ShadowSpiritSource');if not source then return end
+ local source=shadowSource();if not source then return end
  source.transform.localPosition=V(0,-500,0)
  for _,e in ipairs(state.enemies)do
   local v=visuals[e.id]
   if not v and e.hp>0 then
-   local go=Spawn.spawn(self,'ShadowSpiritSource',{networked=false});if go then
+   local retry=shadowReady.spawnAttempts[e.id]or{count=0,nextAt=0};shadowReady.spawnAttempts[e.id]=retry
+   local go=nil
+   if retry.count<10 and U.Time.time>=retry.nextAt then
+    retry.count=retry.count+1;retry.nextAt=U.Time.time+.5
+    local ok,result=pcall(Spawn.spawn,self,'ShadowSpiritSource',{networked=false,position=V(e.x,state.y+.15,e.z)})
+    if ok then go=result else shadowReady.error=tostring(result);print('[mobile-v21] shadow spawn '..shadowReady.error)end
+   end
+   if go then
     go.name='BattleShadow_'..e.id;local cols=go:GetComponentsInChildren(typeof(U.Collider),true);for i=0,cols.Length-1 do cols[i].enabled=false end
     local materials={};local rs=go:GetComponentsInChildren(typeof(U.Renderer),true);for i=0,rs.Length-1 do local ms=rs[i].materials;for j=0,ms.Length-1 do materials[#materials+1]=ms[j]end end
     local bar=U.GameObject('Heartfire');bar.transform:SetParent(go.transform,false)
@@ -143,7 +227,7 @@ local function syncVisuals()
      if mat:HasProperty('_EmissionPower')then mat:SetFloat('_EmissionPower',index==1 and 0 or .7)end
      render.sharedMaterial=mat;bars[index]=part;materials[#materials+1]=mat
     end
-    v={go=go,materials=materials,bar=bar,bars=bars,bones={}};visuals[e.id]=v
+    v={go=go,materials=materials,bar=bar,bars=bars,bones={},animator=go:GetComponentInChildren(typeof(CS.ModularAnim.Runtime.UGCAnimator),true)};visuals[e.id]=v
     local ts=go:GetComponentsInChildren(typeof(U.Transform),true)
     for bi=0,ts.Length-1 do local t=ts[bi];if t.name=='Chest'or t.name=='Head'or t.name=='UpperArm_L'or t.name=='UpperArm_R'or t.name=='Forearm_L'or t.name=='Forearm_R'then v.bones[t.name]={t=t}end end
    end
@@ -165,14 +249,14 @@ local function syncVisuals()
      v.bars[2].transform.localPosition=V(-.34*(1-e.hp/e.maxHP),0,-.02)
     end
     v.enemy=e
-    local anim=v.go:GetComponentInChildren(typeof(CS.ModularAnim.Runtime.UGCAnimator),true)
+    local anim=v.animator
     local desiredAnim=e.state=='chase'and 'FloatMove'or 'Idle'
     if anim and anim.Controller and v.anim~=desiredAnim then if anim:Play(desiredAnim)then v.anim=desiredAnim end end
     for _,mat in ipairs(v.materials)do if mat:HasProperty('_EmissionPower')then mat:SetFloat('_EmissionPower',e.hit>state.t and 2 or(e.state=='windup'and 1 or .08))end end
    end
   end
  end
- fx.SetArena(V(state.x,state.y+.06,state.z),state.radius,active())
+ fx.SetArena(V(state.x,state.y+.08,state.z),state.radius,false)
  for _,event in ipairs(state.events)do if event.id>seenEvent then
   seenEvent=event.id
   local p=V(event.x or state.x,state.y+.6,event.z or state.z);local d=V(event.dx or 0,0,event.dz or 1)
@@ -202,11 +286,55 @@ function LateUpdate()
   end
  end
 end
+local sigilRoot,sigilMaterial,sigilLines,sigilAt=nil,nil,{},nil
+-- v15：魔法阵改成一张贴地的发光图（地面已填平），由主脚本提供
+local function showSigil(c,radius,on)
+ if not bridge then bridge=scope:GetScript('dragon_world_bridge.lua')end
+ local go=bridge and bridge.GetSigil();if not go then return end
+ if go.activeSelf~=on then go:SetActive(on)end
+ if on then
+  go.transform.position=V(c.x,c.y+.09,c.z);go.transform.rotation=Q.Euler(90,U.Time.time*5,0)
+  go.transform.localScale=V(radius*2.1,radius*2.1,1);bridge.SetSigilAlpha(.72+.2*math.sin(U.Time.time*1.6))
+ end
+end
+local function drawSigil(c)
+ if not sigilRoot then
+  sigilRoot=U.GameObject('TrialPermanentSigil');sigilMaterial=U.Material(U.Shader.Find('Sprites/Default'))
+  local function line(name,points,width)
+   local go=U.GameObject(name);go.transform:SetParent(sigilRoot.transform,false)
+   local lr=go:AddComponent(typeof(U.LineRenderer));lr.useWorldSpace=true;
+   local sampled={}
+   for i=1,#points-1 do local a,b=points[i],points[i+1];local count=math.max(1,math.ceil((b-a).magnitude/.3))
+    for j=0,count-1 do local p=c+V.Lerp(a,b,j/count);p.y=ground(p.x,p.z,localActor())+.10;sampled[#sampled+1]=p end
+   end
+   local p=c+points[#points];p.y=ground(p.x,p.z,localActor())+.10;sampled[#sampled+1]=p
+   lr.positionCount=#sampled;lr.startWidth=width;lr.endWidth=width;lr.material=sigilMaterial
+   lr.startColor=U.Color(.48,.35,1,.8);lr.endColor=U.Color(.24,.7,1,.8);lr.shadowCastingMode=U.Rendering.ShadowCastingMode.Off
+   for i,p in ipairs(sampled)do lr:SetPosition(i-1,p)end;sigilLines[#sigilLines+1]=lr
+  end
+  for _,radius in ipairs({ArenaRadius,ArenaRadius-.45,ArenaRadius*.66})do
+   local points={};for i=0,128 do local t=i*math.pi*2/128;points[#points+1]=V(math.cos(t)*radius,0,math.sin(t)*radius)end
+   line('RuneCircle',points,.065)
+  end
+  for k=0,1 do local points={};for i=0,3 do local t=(i*2/3+k/3)*math.pi;points[#points+1]=V(math.cos(t)*ArenaRadius*.65,0,math.sin(t)*ArenaRadius*.65)end;line('SixPointStar',points,.07)end
+  for i=0,23 do
+   local t=i*math.pi/12;local r=ArenaRadius*.83;local a=V(math.cos(t)*r,0,math.sin(t)*r);local across=V(-math.sin(t),0,math.cos(t));local outward=a.normalized
+   line('RuneMark',{a-outward*.3,a+outward*.3,a+across*.22,a-outward*.1,a-across*.22},.055)
+  end
+ end
+ sigilRoot.transform.position=V.zero
+ local alpha=.65+.2*math.sin(U.Time.time*1.4)
+ for _,lr in ipairs(sigilLines)do lr.startColor=U.Color(.48,.35,1,alpha);lr.endColor=U.Color(.24,.7,1,alpha)end
+end
 function Update()
+ shadowSource()
  restoreBones()
  if not engine or not rpg or not fx or not rules then return end
  local a=localActor();if not a then return end
- center(a)
+ local arenaCenter=center(a);local night=IsNight()
+ if active()then showSigil(V(state.x,state.y,state.z),state.radius,true)
+ else showSigil(arenaCenter,ArenaRadius,true)end
+ if not active()then fx.SetArena(arenaCenter+V(0,.12,0),ArenaRadius,false)end
  if authority()and active()then
   local positions={};for key in pairs(state.members)do local other=CS.DouyinActorService.GetActorById(tonumber(key));if other then positions[key]={x=other.position.x,z=other.position.z}end end
   engine.Step(state,U.Time.deltaTime,positions,function(x,z,nx,nz)return U.Physics.Linecast(V(x,state.y+.6,z),V(nx,state.y+.6,nz),1,U.QueryTriggerInteraction.Ignore)end)
@@ -225,10 +353,10 @@ function Update()
   if flyWas then a:EnableFly()end;flyWas=nil
   rpg.SetMode('explore')
  end
- lastActive=playing;rpg.SetContext({inBattle=playing,dead=m and m.hp<=0 and active()or false})
+ lastActive=playing;rpg.SetContext({inBattle=playing,dead=m and not m.retreat and m.hp<=0 and active()or false})
  if state and m and not resolved[state.epoch]and(state.phase=='victory'or state.phase=='defeat'or m.hp<=0)then
   local epoch=state.epoch
-  if state.phase=='victory'and m.damage>0 and m.hp>0 then
+  if state.phase=='victory'and m.damage>0 and m.hp>0 and not state.duel then
    -- Retry pending rewards on subsequent frames; storage transaction owns deduplication.
    if rpg.AwardBattle then
     resolved[epoch]='saving'
@@ -238,7 +366,7 @@ function Update()
     if not ok then resolved[epoch]=nil end
    end
   else resolved[epoch]=true end
-  if m.hp<=0 then a:Teleport(V(state.x-state.radius-1,state.y+.2,state.z))end
+  if m.hp<=0 then if state.duel then a:Teleport(V(state.x,state.y+.2,state.z-state.radius+1))else a:Teleport(V(state.x-state.radius-1,state.y+.2,state.z))end end
  end
  syncVisuals()
 end
@@ -247,4 +375,7 @@ function OnDisable()
  if rpg then rpg.SetContext({inBattle=false,dead=false})end
  if fx then fx.SetArena(V.zero,1,false)end;clearVisuals();pending={}
 end
-function OnDestroy()OnDisable()end
+function OnDestroy()
+ if sigilRoot then U.Object.Destroy(sigilRoot)end;if sigilMaterial then U.Object.Destroy(sigilMaterial)end;OnDisable()end
+
+do local previous=OnDestroy;function OnDestroy()if previous then previous()end;ReleaseMobileDependencies()end end

@@ -1,0 +1,7142 @@
+{
+  "beforeCount": 175,
+  "afterCount": 80,
+  "center": [
+    118.2672,
+    43.0085678
+  ],
+  "beforeBounds": [
+    [
+      98.294,
+      31.88036
+    ],
+    [
+      151.9121,
+      53.95149
+    ]
+  ],
+  "afterBounds": [
+    [
+      100.458946,
+      36.0709343
+    ],
+    [
+      137.092285,
+      50.13684
+    ]
+  ],
+  "keptNames": [
+    "golden_geometry_150",
+    "golden_geometry_151",
+    "golden_geometry_152",
+    "golden_geometry_154",
+    "golden_geometry_156",
+    "golden_geometry_157",
+    "golden_geometry_159",
+    "golden_geometry_161",
+    "golden_geometry_162",
+    "golden_geometry_163",
+    "golden_geometry_164",
+    "golden_geometry_166",
+    "golden_geometry_168",
+    "golden_geometry_169",
+    "golden_geometry_179",
+    "golden_geometry_184",
+    "golden_geometry_200",
+    "golden_geometry_264",
+    "golden_geometry_272",
+    "golden_geometry_275",
+    "golden_geometry_276",
+    "golden_geometry_283",
+    "golden_geometry_287",
+    "golden_geometry_292",
+    "golden_geometry_295",
+    "golden_geometry_298",
+    "golden_geometry_301",
+    "golden_geometry_322",
+    "golden_geometry_326",
+    "golden_geometry_330",
+    "golden_geometry_343",
+    "golden_geometry_1",
+    "golden_geometry_2",
+    "golden_geometry_3",
+    "golden_geometry_4",
+    "golden_geometry_5",
+    "golden_geometry_6",
+    "golden_geometry_7",
+    "golden_geometry_13",
+    "golden_geometry_15",
+    "golden_geometry_16",
+    "golden_geometry_22",
+    "golden_geometry_34",
+    "golden_geometry_35",
+    "golden_geometry_36",
+    "golden_geometry_40",
+    "golden_geometry_43",
+    "golden_geometry_46",
+    "golden_geometry_50",
+    "golden_geometry_52",
+    "golden_geometry_63",
+    "golden_geometry_64",
+    "golden_geometry_66",
+    "golden_geometry_67",
+    "golden_geometry_71",
+    "golden_geometry_78",
+    "golden_geometry_80",
+    "golden_geometry_82",
+    "golden_geometry_90",
+    "golden_geometry_92",
+    "golden_geometry_94",
+    "golden_geometry_95",
+    "golden_geometry_101",
+    "golden_geometry_107",
+    "golden_geometry_112",
+    "golden_geometry_116",
+    "golden_geometry_118",
+    "golden_geometry_119",
+    "golden_geometry_120",
+    "golden_geometry_121",
+    "golden_geometry_125",
+    "golden_geometry_127",
+    "golden_geometry_128",
+    "golden_geometry_130",
+    "golden_geometry_133",
+    "golden_geometry_134",
+    "golden_geometry_135",
+    "golden_geometry_137",
+    "golden_geometry_143",
+    "golden_geometry_147"
+  ],
+  "removed": [
+    {
+      "id": -344361894,
+      "basic": {
+        "nodeName": "golden_geometry_153",
+        "pos": {
+          "x": 138.701324,
+          "y": 37.64101,
+          "z": 40.76664
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.867817461,
+          "z": 0.0,
+          "w": 0.496883154
+        },
+        "scale": {
+          "x": 1.36608613,
+          "y": 0.8433185,
+          "z": 1.36608613
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -525376525,
+      "basic": {
+        "nodeName": "golden_geometry_160",
+        "pos": {
+          "x": 139.287354,
+          "y": 36.9757767,
+          "z": 38.94504
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.9917553,
+          "z": 0.0,
+          "w": -0.1281462
+        },
+        "scale": {
+          "x": 1.38630676,
+          "y": 0.737200439,
+          "z": 1.38630676
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -1428927964,
+      "basic": {
+        "nodeName": "golden_geometry_165",
+        "pos": {
+          "x": 118.2672,
+          "y": 39.7074,
+          "z": 49.928
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.9731618,
+          "z": 0.0,
+          "w": -0.230121985
+        },
+        "scale": {
+          "x": 1.40698981,
+          "y": 1.065111,
+          "z": 1.40698981
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 1232974758,
+      "basic": {
+        "nodeName": "golden_geometry_167",
+        "pos": {
+          "x": 141.196365,
+          "y": 37.06913,
+          "z": 38.30288
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.146266624,
+          "z": 0.0,
+          "w": 0.9892452
+        },
+        "scale": {
+          "x": 1.43969917,
+          "y": 0.7658891,
+          "z": 1.43969917
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 1155179660,
+      "basic": {
+        "nodeName": "golden_geometry_170",
+        "pos": {
+          "x": 123.353882,
+          "y": 39.39887,
+          "z": 50.8848
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.501563847,
+          "z": 0.0,
+          "w": 0.865120649
+        },
+        "scale": {
+          "x": 1.25932777,
+          "y": 0.927783,
+          "z": 1.25932777
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 1049013747,
+      "basic": {
+        "nodeName": "golden_geometry_171",
+        "pos": {
+          "x": 120.257156,
+          "y": 39.60614,
+          "z": 50.80936
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.5796452,
+          "z": 0.0,
+          "w": 0.814869
+        },
+        "scale": {
+          "x": 1.29832709,
+          "y": 1.09355831,
+          "z": 1.29832709
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 885894773,
+      "basic": {
+        "nodeName": "golden_geometry_172",
+        "pos": {
+          "x": 114.585358,
+          "y": 37.4100342,
+          "z": 34.817
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.9150801,
+          "z": 0.0,
+          "w": -0.403272182
+        },
+        "scale": {
+          "x": 1.2544769,
+          "y": 0.918298244,
+          "z": 1.2544769
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -2076908758,
+      "basic": {
+        "nodeName": "golden_geometry_173",
+        "pos": {
+          "x": 145.91597,
+          "y": 38.466114,
+          "z": 38.9936562
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.867077649,
+          "z": 0.0,
+          "w": -0.498173028
+        },
+        "scale": {
+          "x": 1.27909839,
+          "y": 1.09902978,
+          "z": 1.27909839
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 181973535,
+      "basic": {
+        "nodeName": "golden_geometry_175",
+        "pos": {
+          "x": 139.861435,
+          "y": 36.2412453,
+          "z": 36.8548
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.224957883,
+          "z": 0.0,
+          "w": 0.9743685
+        },
+        "scale": {
+          "x": 1.26880968,
+          "y": 0.7175666,
+          "z": 1.26880968
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 179243701,
+      "basic": {
+        "nodeName": "golden_geometry_176",
+        "pos": {
+          "x": 108.36248,
+          "y": 40.57296,
+          "z": 48.82768
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.8304156,
+          "z": 0.0,
+          "w": 0.557144463
+        },
+        "scale": {
+          "x": 1.38722169,
+          "y": 0.977762938,
+          "z": 1.38722169
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 1017300237,
+      "basic": {
+        "nodeName": "golden_geometry_177",
+        "pos": {
+          "x": 143.0336,
+          "y": 37.32212,
+          "z": 37.8254
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.740017533,
+          "z": 0.0,
+          "w": 0.6725876
+        },
+        "scale": {
+          "x": 1.42854571,
+          "y": 0.736272037,
+          "z": 1.42854571
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -1813226065,
+      "basic": {
+        "nodeName": "golden_geometry_178",
+        "pos": {
+          "x": 130.830215,
+          "y": 39.11772,
+          "z": 51.55336
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.612795651,
+          "z": 0.0,
+          "w": 0.7902414
+        },
+        "scale": {
+          "x": 1.4428798,
+          "y": 0.9778091,
+          "z": 1.4428798
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 1564722137,
+      "basic": {
+        "nodeName": "golden_geometry_180",
+        "pos": {
+          "x": 134.70787,
+          "y": 38.98459,
+          "z": 51.0801
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.6286788,
+          "z": 0.0,
+          "w": 0.7776651
+        },
+        "scale": {
+          "x": 1.21577919,
+          "y": 0.9865765,
+          "z": 1.21577919
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 823908567,
+      "basic": {
+        "nodeName": "golden_geometry_181",
+        "pos": {
+          "x": 116.713318,
+          "y": 39.9150925,
+          "z": 51.19392
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.5477866,
+          "z": 0.0,
+          "w": 0.8366181
+        },
+        "scale": {
+          "x": 1.24456859,
+          "y": 1.04781663,
+          "z": 1.24456859
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -843976838,
+      "basic": {
+        "nodeName": "golden_geometry_182",
+        "pos": {
+          "x": 103.424843,
+          "y": 40.95279,
+          "z": 46.83588
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.684094548,
+          "z": 0.0,
+          "w": 0.729393363
+        },
+        "scale": {
+          "x": 1.163073,
+          "y": 0.886754,
+          "z": 1.163073
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -430319504,
+      "basic": {
+        "nodeName": "golden_geometry_183",
+        "pos": {
+          "x": 125.15432,
+          "y": 39.32897,
+          "z": 51.56008
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.9933203,
+          "z": 0.0,
+          "w": -0.11539001
+        },
+        "scale": {
+          "x": 1.42451823,
+          "y": 1.03182948,
+          "z": 1.42451823
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 1256584188,
+      "basic": {
+        "nodeName": "golden_geometry_186",
+        "pos": {
+          "x": 111.299118,
+          "y": 40.3543739,
+          "z": 50.18468
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.9352481,
+          "z": 0.0,
+          "w": 0.353993
+        },
+        "scale": {
+          "x": 1.446741,
+          "y": 0.9348927,
+          "z": 1.446741
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -977202637,
+      "basic": {
+        "nodeName": "golden_geometry_187",
+        "pos": {
+          "x": 106.781921,
+          "y": 40.76532,
+          "z": 36.01484
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.206167653,
+          "z": 0.0,
+          "w": 0.9785167
+        },
+        "scale": {
+          "x": 1.36469555,
+          "y": 0.8006989,
+          "z": 1.36469555
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -1901868037,
+      "basic": {
+        "nodeName": "golden_geometry_188",
+        "pos": {
+          "x": 128.0008,
+          "y": 39.20936,
+          "z": 51.71004
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.8541173,
+          "z": 0.0,
+          "w": 0.520080447
+        },
+        "scale": {
+          "x": 1.1633594,
+          "y": 0.957633138,
+          "z": 1.1633594
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -1397177538,
+      "basic": {
+        "nodeName": "golden_geometry_189",
+        "pos": {
+          "x": 99.97208,
+          "y": 41.01723,
+          "z": 42.2092
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.524458647,
+          "z": 0.0,
+          "w": 0.8514359
+        },
+        "scale": {
+          "x": 1.17568278,
+          "y": 1.086648,
+          "z": 1.17568278
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -1100514896,
+      "basic": {
+        "nodeName": "golden_geometry_190",
+        "pos": {
+          "x": 108.797638,
+          "y": 40.2470627,
+          "z": 35.30092
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.958768547,
+          "z": 0.0,
+          "w": -0.284188062
+        },
+        "scale": {
+          "x": 1.41325939,
+          "y": 0.8093123,
+          "z": 1.41325939
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -238296855,
+      "basic": {
+        "nodeName": "golden_geometry_191",
+        "pos": {
+          "x": 116.16684,
+          "y": 36.39472,
+          "z": 33.66884
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.581578255,
+          "z": 0.0,
+          "w": 0.81349045
+        },
+        "scale": {
+          "x": 1.35733211,
+          "y": 0.796984732,
+          "z": 1.35733211
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 64582245,
+      "basic": {
+        "nodeName": "golden_geometry_192",
+        "pos": {
+          "x": 141.878082,
+          "y": 36.4404678,
+          "z": 36.24484
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.965826,
+          "z": 0.0,
+          "w": -0.2591913
+        },
+        "scale": {
+          "x": 1.41116691,
+          "y": 0.9558206,
+          "z": 1.41116691
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -1917708688,
+      "basic": {
+        "nodeName": "golden_geometry_194",
+        "pos": {
+          "x": 118.638878,
+          "y": 39.77853,
+          "z": 51.80204
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.685750246,
+          "z": 0.0,
+          "w": 0.7278369
+        },
+        "scale": {
+          "x": 1.40262187,
+          "y": 1.00857317,
+          "z": 1.40262187
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 700594929,
+      "basic": {
+        "nodeName": "golden_geometry_196",
+        "pos": {
+          "x": 114.201721,
+          "y": 40.1543427,
+          "z": 51.23992
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.9353669,
+          "z": 0.0,
+          "w": 0.353678823
+        },
+        "scale": {
+          "x": 1.39317453,
+          "y": 0.8214631,
+          "z": 1.39317453
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -450371657,
+      "basic": {
+        "nodeName": "golden_geometry_197",
+        "pos": {
+          "x": 101.349319,
+          "y": 41.1525841,
+          "z": 46.49548
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.757543862,
+          "z": 0.0,
+          "w": 0.6527843
+        },
+        "scale": {
+          "x": 1.42279959,
+          "y": 1.06705654,
+          "z": 1.42279959
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -1138607834,
+      "basic": {
+        "nodeName": "golden_geometry_198",
+        "pos": {
+          "x": 150.131241,
+          "y": 38.6949921,
+          "z": 40.08844
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.0372486375,
+          "z": 0.0,
+          "w": 0.999306
+        },
+        "scale": {
+          "x": 1.20734072,
+          "y": 0.9008447,
+          "z": 1.20734072
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 37000366,
+      "basic": {
+        "nodeName": "golden_geometry_199",
+        "pos": {
+          "x": 99.97576,
+          "y": 41.03689,
+          "z": 40.09688
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.858379245,
+          "z": 0.0,
+          "w": 0.5130157
+        },
+        "scale": {
+          "x": 1.26039147,
+          "y": 0.7983391,
+          "z": 1.26039147
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 312844881,
+      "basic": {
+        "nodeName": "golden_geometry_201",
+        "pos": {
+          "x": 109.304558,
+          "y": 40.57102,
+          "z": 50.46712
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.747845769,
+          "z": 0.0,
+          "w": 0.66387254
+        },
+        "scale": {
+          "x": 1.3164798,
+          "y": 1.0480864,
+          "z": 1.3164798
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 2089944884,
+      "basic": {
+        "nodeName": "golden_geometry_202",
+        "pos": {
+          "x": 110.524483,
+          "y": 39.454937,
+          "z": 34.13804
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.7812154,
+          "z": 0.0,
+          "w": 0.624261558
+        },
+        "scale": {
+          "x": 1.28061438,
+          "y": 0.898864,
+          "z": 1.28061438
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 1219037486,
+      "basic": {
+        "nodeName": "golden_geometry_205",
+        "pos": {
+          "x": 151.602386,
+          "y": 38.8852463,
+          "z": 41.49127
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.42536518,
+          "z": 0.0,
+          "w": 0.9050218
+        },
+        "scale": {
+          "x": 1.1774894,
+          "y": 1.0227232,
+          "z": 1.1774894
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 1325517480,
+      "basic": {
+        "nodeName": "golden_geometry_206",
+        "pos": {
+          "x": 98.294,
+          "y": 41.056076,
+          "z": 41.26804
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.9240898,
+          "z": 0.0,
+          "w": 0.382175416
+        },
+        "scale": {
+          "x": 1.25917137,
+          "y": 1.0535531,
+          "z": 1.25917137
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -1429393621,
+      "basic": {
+        "nodeName": "golden_geometry_207",
+        "pos": {
+          "x": 107.028481,
+          "y": 40.7886429,
+          "z": 50.16444
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.0431826971,
+          "z": 0.0,
+          "w": 0.9990672
+        },
+        "scale": {
+          "x": 1.1863656,
+          "y": 0.86319375,
+          "z": 1.1863656
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -202704298,
+      "basic": {
+        "nodeName": "golden_geometry_208",
+        "pos": {
+          "x": 100.6446,
+          "y": 41.03752,
+          "z": 37.86128
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.9843919,
+          "z": 0.0,
+          "w": 0.1759903
+        },
+        "scale": {
+          "x": 1.25716281,
+          "y": 0.955331743,
+          "z": 1.25716281
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -266310778,
+      "basic": {
+        "nodeName": "golden_geometry_209",
+        "pos": {
+          "x": 104.791039,
+          "y": 41.01838,
+          "z": 35.60452
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.461435735,
+          "z": 0.0,
+          "w": 0.887173653
+        },
+        "scale": {
+          "x": 1.38813281,
+          "y": 0.8259648,
+          "z": 1.38813281
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -1889596632,
+      "basic": {
+        "nodeName": "golden_geometry_212",
+        "pos": {
+          "x": 143.9904,
+          "y": 36.92971,
+          "z": 36.07464
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.4777976,
+          "z": 0.0,
+          "w": 0.878469944
+        },
+        "scale": {
+          "x": 1.18006,
+          "y": 0.9882888,
+          "z": 1.18006
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 1857919519,
+      "basic": {
+        "nodeName": "golden_geometry_213",
+        "pos": {
+          "x": 117.797081,
+          "y": 35.73345,
+          "z": 32.53448
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.9975276,
+          "z": 0.0,
+          "w": 0.0702759549
+        },
+        "scale": {
+          "x": 1.21850431,
+          "y": 0.7862426,
+          "z": 1.21850431
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 84357179,
+      "basic": {
+        "nodeName": "golden_geometry_214",
+        "pos": {
+          "x": 102.126717,
+          "y": 41.1672668,
+          "z": 48.40632
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.560913146,
+          "z": 0.0,
+          "w": 0.82787466
+        },
+        "scale": {
+          "x": 1.37074029,
+          "y": 0.8402597,
+          "z": 1.37074029
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -1350151726,
+      "basic": {
+        "nodeName": "golden_geometry_215",
+        "pos": {
+          "x": 135.59816,
+          "y": 39.00078,
+          "z": 51.82964
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.267769,
+          "z": 0.0,
+          "w": 0.963483155
+        },
+        "scale": {
+          "x": 1.28282332,
+          "y": 0.744469941,
+          "z": 1.28282332
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 785312384,
+      "basic": {
+        "nodeName": "golden_geometry_216",
+        "pos": {
+          "x": 140.975555,
+          "y": 35.7734,
+          "z": 34.39196
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.6625156,
+          "z": 0.0,
+          "w": 0.7490481
+        },
+        "scale": {
+          "x": 1.35043633,
+          "y": 0.7799179,
+          "z": 1.35043633
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 292605449,
+      "basic": {
+        "nodeName": "golden_geometry_217",
+        "pos": {
+          "x": 112.248558,
+          "y": 40.346714,
+          "z": 51.814
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.234979212,
+          "z": 0.0,
+          "w": 0.9720004
+        },
+        "scale": {
+          "x": 1.33492351,
+          "y": 1.05219281,
+          "z": 1.33492351
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 1394649201,
+      "basic": {
+        "nodeName": "golden_geometry_218",
+        "pos": {
+          "x": 98.81012,
+          "y": 40.9958344,
+          "z": 38.51632
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.307887346,
+          "z": 0.0,
+          "w": 0.9514228
+        },
+        "scale": {
+          "x": 1.26609731,
+          "y": 0.730751336,
+          "z": 1.26609731
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 214371227,
+      "basic": {
+        "nodeName": "golden_geometry_219",
+        "pos": {
+          "x": 129.582275,
+          "y": 39.21053,
+          "z": 52.86832
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.202058345,
+          "z": 0.0,
+          "w": 0.9793735
+        },
+        "scale": {
+          "x": 1.44540644,
+          "y": 0.948978543,
+          "z": 1.44540644
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 1767343092,
+      "basic": {
+        "nodeName": "golden_geometry_220",
+        "pos": {
+          "x": 102.803841,
+          "y": 41.0407562,
+          "z": 35.77748
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.69013083,
+          "z": 0.0,
+          "w": 0.723684669
+        },
+        "scale": {
+          "x": 1.251444,
+          "y": 0.7191257,
+          "z": 1.251444
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 1775615703,
+      "basic": {
+        "nodeName": "golden_geometry_222",
+        "pos": {
+          "x": 146.817566,
+          "y": 37.89886,
+          "z": 36.40032
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.7769971,
+          "z": 0.0,
+          "w": 0.6295042
+        },
+        "scale": {
+          "x": 1.2984364,
+          "y": 0.474370629,
+          "z": 1.2984364
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 44798562,
+      "basic": {
+        "nodeName": "golden_geometry_223",
+        "pos": {
+          "x": 126.354,
+          "y": 39.34056,
+          "z": 53.1204
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.555694938,
+          "z": 0.0,
+          "w": 0.831386268
+        },
+        "scale": {
+          "x": 1.22116375,
+          "y": 0.5541641,
+          "z": 1.22116375
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 1242450096,
+      "basic": {
+        "nodeName": "golden_geometry_225",
+        "pos": {
+          "x": 100.2352,
+          "y": 41.33864,
+          "z": 48.04108
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.9441173,
+          "z": 0.0,
+          "w": 0.329609752
+        },
+        "scale": {
+          "x": 1.1943121,
+          "y": 0.4841283,
+          "z": 1.1943121
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 1358575652,
+      "basic": {
+        "nodeName": "golden_geometry_226",
+        "pos": {
+          "x": 105.1618,
+          "y": 40.99762,
+          "z": 50.43584
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.5208984,
+          "z": 0.0,
+          "w": 0.8536187
+        },
+        "scale": {
+          "x": 1.30827355,
+          "y": 0.420868933,
+          "z": 1.30827355
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -197059068,
+      "basic": {
+        "nodeName": "golden_geometry_227",
+        "pos": {
+          "x": 115.8062,
+          "y": 40.066433,
+          "z": 52.93916
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.5643716,
+          "z": 0.0,
+          "w": 0.8255209
+        },
+        "scale": {
+          "x": 1.30295181,
+          "y": 0.459153682,
+          "z": 1.30295181
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 1882783050,
+      "basic": {
+        "nodeName": "golden_geometry_228",
+        "pos": {
+          "x": 142.990356,
+          "y": 36.1198,
+          "z": 34.39748
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.9899438,
+          "z": 0.0,
+          "w": -0.141461059
+        },
+        "scale": {
+          "x": 1.16611874,
+          "y": 0.632139862,
+          "z": 1.16611874
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 391658670,
+      "basic": {
+        "nodeName": "golden_geometry_229",
+        "pos": {
+          "x": 110.220879,
+          "y": 40.5647736,
+          "z": 52.14152
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.999797046,
+          "z": 0.0,
+          "w": 0.0201459266
+        },
+        "scale": {
+          "x": 1.41283977,
+          "y": 0.412828863,
+          "z": 1.41283977
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -1221924496,
+      "basic": {
+        "nodeName": "golden_geometry_231",
+        "pos": {
+          "x": 102.977722,
+          "y": 41.18835,
+          "z": 50.15064
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.227932632,
+          "z": 0.0,
+          "w": 0.9736769
+        },
+        "scale": {
+          "x": 1.33051324,
+          "y": 0.4968284,
+          "z": 1.33051324
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -1244074000,
+      "basic": {
+        "nodeName": "golden_geometry_232",
+        "pos": {
+          "x": 108.779243,
+          "y": 40.3566742,
+          "z": 32.97056
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.424533516,
+          "z": 0.0,
+          "w": 0.905412257
+        },
+        "scale": {
+          "x": 1.31240952,
+          "y": 0.5575173,
+          "z": 1.31240952
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 1937202517,
+      "basic": {
+        "nodeName": "golden_geometry_233",
+        "pos": {
+          "x": 149.66864,
+          "y": 38.6138878,
+          "z": 37.3562
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.4999582,
+          "z": 0.0,
+          "w": 0.8660495
+        },
+        "scale": {
+          "x": 1.32711554,
+          "y": 0.475103438,
+          "z": 1.32711554
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 1866327136,
+      "basic": {
+        "nodeName": "golden_geometry_235",
+        "pos": {
+          "x": 145.541519,
+          "y": 37.0500221,
+          "z": 34.95224
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.5254457,
+          "z": 0.0,
+          "w": 0.850827157
+        },
+        "scale": {
+          "x": 1.33646083,
+          "y": 0.5997455,
+          "z": 1.33646083
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -436907112,
+      "basic": {
+        "nodeName": "golden_geometry_236",
+        "pos": {
+          "x": 98.33448,
+          "y": 41.48497,
+          "z": 47.87456
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.481972963,
+          "z": 0.0,
+          "w": 0.8761861
+        },
+        "scale": {
+          "x": 1.31845415,
+          "y": 0.484747946,
+          "z": 1.31845415
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 500832405,
+      "basic": {
+        "nodeName": "golden_geometry_237",
+        "pos": {
+          "x": 107.643044,
+          "y": 40.8250542,
+          "z": 51.98052
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.95066905,
+          "z": 0.0,
+          "w": -0.3102071
+        },
+        "scale": {
+          "x": 1.34980118,
+          "y": 0.7434299,
+          "z": 1.34980118
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 1468236429,
+      "basic": {
+        "nodeName": "golden_geometry_238",
+        "pos": {
+          "x": 113.831879,
+          "y": 40.25889,
+          "z": 53.23264
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.5722394,
+          "z": 0.0,
+          "w": 0.8200866
+        },
+        "scale": {
+          "x": 1.26630914,
+          "y": 0.683632,
+          "z": 1.26630914
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 236778642,
+      "basic": {
+        "nodeName": "golden_geometry_239",
+        "pos": {
+          "x": 99.02632,
+          "y": 41.0344467,
+          "z": 36.30004
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.9306361,
+          "z": 0.0,
+          "w": 0.365946054
+        },
+        "scale": {
+          "x": 1.25857079,
+          "y": 0.6745902,
+          "z": 1.25857079
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 1599647135,
+      "basic": {
+        "nodeName": "golden_geometry_241",
+        "pos": {
+          "x": 100.846077,
+          "y": 41.3916321,
+          "z": 49.9234
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.219613746,
+          "z": 0.0,
+          "w": 0.975586951
+        },
+        "scale": {
+          "x": 1.29179788,
+          "y": 0.736658037,
+          "z": 1.29179788
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -198876967,
+      "basic": {
+        "nodeName": "golden_geometry_242",
+        "pos": {
+          "x": 137.241287,
+          "y": 39.0741577,
+          "z": 53.01368
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.84967643,
+          "z": 0.0,
+          "w": 0.52730453
+        },
+        "scale": {
+          "x": 1.19283211,
+          "y": 0.64356935,
+          "z": 1.19283211
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -1754092790,
+      "basic": {
+        "nodeName": "golden_geometry_243",
+        "pos": {
+          "x": 110.541039,
+          "y": 38.9079971,
+          "z": 31.9742
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.407318562,
+          "z": 0.0,
+          "w": 0.91328615
+        },
+        "scale": {
+          "x": 1.32713866,
+          "y": 0.7148842,
+          "z": 1.32713866
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -607140059,
+      "basic": {
+        "nodeName": "golden_geometry_245",
+        "pos": {
+          "x": 142.32814,
+          "y": 35.62479,
+          "z": 32.14504
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.906130135,
+          "z": 0.0,
+          "w": 0.422999054
+        },
+        "scale": {
+          "x": 1.17329049,
+          "y": 0.651438,
+          "z": 1.17329049
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 667659689,
+      "basic": {
+        "nodeName": "golden_geometry_247",
+        "pos": {
+          "x": 105.767159,
+          "y": 41.043396,
+          "z": 52.28228
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.9626679,
+          "z": 0.0,
+          "w": 0.270685315
+        },
+        "scale": {
+          "x": 1.24334919,
+          "y": 0.6470252,
+          "z": 1.24334919
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -28532201,
+      "basic": {
+        "nodeName": "golden_geometry_248",
+        "pos": {
+          "x": 142.842438,
+          "y": 39.17537,
+          "z": 53.6223373
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.444438219,
+          "z": 0.0,
+          "w": 0.895809531
+        },
+        "scale": {
+          "x": 1.29621756,
+          "y": 0.4420924,
+          "z": 1.29621756
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 285846537,
+      "basic": {
+        "nodeName": "golden_geometry_249",
+        "pos": {
+          "x": 98.70248,
+          "y": 41.59578,
+          "z": 49.80748
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.3255681,
+          "z": 0.0,
+          "w": 0.9455186
+        },
+        "scale": {
+          "x": 1.40597391,
+          "y": 0.5931977,
+          "z": 1.40597391
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -152478839,
+      "basic": {
+        "nodeName": "golden_geometry_254",
+        "pos": {
+          "x": 108.8602,
+          "y": 40.7742348,
+          "z": 53.53164
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.981458366,
+          "z": 0.0,
+          "w": -0.1916755
+        },
+        "scale": {
+          "x": 1.1938231,
+          "y": 0.421718657,
+          "z": 1.1938231
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -916303213,
+      "basic": {
+        "nodeName": "golden_geometry_257",
+        "pos": {
+          "x": 151.9121,
+          "y": 39.1263123,
+          "z": 51.18176
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.8660769,
+          "z": 0.0,
+          "w": -0.4999108
+        },
+        "scale": {
+          "x": 1.33070254,
+          "y": 0.591470838,
+          "z": 1.33070254
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -623497115,
+      "basic": {
+        "nodeName": "golden_geometry_259",
+        "pos": {
+          "x": 145.059265,
+          "y": 39.2685165,
+          "z": 53.95149
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.257183045,
+          "z": 0.0,
+          "w": 0.9663627
+        },
+        "scale": {
+          "x": 1.44781876,
+          "y": 0.625139654,
+          "z": 1.44781876
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 1325768461,
+      "basic": {
+        "nodeName": "golden_geometry_261",
+        "pos": {
+          "x": 120.60952,
+          "y": 35.7058868,
+          "z": 34.53548
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.15078792,
+          "z": 0.0,
+          "w": 0.98856616
+        },
+        "scale": {
+          "x": 1.46095133,
+          "y": 0.8613963,
+          "z": 1.46095133
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -2132487762,
+      "basic": {
+        "nodeName": "golden_geometry_263",
+        "pos": {
+          "x": 146.338242,
+          "y": 36.6905823,
+          "z": 33.12328
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.999380946,
+          "z": 0.0,
+          "w": -0.0351820476
+        },
+        "scale": {
+          "x": 1.22635818,
+          "y": 1.014779,
+          "z": 1.22635818
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 277069906,
+      "basic": {
+        "nodeName": "golden_geometry_279",
+        "pos": {
+          "x": 98.52492,
+          "y": 41.74845,
+          "z": 51.5058
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.9675086,
+          "z": 0.0,
+          "w": -0.252838
+        },
+        "scale": {
+          "x": 1.24636853,
+          "y": 1.01839721,
+          "z": 1.24636853
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -930068728,
+      "basic": {
+        "nodeName": "golden_geometry_284",
+        "pos": {
+          "x": 134.582474,
+          "y": 35.7278061,
+          "z": 37.0434
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.9576237,
+          "z": 0.0,
+          "w": -0.28802225
+        },
+        "scale": {
+          "x": 1.48042512,
+          "y": 0.900855839,
+          "z": 1.48042512
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -1667753706,
+      "basic": {
+        "nodeName": "golden_geometry_285",
+        "pos": {
+          "x": 102.373283,
+          "y": 41.46818,
+          "z": 52.88856
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.9420626,
+          "z": 0.0,
+          "w": 0.335437119
+        },
+        "scale": {
+          "x": 1.26899707,
+          "y": 1.01671588,
+          "z": 1.26899707
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -1739195532,
+      "basic": {
+        "nodeName": "golden_geometry_294",
+        "pos": {
+          "x": 104.229843,
+          "y": 40.9069862,
+          "z": 39.11524
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.999994338,
+          "z": 0.0,
+          "w": -0.00336256041
+        },
+        "scale": {
+          "x": 1.20001554,
+          "y": 0.8256866,
+          "z": 1.20001554
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -1712098355,
+      "basic": {
+        "nodeName": "golden_geometry_303",
+        "pos": {
+          "x": 113.293678,
+          "y": 36.9261246,
+          "z": 32.00364
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.265009761,
+          "z": 0.0,
+          "w": 0.964245737
+        },
+        "scale": {
+          "x": 1.33131993,
+          "y": 0.9809896,
+          "z": 1.33131993
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 1607430014,
+      "basic": {
+        "nodeName": "golden_geometry_306",
+        "pos": {
+          "x": 148.9216,
+          "y": 37.8432961,
+          "z": 34.10676
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.965389967,
+          "z": 0.0,
+          "w": -0.260810673
+        },
+        "scale": {
+          "x": 1.43005931,
+          "y": 1.03853607,
+          "z": 1.43005931
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -1623252054,
+      "basic": {
+        "nodeName": "golden_geometry_313",
+        "pos": {
+          "x": 146.60228,
+          "y": 38.4061966,
+          "z": 38.31024
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.9658027,
+          "z": 0.0,
+          "w": 0.259278059
+        },
+        "scale": {
+          "x": 1.390419,
+          "y": 1.02669334,
+          "z": 1.390419
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 1612554185,
+      "basic": {
+        "nodeName": "golden_geometry_323",
+        "pos": {
+          "x": 136.341522,
+          "y": 38.87137,
+          "z": 48.25452
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.7643806,
+          "z": 0.0,
+          "w": 0.6447653
+        },
+        "scale": {
+          "x": 1.33499944,
+          "y": 0.7882585,
+          "z": 1.33499944
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -209639143,
+      "basic": {
+        "nodeName": "golden_geometry_325",
+        "pos": {
+          "x": 106.024757,
+          "y": 41.05682,
+          "z": 33.08188
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.279754221,
+          "z": 0.0,
+          "w": 0.9600717
+        },
+        "scale": {
+          "x": 1.15722287,
+          "y": 0.864846,
+          "z": 1.15722287
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 760827759,
+      "basic": {
+        "nodeName": "golden_geometry_329",
+        "pos": {
+          "x": 100.939,
+          "y": 41.0407639,
+          "z": 34.59988
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.5943245,
+          "z": 0.0,
+          "w": 0.8042254
+        },
+        "scale": {
+          "x": 1.20797956,
+          "y": 0.984753132,
+          "z": 1.20797956
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -1277001761,
+      "basic": {
+        "nodeName": "golden_geometry_331",
+        "pos": {
+          "x": 132.629318,
+          "y": 39.1631126,
+          "z": 53.309
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.07746223,
+          "z": 0.0,
+          "w": 0.99699533
+        },
+        "scale": {
+          "x": 1.21448731,
+          "y": 0.8492394,
+          "z": 1.21448731
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -735850703,
+      "basic": {
+        "nodeName": "golden_geometry_334",
+        "pos": {
+          "x": 98.33724,
+          "y": 41.1015129,
+          "z": 45.07868
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.435842067,
+          "z": 0.0,
+          "w": 0.900023162
+        },
+        "scale": {
+          "x": 1.16759861,
+          "y": 0.780818,
+          "z": 1.16759861
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 1883620506,
+      "basic": {
+        "nodeName": "golden_geometry_346",
+        "pos": {
+          "x": 144.190033,
+          "y": 35.82133,
+          "z": 31.88036
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.8156641,
+          "z": 0.0,
+          "w": 0.5785258
+        },
+        "scale": {
+          "x": 1.46806455,
+          "y": 0.9135861,
+          "z": 1.46806455
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -914886689,
+      "basic": {
+        "nodeName": "golden_geometry_347",
+        "pos": {
+          "x": 101.654762,
+          "y": 41.03975,
+          "z": 32.701
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.617349744,
+          "z": 0.0,
+          "w": 0.7866888
+        },
+        "scale": {
+          "x": 1.19402039,
+          "y": 1.04822969,
+          "z": 1.19402039
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -1466721526,
+      "basic": {
+        "nodeName": "golden_geometry_349",
+        "pos": {
+          "x": 137.745438,
+          "y": 35.63814,
+          "z": 35.2908
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.846149147,
+          "z": 0.0,
+          "w": 0.532946169
+        },
+        "scale": {
+          "x": 1.36183333,
+          "y": 0.755798459,
+          "z": 1.36183333
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -1412227158,
+      "basic": {
+        "nodeName": "golden_geometry_25",
+        "pos": {
+          "x": 111.850288,
+          "y": 39.132515,
+          "z": 36.0886
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.870204151,
+          "z": 0.0,
+          "w": -0.492691338
+        },
+        "scale": {
+          "x": 1.17640567,
+          "y": 0.938279867,
+          "z": 1.17640567
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -1506843475,
+      "basic": {
+        "nodeName": "golden_geometry_47",
+        "pos": {
+          "x": 131.579147,
+          "y": 35.7569427,
+          "z": 37.61143
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.348963857,
+          "z": 0.0,
+          "w": 0.9371362
+        },
+        "scale": {
+          "x": 1.34147179,
+          "y": 0.788222849,
+          "z": 1.34147179
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 421271871,
+      "basic": {
+        "nodeName": "golden_geometry_113",
+        "pos": {
+          "x": 139.167511,
+          "y": 38.3488,
+          "z": 42.70211
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.484622329,
+          "z": 0.0,
+          "w": 0.8747235
+        },
+        "scale": {
+          "x": 1.11115468,
+          "y": 0.715830564,
+          "z": 1.11115468
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -923044855,
+      "basic": {
+        "nodeName": "golden_geometry_122",
+        "pos": {
+          "x": 136.894623,
+          "y": 36.45511,
+          "z": 38.61546
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.681492746,
+          "z": 0.0,
+          "w": 0.7318249
+        },
+        "scale": {
+          "x": 1.14982951,
+          "y": 0.538468242,
+          "z": 1.14982951
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 413893244,
+      "basic": {
+        "nodeName": "golden_geometry_126",
+        "pos": {
+          "x": 112.653931,
+          "y": 38.0787354,
+          "z": 34.1335449
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.6666596,
+          "z": 0.0,
+          "w": 0.745362341
+        },
+        "scale": {
+          "x": 0.9004239,
+          "y": 0.631491661,
+          "z": 0.9004239
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 295012935,
+      "basic": {
+        "nodeName": "golden_geometry_131",
+        "pos": {
+          "x": 136.487976,
+          "y": 38.7781,
+          "z": 45.713768
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.4173207,
+          "z": 0.0,
+          "w": 0.9087593
+        },
+        "scale": {
+          "x": 1.12572014,
+          "y": 0.369339079,
+          "z": 1.12572014
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 2064423793,
+      "basic": {
+        "nodeName": "golden_geometry_141",
+        "pos": {
+          "x": 142.291916,
+          "y": 37.96151,
+          "z": 39.8481865
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.9552706,
+          "z": 0.0,
+          "w": 0.2957332
+        },
+        "scale": {
+          "x": 1.07459116,
+          "y": 0.49277252,
+          "z": 1.07459116
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": 1960129902,
+      "basic": {
+        "nodeName": "golden_geometry_142",
+        "pos": {
+          "x": 142.866821,
+          "y": 38.6369438,
+          "z": 41.95808
+        },
+        "rot": {
+          "x": 0.0,
+          "y": -0.205640629,
+          "z": 0.0,
+          "w": 0.978627563
+        },
+        "scale": {
+          "x": 0.820763648,
+          "y": 0.4040697,
+          "z": 0.820763648
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    },
+    {
+      "id": -1841873953,
+      "basic": {
+        "nodeName": "golden_geometry_148",
+        "pos": {
+          "x": 139.864609,
+          "y": 38.6755447,
+          "z": 44.8084373
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.9246973,
+          "z": 0.0,
+          "w": 0.38070327
+        },
+        "scale": {
+          "x": 0.818307,
+          "y": 0.5311368,
+          "z": 0.818307
+        },
+        "tag": "Untagged",
+        "parentId": 1897025846,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "editor": {
+        "assetData": null,
+        "editorOnlyData": {
+          "isLock": false,
+          "isGroupRoot": true,
+          "editorData": "{\"nodeKind\":\"combination\"}"
+        }
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "resource": {
+        "aigcModelData": {
+          "uri": null,
+          "meshRefId": 0,
+          "isShowTex": true,
+          "opType": 4
+        },
+        "localPrefabData": null,
+        "glbSliceData": {
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+          "sourceMeshRefId": 0,
+          "slicePath": [],
+          "debugSlicePath": "",
+          "isShowTex": true,
+          "opType": 4
+        }
+      }
+    }
+  ]
+}

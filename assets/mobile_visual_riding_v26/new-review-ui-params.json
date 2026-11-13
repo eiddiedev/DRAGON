@@ -1,0 +1,90 @@
+{
+  "BackgroundMusic": {
+    "refFrom": "asset",
+    "refType": "AudioClip",
+    "assetUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ymph7136yvyafmdh.wav",
+    "dataType": 6
+  },
+  "BackgroundMusicVolume": 0.65,
+  "BackgroundMusicMaxDistance": 1000,
+  "ExplorationMusicVolume": 0.18,
+  "TextureSource_ui_title": {
+    "refFrom": "asset",
+    "refType": "GameObject",
+    "assetUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/7uqp7j85swlbiijg.glb",
+    "dataType": 1
+  },
+  "TextureSource_ui_book": {
+    "refFrom": "asset",
+    "refType": "GameObject",
+    "assetUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/l9lcet7nsbjkf4tc.glb",
+    "dataType": 1
+  },
+  "TextureSource_ui_pages1": {
+    "refFrom": "asset",
+    "refType": "GameObject",
+    "assetUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/pabz9r2n7q0tzigl.glb",
+    "dataType": 1
+  },
+  "TextureSource_ui_pages2": {
+    "refFrom": "asset",
+    "refType": "GameObject",
+    "assetUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/63nk01yhkuh3xe0l.glb",
+    "dataType": 1
+  },
+  "TextureSource_ui_pages3": {
+    "refFrom": "asset",
+    "refType": "GameObject",
+    "assetUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/63lrf5s6y69f5bo0.glb",
+    "dataType": 1
+  },
+  "TextureSource_ui_map": {
+    "refFrom": "asset",
+    "refType": "GameObject",
+    "assetUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/qeauecy11i93xrgo.glb",
+    "dataType": 1
+  },
+  "TextureSource_ui_atlas": {
+    "refFrom": "asset",
+    "refType": "GameObject",
+    "assetUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/38mogmr0hptmbw0x.glb",
+    "dataType": 1
+  },
+  "TextureSource_ui_cards1": {
+    "refFrom": "asset",
+    "refType": "GameObject",
+    "assetUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/mig8nntwogyrnruy.glb",
+    "dataType": 1
+  },
+  "TextureSource_ui_cards2": {
+    "refFrom": "asset",
+    "refType": "GameObject",
+    "assetUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ob365i5bojpqw65v.glb",
+    "dataType": 1
+  },
+  "TextureSource_InkCarrier_oath": {
+    "refFrom": "asset",
+    "refType": "GameObject",
+    "assetUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/xavyl1qx47u8o3gp.glb",
+    "dataType": 1
+  },
+  "TextureSource_InkCarrier_font": {
+    "refFrom": "asset",
+    "refType": "GameObject",
+    "assetUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/94t3vhcrokny943k.glb",
+    "dataType": 1
+  },
+  "TextureSource_InkCarrier_map": {
+    "refFrom": "asset",
+    "refType": "GameObject",
+    "assetUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/41o3kx2ajeqyjttu.glb",
+    "dataType": 1
+  },
+  "TextureSource_MobileGroundColorSource": {
+    "refFrom": "asset",
+    "refType": "GameObject",
+    "assetUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ilnm8zdke7cvnbki.glb",
+    "dataType": 1,
+    "displayName": "导入模型"
+  }
+}

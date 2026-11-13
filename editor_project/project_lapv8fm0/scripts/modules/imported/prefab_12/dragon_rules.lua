@@ -1,4 +1,4 @@
----@id e9a1c079-b2af-49f2-a438-ddad3a121524
+---@id e95f970e-11ea-4295-865a-6906911c3ba0
 ---@sourceScriptId f554579e-f9d9-438d-a027-577b6310c6e2
 ---@referenceName dragon_rules.lua
 -- RPG 职业与动作规则；由绑定的协调器调用，不依赖表现层。

@@ -1,0 +1,1 @@
+{"ok":false,"command":"scene","error":{"code":"SESSION_EXPIRED","message":"客户端会话不存在或心跳已过期"}}

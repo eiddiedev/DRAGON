@@ -1,4 +1,4 @@
----@id e4e22ffe-b892-418d-ba77-ba8c0714dca8
+---@id a3bb0ae9-ee19-4dad-bcc6-fe4896938deb
 ---@sourceScriptId bd0f4571-9e3d-4e07-a976-86b831fddd77
 ---@referenceName dragon_rpg.lua
 -- 职业签约与原生战斗按钮；原型和正式开场共用同一入口。
@@ -22,6 +22,8 @@ local backdrop,previewButton
 local font,nativeStyle
 local selection,contractCallback,respec=false,nil,false
 local ready=false
+local resumeAfterMount=false
+local resumeRetry=0
 local held=false
 local attackPressed=false
 local ringSprite,ringTexture
@@ -76,6 +78,8 @@ local function installIcons()
 end
 
 local battleButton,battleLabel,battleHUD
+local K=nil
+local C15={}          -- v15 界面状态（放进表里，少占局部变量）
 local nativeTrial
 local detailLabel
 local ink=U.Color(.18,.13,.086,1)
@@ -126,7 +130,8 @@ end
 local function setIcon(button,key,size)
  local tr=button.transform:Find("ActionGlyph");local go=tr and tr.gameObject
  if not go then go=rect(button.transform,"ActionGlyph",size,size,0,0);go:AddComponent(typeof(U.UI.Image))end
- local im=go:GetComponent(typeof(U.UI.Image));im.sprite=icons[key]or icons.sword;im.color=U.Color.white;im.raycastTarget=false;im.preserveAspect=true
+ local grt=go:GetComponent(typeof(U.RectTransform));grt.sizeDelta=V2(size,size)
+ local im=go:GetComponent(typeof(U.UI.Image));im.sprite=(K and K.L.atlas['ic_'..key]and K.sprite('ic_'..key))or icons[key]or icons.sword;im.color=U.Color.white;im.raycastTarget=false;im.preserveAspect=true
  return im
 end
 function ShowDamage(position,amount,hurt)
@@ -149,9 +154,28 @@ local function updateFeedback()
   local fill,rt=rect(track.transform,"Fill",276,12,0,0,V2(0,.5));rt.pivot=V2(0,.5);rt.anchoredPosition=V2(2,0);hpFill=fill:AddComponent(typeof(U.UI.Image));hpFill.color=U.Color(.25,.88,.66,1)
   hpText=label(hpRoot.transform,"HealthValue","",22,300,30,0,16)
  end
- local st=battle and battle.GetStatus();local visible=ready and not context.menu and st and st.hp~=nil
+ local st=battle and battle.GetStatus();local visible=ready and not context.menu and st and st.hp~=nil and battle.IsParticipating()
  hpRoot:SetActive(visible==true)
- if visible then hpFill.rectTransform.sizeDelta=V2(276*math.max(0,st.hp/st.maxHP),12);hpText.text="心火  "..st.hp.." / "..st.maxHP.."   第 "..(st.stage or 1).." / 3 幕";hpFill.color=U.Time.time-hurtAt<.3 and U.Color(1,.2,.2,1)or U.Color(.25,.88,.66,1)end
+ if visible then hpFill.rectTransform.sizeDelta=V2(276*math.max(0,st.hp/st.maxHP),12);hpText.text=st.duel and("心火  "..st.hp.." / "..st.maxHP..(st.foeHp and("      对手  "..st.foeHp.." / "..st.foeMax)or""))or("心火  "..st.hp.." / "..st.maxHP.."   第 "..(st.stage or 1).." / 3 幕");hpFill.color=U.Time.time-hurtAt<.3 and U.Color(1,.2,.2,1)or U.Color(.25,.88,.66,1)end
+ -- 对决提示：等人、开打、胜负
+ if K and st then
+  if not C15.banner then C15.banner=K.img(root.transform,'lbl_duel_wait',nil,nil,0,300);C15.banner.go:SetActive(false)end
+  local key=nil
+  if st.duel and st.phase~=C15.phase then C15.phase=st.phase;C15.phaseAt=U.Time.time end
+  if not st.duel then C15.phase=nil end
+  local age=U.Time.time-(C15.phaseAt or 0)
+  if st.duel and st.member then
+   if st.phase=='ready'and st.members<2 then key='lbl_duel_wait'
+   elseif st.phase=='active'and age<1.6 then key='lbl_duel_go'
+   elseif st.phase=='victory'and age<3.5 then key=st.winner==st.me and 'lbl_duel_win'or 'lbl_duel_lose'end
+  end
+  C15.banner.go:SetActive(key~=nil)
+  if key then
+   if C15.bannerKey~=key then C15.bannerKey=key;K.set(C15.banner,key,1);if key=='lbl_duel_go'or key=='lbl_duel_win'then K.play('start',.6)end end
+   local sc=key=='lbl_duel_wait'and 1 or(1+.5*math.max(0,1-age*3))
+   C15.banner.rt.localScale=V3(sc,sc,1)
+  else C15.bannerKey=nil end
+ end
  for _,v in ipairs(damagePool)do if v.active then
   local q=(U.Time.time-v.at)/.85;local camera=U.Camera.main
   if q>=1 or not camera then v.active=false;v.text.gameObject:SetActive(false)
@@ -164,45 +188,48 @@ end
 local function buildUI()
  if root then return true end
  if not sourceFont()then return false end
+ local bridge15=scope:GetScript('dragon_world_bridge.lua');K=bridge15 and bridge15.GetKit()
+ if not K then return false end
  installIcons()
  root=U.GameObject("DragonRPGControls");canvas=root:AddComponent(typeof(U.Canvas));canvas.renderMode=U.RenderMode.ScreenSpaceOverlay;canvas.sortingOrder=220
  local scaler=root:AddComponent(typeof(U.UI.CanvasScaler));scaler.uiScaleMode=U.UI.CanvasScaler.ScaleMode.ScaleWithScreenSize;scaler.referenceResolution=V2(1920,1080);scaler.matchWidthOrHeight=1
  root:AddComponent(typeof(U.UI.GraphicRaycaster))
- toggle,toggleLabel=makeButton(root.transform,"WeaponMenu","武器",92,92,-108,350,function()
+ toggle,toggleLabel=makeButton(root.transform,"WeaponMenu","武器",128,128,-108,350,function()
   if context and context.mode=="combat"then SetMode("explore")else SetMode("combat")end
  end,V2(1,0))
- toggle.image.sprite=getRing();toggle.image.color=U.Color.white;toggleLabel.fontSize=23;toggleLabel.text="";setIcon(toggle,"sword",55)
+ toggle.image.sprite=getRing(true);toggle.image.color=U.Color.white;toggleLabel.fontSize=23;toggleLabel.text="";setIcon(toggle,"duel",70)
  toggle.gameObject:SetActive(false)
  local drt
  backdrop,drt=rect(root.transform,"ContractBackdrop",0,0,0,0);drt.anchorMin=V2.zero;drt.anchorMax=V2.one;drt.offsetMin=V2.zero;drt.offsetMax=V2.zero
  backdrop:AddComponent(typeof(U.UI.Image)).color=U.Color(0,0,0,.38);backdrop:SetActive(false)
- contract=rect(root.transform,"ClassContract",1200,800,0,0)
- local book=scope:GetGameObjectByPath("ContractBook")
- local renderer=book and book:GetComponentInChildren(typeof(U.Renderer),true)
- local texture=nil
- if renderer then for _,key in ipairs({"_BaseTex","_BaseMap","_MainTex"})do if renderer.sharedMaterial:HasProperty(key)then texture=texture or renderer.sharedMaterial:GetTexture(key)end end;book:SetActive(false)end
- local background=contract:AddComponent(typeof(U.UI.RawImage));background.texture=texture;background.color=U.Color.white
- local title=label(contract.transform,"Title","守 夜 人 誓 约",34,470,70,-275,285);title.color=cinnabar
- local hint=label(contract.transform,"Hint","择一条道路，守护龙的长梦。",20,460,55,-275,225);hint.color=ink
- local names={"melee","mage","ranged"}
- local descriptions={melee="剑誓 · 骑士\n\n身披铠甲，直面暗夜。\n以利刃驱散影灵，以护盾守住同伴。\n\n近战 · 破晓守护",mage="星誓 · 法师\n\n将散落的星火聚于掌心。\n用法杖唤醒魔力，让群星划破黑夜。\n\n远程 · 星火爆裂",ranged="风誓 · 游侠\n\n披林间的风，循月色而行。\n拉弓追逐游影，让箭羽回应誓言。\n\n远程 · 月羽连射"}
- detailLabel=label(contract.transform,"OathText","三条道路，同一个誓言。\n\n在左页选定职业，\n在此签下你的名字。",27,450,410,280,60);detailLabel.color=ink
- for i,kind in ipairs(names)do
-  local c=rules.GetClasses()[kind]
-  local bridge=scope:GetScript('dragon_world_bridge.lua')
-  if bridge then
-   local art=rect(contract.transform,'Portrait_'..kind,142,200,-435+(i-1)*160,70)
-   local image=art:AddComponent(typeof(U.UI.RawImage));image.texture=bridge.GetInkTexture('oath');image.uvRect=U.Rect((i-1)/3,.5,1/3,.5);image.raycastTarget=false
+ contract=rect(root.transform,"ClassContract",1355,900,0,0)
+ local background=contract:AddComponent(typeof(U.UI.RawImage));background.texture=K.bookTex;background.color=U.Color.white
+ C15.group=contract:AddComponent(typeof(U.CanvasGroup))
+ confirmLabel={};detailLabel={};statusLabel={}
+ local lx,rx=-299,299
+ K.img(contract.transform,'cls_title',nil,nil,lx,300)
+ C15.pick=K.img(contract.transform,'cls_pick',nil,nil,rx,60)
+ C15.detail=K.img(contract.transform,'cls_melee',nil,nil,rx,66);C15.detail.go:SetActive(false)
+ C15.glow=K.img(contract.transform,'card_glow',200,nil,0,0);C15.glow.go:SetActive(false)
+ uiRefs={}
+ C15.select=function(kind)
+  selection=kind
+  for k,v in pairs(uiRefs)do local sc=k==kind and 1.1 or 1;v.rt.localScale=V3(sc,sc,1);v.ri.color=(kind==nil or k==kind)and U.Color.white or U.Color(.86,.82,.76,1)end
+  C15.pick.go:SetActive(kind==nil);C15.detail.go:SetActive(kind~=nil);C15.glow.go:SetActive(kind~=nil)
+  if kind then
+   K.set(C15.detail,'cls_'..kind,1)
+   C15.glow.rt.anchoredPosition=V2(uiRefs[kind].x,40+13);C15.glow.rt.localScale=V3(1.1,1.1,1)
+   K.play('card',.8)
   end
-  local button,text=makeButton(contract.transform,"Class_"..kind,({"战 士","法 师","游 侠"})[i],148,54,-435+(i-1)*160,-66,function()
-   selection=kind
-   for k,v in pairs(uiRefs)do v.image.color=k==kind and U.Color(.61,.17,.12,.13)or U.Color(1,1,1,0)end
-   detailLabel.text=descriptions[kind];confirmLabel.text="立下誓约 · "..c.name
-  end)
-  button.image.color=U.Color(1,1,1,0);text.fontSize=19;text.color=ink;uiRefs[kind]=button
+  K.set(C15.sign,kind and 'btn_sign'or 'btn_sign_off')
  end
- local confirm
- confirm,confirmLabel=makeButton(contract.transform,"SignContract","选择职业后签约",390,74,280,-240,function()
+ for i,kind in ipairs({"melee","mage","ranged"})do
+  local x=lx+(i-2)*188
+  local card=K.button(contract.transform,'card_'..kind,176,x,40,function()C15.select(kind)end)
+  card.go.name="Class_"..kind;card.x=x;uiRefs[kind]=card
+ end
+ K.img(contract.transform,'cls_foot',nil,nil,lx,-268)
+ C15.sign=K.button(contract.transform,'btn_sign_off',380,rx,-296,function()
   if not selection then toast("请先选择职业");return end
   if signPending then return end
   if not progress or not progress.IsLoaded()then toast("玩法正在初始化");return end
@@ -212,6 +239,7 @@ local function buildUI()
    signPending=false
    if not saved then toast(message);return end
    profile=progress.GetProfile();context.class=profile.class
+   K.play('stamp')
    contract:SetActive(false);backdrop:SetActive(false);context.menu=false;ready=true
    local callback=contractCallback;contractCallback=nil
    if callback then callback(profile.class)else actor:Immobilize(false)end
@@ -219,8 +247,7 @@ local function buildUI()
   end)
   if not ok then signPending=false;toast(why)end
  end)
- confirm.image.color=U.Color(.61,.17,.12,.14);confirmLabel.color=cinnabar
- statusLabel=label(contract.transform,"Status","日后可在萤光古树下，重新立誓。",19,460,60,-275,-280);statusLabel.color=U.Color(.42,.34,.25,1)
+ C15.sign.go.name="SignContract"
  contract:SetActive(false)
  battleButton,battleLabel=makeButton(root.transform,"BattleStart","试炼",86,86,100,-325,function()
   if not battle then return end
@@ -230,19 +257,20 @@ local function buildUI()
  if PreviewMode then local btn,txt=makeButton(root.transform,"PreviewClassSwitch","誓约",86,86,100,-205,function()OpenContract(true,nil)end,V2(0,1));btn.image.sprite=getRing();btn.image.color=U.Color.white;txt.fontSize=22;txt.text="";setIcon(btn,"book",50);previewButton=btn end
  for i=2,3 do
   local index=i
-  local b,t=makeButton(root.transform,"Skill"..i,"",106,106,i==2 and -335 or -385,i==2 and 330 or 170,function()skillPressed=index;skillPressedAt=U.Time.time end,V2(1,0))
+  local b,t=makeButton(root.transform,"Skill"..i,"",136,136,i==2 and -397 or -452,i==2 and 338 or 165,function()skillPressed=index;skillPressedAt=U.Time.time end,V2(1,0))
   b.image.sprite=getRing();b.image.color=U.Color.white;t.fontSize=25
   skillButtons[i]={button=b,label=t};b.gameObject:SetActive(false)
  end
  return true
 end
-getRing=function()
+getRing=function(plain)
+ if K and not plain then return K.sprite('cb_base')end
  if ringSprite then return ringSprite end
  ringTexture=U.Texture2D(96,96,U.TextureFormat.RGBA32,false)
  local pixels=CS.System.Array.CreateInstance(typeof(U.Color),96*96)
  for y=0,95 do for x=0,95 do
   local d=math.sqrt((x-47.5)^2+(y-47.5)^2)
-  pixels[y*96+x]=d>46 and U.Color.clear or(d>42 and U.Color(1,1,1,.9)or U.Color(1,1,1,.035))
+  pixels[y*96+x]=d>46.5 and U.Color.clear or(d>43 and U.Color(1,1,1,math.min(.95,(46.5-d)*1.2))or U.Color(1,1,1,.2))
  end end
  ringTexture:SetPixels(pixels);ringTexture:Apply()
  ringSprite=U.Sprite.Create(ringTexture,U.Rect(0,0,96,96),V2(.5,.5),100)
@@ -253,6 +281,7 @@ local function clearSlots()
  for _,v in pairs(skillButtons)do v.button.gameObject:SetActive(false)end
  for _,v in ipairs(native)do
   local glyph=v.button and v.button.transform:Find("ActionGlyph");if glyph then U.Object.Destroy(glyph.gameObject)end
+  local cdo=v.button and v.button.transform:Find("Cooldown");if cdo then U.Object.Destroy(cdo.gameObject)end;v.cdo=nil
   if v.trigger then v.trigger.triggers:Clear()end
   if v.button then
    v.button.gameObject:SetActive(false)
@@ -320,15 +349,17 @@ function SetMode(mode)
   bindSlot(CS.UIType.CustomMain,"",function()held=true;attackPressed=true end,function()held=false end,CS.UIType.Jump)
   bindSlot(CS.UIType.CustomSub,"",function()skillPressed=1;skillPressedAt=U.Time.time end,function()end,CS.UIType.HoldHands)
   local cls=rules.GetClasses()[profile.class]
-  setIcon(native[1].button,profile.class=="melee"and "sword"or(profile.class=="mage"and "prism"or "bow"),80)
-  setIcon(native[2].button,cls.skills[1].icon,62)
-  for i=2,3 do local v=skillButtons[i];setIcon(v.button,cls.skills[i].icon,62);v.button.gameObject:SetActive(true)end
-  hideExplore();context.mode="combat";toggleLabel.text="";setIcon(toggle,"exit",55)
+  native[1].button.image.sprite=K.sprite('cb_atk')
+   setIcon(native[1].button,profile.class=="melee"and "sword"or(profile.class=="mage"and "staff"or "bow"),112)
+  setIcon(native[2].button,cls.skills[1].icon,78)
+  for i=2,3 do local v=skillButtons[i];setIcon(v.button,cls.skills[i].icon,78);v.button.gameObject:SetActive(true)end
+  hideExplore();context.mode="combat";toggleLabel.text="";setIcon(toggle,"exit",C15.iconSize or 60)
  else
-  clearSlots();context.mode="explore";weapons.Unequip(actor);fx.Clear();toggleLabel.text="";setIcon(toggle,"sword",55)
+  clearSlots();context.mode="explore";weapons.Unequip(actor);fx.Clear();toggleLabel.text="";setIcon(toggle,"duel",C15.iconSize or 70)
  end
  return true
 end
+function IsContractOpen()return contract~=nil and contract.activeInHierarchy end
 function OpenContract(change,callback,parent)
  if not rules or not actor or not buildUI()then return false end
  if not progress or not progress.IsLoaded()then toast("玩法正在初始化");return false end
@@ -338,10 +369,11 @@ function OpenContract(change,callback,parent)
  if bridge and bridge.GetBookTexture()then contract:GetComponent(typeof(U.UI.RawImage)).texture=bridge.GetBookTexture()end
  if external.inBattle or external.mounted or actor:IsSitting()or actor:IsFlying()then toast("请先结束战斗或骑乘");return false end
  SetMode("explore");context.menu=true;ready=false;respec=change;selection=nil;contractCallback=callback
- confirmLabel.text="选择职业后签约";contract:SetActive(true);backdrop:SetActive(parent==nil);if previewButton then previewButton.gameObject:SetActive(false)end;actor:Immobilize(true)
+ C15.select(nil);C15.group.alpha=0;contract:SetActive(true);backdrop:SetActive(parent==nil);contract.transform:SetAsLastSibling();if previewButton then previewButton.gameObject:SetActive(false)end;actor:Immobilize(true)
  return true
 end
 function SetContext(value)
+ if value and value.mounted and not external.mounted and context and context.mode=='combat'then resumeAfterMount=true end
  for k,v in pairs(value or {})do external[k]=v end
  if external.menu or external.mounted or external.dead then SetMode("explore")end
 end
@@ -365,6 +397,12 @@ local function act(kind)
  end
  return false
 end
+function OnUIPointerDown(ui)
+ if not context or context.mode~='combat'then return end
+ if ui==CS.UIType.CustomMain then held=true;attackPressed=true
+ elseif ui==CS.UIType.CustomSub then skillPressed=1;skillPressedAt=U.Time.time end
+end
+function OnUIPointerUp(ui)if ui==CS.UIType.CustomMain then held=false end end
 function FixedUpdate()
  if not context or not actor or context.mode~="combat"then return end
  context.mounted=external.mounted or actor:IsSitting();context.flying=actor:IsFlying();context.dead=external.dead;context.menu=external.menu or(contract and contract.activeSelf)
@@ -385,31 +423,55 @@ function Update()
  context.class=profile.class
  if battle and combatRules then battle.Configure({GetProfile=GetProfile,SetMode=SetMode,SetContext=SetContext,ShowDamage=ShowDamage,AwardBattle=progress.AwardBattle},rules,fx,combatRules)end
  if not buildUI()then return end
+ root:SetActive(true)
+ context.menu=external.menu or(contract and contract.activeSelf)or false
+ context.mounted=external.mounted or actor:IsSitting()
+ context.flying=actor:IsFlying();context.dead=external.dead
  updateFeedback()
  if PreviewMode and not openedPreview then openedPreview=OpenContract(false,nil)end
  if profile.class then outfits.Equip(actor,profile.class)end
  local available=ready and not context.menu and not external.menu and not external.mounted and not external.dead and not actor:IsSitting()and not actor:IsFlying()
  toggle.gameObject:SetActive(available)
+ if resumeAfterMount and available and U.Time.time>=resumeRetry then
+  resumeRetry=U.Time.time+.75;if SetMode('combat')then resumeAfterMount=false end
+ end
  if battleButton then battleButton.gameObject:SetActive(false);battleHUD.gameObject:SetActive(false)end
- local nearArena=(actor.position.x-157)^2+(actor.position.z-27)^2<=100
- local showTrial=available and battle and (nearArena or battle.IsParticipating())
+ if contract.activeSelf and C15.group then
+  C15.group.alpha=math.min(1,C15.group.alpha+U.Time.unscaledDeltaTime*3.5)
+  if selection and uiRefs[selection]then local sc=1.1+.012*math.sin(U.Time.unscaledTime*4);uiRefs[selection].rt.localScale=V3(sc,sc,1)end
+ end
+ local nearArena=battle and battle.IsNearArena()
+ local nearDuel=battle and battle.IsNearDuel()
+ local showTrial=available and battle and (nearArena or nearDuel or battle.IsParticipating())
  if showTrial and not nativeTrial then
   nativeTrial=self:AddInteractorButton()
-  if nativeTrial then nativeTrial.onClick:AddListener(function()if battle.IsParticipating()then battle.Retreat()else local ok,why=battle.Begin();if not ok then toast(why)end end end)end
+  if nativeTrial then nativeTrial.onClick:AddListener(function()if battle.IsParticipating()then battle.Retreat()else local ok,why=battle.Begin(battle.IsNearDuel());if not ok then toast(why)end end end)end
  elseif not showTrial and nativeTrial then self:RemoveInteractorButton(nativeTrial);nativeTrial=nil end
- if nativeTrial then local t=nativeTrial:GetComponentInChildren(typeof(U.UI.Text),true);if t then t.text=battle.IsParticipating()and "离开试炼"or "挑战影灵"end end
+ if nativeTrial then local t=nativeTrial:GetComponentInChildren(typeof(U.UI.Text),true);if t then t.text=battle.IsParticipating()and(battle.IsDuel()and "认输离场"or "离开试炼")or(nearDuel and(battle.IsDuelOpen()and "加入对决"or "发起对决")or "挑战影灵")end end
  local safe=U.Screen.safeArea;local scale=1080/U.Screen.height
  local rt=toggle.transform
- rt.anchoredPosition=V2(-(U.Screen.width-safe.xMax)*scale-108,(safe.yMin)*scale+350)
+ -- 拔剑键跟原生的跳跃键、牵手键排成一道弧：和牵手键一样大，落在弧线上牵手键的下一个位置
  local hand=CS.DouyinUIService.GetInteractionButton(CS.HandType.Right,CS.UIType.HoldHands)
- if hand and context.mode~="combat"then
-  local h=hand.transform;local size=h.rect.width*h.lossyScale.x
-  rt.position=h.position+V3(size*.82,size*.48,0)
+ local jump=CS.DouyinUIService.GetInteractionButton(CS.HandType.Right,CS.UIType.Jump)
+ if hand and jump and context.mode~="combat"then
+  local h,j=hand.transform,jump.transform
+  local unit=root.transform.lossyScale.x
+  local size=h.rect.width*h.lossyScale.x/unit
+  if size>20 then
+   rt.sizeDelta=V2(size,size)
+   if C15.iconSize~=size*.56 then C15.iconSize=size*.56;setIcon(toggle,"duel",C15.iconSize)end
+   local d=h.position-j.position
+   local q=U.Quaternion.Euler(0,0,-62)*V3(d.x,d.y,0)
+   C15.togglePos=j.position+q
+  end
  end
+ if context.mode=="combat"then rt.anchoredPosition=V2(-(U.Screen.width-safe.xMax)*scale-74,(safe.yMin)*scale+392)
+ elseif C15.togglePos then rt.position=C15.togglePos
+ else rt.anchoredPosition=V2(-(U.Screen.width-safe.xMax)*scale-108,(safe.yMin)*scale+350)end
  if not available and context.mode=="combat"then SetMode("explore")end
  if context.mode=="combat"then
   for i=1,2 do
-   if not combatAnchors[i]then local go,rt=rect(root.transform,"CombatAnchor"..i,i==1 and 156 or 106,i==1 and 156 or 106,i==1 and -190 or -190,i==1 and 170 or 360,V2(1,0));combatAnchors[i]=rt end
+   if not combatAnchors[i]then local go,rt=rect(root.transform,"CombatAnchor"..i,i==1 and 216 or 136,i==1 and 216 or 136,i==1 and -215 or -235,i==1 and 185 or 422,V2(1,0));combatAnchors[i]=rt end
    local slot=native[i];if slot then slot.button.transform.position=combatAnchors[i].position;slot.button.transform.sizeDelta=combatAnchors[i].sizeDelta*(combatAnchors[i].lossyScale.x/slot.button.transform.parent.lossyScale.x) end
   end
   for _,v in ipairs(hidden)do v.group.alpha=0;v.group.blocksRaycasts=false end
@@ -418,7 +480,13 @@ function Update()
    if slot then
     if slot.label then slot.label.color=U.Color.white;slot.label.text=left>0 and string.format("%.1f",left)or "";slot.label.transform:SetAsLastSibling()end
     local glyph=slot.button.transform:Find("ActionGlyph");if glyph then glyph:GetComponent(typeof(U.UI.Image)).color=left>0 and U.Color(1,1,1,.22)or U.Color.white end
-    slot.button.image.color=left>0 and U.Color(1,1,1,.45)or U.Color.white
+    slot.button.image.color=left>0 and U.Color(.8,.8,.8,1)or U.Color.white
+    -- 冷却：一圈退去的暗影
+    if not slot.cdo then
+     local g,grt=rect(slot.button.transform,"Cooldown",10,10,0,0);grt.anchorMin=V2(0,0);grt.anchorMax=V2(1,1);grt.sizeDelta=V2(0,0);grt.anchoredPosition=V2(0,0)
+     local cim=g:AddComponent(typeof(U.UI.Image));cim.sprite=K.sprite('cb_cd');cim.type=U.UI.Image.Type.Filled;cim.fillMethod=U.UI.Image.FillMethod.Radial360;cim.raycastTarget=false;slot.cdo=cim
+    end
+    slot.cdo.fillAmount=left>0 and math.min(1,left/rules.GetClasses()[profile.class].skills[i].cooldown)or 0
    end
   end
  end
@@ -426,6 +494,7 @@ function Update()
   if U.Time.time>=a.hitAt then fx.Play(a.class,a.kind,a.origin,a.direction);table.remove(pending,i)end
  end
 end
+function OnEnable()if root then root:SetActive(true)end end
 function OnApplicationFocus(focused)if not focused then held=false;attackPressed=false;skillPressed=false end end
 function OnDisable()
  if nativeTrial then self:RemoveInteractorButton(nativeTrial);nativeTrial=nil end

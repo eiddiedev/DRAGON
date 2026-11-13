@@ -1,0 +1,21 @@
+{
+  "mainSceneSha256": "673742f831afab0487784ec8bc8436aaaa6a82adfec53ba76b5c97235f5f9366",
+  "mainSceneBytes": 15545332,
+  "candidateScriptsMatch": {
+    "dragon_world_bridge.lua": true,
+    "horse_seat_v1.lua": true
+  },
+  "runtimeScriptCount": 38,
+  "onlyChangedScriptIds": [
+    "8fe420a9-9b6d-488f-b707-6172cfa2fdbd",
+    "abc6ff62-e0ad-42b3-a245-f75300fcb5df"
+  ],
+  "textureBindingsCount": 13,
+  "textureBindingsPreserved": true,
+  "resourceRefsPreserved": true,
+  "serializedNodesBefore": 9977,
+  "serializedNodesAfter": 11722,
+  "horseRootTransformUnchanged": true,
+  "mainSaveReceipt": "main-save-operation.json",
+  "reviewPhoneVerified": false
+}

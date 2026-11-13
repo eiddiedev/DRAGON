@@ -1,4 +1,4 @@
----@id 41e91414-7228-4ac8-bf20-226194eae844
+---@id e04b7432-dbce-4e10-93e5-c60348959e21
 ---@sourceScriptId 4cbd84ec-be58-40be-92cd-86de5544daca
 ---@referenceName dragon_timeline.lua
 -- 英雄武器攻击时间轴：只提供每一帧的握持目标、武器朝向、躯干扭转和特效窗口。

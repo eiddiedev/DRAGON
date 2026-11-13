@@ -1,0 +1,1 @@
+{"ok":false,"command":"authoring","error":{"code":"usage","message":"用法：authoring prefab import <标准.wprefab> --prefab <新ID> --workspace-id <ID>；资产入库请用 asset import。"}}

@@ -1,0 +1,1 @@
+{"ok":false,"command":"authoring","error":{"code":"REQUEST_FAILED","message":"context.describe requires exactly one method name; use context.capabilities to list supported methods"}}

@@ -25,6 +25,12 @@ local nativeExplore,nativeTarget,nativePotion
 local potionBusy=false
 local nextPotionAt=0
 local lastNativeClick=-10
+local contractSession=nil
+local function clearNativeInteraction()
+ if nativeExplore then self:RemoveInteractorButton(nativeExplore);nativeExplore=nil end
+ if nativePotion then self:RemoveInteractorButton(nativePotion);nativePotion=nil end
+ nativeTarget=nil
+end
 local witchPlaced=false
 local altarPlaced=false
 local R={}                 -- 烤蘑菇面板的状态
@@ -137,11 +143,33 @@ end
 function ClearPotion()restorePotion();restoreBuff()end
 function OpenContract(respec,continuation)
  local rpg=scope:GetScript('dragon_rpg.lua')
- if unavailable()or not rpg then return false end
- return rpg.OpenContract(respec,function()
+ if mode or contractSession or unavailable()or not rpg then return false end
+ -- A contract owns the interaction until it closes. Recreate the native
+ -- entry afterwards instead of retaining the button used to open it.
+ local session={}
+ contractSession=session;mode='class'
+ clearNativeInteraction()
+ if main then main.SetExplorationMenu(true)end
+ local function finish()
+  if contractSession~=session then return end
+  contractSession=nil;mode=nil
+  clearNativeInteraction()
+  if main then main.SetExplorationMenu(false)end
   if actor then actor:Immobilize(false)end
-  if continuation then continuation()end
+ end
+ local ok,opened=pcall(function()
+  return rpg.OpenContract(respec,function()
+   if contractSession~=session then return end
+   finish()
+   if continuation then continuation()end
+  end)
  end)
+ if not ok or not opened then
+  finish()
+  if not ok then toast('誓约之书暂时未能打开，请重试')end
+  return false
+ end
+ return true
 end
 
 ---------------------------------------------------------------- 誓约之书（主线任务面板）
@@ -388,8 +416,7 @@ function Update()
  for _,t in ipairs(targets)do if nearby(t)then local pos=t.go and t.go.transform.position or t.position;local d=V.Distance(actor.position,pos);if d<best then current=t;best=d end end end
  local wanted=available and not mode and current or nil
  if wanted~=nativeTarget then
-  if nativeExplore then self:RemoveInteractorButton(nativeExplore);nativeExplore=nil end
-  if nativePotion then self:RemoveInteractorButton(nativePotion);nativePotion=nil end
+  clearNativeInteraction()
   nativeTarget=wanted
   if wanted then
    nativeExplore=self:AddInteractorButton();nativeExplore.onClick:AddListener(function()handleNativeClick(1)end)
@@ -434,5 +461,5 @@ function Update()
  if mode and unavailable()then callback=nil;hatchStart=nil;Close()end
 end
 function OnApplicationFocus(focused)if not focused then restorePotion()end end
-function OnDisable()if nativePotion then self:RemoveInteractorButton(nativePotion);nativePotion=nil end;if nativeExplore then self:RemoveInteractorButton(nativeExplore);nativeExplore=nil;nativeTarget=nil end;restorePotion();restoreBuff();callback=nil;if root then root:SetActive(false)end;if main then main.SetExplorationMenu(false)end end
+function OnDisable()contractSession=nil;mode=nil;clearNativeInteraction();restorePotion();restoreBuff();callback=nil;if root then root:SetActive(false)end;if main then main.SetExplorationMenu(false)end end
 function OnDestroy()OnDisable();if root then U.Object.Destroy(root)end end

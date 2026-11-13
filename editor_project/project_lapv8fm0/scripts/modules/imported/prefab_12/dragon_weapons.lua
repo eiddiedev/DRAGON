@@ -1,4 +1,4 @@
----@id 0d7b5468-2198-4651-94f6-139ac362a037
+---@id b1886b99-7ddb-417a-85ca-b9b7a5b9e081
 ---@sourceScriptId be827bc8-3532-4e03-bde5-dc23044f8f42
 ---@referenceName dragon_weapons.lua
 -- 英雄武器与动作组件：把三件武器刚性挂到角色右手掌，并用人物上半身骨骼驱动攻击。

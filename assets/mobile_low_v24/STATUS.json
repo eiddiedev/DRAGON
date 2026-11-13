@@ -1,0 +1,26 @@
+{
+  "version": "v24",
+  "archive": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/v8pifpkkpql0cvjw.wprefab",
+  "installed_main_uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/v8pifpkkpql0cvjw.wprefab",
+  "installed_root": "1375360307",
+  "old_gameplay_removed": true,
+  "actors_unchanged": true,
+  "render_settings": "30 fps, no post/shadows, renderScale cap .6",
+  "tests": "Lua syntax and caps passed; native all-class FX recycling passed; native dizzy/speed alternation FOV stable 45; final native sustained target FPS 30 and render scale .6 readback passed",
+  "pending": "iPhone skill-crash/heat verification with fresh QR; pre-script development-version black screen remains unresolved",
+  "no_push": true,
+  "saved": true,
+  "hasUnsavedChanges": false,
+  "unused_shadow_template_removed": "700916460",
+  "final_native_readback": {
+    "targetFPS": 30,
+    "renderScale": 0.6,
+    "shadows": false,
+    "HDR": false,
+    "MSAA": false,
+    "cameraCount": 1,
+    "loadingState": "title",
+    "missingModels": []
+  },
+  "phone_qr": "Not generated: native UI click failed with elementHasNoFrame/noWindowsAvailable/windowNotFoundAtPosition. Main scene visibly back in edit mode; manual Phone Preview click required."
+}

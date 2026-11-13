@@ -1,0 +1,114 @@
+{
+  "phoneEvidence": {
+    "fixture": "19:26:38",
+    "originalHorseVisible": false,
+    "strippedHorseVisible": true,
+    "referenceMonsterVisible": true,
+    "ridingConfirmed": true,
+    "userReport": "看到了也可以骑",
+    "confirmedOn": "2026-11-12"
+  },
+  "nativeAnimationEvidence": {
+    "restoredArmatureParent": true,
+    "Idle": 16,
+    "Walk": 16,
+    "Trot": 16,
+    "Run": 16,
+    "RunFast": 16
+  },
+  "mainScene": "SAVED committed hasUnsavedChanges=false, final actors root -535980144, final gameplay root -806676290; task offscreen stopped",
+  "fxCandidate": "native reuse observed: emitted74 failed0 reused1; mock cap/cleanup passed; phone skill-crash outcome unknown",
+  "modelCandidates": "all candidate compatible models archived; native intermediate horse/sheep/dragon/carpet animation passed; final expanded shadow animation pending",
+  "currentUserPriority": "continue other missing models and performance",
+  "foreground": "User authorized switching; 龙眠之境 open, new phone QR syncing",
+  "finalGameplayArchive": "nb9tr05c6t4tmdvh.wprefab",
+  "nativeFinalAnimations": [
+    {
+      "name": "tripo_horse",
+      "clip": "Idle",
+      "played": true,
+      "changedBones": 17
+    },
+    {
+      "name": "tripo_horse",
+      "clip": "Run",
+      "played": true,
+      "changedBones": 17
+    },
+    {
+      "name": "sheep_0",
+      "clip": "Idle",
+      "played": true,
+      "changedBones": 1
+    },
+    {
+      "name": "sheep_0",
+      "clip": "Walk",
+      "played": true,
+      "changedBones": 16
+    },
+    {
+      "name": "tripo_witch",
+      "clip": "idle",
+      "played": true,
+      "changedBones": 22
+    },
+    {
+      "name": "flying_carpet",
+      "clip": "ripple",
+      "played": true,
+      "changedBones": 8
+    },
+    {
+      "name": "dragon_v8_live",
+      "clip": "perch",
+      "played": true,
+      "changedBones": 26
+    },
+    {
+      "name": "dragon_v8_live",
+      "clip": "takeoff",
+      "played": true,
+      "changedBones": 44
+    },
+    {
+      "name": "dragon_v8_live",
+      "clip": "fly",
+      "played": true,
+      "changedBones": 35
+    },
+    {
+      "name": "dragon_v8_live",
+      "clip": "land",
+      "played": true,
+      "changedBones": 42
+    },
+    {
+      "name": "ShadowSpiritSource",
+      "clip": "Idle",
+      "played": true,
+      "changedBones": 14
+    },
+    {
+      "name": "ShadowSpiritSource",
+      "clip": "FloatMove",
+      "played": true,
+      "changedBones": 14
+    }
+  ],
+  "knownRemaining": [
+    "Phone visibility for models other than horse not yet verified",
+    "Phone skill crash outcome unknown",
+    "Ground texture dependency bound; white foliage phone verification pending",
+    "Actual challenge join not verified; diagnostic blocked by intro state",
+    "Native convex sheep mesh warning remains; investigate collider lifecycle separately"
+  ],
+  "retainedNodeTransformChanges": 54,
+  "sceneSnapshotSHA256": "9b8f3983771035f50d79b2b331802dfa591ee706f27621c2a69009e3657ce54a",
+  "phonePreview": {
+    "project": "龙眠之境",
+    "timestamp": "2026-11-12 20:16:21",
+    "state": "QR ready current latest edited version",
+    "phoneValidated": false
+  }
+}

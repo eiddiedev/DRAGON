@@ -1,0 +1,1 @@
+const U=CS.UnityEngine,g=U.GameObject.Find('holy_tree3'),a=CS.DouyinActorService.GetLocalActor();if(!g||!a)return {missing:true};const p=g.transform.position;const q=new U.Vector3(p.x,p.y,p.z-5);const t=U.Terrain.activeTerrain;if(t)q.y=t.SampleHeight(q)+t.transform.position.y+.2;a.Teleport(q,U.Quaternion.identity);return {tree:[p.x,p.y,p.z],actor:[q.x,q.y,q.z]};

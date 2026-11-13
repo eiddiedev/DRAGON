@@ -1,0 +1,9 @@
+{
+  "sha256": "ca4d48420a4d3bdd0571fb45cc808bb46c3b32e83396da8326df20218ecf5aee",
+  "root": -1471846761,
+  "verifiedOutsideGameplay": 7568,
+  "ignoredChanges": "water editor lock metadata, animator GUID regeneration, float roundoff bat animation pose and regenerated spawn ID",
+  "wheatNodes": 80,
+  "streaming": true,
+  "sceneBytes": 4960138
+}

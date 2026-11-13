@@ -1,0 +1,57 @@
+[
+  {
+    "iteration": 1,
+    "before": {
+      "open": true,
+      "class": "melee"
+    },
+    "after": {
+      "open": false,
+      "class": "mage"
+    }
+  },
+  {
+    "iteration": 2,
+    "before": {
+      "open": true,
+      "class": "mage"
+    },
+    "after": {
+      "open": false,
+      "class": "ranged"
+    }
+  },
+  {
+    "iteration": 3,
+    "before": {
+      "open": true,
+      "class": "ranged"
+    },
+    "after": {
+      "open": false,
+      "class": "melee"
+    }
+  },
+  {
+    "iteration": 4,
+    "before": {
+      "open": true,
+      "class": "melee"
+    },
+    "after": {
+      "open": false,
+      "class": "mage"
+    }
+  },
+  {
+    "iteration": 5,
+    "before": {
+      "open": true,
+      "class": "mage"
+    },
+    "after": {
+      "open": false,
+      "class": "melee"
+    }
+  }
+]

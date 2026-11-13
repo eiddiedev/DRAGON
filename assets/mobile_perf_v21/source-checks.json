@@ -1,0 +1,8 @@
+{
+  "luaSyntax": 13,
+  "dependencyCache": "100 calls -> one scan; late ready cached; failure capped at 30",
+  "vegetation": "no runtime mesh collider, vertex copies or shader lookup",
+  "audioRegistered": 22,
+  "audioPCMBytes": 435346,
+  "phoneValidated": false
+}

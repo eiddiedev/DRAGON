@@ -1,0 +1,1 @@
+const U=CS.UnityEngine,a=CS.DouyinActorService.GetLocalActor();const p=new U.Vector3(130.3,0,19.4),t=U.Terrain.activeTerrain;p.y=t.SampleHeight(p)+t.transform.position.y+.2;a.Teleport(p,U.Quaternion.identity);return {setupOnly:true,position:[p.x,p.y,p.z]};

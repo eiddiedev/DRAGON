@@ -1,0 +1,1486 @@
+[
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ymph7136yvyafmdh.wav",
+    "usageCount": 2,
+    "samplePaths": [
+      "root.audioData.uri",
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[11].paramsJson:json.BackgroundMusic.assetUri"
+    ]
+  },
+  {
+    "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/93d6f864e7174ff5a4e2e5e4deac6361.png",
+    "usageCount": 711,
+    "samplePaths": [
+      "root.nodeTransformDatas[4].landscape.terrainDisplayData.detailPrototypes[0].uri",
+      "root.nodeTransformDatas[10805].editor.assetData.uri",
+      "root.nodeTransformDatas[10805].landscape.billboardPlantData.uri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/hj4jtmvsxa48la50.glb",
+    "usageCount": 5,
+    "samplePaths": [
+      "root.nodeTransformDatas[10502].editor.assetData.uri",
+      "root.nodeTransformDatas[10502].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10502].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/t1183o7qrw9a2uew.glb",
+    "usageCount": 5,
+    "samplePaths": [
+      "root.nodeTransformDatas[10505].editor.assetData.uri",
+      "root.nodeTransformDatas[10505].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10505].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/zvyzselvnvuv6p62.glb",
+    "usageCount": 5,
+    "samplePaths": [
+      "root.nodeTransformDatas[10508].editor.assetData.uri",
+      "root.nodeTransformDatas[10508].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10508].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/3an2370am6c78crs.glb",
+    "usageCount": 5,
+    "samplePaths": [
+      "root.nodeTransformDatas[10511].editor.assetData.uri",
+      "root.nodeTransformDatas[10511].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10511].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/jixek1bkj1rkjakx.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[10514].editor.assetData.uri",
+      "root.nodeTransformDatas[10514].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10514].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/m6ekxcerb09a709k.glb",
+    "usageCount": 5,
+    "samplePaths": [
+      "root.nodeTransformDatas[10515].editor.assetData.uri",
+      "root.nodeTransformDatas[10515].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10515].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/xspl8g16bd34pcuj.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[10518].editor.assetData.uri",
+      "root.nodeTransformDatas[10518].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10518].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/cqm55ogivyovnb25.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[10519].editor.assetData.uri",
+      "root.nodeTransformDatas[10519].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10519].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/1twq9yni668juijk.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[10520].editor.assetData.uri",
+      "root.nodeTransformDatas[10520].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10520].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/tbuv7f0hz4kh47f9.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[10521].editor.assetData.uri",
+      "root.nodeTransformDatas[10521].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10521].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/nmxpe0r5ywmxq5jy.glb",
+    "usageCount": 5,
+    "samplePaths": [
+      "root.nodeTransformDatas[10522].editor.assetData.uri",
+      "root.nodeTransformDatas[10522].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10522].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/e2o2qw8qo6og3flo.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[10525].editor.assetData.uri",
+      "root.nodeTransformDatas[10525].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10525].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wcnjmfgeeng0lm9f.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[10526].editor.assetData.uri",
+      "root.nodeTransformDatas[10526].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10526].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6akhfemebl8x996t.glb",
+    "usageCount": 6,
+    "samplePaths": [
+      "root.nodeTransformDatas[10527].editor.assetData.uri",
+      "root.nodeTransformDatas[10527].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10527].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/f5da4th1088o4718.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[10528].editor.assetData.uri",
+      "root.nodeTransformDatas[10528].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10528].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/hyoml0yrvd0ovfmx.glb",
+    "usageCount": 12,
+    "samplePaths": [
+      "root.nodeTransformDatas[10529].editor.assetData.uri",
+      "root.nodeTransformDatas[10529].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10529].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/rs4crkumjzojm7vw.glb",
+    "usageCount": 15,
+    "samplePaths": [
+      "root.nodeTransformDatas[10530].editor.assetData.uri",
+      "root.nodeTransformDatas[10530].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10530].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/p9loziio67mux37c.glb",
+    "usageCount": 15,
+    "samplePaths": [
+      "root.nodeTransformDatas[10533].editor.assetData.uri",
+      "root.nodeTransformDatas[10533].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10533].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/vto4kimxlfzt1ejx.glb",
+    "usageCount": 10,
+    "samplePaths": [
+      "root.nodeTransformDatas[10536].editor.assetData.uri",
+      "root.nodeTransformDatas[10536].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10536].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/y23tjwwhbefc27kp.glb",
+    "usageCount": 110,
+    "samplePaths": [
+      "root.nodeTransformDatas[10539].editor.assetData.uri",
+      "root.nodeTransformDatas[10539].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10539].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/pqhjzj16oi7c1xio.glb",
+    "usageCount": 13,
+    "samplePaths": [
+      "root.nodeTransformDatas[10547].editor.assetData.uri",
+      "root.nodeTransformDatas[10547].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10547].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/cuq2od9oxxw9b9dv.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[10558].editor.assetData.uri",
+      "root.nodeTransformDatas[10558].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10558].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/cs7vgm6aglacl2bn.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[10559].editor.assetData.uri",
+      "root.nodeTransformDatas[10559].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10559].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/owluhqlxmeqwwfr1.glb",
+    "usageCount": 12,
+    "samplePaths": [
+      "root.nodeTransformDatas[10560].editor.assetData.uri",
+      "root.nodeTransformDatas[10560].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10560].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/nlyjbzft5sfc3xo5.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[10561].editor.assetData.uri",
+      "root.nodeTransformDatas[10561].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10561].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/p08hitmtwubja6o6.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[10562].editor.assetData.uri",
+      "root.nodeTransformDatas[10562].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10562].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/k97v4im3y77gd2u1.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[10563].editor.assetData.uri",
+      "root.nodeTransformDatas[10563].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10563].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ubx76q6n9zkpofnd.glb",
+    "usageCount": 72,
+    "samplePaths": [
+      "root.nodeTransformDatas[10564].editor.assetData.uri",
+      "root.nodeTransformDatas[10564].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10564].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/qtupk4d2odary9rs.glb",
+    "usageCount": 73,
+    "samplePaths": [
+      "root.nodeTransformDatas[10634].editor.assetData.uri",
+      "root.nodeTransformDatas[10634].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10634].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/y54d8g574u2d2uh8.glb",
+    "usageCount": 75,
+    "samplePaths": [
+      "root.nodeTransformDatas[10705].editor.assetData.uri",
+      "root.nodeTransformDatas[10705].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10705].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6a06y9036ouvhb9m.glb",
+    "usageCount": 19,
+    "samplePaths": [
+      "root.nodeTransformDatas[10778].editor.assetData.uri",
+      "root.nodeTransformDatas[10778].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10778].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/nbf19hv2jk0bdb78.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[10795].editor.assetData.uri",
+      "root.nodeTransformDatas[10795].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10795].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ax943kkzpel2zrfa.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[10796].editor.assetData.uri",
+      "root.nodeTransformDatas[10796].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10796].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/8dq42rp45vyvmuoo.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[10797].editor.assetData.uri",
+      "root.nodeTransformDatas[10797].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10797].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/jnifp1sbfr1dlmc8.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[10798].editor.assetData.uri",
+      "root.nodeTransformDatas[10798].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10798].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ijcndgdfbyvj2wo9.glb",
+    "usageCount": 15,
+    "samplePaths": [
+      "root.nodeTransformDatas[10799].editor.assetData.uri",
+      "root.nodeTransformDatas[10799].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10799].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/2l3imnkpuxdmdc6q.glb",
+    "usageCount": 12,
+    "samplePaths": [
+      "root.nodeTransformDatas[10800].editor.assetData.uri",
+      "root.nodeTransformDatas[10800].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10800].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/c21uyd1s4sodqrdc.glb",
+    "usageCount": 12,
+    "samplePaths": [
+      "root.nodeTransformDatas[10801].editor.assetData.uri",
+      "root.nodeTransformDatas[10801].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10801].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/q7r9ejhnmn11q0hw.glb",
+    "usageCount": 12,
+    "samplePaths": [
+      "root.nodeTransformDatas[10802].editor.assetData.uri",
+      "root.nodeTransformDatas[10802].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10802].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/cz8f0me9scg4wl0z.glb",
+    "usageCount": 12,
+    "samplePaths": [
+      "root.nodeTransformDatas[10803].editor.assetData.uri",
+      "root.nodeTransformDatas[10803].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10803].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ghgwxqcf2rrzufdx.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[10804].editor.assetData.uri",
+      "root.nodeTransformDatas[10804].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10804].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/9839101551618.glb",
+    "usageCount": 555,
+    "samplePaths": [
+      "root.nodeTransformDatas[10806].editor.assetData.uri",
+      "root.nodeTransformDatas[10806].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10806].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/64c7932667884c7d8a16d850c6fde3df.png",
+    "usageCount": 280,
+    "samplePaths": [
+      "root.nodeTransformDatas[10809].editor.assetData.uri",
+      "root.nodeTransformDatas[10809].landscape.billboardPlantData.uri",
+      "root.nodeTransformDatas[11721].editor.assetData.uri"
+    ]
+  },
+  {
+    "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/53f53660a88c4868b5895d8d97e3df6c.png",
+    "usageCount": 200,
+    "samplePaths": [
+      "root.nodeTransformDatas[10810].editor.assetData.uri",
+      "root.nodeTransformDatas[10810].landscape.billboardPlantData.uri",
+      "root.nodeTransformDatas[11836].editor.assetData.uri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/8817177600770.glb",
+    "usageCount": 450,
+    "samplePaths": [
+      "root.nodeTransformDatas[10811].editor.assetData.uri",
+      "root.nodeTransformDatas[10811].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10811].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "tos-cn-i-c2ox06qgwk/aigc_editor/c8cc7364e58d47248d45b8af36a5916a.png",
+    "usageCount": 2,
+    "samplePaths": [
+      "root.nodeTransformDatas[10814].editor.assetData.uri",
+      "root.nodeTransformDatas[10814].landscape.billboardPlantData.uri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/yole61uuye2jelid.glb",
+    "usageCount": 33,
+    "samplePaths": [
+      "root.nodeTransformDatas[10815].editor.assetData.uri",
+      "root.nodeTransformDatas[10815].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10815].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6f2f97ldbsshjsb3.glb",
+    "usageCount": 33,
+    "samplePaths": [
+      "root.nodeTransformDatas[10846].editor.assetData.uri",
+      "root.nodeTransformDatas[10846].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10846].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ne7tw3rwjrd8h3q9.glb",
+    "usageCount": 33,
+    "samplePaths": [
+      "root.nodeTransformDatas[10877].editor.assetData.uri",
+      "root.nodeTransformDatas[10877].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10877].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/w4s85hzbfy04fodb.glb",
+    "usageCount": 33,
+    "samplePaths": [
+      "root.nodeTransformDatas[10908].editor.assetData.uri",
+      "root.nodeTransformDatas[10908].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10908].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/uduov5qfhcub3gbi.glb",
+    "usageCount": 33,
+    "samplePaths": [
+      "root.nodeTransformDatas[10939].editor.assetData.uri",
+      "root.nodeTransformDatas[10939].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10939].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/8ntkokhxc9p9cubk.glb",
+    "usageCount": 33,
+    "samplePaths": [
+      "root.nodeTransformDatas[10970].editor.assetData.uri",
+      "root.nodeTransformDatas[10970].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[10970].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/7uqp7j85swlbiijg.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[12308].editor.assetData.uri",
+      "root.nodeTransformDatas[12308].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[12308].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/l9lcet7nsbjkf4tc.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[12309].editor.assetData.uri",
+      "root.nodeTransformDatas[12309].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[12309].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/pabz9r2n7q0tzigl.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[12310].editor.assetData.uri",
+      "root.nodeTransformDatas[12310].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[12310].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/63nk01yhkuh3xe0l.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[12311].editor.assetData.uri",
+      "root.nodeTransformDatas[12311].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[12311].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/63lrf5s6y69f5bo0.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[12312].editor.assetData.uri",
+      "root.nodeTransformDatas[12312].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[12312].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/qeauecy11i93xrgo.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[12313].editor.assetData.uri",
+      "root.nodeTransformDatas[12313].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[12313].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/38mogmr0hptmbw0x.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[12314].editor.assetData.uri",
+      "root.nodeTransformDatas[12314].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[12314].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/mig8nntwogyrnruy.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[12315].editor.assetData.uri",
+      "root.nodeTransformDatas[12315].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[12315].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ob365i5bojpqw65v.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[12316].editor.assetData.uri",
+      "root.nodeTransformDatas[12316].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[12316].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/9d7xc6emz5a8mt0v.glb",
+    "usageCount": 60,
+    "samplePaths": [
+      "root.nodeTransformDatas[12317].editor.assetData.uri",
+      "root.nodeTransformDatas[12317].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[12317].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/v1xsdxp4zktlfi7f.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[12375].editor.assetData.uri",
+      "root.nodeTransformDatas[12375].resource.aigcModelData.uri",
+      "root.nodeTransformDatas[12375].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/8jrmh59sec126edf.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12378].animation.ugcAnimatorData.animationAssets[0].assetData.uri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6od1v15qufjsxrw2.glb",
+    "usageCount": 34,
+    "samplePaths": [
+      "root.nodeTransformDatas[12378].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12379].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12380].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ep9wk7s4vwsfksw0.glb",
+    "usageCount": 234,
+    "samplePaths": [
+      "root.nodeTransformDatas[12412].animation.ugcAnimatorData.animationAssets[0].assetData.uri",
+      "root.nodeTransformDatas[12412].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12413].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/sgo98sk74liuzkgt.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12637].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/9lmiu634wnl8ufc7.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[12638].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12639].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12640].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/54e757lg2zvpgb7o.glb",
+    "usageCount": 21,
+    "samplePaths": [
+      "root.nodeTransformDatas[12641].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12642].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12643].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/dru976wfnaj399sv.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12646].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/5zdcr8mu2jcug16t.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12647].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/kuycbmhe6ydh4hvh.glb",
+    "usageCount": 45,
+    "samplePaths": [
+      "root.nodeTransformDatas[12648].animation.ugcAnimatorData.animationAssets[0].assetData.uri",
+      "root.nodeTransformDatas[12648].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12649].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/5f7ixpyffci91eur.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12692].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/sh13lq8tq4go48l3.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12693].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/s6ctuhvuo9d1jfr2.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12694].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/k9beghov4fg1qpzp.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12695].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6wnmdywtygulwb28.glb",
+    "usageCount": 5,
+    "samplePaths": [
+      "root.nodeTransformDatas[12696].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12697].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12698].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/89es4kwvpzvk7dfj.glb",
+    "usageCount": 36,
+    "samplePaths": [
+      "root.nodeTransformDatas[12701].animation.ugcAnimatorData.animationAssets[0].assetData.uri",
+      "root.nodeTransformDatas[12701].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12702].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/d431alpmnqrk1hnt.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12718].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/mv6ddevttp28b1es.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12719].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ydrv5tl5wyont7p5.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12720].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/kh0z111fbrucdlc7.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12721].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/1e808f14ml0u87s4.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12722].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/vp7yg87tzvsi5h6a.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12723].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/jkc1sr47wjdljvoe.glb",
+    "usageCount": 2,
+    "samplePaths": [
+      "root.nodeTransformDatas[12724].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12972].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/41qplztltfdaztjl.glb",
+    "usageCount": 2,
+    "samplePaths": [
+      "root.nodeTransformDatas[12725].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12975].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/n0vwezuy9o0zimeb.glb",
+    "usageCount": 2,
+    "samplePaths": [
+      "root.nodeTransformDatas[12726].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12978].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wo1i5wslizj3bbzy.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12727].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ddf38im0igkkpa0z.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12728].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/vqm00jr0ww8qz5te.glb",
+    "usageCount": 2,
+    "samplePaths": [
+      "root.nodeTransformDatas[12729].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12730].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/7aaxua1esqadyhfv.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12731].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/trwarkt4yun68h6n.glb",
+    "usageCount": 2,
+    "samplePaths": [
+      "root.nodeTransformDatas[12732].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12733].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/r2z4hyw5yeqx3o7o.glb",
+    "usageCount": 2,
+    "samplePaths": [
+      "root.nodeTransformDatas[12734].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12735].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/7bo7xn1zke8ja4jr.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12736].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/fh1eldfs2db5bvqv.glb",
+    "usageCount": 2,
+    "samplePaths": [
+      "root.nodeTransformDatas[12737].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12738].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/edfdckrfud9jl4pd.glb",
+    "usageCount": 2,
+    "samplePaths": [
+      "root.nodeTransformDatas[12740].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12742].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/q7umylmm1ro8u7ng.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[12760].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12761].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12762].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/3c5zpc7jbi36wk1q.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[12763].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12764].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12765].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/7lm32szihoaayhj5.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12766].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/iuxgxxcx4aa3kn8n.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12767].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/2ysmuddno69qxqq5.glb",
+    "usageCount": 2,
+    "samplePaths": [
+      "root.nodeTransformDatas[12768].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12769].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/zae2ls7xi7yx6sth.glb",
+    "usageCount": 2,
+    "samplePaths": [
+      "root.nodeTransformDatas[12770].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12771].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/k28nqag1vz4q4cex.glb",
+    "usageCount": 4,
+    "samplePaths": [
+      "root.nodeTransformDatas[12776].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12777].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12778].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/jpporrrmb7rw0i1n.glb",
+    "usageCount": 4,
+    "samplePaths": [
+      "root.nodeTransformDatas[12780].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12781].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12782].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/7a4po6ip7qiz8b95.glb",
+    "usageCount": 9,
+    "samplePaths": [
+      "root.nodeTransformDatas[12784].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12785].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12786].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4gcnfm3whbw9kqe6.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12793].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/lnl2h6umphe3z523.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[12794].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12795].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12796].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/oht7xhy085ruthge.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12798].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/oy0hn62tx72so1he.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12799].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/dcm2gfb15rj23h36.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12800].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/hkn20w58maj4det0.glb",
+    "usageCount": 3,
+    "samplePaths": [
+      "root.nodeTransformDatas[12802].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12803].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12804].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/dgsqc9hjp3beeqgw.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12805].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/jggsdwluqax52oje.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12806].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/s075img5qv4uaiim.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12807].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/7jl38oifg3fjmvxz.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12809].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/gg96u36fzg3tpvxa.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12810].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/g6guh6pez4f26tfp.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12811].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/0zsywoieea1w5zy9.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12812].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/7l5al6fm84m71y7q.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12813].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/recmce0xmbvz667f.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12814].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/zjeetjzdjd7o45bu.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12815].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/cqpxk9y2iqc83lpo.glb",
+    "usageCount": 2,
+    "samplePaths": [
+      "root.nodeTransformDatas[12817].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12818].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/m2cd2c0bcxy4elzr.wprefab",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.SlashEffect.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/2ug9dfo03lpyjzcw.wprefab",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.ShieldEffect.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/g7xzz1omejd0ro34.wprefab",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BoltEffect.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/kz74bv2b9voq5lw7.wprefab",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.ArrowEffect.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/z235w3gqig2irt7c.wprefab",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BlastEffect.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/w3lsu8lhw1obo829.wprefab",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.HitEffect.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/q8dtx2apynjz7qjk.wprefab",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.TellEffect.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/fzefmsec9qzja39d.wprefab",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.ArenaEffect.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ukwhk2ubm8opurbl.wprefab",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.FrostEffect.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/u63i21rm6p0fyeay.wprefab",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.MeteorEffect.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wis2it9e2flkfyg2.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BowSound.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ku21ph43j3glkjax.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.EnemySound.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/oavh6fwq73tc35wo.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.HurtSound.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/poa1h6jwqa9busaq.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BankSwordSwing.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/c4mmcrnad8becqiw.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BankSwordHit.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/r64490otl2gc2wi9.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BankGiantAwaken.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ha2w4rj94waza83f.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BankGiantHit.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/znfan96ypm8rpyep.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BankBowRelease.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/gk1lvgxt5vtvsm9b.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BankArrowHit.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/eylr0gc33zens301.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BankLeafCharge.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ac74b4120ixbrgoe.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BankLeafWhoosh.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/oz4032ltlgy0vftj.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BankLeafHit.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/0ay4x7arclquok2x.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BankRainFall.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/i6hgo8drp7qoojlz.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BankRainHit.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/m2oas1hgxv52sb8b.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BankMagicShot.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v206di3e69befu0.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BankMagicHit.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ncvyy5sl3whpk9q2.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BankMagicBurst.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/olwwvzn4z33uxd49.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BankMeteorFall.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/8d0ab0kuqr432x5o.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BankMeteorImpact.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/mibzx9y8zwuaqcoe.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BankCannonFire.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/dx24p67jj0hmgo8z.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BankCannonExplode.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/k2nwpi06csndc38p.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BankTimeHit.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wrutzwsw7rrlqejg.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BankWallBreak.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/8er6339grs7qoxyf.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BankCoin.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4g8pcnk4b0zviz4b.wav",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12819].runtimeScriptBindings[5].paramsJson:json.BankDash.assetUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/npb3j8a2ksx7y8zj.glb",
+    "usageCount": 151,
+    "samplePaths": [
+      "root.nodeTransformDatas[12820].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12821].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[12822].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/brpzc5fr6jl4pf5r.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12980].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/9754990109442.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12998].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/xavyl1qx47u8o3gp.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[12999].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/94t3vhcrokny943k.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[13000].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/41o3kx2ajeqyjttu.glb",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.nodeTransformDatas[13001].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "usageCount": 444,
+    "samplePaths": [
+      "root.nodeTransformDatas[13002].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[13003].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[13004].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+    "usageCount": 18,
+    "samplePaths": [
+      "root.nodeTransformDatas[13104].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[13105].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[13106].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+    "usageCount": 18,
+    "samplePaths": [
+      "root.nodeTransformDatas[13128].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[13129].resource.glbSliceData.sourceUri",
+      "root.nodeTransformDatas[13130].resource.glbSliceData.sourceUri"
+    ]
+  },
+  {
+    "uri": "SplatMap_3193404_0.png",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.resourceRefs[3].pathOrUrl"
+    ]
+  },
+  {
+    "uri": "SplatMap_3193404_1.png",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.resourceRefs[4].pathOrUrl"
+    ]
+  },
+  {
+    "uri": "SplatMap_3193404_2.png",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.resourceRefs[5].pathOrUrl"
+    ]
+  },
+  {
+    "uri": "SplatMap_3193404_3.png",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.resourceRefs[6].pathOrUrl"
+    ]
+  },
+  {
+    "uri": "SplatMap_3193404_4.png",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.resourceRefs[7].pathOrUrl"
+    ]
+  },
+  {
+    "uri": "SplatMap_3193404_5.png",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.resourceRefs[8].pathOrUrl"
+    ]
+  },
+  {
+    "uri": "SplatMap_3193404_6.png",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.resourceRefs[9].pathOrUrl"
+    ]
+  },
+  {
+    "uri": "SplatMap_3193404_7.png",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.resourceRefs[10].pathOrUrl"
+    ]
+  },
+  {
+    "uri": "SplatMap_3193404_8.png",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.resourceRefs[11].pathOrUrl"
+    ]
+  },
+  {
+    "uri": "SplatMap_3193404_9.png",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.resourceRefs[12].pathOrUrl"
+    ]
+  },
+  {
+    "uri": "SplatMap_3193404_10.png",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.resourceRefs[13].pathOrUrl"
+    ]
+  },
+  {
+    "uri": "SplatMap_3193404_11.png",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.resourceRefs[14].pathOrUrl"
+    ]
+  },
+  {
+    "uri": "SplatMap_3193404_12.png",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.resourceRefs[15].pathOrUrl"
+    ]
+  },
+  {
+    "uri": "SplatMap_3193404_13.png",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.resourceRefs[16].pathOrUrl"
+    ]
+  },
+  {
+    "uri": "SplatMap_3193404_14.png",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.resourceRefs[17].pathOrUrl"
+    ]
+  },
+  {
+    "uri": "SplatMap_3193404_15.png",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.resourceRefs[18].pathOrUrl"
+    ]
+  },
+  {
+    "uri": "DetailLayer_3193404_0.png",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.resourceRefs[37].pathOrUrl"
+    ]
+  },
+  {
+    "uri": "MatCoverTex_3193404.png",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.resourceRefs[38].pathOrUrl"
+    ]
+  },
+  {
+    "uri": "Assets/Resources/EnvironmentalInfo/LUT/LUT_Daytime01.png",
+    "usageCount": 1,
+    "samplePaths": [
+      "root.envParamJson:json.SourceLutPath"
+    ]
+  }
+]

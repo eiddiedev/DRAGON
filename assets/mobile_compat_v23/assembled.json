@@ -1,0 +1,1 @@
+{"ok":true,"command":"authoring","data":{"changed":{"nodes":132,"components":66,"scripts":0,"resources":0},"summary":"Updated 132 nodes, 66 components, 0 scripts and 0 resources","result":[{"name":"A原版马","root":"n1"},{"name":"B同马去动画保留骨骼","root":"n2"},{"name":"C参考项目骨骼模型","root":"n35"}],"revision":"a13198925ac6ddef8b923c5ceb284fad6e4a3a73730e5f1bbabdd313285e246c"}}

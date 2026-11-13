@@ -1,4 +1,5 @@
----@id 4cbd84ec-be58-40be-92cd-86de5544daca
+---@id d34fdf17-29a9-4b98-bea8-818a73a24997
+---@sourceScriptId 4cbd84ec-be58-40be-92cd-86de5544daca
 ---@referenceName dragon_timeline.lua
 -- 英雄武器攻击时间轴：只提供每一帧的握持目标、武器朝向、躯干扭转和特效窗口。
 -- 这些数值使用“肩到手的距离比例”与人物局部轴表达，不依赖具体骨架尺寸。

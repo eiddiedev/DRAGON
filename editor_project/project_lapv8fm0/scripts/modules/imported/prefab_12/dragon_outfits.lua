@@ -1,4 +1,4 @@
----@id c499c107-6fe8-416a-b5d0-a4920e41be07
+---@id 7a6732fa-4b46-42bc-afa7-e8cc73596949
 ---@sourceScriptId 1c4128ac-0d75-431c-b406-2c24e259a71d
 ---@referenceName dragon_outfits.lua
 -- 三职业职装控制器：按 Actor 标签本地克隆职装，并逐帧用骨骼世界坐标对齐

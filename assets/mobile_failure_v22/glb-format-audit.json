@@ -1,0 +1,145 @@
+[
+  {
+    "resource": "model-imported-48a7037acc58a59bc25dcf9b29e868062275a2655d22c0432558fd172901f630",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/94t3vhcrokny943k.glb",
+    "skins": 0,
+    "animations": 0,
+    "extensions": [],
+    "imageTypes": [
+      "image/png"
+    ]
+  },
+  {
+    "resource": "model-imported-2a97c38851ee2f9d108d90f3ab06be060bd8153c22de846208a8e79affef515d",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+    "skins": 1,
+    "animations": 1,
+    "extensions": [],
+    "imageTypes": []
+  },
+  {
+    "resource": "model-imported-cdf75ebd95813149d526de1262c2f8ac710716ac15c81beb48625c418a929669",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/89es4kwvpzvk7dfj.glb",
+    "skins": 1,
+    "animations": 2,
+    "extensions": [
+      "KHR_texture_basisu"
+    ],
+    "imageTypes": [
+      "image/ktx2"
+    ]
+  },
+  {
+    "resource": "model-imported-d1cea4d754b980ff40cfa4e19eb642cb647f7ff6223ba81e3153da3c91e11d5d",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/xavyl1qx47u8o3gp.glb",
+    "skins": 0,
+    "animations": 0,
+    "extensions": [],
+    "imageTypes": [
+      "image/png"
+    ]
+  },
+  {
+    "resource": "model-imported-5620f83d4c700c1df57edac53eba5251988a5c8af169b148fa9d82ded129a4c5",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/41qplztltfdaztjl.glb",
+    "skins": 0,
+    "animations": 0,
+    "extensions": [
+      "KHR_materials_volume",
+      "FB_ngon_encoding"
+    ],
+    "imageTypes": [
+      "image/jpeg"
+    ]
+  },
+  {
+    "resource": "model-imported-fbdc6f2589a43922a95b5745030a63cca2d0c62b87e3f82ab41c58e0cdc066c5",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/n0vwezuy9o0zimeb.glb",
+    "skins": 0,
+    "animations": 0,
+    "extensions": [
+      "KHR_materials_volume",
+      "FB_ngon_encoding"
+    ],
+    "imageTypes": [
+      "image/jpeg"
+    ]
+  },
+  {
+    "resource": "model-imported-c5102798023130ec536e40aa8780f6f03aff5312d45da8d20da790e25ecf9611",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/9754990109442.glb",
+    "skins": 0,
+    "animations": 0,
+    "extensions": [
+      "KHR_materials_ior",
+      "KHR_materials_specular",
+      "KHR_texture_basisu"
+    ],
+    "imageTypes": [
+      "image/png",
+      "image/ktx2",
+      "image/ktx2"
+    ]
+  },
+  {
+    "resource": "model-imported-97eaf5c89a25b3308158b15cd6f804beed39e1f904b75b078556c9f44fd4dd4f",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/jkc1sr47wjdljvoe.glb",
+    "skins": 0,
+    "animations": 0,
+    "extensions": [
+      "KHR_materials_volume",
+      "FB_ngon_encoding"
+    ],
+    "imageTypes": [
+      "image/jpeg"
+    ]
+  },
+  {
+    "resource": "model-imported-60f2dd77d28895a4e0257165769031f8f0054a4b8e414061739d30a44a28b541",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/41o3kx2ajeqyjttu.glb",
+    "skins": 0,
+    "animations": 0,
+    "extensions": [
+      "KHR_texture_basisu"
+    ],
+    "imageTypes": [
+      "image/ktx2"
+    ]
+  },
+  {
+    "resource": "model-imported-82c34d41fc383947ac5cf7796e9c49bf0ac072171d152b029bb263d6cb221b9d",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "skins": 1,
+    "animations": 1,
+    "extensions": [],
+    "imageTypes": []
+  },
+  {
+    "resource": "model-imported-270c6a9f933186faca1275129dc28e05a07b0e3280bdf75d147324350625c399",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/brpzc5fr6jl4pf5r.glb",
+    "skins": 0,
+    "animations": 0,
+    "extensions": [],
+    "imageTypes": [
+      "image/png"
+    ]
+  },
+  {
+    "resource": "model-imported-be68a42a6bd9dd761f98b6d97409ff2ee050a042cf7d00489c0c887a357bd340",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+    "skins": 1,
+    "animations": 1,
+    "extensions": [],
+    "imageTypes": []
+  },
+  {
+    "resource": "model-imported-52fc51bd9db589d12ff261095985271844c8bbfb17b29020695fd69f8642402e",
+    "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/npb3j8a2ksx7y8zj.glb",
+    "skins": 0,
+    "animations": 0,
+    "extensions": [
+      "KHR_materials_emissive_strength"
+    ],
+    "imageTypes": []
+  }
+]

@@ -1,4 +1,4 @@
----@id 9a1c47c8-1495-48ea-b161-3427ba69ff56
+---@id 793553e1-521a-43d4-b75d-c3c6a6bd1f29
 ---@sourceScriptId 1c4128ac-0d75-431c-b406-2c24e259a71d
 ---@referenceName dragon_outfits.lua
 -- 三职业职装控制器：按 Actor 标签本地克隆职装，并逐帧用骨骼世界坐标对齐
@@ -37,6 +37,28 @@ local MIN_SCALE = 0.55
 local MAX_SCALE = 1.8
 
 local runtimeScope, scopeReason = RuntimeScope.from(self)
+-- mobile-v23: resolve each dependency at most once a second, at most 30 attempts.
+do
+ local target=runtimeScope
+ local original=target.GetScript
+ local memo,attempts,nextAt={},{},{}
+ local failures={}
+ target.GetScript=function(_,name)
+  if memo[name] then return memo[name] end
+  local now=CS.UnityEngine.Time.realtimeSinceStartup
+  if (attempts[name] or 0)>=30 or now<(nextAt[name] or 0) then return nil end
+  attempts[name]=(attempts[name] or 0)+1;nextAt[name]=now+1
+  local ok,value=pcall(original,target,name)
+  if ok and value then memo[name]=value;return value end
+  if attempts[name]==30 then failures[name]=tostring(value or 'not loaded');print('[mobile-v23] dependency failed: '..name..' '..failures[name]) end
+  return nil
+ end
+ function GetDependencyDiagnostics() return {build='mobile-v23',attempts=attempts,failures=failures} end
+ local destroy=OnDestroy
+ -- Installed after lifecycle definitions below; clears references on scene exit.
+ ReleaseMobileDependencies=function()memo={};attempts={};nextAt={};failures={} end
+end
+
 local resourceRoot = nil
 local resourceRootTransform = nil
 if runtimeScope ~= nil then
@@ -1041,3 +1063,5 @@ function IsReady(actor,className)
  if not entry or entry.className~=className or not isAlive(entry.clone)then return false end
  return entry.posed==true and entry.clone.activeInHierarchy and completeVisual(entry.clone,className)~=nil
 end
+
+do local previous=OnDestroy;function OnDestroy()if previous then previous()end;ReleaseMobileDependencies()end end

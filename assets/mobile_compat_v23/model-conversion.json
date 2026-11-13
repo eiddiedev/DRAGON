@@ -1,0 +1,30 @@
+[
+  {
+    "name": "wheat-single",
+    "oldUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v0jxixve0v72ii7.glb",
+    "file": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/mobile_compat_v23/wheat-single-geometry.glb",
+    "removedEmbeddedClips": 1,
+    "binaryGeometrySkinTexturesUnchanged": true
+  },
+  {
+    "name": "shadow",
+    "oldUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/89es4kwvpzvk7dfj.glb",
+    "file": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/mobile_compat_v23/shadow-geometry.glb",
+    "removedEmbeddedClips": 2,
+    "binaryGeometrySkinTexturesUnchanged": true
+  },
+  {
+    "name": "wheat-high",
+    "oldUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/26rjifpwxdaw6ipb.glb",
+    "file": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/mobile_compat_v23/wheat-high-geometry.glb",
+    "removedEmbeddedClips": 1,
+    "binaryGeometrySkinTexturesUnchanged": true
+  },
+  {
+    "name": "wheat-low",
+    "oldUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wm0n7vp6egn81bmc.glb",
+    "file": "/Users/bytedance/Documents/ChatGPT/DRAGON/assets/mobile_compat_v23/wheat-low-geometry.glb",
+    "removedEmbeddedClips": 1,
+    "binaryGeometrySkinTexturesUnchanged": true
+  }
+]

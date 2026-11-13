@@ -1,0 +1,5 @@
+const U=CS.UnityEngine;const bindings=await lua.bindings();const b=bindings.find(x=>x.referenceName==='dragon_world_bridge.lua');
+const out={bridge:b,horse:bindings.filter(x=>/horse_seat/.test(x.referenceName)),canopy:[],quality:{aa:U.QualitySettings.antiAliasing,fps:U.Application.targetFrameRate}};
+for(const name of ['holy_tree3','holy_canopy3','holy_canopy4','tripo_horse']){const g=U.GameObject.Find(name);if(!g){out.canopy.push({name,absent:true});continue;}const rr=g.GetComponentsInChildren(puer.$typeof(U.Renderer),true);let mats=[];for(let i=0;i<Math.min(rr.Length,3);i++){const m=rr.get_Item(i).sharedMaterial;mats.push({name:m.name,shader:m.shader.name,emission:m.HasProperty('_EmissionPower')?m.GetFloat('_EmissionPower'):null,tex:m.HasProperty('_BaseTex')?String(m.GetTexture('_BaseTex')):null});}out.canopy.push({name,pos:String(g.transform.position),renderers:rr.Length,mats});}
+if(b){out.render=await lua.eval(b.bindingKey,'return GetMobileRenderStatus()');out.loading=await lua.eval(b.bindingKey,'return GetLoadingDiagnostics()');}
+return out;

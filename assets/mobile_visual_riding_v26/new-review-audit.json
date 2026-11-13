@@ -1,0 +1,14 @@
+{
+  "file": "/Users/bytedance/Downloads/world_dev_unity_143175468-dsst-PROD.zip",
+  "sha256": "105d194f6d41a678e25942413bf5669f2be7a9713e61682ac647be070a34d8df",
+  "bytes": 123746748,
+  "crcFailure": null,
+  "serializedNodes": 11722,
+  "missingFiles": [],
+  "scriptBodiesSameAsSaved": {
+    "horse_seat_v1.lua": true,
+    "dragon_world_bridge.lua": true
+  },
+  "additionalTriggerNodes": 1744,
+  "mainSha256": "ca4d48420a4d3bdd0571fb45cc808bb46c3b32e83396da8326df20218ecf5aee"
+}
