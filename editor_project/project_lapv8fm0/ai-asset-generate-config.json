@@ -338,6 +338,31 @@
           },
           "artifactId": "actors_v29",
           "revisionId": "external:automation:c2ca7638-54c8-463a-ad14-a99ff2232dda:2520702f72c2a273f705175f8221442b575fb87b4846cbdbde584618823d74ec:2520702f72c2a273f705175f8221442b575fb87b4846cbdbde584618823d74ec"
+        },
+        {
+          "type": "wprefab",
+          "artifactId": "gameplay_v29",
+          "revisionId": "external:automation:c98430fb-0b4d-491f-a267-395a76ef619c:5a4ec431b933eac195a58bea507bc96b69d3b72aa3192a43936dbc6ac3149c0d:5a4ec431b933eac195a58bea507bc96b69d3b72aa3192a43936dbc6ac3149c0d",
+          "createdAtUtc": "2026-11-13T23:22:55.291Z",
+          "artifact": {
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/los1ui8aau0zijb6.wprefab",
+            "displayName": "龙眠玩法v30",
+            "summary": "dragon_rpg_v1",
+            "hasRuntimeScript": true,
+            "hasAudio": true,
+            "hasExpandableAssets": true,
+            "metadata": {
+              "capacity": 319804,
+              "faceCount": 235728,
+              "logicalCenter": [
+                -68.688677566846,
+                500,
+                -78.31712717948841
+              ],
+              "rigged": true
+            },
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4712de7a0459488fbf54446910ebf9e3.png"
+          }
         }
       ],
       "routeMode": "auto",

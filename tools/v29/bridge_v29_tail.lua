@@ -104,3 +104,50 @@ end
 function GetV29Diagnostics()
  return {build='v29-streaming-hardening',settle=UI.settle,skyRuntime=UI.skyFallback.count or 0,skyMissing=SWIRL_LAYERS.missing,skyError=SWIRL_LAYERS.fallbackError,texQuality=UI.texQuality}
 end
+
+---------------------------------------------------------------- v30：游玩时左下角的水域诊断小字（提审端没有日志，靠截图带回信息）
+-- 内容：能否游泳 / 是否在游泳 / 身上碰到几个触发器及名字 / 脚下踩的是什么 / 高度
+function UI.buildPlayDiag()
+ if UI.playDiag or not UI.P_hud then return end
+ local fonts=UnityEngine.Resources.FindObjectsOfTypeAll(typeof(UnityEngine.Font));local font=nil
+ for i=0,fonts.Length-1 do if fonts[i].name=='NotoSansSC-Medium'then font=fonts[i];break end end
+ if not font and fonts.Length>0 then font=fonts[0]end
+ if not font then return end
+ local go=UnityEngine.GameObject('PlayDiag');go.transform:SetParent(UI.P_hud.rt,false)
+ local t=go:AddComponent(typeof(UnityEngine.UI.Text));t.font=font;t.fontSize=16;t.color=UnityEngine.Color(1,1,1,.36)
+ t.alignment=UnityEngine.TextAnchor.LowerLeft;t.raycastTarget=false;t.horizontalOverflow=UnityEngine.HorizontalWrapMode.Overflow
+ local rt=t.rectTransform;rt.anchorMin=UI.V2(0,0);rt.anchorMax=UI.V2(0,0);rt.pivot=UI.V2(0,0);rt.sizeDelta=UI.V2(1500,26);rt.anchoredPosition=UI.V2(28,8)
+ UI.playDiag=t
+end
+function UI.updatePlayDiag(actor)
+ if not UI.playDiag then return end
+ local now=Time.realtimeSinceStartup
+ if now<(UI.playDiagNext or 0)then return end;UI.playDiagNext=now+1
+ local p=actor.position
+ local can,swim='?','?'
+ pcall(function()can=tostring(actor:CanSwim())end);pcall(function()swim=tostring(actor:IsSwimming())end)
+ local trig,names=0,{}
+ pcall(function()
+  local hits=UnityEngine.Physics.OverlapSphere(Vector3(p.x,p.y+.8,p.z),1.2,-1,UnityEngine.QueryTriggerInteraction.Collide)
+  for i=0,hits.Length-1 do local c=hits[i]
+   if c.isTrigger then trig=trig+1;if #names<2 then names[#names+1]=c.name end end
+  end
+ end)
+ local ground='-'
+ pcall(function()
+  local hits=UnityEngine.Physics.RaycastAll(Vector3(p.x,p.y+1,p.z),Vector3(0,-1,0),6,-1,UnityEngine.QueryTriggerInteraction.Ignore)
+  local best=1e9
+  for i=0,hits.Length-1 do local h=hits[i]
+   if h.distance<best and not h.transform:IsChildOf(actor.gameObject.transform)then best=h.distance;ground=h.collider.name end
+  end
+ end)
+ UI.playDiag.text=string.format('v30  水:can=%s swim=%s  触发器:%d %s  脚下:%s  y=%.1f',can,swim,trig,table.concat(names,'/'),ground,p.y)
+end
+UI.v30Update=Update
+function Update()
+ UI.v30Update()
+ if UI.state=='play'then
+  local a=DouyinActorService.GetLocalActor()
+  if a then pcall(UI.buildPlayDiag);pcall(UI.updatePlayDiag,a)end
+ end
+end

@@ -1,0 +1,1 @@
+{"ok":false,"command":"scene","error":{"code":"SCENE_OPERATION_FAILED","message":"scene-node-protected","hint":"保留同一 --request-id 恢复原回执；unknown 时核对真实场景，禁止换新请求自动重放。","details":{"operationId":"66ce20a7218a12206f8dcabad0437461df96e9753b353b444bb135e8eec646a9","status":"failed","message":"scene-node-protected","requestId":"v30-remove-shells-a"}}}

@@ -2,8 +2,8 @@
   "project": "project_lapv8fm0",
   "files": {
     "ai-asset-generate-config.json": {
-      "bytes": 16417,
-      "sha256": "05cb2c6b901dda77ca87490082825d524e12a140a1e424a938a15a70a36b83b2"
+      "bytes": 17576,
+      "sha256": "8858ddfe8615463eb32cf16a6a56d95d5c0af1e9899500ddf872d4e1c195b768"
     },
     "ai-pcg-generate-config.json": {
       "bytes": 43,
@@ -1558,8 +1558,8 @@
       "sha256": "e69b672093a23dbe7625e78337d4da9aeef552e1d1a26e9f1ff6174a40989a12"
     },
     "ai-sessions/workspace_amfuq048/wprefabs/gameplay_v27/scripts/dragon_outfits.lua": {
-      "bytes": 46337,
-      "sha256": "02c6424603273a7055fa5d29f2de3b0d6224a9eb39554f681488f95316661a41"
+      "bytes": 46392,
+      "sha256": "e68abcd47985c40f60c5d70461fd41595709353b58de60932dd938a0e01cdc02"
     },
     "ai-sessions/workspace_amfuq048/wprefabs/gameplay_v27/scripts/dragon_progress.lua": {
       "bytes": 3240,
@@ -1586,8 +1586,8 @@
       "sha256": "5dbf78af3c3b4b60e618a4cf95bec2047e777a10f87bcd501fcc37c290f7a5f3"
     },
     "ai-sessions/workspace_amfuq048/wprefabs/gameplay_v27/scripts/dragon_world_bridge.lua": {
-      "bytes": 5176822,
-      "sha256": "fc4b89fa541d86b4197f2a445389c42d9fb187d6538daa54069ff584c2be0469"
+      "bytes": 5179303,
+      "sha256": "d692bc7af743f49d43c874f0870ed4c7cf955cd265f78b5fc768271208313979"
     },
     "ai-sessions/workspace_amfuq048/wprefabs/gameplay_v28/assets/audio/audio-combat-original-bow/audio.wav": {
       "bytes": 8678,
@@ -5766,8 +5766,8 @@
       "sha256": "a99846c4aa2f34122aca32fe7ea76978f2db93957e6480c209bfc97fbda070e0"
     },
     "ai-sessions/workspace_l7e231w9/wprefabs/gameplay_v29/package/prefab.wprefab": {
-      "bytes": 8358981,
-      "sha256": "64f97a2d4a3c1e4305ed2ef855a64beb0425e0ac6c7bde90eee1ea945467c5e1"
+      "bytes": 8359744,
+      "sha256": "efbf7783c21c0706b033a39c4ab3f8c8c382ec51cb82f365b9ed2729070a476d"
     },
     "ai-sessions/workspace_l7e231w9/wprefabs/gameplay_v29/prefab.json": {
       "bytes": 580937,
@@ -5794,8 +5794,8 @@
       "sha256": "e69b672093a23dbe7625e78337d4da9aeef552e1d1a26e9f1ff6174a40989a12"
     },
     "ai-sessions/workspace_l7e231w9/wprefabs/gameplay_v29/scripts/dragon_outfits.lua": {
-      "bytes": 46337,
-      "sha256": "02c6424603273a7055fa5d29f2de3b0d6224a9eb39554f681488f95316661a41"
+      "bytes": 46392,
+      "sha256": "e68abcd47985c40f60c5d70461fd41595709353b58de60932dd938a0e01cdc02"
     },
     "ai-sessions/workspace_l7e231w9/wprefabs/gameplay_v29/scripts/dragon_progress.lua": {
       "bytes": 3240,
@@ -5822,8 +5822,8 @@
       "sha256": "5dbf78af3c3b4b60e618a4cf95bec2047e777a10f87bcd501fcc37c290f7a5f3"
     },
     "ai-sessions/workspace_l7e231w9/wprefabs/gameplay_v29/scripts/dragon_world_bridge.lua": {
-      "bytes": 5176822,
-      "sha256": "fc4b89fa541d86b4197f2a445389c42d9fb187d6538daa54069ff584c2be0469"
+      "bytes": 5179303,
+      "sha256": "d692bc7af743f49d43c874f0870ed4c7cf955cd265f78b5fc768271208313979"
     },
     "ai-sessions/workspace_l7e231w9/wprefabs/village_bases_v20/assets/models/model-village-bases/meta.json": {
       "bytes": 209,
@@ -8938,8 +8938,8 @@
       "sha256": "b19755535d8b070e8e2bce28f0ec92ed36e00a3c3d7999c0b81885f536719c7c"
     },
     "scene.data": {
-      "bytes": 7162735,
-      "sha256": "4b4ef9ddbfc30d3bb617bd445e9719702cf1828f76da0a7bf51c11ec1e7389d5"
+      "bytes": 7203841,
+      "sha256": "64feb3c522c1db72cd7a468c37dc8bbb8cb88158b801ca6ccac29b8c33746116"
     },
     "scripts/client/index.lua": {
       "bytes": 44,
@@ -9628,6 +9628,58 @@
     "scripts/modules/imported/prefab_24/dragon_world_bridge.lua": {
       "bytes": 5176878,
       "sha256": "d3f6fa949f24b84e96215d501542e2696ece3c4cc5057b85aff8d66149f71014"
+    },
+    "scripts/modules/imported/prefab_25/dragon_combat.lua": {
+      "bytes": 26778,
+      "sha256": "388cdec29bfdc4e7facdd374c6f508449674b02a266dd3ef55c5141a5963fad1"
+    },
+    "scripts/modules/imported/prefab_25/dragon_combat_rules.lua": {
+      "bytes": 11242,
+      "sha256": "9597d94a3c0730765172f383f2f03d5a144a6ca511c88ca08cde2a1fd6394b1c"
+    },
+    "scripts/modules/imported/prefab_25/dragon_daycycle.lua": {
+      "bytes": 7353,
+      "sha256": "a6c48f078d03422d848d628a7f19d3825df5df2bd10a9da55412421dd907186a"
+    },
+    "scripts/modules/imported/prefab_25/dragon_exploration.lua": {
+      "bytes": 31769,
+      "sha256": "97bb661594de03c59103211259c261aa4b8cade2289ef28680fbb8034c6ba8da"
+    },
+    "scripts/modules/imported/prefab_25/dragon_fx.lua": {
+      "bytes": 27130,
+      "sha256": "24dd18f25963cbda9fa2b159ec20f894e525e360b0480f3e4544f07b3ff1a5e4"
+    },
+    "scripts/modules/imported/prefab_25/dragon_outfits.lua": {
+      "bytes": 46448,
+      "sha256": "8ba1e3d659419f9625f5117b54742ab004741dd4ca2d77dccf728e8473b327b3"
+    },
+    "scripts/modules/imported/prefab_25/dragon_progress.lua": {
+      "bytes": 3296,
+      "sha256": "444e17e3bb9dc0caa62c95debe999d3ec8882612c8b08cdf1afd69dd97402d8b"
+    },
+    "scripts/modules/imported/prefab_25/dragon_progress_rules.lua": {
+      "bytes": 6946,
+      "sha256": "f58256674dc0e80b5339c6e783389854f6d35d0a1b075ba4082c2e6b80b47996"
+    },
+    "scripts/modules/imported/prefab_25/dragon_rpg.lua": {
+      "bytes": 37130,
+      "sha256": "8583aeaf4f516b3b14df676efe4ffbc9154a7df5048c976a17b06d7ee9884a6a"
+    },
+    "scripts/modules/imported/prefab_25/dragon_rules.lua": {
+      "bytes": 3766,
+      "sha256": "474bc571999e6a2974dadb603b5e2aa7b9a26771ca42e9e032f26582d0dd60b1"
+    },
+    "scripts/modules/imported/prefab_25/dragon_timeline.lua": {
+      "bytes": 10392,
+      "sha256": "ffc13f51defe3e346a732ea9bf39ce76ffa1755e4f6cde3c0a4a46e7d20f1a1c"
+    },
+    "scripts/modules/imported/prefab_25/dragon_weapons.lua": {
+      "bytes": 42635,
+      "sha256": "bc2b8ae46b4521f1ed98f9c6b55f7cb36165a62a093c6ee459998e8ec64a7617"
+    },
+    "scripts/modules/imported/prefab_25/dragon_world_bridge.lua": {
+      "bytes": 5179359,
+      "sha256": "ff5170f39c00d0462022195eef97d36b6b41717c909f4d73adefe454c7b122e7"
     },
     "scripts/modules/imported/prefab_27/dragon_combat.lua": {
       "bytes": 20466,

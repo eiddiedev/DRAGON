@@ -962,7 +962,7 @@ function Start()
  for className,path in pairs(CLASS_SOURCE)do
   if not runtimeScope:GetGameObjectByPath(path)then outfitStatus="source missing: "..className;return end
  end
- disableCollidersOn(resourceRoot)
+ -- v30：只处理服装原型，不动资源根下其它物体的碰撞体和触发器
  sourceSets.localPosition=PROTOTYPE_PARK
  disableCollidersOn(sourceSets.gameObject)
  started=true;outfitStatus="resources ready"

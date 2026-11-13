@@ -223,3 +223,10 @@ s = rep(s, """  if now>s.deadline then
   end""", "  if now>s.deadline then s.deadline=now+60;s.attempts=0 end")
 open(p, 'w', encoding='utf8').write(s)
 print('sheep', chk(s))
+
+# ------------------------------------------------------------------ v30：服装脚本不再关掉整个资源根下的碰撞体（只关服装原型自己的）
+p = f'{W}/gameplay_v27/scripts/dragon_outfits.lua'
+s = open(f'{REPO}/assets/handoff_20261113/authoring/workspace_amfuq048/wprefabs/gameplay_v27/scripts/dragon_outfits.lua', encoding='utf8').read()
+s = rep(s, " disableCollidersOn(resourceRoot)\n sourceSets.localPosition=PROTOTYPE_PARK", " -- v30：只处理服装原型，不动资源根下其它物体的碰撞体和触发器\n sourceSets.localPosition=PROTOTYPE_PARK")
+open(p, 'w', encoding='utf8').write(s)
+print('outfits', chk(s))
