@@ -1,0 +1,1123 @@
+{
+  "sourceScene": "editor_project/project_lapv8fm0/scene.data",
+  "sha256": "673742f831afab0487784ec8bc8436aaaa6a82adfec53ba76b5c97235f5f9366",
+  "streaming": true,
+  "actors": [
+    {
+      "name": "dragon_peak",
+      "auditNodeId": 1674681217,
+      "activeInHierarchy": true,
+      "transform": {
+        "nodeName": "dragon_peak",
+        "pos": {
+          "x": 165.0,
+          "y": 0.0,
+          "z": 234.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "w": 0.0
+        },
+        "scale": {
+          "x": 89.9166641,
+          "y": 89.9166641,
+          "z": 89.9166641
+        },
+        "tag": "Untagged",
+        "parentId": 0,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": true,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 0.6039924,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "scripts": []
+    },
+    {
+      "name": "dragon_v8_live",
+      "auditNodeId": 621990404,
+      "activeInHierarchy": true,
+      "transform": {
+        "nodeName": "dragon_v8_live",
+        "pos": {
+          "x": 158.31926,
+          "y": 109.216156,
+          "z": 245.0742
+        },
+        "rot": {
+          "x": -0.07518487,
+          "y": 0.9506249,
+          "z": 0.174786553,
+          "w": 0.245172
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "tag": "Untagged",
+        "parentId": -535980144,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": true,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": []
+      },
+      "scripts": [],
+      "animations": [
+        {
+          "assetId": "mobile/dragon_v8_live",
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/9d7xc6emz5a8mt0v.glb",
+          "clips": [
+            "idle",
+            "takeoff",
+            "fly",
+            "land",
+            "perch",
+            "perch_takeoff",
+            "perch_land"
+          ]
+        }
+      ],
+      "defaultClip": "perch"
+    },
+    {
+      "name": "tripo_horse",
+      "auditNodeId": 2012563344,
+      "activeInHierarchy": true,
+      "transform": {
+        "nodeName": "tripo_horse",
+        "pos": {
+          "x": 140.5,
+          "y": 39.2955742,
+          "z": 51.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.866025448,
+          "z": 0.0,
+          "w": 0.49999994
+        },
+        "scale": {
+          "x": 2.42397285,
+          "y": 2.42397285,
+          "z": 2.42397285
+        },
+        "tag": "Untagged",
+        "parentId": -535980144,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": false,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": false,
+          "mass": 1.0,
+          "drag": 0.0,
+          "angularDrag": 0.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": [
+          {
+            "shape": "box",
+            "enabled": true,
+            "center": {
+              "x": 0.0,
+              "y": 0.4125459,
+              "z": 0.0
+            },
+            "size": {
+              "x": 2.06272936,
+              "y": 1.65018356,
+              "z": 2.06272936
+            },
+            "radius": 0.5,
+            "height": 2.0,
+            "direction": 1
+          }
+        ]
+      },
+      "scripts": [
+        {
+          "enabled": true,
+          "scriptId": "d6f83b17-d36c-4840-ae2a-b896be27b101",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        },
+        {
+          "enabled": true,
+          "scriptId": "8fe420a9-9b6d-488f-b707-6172cfa2fdbd",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        }
+      ],
+      "animations": [
+        {
+          "assetId": "__ugc_local__/f561dd400456e9ec",
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/8jrmh59sec126edf.glb",
+          "clips": [
+            "Idle",
+            "Walk",
+            "Trot",
+            "Run"
+          ]
+        }
+      ],
+      "defaultClip": "Idle"
+    },
+    {
+      "name": "sheep_0",
+      "auditNodeId": -1382895347,
+      "activeInHierarchy": true,
+      "transform": {
+        "nodeName": "sheep_0",
+        "pos": {
+          "x": 84.0,
+          "y": 42.0583,
+          "z": 42.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "w": 6.123234e-17
+        },
+        "scale": {
+          "x": 1.368705,
+          "y": 1.368705,
+          "z": 1.368705
+        },
+        "tag": "Untagged",
+        "parentId": -535980144,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": true,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": true,
+          "mass": 12.0,
+          "drag": 2.5,
+          "angularDrag": 5.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": [
+          {
+            "shape": "box",
+            "enabled": true,
+            "center": {
+              "x": 0.0,
+              "y": 0.913272,
+              "z": 0.0
+            },
+            "size": {
+              "x": 7.306176,
+              "y": 3.653088,
+              "z": 7.306176
+            },
+            "radius": 0.5,
+            "height": 2.0,
+            "direction": 1
+          }
+        ]
+      },
+      "scripts": [
+        {
+          "enabled": true,
+          "scriptId": "d6f83b17-d36c-4840-ae2a-b896be27b101",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        },
+        {
+          "enabled": true,
+          "scriptId": "5a9edffe-7c92-477d-bc9c-9865e864567e",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        },
+        {
+          "enabled": true,
+          "scriptId": "bf11114f-2cdb-4ebd-9151-cdf56758a16a",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        }
+      ],
+      "animations": [
+        {
+          "assetId": "__ugc_local__/0df4e337c1f14e53",
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ep9wk7s4vwsfksw0.glb",
+          "clips": [
+            "Walk",
+            "Idle"
+          ]
+        }
+      ],
+      "defaultClip": "Idle"
+    },
+    {
+      "name": "sheep_1",
+      "auditNodeId": -657604516,
+      "activeInHierarchy": true,
+      "transform": {
+        "nodeName": "sheep_1",
+        "pos": {
+          "x": 97.0,
+          "y": 43.1486,
+          "z": 65.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "w": 6.123234e-17
+        },
+        "scale": {
+          "x": 1.368705,
+          "y": 1.368705,
+          "z": 1.368705
+        },
+        "tag": "Untagged",
+        "parentId": -535980144,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": true,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": true,
+          "mass": 12.0,
+          "drag": 2.5,
+          "angularDrag": 5.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": [
+          {
+            "shape": "box",
+            "enabled": true,
+            "center": {
+              "x": 0.0,
+              "y": 0.913272,
+              "z": 0.0
+            },
+            "size": {
+              "x": 7.306176,
+              "y": 3.653088,
+              "z": 7.306176
+            },
+            "radius": 0.5,
+            "height": 2.0,
+            "direction": 1
+          }
+        ]
+      },
+      "scripts": [
+        {
+          "enabled": true,
+          "scriptId": "d6f83b17-d36c-4840-ae2a-b896be27b101",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        },
+        {
+          "enabled": true,
+          "scriptId": "5a9edffe-7c92-477d-bc9c-9865e864567e",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        },
+        {
+          "enabled": true,
+          "scriptId": "bf11114f-2cdb-4ebd-9151-cdf56758a16a",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        }
+      ],
+      "animations": [
+        {
+          "assetId": "__ugc_local__/0df4e337c1f14e53",
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ep9wk7s4vwsfksw0.glb",
+          "clips": [
+            "Walk",
+            "Idle"
+          ]
+        }
+      ],
+      "defaultClip": "Idle"
+    },
+    {
+      "name": "sheep_2",
+      "auditNodeId": 1160937908,
+      "activeInHierarchy": true,
+      "transform": {
+        "nodeName": "sheep_2",
+        "pos": {
+          "x": 110.0,
+          "y": 40.3131,
+          "z": 44.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "w": 6.123234e-17
+        },
+        "scale": {
+          "x": 1.368705,
+          "y": 1.368705,
+          "z": 1.368705
+        },
+        "tag": "Untagged",
+        "parentId": -535980144,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": true,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": true,
+          "mass": 12.0,
+          "drag": 2.5,
+          "angularDrag": 5.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": [
+          {
+            "shape": "box",
+            "enabled": true,
+            "center": {
+              "x": 0.0,
+              "y": 0.913272,
+              "z": 0.0
+            },
+            "size": {
+              "x": 7.306176,
+              "y": 3.653088,
+              "z": 7.306176
+            },
+            "radius": 0.5,
+            "height": 2.0,
+            "direction": 1
+          }
+        ]
+      },
+      "scripts": [
+        {
+          "enabled": true,
+          "scriptId": "d6f83b17-d36c-4840-ae2a-b896be27b101",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        },
+        {
+          "enabled": true,
+          "scriptId": "5a9edffe-7c92-477d-bc9c-9865e864567e",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        },
+        {
+          "enabled": true,
+          "scriptId": "bf11114f-2cdb-4ebd-9151-cdf56758a16a",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        }
+      ],
+      "animations": [
+        {
+          "assetId": "__ugc_local__/0df4e337c1f14e53",
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ep9wk7s4vwsfksw0.glb",
+          "clips": [
+            "Walk",
+            "Idle"
+          ]
+        }
+      ],
+      "defaultClip": "Idle"
+    },
+    {
+      "name": "sheep_3",
+      "auditNodeId": -1859119673,
+      "activeInHierarchy": true,
+      "transform": {
+        "nodeName": "sheep_3",
+        "pos": {
+          "x": 89.0,
+          "y": 44.668,
+          "z": 67.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "w": 6.123234e-17
+        },
+        "scale": {
+          "x": 1.368705,
+          "y": 1.368705,
+          "z": 1.368705
+        },
+        "tag": "Untagged",
+        "parentId": -535980144,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": true,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": true,
+          "mass": 12.0,
+          "drag": 2.5,
+          "angularDrag": 5.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": [
+          {
+            "shape": "box",
+            "enabled": true,
+            "center": {
+              "x": 0.0,
+              "y": 0.913272,
+              "z": 0.0
+            },
+            "size": {
+              "x": 7.306176,
+              "y": 3.653088,
+              "z": 7.306176
+            },
+            "radius": 0.5,
+            "height": 2.0,
+            "direction": 1
+          }
+        ]
+      },
+      "scripts": [
+        {
+          "enabled": true,
+          "scriptId": "d6f83b17-d36c-4840-ae2a-b896be27b101",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        },
+        {
+          "enabled": true,
+          "scriptId": "5a9edffe-7c92-477d-bc9c-9865e864567e",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        },
+        {
+          "enabled": true,
+          "scriptId": "bf11114f-2cdb-4ebd-9151-cdf56758a16a",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        }
+      ],
+      "animations": [
+        {
+          "assetId": "__ugc_local__/0df4e337c1f14e53",
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ep9wk7s4vwsfksw0.glb",
+          "clips": [
+            "Walk",
+            "Idle"
+          ]
+        }
+      ],
+      "defaultClip": "Idle"
+    },
+    {
+      "name": "sheep_4",
+      "auditNodeId": -889538564,
+      "activeInHierarchy": true,
+      "transform": {
+        "nodeName": "sheep_4",
+        "pos": {
+          "x": 102.0,
+          "y": 41.2758,
+          "z": 46.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "w": 6.123234e-17
+        },
+        "scale": {
+          "x": 1.368705,
+          "y": 1.368705,
+          "z": 1.368705
+        },
+        "tag": "Untagged",
+        "parentId": -535980144,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": true,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": true,
+          "mass": 12.0,
+          "drag": 2.5,
+          "angularDrag": 5.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": [
+          {
+            "shape": "box",
+            "enabled": true,
+            "center": {
+              "x": 0.0,
+              "y": 0.913272,
+              "z": 0.0
+            },
+            "size": {
+              "x": 7.306176,
+              "y": 3.653088,
+              "z": 7.306176
+            },
+            "radius": 0.5,
+            "height": 2.0,
+            "direction": 1
+          }
+        ]
+      },
+      "scripts": [
+        {
+          "enabled": true,
+          "scriptId": "d6f83b17-d36c-4840-ae2a-b896be27b101",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        },
+        {
+          "enabled": true,
+          "scriptId": "5a9edffe-7c92-477d-bc9c-9865e864567e",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        },
+        {
+          "enabled": true,
+          "scriptId": "bf11114f-2cdb-4ebd-9151-cdf56758a16a",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        }
+      ],
+      "animations": [
+        {
+          "assetId": "__ugc_local__/0df4e337c1f14e53",
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ep9wk7s4vwsfksw0.glb",
+          "clips": [
+            "Walk",
+            "Idle"
+          ]
+        }
+      ],
+      "defaultClip": "Idle"
+    },
+    {
+      "name": "sheep_5",
+      "auditNodeId": -1786477277,
+      "activeInHierarchy": true,
+      "transform": {
+        "nodeName": "sheep_5",
+        "pos": {
+          "x": 115.0,
+          "y": 40.7794,
+          "z": 69.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "w": 6.123234e-17
+        },
+        "scale": {
+          "x": 1.368705,
+          "y": 1.368705,
+          "z": 1.368705
+        },
+        "tag": "Untagged",
+        "parentId": -535980144,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": true,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": true,
+          "mass": 12.0,
+          "drag": 2.5,
+          "angularDrag": 5.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": [
+          {
+            "shape": "box",
+            "enabled": true,
+            "center": {
+              "x": 0.0,
+              "y": 0.913272,
+              "z": 0.0
+            },
+            "size": {
+              "x": 7.306176,
+              "y": 3.653088,
+              "z": 7.306176
+            },
+            "radius": 0.5,
+            "height": 2.0,
+            "direction": 1
+          }
+        ]
+      },
+      "scripts": [
+        {
+          "enabled": true,
+          "scriptId": "d6f83b17-d36c-4840-ae2a-b896be27b101",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        },
+        {
+          "enabled": true,
+          "scriptId": "5a9edffe-7c92-477d-bc9c-9865e864567e",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        },
+        {
+          "enabled": true,
+          "scriptId": "bf11114f-2cdb-4ebd-9151-cdf56758a16a",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        }
+      ],
+      "animations": [
+        {
+          "assetId": "__ugc_local__/0df4e337c1f14e53",
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ep9wk7s4vwsfksw0.glb",
+          "clips": [
+            "Walk",
+            "Idle"
+          ]
+        }
+      ],
+      "defaultClip": "Idle"
+    },
+    {
+      "name": "sheep_6",
+      "auditNodeId": -1854250386,
+      "activeInHierarchy": true,
+      "transform": {
+        "nodeName": "sheep_6",
+        "pos": {
+          "x": 94.0,
+          "y": 41.9198,
+          "z": 48.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "w": 6.123234e-17
+        },
+        "scale": {
+          "x": 1.368705,
+          "y": 1.368705,
+          "z": 1.368705
+        },
+        "tag": "Untagged",
+        "parentId": -535980144,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": true,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": true,
+          "mass": 12.0,
+          "drag": 2.5,
+          "angularDrag": 5.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": [
+          {
+            "shape": "box",
+            "enabled": true,
+            "center": {
+              "x": 0.0,
+              "y": 0.913272,
+              "z": 0.0
+            },
+            "size": {
+              "x": 7.306176,
+              "y": 3.653088,
+              "z": 7.306176
+            },
+            "radius": 0.5,
+            "height": 2.0,
+            "direction": 1
+          }
+        ]
+      },
+      "scripts": [
+        {
+          "enabled": true,
+          "scriptId": "d6f83b17-d36c-4840-ae2a-b896be27b101",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        },
+        {
+          "enabled": true,
+          "scriptId": "5a9edffe-7c92-477d-bc9c-9865e864567e",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        },
+        {
+          "enabled": true,
+          "scriptId": "bf11114f-2cdb-4ebd-9151-cdf56758a16a",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        }
+      ],
+      "animations": [
+        {
+          "assetId": "__ugc_local__/0df4e337c1f14e53",
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ep9wk7s4vwsfksw0.glb",
+          "clips": [
+            "Walk",
+            "Idle"
+          ]
+        }
+      ],
+      "defaultClip": "Idle"
+    },
+    {
+      "name": "sheep_7",
+      "auditNodeId": -1479160285,
+      "activeInHierarchy": true,
+      "transform": {
+        "nodeName": "sheep_7",
+        "pos": {
+          "x": 107.0,
+          "y": 41.9188,
+          "z": 71.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "w": 6.123234e-17
+        },
+        "scale": {
+          "x": 1.368705,
+          "y": 1.368705,
+          "z": 1.368705
+        },
+        "tag": "Untagged",
+        "parentId": -535980144,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": true,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": true,
+          "mass": 12.0,
+          "drag": 2.5,
+          "angularDrag": 5.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": [
+          {
+            "shape": "box",
+            "enabled": true,
+            "center": {
+              "x": 0.0,
+              "y": 0.913272,
+              "z": 0.0
+            },
+            "size": {
+              "x": 7.306176,
+              "y": 3.653088,
+              "z": 7.306176
+            },
+            "radius": 0.5,
+            "height": 2.0,
+            "direction": 1
+          }
+        ]
+      },
+      "scripts": [
+        {
+          "enabled": true,
+          "scriptId": "d6f83b17-d36c-4840-ae2a-b896be27b101",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        },
+        {
+          "enabled": true,
+          "scriptId": "5a9edffe-7c92-477d-bc9c-9865e864567e",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        },
+        {
+          "enabled": true,
+          "scriptId": "bf11114f-2cdb-4ebd-9151-cdf56758a16a",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        }
+      ],
+      "animations": [
+        {
+          "assetId": "__ugc_local__/0df4e337c1f14e53",
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ep9wk7s4vwsfksw0.glb",
+          "clips": [
+            "Walk",
+            "Idle"
+          ]
+        }
+      ],
+      "defaultClip": "Idle"
+    },
+    {
+      "name": "sheep_8",
+      "auditNodeId": 1621597134,
+      "activeInHierarchy": true,
+      "transform": {
+        "nodeName": "sheep_8",
+        "pos": {
+          "x": 86.0,
+          "y": 42.5025,
+          "z": 50.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 1.0,
+          "z": 0.0,
+          "w": 6.123234e-17
+        },
+        "scale": {
+          "x": 1.368705,
+          "y": 1.368705,
+          "z": 1.368705
+        },
+        "tag": "Untagged",
+        "parentId": -535980144,
+        "isActive": true,
+        "layer": 0,
+        "isGameMod": false,
+        "isStatic": false
+      },
+      "physics": {
+        "physicsColliderData": {
+          "enableCollision": true,
+          "dynamicFriction": 0.6,
+          "staticFriction": 0.6,
+          "bounciness": 0.0,
+          "enableRigidBody": true,
+          "mass": 12.0,
+          "drag": 2.5,
+          "angularDrag": 5.0,
+          "useGravity": true,
+          "isKinematic": false,
+          "hasCenterOfMass": false,
+          "centerOfMass": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        "triggerData": [
+          {
+            "shape": "box",
+            "enabled": true,
+            "center": {
+              "x": 0.0,
+              "y": 0.913272,
+              "z": 0.0
+            },
+            "size": {
+              "x": 7.306176,
+              "y": 3.653088,
+              "z": 7.306176
+            },
+            "radius": 0.5,
+            "height": 2.0,
+            "direction": 1
+          }
+        ]
+      },
+      "scripts": [
+        {
+          "enabled": true,
+          "scriptId": "d6f83b17-d36c-4840-ae2a-b896be27b101",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        },
+        {
+          "enabled": true,
+          "scriptId": "5a9edffe-7c92-477d-bc9c-9865e864567e",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        },
+        {
+          "enabled": true,
+          "scriptId": "bf11114f-2cdb-4ebd-9151-cdf56758a16a",
+          "scriptType": 1,
+          "paramsJson": "{}"
+        }
+      ],
+      "animations": [
+        {
+          "assetId": "__ugc_local__/0df4e337c1f14e53",
+          "sourceUri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ep9wk7s4vwsfksw0.glb",
+          "clips": [
+            "Walk",
+            "Idle"
+          ]
+        }
+      ],
+      "defaultClip": "Idle"
+    }
+  ]
+}

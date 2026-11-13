@@ -1,0 +1,1 @@
+{"ok":true,"command":"runtime","data":{"ok":true,"resultType":"table","result":{"errors":{"count":0,"recent":[]},"events":{"at":1492.1380615234,"last":"stop","started":3,"stopped":3},"status":"away","summary":"water-v28 远离水域 outside-known-water-band","ui":{"attempts":1,"created":true,"enabled":true}},"bindingKey":"-459980:7b2e8966-d50a-4ce5-b1eb-debfe6ebc606"}}

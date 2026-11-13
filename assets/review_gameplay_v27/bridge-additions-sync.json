@@ -1,0 +1,11 @@
+{
+  "file": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/ai-sessions/workspace_amfuq048/wprefabs/gameplay_v27/scripts/dragon_world_bridge.lua",
+  "before": "022463570d45c35151bdd5b264c18298e650d09324b6b1adb49e21a73967319f",
+  "after": "30c2d8f5106b87d38984796f047ae886339a2ccb3bbac3b1f0c3b1b3628211ce",
+  "patches": [
+    "altar",
+    "camera",
+    "clouds",
+    "prebuilt windmill"
+  ]
+}

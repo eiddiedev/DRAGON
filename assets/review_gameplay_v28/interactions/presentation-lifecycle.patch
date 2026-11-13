@@ -1,0 +1,92 @@
+--- a/dragon_world_bridge.lua
++++ b/dragon_world_bridge.lua
+@@ -2970,18 +2970,60 @@
+ end
+ 
+ function UI.camEnd()
+-    if UI.main and UI.mainWasEnabled~=nil then UI.main.enabled=UI.mainWasEnabled;UI.mainWasEnabled=nil end
+-    if UI.cam ~= nil then
+-        UnityEngine.Object.Destroy(UI.cam.gameObject)
+-        UI.cam = nil
+-    end
++    -- Clear ownership first: OnDisable followed by OnDestroy is one release.
++    local main, wasEnabled, ownedCamera = UI.main, UI.mainWasEnabled, UI.cam
++    UI.main, UI.mainWasEnabled, UI.cam = nil, nil, nil
++    if main and wasEnabled ~= nil then pcall(function() main.enabled = wasEnabled end) end
++    if ownedCamera then pcall(function() UnityEngine.Object.Destroy(ownedCamera.gameObject) end) end
+ end
+ 
+ ---------------------------------------------------------------- 状态
++-- Only this presentation layer's input lease may be released here. The platform
++-- does not expose a lock-owner getter, so known riding/battle handoffs stay owned
++-- by their own controllers; this script never calls StopFly/StandUp to steal them.
++function UI.foreignInputOwner(actor, lease)
++    local ok, occupied = pcall(function()
++        if DR.rider == actor or actor:IsSitting() or actor:IsFlying() then return true end
++        if lease and actor.gameObject.transform.parent ~= lease.parent then return true end
++        local phase = DR.phase1
++        local battle = phase and phase.scope and phase.scope:GetScript('dragon_combat.lua')
++        if battle then
++            if battle.IsParticipating() then return true end
++            local status = battle.GetStatus()
++            if status and status.member and status.phase == 'ready' then return true end
++        end
++        return false
++    end)
++    -- A teardown query failure is not permission to unlock another controller.
++    return not ok or occupied == true
++end
++function UI.releasePlayerLock(actor)
++    local lease = UI.inputLease
++    if not lease or (actor and lease.actor ~= actor) then return false end
++    UI.inputLease = nil
++    if UI.foreignInputOwner(lease.actor, lease) then return false end
++    local released = pcall(function() lease.actor:Immobilize(false) end)
++    if released and lease.hidden then
++        pcall(function() DouyinUIService.SetUIVisible(true) end)
++        pcall(function() DouyinUIService.SetNativeUIVisible(true) end)
++    end
++    return released
++end
+ function UI.lockPlayer(actor, on)
+-    pcall(function() actor:Immobilize(on) end)
+-    pcall(function() DouyinUIService.SetUIVisible(not on) end)
+-    pcall(function() DouyinUIService.SetNativeUIVisible(not on) end)
++    if not on then return UI.releasePlayerLock(actor) end
++    if not actor then return false end
++    if UI.inputLease and UI.inputLease.actor == actor then return true end
++    if UI.foreignInputOwner(actor, nil) then return false end
++    local parent
++    local ok = pcall(function()
++        parent = actor.gameObject.transform.parent
++        actor:Immobilize(true)
++    end)
++    if not ok then return false end
++    UI.inputLease = { actor = actor, parent = parent, hidden = true }
++    pcall(function() DouyinUIService.SetUIVisible(false) end)
++    pcall(function() DouyinUIService.SetNativeUIVisible(false) end)
++    return true
+ end
+ 
+ function UI.setSpread(k)
+@@ -4306,3 +4348,20 @@
+  local s=UI.roamCameraGuard
+  return {build='review-v27-roaming-pitch',minPitch=s.minPitch,pitch=s.lastPitch,status=s.status,corrections=s.corrections,failed=s.failed==true,error=s.error,dependencyAttempts=s.resolveAttempts}
+ end
++
++-- review-v28: presentation teardown owns only its title camera and input lease.
++-- Normal book/map completion already releases both; repeated teardown is a no-op.
++function UI.releasePresentation()
++    UI.camEnd()
++    UI.releasePlayerLock(nil)
++end
++UI.v28PresentationDisable = OnDisable
++UI.v28PresentationDestroy = OnDestroy
++function OnDisable()
++    UI.releasePresentation()
++    if UI.v28PresentationDisable then UI.v28PresentationDisable() end
++end
++function OnDestroy()
++    UI.releasePresentation()
++    if UI.v28PresentationDestroy then UI.v28PresentationDestroy() end
++end

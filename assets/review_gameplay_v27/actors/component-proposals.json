@@ -1,0 +1,138 @@
+{
+  "dragon": {
+    "auditNodeId": 621990404,
+    "name": "dragon_v8_live",
+    "defaultClipBefore": "perch",
+    "defaultClipAfter": "idle",
+    "reason": "bridge updateV8 documents 6.48m extra forefoot lift from perch and intentionally requests idle for saved slope pose; config must agree before bridge readiness",
+    "preserveTransform": true
+  },
+  "sheep": [
+    {
+      "auditNodeId": -1382895347,
+      "name": "sheep_0",
+      "physicsInitial": {
+        "isKinematic": true,
+        "useGravity": false
+      },
+      "runtimeRelease": {
+        "isKinematic": false,
+        "useGravity": true
+      },
+      "releaseCondition": "two real, non-self, static support raycast hits, separated by at least 0.25s; no fake ground",
+      "preserveTransform": true
+    },
+    {
+      "auditNodeId": -657604516,
+      "name": "sheep_1",
+      "physicsInitial": {
+        "isKinematic": true,
+        "useGravity": false
+      },
+      "runtimeRelease": {
+        "isKinematic": false,
+        "useGravity": true
+      },
+      "releaseCondition": "two real, non-self, static support raycast hits, separated by at least 0.25s; no fake ground",
+      "preserveTransform": true
+    },
+    {
+      "auditNodeId": 1160937908,
+      "name": "sheep_2",
+      "physicsInitial": {
+        "isKinematic": true,
+        "useGravity": false
+      },
+      "runtimeRelease": {
+        "isKinematic": false,
+        "useGravity": true
+      },
+      "releaseCondition": "two real, non-self, static support raycast hits, separated by at least 0.25s; no fake ground",
+      "preserveTransform": true
+    },
+    {
+      "auditNodeId": -1859119673,
+      "name": "sheep_3",
+      "physicsInitial": {
+        "isKinematic": true,
+        "useGravity": false
+      },
+      "runtimeRelease": {
+        "isKinematic": false,
+        "useGravity": true
+      },
+      "releaseCondition": "two real, non-self, static support raycast hits, separated by at least 0.25s; no fake ground",
+      "preserveTransform": true
+    },
+    {
+      "auditNodeId": -889538564,
+      "name": "sheep_4",
+      "physicsInitial": {
+        "isKinematic": true,
+        "useGravity": false
+      },
+      "runtimeRelease": {
+        "isKinematic": false,
+        "useGravity": true
+      },
+      "releaseCondition": "two real, non-self, static support raycast hits, separated by at least 0.25s; no fake ground",
+      "preserveTransform": true
+    },
+    {
+      "auditNodeId": -1786477277,
+      "name": "sheep_5",
+      "physicsInitial": {
+        "isKinematic": true,
+        "useGravity": false
+      },
+      "runtimeRelease": {
+        "isKinematic": false,
+        "useGravity": true
+      },
+      "releaseCondition": "two real, non-self, static support raycast hits, separated by at least 0.25s; no fake ground",
+      "preserveTransform": true
+    },
+    {
+      "auditNodeId": -1854250386,
+      "name": "sheep_6",
+      "physicsInitial": {
+        "isKinematic": true,
+        "useGravity": false
+      },
+      "runtimeRelease": {
+        "isKinematic": false,
+        "useGravity": true
+      },
+      "releaseCondition": "two real, non-self, static support raycast hits, separated by at least 0.25s; no fake ground",
+      "preserveTransform": true
+    },
+    {
+      "auditNodeId": -1479160285,
+      "name": "sheep_7",
+      "physicsInitial": {
+        "isKinematic": true,
+        "useGravity": false
+      },
+      "runtimeRelease": {
+        "isKinematic": false,
+        "useGravity": true
+      },
+      "releaseCondition": "two real, non-self, static support raycast hits, separated by at least 0.25s; no fake ground",
+      "preserveTransform": true
+    },
+    {
+      "auditNodeId": 1621597134,
+      "name": "sheep_8",
+      "physicsInitial": {
+        "isKinematic": true,
+        "useGravity": false
+      },
+      "runtimeRelease": {
+        "isKinematic": false,
+        "useGravity": true
+      },
+      "releaseCondition": "two real, non-self, static support raycast hits, separated by at least 0.25s; no fake ground",
+      "preserveTransform": true
+    }
+  ]
+}

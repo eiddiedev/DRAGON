@@ -1,0 +1,71 @@
+--- formal/dragon_combat.lua
++++ review-v27/dragon_combat.lua
+@@ -19,26 +19,30 @@
+ local Q=U.Quaternion
+ local json=dkjson
+ local scope=require('official.core.runtime_scope').from(self)
+--- mobile-v23: resolve each dependency at most once a second, at most 30 attempts.
+-do
+- local target=scope
+- local original=target.GetScript
+- local memo,attempts,nextAt={},{},{}
+- local failures={}
+- target.GetScript=function(_,name)
+-  if memo[name] then return memo[name] end
+-  local now=CS.UnityEngine.Time.realtimeSinceStartup
+-  if (attempts[name] or 0)>=30 or now<(nextAt[name] or 0) then return nil end
+-  attempts[name]=(attempts[name] or 0)+1;nextAt[name]=now+1
+-  local ok,value=pcall(original,target,name)
+-  if ok and value then memo[name]=value;return value end
+-  if attempts[name]==30 then failures[name]=tostring(value or 'not loaded');print('[mobile-v23] dependency failed: '..name..' '..failures[name]) end
+-  return nil
+- end
+- function GetDependencyDiagnostics() return {build='mobile-v23',attempts=attempts,failures=failures} end
+- local destroy=OnDestroy
+- -- Installed after lifecycle definitions below; clears references on scene exit.
+- ReleaseMobileDependencies=function()memo={};attempts={};nextAt={};failures={} end
++-- review-v27: private cache. Never replace the shared runtime-scope resolver.
++local getDependency
++local dependencyMemo,dependencyAttempts,dependencyNextAt,dependencyFailures={},{},{},{}
++getDependency=function(name)
++ if dependencyMemo[name] then return dependencyMemo[name] end
++ local now=CS.UnityEngine.Time.realtimeSinceStartup
++ if now<(dependencyNextAt[name] or 0) then return nil end
++ local attempt=(dependencyAttempts[name] or 0)+1
++ dependencyAttempts[name]=attempt
++ -- Fast initial readiness checks, then bounded slow recovery for streamed resources.
++ dependencyNextAt[name]=now+(attempt<30 and 1 or 5)
++ local ok,value=pcall(function()return scope:GetScript(name)end)
++ if ok and value then
++  dependencyMemo[name]=value;dependencyFailures[name]=nil
++  if attempt>=30 then print('[review-v27] dependency recovered: '..name) end
++  return value
++ end
++ dependencyFailures[name]=tostring(value or 'not loaded')
++ if attempt==30 then print('[review-v27] dependency waiting: '..name..' '..dependencyFailures[name]) end
++ return nil
++end
++function GetDependencyDiagnostics()return{build='review-v27',attempts=dependencyAttempts,failures=dependencyFailures}end
++local function ReleaseMobileDependencies()
++ dependencyMemo={};dependencyAttempts={};dependencyNextAt={};dependencyFailures={}
+ end
+ 
+ local Spawn=require('official.core.spawn')
+@@ -145,7 +149,7 @@
+  if not client or not client.GetProfile or not simulation or not simulation.Step then return false end
+  rpg=client;rules=profileRules;fx=effects;engine=simulation;return true
+ end
+-function IsNight()local day=scope:GetScript('dragon_daycycle.lua');return day and not day.IsDay()or false end
++function IsNight()local day=getDependency('dragon_daycycle.lua');return day and not day.IsDay()or false end
+ function IsNearArena()local a=localActor();if not a then return false end;local c=center(a);return (a.position.x-c.x)^2+(a.position.z-c.z)^2<=(ArenaRadius+2)^2 end
+ function Begin(duel)
+  local a=localActor();local profile=rpg and rpg.GetProfile()
+@@ -289,7 +293,7 @@
+ local sigilRoot,sigilMaterial,sigilLines,sigilAt=nil,nil,{},nil
+ -- v15：魔法阵改成一张贴地的发光图（地面已填平），由主脚本提供
+ local function showSigil(c,radius,on)
+- if not bridge then bridge=scope:GetScript('dragon_world_bridge.lua')end
++ if not bridge then bridge=getDependency('dragon_world_bridge.lua')end
+  local go=bridge and bridge.GetSigil();if not go then return end
+  if go.activeSelf~=on then go:SetActive(on)end
+  if on then

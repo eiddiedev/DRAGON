@@ -1,0 +1,1 @@
+const out={};for(const m of ['nodes.create','nodes.update','transforms.set','assets.instantiateModel'])out[m]=await scene.context.describe(m);for(const t of ['appearanceData','physicsColliderData'])out[t]=await scene.components.schema(t);return out;

@@ -1721,58 +1721,6 @@
       "bytes": 12508,
       "sha256": "9ef9e81f67a466e7172731ed7cc8f4d1e7105fc8a2c28723ae317f798235b357"
     },
-    "ai-sessions/workspace_m293a9tg/wprefabs/dragon_fx_mobile_v22/.tmp/resource-publications/0bba279ffdba479521336dcad2ca9ee1868382f4ae7f5a2363dffb5d3fe3bae8.json": {
-      "bytes": 432,
-      "sha256": "775008522977af1cddf08e591805723cdbc57f93e16e09b2d45a2617b7424737"
-    },
-    "ai-sessions/workspace_m293a9tg/wprefabs/dragon_fx_mobile_v22/.tmp/resource-publications/0d2fde0ade57b84778876cd6d660238eecef4a7c8ac99458d87fd25cd3ab3618.json": {
-      "bytes": 432,
-      "sha256": "317b8ffe2e42890d0d15108188ef7a61fd7e4c803de8afd2dda21facaf08b9d5"
-    },
-    "ai-sessions/workspace_m293a9tg/wprefabs/dragon_fx_mobile_v22/.tmp/resource-publications/16194a8d0f6970f2a2c3c8867dc83c82dcc0879d12aee7edfbaaf0eac0531ff5.json": {
-      "bytes": 432,
-      "sha256": "df8c5cb85fc660bc92b09aaba688e43226d1173e5ccf296d0ee15e84d55c5d95"
-    },
-    "ai-sessions/workspace_m293a9tg/wprefabs/dragon_fx_mobile_v22/.tmp/resource-publications/1cd68da2872466705f58f0b0abf70a5b4ed401209535db35458edae6d94a8f72.json": {
-      "bytes": 432,
-      "sha256": "12c2a3b7e35990fd7b4b428281698b2a80f8403ed72f969bf94ffe18824314ad"
-    },
-    "ai-sessions/workspace_m293a9tg/wprefabs/dragon_fx_mobile_v22/.tmp/resource-publications/31d8881ce39bc6b27c3401addccfc1a185dfbd26d20c72b4cc479ae1cc646bbb.json": {
-      "bytes": 423,
-      "sha256": "7f129e4960eda1bb893b3da7f21a645ce76db0b69dcba07debcce6cb29100fdb"
-    },
-    "ai-sessions/workspace_m293a9tg/wprefabs/dragon_fx_mobile_v22/.tmp/resource-publications/328696d4a93846c1fc45f311744a7ef49897cd4bc1117ac9ef9dfedb625bc78c.json": {
-      "bytes": 423,
-      "sha256": "cfec7faba2dfe39ba41874732532e1cd2e7fd06813784283548c6dd0eaa23e63"
-    },
-    "ai-sessions/workspace_m293a9tg/wprefabs/dragon_fx_mobile_v22/.tmp/resource-publications/63d2f3b15c856dfd9a917a8b8a18fdc4cb66c468970df65ea5cfe62d981bb448.json": {
-      "bytes": 423,
-      "sha256": "6b379d67191eebfc412f201e6acf09e0de05e04d70ea8c12d315bfef8554b6d0"
-    },
-    "ai-sessions/workspace_m293a9tg/wprefabs/dragon_fx_mobile_v22/.tmp/resource-publications/ad6d7e25819854a0400a7f834264b7986abf0e3ca1fbc024a0f1d4b51c6b4625.json": {
-      "bytes": 423,
-      "sha256": "1d51810aa5d78b488520a90a11301eb0bf28b17b6519c9a798efd89ad6d414f0"
-    },
-    "ai-sessions/workspace_m293a9tg/wprefabs/dragon_fx_mobile_v22/.tmp/resource-publications/b84c22fcc1a1cdb2911fa7e85bc249c5c5245ec6a89919acadf53d41c9b8e77b.json": {
-      "bytes": 432,
-      "sha256": "d53d91cf0d84f6154d0109cea5ee94599fdad803df38cb1c5a5b6a625679769b"
-    },
-    "ai-sessions/workspace_m293a9tg/wprefabs/dragon_fx_mobile_v22/.tmp/resource-publications/c86c13308fe587800ed03416632945bbef3a4e649d060e48d7a47692e1e688cf.json": {
-      "bytes": 423,
-      "sha256": "f9458d55b12b60fed2e923b3fd878fd5145f218281196ea074322864bf49662d"
-    },
-    "ai-sessions/workspace_m293a9tg/wprefabs/dragon_fx_mobile_v22/.tmp/resource-publications/e2d2feb866d85a341119d85376c8e70497c447986fd511f00f172690e139b3c3.json": {
-      "bytes": 432,
-      "sha256": "4c69f676ba538049166237bf4a3909a821a37fab90cf09d2f9541890a2a76da1"
-    },
-    "ai-sessions/workspace_m293a9tg/wprefabs/dragon_fx_mobile_v22/.tmp/resource-publications/e903c70b797af238b711732cc9aa4ee527e9a08bd0270e02d23332c17c164746.json": {
-      "bytes": 432,
-      "sha256": "6bb885f23799746a66a0b2ab24925e01f20f280e19745f3f7057c3e6119f7c37"
-    },
-    "ai-sessions/workspace_m293a9tg/wprefabs/dragon_fx_mobile_v22/.tmp/resource-publications/ff9eaa8e96af98aa2d919f9b71985a85b27879bbf7dbc98191e4875b1886b220.json": {
-      "bytes": 432,
-      "sha256": "4b8493d1743b6039f2db07eccb5f5b4967cde6ddd60265a8d41356b8d51bdbfd"
-    },
     "ai-sessions/workspace_m293a9tg/wprefabs/dragon_fx_mobile_v22/assets/audio/audio-combat-original-bow/audio.wav": {
       "bytes": 8678,
       "sha256": "3fe85a6f35493de6cee77100ffda58cd5d95dfe0d16f79c1d614a7ff1b6a3acc"
@@ -3097,22 +3045,6 @@
       "bytes": 16469995,
       "sha256": "5c890a3928e0c5c72d095aba421893633128588214aadc0ba76fe4e4e275c241"
     },
-    "ai-sessions/workspace_m293a9tg/wprefabs/mobile_actors_v23/.tmp/resource-publications/2ec4d92a4104ce88480b57c8d63bfc96703d626f7235a5e8e29a7de03603cd51.json": {
-      "bytes": 423,
-      "sha256": "6a25d1da6a6b245c430c9ac546c8aa5d71fce8b3403383486963918ac3a07c4c"
-    },
-    "ai-sessions/workspace_m293a9tg/wprefabs/mobile_actors_v23/.tmp/resource-publications/5dcd1341c489750f2f7e1528128e24baeb4d4f91e0da877bde2ab7baa8b490b6.json": {
-      "bytes": 423,
-      "sha256": "01a0d258da6e97d1fbbed0c0db6c3fb888f316431407a5237a36f6b4c4f37f8d"
-    },
-    "ai-sessions/workspace_m293a9tg/wprefabs/mobile_actors_v23/.tmp/resource-publications/610083d030294554fe02730e020bf416643a11e32114ca2c875f2550a2e53b4e.json": {
-      "bytes": 423,
-      "sha256": "032b568d383b70e8b389a215b8ee3fe99193b678ad7b04a1e9e38ff79e1e7fc0"
-    },
-    "ai-sessions/workspace_m293a9tg/wprefabs/mobile_actors_v23/.tmp/resource-publications/8e46d10469faa8332ae2a773de5a0646167e78c00983ca92045be99d04326afd.json": {
-      "bytes": 423,
-      "sha256": "7452e66e5bd0ba074d4446a323a21bbe58cd9d66ce00bb5d3640228b0467088d"
-    },
     "ai-sessions/workspace_m293a9tg/wprefabs/mobile_actors_v23/assets/models/model-dragon-v8-live/meta.json": {
       "bytes": 210,
       "sha256": "20c3a236e235efa777b6ce58a74ec5cfc998cf12859323771edfb93802c778a0"
@@ -3332,10 +3264,6 @@
     "ai-sessions/workspace_m293a9tg/wprefabs/mobile_actors_v23/scripts/tripo_sheep_motion.lua": {
       "bytes": 2876,
       "sha256": "80240c1b4f69e9788aeb30b10ea8bdae9a044ef80018c07f0dbb7add9183635b"
-    },
-    "ai-sessions/workspace_m293a9tg/wprefabs/mobile_fixture/.tmp/resource-publications/011d3b654a8bd47ee290c346be85498bc82c25ac4b76fc8dc899a36dc5a47995.json": {
-      "bytes": 423,
-      "sha256": "21d0a0718e3f0112b55481543bf73fce28deb2418823366c25af46b9144cf82b"
     },
     "ai-sessions/workspace_m293a9tg/wprefabs/mobile_fixture/assets/models/model-horse-no-animation/meta.json": {
       "bytes": 214,
@@ -4842,8 +4770,8 @@
       "sha256": "b19755535d8b070e8e2bce28f0ec92ed36e00a3c3d7999c0b81885f536719c7c"
     },
     "scene.data": {
-      "bytes": 15545332,
-      "sha256": "673742f831afab0487784ec8bc8436aaaa6a82adfec53ba76b5c97235f5f9366"
+      "bytes": 15632112,
+      "sha256": "74dbab4b79702e5464ca77371556b662cf62ed3918fabe0db94fc87f6e6d2231"
     },
     "scripts/client/index.lua": {
       "bytes": 44,
@@ -5397,6 +5325,74 @@
       "bytes": 16470051,
       "sha256": "80aff2be40692e2333916a38558295e9aef72c977aabe118deedf73b796ac95c"
     },
+    "scripts/modules/imported/prefab_21/horse_seat_v1.lua": {
+      "bytes": 47985,
+      "sha256": "b006413ad3a3bfb22af6d2c4a17f3e5edb985815a13cf5123c15ceaccd8ce242"
+    },
+    "scripts/modules/imported/prefab_21/scene_sheep_sound.lua": {
+      "bytes": 350887,
+      "sha256": "2f9c53bb8b5f030ef97bcbd4bfd87ace6256cb92dd8f3784907b30f8bb6b9e87"
+    },
+    "scripts/modules/imported/prefab_21/scene_vehicle_carpet.lua": {
+      "bytes": 40860,
+      "sha256": "edf64f4e497ba7a73ed4be7e2f0cf1b2d5eba387f7711a053463a7a84f53a666"
+    },
+    "scripts/modules/imported/prefab_21/tripo_sheep_motion.lua": {
+      "bytes": 9788,
+      "sha256": "ac0d5a28b4e757151f39a58a501e9c8bd747acb0b47baae7cfeadad269b7ca20"
+    },
+    "scripts/modules/imported/prefab_22/dragon_combat.lua": {
+      "bytes": 26847,
+      "sha256": "6523c8a48deb7a5aacddcbe073a339534625eb23a6829e92ca0fd22333d2e1dd"
+    },
+    "scripts/modules/imported/prefab_22/dragon_combat_rules.lua": {
+      "bytes": 11242,
+      "sha256": "1adce7eea99172eaac77f5f48cb233435a20f5df1a0180007b2296433cdf98fd"
+    },
+    "scripts/modules/imported/prefab_22/dragon_daycycle.lua": {
+      "bytes": 7353,
+      "sha256": "b76f36e4c33c4276925c9754ae0aded8fdb69f4cd916963e84802bff2765390c"
+    },
+    "scripts/modules/imported/prefab_22/dragon_exploration.lua": {
+      "bytes": 31769,
+      "sha256": "76f187f00d0316a4c03e26e9b97a8843c8ff95d09cd335a24d9f270f5d8f5cf8"
+    },
+    "scripts/modules/imported/prefab_22/dragon_fx.lua": {
+      "bytes": 26264,
+      "sha256": "d7dc5fcd83dce884344e7376b981892021f03a84feff3ac7b986b6e2920e87f0"
+    },
+    "scripts/modules/imported/prefab_22/dragon_outfits.lua": {
+      "bytes": 46393,
+      "sha256": "09ae59a8ab975b798bb58a7b5cfbf554ca841e6ee64b5fb970ba899844163b7b"
+    },
+    "scripts/modules/imported/prefab_22/dragon_progress.lua": {
+      "bytes": 3296,
+      "sha256": "75b16fe328c47231616e929aa819e7a39476bf657fdaf5f710cdaf9191d61aec"
+    },
+    "scripts/modules/imported/prefab_22/dragon_progress_rules.lua": {
+      "bytes": 6946,
+      "sha256": "8f16134aa2dd60147b9e36650bd8f3a24517ee89bfdca0a7854f0b9d0f413d84"
+    },
+    "scripts/modules/imported/prefab_22/dragon_rpg.lua": {
+      "bytes": 37130,
+      "sha256": "1590689a0ece83189d7a7eec9585129937bf9339fc96c3383eab7966b63f6708"
+    },
+    "scripts/modules/imported/prefab_22/dragon_rules.lua": {
+      "bytes": 3766,
+      "sha256": "2ff363f419fb38218273e891c728dd2471ccf2fe50caf3a3f32e1c9daba589a5"
+    },
+    "scripts/modules/imported/prefab_22/dragon_timeline.lua": {
+      "bytes": 10392,
+      "sha256": "aba38d36c27f2b07a2957e19d0ee7c015173a6bd3fabcf6904657ac677996f7c"
+    },
+    "scripts/modules/imported/prefab_22/dragon_weapons.lua": {
+      "bytes": 42635,
+      "sha256": "98dfc7d1c47e7e62b085aa80bd6667c9b7430bed4b0e46a7e3e79c4cd866ddcf"
+    },
+    "scripts/modules/imported/prefab_22/dragon_world_bridge.lua": {
+      "bytes": 16482554,
+      "sha256": "27432acd032f76e54113763a4f0a45986a92309be1be41b58d5b8ecea4c6a934"
+    },
     "scripts/modules/imported/prefab_27/dragon_combat.lua": {
       "bytes": 20466,
       "sha256": "a94d281b8a4bacf8576becab646173584896ec3bea27f36b015f506c06e861c7"
@@ -5686,8 +5682,8 @@
       "sha256": "2bc18f2d3b1cee6e378cedbe95587c84c3854f45d25bc1317b55474abda311ad"
     },
     "scripts/scene_vehicle_boat.lua": {
-      "bytes": 5619,
-      "sha256": "1d75d684882337744da3b5ad06b26a8afbd657a1a2696d360661c7cee1ef45fb"
+      "bytes": 6011,
+      "sha256": "dfcbbc2ca64643ae4e59eebb5de7171dde9b6eb0ebb4013f79c7d189ad631667"
     },
     "scripts/scene_vehicle_carpet.lua": {
       "bytes": 40437,
@@ -5703,7 +5699,7 @@
     },
     "world-config.json": {
       "bytes": 1770,
-      "sha256": "7d8d663c8ad981a5cb5fde3e14aa2bb711486139b2da2bc8395d67697b29adc1"
+      "sha256": "34e4604f898302597982ca848c1df0fc61d961115408c988ced8a9e8d975354e"
     }
   }
 }

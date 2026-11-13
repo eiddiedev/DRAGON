@@ -1,0 +1,154 @@
+UI.motion={}
+function UI.setupSkyMotion()
+    local state=UI.motion
+    if not skyReady then return end
+    if not state.sky then
+        local shader=UnityEngine.Shader.Find('Universal Render Pipeline/Unlit')
+        local urp=shader~=nil
+        if not shader then shader=UnityEngine.Shader.Find('Unlit/Transparent') end
+        assert(shader,'No transparent sky shader available')
+        state.sky={}
+        for _,go in ipairs(dayObjects) do go:SetActive(true) end
+        for _,go in ipairs(nightObjects) do
+            go:SetActive(true)
+            local isSwirl=string.sub(go.name,1,10)=='sky_swirl_'
+            if isSwirl then go.transform.localScale=go.transform.localScale*1.25 end
+            local rs=go:GetComponentsInChildren(typeof(UnityEngine.Renderer),true)
+            for i=0,rs.Length-1 do
+                local old=rs[i].material
+                local m=UnityEngine.Material(shader)
+                local tex=nil
+                for _,key in ipairs({'_BaseTex','_BaseMap','_MainTex'}) do
+                    if old:HasProperty(key) then tex=old:GetTexture(key);if tex then break end end
+                end
+                if not tex then tex=old.mainTexture end
+                assert(tex,'Missing sky texture: '..go.name)
+                m:SetTexture(urp and '_BaseMap' or '_MainTex',tex)
+                m:SetColor(urp and '_BaseColor' or '_Color',Color(1,1,1,1))
+                if urp then
+                    m:SetFloat('_Surface',1);m:SetFloat('_Blend',0)
+                    m:SetFloat('_SrcBlend',5);m:SetFloat('_DstBlend',10);m:SetFloat('_ZWrite',0)
+                    m:SetFloat('_Cull',0);m:EnableKeyword('_SURFACE_TYPE_TRANSPARENT')
+                end
+                -- Dome bounds are centred near the camera, so distance sorting can
+                -- incorrectly draw the opaque night dome over the distant vortex.
+                local queues={sky_dome2=2990,sky_moon2=2991,sky_swirl_a=2992,sky_swirl_b=2993,sky_swirl_c=2994}
+                m.renderQueue=queues[go.name] or 3000
+                if isSwirl then report('sky layer '..go.name..' tex='..tex.name..' bounds='..tostring(rs[i].bounds)..' shader='..old.shader.name) end
+                rs[i].material=m
+                state.sky[#state.sky+1]={m=m,prop=urp and '_BaseColor' or '_Color',gain=isSwirl and 1.8 or 1}
+            end
+        end
+        SWIRL_LAYERS.fade=function(t)
+            for _,v in ipairs(state.sky) do v.m:SetColor(v.prop,Color(v.gain,v.gain,v.gain,1-t)) end
+        end
+        SWIRL_LAYERS.fade(blend*blend*(3-2*blend))
+        report('sky crossfade ready '..#state.sky)
+    end
+end
+function UI.setupWindmillMotion()
+    local state=UI.motion
+    if state.rotor then return true end
+    local source=GameObject.Find('windmill')
+    if not source then state.windStatus='waiting model';return false end
+    local transforms=source:GetComponentsInChildren(typeof(UnityEngine.Transform),true)
+    for i=0,transforms.Length-1 do
+        if transforms[i].name=='windmill_rotor_pivot' then
+            state.rotor=transforms[i];state.windStatus='authored rotor ready';return true
+        end
+    end
+    if not state.rotor then
+        local go=source
+        if not go then return end
+        local fs=go:GetComponentsInChildren(typeof(UnityEngine.MeshFilter),true)
+        for k=0,fs.Length-1 do
+            local mf=fs[k]
+            if mf.gameObject.name=='main' and mf.sharedMesh~=nil then
+                local mesh=mf.mesh
+                local vertices=mesh.vertices
+                local tris=mesh.triangles
+                local factor=mesh.bounds.size.y/22.301563262939453
+                local oy=mesh.bounds.min.y+2*factor
+                local oz=mesh.bounds.center.z
+                -- Identify disconnected boxes, welding UV seams for connectivity.
+                local parents,keys={},{}
+                local function find(i)
+                    while parents[i]~=i do parents[i]=parents[parents[i]];i=parents[i] end
+                    return i
+                end
+                for i=0,vertices.Length-1 do
+                    local v=vertices[i]
+                    local key=string.format('%.5f,%.5f,%.5f',v.x/factor,(v.y-oy)/factor,(v.z-oz)/factor)
+                    parents[i]=keys[key] or i;keys[key]=parents[i]
+                end
+                for i=0,tris.Length-1,3 do
+                    local a,b,c=find(tris[i]),find(tris[i+1]),find(tris[i+2]);parents[b]=a;parents[c]=a
+                end
+                local bounds={}
+                for i=0,vertices.Length-1 do
+                    local id=find(i);local v=vertices[i];local z=(v.z-oz)/factor;local y=(v.y-oy)/factor
+                    local b=bounds[id] or {lo=1e9,hi=-1e9,y=1e9};bounds[id]=b
+                    b.lo=math.min(b.lo,z);b.hi=math.max(b.hi,z);b.y=math.min(b.y,y)
+                end
+                local fixed,moving={},{}
+                for i=0,tris.Length-1,3 do
+                    local b=bounds[find(tris[i])]
+                    local dst=(((b.lo>3.79 and b.hi<4.11) or (b.lo> -4.11 and b.hi< -3.79)) and b.y>2.4) and moving or fixed
+                    dst[#dst+1]=tris[i];dst[#dst+1]=tris[i+1];dst[#dst+1]=tris[i+2]
+                end
+                assert(#moving>100 and #fixed>100,'Rotor geometry not identified')
+                local function array(t)
+                    local a=CS.System.Array.CreateInstance(typeof(CS.System.Int32),#t)
+                    for i=1,#t do a[i-1]=t[i] end
+                    return a
+                end
+                local rotating=UnityEngine.Object.Instantiate(mesh)
+                mesh.triangles=array(fixed);rotating.triangles=array(moving)
+                local rotorZ=0
+                for _,idx in ipairs(moving) do rotorZ=rotorZ+vertices[idx].z end
+                rotorZ=rotorZ/#moving
+                local pivot=GameObject('windmill_rotor_pivot');pivot.transform:SetParent(mf.transform,false)
+                pivot.transform.localPosition=Vector3(mesh.bounds.center.x,oy+11.4*factor,rotorZ)
+                local rotor=GameObject('windmill_rotor');rotor.transform:SetParent(pivot.transform,false)
+                rotor.transform.localPosition=-pivot.transform.localPosition
+                rotor:AddComponent(typeof(UnityEngine.MeshFilter)).sharedMesh=rotating
+                rotor:AddComponent(typeof(UnityEngine.MeshRenderer)).sharedMaterials=mf.gameObject:GetComponent(typeof(UnityEngine.MeshRenderer)).sharedMaterials
+                local coll=mf.gameObject:GetComponent(typeof(UnityEngine.MeshCollider));if coll then coll.sharedMesh=mesh end
+                state.rotor=pivot.transform
+                report('windmill rotor ready triangles='..#moving/3)
+                break
+            end
+        end
+    end    if state.rotor then state.windStatus='legacy rotor ready';return true end
+    state.windStatus='waiting main mesh';return false
+end
+-- Sky/texture failure must never gate the unrelated windmill.
+function UI.updateMotion()
+    local state=UI.motion
+    local now=Time.realtimeSinceStartup
+    if skyReady and not state.sky and now>=(state.skyRetryAt or 0) and (state.skyAttempts or 0)<10 then
+        state.skyRetryAt=now+2;state.skyAttempts=(state.skyAttempts or 0)+1
+        local ok,err=pcall(UI.setupSkyMotion)
+        if not ok and state.skyError~=tostring(err) then state.skyError=tostring(err);report('sky motion pending '..state.skyError)end
+    end
+    if not state.rotor and now>=(state.windRetryAt or 0) and (state.windAttempts or 0)<60 then
+        state.windRetryAt=now+2;state.windAttempts=(state.windAttempts or 0)+1
+        local ok,err=pcall(UI.setupWindmillMotion)
+        if not ok then
+            state.windStatus='model init pending'
+            -- Never retry a CPU mesh failure every frame or poison sky state.
+            if state.windError~=tostring(err)then state.windError=tostring(err);report('windmill pending '..state.windError)end
+        end
+        if state.windAttempts==60 and not state.rotor then state.windStatus='model timeout';report('windmill model timeout after 60 bounded attempts')end
+    end
+    if state.rotor then
+        local ok=pcall(function()state.rotor:Rotate(0,0,18*math.min(Time.deltaTime,.1))end)
+        if not ok then
+            -- A streamed model may be replaced. Rebind only after the next 2s interval.
+            state.rotor=nil;state.windAttempts=0;state.windRetryAt=now+2;state.windStatus='waiting replacement'
+        end
+    end
+end
+function GetWindmillDiagnostics()
+    return {status=UI.motion.windStatus or 'pending',attempts=UI.motion.windAttempts or 0,error=UI.motion.windError,rotor=UI.motion.rotor~=nil}
+end

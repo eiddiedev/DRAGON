@@ -1,0 +1,144 @@
+{
+  "review_zip": "/Users/bytedance/Downloads/world_dev_unity_143175468-dsst-PROD.zip",
+  "zip_bytes": 123746748,
+  "zip_sha256": "105d194f6d41a678e25942413bf5669f2be7a9713e61682ac647be070a34d8df",
+  "scene_entry_timestamp": [
+    2026,
+    11,
+    13,
+    10,
+    57,
+    44
+  ],
+  "scene_sha256": "7b666d14403e6b6ec235f998489e859fd2ec1383b1c9be0bc56729c8ae66bacf",
+  "is_open_streaming_load": true,
+  "water_nodes": [
+    {
+      "id": -2071044909,
+      "name": "海洋",
+      "in_archive": true,
+      "same_as_saved": {
+        "basic": true,
+        "landscape": true,
+        "physics": true
+      }
+    },
+    {
+      "id": -1442080189,
+      "name": "PCGRiverEditor",
+      "in_archive": true,
+      "same_as_saved": {
+        "basic": true,
+        "landscape": true,
+        "physics": true
+      },
+      "river_parameters": {
+        "version": 2,
+        "kind": 2,
+        "waterNodeId": -1442080189,
+        "terrainNodeId": 3193404,
+        "editorMeshSnapshotVersion": 1,
+        "editorMeshSnapshotRefId": -1023288916,
+        "editorMeshSnapshotChecksum": 2425906157,
+        "depth": 3.0,
+        "riverWidth": 19.6,
+        "isReverse": true
+      },
+      "control_points": 13,
+      "terrain_reference_exists": true,
+      "snapshot_reference": {
+        "id": -1023288916,
+        "resourceType": 1,
+        "pathOrUrl": "editor_water/-1442080189_river_mesh.bin"
+      },
+      "snapshot_integrity": {
+        "bytes": 348213,
+        "sha256": "edaa6d05303970f7ce47dce24ed9f26921a0def5ff3730b9a69019a34c7cfe96",
+        "crc32": 2425906157,
+        "matches_envelope": true,
+        "matches_zip_crc": true
+      },
+      "water_body_authoring": null,
+      "legacy_mesh_params": {
+        "width": 4.0,
+        "averageDepth": 1.0,
+        "buildCrossSection": false,
+        "bottomWidth": 2.0,
+        "sideSlope": 1.0,
+        "vertexDistance": 1.0,
+        "waterfallSlopeThreshold": 1.0,
+        "yMode": 1,
+        "terrainYOffset": 0.0,
+        "adaptiveBankWaterLevel": false,
+        "bankFreeboard": 0.30000001192092896,
+        "waterSampleWidth": 0.0,
+        "buildBankSkirt": true,
+        "riverShaderPath": "Douyin/World/ENV/Water",
+        "waterfallShaderPath": "",
+        "riverShaderProps": [],
+        "waterfallShaderProps": [],
+        "flowmap": {
+          "enabled": true,
+          "resolution": 512,
+          "paddingMeters": 0.0,
+          "fadeWidthMeters": 0.0,
+          "format": 4,
+          "filterMode": 1,
+          "flowSpeed": 0.10000000149011612,
+          "flowmapPropertyName": "_FlowMap",
+          "worldOffsetPropertyName": "_FlowMapWorldOffset",
+          "worldSizePropertyName": "_FlowMapWorldSize",
+          "flowSpeedPropertyName": "_FlowSpeed"
+        }
+      }
+    }
+  ],
+  "serialized_trigger_groups": [
+    {
+      "id": -2135030174,
+      "parent_id": -1442080189,
+      "children": 1744,
+      "children_with_physics_data": 0,
+      "children_with_trigger_data": 0,
+      "children_with_other_components": 0
+    },
+    {
+      "id": 716036077,
+      "parent_id": -1442080189,
+      "children": 1744,
+      "children_with_physics_data": 0,
+      "children_with_trigger_data": 0,
+      "children_with_other_components": 0
+    },
+    {
+      "id": 631794922,
+      "parent_id": -1442080189,
+      "children": 1744,
+      "children_with_physics_data": 0,
+      "children_with_trigger_data": 0,
+      "children_with_other_components": 0
+    },
+    {
+      "id": 1843030645,
+      "parent_id": -1442080189,
+      "children": 1744,
+      "children_with_physics_data": 0,
+      "children_with_trigger_data": 0,
+      "children_with_other_components": 0
+    },
+    {
+      "id": -2737369,
+      "parent_id": -1442080189,
+      "children": 1744,
+      "children_with_physics_data": 0,
+      "children_with_trigger_data": 0,
+      "children_with_other_components": 0
+    }
+  ],
+  "riverExportRuntime_literal_in_json": false,
+  "limitations": [
+    "This dsst ZIP is the earlier supplied review package, not evidence of the user's latest failing v26 package.",
+    "Serialized trigger node shells do not prove native water trigger/proxy registration in the consumer runtime.",
+    "No current consumer runtime log or latest review ZIP is available in these inputs."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "filename": "world_dev_unity_143196218-kezd-PROD.zip",
+  "bytes": 134890936,
+  "sha256": "2ea0d0e5fa7150589b85bb8c5b0fb2078101cd835671b0662c94899543abd3c6",
+  "format": "raw-byte-parts",
+  "chunk_bytes": 50331648,
+  "parts": [
+    {
+      "name": "world_dev_unity_143196218-kezd-PROD.zip.part001",
+      "bytes": 50331648,
+      "sha256": "8d71bc487d9d3f7f8f499e411342001836a1e6699b6d75bfeafb6ace7fba548f"
+    },
+    {
+      "name": "world_dev_unity_143196218-kezd-PROD.zip.part002",
+      "bytes": 50331648,
+      "sha256": "4f7bb5c16ed340cf5efbe39e63c4a9a7e77afb37992910ede7de8dfb35f3721e"
+    },
+    {
+      "name": "world_dev_unity_143196218-kezd-PROD.zip.part003",
+      "bytes": 34227640,
+      "sha256": "726ad8fcba50b55af71f70bde9a4891074608fb8c43681cbb07c1351c0249fc4"
+    }
+  ],
+  "note": "Reassemble in listed order; original ZIP bytes unchanged. No Git LFS dependency."
+}

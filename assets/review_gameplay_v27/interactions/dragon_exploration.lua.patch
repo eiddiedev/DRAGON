@@ -1,0 +1,419 @@
+--- formal/dragon_exploration.lua
++++ review-v27/dragon_exploration.lua
+@@ -6,26 +6,30 @@
+ local V=U.Vector3
+ local V2=U.Vector2
+ local scope=require('official.core.runtime_scope').from(self)
+--- mobile-v23: resolve each dependency at most once a second, at most 30 attempts.
+-do
+- local target=scope
+- local original=target.GetScript
+- local memo,attempts,nextAt={},{},{}
+- local failures={}
+- target.GetScript=function(_,name)
+-  if memo[name] then return memo[name] end
+-  local now=CS.UnityEngine.Time.realtimeSinceStartup
+-  if (attempts[name] or 0)>=30 or now<(nextAt[name] or 0) then return nil end
+-  attempts[name]=(attempts[name] or 0)+1;nextAt[name]=now+1
+-  local ok,value=pcall(original,target,name)
+-  if ok and value then memo[name]=value;return value end
+-  if attempts[name]==30 then failures[name]=tostring(value or 'not loaded');print('[mobile-v23] dependency failed: '..name..' '..failures[name]) end
+-  return nil
+- end
+- function GetDependencyDiagnostics() return {build='mobile-v23',attempts=attempts,failures=failures} end
+- local destroy=OnDestroy
+- -- Installed after lifecycle definitions below; clears references on scene exit.
+- ReleaseMobileDependencies=function()memo={};attempts={};nextAt={};failures={} end
++-- review-v27: private cache. Never replace the shared runtime-scope resolver.
++local getDependency
++local dependencyMemo,dependencyAttempts,dependencyNextAt,dependencyFailures={},{},{},{}
++getDependency=function(name)
++ if dependencyMemo[name] then return dependencyMemo[name] end
++ local now=CS.UnityEngine.Time.realtimeSinceStartup
++ if now<(dependencyNextAt[name] or 0) then return nil end
++ local attempt=(dependencyAttempts[name] or 0)+1
++ dependencyAttempts[name]=attempt
++ -- Fast initial readiness checks, then bounded slow recovery for streamed resources.
++ dependencyNextAt[name]=now+(attempt<30 and 1 or 5)
++ local ok,value=pcall(function()return scope:GetScript(name)end)
++ if ok and value then
++  dependencyMemo[name]=value;dependencyFailures[name]=nil
++  if attempt>=30 then print('[review-v27] dependency recovered: '..name) end
++  return value
++ end
++ dependencyFailures[name]=tostring(value or 'not loaded')
++ if attempt==30 then print('[review-v27] dependency waiting: '..name..' '..dependencyFailures[name]) end
++ return nil
++end
++function GetDependencyDiagnostics()return{build='review-v27',attempts=dependencyAttempts,failures=dependencyFailures}end
++local function ReleaseMobileDependencies()
++ dependencyMemo={};dependencyAttempts={};dependencyNextAt={};dependencyFailures={}
+ end
+ 
+ local progress,rules,cycle,main,actor
+@@ -40,6 +44,9 @@
+ local callback=nil
+ local pendingClass=nil
+ local lastScan=-100
++local uiReady=false
++local nextUiAttempt=0
++local discovery=nil
+ local lastPosition=nil
+ local eggs={}
+ local eggStage=-1
+@@ -63,7 +70,7 @@
+ local buffHud=nil
+ local LORE_TOTAL=8
+ local function toast(s)CS.DouyinUtility.Toast(s or '')end
+-local function battleScript()return scope:GetScript('dragon_combat.lua')end
++local function battleScript()return getDependency('dragon_combat.lua')end
+ 
+ function IsBattleActive()local b=battleScript();return b and b.IsParticipating()or false end
+ function GetLoreCount()return lore.n end
+@@ -86,6 +93,7 @@
+  if main then main.SetExplorationMenu(false)end
+ end
+ local function open(kind)
++ if not uiReady then toast('页面资源仍在准备，请稍后重试');return false end
+  if unavailable()then toast('请先结束战斗或骑乘');return false end
+  mode=kind;dim:SetActive(true)
+  book.go:SetActive(kind=='tasks');roast.go:SetActive(kind=='cook');reader.go:SetActive(kind=='lore')
+@@ -98,16 +106,36 @@
+  end)
+  if not ok then toast(why)end;return ok,why
+ end
++local function targetPosition(t)
++ if not t then return nil end
++ local go=t.go
++ if go then
++  if t.localOffset then return go.transform:TransformPoint(t.localOffset)end
++  return go.transform.position
++ end
++ if t.secondaryRef and t.secondaryRef.go then
++  return t.secondaryRef.go.transform:TransformPoint(t.secondaryOffset)
++ end
++ return t.position
++end
++local function targetDistance(t,p)
++ if t.kind=='lore'then
++  local dx=actor.position.x-p.x;local dz=actor.position.z-p.z
++  return math.sqrt(dx*dx+dz*dz)
++ end
++ return V.Distance(actor.position,p)
++end
+ local function nearby(t)
+  if not actor or not t then return false end
+- local p=t.go and t.go.transform.position or t.position
+- if t.kind=='witch' and p then
++ local p=targetPosition(t)
++ if not p or math.abs(actor.position.y-p.y)>=(t.height or 4)or targetDistance(t,p)>=t.radius then return false end
++ if t.kind=='witch' then
+   local hits=U.Physics.RaycastAll(actor.position+V(0,1,0),(p+V(0,1,0))-(actor.position+V(0,1,0)),V.Distance(actor.position,p),-1,U.QueryTriggerInteraction.Ignore)
+   for i=0,hits.Length-1 do local tr=hits[i].transform
+    while tr do if tr.name=='witch_shop_v2' then return false end;tr=tr.parent end
+   end
+  end
+- return p and math.abs(actor.position.y-p.y)<(t.height or 4)and V.Distance(actor.position,p)<t.radius
++ return true
+ end
+ 
+ ---------------------------------------------------------------- 药水与蘑菇的临时效果
+@@ -132,7 +160,7 @@
+  buff={kind=kind,untilTime=U.Time.time+(kind=='speed'and 20 or 10),speed=actor.speed}
+  if kind=='speed'then
+   actor.speed=buff.speed*1.7
+-  local fx=scope:GetScript('dragon_fx.lua');if fx then pcall(function()fx.Area('ranged','skill1',actor.position+V(0,.4,0),1)end)end
++  local fx=getDependency('dragon_fx.lua');if fx then pcall(function()fx.Area('ranged','skill1',actor.position+V(0,.4,0),1)end)end
+  else
+   actor.speed=buff.speed*.7
+   if main then main.SetDizzy(10)end
+@@ -141,7 +169,7 @@
+ local function applyPotion(kind)
+  restorePotion();restoreBuff();if unavailable()then return end
+  potion={kind=kind,untilTime=U.Time.time+10,speed=actor.speed,scale=actor.scale}
+- local fx=scope:GetScript('dragon_fx.lua');if fx then fx.Area('mage','skill1',actor.position+V(0,.5,0),1)end
++ local fx=getDependency('dragon_fx.lua');if fx then pcall(function()fx.Area('mage','skill1',actor.position+V(0,.5,0),1)end)end
+  if kind=='wind'then actor.speed=potion.speed*1.8
+  elseif kind=='grow'then actor.scale=potion.scale*3.5
+  elseif kind=='shrink'then actor.scale=math.max(.3,potion.scale*.6)
+@@ -169,7 +197,7 @@
+ function ClearPotion()restorePotion();restoreBuff()end
+ function OpenContract(respec,continuation)
+  -- Stable dependency: do not rescan the whole resource after every UI close.
+- if not contractRpg then contractRpg=scope:GetScript('dragon_rpg.lua')end
++ if not contractRpg then contractRpg=getDependency('dragon_rpg.lua')end
+  local rpg=contractRpg
+  -- Reconcile the owner with the actual shared page, including interrupted closes.
+  if rpg and rpg.IsContractOpen and not rpg.IsContractOpen()then
+@@ -319,8 +347,12 @@
+  potionBusy=true
+  local kind=({'grow','shrink','sheep'})[math.random(1,3)]
+  local ok=submit('brew',{potion=kind},function(repeated)
+-  if not repeated then applyPotion(kind);nextPotionAt=U.Time.time+1 end
+-  potionBusy=false
++  potionBusy=false -- Callback errors must not permanently lock the native potion button.
++  if not repeated then
++   nextPotionAt=U.Time.time+1
++   local applied,why=pcall(applyPotion,kind)
++   if not applied then restorePotion();restoreBuff();toast('药水暂时未准备好，请稍后重试');print('[review-v27] potion: '..tostring(why))end
++  end
+  end)
+  if not ok then potionBusy=false end
+ end
+@@ -331,7 +363,7 @@
+ local function interact()
+  if unavailable()or not current or not nearby(current)then return end
+  local kind=current.kind
+- if kind=='tree'then OpenContract(true,nil)
++ if kind=='tree'then local ok,why=OpenContract(true,nil);if not ok then toast('誓约之书正在准备，请稍后重试');print('[review-v27] contract: '..tostring(why))end
+  elseif kind=='witch'then witch()
+  elseif kind=='camp'then cook()
+  elseif kind=='lore'then readLore(current.id)
+@@ -342,8 +374,8 @@
+  elseif kind=='bed'then if main then main.ReplayPrologue()end
+  else submit('gather',{material=kind,isDay=cycle.IsDay()})end
+ end
+-local function buildUI()
+- if root then return true end
++local function buildUIInner()
++ if uiReady then return true end
+  K=main.GetKit();if not K then return false end
+  root=U.GameObject('DragonExplorationControls');local canvas=root:AddComponent(typeof(U.Canvas));canvas.renderMode=U.RenderMode.ScreenSpaceOverlay;canvas.sortingOrder=930
+  local scaler=root:AddComponent(typeof(U.UI.CanvasScaler));scaler.uiScaleMode=U.UI.CanvasScaler.ScaleMode.ScaleWithScreenSize;scaler.referenceResolution=V2(1920,1080);scaler.matchWidthOrHeight=1;root:AddComponent(typeof(U.UI.GraphicRaycaster))
+@@ -380,49 +412,128 @@
+  buffHud={go=bgo,label=K.img(brt,'buff_speed',nil,nil,-30,0)};buffHud.num=K.num(brt,'w',.9,70,0,0);bgo:SetActive(false)
+  return true
+ end
+-local function discover()
+- targets={}
+- if not altarPlaced then
+-  local altar=U.GameObject.Find('altar3')
+-  if altar then
+-   local p=altar.transform.position;local y=p.y+.4
+-   local hits=U.Physics.RaycastAll(V(p.x,p.y+20,p.z),V.down,25,-1,U.QueryTriggerInteraction.Ignore)
+-   for i=0,hits.Length-1 do local h=hits[i];if h.point.y>y and h.point.y<p.y+5 and h.normal.y>.6 then y=h.point.y end end
+-   local all=U.Resources.FindObjectsOfTypeAll(typeof(U.Transform))
+-   for i=0,all.Length-1 do local t=all[i];if string.match(t.name,'^tripo_egg_stage_[0-3]$')and t.gameObject.scene:IsValid()then t.position=V(p.x,y+.08,p.z)end end
+-   local rune=U.GameObject.Find('rune_0');if rune then local stone=U.Object.Instantiate(rune);stone.name='DragonPactMemorial';stone.transform.position=V(127,73.22,193.2);stone.transform.localScale=rune.transform.lossyScale*.55 end
+-   altarPlaced=true
+-  end
+- end
+- if not witchPlaced then
+-  local house=U.GameObject.Find('witch_shop_v2');local witch=U.GameObject.Find('tripo_witch')
+-  local staff=U.GameObject.Find('tripo_witch_staff');if staff then staff:SetActive(false)end
+-  local bottle=U.GameObject.Find('tripo_potion');if house and bottle then bottle.transform.position=house.transform.position+V(1,.65,.5)end
+-  if house and witch then witch.transform.position=house.transform.position+V(0,.15,0);witchPlaced=true end
+- end
+- local function add(name,kind,radius,caption,id)
+-  local go=U.GameObject.Find(name);if go then targets[#targets+1]={go=go,kind=kind,radius=radius,label=caption,id=id}end
+-  return go~=nil
+- end
+- add('holy_tree3','tree',9,'古树 · 重新立誓');add('tripo_witch','witch',2.8,'女巫 · 调制');add('camp','camp',4,'篝火 · 烤蘑菇')
+- local egg=U.GameObject.Find('tripo_egg_stage_0');if egg then targets[#targets+1]={position=egg.transform.position,kind='egg',radius=5,height=5,label='龙魂之卵 · 供奉'}end
+- for i=0,35 do add(i==0 and 'mush'or 'mush_'..i,'mushroom',3.5,'采集蘑菇')end
+- for i=0,8 do add('sheep_'..i,'wool',3,'取羊毛')end
+- -- Flowers are terrain decoration; one bounded collection patch avoids per-blade scripts.
+- targets[#targets+1]={position=V(150,40,62),kind='flower',radius=9,height=6,label='采集月见花'}
+- targets[#targets+1]={position=V(127,80.5,193),kind='bed',radius=3,height=2,label='重读序章'}
+- -- 手稿与碑文：书库三处、营地石碑、祭坛三柱、圣所契碑
+- targets[#targets+1]={position=V(115.4,73.3,177),kind='lore',id=1,radius=1.9,height=3,label='翻阅手稿'}
+- targets[#targets+1]={position=V(115.4,73.3,181),kind='lore',id=2,radius=1.9,height=3,label='翻阅手稿'}
+- targets[#targets+1]={position=V(117.6,73.5,179),kind='lore',id=3,radius=1.5,height=3,label='读桌上的信'}
+- if not add('tripo_camp_stele','lore',3,'读石碑',4)then targets[#targets+1]={position=V(64.7,43.5,65),kind='lore',id=4,radius=3,label='读石碑'}end
+- for i=0,2 do
+-  if not add('rune_'..i,'lore',3.6,'读柱上的铭文',5+i)then local q=({{48,138},{58.4,156},{37.6,156}})[i+1];targets[#targets+1]={position=V(q[1],52,q[2]),kind='lore',id=5+i,radius=3.6,height=6,label='读柱上的铭文'}end
+- end
+- targets[#targets+1]={position=V(127,73.3,193.2),kind='lore',id=8,radius=2.4,height=3,label='读契碑'}
+- local all=U.Resources.FindObjectsOfTypeAll(typeof(U.Transform))
+- for j=0,all.Length-1 do local t=all[j];local i=tonumber(string.match(t.name,'^tripo_egg_stage_(%d)$'))
+-  if i and i<=3 and t.gameObject.scene.IsValid and t.gameObject.scene:IsValid()then eggs[i]={go=t.gameObject,scale=t.localScale}end
++local function buildUI()
++ if uiReady then return true end
++ if U.Time.realtimeSinceStartup<nextUiAttempt then return false end
++ nextUiAttempt=U.Time.realtimeSinceStartup+1
++ local ok,result=pcall(buildUIInner)
++ if ok and result then uiReady=true;return true end
++ -- A failed construction must not leave a half-built canvas marked as ready.
++ if root then U.Object.Destroy(root)end
++ root=nil;dim=nil;book=nil;roast=nil;reader=nil;buffHud=nil
++ if not ok then print('[review-v27] exploration UI waiting: '..tostring(result))end
++ return false
++end
++
++-- Stable target records preserve the native button/click owner across late loads.
++-- Only exact gameplay names are queried, in bounded batches. No global resource scans.
++local function objectAlive(go)
++ if not go then return false end
++ local ok,live=pcall(function()return go.transform~=nil and go.scene:IsValid()end)
++ return ok and live
++end
++local function initDiscovery()
++ if discovery then return end
++ discovery={refs={},byName={},cursor=1,registered=0,missing=0,nextEggScan=0,memorialPlaced=false,bottlePlaced=false,staffHidden=false}
++ local function ref(name)
++  local r=discovery.byName[name]
++  if not r then r={name=name,attempts=0,nextAt=0};discovery.byName[name]=r;discovery.refs[#discovery.refs+1]=r end
++  return r
++ end
++ local function add(name,kind,radius,label,id,position,height)
++  local t={kind=kind,radius=radius,label=label,id=id,position=position,height=height}
++  if name then t.ref=ref(name) end
++  targets[#targets+1]=t;return t
++ end
++ add('holy_tree3','tree',9,'古树 · 重新立誓')
++ add('tripo_witch','witch',2.8,'女巫 · 调制')
++ add('camp','camp',4,'篝火 · 烤蘑菇')
++ discovery.eggTarget=add(nil,'egg',5,'龙魂之卵 · 供奉',nil,nil,5)
++ for i=0,35 do add(i==0 and 'mush'or'mush_'..i,'mushroom',3.5,'采集蘑菇')end
++ for _,i in ipairs({0,2,3,5})do add('sheep_'..i,'wool',3,'取羊毛')end
++ add(nil,'flower',9,'采集月见花',nil,V(150,40,62),6)
++ add(nil,'bed',3,'重读序章',nil,V(127,80.5,193),2)
++ local page1=add('tripo_castle_bookshelf_0','lore',3.2,'翻阅手稿',1,V(115.4,73.3,177),3);page1.localOffset=V(-.196,.28,0)
++ local page2=add('tripo_castle_bookshelf_1','lore',3.2,'翻阅手稿',2,V(115.4,73.3,181),3);page2.localOffset=V(-.196,.28,0)
++ local page3=add('书库桌上烛光','lore',2.6,'读桌上的信',3,V(117.6,73.5,179),3)
++ page3.localOffset=V(.6,0,0);page3.secondaryRef=ref('castle_gi_library');page3.secondaryOffset=V(9.4,73.5,-3)
++ add('tripo_camp_stele','lore',3,'读石碑',4,V(64.7,43.5,65))
++ for i=0,2 do local q=({{48,138},{58.4,156},{37.6,156}})[i+1]
++  add('rune_'..i,'lore',3.6,'读柱上的铭文',5+i,V(q[1],52,q[2]),6)
++ end
++ add('DragonPactMemorial','lore',3.2,'读契碑',8,V(127,73.3,193.2),3)
++ for _,name in ipairs({'altar3','witch_shop_v2','tripo_witch_staff','tripo_potion'})do ref(name)end
++ for i=0,3 do ref('tripo_egg_stage_'..i)end
++end
++local function refreshDiscovery()
++ initDiscovery()
++ local now=U.Time.realtimeSinceStartup
++ local refs=discovery.refs
++ local queries=0
++ for _=1,#refs do
++  local r=refs[discovery.cursor];discovery.cursor=discovery.cursor%#refs+1
++  if r.go and not objectAlive(r.go)then r.go=nil;r.nextAt=0 end
++  if not r.go and now>=r.nextAt then
++   r.attempts=r.attempts+1;r.nextAt=now+(r.attempts<3 and 2 or 10)
++   r.go=U.GameObject.Find(r.name)
++   queries=queries+1
++   if queries>=8 then break end
++  end
++ end
++ local function get(name)local r=discovery.byName[name];return r and r.go end
++ local house,witch=get('witch_shop_v2'),get('tripo_witch')
++ local staff,bottle=get('tripo_witch_staff'),get('tripo_potion')
++ if staff and not discovery.staffHidden then staff:SetActive(false);discovery.staffHidden=true end
++ if house and bottle and not discovery.bottlePlaced then bottle.transform.position=house.transform.position+V(1,.65,.5);discovery.bottlePlaced=true end
++ if house and witch and not witchPlaced then witch.transform.position=house.transform.position+V(0,.15,0);witchPlaced=true end
++ local eggAnchor=nil
++ local allEggs=true
++ for i=0,3 do
++  local go=get('tripo_egg_stage_'..i)
++  if go then eggAnchor=eggAnchor or go else allEggs=false end
++ end
++ -- Inactive egg stages are siblings of the live stage in the saved world.
++ -- A local parent traversal (only until all four arrive) includes inactive siblings.
++ if eggAnchor and not allEggs and now>=discovery.nextEggScan then
++  discovery.nextEggScan=now+10
++  local parent=eggAnchor.transform.parent
++  if parent then
++   local list=parent:GetComponentsInChildren(typeof(U.Transform),true)
++   for i=0,list.Length-1 do local tr=list[i]
++    local r=discovery.byName[tr.name]
++    if r and string.match(tr.name,'^tripo_egg_stage_[0-3]$')then r.go=tr.gameObject end
++   end
++  end
++ end
++ local altar=get('altar3')
++ if altar and not discovery.altarPosition then
++  local p=altar.transform.position;local y=p.y+.4
++  local hits=U.Physics.RaycastAll(V(p.x,p.y+20,p.z),V.down,25,-1,U.QueryTriggerInteraction.Ignore)
++  for i=0,hits.Length-1 do local h=hits[i];if h.point.y>y and h.point.y<p.y+5 and h.normal.y>.6 then y=h.point.y end end
++  discovery.altarPosition=V(p.x,y+.08,p.z)
++ end
++ local changedEggs=false
++ for i=0,3 do local go=get('tripo_egg_stage_'..i)
++  if go and (not eggs[i]or eggs[i].go~=go)then
++   if discovery.altarPosition then go.transform.position=discovery.altarPosition end
++   eggs[i]={go=go,scale=go.transform.localScale,placed=discovery.altarPosition~=nil};changedEggs=true
++  elseif go and discovery.altarPosition and not eggs[i].placed then
++   go.transform.position=discovery.altarPosition;eggs[i].placed=true
++  end
++ end
++ if changedEggs then eggStage=-1 end
++ discovery.eggTarget.position=discovery.altarPosition or (eggAnchor and eggAnchor.transform.position)
++ local rune=get('rune_0')
++ if rune and not discovery.memorialPlaced then
++  local stone=U.Object.Instantiate(rune);stone.name='DragonPactMemorial'
++  stone.transform.position=V(127,73.22,193.2);stone.transform.localScale=rune.transform.lossyScale*.55
++  discovery.memorialPlaced=true
++  discovery.byName.DragonPactMemorial.go=stone
++ end
++ discovery.registered=0;discovery.missing=0
++ for _,t in ipairs(targets)do
++  if t.ref then t.go=t.ref.go end
++  if targetPosition(t)then discovery.registered=discovery.registered+1 else discovery.missing=discovery.missing+1 end
+  end
+ end
+ local function handleNativeClick(index)
+@@ -439,14 +550,26 @@
+ end
+ function OnInteractorButtonClick(index)queueNativeClick(index)end
+ 
+-function GetStatus()return{loaded=progress and progress.IsLoaded(),mode=mode,target=current and current.kind,targets=#targets,potion=potion and potion.kind,buff=buff and buff.kind,eggStage=eggStage,lore=lore.n,bridge=main~=nil,roastX=R.x,roastZone=R.zoneX,roastW=R.zoneW}end
++function GetLoreTargets()
++ local out={}
++ for _,t in ipairs(targets)do if t.kind=='lore'then
++  local p=targetPosition(t)
++  out[#out+1]={id=t.id,label=t.label,source=t.ref and t.ref.name,sourceLoaded=t.go~=nil,
++   secondarySource=t.secondaryRef and t.secondaryRef.name,secondaryLoaded=t.secondaryRef and t.secondaryRef.go~=nil,
++   position=p and{x=p.x,y=p.y,z=p.z},radius=t.radius,height=t.height or 4,
++   nearby=actor and nearby(t)or false,current=current==t,read=lore.got[t.id]==true}
++ end end
++ return out
++end
++function GetStatus()return{loaded=progress and progress.IsLoaded(),mode=mode,target=current and current.kind,targetId=current and current.id,targets=discovery and discovery.registered or 0,missingTargets=discovery and discovery.missing or 0,uiReady=uiReady,potion=potion and potion.kind,buff=buff and buff.kind,eggStage=eggStage,lore=lore.n,bridge=main~=nil,roastX=R.x,roastZone=R.zoneX,roastW=R.zoneW}end
+ function DebugOpen(kind,id)if kind=='cook'then cook()elseif kind=='lore'then readLore(id or 1)elseif kind=='tasks'then OpenTasks()elseif kind=='serve'then roastPress()elseif kind=='buff'then applyBuff(id)end end
+ function Update()
+- if not progress then progress=scope:GetScript('dragon_progress.lua');rules=scope:GetScript('dragon_progress_rules.lua');cycle=scope:GetScript('dragon_daycycle.lua');main=scope:GetScript('dragon_world_bridge.lua')end
++ if not progress then progress=getDependency('dragon_progress.lua');rules=getDependency('dragon_progress_rules.lua');cycle=getDependency('dragon_daycycle.lua');main=getDependency('dragon_world_bridge.lua')end
+  if not progress or not rules or not cycle or not main then progress=nil;return end
+  if not R.registered then R.registered=true;main.RegisterScript('explore',{OpenTasks=OpenTasks,IsBattleActive=IsBattleActive,GetLoreCount=GetLoreCount})end
+- actor=CS.DouyinActorService.GetLocalActor();if not actor or not buildUI()then return end
+- if U.Time.time-lastScan>5 then lastScan=U.Time.time;if #targets==0 then discover()end end
++ actor=CS.DouyinActorService.GetLocalActor();if not actor then return end
++ buildUI() -- Native collection/witch/tree interactions do not wait for book atlases.
++ if U.Time.realtimeSinceStartup-lastScan>=.25 then lastScan=U.Time.realtimeSinceStartup;refreshDiscovery()end
+  local p=progress.GetProfile()
+  if not p then return end
+  if queuedNative and U.Time.frameCount>queuedNative.frame then
+@@ -455,7 +578,7 @@
+  end
+  local world=main.GetExplorationState();local available=world=='play'and not unavailable()
+  current=nil;local best=1e9
+- for _,t in ipairs(targets)do if nearby(t)then local pos=t.go and t.go.transform.position or t.position;local d=V.Distance(actor.position,pos);if d<best then current=t;best=d end end end
++ for _,t in ipairs(targets)do if nearby(t)then local pos=targetPosition(t);local d=targetDistance(t,pos);if d<best then current=t;best=d end end end
+  local wanted=available and not mode and current or nil
+  if wanted~=nativeTarget then
+   clearNativeInteraction()
+@@ -502,8 +625,23 @@
+  lastPosition=actor.position
+  if mode and unavailable()then callback=nil;hatchStart=nil;Close()end
+ end
++function OnEnable()if root and uiReady then root:SetActive(true)end;lastScan=-100 end
+ function OnApplicationFocus(focused)if not focused then restorePotion()end end
+-function OnDisable()queuedNative=nil;contractSession=nil;mode=nil;clearNativeInteraction();restorePotion();restoreBuff();callback=nil;if root then root:SetActive(false)end;if main then main.SetExplorationMenu(false)end end
++function OnDisable()
++ -- Invalidate the completion token before closing the RPG-owned class page.
++ local ownedContract=contractSession~=nil or mode=='class'
++ queuedNative=nil;contractSession=nil;callback=nil;mode=nil;current=nil
++ if ownedContract and contractRpg and contractRpg.CancelContract then pcall(contractRpg.CancelContract)end
++ clearNativeInteraction();restorePotion();restoreBuff()
++ if dim then dim:SetActive(false)end
++ if book then book.go:SetActive(false)end
++ if roast then roast.go:SetActive(false)end
++ if reader then reader.go:SetActive(false)end
++ if buffHud then buffHud.go:SetActive(false)end
++ if root then root:SetActive(false)end
++ if main then main.SetExplorationMenu(false)end
++ if ownedContract and actor then actor:Immobilize(false)end
++end
+ function OnDestroy()OnDisable();if root then U.Object.Destroy(root)end end
+ 
+ do local previous=OnDestroy;function OnDestroy()if previous then previous()end;ReleaseMobileDependencies()end end

@@ -1,0 +1,21 @@
+{
+  "luaSyntax": "all candidate lua parsed",
+  "animation": [
+    "delayed controller",
+    "failed Play retry",
+    "no same-state replay",
+    "controller rebound",
+    "clip transition",
+    "disable/resume",
+    "bounded missing-component lookup"
+  ],
+  "sheep": [
+    "gravity held before support",
+    "two real support probes before dynamic release"
+  ],
+  "notVerified": [
+    "review-client playback/bone motion",
+    "phone physics/streaming order",
+    "exact dragon contact"
+  ]
+}

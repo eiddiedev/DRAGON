@@ -1,0 +1,53 @@
+--- formal/dragon_outfits.lua
++++ review-v27/dragon_outfits.lua
+@@ -37,26 +37,30 @@
+ local MAX_SCALE = 1.8
+ 
+ local runtimeScope, scopeReason = RuntimeScope.from(self)
+--- mobile-v23: resolve each dependency at most once a second, at most 30 attempts.
+-do
+- local target=runtimeScope
+- local original=target.GetScript
+- local memo,attempts,nextAt={},{},{}
+- local failures={}
+- target.GetScript=function(_,name)
+-  if memo[name] then return memo[name] end
+-  local now=CS.UnityEngine.Time.realtimeSinceStartup
+-  if (attempts[name] or 0)>=30 or now<(nextAt[name] or 0) then return nil end
+-  attempts[name]=(attempts[name] or 0)+1;nextAt[name]=now+1
+-  local ok,value=pcall(original,target,name)
+-  if ok and value then memo[name]=value;return value end
+-  if attempts[name]==30 then failures[name]=tostring(value or 'not loaded');print('[mobile-v23] dependency failed: '..name..' '..failures[name]) end
+-  return nil
+- end
+- function GetDependencyDiagnostics() return {build='mobile-v23',attempts=attempts,failures=failures} end
+- local destroy=OnDestroy
+- -- Installed after lifecycle definitions below; clears references on scene exit.
+- ReleaseMobileDependencies=function()memo={};attempts={};nextAt={};failures={} end
++-- review-v27: private cache. Never replace the shared runtime-scope resolver.
++local getDependency
++local dependencyMemo,dependencyAttempts,dependencyNextAt,dependencyFailures={},{},{},{}
++getDependency=function(name)
++ if dependencyMemo[name] then return dependencyMemo[name] end
++ local now=CS.UnityEngine.Time.realtimeSinceStartup
++ if now<(dependencyNextAt[name] or 0) then return nil end
++ local attempt=(dependencyAttempts[name] or 0)+1
++ dependencyAttempts[name]=attempt
++ -- Fast initial readiness checks, then bounded slow recovery for streamed resources.
++ dependencyNextAt[name]=now+(attempt<30 and 1 or 5)
++ local ok,value=pcall(function()return runtimeScope:GetScript(name)end)
++ if ok and value then
++  dependencyMemo[name]=value;dependencyFailures[name]=nil
++  if attempt>=30 then print('[review-v27] dependency recovered: '..name) end
++  return value
++ end
++ dependencyFailures[name]=tostring(value or 'not loaded')
++ if attempt==30 then print('[review-v27] dependency waiting: '..name..' '..dependencyFailures[name]) end
++ return nil
++end
++function GetDependencyDiagnostics()return{build='review-v27',attempts=dependencyAttempts,failures=dependencyFailures}end
++local function ReleaseMobileDependencies()
++ dependencyMemo={};dependencyAttempts={};dependencyNextAt={};dependencyFailures={}
+ end
+ 
+ local resourceRoot = nil

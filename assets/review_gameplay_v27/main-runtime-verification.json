@@ -1,0 +1,25 @@
+{
+  "environment": "official project, offscreen local preview; NOT phone review",
+  "runtimeId": "83f02c80-5459-4cf6-a411-ab0c5f18bf94",
+  "shadowModels": 4,
+  "shadowCubeChildren": 0,
+  "shadowHealthCanvas": 4,
+  "shadowInitializationErrors": 0,
+  "combatButtonsNonOverlapping": [
+    "CustomMainButton",
+    "CustomSubButton",
+    "Skill2",
+    "Skill3",
+    "WeaponMenu"
+  ],
+  "windmillRotationChangedOver12Frames": true,
+  "altarInitiallyDark": true,
+  "altarAnchorsLoaded": 4,
+  "activeSheep": 4,
+  "activeCloudPatches": 0,
+  "renderScale": 1,
+  "forcedQualityDowngrade": false,
+  "nativeManuscriptClickOpenedPage": 1,
+  "phoneReviewVerified": false,
+  "waterFixed": false
+}

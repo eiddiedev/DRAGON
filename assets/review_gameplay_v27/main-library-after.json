@@ -1,0 +1,1 @@
+{"ok":true,"command":"runtime","data":{"ok":true,"status":"completed","result":{"bridge":true,"eggStage":0,"loaded":true,"lore":1,"missingTargets":15,"mode":"lore","roastW":150,"roastX":0,"roastZone":0,"target":"lore","targetId":1,"targets":39,"uiReady":true},"startFrame":21725,"endFrame":21725,"durationMs":297,"mode":"native-puerts"}}

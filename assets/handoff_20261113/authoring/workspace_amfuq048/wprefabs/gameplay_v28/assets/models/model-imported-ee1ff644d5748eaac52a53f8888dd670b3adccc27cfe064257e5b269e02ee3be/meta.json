@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 4,
+  "resourceId": "model-imported-ee1ff644d5748eaac52a53f8888dd670b3adccc27cfe064257e5b269e02ee3be",
+  "displayName": "导入模型",
+  "summary": "从显式 GLB 来源保留的二进制作者输入；来源没有可恢复的作者元数据。"
+}

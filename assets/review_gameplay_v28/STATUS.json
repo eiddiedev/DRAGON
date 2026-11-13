@@ -1,0 +1,27 @@
+{
+  "version": "review-gameplay-v28-diagnostic",
+  "formalSceneChanged": false,
+  "scenePreserved": "v27",
+  "consumerFailurePackage": "user corrected: a later uploaded package, unavailable locally",
+  "verifiedFixes": [
+    "costume-only collider disable scope",
+    "presentation camera/input ownership cleanup mock tests"
+  ],
+  "waterRootCause": "unknown; requires failure-side evidence",
+  "waterDiagnostics": "1 Hz near-water, bounded queries; no actor/collider mutation; actual isolated runtime verified for sea/river sampling and start/stop events",
+  "localRuntimeChecks": {
+    "seaSwimming": true,
+    "riverSwimmingAndKeyboardMovement": true,
+    "returnToBankStopEvent": true,
+    "diagnosticErrors": 0,
+    "temporaryHookResidues": 0,
+    "runtimeStopped": true,
+    "ownedBackgroundInstanceStopped": true
+  },
+  "notDone": [
+    "consumer swimming acceptance",
+    "latest failed review archive comparison"
+  ],
+  "noQualityReduction": true,
+  "noGitPush": true
+}

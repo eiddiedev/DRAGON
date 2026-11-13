@@ -23,14 +23,16 @@ local function align()
  local t=driver.gameObject.transform;t:SetParent(anchor.transform,true);t.localScale=saved.scale;t.localPosition=U.Vector3.zero;t.localRotation=U.Quaternion.identity
 end
 local function leave()
- if not driver then return end
- local a=driver;driver=nil
- a.gameObject.transform:SetParent(nil,true);a.gameObject.transform.localScale=saved.scale
- a.jumpHeight=saved.jumpHeight;a:Immobilize(false)
- for _,v in ipairs(saved.colliders) do v.c.enabled=v.enabled end
- a:Teleport(saved.position,saved.rotation)
- if camera then U.Object.Destroy(camera.gameObject);camera=nil end
- saved=nil;xInput=0;yInput=0;label()
+ if not driver or not saved then return end
+ local a=driver;local state=saved;driver=nil;saved=nil
+ -- Restore only captured colliders, preserving each original enabled value.
+ for _,v in ipairs(state.colliders)do pcall(function()v.c.enabled=v.enabled end)end
+ pcall(function()a.gameObject.transform:SetParent(state.parent,true);a.gameObject.transform.localScale=state.scale end)
+ pcall(function()a.jumpHeight=state.jumpHeight end)
+ pcall(function()a:Immobilize(false)end)
+ pcall(function()a:Teleport(state.position,state.rotation)end)
+ if camera then pcall(function()U.Object.Destroy(camera.gameObject)end);camera=nil end
+ xInput=0;yInput=0;pcall(label)
 end
 function Start()
  yaw=self.transform.eulerAngles.y;homeY=self.transform.position.y
@@ -54,7 +56,7 @@ function OnInteractorButtonClick(index)
  local a=DouyinActorService.GetActorById(localId);if not canBoard(a) then return end
  local t=a.gameObject.transform;local cs=a.gameObject:GetComponents(typeof(U.Collider));local colliders={}
  for i=0,cs.Length-1 do colliders[#colliders+1]={c=cs[i],enabled=cs[i].enabled};cs[i].enabled=false end
- saved={scale=t.localScale,position=a.position,rotation=a.rotation,jumpHeight=(a.jumpHeight==a.jumpHeight and math.abs(a.jumpHeight)>.1) and math.abs(a.jumpHeight) or 2,colliders=colliders}
+ saved={scale=t.localScale,parent=t.parent,position=a.position,rotation=a.rotation,jumpHeight=(a.jumpHeight==a.jumpHeight and math.abs(a.jumpHeight)>.1) and math.abs(a.jumpHeight) or 2,colliders=colliders}
  driver=a;a:Immobilize(true);a.jumpHeight=0;align();self:EnableInteraction();OnFocus()
  local main=DouyinCameraService.GetCamera()
  if main then local g=U.GameObject('boat_drive_camera');camera=g:AddComponent(typeof(U.Camera));camera:CopyFrom(main);camera.depth=main.depth+3;camera.fieldOfView=60
@@ -90,8 +92,12 @@ function LateUpdate()
   camera.transform.position=eye;camera.transform.rotation=U.Quaternion.LookRotation(target-eye)
  end
 end
+function OnDisable()
+ leave();available=false;localId=nil
+ pcall(function()self:DisableInteraction()end);pcall(OnLostFocus)
+end
 function OnDestroy()
- leave()
+ OnDisable()
  pcall(function() DouyinInputService.onMoveInputPerform:RemoveListener(OnMove);DouyinInputService.onMoveInputCancel:RemoveListener(OnMoveStop) end)
  if anchor then U.Object.Destroy(anchor) end
 end

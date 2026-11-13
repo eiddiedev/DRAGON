@@ -1,0 +1,37 @@
+[
+  {
+    "iteration": 1,
+    "opened": true,
+    "closed": true,
+    "class": "melee",
+    "ready": true
+  },
+  {
+    "iteration": 2,
+    "opened": true,
+    "closed": true,
+    "class": "melee",
+    "ready": true
+  },
+  {
+    "iteration": 3,
+    "opened": true,
+    "closed": true,
+    "class": "melee",
+    "ready": true
+  },
+  {
+    "iteration": 4,
+    "opened": true,
+    "closed": true,
+    "class": "melee",
+    "ready": true
+  },
+  {
+    "iteration": 5,
+    "opened": true,
+    "closed": true,
+    "class": "melee",
+    "ready": true
+  }
+]

@@ -13,3 +13,6 @@ backups/*
 editor_project/**/ai-sessions/*_log/
 editor_project/**/*.bak
 editor_project/**/scene.before-*.data
+
+# Exact review ZIP is stored in verified byte parts; reconstructed copy is local.
+assets/handoff_20261113/review-package/*.zip

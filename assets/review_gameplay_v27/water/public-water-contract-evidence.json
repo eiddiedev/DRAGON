@@ -1,0 +1,95 @@
+{
+  "whitelist": {
+    "source": "/Applications/造世界编辑器.app/Contents/Resources/addon/awc-cli/dist/kit/references/skills/hamlet-skill/references/api-whitelist.md",
+    "matches": [
+      {
+        "line": 48,
+        "text": "* `DouyinWaterArea`：水域功能组件"
+      }
+    ]
+  },
+  "native_swimming": {
+    "source": "/Applications/造世界编辑器.app/Contents/Resources/addon/awc-cli/dist/kit/references/skills/hamlet-skill/references/manual/01-core-system/player-network-objects/character-control/character-movement-flight-and-swimming.md",
+    "matches": [
+      {
+        "line": 41,
+        "text": "游泳是水体触发的被动状态。玩家接触 SDK 定义的水体后自动进入或退出游泳，业务侧不能主动开启游泳。"
+      },
+      {
+        "line": 45,
+        "text": "| `actor:CanSwim()` | 查询角色是否具备游泳能力。 |"
+      },
+      {
+        "line": 49,
+        "text": "`CanSwim()` 受房间设置和角色配置限制；返回 `false` 时，角色接触水体也不会进入游泳状态。游泳期间是否允许拾取、使用技能或飞行，属于具体玩法的业务规则。"
+      }
+    ]
+  },
+  "physical_rules": {
+    "source": "/Applications/造世界编辑器.app/Contents/Resources/addon/awc-cli/dist/kit/references/skills/prefab-edit/resources/model/components.md",
+    "matches": [
+      {
+        "line": 35,
+        "text": "- 普通 OnTriggerEnter 要求层允许交互、至少一方为 Trigger 且至少一方关联 Rigidbody（kinematic 也可）。OnActorTriggerEnter 按平台 Actor 规则，不凭 CharacterController 猜刚体。"
+      },
+      {
+        "line": 36,
+        "text": "- MeshCollider 所在节点或祖先存在 Rigidbody 时（包括 kinematic）使用凸包；单个凹网格的孔洞或凹槽会被填平。需要保留开口时，将实体表面分为独立凸网格节点，并实际验证碰撞形状。"
+      },
+      {
+        "line": 75,
+        "text": "Trigger 是检测对象进入、停留或离开的区域，不产生实体阻挡。它使用独立的 `triggerData` 列表，无 Mesh 的节点也能承载，不需要占位几何。"
+      }
+    ]
+  },
+  "clone": {
+    "source": "/Applications/造世界编辑器.app/Contents/Resources/addon/awc-cli/dist/kit/references/skills/prefab-edit/editing/operations/nodes.md",
+    "matches": [
+      {
+        "line": 78,
+        "text": "复制使用 `nodes.clone`，会复制所选根及全部后代，保持世界变换。下面复制一个实例，并将副本沿世界 X 轴移动 2 米："
+      },
+      {
+        "line": 90,
+        "text": "后续编辑使用 `result.roots` 中的新标识。副本与原节点共用资源和脚本定义，各自的组件与绑定参数独立；复制后仍需核对实际绑定与参数。clone 不接受 preserve 参数。"
+      }
+    ]
+  },
+  "waterEditorData": {
+    "source": "assets/review_gameplay_v27/water/water-editor-schema.json",
+    "writable": true,
+    "properties": [
+      "version",
+      "kind",
+      "waterNodeId",
+      "terrainNodeId",
+      "meshContentHash",
+      "editorMeshSnapshotRefId",
+      "editorMeshSnapshotVersion",
+      "editorMeshSnapshotChecksum",
+      "center",
+      "scale",
+      "eularAngleY",
+      "controlPointsIsNull",
+      "controlPoints",
+      "depth",
+      "slope",
+      "isIgnoreHeightmap",
+      "riverWidth",
+      "isReverse",
+      "terrainTracking"
+    ],
+    "undocumented_swim_fields_absent": true
+  },
+  "waterBodyAuthoringData": {
+    "source": "assets/review_gameplay_v27/schema.json",
+    "writable": true,
+    "properties": [
+      "version",
+      "payloadJson",
+      "sourceRevision",
+      "derivedRevision"
+    ],
+    "undocumented_swim_fields_absent": true
+  }
+}

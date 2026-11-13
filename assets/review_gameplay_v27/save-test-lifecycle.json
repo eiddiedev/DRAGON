@@ -1,0 +1,1 @@
+{"ok":false,"command":"scene","error":{"code":"SCENE_OPERATION_FAILED","message":"runtime_lua_api_failed","hint":"先 runtime stop 并退出笔刷编辑；排除保存错误后用新的 --request-id 再保存。原 ID 只恢复原回执。","details":{"operationId":"a979ae3f2fd04342b9699d57d0a45e906541bd1cb5703b8594b4a0ab6fac512d","status":"failed","message":"runtime_lua_api_failed","requestId":"v27-test-save-lifecycle"}}}

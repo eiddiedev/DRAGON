@@ -1,0 +1,25 @@
+{
+  "passed": 18,
+  "checks": [
+    "v26 reproduction: outside-one-meter visible entry creates repeated empty defeat epochs",
+    "candidate: ordinary join now uses existing boundary just like duel",
+    "candidate: radius+1 entry joins at radius-0.5, one epoch/request, four enemies",
+    "candidate: second defeat/rechallenge stays one new epoch and four enemies",
+    "candidate: existing radius+2 interaction edge still works",
+    "candidate: beyond radius+2 remains rejected without new epoch",
+    "candidate: already-inside player position unchanged",
+    "candidate: nighttime requirement unchanged",
+    "candidate: full combat script compiles",
+    "author: ordinary join now uses existing boundary just like duel",
+    "author: radius+1 entry joins at radius-0.5, one epoch/request, four enemies",
+    "author: second defeat/rechallenge stays one new epoch and four enemies",
+    "author: existing radius+2 interaction edge still works",
+    "author: beyond radius+2 remains rejected without new epoch",
+    "author: already-inside player position unchanged",
+    "author: nighttime requirement unchanged",
+    "author: full combat script compiles",
+    "author enemy fix retained; legacy candidate only received narrow join edit"
+  ],
+  "author": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/ai-sessions/workspace_amfuq048/wprefabs/gameplay_v27/scripts/dragon_combat.lua",
+  "runtimeVerified": false
+}

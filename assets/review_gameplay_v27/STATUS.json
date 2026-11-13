@@ -1,0 +1,24 @@
+{
+  "version": "v27",
+  "officialSaved": true,
+  "saveReceipt": "main-cold-save-status.json",
+  "sceneSha256": "74dbab4b79702e5464ca77371556b662cf62ed3918fabe0db94fc87f6e6d2231",
+  "repoSynced": true,
+  "phoneReviewVerified": false,
+  "waterFixed": false,
+  "gitPushed": false,
+  "foregroundUsed": false,
+  "gameplayArchive": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/d5ncw8cipqzv3ety.wprefab",
+  "actorsArchive": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wzbfiotim9ktbr8y.wprefab",
+  "remaining": [
+    "手机审核端新包验收",
+    "河道/海面原生游泳失效原因",
+    "原生水域空代理重复序列化调查"
+  ],
+  "runtimeProof": "main-runtime-verification.json",
+  "backgroundInstancesStopped": true,
+  "projectManifestVerified": true,
+  "rechallengeBoundarySaved": true,
+  "rechallengeRuntimeVerified": false,
+  "serializationNote": "Native river empty proxy groups grew from 5 to 7 across saves; no runtime enemy clones persisted."
+}

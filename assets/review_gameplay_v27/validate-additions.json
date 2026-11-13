@@ -1,0 +1,1 @@
+{"ok":false,"command":"authoring","error":{"code":"INSTANCE_NOT_FOUND","message":"指定项目没有可核验的在线实例，请先 instance start --project <项目目录>。","hint":"当前 CLI 使用协议 3；若原实例使用旧协议，请更新并重启 Creator 实例后重试。","details":{"projectRoot":"/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5"}}}

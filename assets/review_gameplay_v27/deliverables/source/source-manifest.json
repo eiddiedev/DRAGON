@@ -1,0 +1,1578 @@
+{
+  "version": "review-gameplay-v27",
+  "sourceProject": "project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5",
+  "sourceWorkspace": "workspace_amfuq048",
+  "excludedDirectoryNames": [
+    ".awc",
+    ".cache",
+    ".git",
+    ".tmp",
+    "__pycache__",
+    "node_modules",
+    "package"
+  ],
+  "prefabs": {
+    "actors_v27": {
+      "files": {
+        "assets/models/model-imported-4c050003401ba48cdb575332fedca2b22eaadd73c0e61bdd38176840cbf826fb/meta.json": {
+          "bytes": 268,
+          "sha256": "c26be379575233b7fce378262344c805eb785df429f57c0875a6b263913e8c53"
+        },
+        "assets/models/model-imported-4c050003401ba48cdb575332fedca2b22eaadd73c0e61bdd38176840cbf826fb/topology/README.md": {
+          "bytes": 119,
+          "sha256": "f7e17d21b5c0333aa4933d5c880c919a07b12839b27e6815b4fb7656d5879cea"
+        },
+        "assets/models/model-imported-4c050003401ba48cdb575332fedca2b22eaadd73c0e61bdd38176840cbf826fb/topology/model.glb": {
+          "bytes": 690980,
+          "sha256": "a1c334702ef66ee3aa8c0406c97e0200e3dc0d3cdb9c3e9d505834ee06f5f612"
+        },
+        "assets/models/model-imported-4c050003401ba48cdb575332fedca2b22eaadd73c0e61bdd38176840cbf826fb/topology/original-meta-0790a0b7f4b48d6c266979ec86463c66720390604b57114a9882d186c1edc5cd.json": {
+          "bytes": 214,
+          "sha256": "0790a0b7f4b48d6c266979ec86463c66720390604b57114a9882d186c1edc5cd"
+        },
+        "assets/models/model-imported-4c050003401ba48cdb575332fedca2b22eaadd73c0e61bdd38176840cbf826fb/topology/restore-model.glb": {
+          "bytes": 1382912,
+          "sha256": "cd4625b5d15bc6b32647f6df5b4c6f416091ea39b11af6985eb081e9797b5dd7"
+        },
+        "assets/models/model-imported-4ef49561c16ecd1bccc41fedabbe3419f4e1acf760a457eb63448715e401940b/meta.json": {
+          "bytes": 268,
+          "sha256": "7b10b6bb411b7ad60e2885c43ac25184d02aeaf22332d4670d3523c6b120459e"
+        },
+        "assets/models/model-imported-4ef49561c16ecd1bccc41fedabbe3419f4e1acf760a457eb63448715e401940b/topology/README.md": {
+          "bytes": 119,
+          "sha256": "f7e17d21b5c0333aa4933d5c880c919a07b12839b27e6815b4fb7656d5879cea"
+        },
+        "assets/models/model-imported-4ef49561c16ecd1bccc41fedabbe3419f4e1acf760a457eb63448715e401940b/topology/model.glb": {
+          "bytes": 2496320,
+          "sha256": "ac41284c356119368848d65ba9b289c5f04baec9147fc8e75f1fa45e316b995a"
+        },
+        "assets/models/model-imported-4ef49561c16ecd1bccc41fedabbe3419f4e1acf760a457eb63448715e401940b/topology/original-meta-b9e463c1b47a98d55dedc49dafc26a8d72c557d707ee362cfe4b5fd7cfe945a0.json": {
+          "bytes": 217,
+          "sha256": "b9e463c1b47a98d55dedc49dafc26a8d72c557d707ee362cfe4b5fd7cfe945a0"
+        },
+        "assets/models/model-imported-4ef49561c16ecd1bccc41fedabbe3419f4e1acf760a457eb63448715e401940b/topology/restore-model.glb": {
+          "bytes": 4993584,
+          "sha256": "0fc97bf1d00611fc04ecec9d2a5e66b654d782f8f7b3a7396c8b14ac1f07de53"
+        },
+        "assets/models/model-imported-c7becc3c5ebdde10a020a671ffb0d8eddb1d9a28fab17268d8b8d535c5fb696c/meta.json": {
+          "bytes": 268,
+          "sha256": "6aca8959fcafb6daa907c5be0ce24371317591d79a138642aca6345659b23c16"
+        },
+        "assets/models/model-imported-c7becc3c5ebdde10a020a671ffb0d8eddb1d9a28fab17268d8b8d535c5fb696c/topology/README.md": {
+          "bytes": 119,
+          "sha256": "f7e17d21b5c0333aa4933d5c880c919a07b12839b27e6815b4fb7656d5879cea"
+        },
+        "assets/models/model-imported-c7becc3c5ebdde10a020a671ffb0d8eddb1d9a28fab17268d8b8d535c5fb696c/topology/model.glb": {
+          "bytes": 314384,
+          "sha256": "6cc67c09037fdfd3c3b782924caf193d2447eae310fd00a70d080586be2af27a"
+        },
+        "assets/models/model-imported-c7becc3c5ebdde10a020a671ffb0d8eddb1d9a28fab17268d8b8d535c5fb696c/topology/original-meta-837e51d7b5917aa21526e1ca5e41007587cb98f700941565c85b7e15b9359fd3.json": {
+          "bytes": 208,
+          "sha256": "837e51d7b5917aa21526e1ca5e41007587cb98f700941565c85b7e15b9359fd3"
+        },
+        "assets/models/model-imported-c7becc3c5ebdde10a020a671ffb0d8eddb1d9a28fab17268d8b8d535c5fb696c/topology/restore-model.glb": {
+          "bytes": 629712,
+          "sha256": "d3a62ace831954e2d84f6fa9923e91326a878baacd63e2bf4cb807b1e94b46dd"
+        },
+        "assets/models/model-imported-e1926e7e999b620995aa5fd84bf03b3615dd77ed8a99044744fd595cf3a13d95/meta.json": {
+          "bytes": 268,
+          "sha256": "a32abdd8a868499e32eae6d2c582aeb676850daaa0cebd887e331f14f3e5676b"
+        },
+        "assets/models/model-imported-e1926e7e999b620995aa5fd84bf03b3615dd77ed8a99044744fd595cf3a13d95/topology/README.md": {
+          "bytes": 119,
+          "sha256": "f7e17d21b5c0333aa4933d5c880c919a07b12839b27e6815b4fb7656d5879cea"
+        },
+        "assets/models/model-imported-e1926e7e999b620995aa5fd84bf03b3615dd77ed8a99044744fd595cf3a13d95/topology/model.glb": {
+          "bytes": 850396,
+          "sha256": "588e9262e9c17f80c7f896bb741ebe7cf01aaa34c8204c5b7d38fdd541b5aa35"
+        },
+        "assets/models/model-imported-e1926e7e999b620995aa5fd84bf03b3615dd77ed8a99044744fd595cf3a13d95/topology/original-meta-0fa5b345f4cd17a371a7e3be3f826c3c490cfa18dc573d4eab2435eba1389e9e.json": {
+          "bytes": 216,
+          "sha256": "0fa5b345f4cd17a371a7e3be3f826c3c490cfa18dc573d4eab2435eba1389e9e"
+        },
+        "assets/models/model-imported-e1926e7e999b620995aa5fd84bf03b3615dd77ed8a99044744fd595cf3a13d95/topology/restore-model.glb": {
+          "bytes": 1701792,
+          "sha256": "72a2ab55fd099ca80bd4bd389abca6dab77d18e58561d5badd3ea70be4daa785"
+        },
+        "assets/models/model-imported-f73e1bb56b01d71001d1d0780cefcbf7cee682ab66ea529f6a0b01f9004994ee/meta.json": {
+          "bytes": 268,
+          "sha256": "c8f07570c331fb736b275400fa6282902ba162a4144945d3f4926caa36773476"
+        },
+        "assets/models/model-imported-f73e1bb56b01d71001d1d0780cefcbf7cee682ab66ea529f6a0b01f9004994ee/topology/README.md": {
+          "bytes": 119,
+          "sha256": "f7e17d21b5c0333aa4933d5c880c919a07b12839b27e6815b4fb7656d5879cea"
+        },
+        "assets/models/model-imported-f73e1bb56b01d71001d1d0780cefcbf7cee682ab66ea529f6a0b01f9004994ee/topology/model.glb": {
+          "bytes": 915180,
+          "sha256": "1308d551b50f20fe8512d15d8a3e405c210a1c65bc73e16d30daf0f83b56ec90"
+        },
+        "assets/models/model-imported-f73e1bb56b01d71001d1d0780cefcbf7cee682ab66ea529f6a0b01f9004994ee/topology/original-meta-624e4de08fe88aacc0da7fdbf41f46c4f8513eb4f8bb718b3dd21e5ba5927945.json": {
+          "bytes": 214,
+          "sha256": "624e4de08fe88aacc0da7fdbf41f46c4f8513eb4f8bb718b3dd21e5ba5927945"
+        },
+        "assets/models/model-imported-f73e1bb56b01d71001d1d0780cefcbf7cee682ab66ea529f6a0b01f9004994ee/topology/restore-model.glb": {
+          "bytes": 1831328,
+          "sha256": "8ecd639e4146d2511268507de3d98d2cab51c5d1e6eb7690231483f592453126"
+        },
+        "docs/.source/entries/b17654973e4c26ce5af1a3b292837f096e808deeaaaa2b59eafe43efd5a6b4fb/asset-metadata.json": {
+          "bytes": 146,
+          "sha256": "062fb9be30cf1ce4e798492df2dfa52fb1692b1af4e9d619357940b02ac5c0fd"
+        },
+        "meta.json": {
+          "bytes": 102,
+          "sha256": "5e0a3066ec93e9fc3707a0299b2dad656ceb6aa022b382eb21e05cb08be15448"
+        },
+        "prefab.json": {
+          "bytes": 266448,
+          "sha256": "0fa8f4f35bda80ba32ac2fa5dec62e78315fb4a853f7dc9520abe64d80007bc2"
+        },
+        "scripts/horse_seat_v1.lua": {
+          "bytes": 47929,
+          "sha256": "baf5786ec02a1c1919641c3c1720534678014b4c68f377ce8523fe119ce1b309"
+        },
+        "scripts/scene_sheep_sound.lua": {
+          "bytes": 350831,
+          "sha256": "e11402be817efd064d3537c6990fe979b537c2be050c767e0512ec67a899e3bb"
+        },
+        "scripts/scene_vehicle_carpet.lua": {
+          "bytes": 40804,
+          "sha256": "cbd333640a8273f49b0bb93aefe450e96c9fa8cdd30c7989f522692876324226"
+        },
+        "scripts/tripo_sheep_motion.lua": {
+          "bytes": 9732,
+          "sha256": "5a91f78c79aa87403aabe4ca32a54e2cbc4c2d6f68964429895cf13dc15c73db"
+        }
+      },
+      "fileCount": 32,
+      "bytes": 16525584,
+      "excluded": [
+        "assets/models/model-imported-4c050003401ba48cdb575332fedca2b22eaadd73c0e61bdd38176840cbf826fb/package/model-output.sha256",
+        "assets/models/model-imported-4c050003401ba48cdb575332fedca2b22eaadd73c0e61bdd38176840cbf826fb/package/model.glb",
+        "assets/models/model-imported-4c050003401ba48cdb575332fedca2b22eaadd73c0e61bdd38176840cbf826fb/package/resource.json",
+        "assets/models/model-imported-4ef49561c16ecd1bccc41fedabbe3419f4e1acf760a457eb63448715e401940b/package/model-output.sha256",
+        "assets/models/model-imported-4ef49561c16ecd1bccc41fedabbe3419f4e1acf760a457eb63448715e401940b/package/model.glb",
+        "assets/models/model-imported-4ef49561c16ecd1bccc41fedabbe3419f4e1acf760a457eb63448715e401940b/package/resource.json",
+        "assets/models/model-imported-c7becc3c5ebdde10a020a671ffb0d8eddb1d9a28fab17268d8b8d535c5fb696c/package/model-output.sha256",
+        "assets/models/model-imported-c7becc3c5ebdde10a020a671ffb0d8eddb1d9a28fab17268d8b8d535c5fb696c/package/model.glb",
+        "assets/models/model-imported-c7becc3c5ebdde10a020a671ffb0d8eddb1d9a28fab17268d8b8d535c5fb696c/package/resource.json",
+        "assets/models/model-imported-e1926e7e999b620995aa5fd84bf03b3615dd77ed8a99044744fd595cf3a13d95/package/model-output.sha256",
+        "assets/models/model-imported-e1926e7e999b620995aa5fd84bf03b3615dd77ed8a99044744fd595cf3a13d95/package/model.glb",
+        "assets/models/model-imported-e1926e7e999b620995aa5fd84bf03b3615dd77ed8a99044744fd595cf3a13d95/package/resource.json",
+        "assets/models/model-imported-f73e1bb56b01d71001d1d0780cefcbf7cee682ab66ea529f6a0b01f9004994ee/package/model-output.sha256",
+        "assets/models/model-imported-f73e1bb56b01d71001d1d0780cefcbf7cee682ab66ea529f6a0b01f9004994ee/package/model.glb",
+        "assets/models/model-imported-f73e1bb56b01d71001d1d0780cefcbf7cee682ab66ea529f6a0b01f9004994ee/package/resource.json",
+        "package/prefab.wprefab"
+      ]
+    },
+    "gameplay_v27": {
+      "files": {
+        "assets/audio/audio-combat-original-bow/audio.wav": {
+          "bytes": 8678,
+          "sha256": "3fe85a6f35493de6cee77100ffda58cd5d95dfe0d16f79c1d614a7ff1b6a3acc"
+        },
+        "assets/audio/audio-combat-original-bow/meta.json": {
+          "bytes": 178,
+          "sha256": "1e4fb3d2253b6ec96c6d497f5d41a173f9cc333458bca464f9386406ef07ddd9"
+        },
+        "assets/audio/audio-combat-original-enemy/audio.wav": {
+          "bytes": 11884,
+          "sha256": "866166092f8c7071212993bc1036f6a80d80a553b01b583ae85b4c1571b00ed8"
+        },
+        "assets/audio/audio-combat-original-enemy/meta.json": {
+          "bytes": 156,
+          "sha256": "26c23e6f5e6135edfe5b65c7cb009800611c44666154e3acc231061d2181c99c"
+        },
+        "assets/audio/audio-combat-original-hurt/audio.wav": {
+          "bytes": 8034,
+          "sha256": "3f669277e7c9cbbf017d788723e9ac4a6e00671e7edcfa09fad80b766db5d0cf"
+        },
+        "assets/audio/audio-combat-original-hurt/meta.json": {
+          "bytes": 155,
+          "sha256": "61c15a0bf659d68f5851a26720f6cb7fcf104535a58decd7479ebb2425f1b13b"
+        },
+        "assets/audio/audio-v2-arrow-hit/audio.wav": {
+          "bytes": 8864,
+          "sha256": "7bc63cf2b66456387550e09b196216cf789adb2796967d12cc58342ef140ef59"
+        },
+        "assets/audio/audio-v2-arrow-hit/meta.json": {
+          "bytes": 171,
+          "sha256": "90386bb598067ff4a04d92cebb94ca20ed20bada67cef2afdbbad0b34622cd51"
+        },
+        "assets/audio/audio-v2-bow-release/audio.wav": {
+          "bytes": 9746,
+          "sha256": "2a21b78ecfabaa713a6d6f40cde3831fb00168288a70e463e62cc7f965392689"
+        },
+        "assets/audio/audio-v2-bow-release/meta.json": {
+          "bytes": 173,
+          "sha256": "9b76ad8334584a9d74ba82cc1551e86986d88c62547af39283e23d1abb5b1477"
+        },
+        "assets/audio/audio-v2-cannon-explode/audio.wav": {
+          "bytes": 33118,
+          "sha256": "e566bce038c9724009a27209f5de3699bf03de64ffa03f758defd550ba72a4e2"
+        },
+        "assets/audio/audio-v2-cannon-explode/meta.json": {
+          "bytes": 182,
+          "sha256": "4e055ee3677c0dea3d11ece326a0c2c83a81c3e89532b4c57dc53bc466e38c5d"
+        },
+        "assets/audio/audio-v2-cannon-fire/audio.wav": {
+          "bytes": 19888,
+          "sha256": "0c1fa6890c717b9bcfe45e0d9f2b8f330b2f07221fc061ba5714b712a29cf8d0"
+        },
+        "assets/audio/audio-v2-cannon-fire/meta.json": {
+          "bytes": 179,
+          "sha256": "54ba3d23ddc5843de2f8352115b6db6ec0fdeb6663cca3542771a2aad9d1cbac"
+        },
+        "assets/audio/audio-v2-coin/audio.wav": {
+          "bytes": 16802,
+          "sha256": "15ae937a6621a37655f6cc0fb5c3a34e075853cf9a3bd5e6e8a4459c34a08bb2"
+        },
+        "assets/audio/audio-v2-coin/meta.json": {
+          "bytes": 166,
+          "sha256": "31e7e00a2e15fc9009e9bb2b46c63abd4de43a7bc5e109fc98501490efda4811"
+        },
+        "assets/audio/audio-v2-dash/audio.wav": {
+          "bytes": 9746,
+          "sha256": "3f77c0a5939c905d988f56f4cff31f3619cafae27c8fcd33a13fe87c222ff4b4"
+        },
+        "assets/audio/audio-v2-dash/meta.json": {
+          "bytes": 166,
+          "sha256": "a99eae0f6915a87f90832fe56f28e4aa4e610e9bc9b817087127598358f2f16c"
+        },
+        "assets/audio/audio-v2-giant-awaken/audio.wav": {
+          "bytes": 41938,
+          "sha256": "5244fcf32f6227b0e9592fd0bebfb339c942edb627ee341ec12849a4972ae4df"
+        },
+        "assets/audio/audio-v2-giant-awaken/meta.json": {
+          "bytes": 180,
+          "sha256": "214268446593a9f233945c79d243390b11c271fcb1efcd1c8c0da91cadd66e71"
+        },
+        "assets/audio/audio-v2-giant-hit/audio.wav": {
+          "bytes": 22094,
+          "sha256": "cedad47b753b2e9fcfeecbf1e3ed4e334039d5fd621ccbf4741644d9f98d7f66"
+        },
+        "assets/audio/audio-v2-giant-hit/meta.json": {
+          "bytes": 171,
+          "sha256": "13c525c32a02c535a2c3904f3b2a03bf9fd963e611df41a5cc3b3c73cfc299f0"
+        },
+        "assets/audio/audio-v2-leaf-charge/audio.wav": {
+          "bytes": 26504,
+          "sha256": "1cab67e060f28da69a41972295ef37ba01258b3432892fb7baa8e1c52e4eca5b"
+        },
+        "assets/audio/audio-v2-leaf-charge/meta.json": {
+          "bytes": 179,
+          "sha256": "ba8ddc0d681e408a69d61638f45cd4465c8297400336d3bbd4567c599217b500"
+        },
+        "assets/audio/audio-v2-leaf-hit/audio.wav": {
+          "bytes": 7982,
+          "sha256": "4641ebefec8197e55ba3e354c5cb158288cc7bb94baf7536836a13a1fa9c1a31"
+        },
+        "assets/audio/audio-v2-leaf-hit/meta.json": {
+          "bytes": 176,
+          "sha256": "f09e414243eb84b23ccd71f8ac84ca8b4125db3267c17d7479e79ebada045a65"
+        },
+        "assets/audio/audio-v2-leaf-whoosh/audio.wav": {
+          "bytes": 11510,
+          "sha256": "3ee1695fdbdd1a3e5dff44528ce5f7ed97b4baf5feda4e9aa243a949f711c15f"
+        },
+        "assets/audio/audio-v2-leaf-whoosh/meta.json": {
+          "bytes": 179,
+          "sha256": "4e000b03460f614b39e40e55fa1bdb65d4085fd2bd3f635bdefc5bea2b4c7298"
+        },
+        "assets/audio/audio-v2-magic-burst/audio.wav": {
+          "bytes": 26504,
+          "sha256": "e15eec4753d84c53fc784cd1b668c692c0230879896465db766f1384fbe0ce97"
+        },
+        "assets/audio/audio-v2-magic-burst/meta.json": {
+          "bytes": 179,
+          "sha256": "90a29527f9dd3ba1f2a58e7d8092d8e78532f6f1fa37ec27888287d899c14b67"
+        },
+        "assets/audio/audio-v2-magic-hit/audio.wav": {
+          "bytes": 13274,
+          "sha256": "1b17cdd73198c8097d4f6b3202c14dac7fafacebb1da59fa8d87a77a364db75b"
+        },
+        "assets/audio/audio-v2-magic-hit/meta.json": {
+          "bytes": 177,
+          "sha256": "2b316284e2416f47d85726a64ae4b60c7c6ced47393d42cf2a438ea4ad73fe2b"
+        },
+        "assets/audio/audio-v2-magic-shot/audio.wav": {
+          "bytes": 11510,
+          "sha256": "11e86af1e998e1d9e88ffcbbcd8648548879464f725cfc08232b7641d61aa14c"
+        },
+        "assets/audio/audio-v2-magic-shot/meta.json": {
+          "bytes": 178,
+          "sha256": "474ee1592e973de8e5b23a92cacfa410f071dcc5cfe3d764108aa98875392338"
+        },
+        "assets/audio/audio-v2-meteor-fall/audio.wav": {
+          "bytes": 41938,
+          "sha256": "78ddf4c3c799e9010673ecc6ba90098937afec10d33a76bb52683e1f20b37ac2"
+        },
+        "assets/audio/audio-v2-meteor-fall/meta.json": {
+          "bytes": 179,
+          "sha256": "b60dda13c789f4d18b1632615eb7188a0d650d37b2a2984f5c2187fed9cc2cd4"
+        },
+        "assets/audio/audio-v2-meteor-impact/audio.wav": {
+          "bytes": 33118,
+          "sha256": "49a2208c72e52cbd23c306e7745e8dbe0bf5bed035e1afd50032cacc53c3b3a4"
+        },
+        "assets/audio/audio-v2-meteor-impact/meta.json": {
+          "bytes": 181,
+          "sha256": "6d4a3d342ade6d7dbbf28432c8470fc1b75d67db780fcd12f4fd3e922675547c"
+        },
+        "assets/audio/audio-v2-rain-fall/audio.wav": {
+          "bytes": 33118,
+          "sha256": "a33b8f361690f6b91e56fafccc096bf7372af9ae536eff46910d66a913aaec47"
+        },
+        "assets/audio/audio-v2-rain-fall/meta.json": {
+          "bytes": 177,
+          "sha256": "ef1d7b846d43242be14863dbb70c311827e44d7a9d4d4997c20200582170e96f"
+        },
+        "assets/audio/audio-v2-rain-hit/audio.wav": {
+          "bytes": 6218,
+          "sha256": "47cc42ffaed3aba5819b699c281e50a0e1f281bd84ccb1a17d7293e63dc8f42c"
+        },
+        "assets/audio/audio-v2-rain-hit/meta.json": {
+          "bytes": 176,
+          "sha256": "9fd63ae3cf568aa59d5b4d1f4fbf7f258d288fdb0fbed6078457145f1029812a"
+        },
+        "assets/audio/audio-v2-sword-hit/audio.wav": {
+          "bytes": 12392,
+          "sha256": "f3b63077fb5e2e8988122106222bc68d8976a551d4a4bfa8137c2f7da69714b6"
+        },
+        "assets/audio/audio-v2-sword-hit/meta.json": {
+          "bytes": 171,
+          "sha256": "be50b7793de6a646628179e816188b26e1635042b1e5c2f6866f64cfe979c6c9"
+        },
+        "assets/audio/audio-v2-sword-swing/audio.wav": {
+          "bytes": 10628,
+          "sha256": "8a14531de676596db4561577764b5cd74e63bd7c9b8b426ec260011fced879de"
+        },
+        "assets/audio/audio-v2-sword-swing/meta.json": {
+          "bytes": 173,
+          "sha256": "96f4f672d1b1c4395d4c3c551f228d82e5c988e1571006095311f4bf09d9a6d6"
+        },
+        "assets/audio/audio-v2-time-hit/audio.wav": {
+          "bytes": 14156,
+          "sha256": "701928b48af67a36a84e6e7e5519b02f436e45a1aa7351b5a7c20a0ddeb1864f"
+        },
+        "assets/audio/audio-v2-time-hit/meta.json": {
+          "bytes": 176,
+          "sha256": "70b57b259fab1d627c0d51de2f8086c13d594195263eff2db3537e17e9192515"
+        },
+        "assets/audio/audio-v2-wall-break/audio.wav": {
+          "bytes": 24298,
+          "sha256": "6e5a006d0e1582d8a503b93565615e1e4084f27f48927cb17d6f210d68ede98a"
+        },
+        "assets/audio/audio-v2-wall-break/meta.json": {
+          "bytes": 172,
+          "sha256": "b6cc652f99941631a18bd96fd7bb56a8e5835c5ca8c55c061a7a100a26669f19"
+        },
+        "assets/effects/effect-combat-arena/effect.json": {
+          "bytes": 58166,
+          "sha256": "4d29f61abf5b862c6ba57df4e0c84b484f330a6a32fbf487154417c25e83163e"
+        },
+        "assets/effects/effect-combat-arena/meta.json": {
+          "bytes": 74,
+          "sha256": "e6aaa958d892640265976c8f753b306555c12cbc16e23dfe01b831aa397fd1bd"
+        },
+        "assets/effects/effect-combat-arena/models/f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa.glb": {
+          "bytes": 19088,
+          "sha256": "f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa"
+        },
+        "assets/effects/effect-combat-arena/textures/250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d.png": {
+          "bytes": 96039,
+          "sha256": "250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d"
+        },
+        "assets/effects/effect-combat-arena/textures/bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5.png": {
+          "bytes": 307,
+          "sha256": "bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5"
+        },
+        "assets/effects/effect-combat-arrow/effect.json": {
+          "bytes": 227641,
+          "sha256": "dcaf6864e126c1bd17efbe940677258ec47584f56a5cb86fc9d63d398e4a3cda"
+        },
+        "assets/effects/effect-combat-arrow/meta.json": {
+          "bytes": 68,
+          "sha256": "35d57d920d1de8e04d5acf2112291e10f519854cc3ec183622434570e967ef05"
+        },
+        "assets/effects/effect-combat-arrow/models/c5d052bc4023d97f65a28830f16a0f518476a9e4c449e590a5cbef3a7def0645.glb": {
+          "bytes": 2888,
+          "sha256": "c5d052bc4023d97f65a28830f16a0f518476a9e4c449e590a5cbef3a7def0645"
+        },
+        "assets/effects/effect-combat-arrow/models/f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa.glb": {
+          "bytes": 19088,
+          "sha256": "f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa"
+        },
+        "assets/effects/effect-combat-arrow/models/ffed90a8e1b00eb872c4aa83dbf9a1215aeb8b1b4e0f8371bcda04074a662a5c.glb": {
+          "bytes": 1272,
+          "sha256": "ffed90a8e1b00eb872c4aa83dbf9a1215aeb8b1b4e0f8371bcda04074a662a5c"
+        },
+        "assets/effects/effect-combat-arrow/textures/06b3b0194771891bf8463dd06ba7d4137ee7dd91644dcc4610d24ae01a8f8097.png": {
+          "bytes": 43433,
+          "sha256": "06b3b0194771891bf8463dd06ba7d4137ee7dd91644dcc4610d24ae01a8f8097"
+        },
+        "assets/effects/effect-combat-arrow/textures/250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d.png": {
+          "bytes": 96039,
+          "sha256": "250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d"
+        },
+        "assets/effects/effect-combat-arrow/textures/3abe8c0dd56c3e29dd306ee2fb76a069dff39f5d2abc9fd9e74be9d4aa41c7fe.png": {
+          "bytes": 76868,
+          "sha256": "3abe8c0dd56c3e29dd306ee2fb76a069dff39f5d2abc9fd9e74be9d4aa41c7fe"
+        },
+        "assets/effects/effect-combat-arrow/textures/3bd81f3e1e96e8d06bb21850d35de1618676ffc8472ced6f49ad58fcbfeb71e2.png": {
+          "bytes": 17914,
+          "sha256": "3bd81f3e1e96e8d06bb21850d35de1618676ffc8472ced6f49ad58fcbfeb71e2"
+        },
+        "assets/effects/effect-combat-arrow/textures/3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4.png": {
+          "bytes": 14033,
+          "sha256": "3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4"
+        },
+        "assets/effects/effect-combat-arrow/textures/42be0460b3e0801ac9872bc042c11d1e7303f4159068e560822d47977c73a357.png": {
+          "bytes": 67518,
+          "sha256": "42be0460b3e0801ac9872bc042c11d1e7303f4159068e560822d47977c73a357"
+        },
+        "assets/effects/effect-combat-arrow/textures/50d6d5981dd29929f4fabaf586a75056931d4c00b21d2bc028e95f2d067e4fa0.png": {
+          "bytes": 80958,
+          "sha256": "50d6d5981dd29929f4fabaf586a75056931d4c00b21d2bc028e95f2d067e4fa0"
+        },
+        "assets/effects/effect-combat-arrow/textures/552ddd53fa39282684e0ffd1cff6dd5bf6448d6b12a2fcf66d39c2589a3b86de.png": {
+          "bytes": 76239,
+          "sha256": "552ddd53fa39282684e0ffd1cff6dd5bf6448d6b12a2fcf66d39c2589a3b86de"
+        },
+        "assets/effects/effect-combat-arrow/textures/6de04cc8ba759a5d207f685468c69be755ccf23a51b29b26f1857c619fb5b25e.png": {
+          "bytes": 159216,
+          "sha256": "6de04cc8ba759a5d207f685468c69be755ccf23a51b29b26f1857c619fb5b25e"
+        },
+        "assets/effects/effect-combat-arrow/textures/806240b90f685342065f259549437e4ec352c67bf77632f00796bfbe8c51d0ef.png": {
+          "bytes": 40909,
+          "sha256": "806240b90f685342065f259549437e4ec352c67bf77632f00796bfbe8c51d0ef"
+        },
+        "assets/effects/effect-combat-arrow/textures/881430117a865ebb25958b6613c4d25272d11571b656b680ce05d63f8b438cfb.png": {
+          "bytes": 47962,
+          "sha256": "881430117a865ebb25958b6613c4d25272d11571b656b680ce05d63f8b438cfb"
+        },
+        "assets/effects/effect-combat-arrow/textures/957b118c3bec230dc88212515765f9e705f98102576eea5fbe2679ea691a1840.png": {
+          "bytes": 35474,
+          "sha256": "957b118c3bec230dc88212515765f9e705f98102576eea5fbe2679ea691a1840"
+        },
+        "assets/effects/effect-combat-arrow/textures/bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5.png": {
+          "bytes": 307,
+          "sha256": "bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5"
+        },
+        "assets/effects/effect-combat-arrow/textures/ccffebae8ff84b3d1c7d07fdb77a2222e4a45947551e56baf967d2d8403879a4.png": {
+          "bytes": 17448,
+          "sha256": "ccffebae8ff84b3d1c7d07fdb77a2222e4a45947551e56baf967d2d8403879a4"
+        },
+        "assets/effects/effect-combat-arrow/textures/cebf10fe9117c13682cce56c9f73d8abae68385c3ed58514b99174934087c26a.png": {
+          "bytes": 56874,
+          "sha256": "cebf10fe9117c13682cce56c9f73d8abae68385c3ed58514b99174934087c26a"
+        },
+        "assets/effects/effect-combat-arrow/textures/d2aaf433f28facd095654c79b5bfb51d29aab664581858347fa83083a8b60f81.png": {
+          "bytes": 22174,
+          "sha256": "d2aaf433f28facd095654c79b5bfb51d29aab664581858347fa83083a8b60f81"
+        },
+        "assets/effects/effect-combat-bolt/effect.json": {
+          "bytes": 227641,
+          "sha256": "6bedb85fb3a7ca90dfe70f42885316f91380e596d6fda57f53a0fb4609dffaf9"
+        },
+        "assets/effects/effect-combat-bolt/meta.json": {
+          "bytes": 67,
+          "sha256": "b4455aadb802baa00eb0fc146920d0922fd36e9501d5fe47f85ebf24742749de"
+        },
+        "assets/effects/effect-combat-bolt/models/c5d052bc4023d97f65a28830f16a0f518476a9e4c449e590a5cbef3a7def0645.glb": {
+          "bytes": 2888,
+          "sha256": "c5d052bc4023d97f65a28830f16a0f518476a9e4c449e590a5cbef3a7def0645"
+        },
+        "assets/effects/effect-combat-bolt/models/f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa.glb": {
+          "bytes": 19088,
+          "sha256": "f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa"
+        },
+        "assets/effects/effect-combat-bolt/models/ffed90a8e1b00eb872c4aa83dbf9a1215aeb8b1b4e0f8371bcda04074a662a5c.glb": {
+          "bytes": 1272,
+          "sha256": "ffed90a8e1b00eb872c4aa83dbf9a1215aeb8b1b4e0f8371bcda04074a662a5c"
+        },
+        "assets/effects/effect-combat-bolt/textures/06b3b0194771891bf8463dd06ba7d4137ee7dd91644dcc4610d24ae01a8f8097.png": {
+          "bytes": 43433,
+          "sha256": "06b3b0194771891bf8463dd06ba7d4137ee7dd91644dcc4610d24ae01a8f8097"
+        },
+        "assets/effects/effect-combat-bolt/textures/250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d.png": {
+          "bytes": 96039,
+          "sha256": "250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d"
+        },
+        "assets/effects/effect-combat-bolt/textures/3abe8c0dd56c3e29dd306ee2fb76a069dff39f5d2abc9fd9e74be9d4aa41c7fe.png": {
+          "bytes": 76868,
+          "sha256": "3abe8c0dd56c3e29dd306ee2fb76a069dff39f5d2abc9fd9e74be9d4aa41c7fe"
+        },
+        "assets/effects/effect-combat-bolt/textures/3bd81f3e1e96e8d06bb21850d35de1618676ffc8472ced6f49ad58fcbfeb71e2.png": {
+          "bytes": 17914,
+          "sha256": "3bd81f3e1e96e8d06bb21850d35de1618676ffc8472ced6f49ad58fcbfeb71e2"
+        },
+        "assets/effects/effect-combat-bolt/textures/3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4.png": {
+          "bytes": 14033,
+          "sha256": "3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4"
+        },
+        "assets/effects/effect-combat-bolt/textures/42be0460b3e0801ac9872bc042c11d1e7303f4159068e560822d47977c73a357.png": {
+          "bytes": 67518,
+          "sha256": "42be0460b3e0801ac9872bc042c11d1e7303f4159068e560822d47977c73a357"
+        },
+        "assets/effects/effect-combat-bolt/textures/50d6d5981dd29929f4fabaf586a75056931d4c00b21d2bc028e95f2d067e4fa0.png": {
+          "bytes": 80958,
+          "sha256": "50d6d5981dd29929f4fabaf586a75056931d4c00b21d2bc028e95f2d067e4fa0"
+        },
+        "assets/effects/effect-combat-bolt/textures/552ddd53fa39282684e0ffd1cff6dd5bf6448d6b12a2fcf66d39c2589a3b86de.png": {
+          "bytes": 76239,
+          "sha256": "552ddd53fa39282684e0ffd1cff6dd5bf6448d6b12a2fcf66d39c2589a3b86de"
+        },
+        "assets/effects/effect-combat-bolt/textures/6de04cc8ba759a5d207f685468c69be755ccf23a51b29b26f1857c619fb5b25e.png": {
+          "bytes": 159216,
+          "sha256": "6de04cc8ba759a5d207f685468c69be755ccf23a51b29b26f1857c619fb5b25e"
+        },
+        "assets/effects/effect-combat-bolt/textures/806240b90f685342065f259549437e4ec352c67bf77632f00796bfbe8c51d0ef.png": {
+          "bytes": 40909,
+          "sha256": "806240b90f685342065f259549437e4ec352c67bf77632f00796bfbe8c51d0ef"
+        },
+        "assets/effects/effect-combat-bolt/textures/881430117a865ebb25958b6613c4d25272d11571b656b680ce05d63f8b438cfb.png": {
+          "bytes": 47962,
+          "sha256": "881430117a865ebb25958b6613c4d25272d11571b656b680ce05d63f8b438cfb"
+        },
+        "assets/effects/effect-combat-bolt/textures/957b118c3bec230dc88212515765f9e705f98102576eea5fbe2679ea691a1840.png": {
+          "bytes": 35474,
+          "sha256": "957b118c3bec230dc88212515765f9e705f98102576eea5fbe2679ea691a1840"
+        },
+        "assets/effects/effect-combat-bolt/textures/bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5.png": {
+          "bytes": 307,
+          "sha256": "bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5"
+        },
+        "assets/effects/effect-combat-bolt/textures/ccffebae8ff84b3d1c7d07fdb77a2222e4a45947551e56baf967d2d8403879a4.png": {
+          "bytes": 17448,
+          "sha256": "ccffebae8ff84b3d1c7d07fdb77a2222e4a45947551e56baf967d2d8403879a4"
+        },
+        "assets/effects/effect-combat-bolt/textures/cebf10fe9117c13682cce56c9f73d8abae68385c3ed58514b99174934087c26a.png": {
+          "bytes": 56874,
+          "sha256": "cebf10fe9117c13682cce56c9f73d8abae68385c3ed58514b99174934087c26a"
+        },
+        "assets/effects/effect-combat-bolt/textures/d2aaf433f28facd095654c79b5bfb51d29aab664581858347fa83083a8b60f81.png": {
+          "bytes": 22174,
+          "sha256": "d2aaf433f28facd095654c79b5bfb51d29aab664581858347fa83083a8b60f81"
+        },
+        "assets/effects/effect-combat-burst/effect.json": {
+          "bytes": 341067,
+          "sha256": "34ef0387b648c7d3329ba4395a1124f594b3eb4c3bf8362d428e895ba793aba9"
+        },
+        "assets/effects/effect-combat-burst/meta.json": {
+          "bytes": 68,
+          "sha256": "117caea4e880f296eb6367bfba419cf78b9668bfb9c262f654c32063f16dcde3"
+        },
+        "assets/effects/effect-combat-burst/models/f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa.glb": {
+          "bytes": 19088,
+          "sha256": "f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa"
+        },
+        "assets/effects/effect-combat-burst/textures/06b3b0194771891bf8463dd06ba7d4137ee7dd91644dcc4610d24ae01a8f8097.png": {
+          "bytes": 43433,
+          "sha256": "06b3b0194771891bf8463dd06ba7d4137ee7dd91644dcc4610d24ae01a8f8097"
+        },
+        "assets/effects/effect-combat-burst/textures/250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d.png": {
+          "bytes": 96039,
+          "sha256": "250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d"
+        },
+        "assets/effects/effect-combat-burst/textures/3abe8c0dd56c3e29dd306ee2fb76a069dff39f5d2abc9fd9e74be9d4aa41c7fe.png": {
+          "bytes": 76868,
+          "sha256": "3abe8c0dd56c3e29dd306ee2fb76a069dff39f5d2abc9fd9e74be9d4aa41c7fe"
+        },
+        "assets/effects/effect-combat-burst/textures/3bd81f3e1e96e8d06bb21850d35de1618676ffc8472ced6f49ad58fcbfeb71e2.png": {
+          "bytes": 17914,
+          "sha256": "3bd81f3e1e96e8d06bb21850d35de1618676ffc8472ced6f49ad58fcbfeb71e2"
+        },
+        "assets/effects/effect-combat-burst/textures/3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4.png": {
+          "bytes": 14033,
+          "sha256": "3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4"
+        },
+        "assets/effects/effect-combat-burst/textures/50d6d5981dd29929f4fabaf586a75056931d4c00b21d2bc028e95f2d067e4fa0.png": {
+          "bytes": 80958,
+          "sha256": "50d6d5981dd29929f4fabaf586a75056931d4c00b21d2bc028e95f2d067e4fa0"
+        },
+        "assets/effects/effect-combat-burst/textures/552ddd53fa39282684e0ffd1cff6dd5bf6448d6b12a2fcf66d39c2589a3b86de.png": {
+          "bytes": 76239,
+          "sha256": "552ddd53fa39282684e0ffd1cff6dd5bf6448d6b12a2fcf66d39c2589a3b86de"
+        },
+        "assets/effects/effect-combat-burst/textures/6de04cc8ba759a5d207f685468c69be755ccf23a51b29b26f1857c619fb5b25e.png": {
+          "bytes": 159216,
+          "sha256": "6de04cc8ba759a5d207f685468c69be755ccf23a51b29b26f1857c619fb5b25e"
+        },
+        "assets/effects/effect-combat-burst/textures/881430117a865ebb25958b6613c4d25272d11571b656b680ce05d63f8b438cfb.png": {
+          "bytes": 47962,
+          "sha256": "881430117a865ebb25958b6613c4d25272d11571b656b680ce05d63f8b438cfb"
+        },
+        "assets/effects/effect-combat-burst/textures/bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5.png": {
+          "bytes": 307,
+          "sha256": "bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5"
+        },
+        "assets/effects/effect-combat-burst/textures/ccffebae8ff84b3d1c7d07fdb77a2222e4a45947551e56baf967d2d8403879a4.png": {
+          "bytes": 17448,
+          "sha256": "ccffebae8ff84b3d1c7d07fdb77a2222e4a45947551e56baf967d2d8403879a4"
+        },
+        "assets/effects/effect-combat-burst/textures/cebf10fe9117c13682cce56c9f73d8abae68385c3ed58514b99174934087c26a.png": {
+          "bytes": 56874,
+          "sha256": "cebf10fe9117c13682cce56c9f73d8abae68385c3ed58514b99174934087c26a"
+        },
+        "assets/effects/effect-combat-frost/effect.json": {
+          "bytes": 341072,
+          "sha256": "704ce8e3d4e956f91e7e01268215a529906eb0a80df9275591b46e38d2c8e3d2"
+        },
+        "assets/effects/effect-combat-frost/meta.json": {
+          "bytes": 68,
+          "sha256": "9a93cc15bd345c04d27426b15a79859a860af3cb0fcd3a56a17428a68ea71347"
+        },
+        "assets/effects/effect-combat-frost/models/f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa.glb": {
+          "bytes": 19088,
+          "sha256": "f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa"
+        },
+        "assets/effects/effect-combat-frost/textures/06b3b0194771891bf8463dd06ba7d4137ee7dd91644dcc4610d24ae01a8f8097.png": {
+          "bytes": 43433,
+          "sha256": "06b3b0194771891bf8463dd06ba7d4137ee7dd91644dcc4610d24ae01a8f8097"
+        },
+        "assets/effects/effect-combat-frost/textures/250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d.png": {
+          "bytes": 96039,
+          "sha256": "250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d"
+        },
+        "assets/effects/effect-combat-frost/textures/3abe8c0dd56c3e29dd306ee2fb76a069dff39f5d2abc9fd9e74be9d4aa41c7fe.png": {
+          "bytes": 76868,
+          "sha256": "3abe8c0dd56c3e29dd306ee2fb76a069dff39f5d2abc9fd9e74be9d4aa41c7fe"
+        },
+        "assets/effects/effect-combat-frost/textures/3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4.png": {
+          "bytes": 14033,
+          "sha256": "3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4"
+        },
+        "assets/effects/effect-combat-frost/textures/552ddd53fa39282684e0ffd1cff6dd5bf6448d6b12a2fcf66d39c2589a3b86de.png": {
+          "bytes": 76239,
+          "sha256": "552ddd53fa39282684e0ffd1cff6dd5bf6448d6b12a2fcf66d39c2589a3b86de"
+        },
+        "assets/effects/effect-combat-frost/textures/bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5.png": {
+          "bytes": 307,
+          "sha256": "bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5"
+        },
+        "assets/effects/effect-combat-frost/textures/ccffebae8ff84b3d1c7d07fdb77a2222e4a45947551e56baf967d2d8403879a4.png": {
+          "bytes": 17448,
+          "sha256": "ccffebae8ff84b3d1c7d07fdb77a2222e4a45947551e56baf967d2d8403879a4"
+        },
+        "assets/effects/effect-combat-hit/effect.json": {
+          "bytes": 169776,
+          "sha256": "811081fabfb3296900b2bfb92c441a23237ff987e33a2c187c2a1854f038b85d"
+        },
+        "assets/effects/effect-combat-hit/meta.json": {
+          "bytes": 66,
+          "sha256": "8b7fae4f1a3f15a63440165d4f6dc091f9e3e41edab37675d46a50a40f845a18"
+        },
+        "assets/effects/effect-combat-hit/textures/06b3b0194771891bf8463dd06ba7d4137ee7dd91644dcc4610d24ae01a8f8097.png": {
+          "bytes": 43433,
+          "sha256": "06b3b0194771891bf8463dd06ba7d4137ee7dd91644dcc4610d24ae01a8f8097"
+        },
+        "assets/effects/effect-combat-hit/textures/3abe8c0dd56c3e29dd306ee2fb76a069dff39f5d2abc9fd9e74be9d4aa41c7fe.png": {
+          "bytes": 76868,
+          "sha256": "3abe8c0dd56c3e29dd306ee2fb76a069dff39f5d2abc9fd9e74be9d4aa41c7fe"
+        },
+        "assets/effects/effect-combat-hit/textures/3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4.png": {
+          "bytes": 14033,
+          "sha256": "3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4"
+        },
+        "assets/effects/effect-combat-hit/textures/ccffebae8ff84b3d1c7d07fdb77a2222e4a45947551e56baf967d2d8403879a4.png": {
+          "bytes": 17448,
+          "sha256": "ccffebae8ff84b3d1c7d07fdb77a2222e4a45947551e56baf967d2d8403879a4"
+        },
+        "assets/effects/effect-combat-meteor/effect.json": {
+          "bytes": 341089,
+          "sha256": "97115e77cc4f69d975cad68e44ba163da9f9df62dbec703ff80c83f6078ef2b1"
+        },
+        "assets/effects/effect-combat-meteor/meta.json": {
+          "bytes": 69,
+          "sha256": "2e5dc6da0b64959a52d455d66d6f368041af2e0e2919987ce1f39283cd37ce1b"
+        },
+        "assets/effects/effect-combat-meteor/models/f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa.glb": {
+          "bytes": 19088,
+          "sha256": "f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa"
+        },
+        "assets/effects/effect-combat-meteor/textures/06b3b0194771891bf8463dd06ba7d4137ee7dd91644dcc4610d24ae01a8f8097.png": {
+          "bytes": 43433,
+          "sha256": "06b3b0194771891bf8463dd06ba7d4137ee7dd91644dcc4610d24ae01a8f8097"
+        },
+        "assets/effects/effect-combat-meteor/textures/250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d.png": {
+          "bytes": 96039,
+          "sha256": "250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d"
+        },
+        "assets/effects/effect-combat-meteor/textures/3abe8c0dd56c3e29dd306ee2fb76a069dff39f5d2abc9fd9e74be9d4aa41c7fe.png": {
+          "bytes": 76868,
+          "sha256": "3abe8c0dd56c3e29dd306ee2fb76a069dff39f5d2abc9fd9e74be9d4aa41c7fe"
+        },
+        "assets/effects/effect-combat-meteor/textures/3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4.png": {
+          "bytes": 14033,
+          "sha256": "3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4"
+        },
+        "assets/effects/effect-combat-meteor/textures/552ddd53fa39282684e0ffd1cff6dd5bf6448d6b12a2fcf66d39c2589a3b86de.png": {
+          "bytes": 76239,
+          "sha256": "552ddd53fa39282684e0ffd1cff6dd5bf6448d6b12a2fcf66d39c2589a3b86de"
+        },
+        "assets/effects/effect-combat-meteor/textures/bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5.png": {
+          "bytes": 307,
+          "sha256": "bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5"
+        },
+        "assets/effects/effect-combat-meteor/textures/ccffebae8ff84b3d1c7d07fdb77a2222e4a45947551e56baf967d2d8403879a4.png": {
+          "bytes": 17448,
+          "sha256": "ccffebae8ff84b3d1c7d07fdb77a2222e4a45947551e56baf967d2d8403879a4"
+        },
+        "assets/effects/effect-combat-shield/effect.json": {
+          "bytes": 172222,
+          "sha256": "f9bd30457b11fc8f3988eb7a691e4d170e42de2342cae4754b3d7bcaef87bf9b"
+        },
+        "assets/effects/effect-combat-shield/meta.json": {
+          "bytes": 69,
+          "sha256": "73dcf213f8e4469f5cf91db641dbc3f9a72d97e32fd578f2fa2858cf8f8aa74f"
+        },
+        "assets/effects/effect-combat-shield/models/f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa.glb": {
+          "bytes": 19088,
+          "sha256": "f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa"
+        },
+        "assets/effects/effect-combat-shield/textures/250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d.png": {
+          "bytes": 96039,
+          "sha256": "250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d"
+        },
+        "assets/effects/effect-combat-shield/textures/3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4.png": {
+          "bytes": 14033,
+          "sha256": "3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4"
+        },
+        "assets/effects/effect-combat-shield/textures/bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5.png": {
+          "bytes": 307,
+          "sha256": "bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5"
+        },
+        "assets/effects/effect-combat-slash/effect.json": {
+          "bytes": 169255,
+          "sha256": "32750bc92eff369254171d77bb5f3fcffdf6f9aa70d7c23173a6a7d4645a3356"
+        },
+        "assets/effects/effect-combat-slash/meshes/crescent.glb": {
+          "bytes": 4428,
+          "sha256": "ce67a020d73cfabd133e940c52d6055505c4dd1b5f1fb4f15619a353552cd6c8"
+        },
+        "assets/effects/effect-combat-slash/meta.json": {
+          "bytes": 68,
+          "sha256": "1958443c0753c1a6b3f027b3b3cc9663f6bdc3751f451426e0eb7c6c6b92494e"
+        },
+        "assets/effects/effect-combat-slash/textures/250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d.png": {
+          "bytes": 96039,
+          "sha256": "250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d"
+        },
+        "assets/effects/effect-combat-slash/textures/3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4.png": {
+          "bytes": 14033,
+          "sha256": "3cd778cfb054c86f59532e927b97ca3bcfd03894a747998eca077d4c8058f9e4"
+        },
+        "assets/effects/effect-combat-slash/textures/bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5.png": {
+          "bytes": 307,
+          "sha256": "bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5"
+        },
+        "assets/effects/effect-combat-tell/effect.json": {
+          "bytes": 58159,
+          "sha256": "62ca707e5401bafaa2a3375b2dbe3304530c76eb6c79a3e35b5250ead78680d8"
+        },
+        "assets/effects/effect-combat-tell/meta.json": {
+          "bytes": 67,
+          "sha256": "28c502e48e63523ab3928ac9c82ef991a39ec9d445d7ca70d9abf16b90b413e4"
+        },
+        "assets/effects/effect-combat-tell/models/f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa.glb": {
+          "bytes": 19088,
+          "sha256": "f52d6ca519786c645f03e9236b4c05118ef804f2529d0aa96419ba04a30f75fa"
+        },
+        "assets/effects/effect-combat-tell/textures/250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d.png": {
+          "bytes": 96039,
+          "sha256": "250b82ce36a521aceba8ee45b5646b780f45357cbeb8e3562b23ad2589ed180d"
+        },
+        "assets/effects/effect-combat-tell/textures/bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5.png": {
+          "bytes": 307,
+          "sha256": "bdc5027810781252d7b782cf258dfa31d6db84dbf38a6f2aa6eb806dd9507ba5"
+        },
+        "assets/effects/effect-combat-trail/effect.json": {
+          "bytes": 153054,
+          "sha256": "e32c93284db75b7c2c8412298bfb7004083b8849c9d647ead97f5319c51d9e4d"
+        },
+        "assets/effects/effect-combat-trail/meta.json": {
+          "bytes": 80,
+          "sha256": "4e40c8d6f89b61f333640836f407816a5ebb8c0f9cf25a5b1d1dc63b46c11c00"
+        },
+        "assets/effects/effect-combat-trail/models/c5d052bc4023d97f65a28830f16a0f518476a9e4c449e590a5cbef3a7def0645.glb": {
+          "bytes": 2888,
+          "sha256": "c5d052bc4023d97f65a28830f16a0f518476a9e4c449e590a5cbef3a7def0645"
+        },
+        "assets/effects/effect-combat-trail/models/ffed90a8e1b00eb872c4aa83dbf9a1215aeb8b1b4e0f8371bcda04074a662a5c.glb": {
+          "bytes": 1272,
+          "sha256": "ffed90a8e1b00eb872c4aa83dbf9a1215aeb8b1b4e0f8371bcda04074a662a5c"
+        },
+        "assets/effects/effect-combat-trail/textures/42be0460b3e0801ac9872bc042c11d1e7303f4159068e560822d47977c73a357.png": {
+          "bytes": 67518,
+          "sha256": "42be0460b3e0801ac9872bc042c11d1e7303f4159068e560822d47977c73a357"
+        },
+        "assets/effects/effect-combat-trail/textures/806240b90f685342065f259549437e4ec352c67bf77632f00796bfbe8c51d0ef.png": {
+          "bytes": 40909,
+          "sha256": "806240b90f685342065f259549437e4ec352c67bf77632f00796bfbe8c51d0ef"
+        },
+        "assets/effects/effect-combat-trail/textures/957b118c3bec230dc88212515765f9e705f98102576eea5fbe2679ea691a1840.png": {
+          "bytes": 35474,
+          "sha256": "957b118c3bec230dc88212515765f9e705f98102576eea5fbe2679ea691a1840"
+        },
+        "assets/effects/effect-combat-trail/textures/d2aaf433f28facd095654c79b5bfb51d29aab664581858347fa83083a8b60f81.png": {
+          "bytes": 22174,
+          "sha256": "d2aaf433f28facd095654c79b5bfb51d29aab664581858347fa83083a8b60f81"
+        },
+        "assets/models/model-imported-1362b865809689c268fb126ee5a9b8a20c361f44a842bd30c5e5fd042a804080/meta.json": {
+          "bytes": 268,
+          "sha256": "5d6606f2bb11785d2e27a956e400b727ec80cb6dc4a83a8ea5c44109a7d59902"
+        },
+        "assets/models/model-imported-1362b865809689c268fb126ee5a9b8a20c361f44a842bd30c5e5fd042a804080/topology/README.md": {
+          "bytes": 119,
+          "sha256": "f7e17d21b5c0333aa4933d5c880c919a07b12839b27e6815b4fb7656d5879cea"
+        },
+        "assets/models/model-imported-1362b865809689c268fb126ee5a9b8a20c361f44a842bd30c5e5fd042a804080/topology/model.glb": {
+          "bytes": 2197420,
+          "sha256": "3e77d7d95d2fd6c4ac3cc3bcae03aa9d6692c31a5d056c681715a5640c77cca4"
+        },
+        "assets/models/model-imported-1362b865809689c268fb126ee5a9b8a20c361f44a842bd30c5e5fd042a804080/topology/original-meta-25012f9f76dc4f7a6f4ba12366870127ec92d848cd850b420a2bc35233954ce2.json": {
+          "bytes": 219,
+          "sha256": "25012f9f76dc4f7a6f4ba12366870127ec92d848cd850b420a2bc35233954ce2"
+        },
+        "assets/models/model-imported-1362b865809689c268fb126ee5a9b8a20c361f44a842bd30c5e5fd042a804080/topology/restore-model.glb": {
+          "bytes": 4395852,
+          "sha256": "3fa8a31f33f77b23b7afb13984dcb047037b5d22d537ad2bfa13d40f1f32317b"
+        },
+        "assets/models/model-imported-270c6a9f933186faca1275129dc28e05a07b0e3280bdf75d147324350625c399/meta.json": {
+          "bytes": 268,
+          "sha256": "47a0e9524a0bdd2c1b568a8f14949c33488696e5299472f3a83102c47d7492ad"
+        },
+        "assets/models/model-imported-270c6a9f933186faca1275129dc28e05a07b0e3280bdf75d147324350625c399/topology/README.md": {
+          "bytes": 119,
+          "sha256": "f7e17d21b5c0333aa4933d5c880c919a07b12839b27e6815b4fb7656d5879cea"
+        },
+        "assets/models/model-imported-270c6a9f933186faca1275129dc28e05a07b0e3280bdf75d147324350625c399/topology/model.glb": {
+          "bytes": 640136,
+          "sha256": "05bcfdeb8c6dcfd5516ed1963bc84305706bc5b4bc73cfc8c8bf5dfb58128818"
+        },
+        "assets/models/model-imported-270c6a9f933186faca1275129dc28e05a07b0e3280bdf75d147324350625c399/topology/original-meta-7a3bf020d381b47059504e49ff6d54172d22b75628620f74ae5d2cdbf51a221f.json": {
+          "bytes": 216,
+          "sha256": "7a3bf020d381b47059504e49ff6d54172d22b75628620f74ae5d2cdbf51a221f"
+        },
+        "assets/models/model-imported-270c6a9f933186faca1275129dc28e05a07b0e3280bdf75d147324350625c399/topology/restore-model.glb": {
+          "bytes": 1281260,
+          "sha256": "929161e8e425c175ff2a22e7b79d7ba030a77a253482f99e8e7a1e0561ea0324"
+        },
+        "assets/models/model-imported-48198b53ce324ea64f3dddf37eac9f2b0640e87db60eb12aa128d8d1e782d2ca/meta.json": {
+          "bytes": 268,
+          "sha256": "f55fe6dd352375249eda9138d54e9ac1a5a1470691e77e35dc8f5d3a9de358e2"
+        },
+        "assets/models/model-imported-48198b53ce324ea64f3dddf37eac9f2b0640e87db60eb12aa128d8d1e782d2ca/topology/README.md": {
+          "bytes": 119,
+          "sha256": "f7e17d21b5c0333aa4933d5c880c919a07b12839b27e6815b4fb7656d5879cea"
+        },
+        "assets/models/model-imported-48198b53ce324ea64f3dddf37eac9f2b0640e87db60eb12aa128d8d1e782d2ca/topology/model.glb": {
+          "bytes": 22512,
+          "sha256": "113257aaad8e0aea6299c8193b4b828df339be284ac1546814b28966dd995f37"
+        },
+        "assets/models/model-imported-48198b53ce324ea64f3dddf37eac9f2b0640e87db60eb12aa128d8d1e782d2ca/topology/original-meta-56f74d64fafee4d683254f53914a55293b521838ed8303403e598c1cf1fb8f60.json": {
+          "bytes": 212,
+          "sha256": "56f74d64fafee4d683254f53914a55293b521838ed8303403e598c1cf1fb8f60"
+        },
+        "assets/models/model-imported-48198b53ce324ea64f3dddf37eac9f2b0640e87db60eb12aa128d8d1e782d2ca/topology/restore-model.glb": {
+          "bytes": 46008,
+          "sha256": "f5d7561f37a36aabf0c940e030a6bee05e83b6ef8662518982117485d9551e86"
+        },
+        "assets/models/model-imported-48a7037acc58a59bc25dcf9b29e868062275a2655d22c0432558fd172901f630/meta.json": {
+          "bytes": 268,
+          "sha256": "71e3c5fc921fa313825bf63d88a77609bf246113636d9968a70c29cedbf3aef2"
+        },
+        "assets/models/model-imported-48a7037acc58a59bc25dcf9b29e868062275a2655d22c0432558fd172901f630/topology/README.md": {
+          "bytes": 119,
+          "sha256": "f7e17d21b5c0333aa4933d5c880c919a07b12839b27e6815b4fb7656d5879cea"
+        },
+        "assets/models/model-imported-48a7037acc58a59bc25dcf9b29e868062275a2655d22c0432558fd172901f630/topology/model.glb": {
+          "bytes": 763480,
+          "sha256": "3f1262db5fa2f1aa94566af8688b484624fc76f108d831d0264d33002885687c"
+        },
+        "assets/models/model-imported-48a7037acc58a59bc25dcf9b29e868062275a2655d22c0432558fd172901f630/topology/original-meta-1318a5863e202e0f5be387756e9c16fff976bce723ff754e11f7bb4cd9dc7681.json": {
+          "bytes": 207,
+          "sha256": "1318a5863e202e0f5be387756e9c16fff976bce723ff754e11f7bb4cd9dc7681"
+        },
+        "assets/models/model-imported-48a7037acc58a59bc25dcf9b29e868062275a2655d22c0432558fd172901f630/topology/restore-model.glb": {
+          "bytes": 1527936,
+          "sha256": "6c87ba8dd7f36b0de936ae7eb87e7cae9022f16e2c5997f97301cc66000c3363"
+        },
+        "assets/models/model-imported-52fc51bd9db589d12ff261095985271844c8bbfb17b29020695fd69f8642402e/static/README.md": {
+          "bytes": 113,
+          "sha256": "3a913bfb59938cb7413c181d30a719711a8a4fb7b2bb4a37fe811edf75216eb2"
+        },
+        "assets/models/model-imported-52fc51bd9db589d12ff261095985271844c8bbfb17b29020695fd69f8642402e/static/model.glb": {
+          "bytes": 3407964,
+          "sha256": "204aa870540530d5f8018b5023703394b02b22c2942673b8aaf067808dcd380b"
+        },
+        "assets/models/model-imported-52fc51bd9db589d12ff261095985271844c8bbfb17b29020695fd69f8642402e/static/preview-module.js": {
+          "bytes": 89012,
+          "sha256": "8de12846336520690100b732f8d74efde47bcba7c2639642716996d68a2d2401"
+        },
+        "assets/models/model-imported-5620f83d4c700c1df57edac53eba5251988a5c8af169b148fa9d82ded129a4c5/topology/README.md": {
+          "bytes": 144,
+          "sha256": "488e49cc3c02b98d730a8b910c1ea5dbeac0209ff0fad3a8a629f31a2408ae97"
+        },
+        "assets/models/model-imported-5620f83d4c700c1df57edac53eba5251988a5c8af169b148fa9d82ded129a4c5/topology/model.glb": {
+          "bytes": 1052584,
+          "sha256": "155045246670434033154bb9353b2281da00be1d6aaf4bdb9d8b23b7347b1055"
+        },
+        "assets/models/model-imported-60f2dd77d28895a4e0257165769031f8f0054a4b8e414061739d30a44a28b541/meta.json": {
+          "bytes": 268,
+          "sha256": "e97a68e399f02e8803e31b3e6fcf931caa1f723939274451b94b047f76031cc6"
+        },
+        "assets/models/model-imported-60f2dd77d28895a4e0257165769031f8f0054a4b8e414061739d30a44a28b541/topology/README.md": {
+          "bytes": 119,
+          "sha256": "f7e17d21b5c0333aa4933d5c880c919a07b12839b27e6815b4fb7656d5879cea"
+        },
+        "assets/models/model-imported-60f2dd77d28895a4e0257165769031f8f0054a4b8e414061739d30a44a28b541/topology/model.glb": {
+          "bytes": 1056548,
+          "sha256": "cd077eab1e36cf47f6bcb0fb6fe81bf0f7a6a07aa81d53ba9441bb937ca4ee13"
+        },
+        "assets/models/model-imported-60f2dd77d28895a4e0257165769031f8f0054a4b8e414061739d30a44a28b541/topology/original-meta-c7f6be8460c886382a81d493ecce76472ee3a2294c184c513dce6c7d9c0afd86.json": {
+          "bytes": 207,
+          "sha256": "c7f6be8460c886382a81d493ecce76472ee3a2294c184c513dce6c7d9c0afd86"
+        },
+        "assets/models/model-imported-60f2dd77d28895a4e0257165769031f8f0054a4b8e414061739d30a44a28b541/topology/restore-model.glb": {
+          "bytes": 2114076,
+          "sha256": "51dafebeccbebc4663a5c9adb9c70d609a81d6d1e43cf8c6a3d45333f6cb2d2a"
+        },
+        "assets/models/model-imported-7abbe039a5c55865792dec77727276fe40c316cbedd74b7d8e306777e17bba51/meta.json": {
+          "bytes": 268,
+          "sha256": "d12f36033e5b32148b746314c6a8d1e6113474680d265a15f2e02a891eb23a83"
+        },
+        "assets/models/model-imported-7abbe039a5c55865792dec77727276fe40c316cbedd74b7d8e306777e17bba51/topology/README.md": {
+          "bytes": 119,
+          "sha256": "f7e17d21b5c0333aa4933d5c880c919a07b12839b27e6815b4fb7656d5879cea"
+        },
+        "assets/models/model-imported-7abbe039a5c55865792dec77727276fe40c316cbedd74b7d8e306777e17bba51/topology/model.glb": {
+          "bytes": 375596,
+          "sha256": "21106a496016708a6eaed14058b14695bf6d535833a6c14e5ce40ae898d179f9"
+        },
+        "assets/models/model-imported-7abbe039a5c55865792dec77727276fe40c316cbedd74b7d8e306777e17bba51/topology/original-meta-07dae763e0bfef547eb20d5e54f9ed61798d1ce39648bb4265755fe6204b6863.json": {
+          "bytes": 209,
+          "sha256": "07dae763e0bfef547eb20d5e54f9ed61798d1ce39648bb4265755fe6204b6863"
+        },
+        "assets/models/model-imported-7abbe039a5c55865792dec77727276fe40c316cbedd74b7d8e306777e17bba51/topology/restore-model.glb": {
+          "bytes": 752168,
+          "sha256": "280f83e39a00880a91b5b4d3b253f68173dd03bd3126db78da841f160c53165b"
+        },
+        "assets/models/model-imported-97eaf5c89a25b3308158b15cd6f804beed39e1f904b75b078556c9f44fd4dd4f/topology/README.md": {
+          "bytes": 144,
+          "sha256": "488e49cc3c02b98d730a8b910c1ea5dbeac0209ff0fad3a8a629f31a2408ae97"
+        },
+        "assets/models/model-imported-97eaf5c89a25b3308158b15cd6f804beed39e1f904b75b078556c9f44fd4dd4f/topology/model.glb": {
+          "bytes": 998516,
+          "sha256": "bec757bf4be6bb52050bcc9b8665ca4236c4935ed5a75cbd6a01abde6f58116a"
+        },
+        "assets/models/model-imported-bbfe140b69d4f9bb66df088eda2d1001bf3d0f5c0971d575de8ed8761303a839/meta.json": {
+          "bytes": 268,
+          "sha256": "9abf382762d9f9c5946bccce532c1fb1fe46f303fbd0983666fa83c2d500abfd"
+        },
+        "assets/models/model-imported-bbfe140b69d4f9bb66df088eda2d1001bf3d0f5c0971d575de8ed8761303a839/topology/README.md": {
+          "bytes": 119,
+          "sha256": "f7e17d21b5c0333aa4933d5c880c919a07b12839b27e6815b4fb7656d5879cea"
+        },
+        "assets/models/model-imported-bbfe140b69d4f9bb66df088eda2d1001bf3d0f5c0971d575de8ed8761303a839/topology/model.glb": {
+          "bytes": 139248,
+          "sha256": "23ad70ca7bb346d6243f73781dcebf675066f8f67c42bd086da6c6a1bb5f5b94"
+        },
+        "assets/models/model-imported-bbfe140b69d4f9bb66df088eda2d1001bf3d0f5c0971d575de8ed8761303a839/topology/original-meta-8ba1a8ee1bd0bd95686e0cccec5172a8973f8ead4f2b346ae1e658909f700ef0.json": {
+          "bytes": 213,
+          "sha256": "8ba1a8ee1bd0bd95686e0cccec5172a8973f8ead4f2b346ae1e658909f700ef0"
+        },
+        "assets/models/model-imported-bbfe140b69d4f9bb66df088eda2d1001bf3d0f5c0971d575de8ed8761303a839/topology/restore-model.glb": {
+          "bytes": 279488,
+          "sha256": "6fcc7b758501032fc8b429d01142787edf753f152b71d278f33162a84997aad3"
+        },
+        "assets/models/model-imported-c5102798023130ec536e40aa8780f6f03aff5312d45da8d20da790e25ecf9611/topology/README.md": {
+          "bytes": 144,
+          "sha256": "488e49cc3c02b98d730a8b910c1ea5dbeac0209ff0fad3a8a629f31a2408ae97"
+        },
+        "assets/models/model-imported-c5102798023130ec536e40aa8780f6f03aff5312d45da8d20da790e25ecf9611/topology/model.glb": {
+          "bytes": 202400,
+          "sha256": "667ab88b7c44baf8dff765dd2cf66c970e5ce52318ac381dee671a2898568595"
+        },
+        "assets/models/model-imported-d1cea4d754b980ff40cfa4e19eb642cb647f7ff6223ba81e3153da3c91e11d5d/meta.json": {
+          "bytes": 268,
+          "sha256": "a17a95242bf0058f9129ce711bd4d0124f1493937967efc65dc7d25e7f25143d"
+        },
+        "assets/models/model-imported-d1cea4d754b980ff40cfa4e19eb642cb647f7ff6223ba81e3153da3c91e11d5d/topology/README.md": {
+          "bytes": 119,
+          "sha256": "f7e17d21b5c0333aa4933d5c880c919a07b12839b27e6815b4fb7656d5879cea"
+        },
+        "assets/models/model-imported-d1cea4d754b980ff40cfa4e19eb642cb647f7ff6223ba81e3153da3c91e11d5d/topology/model.glb": {
+          "bytes": 3287836,
+          "sha256": "a737987df7312b63c69cd9838d54dc3dfec4a3c9b1962fab7b4bfb4447ed4024"
+        },
+        "assets/models/model-imported-d1cea4d754b980ff40cfa4e19eb642cb647f7ff6223ba81e3153da3c91e11d5d/topology/original-meta-65a90091ebc1ea4899ec1bc31c35cecde5c1dab05633609e1ce9c8543446edb3.json": {
+          "bytes": 207,
+          "sha256": "65a90091ebc1ea4899ec1bc31c35cecde5c1dab05633609e1ce9c8543446edb3"
+        },
+        "assets/models/model-imported-d1cea4d754b980ff40cfa4e19eb642cb647f7ff6223ba81e3153da3c91e11d5d/topology/restore-model.glb": {
+          "bytes": 6576648,
+          "sha256": "98c0bd1ca0cc4ddbb9d446afa1686ada7c09094ca3650434efee1a8c7adeaec2"
+        },
+        "assets/models/model-imported-ee1ff644d5748eaac52a53f8888dd670b3adccc27cfe064257e5b269e02ee3be/meta.json": {
+          "bytes": 268,
+          "sha256": "dc34d6b33e49bab489bf54cbc9efa18dc37887c911e7ae514761a2321992f061"
+        },
+        "assets/models/model-imported-ee1ff644d5748eaac52a53f8888dd670b3adccc27cfe064257e5b269e02ee3be/topology/README.md": {
+          "bytes": 119,
+          "sha256": "f7e17d21b5c0333aa4933d5c880c919a07b12839b27e6815b4fb7656d5879cea"
+        },
+        "assets/models/model-imported-ee1ff644d5748eaac52a53f8888dd670b3adccc27cfe064257e5b269e02ee3be/topology/model.glb": {
+          "bytes": 51696,
+          "sha256": "e97ad64702856ae94655e4201730a5fe76e716b42bff70d2ac81b6e94970a67d"
+        },
+        "assets/models/model-imported-ee1ff644d5748eaac52a53f8888dd670b3adccc27cfe064257e5b269e02ee3be/topology/original-meta-554c60cffdede8364e48d264392c00a95ef305d0fb6beba817c0724c030cb4ce.json": {
+          "bytes": 215,
+          "sha256": "554c60cffdede8364e48d264392c00a95ef305d0fb6beba817c0724c030cb4ce"
+        },
+        "assets/models/model-imported-ee1ff644d5748eaac52a53f8888dd670b3adccc27cfe064257e5b269e02ee3be/topology/restore-model.glb": {
+          "bytes": 104388,
+          "sha256": "01bbb863e80f7e0a20bd429bd93b1854d9b713f48af584fb4dafb90480f915a4"
+        },
+        "assets/models/model-imported-fbdc6f2589a43922a95b5745030a63cca2d0c62b87e3f82ab41c58e0cdc066c5/topology/README.md": {
+          "bytes": 144,
+          "sha256": "488e49cc3c02b98d730a8b910c1ea5dbeac0209ff0fad3a8a629f31a2408ae97"
+        },
+        "assets/models/model-imported-fbdc6f2589a43922a95b5745030a63cca2d0c62b87e3f82ab41c58e0cdc066c5/topology/model.glb": {
+          "bytes": 1087308,
+          "sha256": "4f23a96848bf200dd7402f4616ef5bd4cc0a1a70f809a4459ff804dcbdc700ee"
+        },
+        "assets/models/model-windmill-v27/meta.json": {
+          "bytes": 208,
+          "sha256": "7f15d4478e9b1c2b0cb1e9d3caf568c585fd6375d984a5e02445697ed9585679"
+        },
+        "assets/models/model-windmill-v27/topology/README.md": {
+          "bytes": 144,
+          "sha256": "488e49cc3c02b98d730a8b910c1ea5dbeac0209ff0fad3a8a629f31a2408ae97"
+        },
+        "assets/models/model-windmill-v27/topology/model.glb": {
+          "bytes": 218388,
+          "sha256": "62c9469b1832b66f38db91bb974cdd33611a6f04c014ef7ba43a281d7bc370c8"
+        },
+        "docs/.source/entries/b17654973e4c26ce5af1a3b292837f096e808deeaaaa2b59eafe43efd5a6b4fb/asset-metadata.json": {
+          "bytes": 128,
+          "sha256": "1fb4305025c825695e1c7c1ed04d74952640e839b1955ac7482aa31a72711dec"
+        },
+        "meta.json": {
+          "bytes": 96,
+          "sha256": "956a7d8f2cffff9f069305dd3a42b23f9827842625e71672ec485b98fd3dc2f7"
+        },
+        "prefab.json": {
+          "bytes": 539302,
+          "sha256": "970ee99a779879e983b2c10bcdb67432a1537bb19d26ed78bf15169e4f269dbd"
+        },
+        "scripts/dragon_combat.lua": {
+          "bytes": 26722,
+          "sha256": "9ca809d3e9f9cf4bfd6a9fb9e05027cfaf9ebd031fe86894421f72a0408eefb3"
+        },
+        "scripts/dragon_combat_rules.lua": {
+          "bytes": 11186,
+          "sha256": "d35024da31444e7fe136116c222bc7ecb184042edaba21a1967e7b8d8d3dc8e5"
+        },
+        "scripts/dragon_daycycle.lua": {
+          "bytes": 7297,
+          "sha256": "8f3bf0bc444890962074cc38452ca99e4959df0c212daa202714584855fa6a56"
+        },
+        "scripts/dragon_exploration.lua": {
+          "bytes": 31713,
+          "sha256": "f76aa4292dbcc0606e166ebcc2f0f7b6d194ff8dcf1b0d95467cbc6640e2e75f"
+        },
+        "scripts/dragon_fx.lua": {
+          "bytes": 26208,
+          "sha256": "5688f7554c43ca5633c2c375d119e0761127366e582e821245a7a6159b6a04a8"
+        },
+        "scripts/dragon_outfits.lua": {
+          "bytes": 46337,
+          "sha256": "02c6424603273a7055fa5d29f2de3b0d6224a9eb39554f681488f95316661a41"
+        },
+        "scripts/dragon_progress.lua": {
+          "bytes": 3240,
+          "sha256": "59199f6cfda0f6afa4dc82d4c46d0d033adeac8479304747a80b64cf79680043"
+        },
+        "scripts/dragon_progress_rules.lua": {
+          "bytes": 6890,
+          "sha256": "9fe7771c2a4f2cd78d70a33bb1299435e10aec916b861dcdeeaa09ee2103c776"
+        },
+        "scripts/dragon_rpg.lua": {
+          "bytes": 37074,
+          "sha256": "cee567af370d668c9826f53ce6880be529a3f374905d173ce96f400cf2efa495"
+        },
+        "scripts/dragon_rules.lua": {
+          "bytes": 3710,
+          "sha256": "f809d17fdd1920ca90aa6c788b1a55c791780c4e4da48cacaa8a09ecb8375e8a"
+        },
+        "scripts/dragon_timeline.lua": {
+          "bytes": 10336,
+          "sha256": "f1bbe401770d06e51d4863dadd82593c1e2dacbcf4966a87e3e6292beeea224c"
+        },
+        "scripts/dragon_weapons.lua": {
+          "bytes": 42579,
+          "sha256": "5dbf78af3c3b4b60e618a4cf95bec2047e777a10f87bcd501fcc37c290f7a5f3"
+        },
+        "scripts/dragon_world_bridge.lua": {
+          "bytes": 16482498,
+          "sha256": "30c2d8f5106b87d38984796f047ae886339a2ccb3bbac3b1f0c3b1b3628211ce"
+        }
+      },
+      "fileCount": 238,
+      "bytes": 56622087,
+      "excluded": [
+        ".tmp/resource-publications/6e66b25a444311214d2285835fe429b655fd66808abd4e7528b6449e79fb4b56.json",
+        "assets/audio/audio-combat-original-bow/package/resource.json",
+        "assets/audio/audio-combat-original-enemy/package/resource.json",
+        "assets/audio/audio-combat-original-hurt/package/resource.json",
+        "assets/audio/audio-v2-arrow-hit/package/resource.json",
+        "assets/audio/audio-v2-bow-release/package/resource.json",
+        "assets/audio/audio-v2-cannon-explode/package/resource.json",
+        "assets/audio/audio-v2-cannon-fire/package/resource.json",
+        "assets/audio/audio-v2-coin/package/resource.json",
+        "assets/audio/audio-v2-dash/package/resource.json",
+        "assets/audio/audio-v2-giant-awaken/package/resource.json",
+        "assets/audio/audio-v2-giant-hit/package/resource.json",
+        "assets/audio/audio-v2-leaf-charge/package/resource.json",
+        "assets/audio/audio-v2-leaf-hit/package/resource.json",
+        "assets/audio/audio-v2-leaf-whoosh/package/resource.json",
+        "assets/audio/audio-v2-magic-burst/package/resource.json",
+        "assets/audio/audio-v2-magic-hit/package/resource.json",
+        "assets/audio/audio-v2-magic-shot/package/resource.json",
+        "assets/audio/audio-v2-meteor-fall/package/resource.json",
+        "assets/audio/audio-v2-meteor-impact/package/resource.json",
+        "assets/audio/audio-v2-rain-fall/package/resource.json",
+        "assets/audio/audio-v2-rain-hit/package/resource.json",
+        "assets/audio/audio-v2-sword-hit/package/resource.json",
+        "assets/audio/audio-v2-sword-swing/package/resource.json",
+        "assets/audio/audio-v2-time-hit/package/resource.json",
+        "assets/audio/audio-v2-wall-break/package/resource.json",
+        "assets/effects/effect-combat-arena/package/resource.json",
+        "assets/effects/effect-combat-arrow/package/resource.json",
+        "assets/effects/effect-combat-bolt/package/resource.json",
+        "assets/effects/effect-combat-burst/package/resource.json",
+        "assets/effects/effect-combat-frost/package/resource.json",
+        "assets/effects/effect-combat-hit/package/resource.json",
+        "assets/effects/effect-combat-meteor/package/resource.json",
+        "assets/effects/effect-combat-shield/package/resource.json",
+        "assets/effects/effect-combat-slash/package/resource.json",
+        "assets/effects/effect-combat-tell/package/resource.json",
+        "assets/models/model-imported-1362b865809689c268fb126ee5a9b8a20c361f44a842bd30c5e5fd042a804080/package/model-output.sha256",
+        "assets/models/model-imported-1362b865809689c268fb126ee5a9b8a20c361f44a842bd30c5e5fd042a804080/package/model.glb",
+        "assets/models/model-imported-1362b865809689c268fb126ee5a9b8a20c361f44a842bd30c5e5fd042a804080/package/resource.json",
+        "assets/models/model-imported-270c6a9f933186faca1275129dc28e05a07b0e3280bdf75d147324350625c399/package/model-output.sha256",
+        "assets/models/model-imported-270c6a9f933186faca1275129dc28e05a07b0e3280bdf75d147324350625c399/package/model.glb",
+        "assets/models/model-imported-270c6a9f933186faca1275129dc28e05a07b0e3280bdf75d147324350625c399/package/resource.json",
+        "assets/models/model-imported-48198b53ce324ea64f3dddf37eac9f2b0640e87db60eb12aa128d8d1e782d2ca/package/model-output.sha256",
+        "assets/models/model-imported-48198b53ce324ea64f3dddf37eac9f2b0640e87db60eb12aa128d8d1e782d2ca/package/model.glb",
+        "assets/models/model-imported-48198b53ce324ea64f3dddf37eac9f2b0640e87db60eb12aa128d8d1e782d2ca/package/resource.json",
+        "assets/models/model-imported-48a7037acc58a59bc25dcf9b29e868062275a2655d22c0432558fd172901f630/package/model-output.sha256",
+        "assets/models/model-imported-48a7037acc58a59bc25dcf9b29e868062275a2655d22c0432558fd172901f630/package/model.glb",
+        "assets/models/model-imported-48a7037acc58a59bc25dcf9b29e868062275a2655d22c0432558fd172901f630/package/resource.json",
+        "assets/models/model-imported-52fc51bd9db589d12ff261095985271844c8bbfb17b29020695fd69f8642402e/package/model-output.sha256",
+        "assets/models/model-imported-52fc51bd9db589d12ff261095985271844c8bbfb17b29020695fd69f8642402e/package/model.glb",
+        "assets/models/model-imported-52fc51bd9db589d12ff261095985271844c8bbfb17b29020695fd69f8642402e/package/resource.json",
+        "assets/models/model-imported-5620f83d4c700c1df57edac53eba5251988a5c8af169b148fa9d82ded129a4c5/package/model-output.sha256",
+        "assets/models/model-imported-5620f83d4c700c1df57edac53eba5251988a5c8af169b148fa9d82ded129a4c5/package/model.glb",
+        "assets/models/model-imported-5620f83d4c700c1df57edac53eba5251988a5c8af169b148fa9d82ded129a4c5/package/resource.json",
+        "assets/models/model-imported-60f2dd77d28895a4e0257165769031f8f0054a4b8e414061739d30a44a28b541/package/model-output.sha256",
+        "assets/models/model-imported-60f2dd77d28895a4e0257165769031f8f0054a4b8e414061739d30a44a28b541/package/model.glb",
+        "assets/models/model-imported-60f2dd77d28895a4e0257165769031f8f0054a4b8e414061739d30a44a28b541/package/resource.json",
+        "assets/models/model-imported-7abbe039a5c55865792dec77727276fe40c316cbedd74b7d8e306777e17bba51/package/model-output.sha256",
+        "assets/models/model-imported-7abbe039a5c55865792dec77727276fe40c316cbedd74b7d8e306777e17bba51/package/model.glb",
+        "assets/models/model-imported-7abbe039a5c55865792dec77727276fe40c316cbedd74b7d8e306777e17bba51/package/resource.json",
+        "assets/models/model-imported-97eaf5c89a25b3308158b15cd6f804beed39e1f904b75b078556c9f44fd4dd4f/package/model-output.sha256",
+        "assets/models/model-imported-97eaf5c89a25b3308158b15cd6f804beed39e1f904b75b078556c9f44fd4dd4f/package/model.glb",
+        "assets/models/model-imported-97eaf5c89a25b3308158b15cd6f804beed39e1f904b75b078556c9f44fd4dd4f/package/resource.json",
+        "assets/models/model-imported-bbfe140b69d4f9bb66df088eda2d1001bf3d0f5c0971d575de8ed8761303a839/package/model-output.sha256",
+        "assets/models/model-imported-bbfe140b69d4f9bb66df088eda2d1001bf3d0f5c0971d575de8ed8761303a839/package/model.glb",
+        "assets/models/model-imported-bbfe140b69d4f9bb66df088eda2d1001bf3d0f5c0971d575de8ed8761303a839/package/resource.json",
+        "assets/models/model-imported-c5102798023130ec536e40aa8780f6f03aff5312d45da8d20da790e25ecf9611/package/model-output.sha256",
+        "assets/models/model-imported-c5102798023130ec536e40aa8780f6f03aff5312d45da8d20da790e25ecf9611/package/model.glb",
+        "assets/models/model-imported-c5102798023130ec536e40aa8780f6f03aff5312d45da8d20da790e25ecf9611/package/resource.json",
+        "assets/models/model-imported-d1cea4d754b980ff40cfa4e19eb642cb647f7ff6223ba81e3153da3c91e11d5d/package/model-output.sha256",
+        "assets/models/model-imported-d1cea4d754b980ff40cfa4e19eb642cb647f7ff6223ba81e3153da3c91e11d5d/package/model.glb",
+        "assets/models/model-imported-d1cea4d754b980ff40cfa4e19eb642cb647f7ff6223ba81e3153da3c91e11d5d/package/resource.json",
+        "assets/models/model-imported-ee1ff644d5748eaac52a53f8888dd670b3adccc27cfe064257e5b269e02ee3be/package/model-output.sha256",
+        "assets/models/model-imported-ee1ff644d5748eaac52a53f8888dd670b3adccc27cfe064257e5b269e02ee3be/package/model.glb",
+        "assets/models/model-imported-ee1ff644d5748eaac52a53f8888dd670b3adccc27cfe064257e5b269e02ee3be/package/resource.json",
+        "assets/models/model-imported-fbdc6f2589a43922a95b5745030a63cca2d0c62b87e3f82ab41c58e0cdc066c5/package/model-output.sha256",
+        "assets/models/model-imported-fbdc6f2589a43922a95b5745030a63cca2d0c62b87e3f82ab41c58e0cdc066c5/package/model.glb",
+        "assets/models/model-imported-fbdc6f2589a43922a95b5745030a63cca2d0c62b87e3f82ab41c58e0cdc066c5/package/resource.json",
+        "assets/models/model-windmill-v27/package/model-output.sha256",
+        "assets/models/model-windmill-v27/package/model.glb",
+        "assets/models/model-windmill-v27/package/resource.json",
+        "package/prefab.wprefab"
+      ]
+    }
+  },
+  "archiveReceipts": {
+    "actors_v27/assets/models/model-imported-4c050003401ba48cdb575332fedca2b22eaadd73c0e61bdd38176840cbf826fb/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "model.glb",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/uyduwywgnj13xzsn.glb",
+      "contentHash": "ac48d5f4ca0646a087c1712c4248667acefbce8a54dcc206604a611815b535b4"
+    },
+    "actors_v27/assets/models/model-imported-4ef49561c16ecd1bccc41fedabbe3419f4e1acf760a457eb63448715e401940b/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "model.glb",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/enpa9awsx0ocotdc.glb",
+      "contentHash": "3a896ec6386971bdc12035fe2cece1a9bf08757bb279cbdac6d39d417456b04e"
+    },
+    "actors_v27/assets/models/model-imported-c7becc3c5ebdde10a020a671ffb0d8eddb1d9a28fab17268d8b8d535c5fb696c/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "model.glb",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/fqbdmedl2dqglinx.glb",
+      "contentHash": "8a523c36f9cfe62249823113578ea121da68b4421bf4497912091d32a5aba74b"
+    },
+    "actors_v27/assets/models/model-imported-e1926e7e999b620995aa5fd84bf03b3615dd77ed8a99044744fd595cf3a13d95/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "model.glb",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/f0bh5iwrdslfk9fj.glb",
+      "contentHash": "bff4b886a8852f953dece7d5ebdf2e88232248c00217bd7b28d3cbacadd00fa0"
+    },
+    "actors_v27/assets/models/model-imported-f73e1bb56b01d71001d1d0780cefcbf7cee682ab66ea529f6a0b01f9004994ee/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "model.glb",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/0jp063z00sm2brlt.glb",
+      "contentHash": "41aaba7e8a794296adc6530dfce2b8c0fa89b4e65528ebe67247217503f356d4"
+    },
+    "gameplay_v27/assets/audio/audio-combat-original-bow/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wis2it9e2flkfyg2.wav",
+      "contentHash": "3fe85a6f35493de6cee77100ffda58cd5d95dfe0d16f79c1d614a7ff1b6a3acc",
+      "displayName": "原项目弓弦与箭声"
+    },
+    "gameplay_v27/assets/audio/audio-combat-original-enemy/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ku21ph43j3glkjax.wav",
+      "contentHash": "866166092f8c7071212993bc1036f6a80d80a553b01b583ae85b4c1571b00ed8",
+      "displayName": "影灵攻击"
+    },
+    "gameplay_v27/assets/audio/audio-combat-original-hurt/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/oavh6fwq73tc35wo.wav",
+      "contentHash": "3f669277e7c9cbbf017d788723e9ac4a6e00671e7edcfa09fad80b766db5d0cf",
+      "displayName": "角色受伤"
+    },
+    "gameplay_v27/assets/audio/audio-v2-arrow-hit/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/gk1lvgxt5vtvsm9b.wav",
+      "contentHash": "7bc63cf2b66456387550e09b196216cf789adb2796967d12cc58342ef140ef59",
+      "displayName": "龙眠箭击音效"
+    },
+    "gameplay_v27/assets/audio/audio-v2-bow-release/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/znfan96ypm8rpyep.wav",
+      "contentHash": "2a21b78ecfabaa713a6d6f40cde3831fb00168288a70e463e62cc7f965392689",
+      "displayName": "龙眠弓弦音效"
+    },
+    "gameplay_v27/assets/audio/audio-v2-cannon-explode/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/dx24p67jj0hmgo8z.wav",
+      "contentHash": "e566bce038c9724009a27209f5de3699bf03de64ffa03f758defd550ba72a4e2",
+      "displayName": "龙眠冲击爆炸音效"
+    },
+    "gameplay_v27/assets/audio/audio-v2-cannon-fire/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/mibzx9y8zwuaqcoe.wav",
+      "contentHash": "0c1fa6890c717b9bcfe45e0d9f2b8f330b2f07221fc061ba5714b712a29cf8d0",
+      "displayName": "龙眠冲击发射音效"
+    },
+    "gameplay_v27/assets/audio/audio-v2-coin/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/8er6339grs7qoxyf.wav",
+      "contentHash": "15ae937a6621a37655f6cc0fb5c3a34e075853cf9a3bd5e6e8a4459c34a08bb2",
+      "displayName": "龙眠奖励音效"
+    },
+    "gameplay_v27/assets/audio/audio-v2-dash/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4g8pcnk4b0zviz4b.wav",
+      "contentHash": "3f77c0a5939c905d988f56f4cff31f3619cafae27c8fcd33a13fe87c222ff4b4",
+      "displayName": "龙眠闪避音效"
+    },
+    "gameplay_v27/assets/audio/audio-v2-giant-awaken/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/r64490otl2gc2wi9.wav",
+      "contentHash": "5244fcf32f6227b0e9592fd0bebfb339c942edb627ee341ec12849a4972ae4df",
+      "displayName": "龙眠巨力觉醒音效"
+    },
+    "gameplay_v27/assets/audio/audio-v2-giant-hit/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ha2w4rj94waza83f.wav",
+      "contentHash": "cedad47b753b2e9fcfeecbf1e3ed4e334039d5fd621ccbf4741644d9f98d7f66",
+      "displayName": "龙眠重击音效"
+    },
+    "gameplay_v27/assets/audio/audio-v2-leaf-charge/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/eylr0gc33zens301.wav",
+      "contentHash": "1cab67e060f28da69a41972295ef37ba01258b3432892fb7baa8e1c52e4eca5b",
+      "displayName": "龙眠叶刃蓄力音效"
+    },
+    "gameplay_v27/assets/audio/audio-v2-leaf-hit/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/oz4032ltlgy0vftj.wav",
+      "contentHash": "4641ebefec8197e55ba3e354c5cb158288cc7bb94baf7536836a13a1fa9c1a31",
+      "displayName": "龙眠叶刃命中音效"
+    },
+    "gameplay_v27/assets/audio/audio-v2-leaf-whoosh/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ac74b4120ixbrgoe.wav",
+      "contentHash": "3ee1695fdbdd1a3e5dff44528ce5f7ed97b4baf5feda4e9aa243a949f711c15f",
+      "displayName": "龙眠叶刃破空音效"
+    },
+    "gameplay_v27/assets/audio/audio-v2-magic-burst/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ncvyy5sl3whpk9q2.wav",
+      "contentHash": "e15eec4753d84c53fc784cd1b668c692c0230879896465db766f1384fbe0ce97",
+      "displayName": "龙眠奥术爆发音效"
+    },
+    "gameplay_v27/assets/audio/audio-v2-magic-hit/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4v206di3e69befu0.wav",
+      "contentHash": "1b17cdd73198c8097d4f6b3202c14dac7fafacebb1da59fa8d87a77a364db75b",
+      "displayName": "龙眠奥术命中音效"
+    },
+    "gameplay_v27/assets/audio/audio-v2-magic-shot/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/m2oas1hgxv52sb8b.wav",
+      "contentHash": "11e86af1e998e1d9e88ffcbbcd8648548879464f725cfc08232b7641d61aa14c",
+      "displayName": "龙眠奥术发射音效"
+    },
+    "gameplay_v27/assets/audio/audio-v2-meteor-fall/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/olwwvzn4z33uxd49.wav",
+      "contentHash": "78ddf4c3c799e9010673ecc6ba90098937afec10d33a76bb52683e1f20b37ac2",
+      "displayName": "龙眠陨星下落音效"
+    },
+    "gameplay_v27/assets/audio/audio-v2-meteor-impact/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/8d0ab0kuqr432x5o.wav",
+      "contentHash": "49a2208c72e52cbd23c306e7745e8dbe0bf5bed035e1afd50032cacc53c3b3a4",
+      "displayName": "龙眠陨星撞击音效"
+    },
+    "gameplay_v27/assets/audio/audio-v2-rain-fall/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/0ay4x7arclquok2x.wav",
+      "contentHash": "a33b8f361690f6b91e56fafccc096bf7372af9ae536eff46910d66a913aaec47",
+      "displayName": "龙眠箭雨落下音效"
+    },
+    "gameplay_v27/assets/audio/audio-v2-rain-hit/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/i6hgo8drp7qoojlz.wav",
+      "contentHash": "47cc42ffaed3aba5819b699c281e50a0e1f281bd84ccb1a17d7293e63dc8f42c",
+      "displayName": "龙眠箭雨命中音效"
+    },
+    "gameplay_v27/assets/audio/audio-v2-sword-hit/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/c4mmcrnad8becqiw.wav",
+      "contentHash": "f3b63077fb5e2e8988122106222bc68d8976a551d4a4bfa8137c2f7da69714b6",
+      "displayName": "龙眠剑击音效"
+    },
+    "gameplay_v27/assets/audio/audio-v2-sword-swing/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/poa1h6jwqa9busaq.wav",
+      "contentHash": "8a14531de676596db4561577764b5cd74e63bd7c9b8b426ec260011fced879de",
+      "displayName": "龙眠挥剑音效"
+    },
+    "gameplay_v27/assets/audio/audio-v2-time-hit/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/k2nwpi06csndc38p.wav",
+      "contentHash": "701928b48af67a36a84e6e7e5519b02f436e45a1aa7351b5a7c20a0ddeb1864f",
+      "displayName": "龙眠时空命中音效"
+    },
+    "gameplay_v27/assets/audio/audio-v2-wall-break/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "audio.wav",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/wrutzwsw7rrlqejg.wav",
+      "contentHash": "6e5a006d0e1582d8a503b93565615e1e4084f27f48927cb17d6f210d68ede98a",
+      "displayName": "龙眠破壁音效"
+    },
+    "gameplay_v27/assets/effects/effect-combat-arena/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "effect.wprefab",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/fzefmsec9qzja39d.wprefab",
+      "contentHash": "85d1bba001c2178f1cbf74b6a24f215ef08cb557e10faa06b23f4074a25df29c",
+      "displayName": "试炼法阵边界"
+    },
+    "gameplay_v27/assets/effects/effect-combat-arrow/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "effect.wprefab",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/tfrbklaq4ncc5l72.wprefab",
+      "contentHash": "02b50a1f36949fa0dbc232569c1ab3d0605e2f358a5b9b5082c5788cd084055d",
+      "displayName": "疾风箭迹"
+    },
+    "gameplay_v27/assets/effects/effect-combat-bolt/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "effect.wprefab",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/qsbaa7bjjcm2zez1.wprefab",
+      "contentHash": "42b4519e44be8bbf17f8e95f6264393f0f0f67a513f97c75f3f54e7780867c72",
+      "displayName": "奥术飞弹"
+    },
+    "gameplay_v27/assets/effects/effect-combat-burst/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "effect.wprefab",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/i16l8ac3lwazd6a7.wprefab",
+      "contentHash": "8d4e0d531b45464ae27dde3e9141b7536a40d027342383ad5618dad1a37628a6",
+      "displayName": "奥术星爆"
+    },
+    "gameplay_v27/assets/effects/effect-combat-frost/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "effect.wprefab",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/6i7s6snjbzutadcq.wprefab",
+      "contentHash": "424fb513fbf47485e62ec90fae64b2eb2bf3b2090ce0e1218bbc8be202d41010",
+      "displayName": "霜星冲击"
+    },
+    "gameplay_v27/assets/effects/effect-combat-hit/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "effect.wprefab",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/j5rihlacv2u5eh6j.wprefab",
+      "contentHash": "2cd8a83fca5861a405919ff205104a9fcb176551cf9768bda905190a67110f5b",
+      "displayName": "命中火花"
+    },
+    "gameplay_v27/assets/effects/effect-combat-meteor/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "effect.wprefab",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/7frruoibk0mo8hl9.wprefab",
+      "contentHash": "670bf53e89c49393fb9224d7f5a58789f945724cce0cf59a7c538a13be3381c9",
+      "displayName": "陨星冲击"
+    },
+    "gameplay_v27/assets/effects/effect-combat-shield/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "effect.wprefab",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/hjw1y01r34nu073d.wprefab",
+      "contentHash": "565ac9b7379cca9b58a71545f5cc5eed4a7dacabfa810e1ce418ee68e92953f4",
+      "displayName": "守护震波"
+    },
+    "gameplay_v27/assets/effects/effect-combat-slash/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "effect.wprefab",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4efaa5hwbdqsmplp.wprefab",
+      "contentHash": "866ed607c95e84a496b382396662d58771780d94a22239122a1bc9667ee5c57d",
+      "displayName": "金色弧刃"
+    },
+    "gameplay_v27/assets/effects/effect-combat-tell/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "effect.wprefab",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/q8dtx2apynjz7qjk.wprefab",
+      "contentHash": "8fe54e654705613ce52d6b9bd6418dcf0a2a4068e230b8219155afc020dfef38",
+      "displayName": "敌袭预警"
+    },
+    "gameplay_v27/assets/models/model-imported-1362b865809689c268fb126ee5a9b8a20c361f44a842bd30c5e5fd042a804080/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "model.glb",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/ilnm8zdke7cvnbki.glb",
+      "contentHash": "78bc752471c14259f360c41c66b631c85e919189742d35d9f16f501b443c4812"
+    },
+    "gameplay_v27/assets/models/model-imported-270c6a9f933186faca1275129dc28e05a07b0e3280bdf75d147324350625c399/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "model.glb",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/brpzc5fr6jl4pf5r.glb",
+      "contentHash": "42de3f1f4cc9eabcc29eeab91679468a4ea17e4dc996e695397af2bdd3247968"
+    },
+    "gameplay_v27/assets/models/model-imported-48198b53ce324ea64f3dddf37eac9f2b0640e87db60eb12aa128d8d1e782d2ca/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "model.glb",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/qp09v22y19lyri73.glb",
+      "contentHash": "9f8b0b517eb46cc7d02bf38c8b323ab24929d15e09667c25e0e0c406263f3a9b"
+    },
+    "gameplay_v27/assets/models/model-imported-48a7037acc58a59bc25dcf9b29e868062275a2655d22c0432558fd172901f630/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "model.glb",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/94t3vhcrokny943k.glb",
+      "contentHash": "3ece41b210982bc8f2c47c435fec5e6235cd35030e72807a6d724310fc47efc9"
+    },
+    "gameplay_v27/assets/models/model-imported-52fc51bd9db589d12ff261095985271844c8bbfb17b29020695fd69f8642402e/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "model.glb",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/npb3j8a2ksx7y8zj.glb",
+      "contentHash": "af5526c335df8440d102d08cbbfadbebfa7e4a1def6e02b9d5cd070a76fed498"
+    },
+    "gameplay_v27/assets/models/model-imported-5620f83d4c700c1df57edac53eba5251988a5c8af169b148fa9d82ded129a4c5/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "model.glb",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/41qplztltfdaztjl.glb",
+      "contentHash": "155045246670434033154bb9353b2281da00be1d6aaf4bdb9d8b23b7347b1055"
+    },
+    "gameplay_v27/assets/models/model-imported-60f2dd77d28895a4e0257165769031f8f0054a4b8e414061739d30a44a28b541/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "model.glb",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/41o3kx2ajeqyjttu.glb",
+      "contentHash": "0ca98474d76db830538694cf2804868eb2155400f5aa269a9f30a24523ae88a1"
+    },
+    "gameplay_v27/assets/models/model-imported-7abbe039a5c55865792dec77727276fe40c316cbedd74b7d8e306777e17bba51/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "model.glb",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4kkfm6x5mddbn94y.glb",
+      "contentHash": "ca8edef6e1786c38c04b8e65765702a5dd1bd3388de060be1d220f66d559b261"
+    },
+    "gameplay_v27/assets/models/model-imported-97eaf5c89a25b3308158b15cd6f804beed39e1f904b75b078556c9f44fd4dd4f/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "model.glb",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/jkc1sr47wjdljvoe.glb",
+      "contentHash": "bec757bf4be6bb52050bcc9b8665ca4236c4935ed5a75cbd6a01abde6f58116a"
+    },
+    "gameplay_v27/assets/models/model-imported-bbfe140b69d4f9bb66df088eda2d1001bf3d0f5c0971d575de8ed8761303a839/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "model.glb",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/txrs0wl2tdmyyccx.glb",
+      "contentHash": "a0385a23fffb66920a9e693aa1f7e89bcc100a7a75693b0e1f2ddd67acdf90ea"
+    },
+    "gameplay_v27/assets/models/model-imported-c5102798023130ec536e40aa8780f6f03aff5312d45da8d20da790e25ecf9611/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "model.glb",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/9754990109442.glb",
+      "contentHash": "667ab88b7c44baf8dff765dd2cf66c970e5ce52318ac381dee671a2898568595"
+    },
+    "gameplay_v27/assets/models/model-imported-d1cea4d754b980ff40cfa4e19eb642cb647f7ff6223ba81e3153da3c91e11d5d/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "model.glb",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/xavyl1qx47u8o3gp.glb",
+      "contentHash": "aa57e01cecb91118e5a4819baa7f52fbb9549cb468f4f4582e3ebdeeb5f29cd2"
+    },
+    "gameplay_v27/assets/models/model-imported-ee1ff644d5748eaac52a53f8888dd670b3adccc27cfe064257e5b269e02ee3be/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "model.glb",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/s6r8slikb1781zhn.glb",
+      "contentHash": "9fede94cda5f304339ad74f11048a17c3b33a1d18f8fd25d449e1ba599286818"
+    },
+    "gameplay_v27/assets/models/model-imported-fbdc6f2589a43922a95b5745030a63cca2d0c62b87e3f82ab41c58e0cdc066c5/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "model.glb",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/n0vwezuy9o0zimeb.glb",
+      "contentHash": "4f23a96848bf200dd7402f4616ef5bd4cc0a1a70f809a4459ff804dcbdc700ee"
+    },
+    "gameplay_v27/assets/models/model-windmill-v27/package/resource.json": {
+      "schemaVersion": 1,
+      "entry": "model.glb",
+      "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/n1d0rbvssvjkn18y.glb",
+      "contentHash": "2b89216af37cb07324f76f7a17e4f59770bece687b4e33907b9be334ec7c4b30",
+      "displayName": "导入模型"
+    }
+  }
+}

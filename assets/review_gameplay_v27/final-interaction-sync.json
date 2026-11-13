@@ -1,0 +1,22 @@
+[
+  {
+    "path": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/scripts/modules/imported/prefab_20/dragon_exploration.lua",
+    "sha": "d33dda3187399c315f9d43b86d66b99571786dc650bd02510ba65e68f28a1f15",
+    "changed": false
+  },
+  {
+    "path": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/ai-sessions/workspace_amfuq048/wprefabs/gameplay_v27/scripts/dragon_exploration.lua",
+    "sha": "5c06dd0718eca4e43f7575cf226bd2ed7d199d849554de470da1d6698791b51f",
+    "changed": false
+  },
+  {
+    "path": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/scripts/modules/imported/prefab_20/dragon_rpg.lua",
+    "sha": "a8dd51d977660b78a02194f426462781ff509c1a7f128b8cc57ba9bc9f0bcc68",
+    "changed": true
+  },
+  {
+    "path": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/ai-sessions/workspace_amfuq048/wprefabs/gameplay_v27/scripts/dragon_rpg.lua",
+    "sha": "747585cfd29d0e6a060890bfd4878dd9ff486abdc7bb93c4481e23f53f50c33c",
+    "changed": true
+  }
+]

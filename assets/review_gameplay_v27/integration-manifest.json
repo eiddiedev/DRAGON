@@ -1,0 +1,92 @@
+[
+  {
+    "file": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/ai-sessions/workspace_amfuq048/wprefabs/gameplay_v27/scripts/dragon_exploration.lua",
+    "before": "50bec1ab4494bc9946fb1d80774d84585f7223ff35d5c5146232ce70ac44258e",
+    "after": "854e692fbdbf660fc080822e62ee6c3a6e0e2ca77235a80876690ca1abe11758"
+  },
+  {
+    "file": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/ai-sessions/workspace_amfuq048/wprefabs/gameplay_v27/scripts/dragon_combat.lua",
+    "before": "bf3f8b57ca3af15945d0ddfc94c1bc02a5082e7b51cec068206765865acec614",
+    "after": "a29c5a18c691066bb9a8e14ab36f6adcf1bd92c98c44aa10e8a0b00a2f7f4d65"
+  },
+  {
+    "file": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/ai-sessions/workspace_amfuq048/wprefabs/gameplay_v27/scripts/dragon_weapons.lua",
+    "before": "bdad897985e68ed198395faa8467c7502e9359f3a74768d497382937348b6818",
+    "after": "5dbf78af3c3b4b60e618a4cf95bec2047e777a10f87bcd501fcc37c290f7a5f3"
+  },
+  {
+    "file": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/ai-sessions/workspace_amfuq048/wprefabs/gameplay_v27/scripts/dragon_outfits.lua",
+    "before": "d73de749f0e4aace5219f186b72a46dc86dfe65c9961f1d5f3196dcfe5b909da",
+    "after": "02c6424603273a7055fa5d29f2de3b0d6224a9eb39554f681488f95316661a41"
+  },
+  {
+    "file": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/ai-sessions/workspace_amfuq048/wprefabs/gameplay_v27/scripts/dragon_daycycle.lua",
+    "before": "7f975205fe9accbb61ce17ef004d91f55e8fd9c1a482a6daaa0575a5b5f0ca4d",
+    "after": "8f3bf0bc444890962074cc38452ca99e4959df0c212daa202714584855fa6a56"
+  },
+  {
+    "file": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/ai-sessions/workspace_amfuq048/wprefabs/gameplay_v27/scripts/dragon_progress.lua",
+    "before": "1c99f7128aff92f4361ff4846a7ffa66de5e2a39e3922b08b56988fab2bd9577",
+    "after": "59199f6cfda0f6afa4dc82d4c46d0d033adeac8479304747a80b64cf79680043"
+  },
+  {
+    "file": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/ai-sessions/workspace_amfuq048/wprefabs/gameplay_v27/scripts/dragon_rpg.lua",
+    "before": "d204565343ec347eafb03b81fe702defca336280403c9410ce1ed753161480f8",
+    "after": "d2077cedafee61c68444daadb1261c5d44d547e0a78ee8249180c0a00f362e07"
+  },
+  {
+    "file": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/ai-sessions/workspace_amfuq048/wprefabs/gameplay_v27/scripts/dragon_world_bridge.lua",
+    "before": "5c890a3928e0c5c72d095aba421893633128588214aadc0ba76fe4e4e275c241",
+    "after": "022463570d45c35151bdd5b264c18298e650d09324b6b1adb49e21a73967319f"
+  },
+  {
+    "file": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/ai-sessions/workspace_amfuq048/wprefabs/actors_v27/scripts/horse_seat_v1.lua",
+    "before": "749e5e300fa73c896e0bc4ef667c7e030ff39b22e416c6758dfedf744ab534e8",
+    "after": "da949105ce573dffd121ead4c5bbef3c1981072a1c7418b59ef6d1043fcbbe09"
+  },
+  {
+    "file": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/ai-sessions/workspace_amfuq048/wprefabs/actors_v27/scripts/tripo_sheep_motion.lua",
+    "before": "80240c1b4f69e9788aeb30b10ea8bdae9a044ef80018c07f0dbb7add9183635b",
+    "after": "5a91f78c79aa87403aabe4ca32a54e2cbc4c2d6f68964429895cf13dc15c73db"
+  },
+  {
+    "file": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/scripts/modules/imported/prefab_20/dragon_exploration.lua",
+    "before": "6bb0bf37a00dbf362ccafbcb623665133d2c6def150a3f6b70d7695178d4fc71",
+    "after": "d6561bd1235385feabda6e172145522ccc89890ba53215afeeb46efb06794dc4"
+  },
+  {
+    "file": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/scripts/modules/imported/prefab_20/dragon_combat.lua",
+    "before": "88210a21dda1e9d3dde3d4a2a9997523b0e4b5e00678852f613de4e61aea546c",
+    "after": "0a7159a34068b88fee35d0efb54eb99e1dbf79cd326530851a736d91dbf6228a"
+  },
+  {
+    "file": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/scripts/modules/imported/prefab_20/dragon_weapons.lua",
+    "before": "a4b8a1ab09ea2a195779016f6fc6ad67c4e0de9c6ca626a39b6b18889a84c430",
+    "after": "5f1bba062af21b75741c5df986c4929a5a09473cdba1aba757cc2694e56c0206"
+  },
+  {
+    "file": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/scripts/modules/imported/prefab_20/dragon_outfits.lua",
+    "before": "70dc5d36f55e3893cecd46c73972b8c5229c6cf79606d2dfece4f6e6fc1cd326",
+    "after": "833ed00ee9073990c1c51506421185f11e85d9d933cf98b436895857444542a5"
+  },
+  {
+    "file": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/scripts/modules/imported/prefab_20/dragon_daycycle.lua",
+    "before": "990c05c460824b746ade5c0b351e112ab9bc88d5a38e5151e0c42939b11a2f84",
+    "after": "0cdb6f1a1f96e974e9766943cd4b655cc28dabff248dd0af48c3a07679f00fe8"
+  },
+  {
+    "file": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/scripts/modules/imported/prefab_20/dragon_progress.lua",
+    "before": "b3392bf4704288a677a57da8ccf1929d8ee1498a18447b7629193800422cfcee",
+    "after": "6e23d2a02a343d3c228fe34214d44ad9256f62491bbd14739a2fb54ead8c4c2d"
+  },
+  {
+    "file": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/scripts/modules/imported/prefab_20/dragon_rpg.lua",
+    "before": "d4073741a87814dda7c479c79a5ae9435b3fc2cdb4a5ba3410dc601c8ef04954",
+    "after": "b18e3f43ec4764972d3c161cba24b42f073e4091c0ef133759c7fdeaa1413072"
+  },
+  {
+    "file": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/scripts/modules/imported/prefab_20/dragon_world_bridge.lua",
+    "before": "80aff2be40692e2333916a38558295e9aef72c977aabe118deedf73b796ac95c",
+    "after": "73cef4ea3b66a742ccf85a2442cc2147b8b9cd361461d4a1e263bd937ebe5dfe"
+  }
+]

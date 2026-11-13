@@ -1,0 +1,205 @@
+--- dragon_rpg.lua
++++ dragon_rpg.lua
+@@ -359,6 +359,66 @@
+  btn.gameObject:SetActive(true)
+  local entry={button=btn,trigger=trigger,label=t,old=old};native[#native+1]=entry;return entry
+ end
++-- One screen-space layout for all combat controls, including native slots.
++-- Pure math: points are pixels with a bottom-left origin, clamped inside safeArea.
++local function computeCombatLayout(screenWidth,screenHeight,safe)
++ local x0=math.max(0,safe.xMin or 0);local x1=math.min(screenWidth,safe.xMax or screenWidth)
++ local y0=math.max(0,safe.yMin or 0);local y1=math.min(screenHeight,safe.yMax or screenHeight)
++ if x1<=x0 or y1<=y0 then x0=0;x1=screenWidth;y0=0;y1=screenHeight end
++ -- The established arc is retained. Skill 2 has an 18-unit hit-rectangle gap.
++ -- Exit uses its own 128-unit design size, never the exploratory hand button size.
++ local design={
++  attack={x=-215,y=185,size=216,glyph=.5185},
++  skill1={x=-235,y=422,size=136,glyph=.5735},
++  skill2={x=-409,y=338,size=136,glyph=.5735},
++  skill3={x=-464,y=165,size=136,glyph=.5735},
++  exit={x=-76,y=392,size=128,glyph=.56}
++ }
++ local factor=math.min(screenHeight/1080,(x1-x0)*.55/544,(y1-y0)*.72/502)
++ local result={scale=factor,safe={xMin=x0,xMax=x1,yMin=y0,yMax=y1},buttons={}}
++ for key,p in pairs(design)do
++  result.buttons[key]={x=x1+p.x*factor,y=y0+p.y*factor,size=p.size*factor,glyph=p.glyph}
++ end
++ return result
++end
++local function placeCombatRect(rt,p)
++ local unit=math.max(.0001,math.abs(root.transform.lossyScale.x))
++ rt.anchorMin=V2(1,0);rt.anchorMax=V2(1,0);rt.pivot=V2(.5,.5)
++ rt.sizeDelta=V2(p.size/unit,p.size/unit)
++ rt.anchoredPosition=V2((p.x-U.Screen.width)/unit,p.y/unit)
++end
++local function resizeCombatGlyph(button,fraction)
++ local glyph=button.transform:Find('ActionGlyph')
++ if glyph then glyph.sizeDelta=V2(button.transform.rect.width*fraction,button.transform.rect.height*fraction)end
++end
++local function layoutCombatControls()
++ if not root or not toggle then return end
++ local safe=U.Screen.safeArea
++ local layout=computeCombatLayout(U.Screen.width,U.Screen.height,{xMin=safe.xMin,xMax=safe.xMax,yMin=safe.yMin,yMax=safe.yMax})
++ C15.combatLayout=layout
++ placeCombatRect(toggle.transform,layout.buttons.exit);resizeCombatGlyph(toggle,layout.buttons.exit.glyph)
++ for i=2,3 do local slot=skillButtons[i]
++  if slot then local p=layout.buttons['skill'..i];placeCombatRect(slot.button.transform,p);resizeCombatGlyph(slot.button,p.glyph)end
++ end
++ for i=1,2 do
++  local p=layout.buttons[i==1 and 'attack'or'skill1']
++  if not combatAnchors[i]then local _,rt=rect(root.transform,'CombatAnchor'..i,1,1,0,0,V2(1,0));combatAnchors[i]=rt end
++  local anchor=combatAnchors[i];placeCombatRect(anchor,p)
++  local slot=native[i]
++  if slot then
++   local rt=slot.button.transform
++   -- Native canvases may have different parent AND local scale/pivots on phones.
++   -- Match physical pixels, rather than copying our canvas's sizeDelta.
++   local sx=math.max(.0001,math.abs(rt.lossyScale.x));local sy=math.max(.0001,math.abs(rt.lossyScale.y))
++   rt:SetSizeWithCurrentAnchors(U.RectTransform.Axis.Horizontal,p.size/sx)
++   rt:SetSizeWithCurrentAnchors(U.RectTransform.Axis.Vertical,p.size/sy)
++   local shift=rt:TransformVector(V3((.5-rt.pivot.x)*rt.rect.width,(.5-rt.pivot.y)*rt.rect.height,0))
++   rt.position=anchor.position-shift
++   resizeCombatGlyph(slot.button,p.glyph)
++  end
++ end
++end
++
+ function SetMode(mode)
+  if not context or not actor then return false end
+  if mode~="combat"and mode~="explore"then return false end
+@@ -379,7 +439,7 @@
+    setIcon(native[1].button,profile.class=="melee"and "sword"or(profile.class=="mage"and "staff"or "bow"),112)
+   setIcon(native[2].button,cls.skills[1].icon,78)
+   for i=2,3 do local v=skillButtons[i];setIcon(v.button,cls.skills[i].icon,78);v.button.gameObject:SetActive(true)end
+-  hideExplore();context.mode="combat";toggleLabel.text="";setIcon(toggle,"exit",C15.iconSize or 60)
++  hideExplore();context.mode="combat";toggleLabel.text="";setIcon(toggle,"exit",C15.iconSize or 60);layoutCombatControls()
+  else
+   clearSlots();context.mode="explore";weapons.Unequip(actor);fx.Clear();toggleLabel.text="";setIcon(toggle,"duel",C15.iconSize or 70)
+  end
+@@ -422,7 +482,7 @@
+ function GetProfile()return profile end
+ function GetStatus()
+  return {mode=context and context.mode,class=profile and profile.class,ready=ready,sequence=context and context.sequence,contract=contract and contract.activeSelf,
+-  nativeSlots=#native,skills=rules and profile and profile.class and rules.GetClasses()[profile.class].skills,skillCooldowns=context and {context.skill1Until,context.skill2Until,context.skill3Until},pending=#pending,held=held,outfit=actor and outfits and outfits.GetOutfitStatus(actor),
++  combatLayout=C15.combatLayout,nativeSlots=#native,skills=rules and profile and profile.class and rules.GetClasses()[profile.class].skills,skillCooldowns=context and {context.skill1Until,context.skill2Until,context.skill3Until},pending=#pending,held=held,outfit=actor and outfits and outfits.GetOutfitStatus(actor),
+   weapon=actor and weapons and weapons.GetRigStatus(actor),battle=battle and battle.GetStatus()}
+ end
+ local function act(kind)
+@@ -502,15 +562,11 @@
+    C15.togglePos=j.position+q
+   end
+  end
+- if context.mode=="combat"then rt.anchoredPosition=V2(-(U.Screen.width-safe.xMax)*scale-74,(safe.yMin)*scale+392)
++ if context.mode=="combat"then layoutCombatControls()
+  elseif C15.togglePos then rt.position=C15.togglePos
+  else rt.anchoredPosition=V2(-(U.Screen.width-safe.xMax)*scale-108,(safe.yMin)*scale+350)end
+  if not available and context.mode=="combat"then SetMode("explore")end
+  if context.mode=="combat"then
+-  for i=1,2 do
+-   if not combatAnchors[i]then local go,rt=rect(root.transform,"CombatAnchor"..i,i==1 and 216 or 136,i==1 and 216 or 136,i==1 and -215 or -235,i==1 and 185 or 422,V2(1,0));combatAnchors[i]=rt end
+-   local slot=native[i];if slot then slot.button.transform.position=combatAnchors[i].position;slot.button.transform.sizeDelta=combatAnchors[i].sizeDelta*(combatAnchors[i].lossyScale.x/slot.button.transform.parent.lossyScale.x) end
+-  end
+   for _,v in ipairs(hidden)do v.group.alpha=0;v.group.blocksRaycasts=false end
+   for i=1,3 do
+    local slot=i==1 and native[2]or skillButtons[i];local left=math.max(0,(context["skill"..i.."Until"]or 0)-U.Time.time)
+--- dragon_exploration.lua
++++ dragon_exploration.lua
+@@ -106,10 +106,29 @@
+  end)
+  if not ok then toast(why)end;return ok,why
+ end
++local function targetPosition(t)
++ if not t then return nil end
++ local go=t.go
++ if go then
++  if t.localOffset then return go.transform:TransformPoint(t.localOffset)end
++  return go.transform.position
++ end
++ if t.secondaryRef and t.secondaryRef.go then
++  return t.secondaryRef.go.transform:TransformPoint(t.secondaryOffset)
++ end
++ return t.position
++end
++local function targetDistance(t,p)
++ if t.kind=='lore'then
++  local dx=actor.position.x-p.x;local dz=actor.position.z-p.z
++  return math.sqrt(dx*dx+dz*dz)
++ end
++ return V.Distance(actor.position,p)
++end
+ local function nearby(t)
+  if not actor or not t then return false end
+- local p=t.go and t.go.transform.position or t.position
+- if not p or math.abs(actor.position.y-p.y)>=(t.height or 4)or V.Distance(actor.position,p)>=t.radius then return false end
++ local p=targetPosition(t)
++ if not p or math.abs(actor.position.y-p.y)>=(t.height or 4)or targetDistance(t,p)>=t.radius then return false end
+  if t.kind=='witch' then
+   local hits=U.Physics.RaycastAll(actor.position+V(0,1,0),(p+V(0,1,0))-(actor.position+V(0,1,0)),V.Distance(actor.position,p),-1,U.QueryTriggerInteraction.Ignore)
+   for i=0,hits.Length-1 do local tr=hits[i].transform
+@@ -431,17 +450,18 @@
+  add('camp','camp',4,'篝火 · 烤蘑菇')
+  discovery.eggTarget=add(nil,'egg',5,'龙魂之卵 · 供奉',nil,nil,5)
+  for i=0,35 do add(i==0 and 'mush'or'mush_'..i,'mushroom',3.5,'采集蘑菇')end
+- for i=0,8 do add('sheep_'..i,'wool',3,'取羊毛')end
++ for _,i in ipairs({0,2,3,5})do add('sheep_'..i,'wool',3,'取羊毛')end
+  add(nil,'flower',9,'采集月见花',nil,V(150,40,62),6)
+  add(nil,'bed',3,'重读序章',nil,V(127,80.5,193),2)
+- add(nil,'lore',1.9,'翻阅手稿',1,V(115.4,73.3,177),3)
+- add(nil,'lore',1.9,'翻阅手稿',2,V(115.4,73.3,181),3)
+- add(nil,'lore',1.5,'读桌上的信',3,V(117.6,73.5,179),3)
++ local page1=add('tripo_castle_bookshelf_0','lore',3.2,'翻阅手稿',1,V(115.4,73.3,177),3);page1.localOffset=V(-.196,.28,0)
++ local page2=add('tripo_castle_bookshelf_1','lore',3.2,'翻阅手稿',2,V(115.4,73.3,181),3);page2.localOffset=V(-.196,.28,0)
++ local page3=add('书库桌上烛光','lore',2.6,'读桌上的信',3,V(117.6,73.5,179),3)
++ page3.localOffset=V(.6,0,0);page3.secondaryRef=ref('castle_gi_library');page3.secondaryOffset=V(9.4,73.5,-3)
+  add('tripo_camp_stele','lore',3,'读石碑',4,V(64.7,43.5,65))
+  for i=0,2 do local q=({{48,138},{58.4,156},{37.6,156}})[i+1]
+   add('rune_'..i,'lore',3.6,'读柱上的铭文',5+i,V(q[1],52,q[2]),6)
+  end
+- add(nil,'lore',2.4,'读契碑',8,V(127,73.3,193.2),3)
++ add('DragonPactMemorial','lore',3.2,'读契碑',8,V(127,73.3,193.2),3)
+  for _,name in ipairs({'altar3','witch_shop_v2','tripo_witch_staff','tripo_potion'})do ref(name)end
+  for i=0,3 do ref('tripo_egg_stage_'..i)end
+ end
+@@ -508,11 +528,12 @@
+   local stone=U.Object.Instantiate(rune);stone.name='DragonPactMemorial'
+   stone.transform.position=V(127,73.22,193.2);stone.transform.localScale=rune.transform.lossyScale*.55
+   discovery.memorialPlaced=true
++  discovery.byName.DragonPactMemorial.go=stone
+  end
+  discovery.registered=0;discovery.missing=0
+  for _,t in ipairs(targets)do
+   if t.ref then t.go=t.ref.go end
+-  if t.go or t.position then discovery.registered=discovery.registered+1 else discovery.missing=discovery.missing+1 end
++  if targetPosition(t)then discovery.registered=discovery.registered+1 else discovery.missing=discovery.missing+1 end
+  end
+ end
+ local function handleNativeClick(index)
+@@ -529,7 +550,18 @@
+ end
+ function OnInteractorButtonClick(index)queueNativeClick(index)end
+ 
+-function GetStatus()return{loaded=progress and progress.IsLoaded(),mode=mode,target=current and current.kind,targets=discovery and discovery.registered or 0,missingTargets=discovery and discovery.missing or 0,uiReady=uiReady,potion=potion and potion.kind,buff=buff and buff.kind,eggStage=eggStage,lore=lore.n,bridge=main~=nil,roastX=R.x,roastZone=R.zoneX,roastW=R.zoneW}end
++function GetLoreTargets()
++ local out={}
++ for _,t in ipairs(targets)do if t.kind=='lore'then
++  local p=targetPosition(t)
++  out[#out+1]={id=t.id,label=t.label,source=t.ref and t.ref.name,sourceLoaded=t.go~=nil,
++   secondarySource=t.secondaryRef and t.secondaryRef.name,secondaryLoaded=t.secondaryRef and t.secondaryRef.go~=nil,
++   position=p and{x=p.x,y=p.y,z=p.z},radius=t.radius,height=t.height or 4,
++   nearby=actor and nearby(t)or false,current=current==t,read=lore.got[t.id]==true}
++ end end
++ return out
++end
++function GetStatus()return{loaded=progress and progress.IsLoaded(),mode=mode,target=current and current.kind,targetId=current and current.id,targets=discovery and discovery.registered or 0,missingTargets=discovery and discovery.missing or 0,uiReady=uiReady,potion=potion and potion.kind,buff=buff and buff.kind,eggStage=eggStage,lore=lore.n,bridge=main~=nil,roastX=R.x,roastZone=R.zoneX,roastW=R.zoneW}end
+ function DebugOpen(kind,id)if kind=='cook'then cook()elseif kind=='lore'then readLore(id or 1)elseif kind=='tasks'then OpenTasks()elseif kind=='serve'then roastPress()elseif kind=='buff'then applyBuff(id)end end
+ function Update()
+  if not progress then progress=getDependency('dragon_progress.lua');rules=getDependency('dragon_progress_rules.lua');cycle=getDependency('dragon_daycycle.lua');main=getDependency('dragon_world_bridge.lua')end
+@@ -546,7 +578,7 @@
+  end
+  local world=main.GetExplorationState();local available=world=='play'and not unavailable()
+  current=nil;local best=1e9
+- for _,t in ipairs(targets)do if nearby(t)then local pos=t.go and t.go.transform.position or t.position;local d=V.Distance(actor.position,pos);if d<best then current=t;best=d end end end
++ for _,t in ipairs(targets)do if nearby(t)then local pos=targetPosition(t);local d=targetDistance(t,pos);if d<best then current=t;best=d end end end
+  local wanted=available and not mode and current or nil
+  if wanted~=nativeTarget then
+   clearNativeInteraction()

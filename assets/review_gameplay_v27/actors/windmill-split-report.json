@@ -1,0 +1,32 @@
+{
+  "sourceZip": "/Users/bytedance/Downloads/world_dev_unity_143175468-dsst-PROD.zip",
+  "sourceEntry": "5f34a7048bfdcbee6c8d91ba3fd64794843c98d9010a83976546f02a6fa1ee96.glb",
+  "sourceSHA256": "4702e0718142adb23fae3cc3ed710e65682bba28ad1c3dd54d645b4b8dc1ad42",
+  "output": "windmill_split.glb",
+  "outputSHA256": "62c9469b1832b66f38db91bb974cdd33611a6f04c014ef7ba43a281d7bc370c8",
+  "bytesBefore": 205096,
+  "bytesAfter": 218388,
+  "originalTriangles": 2104,
+  "fixedTriangles": 1624,
+  "movingTriangles": 480,
+  "rotorPivotLocal": [
+    0.0,
+    0.5111749118764586,
+    0.17631051341692608
+  ],
+  "preserved": [
+    "all original binary buffer bytes",
+    "positions and normals",
+    "UVs and textures",
+    "materials",
+    "original glow node",
+    "original main node transform",
+    "exact original triangle multiset at rest"
+  ],
+  "sceneNodeId": 932317899,
+  "sceneTransformMustRemainUnchanged": true,
+  "notVerified": [
+    "actual imported pivot discovery",
+    "mobile rendering/rotation"
+  ]
+}

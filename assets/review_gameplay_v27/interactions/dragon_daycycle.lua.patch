@@ -1,0 +1,62 @@
+--- formal/dragon_daycycle.lua
++++ review-v27/dragon_daycycle.lua
+@@ -10,26 +10,30 @@
+ ---@end
+ local U=CS.UnityEngine
+ local scope=require('official.core.runtime_scope').from(self)
+--- mobile-v23: resolve each dependency at most once a second, at most 30 attempts.
+-do
+- local target=scope
+- local original=target.GetScript
+- local memo,attempts,nextAt={},{},{}
+- local failures={}
+- target.GetScript=function(_,name)
+-  if memo[name] then return memo[name] end
+-  local now=CS.UnityEngine.Time.realtimeSinceStartup
+-  if (attempts[name] or 0)>=30 or now<(nextAt[name] or 0) then return nil end
+-  attempts[name]=(attempts[name] or 0)+1;nextAt[name]=now+1
+-  local ok,value=pcall(original,target,name)
+-  if ok and value then memo[name]=value;return value end
+-  if attempts[name]==30 then failures[name]=tostring(value or 'not loaded');print('[mobile-v23] dependency failed: '..name..' '..failures[name]) end
+-  return nil
++-- review-v27: private cache. Never replace the shared runtime-scope resolver.
++local getDependency
++local dependencyMemo,dependencyAttempts,dependencyNextAt,dependencyFailures={},{},{},{}
++getDependency=function(name)
++ if dependencyMemo[name] then return dependencyMemo[name] end
++ local now=CS.UnityEngine.Time.realtimeSinceStartup
++ if now<(dependencyNextAt[name] or 0) then return nil end
++ local attempt=(dependencyAttempts[name] or 0)+1
++ dependencyAttempts[name]=attempt
++ -- Fast initial readiness checks, then bounded slow recovery for streamed resources.
++ dependencyNextAt[name]=now+(attempt<30 and 1 or 5)
++ local ok,value=pcall(function()return scope:GetScript(name)end)
++ if ok and value then
++  dependencyMemo[name]=value;dependencyFailures[name]=nil
++  if attempt>=30 then print('[review-v27] dependency recovered: '..name) end
++  return value
+  end
+- function GetDependencyDiagnostics() return {build='mobile-v23',attempts=attempts,failures=failures} end
+- local destroy=OnDestroy
+- -- Installed after lifecycle definitions below; clears references on scene exit.
+- ReleaseMobileDependencies=function()memo={};attempts={};nextAt={};failures={} end
++ dependencyFailures[name]=tostring(value or 'not loaded')
++ if attempt==30 then print('[review-v27] dependency waiting: '..name..' '..dependencyFailures[name]) end
++ return nil
++end
++function GetDependencyDiagnostics()return{build='review-v27',attempts=dependencyAttempts,failures=dependencyFailures}end
++local function ReleaseMobileDependencies()
++ dependencyMemo={};dependencyAttempts={};dependencyNextAt={};dependencyFailures={}
+ end
+ 
+ local state=nil
+@@ -105,7 +109,8 @@
+  cooldown=now()+5;state={day=not IsDay(),at=now(),version=(state and state.version or 0)+1};DayState:SetValue(dkjson.encode(state))
+ end
+ function Update()
+- if not main then main=scope:GetScript('dragon_world_bridge.lua');exploration=scope:GetScript('dragon_exploration.lua')end
++ if not main then main=getDependency('dragon_world_bridge.lua')end
++ if not exploration then exploration=getDependency('dragon_exploration.lua')end
+  if net and CS.DouyinNetService.isNetworkSettled and self:HasOwnership()and not state then state={day=false,at=now(),version=1};DayState:SetValue(dkjson.encode(state))end
+  local fighting=exploration and exploration.IsBattleActive()
+  if state and net and self:HasOwnership()and battleWas and not fighting and not state.day and now()-state.at>=600 then

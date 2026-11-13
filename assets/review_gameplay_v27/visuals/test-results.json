@@ -1,0 +1,36 @@
+{
+  "test": "v27 isolated visual Lua regression",
+  "whole_bridge_syntax": "pass",
+  "checks": [
+    "empty startup does not mark crowns permanently ready",
+    "shared source clones once across crowns and all slots are bound",
+    "secondary material slot shares the existing holy clone",
+    "custom power and URP HDR paths both emit at night",
+    "emission keyword enabled",
+    "diagnostics expose actual live emission power",
+    "original source material unchanged",
+    "late asset material replacement gets night state",
+    "abandoned owned clone retired after replacement",
+    "night tint recovers when another material writer resets colour",
+    "daytime has zero self emission on both shaders",
+    "daytime restores original leaf tint",
+    "daytime crown light disabled",
+    "daytime crown light disabled",
+    "teardown restores currently valid source materials",
+    "teardown releases all owned clones",
+    "re-enable rebinds after cleanup",
+    "inactive renderers restore source before clone retirement",
+    "inactive crown clones release without dangling material references",
+    "reactivated crowns bind live clones",
+    "reactivated crown resumes current night glow",
+    "authored pipeline and quality settings untouched",
+    "authored camera HDR MSAA post and shadows untouched",
+    "30 FPS pacing retained and prior Update called",
+    "disable restores original frame cap and lifecycle chain",
+    "destroy chain remains callable after disable"
+  ],
+  "limitations": [
+    "Mocks validate Lua state/lifecycle only; actual mobile bloom, shader rendering and performance require review package validation.",
+    "No editor instance or live project was modified by this test."
+  ]
+}

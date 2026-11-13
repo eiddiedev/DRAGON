@@ -1,0 +1,95 @@
+--- scripts/modules/imported/prefab_20/dragon_world_bridge.lua
++++ scripts/modules/imported/prefab_20/dragon_world_bridge.lua
+@@ -2081,7 +2081,7 @@
+ end
+ -- Runtime-only visual changes: retain every authored scene transform.
+ UI.motion={}
+-function UI.setupMotion()
++function UI.setupSkyMotion()
+     local state=UI.motion
+     if not skyReady then return end
+     if not state.sky then
+@@ -2127,13 +2127,25 @@
+         SWIRL_LAYERS.fade(blend*blend*(3-2*blend))
+         report('sky crossfade ready '..#state.sky)
+     end
++end
++function UI.setupWindmillMotion()
++    local state=UI.motion
++    if state.rotor then return true end
++    local source=GameObject.Find('windmill')
++    if not source then state.windStatus='waiting model';return false end
++    local transforms=source:GetComponentsInChildren(typeof(UnityEngine.Transform),true)
++    for i=0,transforms.Length-1 do
++        if transforms[i].name=='windmill_rotor_pivot' then
++            state.rotor=transforms[i];state.windStatus='authored rotor ready';return true
++        end
++    end
+     if not state.rotor then
+-        local go=GameObject.Find('windmill')
++        local go=source
+         if not go then return end
+         local fs=go:GetComponentsInChildren(typeof(UnityEngine.MeshFilter),true)
+         for k=0,fs.Length-1 do
+             local mf=fs[k]
+-            if mf.gameObject.name=='main' then
++            if mf.gameObject.name=='main' and mf.sharedMesh~=nil then
+                 local mesh=mf.mesh
+                 local vertices=mesh.vertices
+                 local tris=mesh.triangles
+@@ -2189,15 +2201,38 @@
+                 break
+             end
+         end
+-    end
+-end
++    end    if state.rotor then state.windStatus='legacy rotor ready';return true end
++    state.windStatus='waiting main mesh';return false
++end
++-- Sky/texture failure must never gate the unrelated windmill.
+ function UI.updateMotion()
+-    if not UI.motion.ready and not UI.motion.failed then
+-        local ok,err=pcall(UI.setupMotion)
+-        if not ok then UI.motion.failed=true;report('motion failed '..tostring(err))
+-        elseif UI.motion.rotor then UI.motion.ready=true end
+-    end
+-    if UI.motion.rotor then UI.motion.rotor:Rotate(0,0,18*Time.deltaTime) end
++    local state=UI.motion
++    local now=Time.realtimeSinceStartup
++    if skyReady and not state.sky and now>=(state.skyRetryAt or 0) and (state.skyAttempts or 0)<10 then
++        state.skyRetryAt=now+2;state.skyAttempts=(state.skyAttempts or 0)+1
++        local ok,err=pcall(UI.setupSkyMotion)
++        if not ok and state.skyError~=tostring(err) then state.skyError=tostring(err);report('sky motion pending '..state.skyError)end
++    end
++    if not state.rotor and now>=(state.windRetryAt or 0) and (state.windAttempts or 0)<60 then
++        state.windRetryAt=now+2;state.windAttempts=(state.windAttempts or 0)+1
++        local ok,err=pcall(UI.setupWindmillMotion)
++        if not ok then
++            state.windStatus='model init pending'
++            -- Never retry a CPU mesh failure every frame or poison sky state.
++            if state.windError~=tostring(err)then state.windError=tostring(err);report('windmill pending '..state.windError)end
++        end
++        if state.windAttempts==60 and not state.rotor then state.windStatus='model timeout';report('windmill model timeout after 60 bounded attempts')end
++    end
++    if state.rotor then
++        local ok=pcall(function()state.rotor:Rotate(0,0,18*math.min(Time.deltaTime,.1))end)
++        if not ok then
++            -- A streamed model may be replaced. Rebind only after the next 2s interval.
++            state.rotor=nil;state.windAttempts=0;state.windRetryAt=now+2;state.windStatus='waiting replacement'
++        end
++    end
++end
++function GetWindmillDiagnostics()
++    return {status=UI.motion.windStatus or 'pending',attempts=UI.motion.windAttempts or 0,error=UI.motion.windError,rotor=UI.motion.rotor~=nil}
+ end
+ 
+ UI.L = { title = { frames = { { 0, 0.707031, 1, 0.292969 }, { 0, 0.414062, 1, 0.292969 }, { 0, 0.121094, 1, 0.292969 } }, sub = { 0, 0, 1, 0.121094 }, aspect = 3.413333, sub_aspect = 8.258065 }, book = { aspect = 1.505882, left = { 0.0625, 0.058824, 0.433594, 0.876471 }, right = { 0.503906, 0.058824, 0.433594, 0.876471 } }, map = { M = 120, S = 5, size = 1520 }, atlas = { mapbtn = { 0.0, 0.75, 0.25, 0.25 }, arrow = { 0.25, 0.875, 0.125, 0.125 }, ring = { 0.375, 0.875, 0.125, 0.125 }, skip = { 0.5, 0.917969, 0.21875, 0.082031 }, close = { 0.75, 0.917969, 0.21875, 0.082031 }, hint_flip = { 0.0, 0.6875, 0.5, 0.0625 }, hint_map = { 0.5, 0.6875, 0.5, 0.0625 }, vignette = { 0.0, 0.375, 0.25, 0.25 }, grain = { 0.25, 0.375, 0.25, 0.25 } }, cards = { castle = { 1, 0.0, 0.800781, 0.5, 0.199219 }, dragon_peak = { 1, 0.5, 0.800781, 0.5, 0.199219 }, altar = { 1, 0.0, 0.601562, 0.5, 0.199219 }, spawn = { 1, 0.5, 0.601562, 0.5, 0.199219 }, village = { 1, 0.0, 0.402344, 0.5, 0.199219 }, rift_gate = { 1, 0.5, 0.402344, 0.5, 0.199219 }, arena = { 1, 0.0, 0.203125, 0.5, 0.199219 }, bridge = { 1, 0.5, 0.203125, 0.5, 0.199219 }, witch = { 1, 0.0, 0.003906, 0.5, 0.199219 }, windmill = { 1, 0.5, 0.003906, 0.5, 0.199219 }, camp = { 2, 0.0, 0.800781, 0.5, 0.199219 }, mushroom = { 2, 0.5, 0.800781, 0.5, 0.199219 }, flowers = { 2, 0.0, 0.601562, 0.5, 0.199219 }, glow_tree = { 2, 0.5, 0.601562, 0.5, 0.199219 }, carpet = { 2, 0.0, 0.402344, 0.5, 0.199219 }, lighthouse = { 2, 0.5, 0.402344, 0.5, 0.199219 }, harbor = { 2, 0.0, 0.203125, 0.5, 0.199219 }, meadow = { 2, 0.5, 0.203125, 0.5, 0.199219 }, lake = { 2, 0.0, 0.003906, 0.5, 0.199219 } }, card_aspect = 2.509804, poi = { { id = "castle", x = 127, z = 182, lx = 45.4, ly = 15.5, lw = 43.6, lh = 21.2 }, { id = "dragon_peak", x = 165, z = 234, lx = 41.4, ly = -5.5, lw = 43.6, lh = 21.2 }, { id = "altar", x = 48, z = 150, lx = 52.6, ly = -5.5, lw = 54.7, lh = 21.2 }, { id = "spawn", x = 121, z = 57, lx = 44.1, ly = -16.1, lw = 43.6, lh = 21.2 }, { id = "village", x = 184, z = 80, lx = -44.1, ly = 8.9, lw = 43.6, lh = 21.2 }, { id = "rift_gate", x = 125, z = 135, lx = -61.8, ly = 2.1, lw = 46.8, lh = 19.2 }, { id = "arena", x = 127, z = 160, lx = -46.1, ly = -1.8, lw = 37.6, lh = 19.2 }, { id = "bridge", x = 162, z = 110, lx = 26.3, ly = -3.2, lw = 28.4, lh = 19.2 }, { id = "witch", x = 171, z = 146, lx = 44.7, ly = -3.2, lw = 46.8, lh = 19.2 }, { id = "windmill", x = 84, z = 66, lx = 35.5, ly = -3.2, lw = 37.6, lh = 19.2 }, { id = "camp", x = 62, z = 62, lx = -13.2, ly = -20.3, lw = 56.1, lh = 19.2 }, { id = "mushroom", x = 86, z = 98, lx = 35.5, ly = -3.2, lw = 37.6, lh = 19.2 }, { id = "flowers", x = 150, z = 62, lx = 55.3, ly = -8.4, lw = 56.1, lh = 19.2 }, { id = "glow_tree", x = 160, z = 74, lx = 46.1, ly = -13.7, lw = 46.8, lh = 19.2 }, { id = "carpet", x = 96, z = 30, lx = 44.7, ly = -3.2, lw = 46.8, lh = 19.2 }, { id = "lighthouse", x = 209, z = 134, lx = 35.5, ly = -3.2, lw = 37.6, lh = 19.2 }, { id = "harbor", x = 192, z = 86, lx = 27.6, ly = -15.0, lw = 28.4, lh = 19.2 }, { id = "meadow", x = 96, z = 50, lx = -44.7, ly = -17.6, lw = 37.6, lh = 19.2 }, { id = "lake", x = 116, z = 124, lx = 38.2, ly = -15.0, lw = 28.4, lh = 19.2 } } }
+@@ -3300,7 +3335,7 @@
+     end
+     UI.updateLoadingStatus()
+     updateSky()
+-    if skyReady then UI.updateMotion() end
++    UI.updateMotion()
+     if envReady and (castleMats == nil or #castleMats < 3) then
+         castleRetry = castleRetry + Time.deltaTime
+         if castleRetry > 1 then

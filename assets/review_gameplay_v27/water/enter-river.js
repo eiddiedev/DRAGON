@@ -1,0 +1,1 @@
+const U=CS.UnityEngine,a=CS.DouyinActorService.GetLocalActor();a.Teleport(new U.Vector3(97.715,33,136.268),U.Quaternion.identity);let samples=[];for(let i=0;i<10;i++){await awaitFrames(10);let p=a.position;samples.push({p:[p.x,p.y,p.z],can:a.CanSwim(),swim:a.IsSwimming()});}return samples;

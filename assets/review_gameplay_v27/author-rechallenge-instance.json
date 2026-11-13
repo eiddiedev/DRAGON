@@ -1,0 +1,1 @@
+{"ok":false,"command":"instance","error":{"code":"TIMEOUT","message":"Creator 已启动但还未发布实例入口，请检查启动日志，不要重复启动。","details":{"instanceId":"awc-44ea921f-ee93-4cc3-95b6-afa7c0c5b36b","pid":3828,"logFile":"/Users/bytedance/.awc/profiles/awc-44ea921f-ee93-4cc3-95b6-afa7c0c5b36b/awc-launch.log"}}}

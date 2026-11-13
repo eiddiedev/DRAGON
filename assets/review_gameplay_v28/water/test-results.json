@@ -1,0 +1,51 @@
+{
+  "version": "water-v28",
+  "passed": 11,
+  "tests": [
+    {
+      "name": "lua-syntax",
+      "passed": true
+    },
+    {
+      "name": "1-hz-getters-and-enable",
+      "passed": true
+    },
+    {
+      "name": "first-12-only-and-real-support",
+      "passed": true
+    },
+    {
+      "name": "max-three-global-searches-across-lifecycle",
+      "passed": true
+    },
+    {
+      "name": "far-away-no-physics",
+      "passed": true
+    },
+    {
+      "name": "swim-events-disable-destroy",
+      "passed": true
+    },
+    {
+      "name": "actor-replacement-unsubscribes-old",
+      "passed": true
+    },
+    {
+      "name": "missing-player-and-query-error-visible",
+      "passed": true
+    },
+    {
+      "name": "ray-results-unsorted-and-truncation-labelled",
+      "passed": true
+    },
+    {
+      "name": "optional-small-ui-visibility-and-disposal",
+      "passed": true
+    },
+    {
+      "name": "optional-ui-failure-retries-bounded",
+      "passed": true
+    }
+  ],
+  "scope": "mock and Lua syntax only; not device verification"
+}

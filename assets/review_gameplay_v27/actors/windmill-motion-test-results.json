@@ -1,0 +1,15 @@
+{
+  "passed": [
+    "no sky dependency",
+    "two-second pending lookup throttle",
+    "ready rotor no rebuild",
+    "sky error isolated",
+    "destroyed rotor rebind",
+    "60-attempt upper bound",
+    "unreadable legacy error recovers after authored pivot arrives"
+  ],
+  "notVerified": [
+    "actual consumer GLB import and rotor motion",
+    "current failed review package not supplied"
+  ]
+}

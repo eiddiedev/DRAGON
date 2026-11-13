@@ -1,0 +1,962 @@
+{
+  "inputs": [
+    "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-55a43370-8734-4825-92a8-b0de824a45e2/scene.data",
+    "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/scene.data"
+  ],
+  "scripts": [
+    {
+      "version": "official_v26",
+      "registered_script_count": 38,
+      "scripts": [
+        {
+          "id": "index.lua",
+          "name": "index.lua",
+          "sha256": "1f89b91f4ffb9482f6f95b9269ec801faf1fcf692cd22e3bea077fb843ddde9c",
+          "matching_lines": []
+        },
+        {
+          "id": "8fe420a9-9b6d-488f-b707-6172cfa2fdbd",
+          "name": "horse_seat_v1.lua",
+          "sha256": "749e5e300fa73c896e0bc4ef667c7e030ff39b22e416c6758dfedf744ab534e8",
+          "matching_lines": []
+        },
+        {
+          "id": "bf11114f-2cdb-4ebd-9151-cdf56758a16a",
+          "name": "scene_sheep_sound.lua",
+          "sha256": "e11402be817efd064d3537c6990fe979b537c2be050c767e0512ec67a899e3bb",
+          "matching_lines": []
+        },
+        {
+          "id": "38747ec8-06be-4dcc-84d3-573119095c45",
+          "name": "scene_vehicle_carpet.lua",
+          "sha256": "759e37c94055864d0056dc3bcd0245950777c4d3bcfd98c5dc9061e45d60feea",
+          "matching_lines": []
+        },
+        {
+          "id": "5a9edffe-7c92-477d-bc9c-9865e864567e",
+          "name": "tripo_sheep_motion.lua",
+          "sha256": "80240c1b4f69e9788aeb30b10ea8bdae9a044ef80018c07f0dbb7add9183635b",
+          "matching_lines": []
+        },
+        {
+          "id": "e635d9d6-ebb9-47ed-b52d-4f1a8c27d866",
+          "name": "castle_baked_display.lua",
+          "sha256": "db4add1b33365598dbbbe3e36afb83b58dd7ce31f9071ea1cff25ffd65384b38",
+          "matching_lines": [
+            {
+              "line": 19,
+              "source": "    c:SetTexture('_EmissionTex',m:GetTexture('_BaseTex'))"
+            },
+            {
+              "line": 22,
+              "source": "    c:SetTexture('_EmissionMask',U.Texture2D.whiteTexture)"
+            },
+            {
+              "line": 30,
+              "source": "    c:SetTexture('_ORM',U.Texture2D.whiteTexture)"
+            }
+          ]
+        },
+        {
+          "id": "efd4bf6a-826c-4688-bbc7-b57b3998f686",
+          "name": "dragon_combat_rules.lua",
+          "sha256": "d73d63b722ba62e0a3573b3f9d1e35b8197a4fd1cec1dffd39e26ae5171f4563",
+          "matching_lines": []
+        },
+        {
+          "id": "e11f9edb-bf6d-45db-af89-7515b0bae5ca",
+          "name": "dragon_combat.lua",
+          "sha256": "88210a21dda1e9d3dde3d4a2a9997523b0e4b5e00678852f613de4e61aea546c",
+          "matching_lines": [
+            {
+              "line": 225,
+              "source": "     local mat=U.Material(materials[1]);if mat:HasProperty('_BaseTex')then mat:SetTexture('_BaseTex',nil)end"
+            },
+            {
+              "line": 302,
+              "source": "  sigilRoot=U.GameObject('TrialPermanentSigil');sigilMaterial=U.Material(U.Shader.Find('Sprites/Default'))"
+            }
+          ]
+        },
+        {
+          "id": "5a2bd68a-e9fd-4a6d-b4c0-976ff660d6e6",
+          "name": "dragon_daycycle.lua",
+          "sha256": "990c05c460824b746ade5c0b351e112ab9bc88d5a38e5151e0c42939b11a2f84",
+          "matching_lines": []
+        },
+        {
+          "id": "b6ddf752-c0bc-4da1-aa9b-61149db65d15",
+          "name": "dragon_exploration.lua",
+          "sha256": "6bb0bf37a00dbf362ccafbcb623665133d2c6def150a3f6b70d7695178d4fc71",
+          "matching_lines": []
+        },
+        {
+          "id": "16af299e-8d31-4edb-96c6-aabc3caf3ace",
+          "name": "dragon_fx.lua",
+          "sha256": "11c18c6e0b10a5c3aa840d0906463f441ea80746a5245bafbcc440b9498d181b",
+          "matching_lines": []
+        },
+        {
+          "id": "93baeed8-e95e-4a38-9105-e258d675084e",
+          "name": "dragon_outfits.lua",
+          "sha256": "70dc5d36f55e3893cecd46c73972b8c5229c6cf79606d2dfece4f6e6fc1cd326",
+          "matching_lines": [
+            {
+              "line": 441,
+              "source": "  local m=U.Material(U.Shader.Find(\"Universal Render Pipeline/Lit\"))"
+            },
+            {
+              "line": 442,
+              "source": "  for _,key in ipairs({'_MainTex','_BaseMap','_BaseTex'})do if m:HasProperty(key)then m:SetTexture(key,nil)end end"
+            },
+            {
+              "line": 449,
+              "source": "  for _,key in ipairs({'_Normalmap','_ORM','_EmissionMask','_EmissionTex'})do if m:HasProperty(key)then m:SetTexture(key,nil)end end"
+            }
+          ]
+        },
+        {
+          "id": "9e2bdcb2-d25e-4511-a90a-af148fd2064f",
+          "name": "dragon_progress_rules.lua",
+          "sha256": "24cc7ebaf1343a5ace4ba8733ee17111ab8951a3e1c446c1d898802ee6eedc9b",
+          "matching_lines": []
+        },
+        {
+          "id": "7475b6fc-645d-4127-b11d-70772050aed6",
+          "name": "dragon_progress.lua",
+          "sha256": "b3392bf4704288a677a57da8ccf1929d8ee1498a18447b7629193800422cfcee",
+          "matching_lines": []
+        },
+        {
+          "id": "d058eade-9618-4d4c-a79a-2e61573e61b4",
+          "name": "dragon_rpg.lua",
+          "sha256": "d4073741a87814dda7c479c79a5ae9435b3fc2cdb4a5ba3410dc601c8ef04954",
+          "matching_lines": [
+            {
+              "line": 88,
+              "source": "  local tex=U.Texture2D(64,64,U.TextureFormat.RGBA32,false);tex.filterMode=U.FilterMode.Bilinear"
+            },
+            {
+              "line": 291,
+              "source": " ringTexture=U.Texture2D(96,96,U.TextureFormat.RGBA32,false)"
+            }
+          ]
+        },
+        {
+          "id": "68fab354-1ea8-49a0-9d1f-c611a06f938c",
+          "name": "dragon_rules.lua",
+          "sha256": "f1206d2fa90ddf3664d1cfef7c978ceb50d0d03c57bafa0c1701dad280f523c5",
+          "matching_lines": []
+        },
+        {
+          "id": "df7f7567-abf2-433b-881f-73ebe475c892",
+          "name": "dragon_timeline.lua",
+          "sha256": "5b625e1e600b3b5312fbfd8d00b99b404a60b8aa82c4e536d4f8f37b6b4ed07d",
+          "matching_lines": []
+        },
+        {
+          "id": "601c4c0c-7345-4a00-b80c-a6daec3e2050",
+          "name": "dragon_weapons.lua",
+          "sha256": "a4b8a1ab09ea2a195779016f6fc6ad67c4e0de9c6ca626a39b6b18889a84c430",
+          "matching_lines": []
+        },
+        {
+          "id": "abc6ff62-e0ad-42b3-a245-f75300fcb5df",
+          "name": "dragon_world_bridge.lua",
+          "sha256": "80aff2be40692e2333916a38558295e9aef72c977aabe118deedf73b796ac95c",
+          "matching_lines": [
+            {
+              "line": 155,
+              "source": "                if tx then m:SetTexture(\"_EmissionTex\", tx) end"
+            },
+            {
+              "line": 292,
+              "source": "                    m:SetTexture(\"_EmissionTex\", tx)"
+            },
+            {
+              "line": 433,
+              "source": "                        m:SetTexture(\"_EmissionTex\", tx)"
+            },
+            {
+              "line": 598,
+              "source": "                dbg(string.format(\"%s shader=%s base=%s %sx%s fmt=%s filt=%s aniso=%s mip=%s norm=%s %sx%s nscale=%s kw=%s verts=%s\", nm, m.shader.name, tostring(t and t.name), tostring(t and t.width), tostring(t and t.height), tostring(t and t.format), tostring(t and t.filterMode), tostring(t and t.anisoLevel), tostring(t and t.mipmapCount), tostring(n and n.name), tostring(n and n.width), tostring(n and n.height), tostring(m:GetFloat(\"_NormalSc"
+            },
+            {
+              "line": 607,
+              "source": "    dbg(\"quality master=\" .. tostring(UnityEngine.QualitySettings.globalTextureMipmapLimit) .. \" masterTex=\" .. tostring(UnityEngine.QualitySettings.masterTextureLimit))"
+            },
+            {
+              "line": 1005,
+              "source": "                        m:SetTexture(\"_EmissionTex\", tx)"
+            },
+            {
+              "line": 1138,
+              "source": "                        m:SetTexture(\"_EmissionTex\", m:GetTexture(\"_BaseMap\") or m:GetTexture(\"_MainTex\") or UnityEngine.Texture2D.whiteTexture)"
+            },
+            {
+              "line": 2088,
+              "source": "        local shader=UnityEngine.Shader.Find('Universal Render Pipeline/Unlit')"
+            },
+            {
+              "line": 2090,
+              "source": "        if not shader then shader=UnityEngine.Shader.Find('Unlit/Transparent') end"
+            },
+            {
+              "line": 2108,
+              "source": "                m:SetTexture(urp and '_BaseMap' or '_MainTex',tex)"
+            },
+            {
+              "line": 2275,
+              "source": "   made=UnityEngine.Texture2D(2,2,UnityEngine.TextureFormat.RGBA32,false)"
+            },
+            {
+              "line": 2279,
+              "source": "   made.filterMode=UnityEngine.FilterMode.Bilinear"
+            },
+            {
+              "line": 2309,
+              "source": "    local t = UnityEngine.Texture2D(n, n)"
+            },
+            {
+              "line": 2319,
+              "source": "    t.filterMode = UnityEngine.FilterMode.Point"
+            },
+            {
+              "line": 2484,
+              "source": "    local t = UnityEngine.Texture2D(2, 2, UnityEngine.TextureFormat.RGBA32, false)"
+            },
+            {
+              "line": 2488,
+              "source": "    t.filterMode = UnityEngine.FilterMode.Bilinear"
+            },
+            {
+              "line": 3510,
+              "source": " local texture=UnityEngine.Texture2D(128,128,UnityEngine.TextureFormat.RGBA32,false)"
+            },
+            {
+              "line": 3517,
+              "source": " texture:Apply();texture.filterMode=UnityEngine.FilterMode.Bilinear"
+            },
+            {
+              "line": 3562,
+              "source": "   local sh=UnityEngine.Shader.Find(name);if sh then UI.fxShader=sh;break end"
+            },
+            {
+              "line": 3955,
+              "source": "   if m:GetTexture('_GroundTex')~=s.texture then m:SetTexture('_GroundTex',s.texture);s.patched=s.patched+1 end"
+            },
+            {
+              "line": 4004,
+              "source": " local Q=UnityEngine.QualitySettings"
+            },
+            {
+              "line": 4008,
+              "source": "  local ok,err=pcall(function()local p=Q.renderPipeline or UnityEngine.Rendering.GraphicsSettings.currentRenderPipeline;if p then s.pipeline=p;s.oldScale=p.renderScale;p.renderScale=math.min(p.renderScale,.6);s.renderScale=p.renderScale end end)"
+            },
+            {
+              "line": 4009,
+              "source": "  if not ok then s.errors.renderScale=tostring(err)end"
+            },
+            {
+              "line": 4024,
+              "source": " pcall(function()local q=UnityEngine.QualitySettings;UnityEngine.Application.targetFrameRate=s.old.fps;q.antiAliasing=s.old.aa;q.shadows=s.old.shadows;q.shadowDistance=s.old.distance;q.pixelLightCount=s.old.pixel;if s.pipeline and s.oldScale then s.pipeline.renderScale=s.oldScale end end)"
+            },
+            {
+              "line": 4032,
+              "source": "function GetMobileRenderStatus()return {build='v24-low-render',fps=UnityEngine.Application.targetFrameRate,aa=UnityEngine.QualitySettings.antiAliasing,shadows=tostring(UnityEngine.QualitySettings.shadows),renderScale=UI.lowRender.renderScale,errors=UI.lowRender.errors}end"
+            }
+          ]
+        },
+        {
+          "id": "9484c299-b660-4424-b976-d99c95e8e129",
+          "name": "castle_smooth_display.lua",
+          "sha256": "faa1222abc8c1e8b2b57288e2b70b7385472f1e1f0dca259c49849a7e09bd94b",
+          "matching_lines": [
+            {
+              "line": 23,
+              "source": "     c:SetTexture('_EmissionTex',m:GetTexture('_BaseTex'))"
+            },
+            {
+              "line": 26,
+              "source": "     c:SetTexture('_EmissionMask',U.Texture2D.whiteTexture)"
+            },
+            {
+              "line": 29,
+              "source": "     c:SetTexture('_ORM',U.Texture2D.whiteTexture);c:SetFloat('_Metallic',1);c:SetFloat('_Smoothness',0);c:SetFloat('_AOIntensity',0)"
+            }
+          ]
+        },
+        {
+          "id": "34058cdc-ab96-4a96-b0b2-fb66632ff9d8",
+          "name": "castle_smooth_display.lua",
+          "sha256": "2c12a2cc7d81b71a8636faa719c336cb5ae05653519ae7f0b561a148fe757a5f",
+          "matching_lines": [
+            {
+              "line": 23,
+              "source": "     c:SetTexture('_EmissionTex',m:GetTexture('_BaseTex'))"
+            },
+            {
+              "line": 26,
+              "source": "     c:SetTexture('_EmissionMask',U.Texture2D.whiteTexture)"
+            },
+            {
+              "line": 29,
+              "source": "     c:SetTexture('_ORM',U.Texture2D.whiteTexture);c:SetFloat('_Metallic',1);c:SetFloat('_Smoothness',0);c:SetFloat('_AOIntensity',0)"
+            }
+          ]
+        },
+        {
+          "id": "87a26c94-24ec-421a-9398-eca7a4141139",
+          "name": "castle_tone.lua",
+          "sha256": "c5e7c1746e91ad3aa2cdd27a1d66911e2f8c2787504ddb36c48e4cce6d4d2891",
+          "matching_lines": []
+        },
+        {
+          "id": "eb6f8261-4e0c-4ad5-a584-68f29f2f3037",
+          "name": "scene_dial.lua",
+          "sha256": "488f64da06f82cfc442f0e8627158cf9a8ecd112e7293bb5800f1b73cceef4e4",
+          "matching_lines": []
+        },
+        {
+          "id": "655bb578-1c21-4668-9bce-742316b5798b",
+          "name": "scene_mushroom.lua",
+          "sha256": "107764f6ff1022ada33875add52487c818e28090bd6aec5ea85f2c8dcecfefec",
+          "matching_lines": []
+        },
+        {
+          "id": "a821baf4-2e71-4757-bc3f-e090c5f6a4d8",
+          "name": "scene_vehicle_boat.lua",
+          "sha256": "1d75d684882337744da3b5ad06b26a8afbd657a1a2696d360661c7cee1ef45fb",
+          "matching_lines": []
+        },
+        {
+          "id": "bba0be42-b2ed-452b-a9df-2f2b7f579dfd",
+          "name": "runtime-builtin___NetSpawnTarget__.lua",
+          "sha256": "0c0b1e2cdb778bf5a6db74b68c39344b5b942abae60cc672bb837289f4e7707c",
+          "matching_lines": []
+        },
+        {
+          "id": "c0b9b991-5f98-4bf1-8f12-3ee38a1736f0",
+          "name": "runtime-builtin___ObjectSyncTarget__.lua",
+          "sha256": "01ad3556423a2d7a0bcc24d9cb68d7351b260c04701220c6ef78cfe43150669f",
+          "matching_lines": []
+        },
+        {
+          "id": "4e52264d-30cc-4856-a932-b33d30380a3a",
+          "name": "runtime-builtin_runtime-host-root-bootstrap.lua",
+          "sha256": "6de4683b3113f46ae06893c93bee86af1e0483039d3d56e94d3e3a0dae55bb1c",
+          "matching_lines": []
+        },
+        {
+          "id": "d6f83b17-d36c-4840-ae2a-b896be27b101",
+          "name": "runtime-builtin_runtime-resource-root-bootstrap.lua",
+          "sha256": "01cc72bdc86fb23b2128a6f7ac18e86dbc52705c3f50ee2833adbd89552d5716",
+          "matching_lines": []
+        },
+        {
+          "id": "official/core/logger.lua",
+          "name": "official/core/logger.lua",
+          "sha256": "89d79d801c9887bb1ec6335a35192ed960a026e3dc0df6299837b649517f0d6f",
+          "matching_lines": []
+        },
+        {
+          "id": "official/core/node_lookup.lua",
+          "name": "official/core/node_lookup.lua",
+          "sha256": "62c10213881904b7fef2fd97f1cb92eff05bd6483a56e4a500789c2964bff835",
+          "matching_lines": []
+        },
+        {
+          "id": "official/core/runtime_scope.lua",
+          "name": "official/core/runtime_scope.lua",
+          "sha256": "b3f3301d854355ecad979483796fa9fe2df0c4b9e2d6af136f37dc0a64dc5cea",
+          "matching_lines": []
+        },
+        {
+          "id": "official/core/spawn_registry.lua",
+          "name": "official/core/spawn_registry.lua",
+          "sha256": "722f95acc15bab690b63bcfb51010bace1d57f6c23dfbda7d2cb47a79dd4f3d6",
+          "matching_lines": []
+        },
+        {
+          "id": "official/core/spawn.lua",
+          "name": "official/core/spawn.lua",
+          "sha256": "766300ef9ecf4d247ba97958397b7f92f7f6ffe46b0b3006286080d9bb815814",
+          "matching_lines": []
+        },
+        {
+          "id": "official/effect/playback.lua",
+          "name": "official/effect/playback.lua",
+          "sha256": "c7e4fc8b0daa350923815e14c54161aa7d1a9242c403162ecf7244cba10985a2",
+          "matching_lines": []
+        },
+        {
+          "id": "official/geometry/containment.lua",
+          "name": "official/geometry/containment.lua",
+          "sha256": "0e083201f45081caa3ec578dc662adbd996038533aa0fb2ce3525ddd5f4f64a7",
+          "matching_lines": []
+        },
+        {
+          "id": "official/interaction/trigger.lua",
+          "name": "official/interaction/trigger.lua",
+          "sha256": "9cb1f75f39695c23e35def010716b2b676afb1ef5beb62d45540d5a00b37952a",
+          "matching_lines": []
+        },
+        {
+          "id": "official/ui/animation.lua",
+          "name": "official/ui/animation.lua",
+          "sha256": "9ef9e81f67a466e7172731ed7cc8f4d1e7105fc8a2c28723ae317f798235b357",
+          "matching_lines": []
+        }
+      ]
+    },
+    {
+      "version": "isolated_v27",
+      "registered_script_count": 38,
+      "scripts": [
+        {
+          "id": "index.lua",
+          "name": "index.lua",
+          "sha256": "7b437df14d589d25765d8ef17b6af799f1209c5c0a1b72060bea326fd17228e0",
+          "matching_lines": []
+        },
+        {
+          "id": "139d4cdb-3114-466f-977c-69f68aacc044",
+          "name": "horse_seat_v1.lua",
+          "sha256": "deeeae0385fe5741aece9da40714e50fdcf122d06c7ab06c6e8fad568a8e7345",
+          "matching_lines": []
+        },
+        {
+          "id": "cb09f97f-db95-461d-b7c0-9ba7cb02ed4f",
+          "name": "scene_sheep_sound.lua",
+          "sha256": "d489f895369de2d19afbebcf44d70c70ee24216de0f44afde6cc5adafc8fa8b6",
+          "matching_lines": []
+        },
+        {
+          "id": "8331bc92-48a1-42d0-bb55-ab2bd2ce662f",
+          "name": "scene_vehicle_carpet.lua",
+          "sha256": "e7807e55521dfaee7ac57d43e562aa2be59f83e9f1f7b3776e7a76eaa332f3b9",
+          "matching_lines": []
+        },
+        {
+          "id": "7d3fca6a-1434-433d-9a6f-e8b391fe116f",
+          "name": "tripo_sheep_motion.lua",
+          "sha256": "bb30f0c5c390fe8336a8254b6b649a0afafa74eff7cfc20224dd16ff09a88519",
+          "matching_lines": []
+        },
+        {
+          "id": "e635d9d6-ebb9-47ed-b52d-4f1a8c27d866",
+          "name": "castle_baked_display.lua",
+          "sha256": "db4add1b33365598dbbbe3e36afb83b58dd7ce31f9071ea1cff25ffd65384b38",
+          "matching_lines": [
+            {
+              "line": 19,
+              "source": "    c:SetTexture('_EmissionTex',m:GetTexture('_BaseTex'))"
+            },
+            {
+              "line": 22,
+              "source": "    c:SetTexture('_EmissionMask',U.Texture2D.whiteTexture)"
+            },
+            {
+              "line": 30,
+              "source": "    c:SetTexture('_ORM',U.Texture2D.whiteTexture)"
+            }
+          ]
+        },
+        {
+          "id": "efd4bf6a-826c-4688-bbc7-b57b3998f686",
+          "name": "dragon_combat_rules.lua",
+          "sha256": "d73d63b722ba62e0a3573b3f9d1e35b8197a4fd1cec1dffd39e26ae5171f4563",
+          "matching_lines": []
+        },
+        {
+          "id": "e11f9edb-bf6d-45db-af89-7515b0bae5ca",
+          "name": "dragon_combat.lua",
+          "sha256": "0a7159a34068b88fee35d0efb54eb99e1dbf79cd326530851a736d91dbf6228a",
+          "matching_lines": [
+            {
+              "line": 229,
+              "source": "     local mat=U.Material(materials[1]);if mat:HasProperty('_BaseTex')then mat:SetTexture('_BaseTex',nil)end"
+            },
+            {
+              "line": 306,
+              "source": "  sigilRoot=U.GameObject('TrialPermanentSigil');sigilMaterial=U.Material(U.Shader.Find('Sprites/Default'))"
+            }
+          ]
+        },
+        {
+          "id": "5a2bd68a-e9fd-4a6d-b4c0-976ff660d6e6",
+          "name": "dragon_daycycle.lua",
+          "sha256": "0cdb6f1a1f96e974e9766943cd4b655cc28dabff248dd0af48c3a07679f00fe8",
+          "matching_lines": []
+        },
+        {
+          "id": "b6ddf752-c0bc-4da1-aa9b-61149db65d15",
+          "name": "dragon_exploration.lua",
+          "sha256": "d33dda3187399c315f9d43b86d66b99571786dc650bd02510ba65e68f28a1f15",
+          "matching_lines": []
+        },
+        {
+          "id": "16af299e-8d31-4edb-96c6-aabc3caf3ace",
+          "name": "dragon_fx.lua",
+          "sha256": "11c18c6e0b10a5c3aa840d0906463f441ea80746a5245bafbcc440b9498d181b",
+          "matching_lines": []
+        },
+        {
+          "id": "93baeed8-e95e-4a38-9105-e258d675084e",
+          "name": "dragon_outfits.lua",
+          "sha256": "833ed00ee9073990c1c51506421185f11e85d9d933cf98b436895857444542a5",
+          "matching_lines": [
+            {
+              "line": 445,
+              "source": "  local m=U.Material(U.Shader.Find(\"Universal Render Pipeline/Lit\"))"
+            },
+            {
+              "line": 446,
+              "source": "  for _,key in ipairs({'_MainTex','_BaseMap','_BaseTex'})do if m:HasProperty(key)then m:SetTexture(key,nil)end end"
+            },
+            {
+              "line": 453,
+              "source": "  for _,key in ipairs({'_Normalmap','_ORM','_EmissionMask','_EmissionTex'})do if m:HasProperty(key)then m:SetTexture(key,nil)end end"
+            }
+          ]
+        },
+        {
+          "id": "9e2bdcb2-d25e-4511-a90a-af148fd2064f",
+          "name": "dragon_progress_rules.lua",
+          "sha256": "24cc7ebaf1343a5ace4ba8733ee17111ab8951a3e1c446c1d898802ee6eedc9b",
+          "matching_lines": []
+        },
+        {
+          "id": "7475b6fc-645d-4127-b11d-70772050aed6",
+          "name": "dragon_progress.lua",
+          "sha256": "6e23d2a02a343d3c228fe34214d44ad9256f62491bbd14739a2fb54ead8c4c2d",
+          "matching_lines": []
+        },
+        {
+          "id": "d058eade-9618-4d4c-a79a-2e61573e61b4",
+          "name": "dragon_rpg.lua",
+          "sha256": "a8dd51d977660b78a02194f426462781ff509c1a7f128b8cc57ba9bc9f0bcc68",
+          "matching_lines": [
+            {
+              "line": 92,
+              "source": "  local tex=U.Texture2D(64,64,U.TextureFormat.RGBA32,false);tex.filterMode=U.FilterMode.Bilinear"
+            },
+            {
+              "line": 295,
+              "source": " ringTexture=U.Texture2D(96,96,U.TextureFormat.RGBA32,false)"
+            }
+          ]
+        },
+        {
+          "id": "68fab354-1ea8-49a0-9d1f-c611a06f938c",
+          "name": "dragon_rules.lua",
+          "sha256": "f1206d2fa90ddf3664d1cfef7c978ceb50d0d03c57bafa0c1701dad280f523c5",
+          "matching_lines": []
+        },
+        {
+          "id": "df7f7567-abf2-433b-881f-73ebe475c892",
+          "name": "dragon_timeline.lua",
+          "sha256": "5b625e1e600b3b5312fbfd8d00b99b404a60b8aa82c4e536d4f8f37b6b4ed07d",
+          "matching_lines": []
+        },
+        {
+          "id": "601c4c0c-7345-4a00-b80c-a6daec3e2050",
+          "name": "dragon_weapons.lua",
+          "sha256": "5f1bba062af21b75741c5df986c4929a5a09473cdba1aba757cc2694e56c0206",
+          "matching_lines": []
+        },
+        {
+          "id": "abc6ff62-e0ad-42b3-a245-f75300fcb5df",
+          "name": "dragon_world_bridge.lua",
+          "sha256": "73cef4ea3b66a742ccf85a2442cc2147b8b9cd361461d4a1e263bd937ebe5dfe",
+          "matching_lines": [
+            {
+              "line": 155,
+              "source": "                if tx then m:SetTexture(\"_EmissionTex\", tx) end"
+            },
+            {
+              "line": 292,
+              "source": "                    m:SetTexture(\"_EmissionTex\", tx)"
+            },
+            {
+              "line": 433,
+              "source": "                        m:SetTexture(\"_EmissionTex\", tx)"
+            },
+            {
+              "line": 598,
+              "source": "                dbg(string.format(\"%s shader=%s base=%s %sx%s fmt=%s filt=%s aniso=%s mip=%s norm=%s %sx%s nscale=%s kw=%s verts=%s\", nm, m.shader.name, tostring(t and t.name), tostring(t and t.width), tostring(t and t.height), tostring(t and t.format), tostring(t and t.filterMode), tostring(t and t.anisoLevel), tostring(t and t.mipmapCount), tostring(n and n.name), tostring(n and n.width), tostring(n and n.height), tostring(m:GetFloat(\"_NormalSc"
+            },
+            {
+              "line": 607,
+              "source": "    dbg(\"quality master=\" .. tostring(UnityEngine.QualitySettings.globalTextureMipmapLimit) .. \" masterTex=\" .. tostring(UnityEngine.QualitySettings.masterTextureLimit))"
+            },
+            {
+              "line": 1005,
+              "source": "                        m:SetTexture(\"_EmissionTex\", tx)"
+            },
+            {
+              "line": 1138,
+              "source": "    if m:HasProperty(\"_EmissionTex\") then m:SetTexture(\"_EmissionTex\", UnityEngine.Texture2D.whiteTexture) end"
+            },
+            {
+              "line": 1139,
+              "source": "    if m:HasProperty(\"_EmissionMap\") then m:SetTexture(\"_EmissionMap\", UnityEngine.Texture2D.whiteTexture) end"
+            },
+            {
+              "line": 2219,
+              "source": "        local shader=UnityEngine.Shader.Find('Universal Render Pipeline/Unlit')"
+            },
+            {
+              "line": 2221,
+              "source": "        if not shader then shader=UnityEngine.Shader.Find('Unlit/Transparent') end"
+            },
+            {
+              "line": 2239,
+              "source": "                m:SetTexture(urp and '_BaseMap' or '_MainTex',tex)"
+            },
+            {
+              "line": 2406,
+              "source": "   made=UnityEngine.Texture2D(2,2,UnityEngine.TextureFormat.RGBA32,false)"
+            },
+            {
+              "line": 2410,
+              "source": "   made.filterMode=UnityEngine.FilterMode.Bilinear"
+            },
+            {
+              "line": 2440,
+              "source": "    local t = UnityEngine.Texture2D(n, n)"
+            },
+            {
+              "line": 2450,
+              "source": "    t.filterMode = UnityEngine.FilterMode.Point"
+            },
+            {
+              "line": 2615,
+              "source": "    local t = UnityEngine.Texture2D(2, 2, UnityEngine.TextureFormat.RGBA32, false)"
+            },
+            {
+              "line": 2619,
+              "source": "    t.filterMode = UnityEngine.FilterMode.Bilinear"
+            },
+            {
+              "line": 3641,
+              "source": " local texture=UnityEngine.Texture2D(128,128,UnityEngine.TextureFormat.RGBA32,false)"
+            },
+            {
+              "line": 3648,
+              "source": " texture:Apply();texture.filterMode=UnityEngine.FilterMode.Bilinear"
+            },
+            {
+              "line": 3693,
+              "source": "   local sh=UnityEngine.Shader.Find(name);if sh then UI.fxShader=sh;break end"
+            },
+            {
+              "line": 4086,
+              "source": "   if m:GetTexture('_GroundTex')~=s.texture then m:SetTexture('_GroundTex',s.texture);s.patched=s.patched+1 end"
+            },
+            {
+              "line": 4155,
+              "source": " local q = UnityEngine.QualitySettings"
+            },
+            {
+              "line": 4161,
+              "source": "  if pipeline then status.renderScale = pipeline.renderScale end"
+            }
+          ]
+        },
+        {
+          "id": "9484c299-b660-4424-b976-d99c95e8e129",
+          "name": "castle_smooth_display.lua",
+          "sha256": "faa1222abc8c1e8b2b57288e2b70b7385472f1e1f0dca259c49849a7e09bd94b",
+          "matching_lines": [
+            {
+              "line": 23,
+              "source": "     c:SetTexture('_EmissionTex',m:GetTexture('_BaseTex'))"
+            },
+            {
+              "line": 26,
+              "source": "     c:SetTexture('_EmissionMask',U.Texture2D.whiteTexture)"
+            },
+            {
+              "line": 29,
+              "source": "     c:SetTexture('_ORM',U.Texture2D.whiteTexture);c:SetFloat('_Metallic',1);c:SetFloat('_Smoothness',0);c:SetFloat('_AOIntensity',0)"
+            }
+          ]
+        },
+        {
+          "id": "34058cdc-ab96-4a96-b0b2-fb66632ff9d8",
+          "name": "castle_smooth_display.lua",
+          "sha256": "2c12a2cc7d81b71a8636faa719c336cb5ae05653519ae7f0b561a148fe757a5f",
+          "matching_lines": [
+            {
+              "line": 23,
+              "source": "     c:SetTexture('_EmissionTex',m:GetTexture('_BaseTex'))"
+            },
+            {
+              "line": 26,
+              "source": "     c:SetTexture('_EmissionMask',U.Texture2D.whiteTexture)"
+            },
+            {
+              "line": 29,
+              "source": "     c:SetTexture('_ORM',U.Texture2D.whiteTexture);c:SetFloat('_Metallic',1);c:SetFloat('_Smoothness',0);c:SetFloat('_AOIntensity',0)"
+            }
+          ]
+        },
+        {
+          "id": "87a26c94-24ec-421a-9398-eca7a4141139",
+          "name": "castle_tone.lua",
+          "sha256": "c5e7c1746e91ad3aa2cdd27a1d66911e2f8c2787504ddb36c48e4cce6d4d2891",
+          "matching_lines": []
+        },
+        {
+          "id": "eb6f8261-4e0c-4ad5-a584-68f29f2f3037",
+          "name": "scene_dial.lua",
+          "sha256": "488f64da06f82cfc442f0e8627158cf9a8ecd112e7293bb5800f1b73cceef4e4",
+          "matching_lines": []
+        },
+        {
+          "id": "655bb578-1c21-4668-9bce-742316b5798b",
+          "name": "scene_mushroom.lua",
+          "sha256": "107764f6ff1022ada33875add52487c818e28090bd6aec5ea85f2c8dcecfefec",
+          "matching_lines": []
+        },
+        {
+          "id": "a821baf4-2e71-4757-bc3f-e090c5f6a4d8",
+          "name": "scene_vehicle_boat.lua",
+          "sha256": "1d75d684882337744da3b5ad06b26a8afbd657a1a2696d360661c7cee1ef45fb",
+          "matching_lines": []
+        },
+        {
+          "id": "bba0be42-b2ed-452b-a9df-2f2b7f579dfd",
+          "name": "runtime-builtin___NetSpawnTarget__.lua",
+          "sha256": "0c0b1e2cdb778bf5a6db74b68c39344b5b942abae60cc672bb837289f4e7707c",
+          "matching_lines": []
+        },
+        {
+          "id": "c0b9b991-5f98-4bf1-8f12-3ee38a1736f0",
+          "name": "runtime-builtin___ObjectSyncTarget__.lua",
+          "sha256": "01ad3556423a2d7a0bcc24d9cb68d7351b260c04701220c6ef78cfe43150669f",
+          "matching_lines": []
+        },
+        {
+          "id": "4e52264d-30cc-4856-a932-b33d30380a3a",
+          "name": "runtime-builtin_runtime-host-root-bootstrap.lua",
+          "sha256": "6de4683b3113f46ae06893c93bee86af1e0483039d3d56e94d3e3a0dae55bb1c",
+          "matching_lines": []
+        },
+        {
+          "id": "d6f83b17-d36c-4840-ae2a-b896be27b101",
+          "name": "runtime-builtin_runtime-resource-root-bootstrap.lua",
+          "sha256": "01cc72bdc86fb23b2128a6f7ac18e86dbc52705c3f50ee2833adbd89552d5716",
+          "matching_lines": []
+        },
+        {
+          "id": "official/core/logger.lua",
+          "name": "official/core/logger.lua",
+          "sha256": "89d79d801c9887bb1ec6335a35192ed960a026e3dc0df6299837b649517f0d6f",
+          "matching_lines": []
+        },
+        {
+          "id": "official/core/node_lookup.lua",
+          "name": "official/core/node_lookup.lua",
+          "sha256": "62c10213881904b7fef2fd97f1cb92eff05bd6483a56e4a500789c2964bff835",
+          "matching_lines": []
+        },
+        {
+          "id": "official/core/runtime_scope.lua",
+          "name": "official/core/runtime_scope.lua",
+          "sha256": "b3f3301d854355ecad979483796fa9fe2df0c4b9e2d6af136f37dc0a64dc5cea",
+          "matching_lines": []
+        },
+        {
+          "id": "official/core/spawn_registry.lua",
+          "name": "official/core/spawn_registry.lua",
+          "sha256": "722f95acc15bab690b63bcfb51010bace1d57f6c23dfbda7d2cb47a79dd4f3d6",
+          "matching_lines": []
+        },
+        {
+          "id": "official/core/spawn.lua",
+          "name": "official/core/spawn.lua",
+          "sha256": "766300ef9ecf4d247ba97958397b7f92f7f6ffe46b0b3006286080d9bb815814",
+          "matching_lines": []
+        },
+        {
+          "id": "official/effect/playback.lua",
+          "name": "official/effect/playback.lua",
+          "sha256": "c7e4fc8b0daa350923815e14c54161aa7d1a9242c403162ecf7244cba10985a2",
+          "matching_lines": []
+        },
+        {
+          "id": "official/geometry/containment.lua",
+          "name": "official/geometry/containment.lua",
+          "sha256": "0e083201f45081caa3ec578dc662adbd996038533aa0fb2ce3525ddd5f4f64a7",
+          "matching_lines": []
+        },
+        {
+          "id": "official/interaction/trigger.lua",
+          "name": "official/interaction/trigger.lua",
+          "sha256": "9cb1f75f39695c23e35def010716b2b676afb1ef5beb62d45540d5a00b37952a",
+          "matching_lines": []
+        },
+        {
+          "id": "official/ui/animation.lua",
+          "name": "official/ui/animation.lua",
+          "sha256": "9ef9e81f67a466e7172731ed7cc8f4d1e7105fc8a2c28723ae317f798235b357",
+          "matching_lines": []
+        }
+      ]
+    }
+  ],
+  "scene_payloads": [
+    {
+      "name": "HeightMap_3193404.data",
+      "bytes": 264196,
+      "sha256": "08baef8cdf30059af256c721cd517beca1bb6249c4d0791416df9f4a66732169",
+      "candidate_identical": true
+    },
+    {
+      "name": "SplatMap_3193404_0.png",
+      "bytes": 3100,
+      "sha256": "338550fd3b7082e312e6aa26b894e52ab12ccc65246ed74c1f042b436d7eafbb",
+      "candidate_identical": true
+    },
+    {
+      "name": "SplatMap_3193404_1.png",
+      "bytes": 143,
+      "sha256": "c86f9760ad0441c3310ff498884d9993cd9e18f8c2b0e375f554cee299bd948d",
+      "candidate_identical": true
+    },
+    {
+      "name": "SplatMap_3193404_2.png",
+      "bytes": 143,
+      "sha256": "c86f9760ad0441c3310ff498884d9993cd9e18f8c2b0e375f554cee299bd948d",
+      "candidate_identical": true
+    },
+    {
+      "name": "SplatMap_3193404_3.png",
+      "bytes": 143,
+      "sha256": "c86f9760ad0441c3310ff498884d9993cd9e18f8c2b0e375f554cee299bd948d",
+      "candidate_identical": true
+    },
+    {
+      "name": "SplatMap_3193404_4.png",
+      "bytes": 1016,
+      "sha256": "28dac06d612f18a839ae74ea584dbaabe5e670b209436fb38acafd5d038e1970",
+      "candidate_identical": true
+    },
+    {
+      "name": "SplatMap_3193404_5.png",
+      "bytes": 11397,
+      "sha256": "238493b21e3050f812af046919fd54ba806f98241ae30f85b4d33a6cebe0a3b2",
+      "candidate_identical": true
+    },
+    {
+      "name": "SplatMap_3193404_6.png",
+      "bytes": 3175,
+      "sha256": "b43f9b1ccc835f0cc6168b7ad1bc5b9872cba7a67b883725bd83c9382dd3dd27",
+      "candidate_identical": true
+    },
+    {
+      "name": "SplatMap_3193404_7.png",
+      "bytes": 143,
+      "sha256": "c86f9760ad0441c3310ff498884d9993cd9e18f8c2b0e375f554cee299bd948d",
+      "candidate_identical": true
+    },
+    {
+      "name": "SplatMap_3193404_8.png",
+      "bytes": 143,
+      "sha256": "c86f9760ad0441c3310ff498884d9993cd9e18f8c2b0e375f554cee299bd948d",
+      "candidate_identical": true
+    },
+    {
+      "name": "SplatMap_3193404_9.png",
+      "bytes": 143,
+      "sha256": "c86f9760ad0441c3310ff498884d9993cd9e18f8c2b0e375f554cee299bd948d",
+      "candidate_identical": true
+    },
+    {
+      "name": "SplatMap_3193404_10.png",
+      "bytes": 22511,
+      "sha256": "8c96d511ade35ba0a4ce3ead25d558b4f252af4e08d47861ad57749a4ed487f8",
+      "candidate_identical": true
+    },
+    {
+      "name": "SplatMap_3193404_11.png",
+      "bytes": 17262,
+      "sha256": "cd0200144fc997dc5f00a0118f205434c362fc16e80b7f18d751f756442501d6",
+      "candidate_identical": true
+    },
+    {
+      "name": "SplatMap_3193404_12.png",
+      "bytes": 1108,
+      "sha256": "42c61b8454c42bf5667acc5609c04b2c12cf5bf1aa0ae5dbbdcd642944896477",
+      "candidate_identical": true
+    },
+    {
+      "name": "SplatMap_3193404_13.png",
+      "bytes": 2574,
+      "sha256": "414cbf57a54de388fb4e9a40e2c5b02db88f15b330745b564cae97599eee039a",
+      "candidate_identical": true
+    },
+    {
+      "name": "SplatMap_3193404_14.png",
+      "bytes": 20095,
+      "sha256": "8d6db2164116b7dca805be2be626c89a36e297851b5a640fbb83b851473feb5d",
+      "candidate_identical": true
+    },
+    {
+      "name": "SplatMap_3193404_15.png",
+      "bytes": 15785,
+      "sha256": "b8ca07a2e5d4e70365ce69dc332a57f09d21322971f3fdfb4ab0fb3b5bbeb29c",
+      "candidate_identical": true
+    },
+    {
+      "name": "DetailLayerData_3193404_0.data",
+      "bytes": 65536,
+      "sha256": "de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31",
+      "candidate_identical": true
+    },
+    {
+      "name": "DetailBaseLayerData_3193404_0.data",
+      "bytes": 65536,
+      "sha256": "de2f256064a0af797747c2b97505dc0b9f3df0de4f489eac731c23ae9ca9cc31",
+      "candidate_identical": true
+    },
+    {
+      "name": "DetailLayer_3193404_0.png",
+      "bytes": 151,
+      "sha256": "04167b8307922abea912689d93964599508f246b0bfeeed4adb81b01540b6deb",
+      "candidate_identical": true
+    },
+    {
+      "name": "MatCoverTex_3193404.png",
+      "bytes": 2196285,
+      "sha256": "d6b33233bfc4a4de9bbdc5333559da41278a7fa8863bf92eb9f9543fd61d3a0e",
+      "candidate_identical": true
+    },
+    {
+      "name": "editor_water/-1442080189_river_mesh.bin",
+      "bytes": 348213,
+      "sha256": "edaa6d05303970f7ce47dce24ed9f26921a0def5ff3730b9a69019a34c7cfe96",
+      "candidate_identical": true
+    }
+  ],
+  "resource_refs_identical": true,
+  "environment_identical": true,
+  "ground_source": {
+    "saved_dimensions": [
+      2048,
+      2048
+    ],
+    "bundled_dimensions": [
+      2048,
+      2048
+    ],
+    "saved_sha256": "d6b33233bfc4a4de9bbdc5333559da41278a7fa8863bf92eb9f9543fd61d3a0e",
+    "bundled_sha256": "d6b33233bfc4a4de9bbdc5333559da41278a7fa8863bf92eb9f9543fd61d3a0e",
+    "identical_bytes": true
+  },
+  "limitations": [
+    "Registered source and saved assets were audited; no phone-native renderer or resource-loader internals were inspected."
+  ]
+}

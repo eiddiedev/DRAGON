@@ -1,0 +1,1 @@
+let out={};for(const x of ['components.get','components.set','transforms.get'])out[x]=await scene.context.describe(x);for(const x of ['ugcAnimatorData','physicsColliderData','waterBodyAuthoringData'])out[x]=await scene.components.schema(x);return out;

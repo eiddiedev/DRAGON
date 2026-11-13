@@ -1,0 +1,21 @@
+{
+  "passed": 12,
+  "checks": [
+    "original reproduces 10 orphan models and 20 full-size cubes after animation lookup exception",
+    "same animation exception keeps one visible owned model and no cubes",
+    "existing analytical collision and hit state preserved",
+    "health canvas fill tracks actual HP",
+    "dead visual hidden without respawning",
+    "encounter clear destroys registered model and materials",
+    "health canvas failure never aborts or duplicates enemy",
+    "core setup failure destroys every attempted model, zero orphan survivors, retry remains bounded",
+    "native animation playback failure does not stop visual update or repeat spawn",
+    "first wave remains exactly four enemy models after repeated sync",
+    "full combat script compiles",
+    "combat network, engine updates, attack events, bone attacks and reward code byte-preserved"
+  ],
+  "baseline": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-55a43370-8734-4825-92a8-b0de824a45e2/scripts/modules/imported/prefab_20/dragon_combat.lua",
+  "phoneExceptionStackAvailable": false,
+  "actualCulprit": "original post-spawn setup is not transactional; exact failing phone API unconfirmed",
+  "runtimeVerified": false
+}

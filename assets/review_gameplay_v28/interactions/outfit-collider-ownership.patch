@@ -1,0 +1,12 @@
+--- a/dragon_outfits.lua
++++ b/dragon_outfits.lua
+@@ -963,7 +963,8 @@
+  for className,path in pairs(CLASS_SOURCE)do
+   if not runtimeScope:GetGameObjectByPath(path)then outfitStatus="source missing: "..className;return end
+  end
+- disableCollidersOn(resourceRoot)
++ -- Only costume prototypes belong to this controller. The scope also holds
++ -- weapons, encounter sources and scenery; never disable its whole subtree.
+  sourceSets.localPosition=PROTOTYPE_PARK
+  disableCollidersOn(sourceSets.gameObject)
+  started=true;outfitStatus="resources ready"

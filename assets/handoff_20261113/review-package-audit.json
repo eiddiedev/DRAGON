@@ -1,0 +1,99 @@
+{
+  "fileName": "world_dev_unity_143196218-kezd-PROD.zip",
+  "sourcePath": "/Users/bytedance/Downloads/world_dev_unity_143196218-kezd-PROD.zip",
+  "sha256": "2ea0d0e5fa7150589b85bb8c5b0fb2078101cd835671b0662c94899543abd3c6",
+  "zipBytes": 134890936,
+  "zipMiB": 128.642,
+  "entryCount": 203,
+  "uniqueEntryCount": 203,
+  "duplicateEntryCount": 0,
+  "uncompressedBytes": 195186516,
+  "uncompressedMiB": 186.144,
+  "compressedPayloadBytes": 134854194,
+  "crcFailureEntry": null,
+  "sizeByExtension": {
+    ".data": {
+      "count": 3,
+      "uncompressedBytes": 395268,
+      "compressedPayloadBytes": 222129
+    },
+    ".png": {
+      "count": 23,
+      "uncompressedBytes": 3490024,
+      "compressedPayloadBytes": 3482221
+    },
+    ".glb": {
+      "count": 138,
+      "uncompressedBytes": 146867708,
+      "compressedPayloadBytes": 104436371
+    },
+    ".wav": {
+      "count": 26,
+      "uncompressedBytes": 6708546,
+      "compressedPayloadBytes": 6371132
+    },
+    ".tga": {
+      "count": 1,
+      "uncompressedBytes": 6291500,
+      "compressedPayloadBytes": 1309670
+    },
+    ".bin": {
+      "count": 1,
+      "uncompressedBytes": 348213,
+      "compressedPayloadBytes": 76381
+    },
+    ".wprefab": {
+      "count": 10,
+      "uncompressedBytes": 5904328,
+      "compressedPayloadBytes": 5883617
+    },
+    ".json": {
+      "count": 1,
+      "uncompressedBytes": 25180929,
+      "compressedPayloadBytes": 13072673
+    }
+  },
+  "scene": {
+    "entry": "SerializePcgData.json",
+    "bytes": 25180929,
+    "formatVersion": 2,
+    "streamingEnabled": true,
+    "serializedNodeCount": 16820,
+    "runtimeScriptRecordCount": 38,
+    "embeddedRuntimeScriptUtf8Bytes": 17297237,
+    "nodesWithRuntimeScriptBindings": 35,
+    "resourceReferenceCount": 223,
+    "resourceReferenceClassification": {
+      "platform_builtin": 21,
+      "bundled_top_level": 202
+    },
+    "nodesWithResourceField": 2142
+  },
+  "metadata": {
+    "filenameEnvironmentLabel": "PROD",
+    "zipEntryTimesWithoutTimezone": [
+      "2026-11-13 16:43:32",
+      "2026-11-13 16:43:34"
+    ],
+    "clientEngineVersion": "unknown: no separate manifest/version file in ZIP",
+    "douyinAppVersion": "unknown",
+    "iosVersion": "unknown",
+    "device": "iPhone 16 Pro (user reported)"
+  },
+  "performance": {
+    "measuredFps": null,
+    "measuredFrameTime": null,
+    "peakMemory": null,
+    "loadDurationSeconds": null,
+    "consumerCrashLog": "unavailable",
+    "limit": "Static ZIP sizes/counts do not establish GPU load, memory usage, active runtime object count or crash cause."
+  },
+  "latestUserObservedIssues": [
+    "Grass/terrain textures look poor; grass is dark and terrain detail insufficient.",
+    "Horse is visible and moves but has no walking/running animation.",
+    "Title appears before scene finishes loading.",
+    "Purple vortex does not appear; user requested removal of cloud cards, not vortex."
+  ],
+  "userHypothesisNotEstablished": "Original ornate skill effects might be supportable on the device; prior skill-triggered exits do not prove particles alone are the cause.",
+  "scope": "Read-only archive audit for handoff. No gameplay/model/scene changes; no editor execution. GLB contents and all-script comparison not performed in this audit."
+}

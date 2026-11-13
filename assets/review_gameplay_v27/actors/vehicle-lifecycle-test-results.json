@@ -1,0 +1,18 @@
+{
+  "passed": [
+    "horse: disable with sync StandUp",
+    "horse: disable with delayed StandUp",
+    "horse: disable with throws StandUp",
+    "carpet: disable with sync StandUp",
+    "carpet: disable with delayed StandUp",
+    "carpet: disable with throws StandUp",
+    "boat: disable returns captured colliders, jump height, immobilize lock, transform"
+  ],
+  "regressionReproduced": [
+    "v26 horse missing OnDisable",
+    "v26 carpet missing OnDisable",
+    "v26 boat missing OnDisable"
+  ],
+  "scope": "candidate Lua only; no scene opened or modified",
+  "notProven": "This does not establish the review-client river swimming failure cause."
+}

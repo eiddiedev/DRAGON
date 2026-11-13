@@ -1,0 +1,195 @@
+{
+  "sceneSHA": "673742f831afab0487784ec8bc8436aaaa6a82adfec53ba76b5c97235f5f9366",
+  "scripts": [
+    {
+      "id": "index.lua",
+      "path": "scripts/index.lua",
+      "sha256": "1f89b91f4ffb9482f6f95b9269ec801faf1fcf692cd22e3bea077fb843ddde9c"
+    },
+    {
+      "id": "8fe420a9-9b6d-488f-b707-6172cfa2fdbd",
+      "path": "scripts/modules/imported/prefab_14/horse_seat_v1.lua",
+      "sha256": "749e5e300fa73c896e0bc4ef667c7e030ff39b22e416c6758dfedf744ab534e8"
+    },
+    {
+      "id": "bf11114f-2cdb-4ebd-9151-cdf56758a16a",
+      "path": "scripts/modules/imported/prefab_14/scene_sheep_sound.lua",
+      "sha256": "e11402be817efd064d3537c6990fe979b537c2be050c767e0512ec67a899e3bb"
+    },
+    {
+      "id": "38747ec8-06be-4dcc-84d3-573119095c45",
+      "path": "scripts/modules/imported/prefab_14/scene_vehicle_carpet.lua",
+      "sha256": "759e37c94055864d0056dc3bcd0245950777c4d3bcfd98c5dc9061e45d60feea"
+    },
+    {
+      "id": "5a9edffe-7c92-477d-bc9c-9865e864567e",
+      "path": "scripts/modules/imported/prefab_14/tripo_sheep_motion.lua",
+      "sha256": "80240c1b4f69e9788aeb30b10ea8bdae9a044ef80018c07f0dbb7add9183635b"
+    },
+    {
+      "id": "e635d9d6-ebb9-47ed-b52d-4f1a8c27d866",
+      "path": "scripts/modules/imported/prefab_2/castle_baked_display.lua",
+      "sha256": "db4add1b33365598dbbbe3e36afb83b58dd7ce31f9071ea1cff25ffd65384b38"
+    },
+    {
+      "id": "efd4bf6a-826c-4688-bbc7-b57b3998f686",
+      "path": "scripts/modules/imported/prefab_20/dragon_combat_rules.lua",
+      "sha256": "d73d63b722ba62e0a3573b3f9d1e35b8197a4fd1cec1dffd39e26ae5171f4563"
+    },
+    {
+      "id": "e11f9edb-bf6d-45db-af89-7515b0bae5ca",
+      "path": "scripts/modules/imported/prefab_20/dragon_combat.lua",
+      "sha256": "88210a21dda1e9d3dde3d4a2a9997523b0e4b5e00678852f613de4e61aea546c"
+    },
+    {
+      "id": "5a2bd68a-e9fd-4a6d-b4c0-976ff660d6e6",
+      "path": "scripts/modules/imported/prefab_20/dragon_daycycle.lua",
+      "sha256": "990c05c460824b746ade5c0b351e112ab9bc88d5a38e5151e0c42939b11a2f84"
+    },
+    {
+      "id": "b6ddf752-c0bc-4da1-aa9b-61149db65d15",
+      "path": "scripts/modules/imported/prefab_20/dragon_exploration.lua",
+      "sha256": "6bb0bf37a00dbf362ccafbcb623665133d2c6def150a3f6b70d7695178d4fc71"
+    },
+    {
+      "id": "16af299e-8d31-4edb-96c6-aabc3caf3ace",
+      "path": "scripts/modules/imported/prefab_20/dragon_fx.lua",
+      "sha256": "11c18c6e0b10a5c3aa840d0906463f441ea80746a5245bafbcc440b9498d181b"
+    },
+    {
+      "id": "93baeed8-e95e-4a38-9105-e258d675084e",
+      "path": "scripts/modules/imported/prefab_20/dragon_outfits.lua",
+      "sha256": "70dc5d36f55e3893cecd46c73972b8c5229c6cf79606d2dfece4f6e6fc1cd326"
+    },
+    {
+      "id": "9e2bdcb2-d25e-4511-a90a-af148fd2064f",
+      "path": "scripts/modules/imported/prefab_20/dragon_progress_rules.lua",
+      "sha256": "24cc7ebaf1343a5ace4ba8733ee17111ab8951a3e1c446c1d898802ee6eedc9b"
+    },
+    {
+      "id": "7475b6fc-645d-4127-b11d-70772050aed6",
+      "path": "scripts/modules/imported/prefab_20/dragon_progress.lua",
+      "sha256": "b3392bf4704288a677a57da8ccf1929d8ee1498a18447b7629193800422cfcee"
+    },
+    {
+      "id": "d058eade-9618-4d4c-a79a-2e61573e61b4",
+      "path": "scripts/modules/imported/prefab_20/dragon_rpg.lua",
+      "sha256": "d4073741a87814dda7c479c79a5ae9435b3fc2cdb4a5ba3410dc601c8ef04954"
+    },
+    {
+      "id": "68fab354-1ea8-49a0-9d1f-c611a06f938c",
+      "path": "scripts/modules/imported/prefab_20/dragon_rules.lua",
+      "sha256": "f1206d2fa90ddf3664d1cfef7c978ceb50d0d03c57bafa0c1701dad280f523c5"
+    },
+    {
+      "id": "df7f7567-abf2-433b-881f-73ebe475c892",
+      "path": "scripts/modules/imported/prefab_20/dragon_timeline.lua",
+      "sha256": "5b625e1e600b3b5312fbfd8d00b99b404a60b8aa82c4e536d4f8f37b6b4ed07d"
+    },
+    {
+      "id": "601c4c0c-7345-4a00-b80c-a6daec3e2050",
+      "path": "scripts/modules/imported/prefab_20/dragon_weapons.lua",
+      "sha256": "a4b8a1ab09ea2a195779016f6fc6ad67c4e0de9c6ca626a39b6b18889a84c430"
+    },
+    {
+      "id": "abc6ff62-e0ad-42b3-a245-f75300fcb5df",
+      "path": "scripts/modules/imported/prefab_20/dragon_world_bridge.lua",
+      "sha256": "80aff2be40692e2333916a38558295e9aef72c977aabe118deedf73b796ac95c"
+    },
+    {
+      "id": "9484c299-b660-4424-b976-d99c95e8e129",
+      "path": "scripts/modules/imported/prefab_7/castle_smooth_display.lua",
+      "sha256": "faa1222abc8c1e8b2b57288e2b70b7385472f1e1f0dca259c49849a7e09bd94b"
+    },
+    {
+      "id": "34058cdc-ab96-4a96-b0b2-fb66632ff9d8",
+      "path": "scripts/modules/imported/prefab_8/castle_smooth_display.lua",
+      "sha256": "2c12a2cc7d81b71a8636faa719c336cb5ae05653519ae7f0b561a148fe757a5f"
+    },
+    {
+      "id": "87a26c94-24ec-421a-9398-eca7a4141139",
+      "path": "scripts/modules/imported/prefab_9/castle_tone.lua",
+      "sha256": "c5e7c1746e91ad3aa2cdd27a1d66911e2f8c2787504ddb36c48e4cce6d4d2891"
+    },
+    {
+      "id": "eb6f8261-4e0c-4ad5-a584-68f29f2f3037",
+      "path": "scripts/scene_dial.lua",
+      "sha256": "488f64da06f82cfc442f0e8627158cf9a8ecd112e7293bb5800f1b73cceef4e4"
+    },
+    {
+      "id": "655bb578-1c21-4668-9bce-742316b5798b",
+      "path": "scripts/scene_mushroom.lua",
+      "sha256": "107764f6ff1022ada33875add52487c818e28090bd6aec5ea85f2c8dcecfefec"
+    },
+    {
+      "id": "a821baf4-2e71-4757-bc3f-e090c5f6a4d8",
+      "path": "scripts/scene_vehicle_boat.lua",
+      "sha256": "1d75d684882337744da3b5ad06b26a8afbd657a1a2696d360661c7cee1ef45fb"
+    },
+    {
+      "id": "bba0be42-b2ed-452b-a9df-2f2b7f579dfd",
+      "path": "scripts/runtime-builtin/net-spawn-marker.lua",
+      "sha256": "0c0b1e2cdb778bf5a6db74b68c39344b5b942abae60cc672bb837289f4e7707c"
+    },
+    {
+      "id": "c0b9b991-5f98-4bf1-8f12-3ee38a1736f0",
+      "path": "scripts/runtime-builtin/object-sync-marker.lua",
+      "sha256": "01ad3556423a2d7a0bcc24d9cb68d7351b260c04701220c6ef78cfe43150669f"
+    },
+    {
+      "id": "4e52264d-30cc-4856-a932-b33d30380a3a",
+      "path": "scripts/runtime-builtin/runtime-host-root-bootstrap.lua",
+      "sha256": "6de4683b3113f46ae06893c93bee86af1e0483039d3d56e94d3e3a0dae55bb1c"
+    },
+    {
+      "id": "d6f83b17-d36c-4840-ae2a-b896be27b101",
+      "path": "scripts/runtime-builtin/runtime-resource-root-bootstrap.lua",
+      "sha256": "01cc72bdc86fb23b2128a6f7ac18e86dbc52705c3f50ee2833adbd89552d5716"
+    },
+    {
+      "id": "official/core/logger.lua",
+      "path": "scripts/official/core/logger.lua",
+      "sha256": "89d79d801c9887bb1ec6335a35192ed960a026e3dc0df6299837b649517f0d6f"
+    },
+    {
+      "id": "official/core/node_lookup.lua",
+      "path": "scripts/official/core/node_lookup.lua",
+      "sha256": "62c10213881904b7fef2fd97f1cb92eff05bd6483a56e4a500789c2964bff835"
+    },
+    {
+      "id": "official/core/runtime_scope.lua",
+      "path": "scripts/official/core/runtime_scope.lua",
+      "sha256": "b3f3301d854355ecad979483796fa9fe2df0c4b9e2d6af136f37dc0a64dc5cea"
+    },
+    {
+      "id": "official/core/spawn_registry.lua",
+      "path": "scripts/official/core/spawn_registry.lua",
+      "sha256": "722f95acc15bab690b63bcfb51010bace1d57f6c23dfbda7d2cb47a79dd4f3d6"
+    },
+    {
+      "id": "official/core/spawn.lua",
+      "path": "scripts/official/core/spawn.lua",
+      "sha256": "766300ef9ecf4d247ba97958397b7f92f7f6ffe46b0b3006286080d9bb815814"
+    },
+    {
+      "id": "official/effect/playback.lua",
+      "path": "scripts/official/effect/playback.lua",
+      "sha256": "c7e4fc8b0daa350923815e14c54161aa7d1a9242c403162ecf7244cba10985a2"
+    },
+    {
+      "id": "official/geometry/containment.lua",
+      "path": "scripts/official/geometry/containment.lua",
+      "sha256": "0e083201f45081caa3ec578dc662adbd996038533aa0fb2ce3525ddd5f4f64a7"
+    },
+    {
+      "id": "official/interaction/trigger.lua",
+      "path": "scripts/official/interaction/trigger.lua",
+      "sha256": "9cb1f75f39695c23e35def010716b2b676afb1ef5beb62d45540d5a00b37952a"
+    },
+    {
+      "id": "official/ui/animation.lua",
+      "path": "scripts/official/ui/animation.lua",
+      "sha256": "9ef9e81f67a466e7172731ed7cc8f4d1e7105fc8a2c28723ae317f798235b357"
+    }
+  ]
+}

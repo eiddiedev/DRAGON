@@ -1,0 +1,1 @@
+{"ok":false,"command":"authoring","error":{"code":"INVALID_INPUT","message":"resourceId must match ^(?:model|module)-[a-z0-9][a-z0-9-]*$."}}

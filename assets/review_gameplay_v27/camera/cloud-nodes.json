@@ -1,0 +1,518 @@
+{
+  "formal_v26": {
+    "scene": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-55a43370-8734-4825-92a8-b0de824a45e2/scene.data",
+    "sha256": "673742f831afab0487784ec8bc8436aaaa6a82adfec53ba76b5c97235f5f9366",
+    "nodes": [
+      {
+        "id": -698983849,
+        "name": "cloud_0",
+        "active": false,
+        "parentId": 0,
+        "position": {
+          "x": 77.1213,
+          "y": 47.9788971,
+          "z": 136.045837
+        },
+        "remove": false
+      },
+      {
+        "id": -222251943,
+        "name": "cloud_2",
+        "active": false,
+        "parentId": 0,
+        "position": {
+          "x": 77.04932,
+          "y": 48.0199776,
+          "z": 135.992676
+        },
+        "remove": false
+      },
+      {
+        "id": -813817513,
+        "name": "cloud_1",
+        "active": false,
+        "parentId": 0,
+        "position": {
+          "x": 76.9776459,
+          "y": 48.0608025,
+          "z": 135.939835
+        },
+        "remove": false
+      },
+      {
+        "id": 721757450,
+        "name": "cloud_3",
+        "active": false,
+        "parentId": 0,
+        "position": {
+          "x": 76.90478,
+          "y": 48.08407,
+          "z": 135.90831
+        },
+        "remove": false
+      },
+      {
+        "id": -1057813427,
+        "name": "cloud_4",
+        "active": false,
+        "parentId": 0,
+        "position": {
+          "x": 76.82942,
+          "y": 48.0487366,
+          "z": 135.945786
+        },
+        "remove": false
+      },
+      {
+        "id": 88102258,
+        "name": "cl_0",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": 606.505,
+          "y": 130.7809,
+          "z": 123.0567
+        },
+        "remove": true
+      },
+      {
+        "id": 2054991384,
+        "name": "cl_1",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": 607.3596,
+          "y": 244.7447,
+          "z": 252.8903
+        },
+        "remove": true
+      },
+      {
+        "id": 495234644,
+        "name": "cl_2",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": 483.2325,
+          "y": 116.1344,
+          "z": 494.1662
+        },
+        "remove": true
+      },
+      {
+        "id": 1101571102,
+        "name": "cl_3",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": 289.0947,
+          "y": 218.7598,
+          "z": 589.4515
+        },
+        "remove": true
+      },
+      {
+        "id": 1515606618,
+        "name": "cl_4",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": 160.4854,
+          "y": 185.9404,
+          "z": 571.2343
+        },
+        "remove": true
+      },
+      {
+        "id": 31241340,
+        "name": "cl_5",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": -87.3839,
+          "y": 167.5497,
+          "z": 612.9704
+        },
+        "remove": true
+      },
+      {
+        "id": 1224813664,
+        "name": "cl_6",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": -164.0545,
+          "y": 211.1354,
+          "z": 493.5007
+        },
+        "remove": true
+      },
+      {
+        "id": 997550043,
+        "name": "cl_7",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": -276.0149,
+          "y": 150.01,
+          "z": 305.7869
+        },
+        "remove": true
+      },
+      {
+        "id": 1799390658,
+        "name": "cl_8",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": -406.2375,
+          "y": 139.9225,
+          "z": 160.6852
+        },
+        "remove": true
+      },
+      {
+        "id": 480470228,
+        "name": "cl_9",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": -255.8958,
+          "y": 166.8225,
+          "z": -81.0459
+        },
+        "remove": true
+      },
+      {
+        "id": 112713452,
+        "name": "cl_10",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": -257.5861,
+          "y": 245.9616,
+          "z": -166.5441
+        },
+        "remove": true
+      },
+      {
+        "id": 813139352,
+        "name": "cl_11",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": -31.3864,
+          "y": 196.805,
+          "z": -288.291
+        },
+        "remove": true
+      },
+      {
+        "id": 497636079,
+        "name": "cl_12",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": 92.295,
+          "y": 122.5255,
+          "z": -301.5916
+        },
+        "remove": true
+      },
+      {
+        "id": 190228831,
+        "name": "cl_13",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": 240.5059,
+          "y": 184.5112,
+          "z": -298.4373
+        },
+        "remove": true
+      },
+      {
+        "id": 1077973637,
+        "name": "cl_14",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": 460.9698,
+          "y": 205.8076,
+          "z": -220.1687
+        },
+        "remove": true
+      },
+      {
+        "id": 1383606978,
+        "name": "cl_15",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": 549.747,
+          "y": 201.3333,
+          "z": -35.7814
+        },
+        "remove": true
+      }
+    ]
+  },
+  "isolated_v27": {
+    "scene": "/Users/bytedance/Library/Application Support/AI World Creator/projects/project-8f93f84d-13f4-4ca1-95b2-42eafc8c27a5/scene.data",
+    "sha256": "645c11a7e446b4f97d78bf03f9c5b8208ac291e8f949f6a70fb95c83fc0db274",
+    "nodes": [
+      {
+        "id": -698983849,
+        "name": "cloud_0",
+        "active": false,
+        "parentId": 0,
+        "position": {
+          "x": 77.1213,
+          "y": 47.9788971,
+          "z": 136.045837
+        },
+        "remove": false
+      },
+      {
+        "id": -222251943,
+        "name": "cloud_2",
+        "active": false,
+        "parentId": 0,
+        "position": {
+          "x": 77.04932,
+          "y": 48.0199776,
+          "z": 135.992676
+        },
+        "remove": false
+      },
+      {
+        "id": -813817513,
+        "name": "cloud_1",
+        "active": false,
+        "parentId": 0,
+        "position": {
+          "x": 76.9776459,
+          "y": 48.0608025,
+          "z": 135.939835
+        },
+        "remove": false
+      },
+      {
+        "id": 721757450,
+        "name": "cloud_3",
+        "active": false,
+        "parentId": 0,
+        "position": {
+          "x": 76.90478,
+          "y": 48.08407,
+          "z": 135.90831
+        },
+        "remove": false
+      },
+      {
+        "id": -1057813427,
+        "name": "cloud_4",
+        "active": false,
+        "parentId": 0,
+        "position": {
+          "x": 76.82942,
+          "y": 48.0487366,
+          "z": 135.945786
+        },
+        "remove": false
+      },
+      {
+        "id": 88102258,
+        "name": "cl_0",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": 606.505,
+          "y": 130.7809,
+          "z": 123.0567
+        },
+        "remove": true
+      },
+      {
+        "id": 2054991384,
+        "name": "cl_1",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": 607.3596,
+          "y": 244.7447,
+          "z": 252.8903
+        },
+        "remove": true
+      },
+      {
+        "id": 495234644,
+        "name": "cl_2",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": 483.2325,
+          "y": 116.1344,
+          "z": 494.1662
+        },
+        "remove": true
+      },
+      {
+        "id": 1101571102,
+        "name": "cl_3",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": 289.0947,
+          "y": 218.7598,
+          "z": 589.4515
+        },
+        "remove": true
+      },
+      {
+        "id": 1515606618,
+        "name": "cl_4",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": 160.4854,
+          "y": 185.9404,
+          "z": 571.2343
+        },
+        "remove": true
+      },
+      {
+        "id": 31241340,
+        "name": "cl_5",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": -87.3839,
+          "y": 167.5497,
+          "z": 612.9704
+        },
+        "remove": true
+      },
+      {
+        "id": 1224813664,
+        "name": "cl_6",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": -164.0545,
+          "y": 211.1354,
+          "z": 493.5007
+        },
+        "remove": true
+      },
+      {
+        "id": 997550043,
+        "name": "cl_7",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": -276.0149,
+          "y": 150.01,
+          "z": 305.7869
+        },
+        "remove": true
+      },
+      {
+        "id": 1799390658,
+        "name": "cl_8",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": -406.2375,
+          "y": 139.9225,
+          "z": 160.6852
+        },
+        "remove": true
+      },
+      {
+        "id": 480470228,
+        "name": "cl_9",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": -255.8958,
+          "y": 166.8225,
+          "z": -81.0459
+        },
+        "remove": true
+      },
+      {
+        "id": 112713452,
+        "name": "cl_10",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": -257.5861,
+          "y": 245.9616,
+          "z": -166.5441
+        },
+        "remove": true
+      },
+      {
+        "id": 813139352,
+        "name": "cl_11",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": -31.3864,
+          "y": 196.805,
+          "z": -288.291
+        },
+        "remove": true
+      },
+      {
+        "id": 497636079,
+        "name": "cl_12",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": 92.295,
+          "y": 122.5255,
+          "z": -301.5916
+        },
+        "remove": true
+      },
+      {
+        "id": 190228831,
+        "name": "cl_13",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": 240.5059,
+          "y": 184.5112,
+          "z": -298.4373
+        },
+        "remove": true
+      },
+      {
+        "id": 1077973637,
+        "name": "cl_14",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": 460.9698,
+          "y": 205.8076,
+          "z": -220.1687
+        },
+        "remove": true
+      },
+      {
+        "id": 1383606978,
+        "name": "cl_15",
+        "active": true,
+        "parentId": 0,
+        "position": {
+          "x": 549.747,
+          "y": 201.3333,
+          "z": -35.7814
+        },
+        "remove": true
+      }
+    ]
+  }
+}

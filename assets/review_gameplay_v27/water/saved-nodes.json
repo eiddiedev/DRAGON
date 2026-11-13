@@ -1,0 +1,555 @@
+[
+  {
+    "id": -2071044909,
+    "basic": {
+      "nodeName": "海洋",
+      "pos": {
+        "x": 127.501945,
+        "y": 27.0,
+        "z": 127.501945
+      },
+      "rot": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "tag": "Sea",
+      "parentId": 873049013,
+      "isActive": true,
+      "layer": 0,
+      "isGameMod": false,
+      "isStatic": false
+    },
+    "editor": {
+      "assetData": null,
+      "editorOnlyData": {
+        "isLock": true,
+        "isGroupRoot": false,
+        "editorData": ""
+      }
+    },
+    "landscape": {
+      "terrainDisplayData": null,
+      "waterDisplayData": {
+        "waterCenter": {
+          "x": 127.501945,
+          "y": 27.0,
+          "z": 127.501945
+        },
+        "waterRect": {
+          "x": -127.501945,
+          "y": -127.501945,
+          "w": 255.003891,
+          "h": 255.003891
+        },
+        "matRefId": 1156185028,
+        "meshRefId": 1744493598,
+        "waterType": 1,
+        "waterColor": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "a": 0.0
+        }
+      },
+      "riverDisplayData": null,
+      "waterBodyAuthoringData": null,
+      "waterAppearanceData": {
+        "presetName": "River_mat01",
+        "displayType": 1,
+        "waterDualColor": {
+          "color1": {
+            "r": 0.145098925,
+            "g": 0.8274999,
+            "b": 0.9451,
+            "a": 1.0
+          },
+          "color2": {
+            "r": 0.0626971,
+            "g": 0.2156961,
+            "b": 0.348996043,
+            "a": 1.0
+          }
+        },
+        "transparency": 1.0,
+        "waveDensity": 1.0,
+        "waveSpeed": 1.0,
+        "waveHeight": 0.0,
+        "waveDirection": 0.0,
+        "enableCartoonLight": true,
+        "cartoonLightColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 0.0
+        },
+        "cartoonLightIntensity": 4.0,
+        "enableFoam": true,
+        "foamDistance": 0.3,
+        "foamTiling": 1.0,
+        "foamStrength": 14.1,
+        "foamNoiseTiling": 0.11,
+        "enableRipple": false,
+        "rippleStrength": 0.0,
+        "rippleSpeed": 1.0,
+        "rippleScale": 0.51,
+        "enableCaustics": true,
+        "causticsColor": {
+          "r": 0.211507618,
+          "g": 0.9150943,
+          "b": 0.722307,
+          "a": 0.0
+        },
+        "causticsPower": 5.0,
+        "enableUnderwaterVisibility": true,
+        "turbidityColor": {
+          "r": 0.5,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        },
+        "visibilityStart": 0.2,
+        "maxViewDistance": 10.0,
+        "visible": true,
+        "castShadows": true,
+        "isModified": true
+      },
+      "billboardPlantData": null
+    },
+    "physics": {
+      "physicsColliderData": null,
+      "triggerData": [
+        {
+          "shape": "box",
+          "enabled": true,
+          "center": {
+            "x": -0.00280761719,
+            "y": -2.0,
+            "z": 0.107910156
+          },
+          "size": {
+            "x": 2478.693,
+            "y": 4.15,
+            "z": 2478.693
+          },
+          "radius": 0.5,
+          "height": 2.0,
+          "direction": 1
+        }
+      ]
+    }
+  },
+  {
+    "id": -1442080189,
+    "basic": {
+      "nodeName": "PCGRiverEditor",
+      "pos": {
+        "x": 77.3460541,
+        "y": 41.5980377,
+        "z": 253.073517
+      },
+      "rot": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "scale": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 1.0
+      },
+      "tag": "Untagged",
+      "parentId": 696228068,
+      "isActive": true,
+      "layer": 0,
+      "isGameMod": false,
+      "isStatic": false
+    },
+    "editor": {
+      "assetData": null,
+      "editorOnlyData": {
+        "isLock": true,
+        "isGroupRoot": false,
+        "editorData": ""
+      }
+    },
+    "landscape": {
+      "terrainDisplayData": null,
+      "waterDisplayData": null,
+      "riverDisplayData": {
+        "riverId": "PCGRiverEditor",
+        "sequenceIndex": 0,
+        "keyPoints": [
+          {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          {
+            "x": -0.358764648,
+            "y": -0.191520691,
+            "z": -17.4991
+          },
+          {
+            "x": 3.080017,
+            "y": -4.210472,
+            "z": -33.5868073
+          },
+          {
+            "x": -3.803505,
+            "y": -9.840519,
+            "z": -60.647644
+          },
+          {
+            "x": 1.20454407,
+            "y": -10.8819427,
+            "z": -79.7016
+          },
+          {
+            "x": 10.8588638,
+            "y": -9.501938,
+            "z": -100.918488
+          },
+          {
+            "x": 20.3687439,
+            "y": -10.9895782,
+            "z": -116.805618
+          },
+          {
+            "x": 31.009697,
+            "y": -14.1001167,
+            "z": -129.317551
+          },
+          {
+            "x": 47.42559,
+            "y": -12.4941406,
+            "z": -137.451691
+          },
+          {
+            "x": 63.1764221,
+            "y": -9.287323,
+            "z": -135.045715
+          },
+          {
+            "x": 76.21898,
+            "y": -11.3526382,
+            "z": -143.516159
+          },
+          {
+            "x": 90.79593,
+            "y": -10.264,
+            "z": -142.672318
+          },
+          {
+            "x": 109.8219,
+            "y": -14.7632751,
+            "z": -149.741821
+          }
+        ],
+        "riverWidth": 19.6,
+        "keyPointWidthScales": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "meshParams": "{\"width\":4.0,\"averageDepth\":1.0,\"buildCrossSection\":false,\"bottomWidth\":2.0,\"sideSlope\":1.0,\"vertexDistance\":1.0,\"waterfallSlopeThreshold\":1.0,\"yMode\":1,\"terrainYOffset\":0.0,\"adaptiveBankWaterLevel\":false,\"bankFreeboard\":0.30000001192092898,\"waterSampleWidth\":0.0,\"buildBankSkirt\":true,\"riverShaderPath\":\"Douyin/World/ENV/Water\",\"waterfallShaderPath\":\"\",\"riverShaderProps\":[],\"waterfallShaderProps\":[],\"flowmap\":{\"enabled\":true,\"resolution\":512,\"paddingMeters\":0.0,\"fadeWidthMeters\":0.0,\"format\":4,\"filterMode\":1,\"flowSpeed\":0.10000000149011612,\"flowmapPropertyName\":\"_FlowMap\",\"worldOffsetPropertyName\":\"_FlowMapWorldOffset\",\"worldSizePropertyName\":\"_FlowMapWorldSize\",\"flowSpeedPropertyName\":\"_FlowSpeed\"}}",
+        "carveParams": "{\"topWidth\":4.0,\"bottomWidth\":1.5,\"carveDepth\":0.5,\"bankSmoothWidth\":0.8660253882408142,\"sampleEveryDistance\":1.0,\"carveSupersampleGrid\":7,\"bankSmoothIterations\":6,\"bankSmoothStrength\":0.75,\"minBankSmoothPixels\":4.0,\"useSdfBrushCarve\":true,\"brushSampleDistance\":0.0,\"sdfFeatherPixels\":3.0,\"uShapePower\":2.5,\"centerlineSmoothRadius\":2,\"useNoisyTerrace\":true,\"terraceWidth\":0.0,\"terraceDepth\":0.0,\"terraceNoiseFrequency\":0.03500000014901161,\"terraceNoiseStrength\":0.3499999940395355,\"terraceDomainWarpAmplitude\":0.3499999940395355,\"terraceWaterCoverage\":0.44999998807907107,\"terraceNoiseSeed\":1337,\"yMode\":1,\"keyPointYOffset\":0.0,\"targetTerrain\":{\"m_FileID\":0,\"m_PathID\":0},\"slope\":0.5}",
+        "rasterMaxCarveWorldDepth": -1.0,
+        "materialPath": "Assets/Resources/GagasWater/Material/River_mat01.mat",
+        "waveNormalSpeed": {
+          "x": 0.0,
+          "y": -0.12
+        },
+        "sampledPointCount": 3672,
+        "carveRegionResolution": 0,
+        "carveRegionX": 0,
+        "carveRegionY": 0,
+        "carveRegionWidth": 0,
+        "carveRegionHeight": 0,
+        "carveRegionPreCarveHeights": null
+      },
+      "waterEditorData": {
+        "version": 2,
+        "kind": 2,
+        "waterNodeId": -1442080189,
+        "terrainNodeId": 3193404,
+        "meshContentHash": "19717610801a9f7dd666a71442289233f8195e1f0b1f00fdf61be4c0e1a17a0e",
+        "editorMeshSnapshotRefId": -1023288916,
+        "editorMeshSnapshotVersion": 1,
+        "editorMeshSnapshotChecksum": 2425906157,
+        "center": {
+          "x": 77.3460541,
+          "y": 41.5980377,
+          "z": 253.073517
+        },
+        "scale": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        },
+        "eularAngleY": 0.0,
+        "controlPointsIsNull": false,
+        "controlPoints": [
+          {
+            "position": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 185.3095,
+              "z": 0.0
+            },
+            "widthScale": 1.0
+          },
+          {
+            "position": {
+              "x": -0.358764648,
+              "y": -0.191520691,
+              "z": -17.4991
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 148.150787,
+              "z": 0.0
+            },
+            "widthScale": 1.0
+          },
+          {
+            "position": {
+              "x": 3.080017,
+              "y": -4.210472,
+              "z": -33.5868073
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 182.888641,
+              "z": 0.0
+            },
+            "widthScale": 1.0
+          },
+          {
+            "position": {
+              "x": -3.803505,
+              "y": -9.840519,
+              "z": -60.647644
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 186.213074,
+              "z": 0.0
+            },
+            "widthScale": 1.0
+          },
+          {
+            "position": {
+              "x": 1.20454407,
+              "y": -10.8819427,
+              "z": -79.7016
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 159.993744,
+              "z": 0.0
+            },
+            "widthScale": 1.0
+          },
+          {
+            "position": {
+              "x": 10.8588638,
+              "y": -9.501938,
+              "z": -100.918488
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 152.683685,
+              "z": 0.0
+            },
+            "widthScale": 1.0
+          },
+          {
+            "position": {
+              "x": 20.3687439,
+              "y": -10.9895782,
+              "z": -116.805618
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 144.642014,
+              "z": 0.0
+            },
+            "widthScale": 1.0
+          },
+          {
+            "position": {
+              "x": 31.009697,
+              "y": -14.1001167,
+              "z": -129.317551
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 127.3459,
+              "z": 0.0
+            },
+            "widthScale": 1.0
+          },
+          {
+            "position": {
+              "x": 47.42559,
+              "y": -12.4941406,
+              "z": -137.451691
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 100.097237,
+              "z": 0.0
+            },
+            "widthScale": 1.0
+          },
+          {
+            "position": {
+              "x": 63.1764221,
+              "y": -9.287323,
+              "z": -135.045715
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 101.893806,
+              "z": 0.0
+            },
+            "widthScale": 1.0
+          },
+          {
+            "position": {
+              "x": 76.21898,
+              "y": -11.3526382,
+              "z": -143.516159
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 105.436462,
+              "z": 0.0
+            },
+            "widthScale": 1.0
+          },
+          {
+            "position": {
+              "x": 90.79593,
+              "y": -10.264,
+              "z": -142.672318
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 100.496254,
+              "z": 0.0
+            },
+            "widthScale": 1.0
+          },
+          {
+            "position": {
+              "x": 109.8219,
+              "y": -14.7632751,
+              "z": -149.741821
+            },
+            "rotation": {
+              "x": 0.0,
+              "y": 110.383621,
+              "z": 0.0
+            },
+            "widthScale": 1.0
+          }
+        ],
+        "depth": 3.0,
+        "slope": 0.9,
+        "isIgnoreHeightmap": true,
+        "riverWidth": 19.6,
+        "isReverse": true,
+        "terrainTracking": null
+      },
+      "waterBodyAuthoringData": null,
+      "waterAppearanceData": {
+        "presetName": "River_mat01",
+        "displayType": 3,
+        "waterDualColor": {
+          "color1": {
+            "r": 0.145098925,
+            "g": 0.8274999,
+            "b": 0.9451,
+            "a": 1.0
+          },
+          "color2": {
+            "r": 0.0626970753,
+            "g": 0.215696067,
+            "b": 0.348996,
+            "a": 1.0
+          }
+        },
+        "transparency": 1.0,
+        "waveDensity": 1.0,
+        "waveSpeed": 1.0,
+        "waveHeight": 0.0,
+        "waveDirection": 0.0,
+        "enableCartoonLight": true,
+        "cartoonLightColor": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "a": 0.0
+        },
+        "cartoonLightIntensity": 4.0,
+        "enableFoam": true,
+        "foamDistance": 0.3,
+        "foamTiling": 1.0,
+        "foamStrength": 14.1,
+        "foamNoiseTiling": 0.11,
+        "enableRipple": false,
+        "rippleStrength": 0.0,
+        "rippleSpeed": 1.0,
+        "rippleScale": 0.51,
+        "enableCaustics": true,
+        "causticsColor": {
+          "r": 0.211507618,
+          "g": 0.9150943,
+          "b": 0.722307,
+          "a": 0.0
+        },
+        "causticsPower": 5.0,
+        "enableUnderwaterVisibility": true,
+        "turbidityColor": {
+          "r": 0.5,
+          "g": 0.5,
+          "b": 0.5,
+          "a": 1.0
+        },
+        "visibilityStart": 0.2,
+        "maxViewDistance": 10.0,
+        "visible": true,
+        "castShadows": true,
+        "isModified": true
+      },
+      "billboardPlantData": null
+    },
+    "physics": {
+      "physicsColliderData": null,
+      "triggerData": []
+    }
+  }
+]

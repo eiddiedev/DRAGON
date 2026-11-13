@@ -1,0 +1,60 @@
+--- editor_project/project_lapv8fm0/scripts/modules/imported/prefab_14/scene_vehicle_carpet.lua
++++ editor_project/project_lapv8fm0/scripts/modules/imported/prefab_14/scene_vehicle_carpet.lua
+@@ -79,7 +79,7 @@
+  if not actor or seated[actor] then return end
+  local tr=actor.gameObject.transform;local cols=actor.gameObject:GetComponents(typeof(U.Collider));local cs={}
+  for i=0,cols.Length-1 do cs[#cs+1]={c=cols[i],enabled=cols[i].enabled};cols[i].enabled=false end
+- saved[actor]={scale=tr.localScale,position=tr.position,rotation=tr.rotation,colliders=cs}
++ saved[actor]={scale=tr.localScale,parent=tr.parent,position=tr.position,rotation=tr.rotation,colliders=cs}
+  seated[actor]=true;setSeat();align(actor)
+  if actor.isLocal then
+   passenger=actor;localId=actor.actorID;self:EnableInteraction();OnFocus();moveX=0;moveY=0;speed=0;segment=1
+@@ -88,18 +88,27 @@
+  end
+ end
+ function OnSeatExited(actor)
+- if not actor then return end
+- seated[actor]=nil;local s=saved[actor]
+- local tr=actor.gameObject.transform;tr:SetParent(nil,true)
+- if s then
+-  tr.localScale=s.scale
+-  for _,v in ipairs(s.colliders) do v.c.enabled=v.enabled end
++ local state=actor and saved[actor]
++ if not state then return end
++ saved[actor]=nil;seated[actor]=nil
++ for _,v in ipairs(state.colliders)do pcall(function()v.c.enabled=v.enabled end)end
++ pcall(function()local tr=actor.gameObject.transform;tr:SetParent(state.parent,true);tr.localScale=state.scale end)
++ pcall(function()
+   local p=self.transform.position+self.transform.right*2
+-  if kind=='boat' or kind=='carpet' then p=s.position else p.y=ground(p.x,p.z)+.1 end
+-  actor:Teleport(p,s.rotation);saved[actor]=nil
++  if kind=='boat' or kind=='carpet' then p=state.position else p.y=ground(p.x,p.z)+.1 end
++  actor:Teleport(p,state.rotation)
++ end)
++ if actor==passenger then passenger=nil;speed=0;moveX=0;moveY=0;pcall(label);pcall(function()DouyinCameraService.SetDistance(7)end)end
++ if kind=='horse' then play('Idle')end
++end
++local function releaseRiders()
++ local riders={};for actor,_ in pairs(saved)do riders[#riders+1]=actor end
++ for _,actor in ipairs(riders)do
++  pcall(function()actor:StandUp(self.gameObject)end)
++  OnSeatExited(actor)
+  end
+- if actor.isLocal then passenger=nil;speed=0;moveX=0;moveY=0;label();DouyinCameraService.SetDistance(7);U.Debug.Log('[interaction] dismounted '..kind) end
+- if kind=='horse' then play('Idle') end
++ passenger=nil;moveX=0;moveY=0;speed=0;localId=nil
++ pcall(function()self:DisableInteraction()end);pcall(OnLostFocus)
+ end
+ function Update()
+  if not seat then return end
+@@ -132,8 +141,9 @@
+  setSeat()
+ end
+ function LateUpdate() for actor,_ in pairs(seated) do align(actor) end end
++function OnDisable()releaseRiders()end
+ function OnDestroy()
+- for actor,_ in pairs(seated) do pcall(function() actor:StandUp(self.gameObject);OnSeatExited(actor) end) end
++ releaseRiders()
+  pcall(function() DouyinInputService.onMoveInputPerform:RemoveListener(OnMove);DouyinInputService.onMoveInputCancel:RemoveListener(OnMoveStop) end)
+  if seat then U.Object.Destroy(seat) end
+ end

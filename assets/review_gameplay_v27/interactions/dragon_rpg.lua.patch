@@ -1,0 +1,211 @@
+--- formal/dragon_rpg.lua
++++ review-v27/dragon_rpg.lua
+@@ -13,26 +13,30 @@
+ local Scope=require("official.core.runtime_scope")
+ local Log=require("official.core.logger")
+ local scope=Scope.from(self)
+--- mobile-v23: resolve each dependency at most once a second, at most 30 attempts.
+-do
+- local target=scope
+- local original=target.GetScript
+- local memo,attempts,nextAt={},{},{}
+- local failures={}
+- target.GetScript=function(_,name)
+-  if memo[name] then return memo[name] end
+-  local now=CS.UnityEngine.Time.realtimeSinceStartup
+-  if (attempts[name] or 0)>=30 or now<(nextAt[name] or 0) then return nil end
+-  attempts[name]=(attempts[name] or 0)+1;nextAt[name]=now+1
+-  local ok,value=pcall(original,target,name)
+-  if ok and value then memo[name]=value;return value end
+-  if attempts[name]==30 then failures[name]=tostring(value or 'not loaded');print('[mobile-v23] dependency failed: '..name..' '..failures[name]) end
+-  return nil
+- end
+- function GetDependencyDiagnostics() return {build='mobile-v23',attempts=attempts,failures=failures} end
+- local destroy=OnDestroy
+- -- Installed after lifecycle definitions below; clears references on scene exit.
+- ReleaseMobileDependencies=function()memo={};attempts={};nextAt={};failures={} end
++-- review-v27: private cache. Never replace the shared runtime-scope resolver.
++local getDependency
++local dependencyMemo,dependencyAttempts,dependencyNextAt,dependencyFailures={},{},{},{}
++getDependency=function(name)
++ if dependencyMemo[name] then return dependencyMemo[name] end
++ local now=CS.UnityEngine.Time.realtimeSinceStartup
++ if now<(dependencyNextAt[name] or 0) then return nil end
++ local attempt=(dependencyAttempts[name] or 0)+1
++ dependencyAttempts[name]=attempt
++ -- Fast initial readiness checks, then bounded slow recovery for streamed resources.
++ dependencyNextAt[name]=now+(attempt<30 and 1 or 5)
++ local ok,value=pcall(function()return scope:GetScript(name)end)
++ if ok and value then
++  dependencyMemo[name]=value;dependencyFailures[name]=nil
++  if attempt>=30 then print('[review-v27] dependency recovered: '..name) end
++  return value
++ end
++ dependencyFailures[name]=tostring(value or 'not loaded')
++ if attempt==30 then print('[review-v27] dependency waiting: '..name..' '..dependencyFailures[name]) end
++ return nil
++end
++function GetDependencyDiagnostics()return{build='review-v27',attempts=dependencyAttempts,failures=dependencyFailures}end
++local function ReleaseMobileDependencies()
++ dependencyMemo={};dependencyAttempts={};dependencyNextAt={};dependencyFailures={}
+ end
+ 
+ local log=Log.create("dragon-rpg")
+@@ -210,7 +214,7 @@
+ local function buildUI()
+  if root then return true end
+  if not sourceFont()then return false end
+- local bridge15=scope:GetScript('dragon_world_bridge.lua');K=bridge15 and bridge15.GetKit()
++ local bridge15=getDependency('dragon_world_bridge.lua');K=bridge15 and bridge15.GetKit()
+  if not K then return false end
+  installIcons()
+  root=U.GameObject("DragonRPGControls");canvas=root:AddComponent(typeof(U.Canvas));canvas.renderMode=U.RenderMode.ScreenSpaceOverlay;canvas.sortingOrder=220
+@@ -355,6 +359,66 @@
+  btn.gameObject:SetActive(true)
+  local entry={button=btn,trigger=trigger,label=t,old=old};native[#native+1]=entry;return entry
+ end
++-- One screen-space layout for all combat controls, including native slots.
++-- Pure math: points are pixels with a bottom-left origin, clamped inside safeArea.
++local function computeCombatLayout(screenWidth,screenHeight,safe)
++ local x0=math.max(0,safe.xMin or 0);local x1=math.min(screenWidth,safe.xMax or screenWidth)
++ local y0=math.max(0,safe.yMin or 0);local y1=math.min(screenHeight,safe.yMax or screenHeight)
++ if x1<=x0 or y1<=y0 then x0=0;x1=screenWidth;y0=0;y1=screenHeight end
++ -- The established arc is retained. Skill 2 has an 18-unit hit-rectangle gap.
++ -- Exit uses its own 128-unit design size, never the exploratory hand button size.
++ local design={
++  attack={x=-215,y=185,size=216,glyph=.5185},
++  skill1={x=-235,y=422,size=136,glyph=.5735},
++  skill2={x=-409,y=338,size=136,glyph=.5735},
++  skill3={x=-464,y=165,size=136,glyph=.5735},
++  exit={x=-76,y=392,size=128,glyph=.56}
++ }
++ local factor=math.min(screenHeight/1080,(x1-x0)*.55/544,(y1-y0)*.72/502)
++ local result={scale=factor,safe={xMin=x0,xMax=x1,yMin=y0,yMax=y1},buttons={}}
++ for key,p in pairs(design)do
++  result.buttons[key]={x=x1+p.x*factor,y=y0+p.y*factor,size=p.size*factor,glyph=p.glyph}
++ end
++ return result
++end
++local function placeCombatRect(rt,p)
++ local unit=math.max(.0001,math.abs(root.transform.lossyScale.x))
++ rt.anchorMin=V2(1,0);rt.anchorMax=V2(1,0);rt.pivot=V2(.5,.5)
++ rt.sizeDelta=V2(p.size/unit,p.size/unit)
++ rt.anchoredPosition=V2((p.x-U.Screen.width)/unit,p.y/unit)
++end
++local function resizeCombatGlyph(button,fraction)
++ local glyph=button.transform:Find('ActionGlyph')
++ if glyph then glyph.sizeDelta=V2(button.transform.rect.width*fraction,button.transform.rect.height*fraction)end
++end
++local function layoutCombatControls()
++ if not root or not toggle then return end
++ local safe=U.Screen.safeArea
++ local layout=computeCombatLayout(U.Screen.width,U.Screen.height,{xMin=safe.xMin,xMax=safe.xMax,yMin=safe.yMin,yMax=safe.yMax})
++ C15.combatLayout=layout
++ placeCombatRect(toggle.transform,layout.buttons.exit);resizeCombatGlyph(toggle,layout.buttons.exit.glyph)
++ for i=2,3 do local slot=skillButtons[i]
++  if slot then local p=layout.buttons['skill'..i];placeCombatRect(slot.button.transform,p);resizeCombatGlyph(slot.button,p.glyph)end
++ end
++ for i=1,2 do
++  local p=layout.buttons[i==1 and 'attack'or'skill1']
++  if not combatAnchors[i]then local _,rt=rect(root.transform,'CombatAnchor'..i,1,1,0,0,V2(1,0));combatAnchors[i]=rt end
++  local anchor=combatAnchors[i];placeCombatRect(anchor,p)
++  local slot=native[i]
++  if slot then
++   local rt=slot.button.transform
++   -- Native canvases may have different parent AND local scale/pivots on phones.
++   -- Match physical pixels, rather than copying our canvas's sizeDelta.
++   local sx=math.max(.0001,math.abs(rt.lossyScale.x));local sy=math.max(.0001,math.abs(rt.lossyScale.y))
++   rt:SetSizeWithCurrentAnchors(U.RectTransform.Axis.Horizontal,p.size/sx)
++   rt:SetSizeWithCurrentAnchors(U.RectTransform.Axis.Vertical,p.size/sy)
++   local shift=rt:TransformVector(V3((.5-rt.pivot.x)*rt.rect.width,(.5-rt.pivot.y)*rt.rect.height,0))
++   rt.position=anchor.position-shift
++   resizeCombatGlyph(slot.button,p.glyph)
++  end
++ end
++end
++
+ function SetMode(mode)
+  if not context or not actor then return false end
+  if mode~="combat"and mode~="explore"then return false end
+@@ -375,17 +439,28 @@
+    setIcon(native[1].button,profile.class=="melee"and "sword"or(profile.class=="mage"and "staff"or "bow"),112)
+   setIcon(native[2].button,cls.skills[1].icon,78)
+   for i=2,3 do local v=skillButtons[i];setIcon(v.button,cls.skills[i].icon,78);v.button.gameObject:SetActive(true)end
+-  hideExplore();context.mode="combat";toggleLabel.text="";setIcon(toggle,"exit",C15.iconSize or 60)
++  hideExplore();context.mode="combat";toggleLabel.text="";setIcon(toggle,"exit",C15.iconSize or 60);layoutCombatControls()
+  else
+   clearSlots();context.mode="explore";weapons.Unequip(actor);fx.Clear();toggleLabel.text="";setIcon(toggle,"duel",C15.iconSize or 70)
+  end
+  return true
+ end
+ function IsContractOpen()return contract~=nil and contract.activeInHierarchy end
++function CancelContract()
++ -- Cancellation is not signing: discard the continuation rather than invoke it.
++ local wasOpen=contract and contract.activeSelf
++ contractCallback=nil;selection=nil;signPending=false
++ if contract then contract:SetActive(false)end
++ if backdrop then backdrop:SetActive(false)end
++ if context then context.menu=false end
++ if wasOpen then ready=profile~=nil and profile.class~=nil end
++ if wasOpen and actor then actor:Immobilize(false)end
++ return wasOpen==true
++end
+ function OpenContract(change,callback,parent)
+  if not rules or not actor or not buildUI()then return false end
+  if not progress or not progress.IsLoaded()then toast("玩法正在初始化");return false end
+- local bridge=scope:GetScript('dragon_world_bridge.lua')
++ local bridge=getDependency('dragon_world_bridge.lua')
+  contract.transform:SetParent(parent or root.transform,false);contract.transform.anchoredPosition=V2.zero
+  contract:GetComponent(typeof(U.UI.RawImage)).enabled=parent==nil
+  if bridge and bridge.GetBookTexture()then contract:GetComponent(typeof(U.UI.RawImage)).texture=bridge.GetBookTexture()end
+@@ -407,7 +482,7 @@
+ function GetProfile()return profile end
+ function GetStatus()
+  return {mode=context and context.mode,class=profile and profile.class,ready=ready,sequence=context and context.sequence,contract=contract and contract.activeSelf,
+-  nativeSlots=#native,skills=rules and profile and profile.class and rules.GetClasses()[profile.class].skills,skillCooldowns=context and {context.skill1Until,context.skill2Until,context.skill3Until},pending=#pending,held=held,outfit=actor and outfits and outfits.GetOutfitStatus(actor),
++  combatLayout=C15.combatLayout,nativeSlots=#native,skills=rules and profile and profile.class and rules.GetClasses()[profile.class].skills,skillCooldowns=context and {context.skill1Until,context.skill2Until,context.skill3Until},pending=#pending,held=held,outfit=actor and outfits and outfits.GetOutfitStatus(actor),
+   weapon=actor and weapons and weapons.GetRigStatus(actor),battle=battle and battle.GetStatus()}
+ end
+ local function act(kind)
+@@ -433,12 +508,12 @@
+ end
+ function Update()
+  if not scope then return end
+- if not rules then rules=scope:GetScript("dragon_rules.lua");outfits=scope:GetScript("dragon_outfits.lua");weapons=scope:GetScript("dragon_weapons.lua");fx=scope:GetScript("dragon_fx.lua")end
++ if not rules then rules=getDependency("dragon_rules.lua");outfits=getDependency("dragon_outfits.lua");weapons=getDependency("dragon_weapons.lua");fx=getDependency("dragon_fx.lua")end
+  if not rules or not outfits or not weapons or not fx then rules=nil;return end
+- if not battle then battle=scope:GetScript("dragon_combat.lua")end
+- if not combatRules then combatRules=scope:GetScript("dragon_combat_rules.lua")end
++ if not battle then battle=getDependency("dragon_combat.lua")end
++ if not combatRules then combatRules=getDependency("dragon_combat_rules.lua")end
+  actor=CS.DouyinActorService.GetLocalActor();if not actor then return end
+- if not progress then progress=scope:GetScript("dragon_progress.lua")end
++ if not progress then progress=getDependency("dragon_progress.lua")end
+  if not progress or not progress.IsLoaded()then return end
+  profile=progress.GetProfile()
+  if not context then context={mode="explore",class=profile.class}end
+@@ -487,15 +562,11 @@
+    C15.togglePos=j.position+q
+   end
+  end
+- if context.mode=="combat"then rt.anchoredPosition=V2(-(U.Screen.width-safe.xMax)*scale-74,(safe.yMin)*scale+392)
++ if context.mode=="combat"then layoutCombatControls()
+  elseif C15.togglePos then rt.position=C15.togglePos
+  else rt.anchoredPosition=V2(-(U.Screen.width-safe.xMax)*scale-108,(safe.yMin)*scale+350)end
+  if not available and context.mode=="combat"then SetMode("explore")end
+  if context.mode=="combat"then
+-  for i=1,2 do
+-   if not combatAnchors[i]then local go,rt=rect(root.transform,"CombatAnchor"..i,i==1 and 216 or 136,i==1 and 216 or 136,i==1 and -215 or -235,i==1 and 185 or 422,V2(1,0));combatAnchors[i]=rt end
+-   local slot=native[i];if slot then slot.button.transform.position=combatAnchors[i].position;slot.button.transform.sizeDelta=combatAnchors[i].sizeDelta*(combatAnchors[i].lossyScale.x/slot.button.transform.parent.lossyScale.x) end
+-  end
+   for _,v in ipairs(hidden)do v.group.alpha=0;v.group.blocksRaycasts=false end
+   for i=1,3 do
+    local slot=i==1 and native[2]or skillButtons[i];local left=math.max(0,(context["skill"..i.."Until"]or 0)-U.Time.time)
+@@ -519,6 +590,7 @@
+ function OnEnable()if root then root:SetActive(true)end end
+ function OnApplicationFocus(focused)if not focused then held=false;attackPressed=false;skillPressed=false end end
+ function OnDisable()
++ CancelContract()
+  if nativeTrial then self:RemoveInteractorButton(nativeTrial);nativeTrial=nil end
+  clearSlots();if actor and weapons then weapons.Unequip(actor)end
+  if actor and contract and contract.activeSelf then actor:Immobilize(false)end
