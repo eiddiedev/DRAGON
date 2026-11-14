@@ -2,8 +2,8 @@
   "project": "project_lapv8fm0",
   "files": {
     "ai-asset-generate-config.json": {
-      "bytes": 17576,
-      "sha256": "8858ddfe8615463eb32cf16a6a56d95d5c0af1e9899500ddf872d4e1c195b768"
+      "bytes": 21093,
+      "sha256": "361a76c25478431ce7442c5877a5fdec40a1dbdf6a5f469e10a01818ad76f938"
     },
     "ai-pcg-generate-config.json": {
       "bytes": 43,
@@ -298,8 +298,8 @@
       "sha256": "0fa8f4f35bda80ba32ac2fa5dec62e78315fb4a853f7dc9520abe64d80007bc2"
     },
     "ai-sessions/workspace_amfuq048/wprefabs/actors_v27/scripts/horse_seat_v1.lua": {
-      "bytes": 48296,
-      "sha256": "c6b8294421cc7ae709672a7e6dc0b32543bf93e1065054f65d8261f940401814"
+      "bytes": 50857,
+      "sha256": "c2a6ccc44e36bd6689607b3018574bd795b3635c1365c44b307e8d86b7e772c2"
     },
     "ai-sessions/workspace_amfuq048/wprefabs/actors_v27/scripts/scene_sheep_sound.lua": {
       "bytes": 350831,
@@ -310,8 +310,8 @@
       "sha256": "cbd333640a8273f49b0bb93aefe450e96c9fa8cdd30c7989f522692876324226"
     },
     "ai-sessions/workspace_amfuq048/wprefabs/actors_v27/scripts/tripo_sheep_motion.lua": {
-      "bytes": 9603,
-      "sha256": "7bd3c50851c21aabf0a5d8b3227738216bc0f2817d2ad6015eebb0caefb11677"
+      "bytes": 12047,
+      "sha256": "d94924fe64fbaba980db65646adf9eaac0eda43721d4db2ea9d837c3d5b235a1"
     },
     "ai-sessions/workspace_amfuq048/wprefabs/gameplay_v27/assets/audio/audio-combat-original-bow/audio.wav": {
       "bytes": 8678,
@@ -1586,8 +1586,8 @@
       "sha256": "5dbf78af3c3b4b60e618a4cf95bec2047e777a10f87bcd501fcc37c290f7a5f3"
     },
     "ai-sessions/workspace_amfuq048/wprefabs/gameplay_v27/scripts/dragon_world_bridge.lua": {
-      "bytes": 5179303,
-      "sha256": "d692bc7af743f49d43c874f0870ed4c7cf955cd265f78b5fc768271208313979"
+      "bytes": 5200104,
+      "sha256": "0ea22ff766d51f60a6deeea5d2bfeced248dcd3e073b5da272561ae2ab68e425"
     },
     "ai-sessions/workspace_amfuq048/wprefabs/gameplay_v28/assets/audio/audio-combat-original-bow/audio.wav": {
       "bytes": 8678,
@@ -3258,16 +3258,16 @@
       "sha256": "2a26a9a3d644ef069b6e03fb4d817857d254679f6702e660dd7412f9c8dcbbbe"
     },
     "ai-sessions/workspace_l7e231w9/wprefabs/actors_v29/package/prefab.wprefab": {
-      "bytes": 322894,
-      "sha256": "2e3cd10729c0f535079e9a0bf4cf29dc88414929196e286a810e414565c45aa5"
+      "bytes": 324012,
+      "sha256": "df52669f2b0324819431b171c9151cc6c0105d8cec55d135021702f8bd9a0037"
     },
     "ai-sessions/workspace_l7e231w9/wprefabs/actors_v29/prefab.json": {
       "bytes": 266448,
       "sha256": "0fa8f4f35bda80ba32ac2fa5dec62e78315fb4a853f7dc9520abe64d80007bc2"
     },
     "ai-sessions/workspace_l7e231w9/wprefabs/actors_v29/scripts/horse_seat_v1.lua": {
-      "bytes": 48296,
-      "sha256": "c6b8294421cc7ae709672a7e6dc0b32543bf93e1065054f65d8261f940401814"
+      "bytes": 50857,
+      "sha256": "c2a6ccc44e36bd6689607b3018574bd795b3635c1365c44b307e8d86b7e772c2"
     },
     "ai-sessions/workspace_l7e231w9/wprefabs/actors_v29/scripts/scene_sheep_sound.lua": {
       "bytes": 350831,
@@ -3278,8 +3278,8 @@
       "sha256": "cbd333640a8273f49b0bb93aefe450e96c9fa8cdd30c7989f522692876324226"
     },
     "ai-sessions/workspace_l7e231w9/wprefabs/actors_v29/scripts/tripo_sheep_motion.lua": {
-      "bytes": 9603,
-      "sha256": "7bd3c50851c21aabf0a5d8b3227738216bc0f2817d2ad6015eebb0caefb11677"
+      "bytes": 12047,
+      "sha256": "d94924fe64fbaba980db65646adf9eaac0eda43721d4db2ea9d837c3d5b235a1"
     },
     "ai-sessions/workspace_l7e231w9/wprefabs/dragon_v17/assets/audio/audio-combat-original-bow/audio.wav": {
       "bytes": 8678,
@@ -5766,8 +5766,8 @@
       "sha256": "a99846c4aa2f34122aca32fe7ea76978f2db93957e6480c209bfc97fbda070e0"
     },
     "ai-sessions/workspace_l7e231w9/wprefabs/gameplay_v29/package/prefab.wprefab": {
-      "bytes": 8359744,
-      "sha256": "efbf7783c21c0706b033a39c4ab3f8c8c382ec51cb82f365b9ed2729070a476d"
+      "bytes": 8373857,
+      "sha256": "119f95a6ce81698f3d46652b1364c00e549b65335a8836806741e1ee80245081"
     },
     "ai-sessions/workspace_l7e231w9/wprefabs/gameplay_v29/prefab.json": {
       "bytes": 580937,
@@ -5822,8 +5822,8 @@
       "sha256": "5dbf78af3c3b4b60e618a4cf95bec2047e777a10f87bcd501fcc37c290f7a5f3"
     },
     "ai-sessions/workspace_l7e231w9/wprefabs/gameplay_v29/scripts/dragon_world_bridge.lua": {
-      "bytes": 5179303,
-      "sha256": "d692bc7af743f49d43c874f0870ed4c7cf955cd265f78b5fc768271208313979"
+      "bytes": 5200104,
+      "sha256": "0ea22ff766d51f60a6deeea5d2bfeced248dcd3e073b5da272561ae2ab68e425"
     },
     "ai-sessions/workspace_l7e231w9/wprefabs/village_bases_v20/assets/models/model-village-bases/meta.json": {
       "bytes": 209,
@@ -8938,8 +8938,8 @@
       "sha256": "b19755535d8b070e8e2bce28f0ec92ed36e00a3c3d7999c0b81885f536719c7c"
     },
     "scene.data": {
-      "bytes": 7203841,
-      "sha256": "64feb3c522c1db72cd7a468c37dc8bbb8cb88158b801ca6ccac29b8c33746116"
+      "bytes": 6883428,
+      "sha256": "c2d4036e7dde21efeee36bd5c9d8a7e839ef079d781a056ce84a4ae4eb38eb60"
     },
     "scripts/client/index.lua": {
       "bytes": 44,
@@ -9681,6 +9681,22 @@
       "bytes": 5179359,
       "sha256": "ff5170f39c00d0462022195eef97d36b6b41717c909f4d73adefe454c7b122e7"
     },
+    "scripts/modules/imported/prefab_26/horse_seat_v1.lua": {
+      "bytes": 50901,
+      "sha256": "03f00bd183229b3dd76b6022f4d36903ba5216e1d1d86b0720c58efdf66eefd6"
+    },
+    "scripts/modules/imported/prefab_26/scene_sheep_sound.lua": {
+      "bytes": 350887,
+      "sha256": "ce87c5f6bd47ac1288afe92965624e49053633bf5c9f508c911843e48d157ecf"
+    },
+    "scripts/modules/imported/prefab_26/scene_vehicle_carpet.lua": {
+      "bytes": 40860,
+      "sha256": "09ac535accda8f9b29c759d51278329fa68d0fddde8a52d2ef84c1f863e63b60"
+    },
+    "scripts/modules/imported/prefab_26/tripo_sheep_motion.lua": {
+      "bytes": 12097,
+      "sha256": "718a31ab7bd476e7393c8ca0e6af49e1e93b44e1596726c4e5d7049b4701d207"
+    },
     "scripts/modules/imported/prefab_27/dragon_combat.lua": {
       "bytes": 20466,
       "sha256": "a94d281b8a4bacf8576becab646173584896ec3bea27f36b015f506c06e861c7"
@@ -9732,6 +9748,74 @@
     "scripts/modules/imported/prefab_27/dragon_world_bridge.lua": {
       "bytes": 10749636,
       "sha256": "68dc32cba3637dc3526e1d32b67240360173dfb619202a75934adb642650f212"
+    },
+    "scripts/modules/imported/prefab_28/dragon_combat.lua": {
+      "bytes": 26778,
+      "sha256": "23afd70af4f375f6beca2af39247f84f57d7bfc4a08290943b092a1030cc4e1c"
+    },
+    "scripts/modules/imported/prefab_28/dragon_combat_rules.lua": {
+      "bytes": 11242,
+      "sha256": "dc8cd9b11d53011519be8d2c3e11a2628e817b33071cf5c0a35a21b9fe477f22"
+    },
+    "scripts/modules/imported/prefab_28/dragon_daycycle.lua": {
+      "bytes": 7353,
+      "sha256": "c52d9db91e6b3c8c2ffc2b5533785fd8388dd686720e5394192e205b3ee33c04"
+    },
+    "scripts/modules/imported/prefab_28/dragon_exploration.lua": {
+      "bytes": 31769,
+      "sha256": "32949e75e48b1a4d8678ff2842bef6b896cf053dd05a754a6137cc694b085781"
+    },
+    "scripts/modules/imported/prefab_28/dragon_fx.lua": {
+      "bytes": 27130,
+      "sha256": "b4864bea945920d9b6dee035ede6b752ab42a5c45d73e4ad21f11c4f9068bf90"
+    },
+    "scripts/modules/imported/prefab_28/dragon_outfits.lua": {
+      "bytes": 46448,
+      "sha256": "652ecaf561758eba16b0a741e1ff99a20a56ffee20f05232e84b35314623e32f"
+    },
+    "scripts/modules/imported/prefab_28/dragon_progress.lua": {
+      "bytes": 3296,
+      "sha256": "56de043c38ba3d350f3776153a6e462a2b5f5cd4c1e74fda5fad638f011e2740"
+    },
+    "scripts/modules/imported/prefab_28/dragon_progress_rules.lua": {
+      "bytes": 6946,
+      "sha256": "a309d56a205a37bf97a3f30a054ea00fc05fc7b0fccc6c065dfe97b1524dc63f"
+    },
+    "scripts/modules/imported/prefab_28/dragon_rpg.lua": {
+      "bytes": 37130,
+      "sha256": "dac99d88261d1b89353da2060bd06d9d5648cce86e300cf817693ec540f2da38"
+    },
+    "scripts/modules/imported/prefab_28/dragon_rules.lua": {
+      "bytes": 3766,
+      "sha256": "66a6b17d1bd6b52411a123cd5af351f9f95feb84844e2569e15f1466378d20bb"
+    },
+    "scripts/modules/imported/prefab_28/dragon_timeline.lua": {
+      "bytes": 10392,
+      "sha256": "17fc65eae031100640e13f15ad622b5968bad5a6318568c102a7bc4845986502"
+    },
+    "scripts/modules/imported/prefab_28/dragon_weapons.lua": {
+      "bytes": 42635,
+      "sha256": "e24f760c175fa7d680c47032f657bac70b380a0b2305cf851086de961f018a30"
+    },
+    "scripts/modules/imported/prefab_28/dragon_world_bridge.lua": {
+      "bytes": 5200160,
+      "sha256": "ba199c8f6a358e0af13f732ab573ae4ed2fa741ce241f8da31f86a243d02ae62"
+    },
+    "scripts/modules/imported/prefab_29/horse_seat_v1.lua": {
+      "bytes": 50913,
+      "sha256": "b5036187e6c59bb36f4afc5d12212d0e6e358c8dfe27f18bbaf10b585b821585"
+    },
+    "scripts/modules/imported/prefab_29/scene_sheep_sound.lua": {
+      "bytes": 350887,
+      "sha256": "ddd6100042d05ec5fdbb2aeb69164c3beb9a1e2368e22df5605a5b44086f6307"
+    },
+    "scripts/modules/imported/prefab_29/scene_vehicle_carpet.lua": {
+      "bytes": 40860,
+      "sha256": "d312ef170740b0b0e69acc23a3b9ced0d10619d0a6c2151ba67cbb5cec2c5de2"
+    },
+    "scripts/modules/imported/prefab_29/tripo_sheep_motion.lua": {
+      "bytes": 12103,
+      "sha256": "a6084e80b30f2c4b4818c84ba3e151fa3c42d3fe2c2f07bd318948b99be5bfc0"
     },
     "scripts/modules/imported/prefab_3/dragon_combat.lua": {
       "bytes": 20410,
@@ -9987,7 +10071,7 @@
     },
     "world-config.json": {
       "bytes": 1770,
-      "sha256": "b27749e092bba6acdbf466d5a7309c75676a329f5974ae2d1d654a31b6cf3a73"
+      "sha256": "8ef70a9185a6ae013dfec7d67d5e5ca99bdc5b008595c49f33bd41ac52a7c2b6"
     }
   }
 }

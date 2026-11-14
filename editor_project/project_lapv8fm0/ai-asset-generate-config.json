@@ -340,17 +340,13 @@
           "revisionId": "external:automation:c2ca7638-54c8-463a-ad14-a99ff2232dda:2520702f72c2a273f705175f8221442b575fb87b4846cbdbde584618823d74ec:2520702f72c2a273f705175f8221442b575fb87b4846cbdbde584618823d74ec"
         },
         {
-          "type": "wprefab",
-          "artifactId": "gameplay_v29",
-          "revisionId": "external:automation:c98430fb-0b4d-491f-a267-395a76ef619c:5a4ec431b933eac195a58bea507bc96b69d3b72aa3192a43936dbc6ac3149c0d:5a4ec431b933eac195a58bea507bc96b69d3b72aa3192a43936dbc6ac3149c0d",
           "createdAtUtc": "2026-11-13T23:22:55.291Z",
+          "type": "wprefab",
           "artifact": {
-            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/los1ui8aau0zijb6.wprefab",
             "displayName": "龙眠玩法v30",
             "summary": "dragon_rpg_v1",
-            "hasRuntimeScript": true,
-            "hasAudio": true,
-            "hasExpandableAssets": true,
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4712de7a0459488fbf54446910ebf9e3.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/los1ui8aau0zijb6.wprefab",
             "metadata": {
               "capacity": 319804,
               "faceCount": 235728,
@@ -361,7 +357,86 @@
               ],
               "rigged": true
             },
-            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/4712de7a0459488fbf54446910ebf9e3.png"
+            "hasRuntimeScript": true,
+            "hasAudio": true,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "gameplay_v29",
+          "revisionId": "external:automation:c98430fb-0b4d-491f-a267-395a76ef619c:5a4ec431b933eac195a58bea507bc96b69d3b72aa3192a43936dbc6ac3149c0d:5a4ec431b933eac195a58bea507bc96b69d3b72aa3192a43936dbc6ac3149c0d"
+        },
+        {
+          "createdAtUtc": "2026-11-14T08:42:31.915Z",
+          "type": "wprefab",
+          "artifact": {
+            "displayName": "龙眠actorsv31",
+            "summary": "mobile_actors_v23",
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/98927dacbef848f1bc76e5d38ba1efd1.png",
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/9qrck2whoewkoscc.wprefab",
+            "metadata": {
+              "capacity": 88902,
+              "faceCount": 68032,
+              "logicalCenter": [
+                -255.41746049502547,
+                164.81680481176778,
+                -225.32040621941144
+              ],
+              "rigged": true
+            },
+            "hasRuntimeScript": true,
+            "hasAudio": false,
+            "hasExpandableAssets": true
+          },
+          "artifactId": "actors_v29",
+          "revisionId": "external:automation:2d2fc944-92b9-452f-b9a1-ed77c4995a28:f3cf322f533538b859980f04194e5d85a05dcdeb8fd370b59c9c85d874d0310c:f3cf322f533538b859980f04194e5d85a05dcdeb8fd370b59c9c85d874d0310c"
+        },
+        {
+          "type": "wprefab",
+          "artifactId": "gameplay_v29",
+          "revisionId": "external:automation:3cf53818-6ac0-444c-99e2-acc6e38c18e4:784f69da523eb1022894f885060510eb5169a8952b4460eefa7ce8d9a5cc289a:784f69da523eb1022894f885060510eb5169a8952b4460eefa7ce8d9a5cc289a",
+          "createdAtUtc": "2026-11-14T08:55:33.863Z",
+          "artifact": {
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/3z0kkqo9wz52n7us.wprefab",
+            "displayName": "龙眠玩法v31",
+            "summary": "dragon_rpg_v1",
+            "hasRuntimeScript": true,
+            "hasAudio": true,
+            "hasExpandableAssets": true,
+            "metadata": {
+              "capacity": 321044,
+              "faceCount": 235728,
+              "logicalCenter": [
+                -68.688677566846,
+                500,
+                -78.31712717948841
+              ],
+              "rigged": true
+            },
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/5f5a98d24e1f4ab286125f6d8fb429fb.png"
+          }
+        },
+        {
+          "type": "wprefab",
+          "artifactId": "actors_v29",
+          "revisionId": "external:automation:340c2321-9fdb-40e2-baf2-e6c1f9e4ef11:500818454b594afda38b0cb4875a468b3a04c084e3041ac221837b2bf8ab913c:500818454b594afda38b0cb4875a468b3a04c084e3041ac221837b2bf8ab913c",
+          "createdAtUtc": "2026-11-14T09:09:52.501Z",
+          "artifact": {
+            "uri": "hamlet-ugc/aigc_editor/dev/unity/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/5owcjjl1khkoxd6v.wprefab",
+            "displayName": "龙眠动物v31",
+            "summary": "mobile_actors_v23",
+            "hasRuntimeScript": true,
+            "hasAudio": false,
+            "hasExpandableAssets": true,
+            "metadata": {
+              "capacity": 88902,
+              "faceCount": 68032,
+              "logicalCenter": [
+                -255.41746049502547,
+                164.81680481176778,
+                -225.32040621941144
+              ],
+              "rigged": true
+            },
+            "thumbnailUri": "tos-cn-i-c2ox06qgwk/aigc_editor/MS4wLjABAAAAiXeSmRTg5HzBJoZQNA48Huyphyi10N36i8B2izzYJ3Y/1160e6a5975740c5a2dc8d5b6ac7f652.png"
           }
         }
       ],

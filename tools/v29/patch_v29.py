@@ -145,8 +145,12 @@ s = rep(s, "            elseif UI.wait > 45 then", "            elseif UI.wait >
 if MARK in s:
     s = s[:s.index(MARK)]
 sky = {}
-for name, path, size in (('sky_swirl_a', 'tex2/sky_swirl_a', 1024), ('sky_swirl_b', 'tex2/sky_swirl_b', 1024), ('sky_swirl_c', 'tex2/sky_swirl_c', 1024), ('sky_moon2', 'tex/sky_moon', 512)):
-    im = Image.open(f'{REPO}/assets/sky/{path}.png').convert('RGBA').resize((size, size), Image.LANCZOS)
+for name in ('sky_swirl_a', 'sky_swirl_b', 'sky_swirl_c', 'sky_moon2'):
+    # v31：直接用提审包里那几张原贴图（不压色），补建的漩涡和原节点一样清楚
+    im = Image.open(f'{REPO}/assets/review_v31/sky/{name}.png').convert('RGBA')
+    if name == 'sky_moon2':
+        im = im.resize((512, 512), Image.LANCZOS)
+    # 压成 256 色：主脚本超过约 6 MB 后归档上传经常超时
     im = im.quantize(colors=256, method=Image.Quantize.FASTOCTREE, dither=Image.Dither.NONE)
     sky[name] = b64img(im, 'PNG', optimize=True)
 tail = open(f'{REPO}/tools/v29/bridge_v29_tail.lua', encoding='utf8').read()
@@ -207,7 +211,12 @@ s = rep(s, """  if now>s.deadline then
    s.status=controller and 'clip timeout' or 'controller timeout'
    warn(s.status,s.status..' for '..s.wanted);return
   end""", """  if now>s.deadline then s.deadline=now+60;s.attempts=0 end""")
-s = rep(s, "play(speed<.2 and 'Idle' or speed<2.4 and 'Walk' or speed<5.5 and 'Trot' or speed<8 and 'Run' or 'RunFast')", "play(speed<.2 and 'Idle' or speed<2.4 and 'Walk' or speed<5.5 and 'Trot' or 'Run')")
+GAIT = open(f'{REPO}/tools/v29/gait_v31.lua', encoding='utf8').read()
+s = rep(s, "local function play(name)\n if kind~='horse' then return end", GAIT + "local gait=nil\nlocal function play(name)\n if kind~='horse' then return end")
+s = rep(s, "play(speed<.2 and 'Idle' or speed<2.4 and 'Walk' or speed<5.5 and 'Trot' or speed<8 and 'Run' or 'RunFast')",
+        "play(speed<.2 and 'Idle' or speed<2.4 and 'Walk' or speed<5.5 and 'Trot' or 'Run')\n    if gait then pcall(gait.tick,speed>=.2,speed,U.Vector3(math.sin(math.rad(yaw)),0,math.cos(math.rad(yaw))),dt) end")
+s = rep(s, "function Update()\n if animationPlayer then animationPlayer.tick() end\n if not seat then return end",
+        "function Update()\n if animationPlayer then animationPlayer.tick() end\n if kind=='horse' then\n  if not gait then gait=createGait(self.gameObject,'horse');gait.status=function()return animationPlayer and animationPlayer.diagnostics().status or 'no-player' end end\n  if not passenger then pcall(gait.tick,false,0,nil,U.Time.deltaTime) end\n end\n if not seat then return end")
 open(p, 'w', encoding='utf8').write(s)
 print('horse', chk(s))
 
@@ -221,6 +230,9 @@ s = rep(s, """  if now>s.deadline then
    s.status=controller and 'clip timeout' or 'controller timeout'
    warn(s.status,s.status..' for '..s.wanted);return
   end""", "  if now>s.deadline then s.deadline=now+60;s.attempts=0 end")
+s = rep(s, "local function play(name)\n if not animationPlayer then", GAIT + "local gait=nil\nlocal function play(name)\n if not animationPlayer then")
+s = rep(s, " local v=rb.velocity;play(v.x*v.x+v.z*v.z>.02 and 'Walk' or 'Idle')",
+        " local v=rb.velocity;play(v.x*v.x+v.z*v.z>.02 and 'Walk' or 'Idle')\n if not gait then gait=createGait(self.gameObject,'sheep');gait.status=function()return animationPlayer and animationPlayer.diagnostics().status or 'no-player' end end\n local sp=math.sqrt(v.x*v.x+v.z*v.z);pcall(gait.tick,sp>.14,sp*3,U.Vector3(v.x,0,v.z),U.Time.deltaTime)")
 open(p, 'w', encoding='utf8').write(s)
 print('sheep', chk(s))
 

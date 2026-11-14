@@ -151,3 +151,74 @@ function Update()
   if a then pcall(UI.buildPlayDiag);pcall(UI.updatePlayDiag,a)end
  end
 end
+
+---------------------------------------------------------------- v31：环境光兜底 + 地形细节距离
+-- 提审端场景环境到得晚：开头抓到的「夜间基准」可能是黑的环境光、没有主光。白天混合时就按黑的算，背光处发黑。
+-- 这里在世界铺开后核对基准，不对就换成作者场景的实际值（本地预览量到的），并重新套用。
+UI.envGuard={checks=0}
+function UI.guardEnv()
+ local G=UI.envGuard;local now=Time.realtimeSinceStartup
+ if not night or not envReady or now<(G.nextAt or 0)or G.checks>=40 then return end
+ G.nextAt=now+3;G.checks=G.checks+1
+ local changed=false
+ local a=night.ambient
+ if not G.ambientWas then G.ambientWas=string.format('%.2f',a.r+a.g+a.b)end
+ if a.r+a.g+a.b<.6 then night.ambient=Color(.4196,.4196,.6196,1);changed=true end
+ if not night.ambientIntensity or night.ambientIntensity<.6 then night.ambientIntensity=1;changed=true end
+ local f=night.fog
+ if f.r+f.g+f.b<.04 then night.fog=Color(.1098,.0706,.2392,1);changed=true end
+ if not night.fogEnd or night.fogEnd<400 then night.fogEnd=1500;changed=true end
+ if sunLight==nil then
+  pcall(function()
+   local lights=UnityEngine.Object.FindObjectsOfType(typeof(CS.UnityEngine.Light))
+   for i=0,lights.Length-1 do local l=lights[i]
+    if sunLight==nil and tostring(l.type):find('Directional')then sunLight=l;night.lightColor=Color(.6588,.7608,1,1);night.lightIntensity=.95;changed=true;G.sunLate=true end
+   end
+  end)
+ end
+ pcall(function()
+  if tostring(RenderSettings.ambientMode)~=tostring(UnityEngine.Rendering.AmbientMode.Flat)then G.modeWas=tostring(RenderSettings.ambientMode);RenderSettings.ambientMode=UnityEngine.Rendering.AmbientMode.Flat;changed=true end
+ end)
+ if changed or G.checks==1 or not G.settled and UI.settle.done then
+  if UI.settle.done then G.settled=true end
+  G.fixed=(G.fixed or 0)+(changed and 1 or 0)
+  pcall(applyEnv,blend*blend*(3-2*blend))
+ end
+end
+function UI.applyTerrainQuality()
+ local Q=UI.texQuality;local now=Time.realtimeSinceStartup
+ if now<(Q.terrainNext or 0)or(Q.terrainChecks or 0)>=10 then return end
+ Q.terrainNext=now+3;Q.terrainChecks=(Q.terrainChecks or 0)+1
+ pcall(function()
+  local t=UnityEngine.Terrain.activeTerrain;if not t then return end
+  if not Q.baseWas then Q.baseWas=t.basemapDistance;Q.errWas=t.heightmapPixelError end
+  if t.basemapDistance<1000 then t.basemapDistance=1000 end
+  if t.heightmapPixelError>5 then t.heightmapPixelError=5 end
+  if t.detailObjectDistance<250 then t.detailObjectDistance=250 end
+ end)
+ pcall(function()local q=UnityEngine.QualitySettings;if not Q.levelWas then Q.levelWas=q.GetQualityLevel();Q.lodWas2=q.lodBias end;if q.lodBias<2 then q.lodBias=2 end end)
+end
+-- 诊断行补充（标题页第二行）：环境光基准、主光、地形贴图距离、画质档
+function UI.updateDiagLine2()
+ if not UI.diagLabel then return end
+ local G,Q=UI.envGuard,UI.texQuality
+ UI.diagLabel.text=UI.diagLabel.text..string.format('  光:%s%s%s  地形:%s/%s  档:%s lod:%s',
+  tostring(G.ambientWas),G.sunLate and'+迟到主光'or(sunLight and''or'+无主光'),G.modeWas and('+'..G.modeWas)or'',
+  tostring(Q.baseWas),tostring(Q.errWas),tostring(Q.levelWas),tostring(Q.lodWas2))
+end
+UI.v31Update=Update
+function Update()
+ UI.v31Update()
+ pcall(UI.guardEnv);pcall(UI.applyTerrainQuality)
+ if UI.state=='title'and UI.diagLabel and Time.realtimeSinceStartup>=(UI.diag2Next or 0)then
+  UI.diag2Next=Time.realtimeSinceStartup+1;UI.diagNext=0;pcall(UI.updateDiagLine);pcall(UI.updateDiagLine2)
+ end
+ if UI.state=='play'and UI.playDiag and Time.realtimeSinceStartup>=(UI.play2Next or 0)then
+  UI.play2Next=Time.realtimeSinceStartup+1
+  pcall(function()
+   local h=UnityEngine.PlayerPrefs.GetString('dr_diag_horse','-');local s=UnityEngine.PlayerPrefs.GetString('dr_diag_sheep','-')
+   local base=UI.playDiag.text;local cut=string.find(base,'  马:',1,true);if cut then base=string.sub(base,1,cut-1)end
+   UI.playDiag.text=string.gsub(base,'^v30','v31')..'  马:'..h..'  羊:'..s
+  end)
+ end
+end
